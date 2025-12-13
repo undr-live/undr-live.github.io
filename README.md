@@ -4,19 +4,21 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-12-13T02:37:02Z
-- **Source Commit**: [`e3fc28c4d40b7382140690566ce8e86441f7f8a7`](https://github.com/keunwoochoi/seoulunderground.live/commit/e3fc28c4d40b7382140690566ce8e86441f7f8a7)
+- **Build Time**: 2025-12-13T03:30:57Z
+- **Source Commit**: [`20b94b6ee73db5af624982f662498ee1b092d790`](https://github.com/keunwoochoi/seoulunderground.live/commit/20b94b6ee73db5af624982f662498ee1b092d790)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20185478994)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20186127017)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: undr.live 2 (#57)
+- **Message**: undr.live - deprecating sul (#58)
 
-* undr.live 2
+* deprecating sul
 
-* fix pytest.
+* reflect gemini comment
+
+* add llc
 
 ## Deployment
 
