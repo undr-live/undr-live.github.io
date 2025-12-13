@@ -1,7 +1,251 @@
 [
   {
-    "id": "ven_ddbb214f-6977-43af-aeea-3c731dce7d6d",
+    "id": "ven_2eca8f12-f65e-48da-8229-ce9ff2724748",
     "ig_handle": "donau115",
+    "name_irl": "Donau115",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "0179-1809168",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=11487279559572566920",
+    "booking_url": null,
+    "homepage_url": "https://donau115.mailchimpsites.com/",
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Donau115",
+          "address_text": "Donaustraße 115, 12043 Berlin, Germany",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": "A wide variety of live jazz acts in an intimate, laid-back bar serving beers & cocktails.",
+          "i18n": {
+            "name": {
+              "en": "Donau115"
+            },
+            "address_text": {
+              "en": "Donaustrasse 115, 12043 Berlin, Germany"
+            },
+            "notes": {
+              "en": "A wide variety of live jazz acts in an intimate, laid-back bar serving beers & cocktails."
+            }
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Donau115"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "A wide variety of live jazz acts in an intimate, laid-back bar serving beers & cocktails."
+      },
+      "genres": {
+        "en": [
+          "Bar",
+          "Jazz Club",
+          "Live Music Venue"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_1bde205f-ecc5-41f6-934e-2248b4770108",
+    "ig_handle": "sowiesoberlin",
+    "name_irl": "Sowieso",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "01577-2879965",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=7158187729041346912",
+    "booking_url": null,
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Sowieso",
+          "address_text": "Weisestraße 24, 12049 Berlin, Germany",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Sowieso"
+            },
+            "address_text": {
+              "en": "Weisestraße 24, 12049 Berlin, Germany"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Sowieso"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_ba28a1f3-9bcb-4988-b40a-bdaaa2b6efa6",
+    "ig_handle": "thehatbarberlin",
+    "name_irl": "The Hat Bar Berlin",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=14379533332159580361",
+    "booking_url": null,
+    "homepage_url": "https://www.thehatbar.de/",
+    "websites": [
+      "https://www.thehatbar.de/"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "The Hat Bar Berlin",
+          "address_text": "Lotte-Lenya-Bogen 550, 10623 Berlin, Germany",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": "Jazz bands perform nightly on a tiny stage at this intimate lounge with a vintage feel.",
+          "i18n": {
+            "name": {
+              "en": "The Hat Bar Berlin"
+            },
+            "address_text": {
+              "en": "Lotte-Lenya-Bogen 550, 10623 Berlin, Germany"
+            },
+            "notes": {
+              "en": "Jazz bands perform nightly on a tiny stage at this intimate lounge with a vintage feel."
+            }
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "The Hat Bar Berlin"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Jazz bands perform nightly on a tiny stage at this intimate lounge with a vintage feel."
+      },
+      "genres": {
+        "en": [
+          "Bar",
+          "Jazz Club",
+          "Live Music Venue"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_26dcf826-9724-4d7d-bb22-8d3aeba5e686",
+    "ig_handle": "zigzagjazzclub",
+    "name_irl": "Zig Zag Jazz Club",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "030-94049147",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=16259652994667978004",
+    "booking_url": null,
+    "homepage_url": "https://www.zigzag-jazzclub.berlin/menu-marquee",
+    "websites": [
+      "https://www.zigzag-jazzclub.berlin/menu-marquee"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Zig Zag Jazz Club",
+          "address_text": "Hauptstraße 89, 12159 Berlin, Germany",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": "Blues, soul & jazz performances staged in a classy, laid-back lounge serving cocktails & bar bites.",
+          "i18n": {
+            "name": {
+              "en": "Zig Zag Jazz Club"
+            },
+            "address_text": {
+              "en": "Hauptstraße 89, 12159 Berlin, Germany"
+            },
+            "notes": {
+              "en": "Blues, soul & jazz performances staged in a classy, laid-back lounge serving cocktails & bar bites."
+            }
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Zig Zag Jazz Club"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Blues, soul & jazz performances staged in a classy, laid-back lounge serving cocktails & bar bites."
+      },
+      "genres": {
+        "en": [
+          "Jazz Club"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_dd504682-96ec-45d0-aa19-49cc689349f8",
+    "ig_handle": "jazzclubatrane",
     "name_irl": null,
     "location_text": null,
     "location_lat": null,
@@ -10,7 +254,7 @@
     "email": null,
     "google_map_url": null,
     "booking_url": null,
-    "homepage_url": "https://donau115.mailchimpsites.com/",
+    "homepage_url": "http://www.a-trane.de/",
     "websites": [],
     "subway_nearby": null,
     "food_policy": null,
@@ -20,7 +264,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_35d234dc-ab60-46ac-a36a-1bfeb4c51855",
+    "id": "ven_c7c62f53-4e47-4364-b6d6-a852b9c44906",
     "ig_handle": "kunstfabrikschlot",
     "name_irl": null,
     "location_text": null,
@@ -31,66 +275,6 @@
     "google_map_url": null,
     "booking_url": null,
     "homepage_url": "http://www.kunstfabrik-schlot.de",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_2b7f5ce7-430c-40c7-8de1-b6dac2f4e1be",
-    "ig_handle": "sowiesoberlin",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_5dbf4dec-4c30-400e-b97d-1920854a7ea6",
-    "ig_handle": "thehatbarberlin",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://www.thehatbar.de/",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_6c4f182f-42e1-45f6-ba06-7c1ecb6455f8",
-    "ig_handle": "zigzagjazzclub",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://www.zigzag-jazzclub.berlin/menu-marquee",
     "websites": [],
     "subway_nearby": null,
     "food_policy": null,

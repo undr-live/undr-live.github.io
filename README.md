@@ -4,19 +4,19 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-12-13T00:07:17Z
-- **Source Commit**: [`516235f4a98e6ee3700761b4ffbdd072a6edeb47`](https://github.com/keunwoochoi/seoulunderground.live/commit/516235f4a98e6ee3700761b4ffbdd072a6edeb47)
+- **Build Time**: 2025-12-13T02:37:02Z
+- **Source Commit**: [`e3fc28c4d40b7382140690566ce8e86441f7f8a7`](https://github.com/keunwoochoi/seoulunderground.live/commit/e3fc28c4d40b7382140690566ce8e86441f7f8a7)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20183410688)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20185478994)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: update to target undr.live (#56)
+- **Message**: undr.live 2 (#57)
 
-* update to undr.live
+* undr.live 2
 
-* reflect gemini comment
+* fix pytest.
 
 ## Deployment
 
