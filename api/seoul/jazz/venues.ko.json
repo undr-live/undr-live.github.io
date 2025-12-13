@@ -2,7 +2,7 @@
   {
     "id": "ven_5bb65766-9242-4a8a-bbdf-c7cdd5dd73f0",
     "ig_handle": "africa_since1988",
-    "name_irl": "아프리카 since 1988",
+    "name_irl": "Africa Since 1988",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -20,7 +20,7 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Africa Since 1988",
+          "name": "africa_since1988",
           "address_text": null,
           "address_components": null,
           "location_lat": null,
@@ -30,8 +30,7 @@
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Africa Since 1988",
-              "ko": "아프리카 since 1988"
+              "en": "Africa Since 1988"
             },
             "address_text": null,
             "notes": null
@@ -41,19 +40,11 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Africa Since 1988",
-        "ko": "아프리카 since 1988"
+        "en": "Africa Since 1988"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Jazz"
-        ],
-        "ko": [
-          "재즈"
-        ]
-      },
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -1359,64 +1350,6 @@
     }
   },
   {
-    "id": "ven_ac552860-9be6-4e45-9cff-3de51c49d069",
-    "ig_handle": "gv_scene",
-    "name_irl": "지에이뷰씬",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": "0507-1339-4171",
-    "email": null,
-    "google_map_url": "https://maps.app.goo.gl/W5d5M76FvQ2s6xV1A",
-    "booking_url": null,
-    "homepage_url": "https://m.place.naver.com/restaurant/1473208599/home?entry=plt",
-    "websites": [
-      "https://gvscene.co.kr/"
-    ],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "GV Scene",
-          "address_text": "서울 성동구 서울숲2길 32-14 3층",
-          "address_components": null,
-          "location_lat": 37.5456773286722,
-          "location_lon": 127.042914714267,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "GV Scene",
-              "ko": "지에이뷰씬"
-            },
-            "address_text": {
-              "en": "3rd Floor, 32-14 Seoulsup 2-gil, Seongdong-gu, Seoul, South Korea",
-              "ko": "서울 성동구 서울숲2길 32-14 3층"
-            },
-            "notes": null
-          }
-        }
-      ]
-    },
-    "i18n_data": {
-      "name": {
-        "en": "GV Scene",
-        "ko": "지에이뷰씬"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": null,
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
     "id": "ven_6f67bf66-952d-480b-92cd-971d60e5c086",
     "ig_handle": "yoori.kim_mullaejazzin",
     "name_irl": "갤러리 문래",
@@ -1617,7 +1550,7 @@
   {
     "id": "ven_1d487e38-3841-4779-ae41-41b7da354ca2",
     "ig_handle": "gwangalli_namme",
-    "name_irl": "광안리 남매",
+    "name_irl": "Gwangalli Namme",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -1635,22 +1568,20 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Gwangalli Namme",
-          "address_text": "부산 수영구 남천동로108번길 54 2층",
+          "name": "광안리 남매",
+          "address_text": "South Korea, Busan, Suyeong-gu, Namcheondong-ro 108beon-gil, 54 2 층",
           "address_components": null,
-          "location_lat": 35.1467159304824,
-          "location_lon": 129.114074496346,
+          "location_lat": 35.14676,
+          "location_lon": 129.114101,
           "subway_nearby": null,
-          "booking_link": null,
+          "booking_link": "http://naver.me/FFvSb6M6",
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Gwangalli Namme",
-              "ko": "광안리 남매"
+              "en": "Gwangalli Namme"
             },
             "address_text": {
-              "en": "2nd Floor, 54, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea",
-              "ko": "부산 수영구 남천동로108번길 54 2층"
+              "en": "54 2nd Floor, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea"
             },
             "notes": null
           }
@@ -1659,17 +1590,13 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Gwangalli Namme",
-        "ko": "광안리 남매"
+        "en": "Gwangalli Namme"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "en": [
           "Bar"
-        ],
-        "ko": [
-          "바"
         ]
       },
       "subway_nearby": null,
@@ -2373,16 +2300,17 @@
   {
     "id": "ven_2873d9ab-4876-4a41-acc3-47c35c23bcad",
     "ig_handle": "jinjujazz",
-    "name_irl": "진주재즈",
+    "name_irl": "Jinju Jazz",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
     "phone": null,
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=7476314591417523001",
     "booking_url": null,
     "homepage_url": "https://linktr.ee/jinjujazz2025",
     "websites": [
+      "https://www.instagram.com/jinjujazz",
       "https://linktr.ee/jinjujazz2025"
     ],
     "subway_nearby": null,
@@ -2393,8 +2321,8 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Jinjujazz",
-          "address_text": null,
+          "name": "Jinju Jazz",
+          "address_text": "215 Gangnam-ro, Jinju, Gyeongsangnam-do, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
@@ -2403,10 +2331,11 @@
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Jinjujazz",
-              "ko": "진주재즈"
+              "en": "Jinju Jazz"
             },
-            "address_text": null,
+            "address_text": {
+              "en": "215 Gangnam-ro, Jinju, Gyeongsangnam-do, South Korea"
+            },
             "notes": null
           }
         }
@@ -2414,8 +2343,7 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Jinjujazz",
-        "ko": "진주재즈"
+        "en": "Jinju Jazz"
       },
       "address_text": null,
       "notes": null,
@@ -3630,7 +3558,7 @@
   {
     "id": "ven_b4187fa2-d079-42c6-a060-58a5aa8d78a8",
     "ig_handle": "subriot_hbc",
-    "name_irl": "서브라이엇 해방촌",
+    "name_irl": "Subriot HBC",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -3648,22 +3576,20 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Subriot Haebangchon",
-          "address_text": "서울 용산구 신흥로7길 1 지하 1층",
+          "name": "서브라이엇 해방촌",
+          "address_text": "South Korea, Seoul, Yongsan District, Sinheung-ro 7-gil, 1 지하 1층",
           "address_components": null,
-          "location_lat": 37.541922,
-          "location_lon": 126.987171,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": "6호선 녹사평역 2번 출구에서 712m",
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Subriot Haebangchon",
-              "ko": "서브라이엇 해방촌"
+              "en": "Subriot HBC"
             },
             "address_text": {
-              "en": "B1, 1, Sinheung-ro 7-gil, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 신흥로7길 1 지하 1층"
+              "en": "1, Sinheung-ro 7-gil, Yongsan-gu, Seoul, South Korea B1F"
             },
             "notes": null
           }
@@ -3672,22 +3598,13 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Subriot Haebangchon",
-        "ko": "서브라이엇 해방촌"
+        "en": "Subriot HBC"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Bar"
-        ],
-        "ko": [
-          "바"
-        ]
-      },
+      "genres": null,
       "subway_nearby": {
-        "en": "712m from Noksapyeong Station Exit 2 (Line 6)",
-        "ko": "6호선 녹사평역 2번 출구에서 712m"
+        "en": "712m from Noksapyeong Station (Line 6), Exit 2"
       },
       "food_policy": null,
       "age_limit": null
@@ -4206,6 +4123,60 @@
         "en": "244m from Namyeong Station Exit 1 (Line 1)",
         "ko": "1호선 남영역 1번 출구에서 244m"
       },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_ac552860-9be6-4e45-9cff-3de51c49d069",
+    "ig_handle": "gv_scene",
+    "name_irl": "gv_scene",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "0507-1339-4171",
+    "email": null,
+    "google_map_url": "https://maps.app.goo.gl/W5d5M76FvQ2s6xV1A",
+    "booking_url": null,
+    "homepage_url": "https://m.place.naver.com/restaurant/1473208599/home?entry=plt",
+    "websites": [
+      "https://www.instagram.com/gv_scene",
+      "https://m.place.naver.com/restaurant/1473208599/home?entry=plt"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "gv_scene",
+          "address_text": null,
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "gv_scene"
+            },
+            "address_text": null,
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "gv_scene"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }

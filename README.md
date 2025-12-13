@@ -4,21 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-12-13T03:30:57Z
+- **Build Time**: 2025-12-13T06:40:34Z
 - **Source Commit**: [`20b94b6ee73db5af624982f662498ee1b092d790`](https://github.com/keunwoochoi/seoulunderground.live/commit/20b94b6ee73db5af624982f662498ee1b092d790)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20186127017)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20188296290)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: undr.live - deprecating sul (#58)
-
-* deprecating sul
-
-* reflect gemini comment
-
-* add llc
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 

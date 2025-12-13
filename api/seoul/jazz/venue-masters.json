@@ -150,9 +150,9 @@
     }
   },
   {
-    "raw": "To remove special characters from a string while keeping letters, numbers, and specific punctuation, the most robust and efficient way in Python is to use regular expressions.\n\nHere's a Python function that accomplishes this:\n\n```python\nimport re\n\ndef remove_special_characters(text: str) -> str:\n    \"\"\"\n    Removes special characters from a string, keeping only letters (a-z, A-Z),\n    numbers (0-9), and basic punctuation (space, period, comma, question mark,\n    exclamation mark, hyphen, apostrophe).\n\n    Args:\n        text: The input string.\n\n    Returns:\n        A new string with only the allowed characters.\n    \"\"\"\n    # Define the set of allowed characters using a regular expression.\n    # - a-zA-Z: English alphabet (lowercase and uppercase)\n    # - 0-9: Digits\n    # - ' ': Space\n    # - .: Period\n    # - ,: Comma\n    # - ?: Question mark\n    # - !: Exclamation mark\n    # - -: Hyphen (placed at the end of the character set to avoid being interpreted as a range)\n    # - ': Apostrophe\n    # The ^ at the beginning of the character set [] negates it,\n    # meaning \"match any character NOT in this set\".\n    pattern = re.compile(r\"[^a-zA-Z0-9 .,?!'-]\")\n\n    # Replace all characters that are NOT in the allowed set with an empty string.\n    cleaned_text = pattern.sub(\"\", text)\n\n    return cleaned_text\n\n# --- Test Cases ---\nprint(f\"Original: 'Hello, World! This is a test. 123.'\")\nprint(f\"Cleaned:  '{remove_special_characters('Hello, World! This is a test. 123.')}'\\n\")\n# Expected: \"Hello, World! This is a test. 123.\"\n\nprint(f\"Original: 'Check out my website: example.com/page?id=42&name=test'\")\nprint(f\"Cleaned:  '{remove_special_characters('Check out my website: example.com/page?id=42&name=test')}'\\n\")\n# Expected: \"Check out my website example.com/pageid=42name=test\" (URL special chars removed)\n\nprint(f\"Original: 'Emojis 😊 and symbols ¥€¢ are not allowed!'\")\nprint(f\"Cleaned:  '{remove_special_characters('Emojis 😊 and symbols ¥€¢ are not allowed!')}'\\n\")\n# Expected: \"Emojis and symbols are not allowed!\"\n\nprint(f\"Original: \\\"What about a hyphen-ated word and an apostrophe-s like it's?\\\"\")\nprint(f\"Cleaned:  \\\"{remove_special_characters(\"What about a hyphen-ated word and an apostrophe-s like it's?\")}\\\"\\n\")\n# Expected: \"What about a hyphen-ated word and an apostrophe-s like it's?\"\n\nprint(f\"Original: 'No special chars here.'\")\nprint(f\"Cleaned:  '{remove_special_characters('No special chars here.')}'\\n\")\n# Expected: \"No special chars here.\"\n\nprint(f\"Original: '!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~'\")\nprint(f\"Cleaned:  '{remove_special_characters('!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~')}'\\n\")\n# Expected: \"!,'-?.\" (keeping !, ', -, ?, .)\n\nprint(f\"Original: ''\")\nprint(f\"Cleaned:  '{remove_special_characters('')}'\\n\")\n# Expected: \"\"\n\nprint(f\"Original: '  Spaces and numbers 12345 !?.-,  '\")\nprint(f\"Cleaned:  '{remove_special_characters('  Spaces and numbers 12345 !?.-,  ')}'\\n\")\n# Expected: \"  Spaces and numbers 12345 !?.-,  \"\n```\n\n### Explanation:\n\n1.  **`import re`**: Imports the regular expression module in Python.\n2.  **`r\"[^a-zA-Z0-9 .,?!'-]\"`**: This is the core of the solution, a regular expression pattern:\n    *   `[` and `]` define a character set.\n    *   `^` immediately after `[` negates the character set. This means \"match any character *not* in this set\".\n    *   `a-zA-Z`: Matches any uppercase or lowercase English letter.\n    *   `0-9`: Matches any digit from 0 to 9.\n    *   ` `: Matches a literal space character.\n    *   `.`: Matches a literal period. (Inside a `[]` character set, `.` loses its special meaning of \"any character\" and matches itself.)\n    *   `,`: Matches a literal comma.\n    *   `?`: Matches a literal question mark. (Inside `[]`, `?` loses its special meaning of \"zero or one\" quantifier and matches itself.)\n    *   `!`: Matches a literal exclamation mark.\n    *   `-`: Matches a literal hyphen. (It's placed at the *end* of the character set to avoid being interpreted as a range, e.g., `a-z`. If it were `[a-z-]`, it would also work, but `[-a-z]` or `[a-z-]` are the safest ways to include a literal hyphen.)\n    *   `'`: Matches a literal apostrophe.\n3.  **`pattern = re.compile(...)`**: Compiling the regex pattern once is generally more efficient if you plan to use it multiple times, though for a single use within a function, `re.sub` directly would also work.\n4.  **`pattern.sub(\"\", text)`**: This method replaces all occurrences of the pattern in the `text` string with an empty string (`\"\"`). Since our pattern matches anything *not* in our allowed list, this effectively removes all special characters.",
+    "raw": "Detecting AI-generated content is becoming increasingly challenging as models become more sophisticated. However, there are still common \"tells\" or patterns you can look for. It's rarely a single factor, but rather a combination of these elements that indicates AI authorship.\n\nHere's a comprehensive guide on what to look for:\n\n---\n\n## What to Look For: Red Flags for AI-Generated Content\n\n### I. Style & Tone\n\n1.  **Generic, Polished, but Bland Language:**\n    *   **Overly Smooth:** The text flows perfectly, often without a single grammatical error or awkward phrasing. It feels *too* clean.\n    *   **Lack of Unique Voice/Personality:** Absence of quirks, slang (unless specifically prompted), humor, sarcasm, or strong personal opinions. It often sounds like it could have been written by anyone.\n    *   **Corporate Jargon/Buzzwords:** Frequent use of terms like \"synergy,\" \"optimality,\" \"robust,\" \"comprehensive,\" \"paradigm,\" \"leverage,\" \"holistic,\" \"scalable,\" \"innovative,\" \"disruptive.\"\n    *   **Objective/Neutral Stance:** Even when discussing a controversial topic, the tone remains largely dispassionate, presenting both sides without genuine analysis or a clear stance.\n\n2.  **Repetitive Phrasing & Ideas:**\n    *   **Circular Arguments:** The text may restate the same point using slightly different words, especially in longer pieces, without adding new substance.\n    *   **Redundant Transitions:** Over-reliance on standard transition words like \"Furthermore,\" \"Moreover,\" \"In addition,\" \"However,\" \"Consequently,\" \"Therefore,\" often in a predictable pattern.\n    *   **Formulaic Structure:** Predictable intro-body-conclusion structure, often with bullet points or numbered lists to break down information, even when a more fluid structure might be natural for human writing.\n\n3.  **Lack of Personal Experience or Anecdote:**\n    *   AI doesn't have lived experiences. While it can generate plausible-sounding anecdotes, they often feel generic, cliché, or lack the specific, messy details that characterize genuine human stories.\n    *   Absence of \"I remember when...\", \"In my experience...\", or \"My opinion is...\" (unless explicitly told to adopt a persona, and even then, it can feel superficial).\n\n### II. Content & Information\n\n1.  **Vague Generalities & Lack of Specificity:**\n    *   **High-Level Summaries:** AI excels at summarizing existing information but can struggle with deep dives into niche or specialized topics without very specific prompting.\n    *   **Avoidance of Concrete Examples:** While it can list examples, they might feel generic rather than drawn from a specific, real-world context.\n    *   **Superficial Analysis:** It can describe and explain, but often lacks the critical thinking, nuanced interpretation, or original insight that a human expert would bring.\n\n2.  **Factual Errors or \"Hallucinations\":**\n    *   **Confabulation:** AI models can confidently \"make up\" facts, dates, names, sources, or quotes that sound plausible but are entirely false. This is a significant red flag, especially for newer or less reliable models.\n    *   **Outdated Information:** Depending on the training data cutoff, AI might not have access to the most current events, research, or statistics.\n\n3.  **Predictable Information Flow:**\n    *   **Common Knowledge Only:** The content tends to stick to widely accepted information rather than revealing obscure facts, innovative solutions, or challenging conventional wisdom.\n    *   **\"Textbook\" Explanations:** Explanations often resemble an encyclopedia entry or textbook summary, clean but lacking unique perspective.\n\n### III. Language & Mechanics\n\n1.  **Impeccable (Sometimes *Too* Impeccable) Grammar and Spelling:**\n    *   While humans make typos or occasional grammatical slips, AI text is almost always flawless in basic mechanics. This can paradoxically be a sign, especially in contexts where minor human error is common.\n    *   However, be aware that humans often edit AI output, correcting any minor issues.\n\n2.  **Advanced Vocabulary Used Without Nuance:**\n    *   AI has a vast vocabulary, but sometimes uses sophisticated words in slightly awkward or forced ways, as if it's prioritizing synonym variety over precise meaning.\n    *   The vocabulary might be consistently high-level, even for topics or audiences where simpler language would be more natural.\n\n3.  **Standard Sentence Structure:**\n    *   While capable of varied sentence structures, the overall rhythm can sometimes feel uniform, lacking the occasional intentional short, punchy sentence or complex, winding sentence that a human writer might use for stylistic effect.\n\n### IV. External & Contextual Clues\n\n1.  **Speed of Production:**\n    *   If a lengthy report, detailed article, or complex code was generated in minutes, it's a strong indicator of AI involvement.\n\n2.  **Source & Author:**\n    *   **Unknown or New Author:** If the content comes from a new blog, social media account, or author with no prior work, AI generation is a possibility.\n    *   **Quantity Over Quality:** Websites or authors that churn out a massive volume of content quickly might be using AI.\n\n3.  **Consistency Across Platforms:**\n    *   If an individual's online persona feels very different from their written output (e.g., someone known for informal language suddenly produces perfectly formal, generic articles), it could be a clue.\n\n---\n\n### Important Considerations:\n\n*   **No Single Smoking Gun:** AI detection is rarely about one factor. It's about a confluence of these indicators.\n*   **AI is Evolving:** Models are constantly improving at mimicking human style and nuance, making detection harder.\n*   **Human-AI Collaboration:** Many pieces of content are now a mix of human writing and AI assistance (e.g., AI generating a draft, human editing it, or vice versa). This blurs the lines significantly.\n*   **False Positives/Negatives:** Some human writing *is* generic, bland, or error-free. Conversely, some AI can be prompted to produce very specific, opinionated, or even \"flawed\" content.\n*   **AI Detection Tools Are Unreliable:** Many AI detection software tools are inaccurate and frequently produce false positives, especially with edited AI content or well-written human content. Rely more on critical human analysis.\n\nBy keeping these points in mind, you'll be better equipped to critically evaluate content and make an informed judgment about its likely origin.",
     "ig_handle": "africa_since1988",
-    "last_analyzed_at": "2025-12-06T13:17:51.791238+09:00",
+    "last_analyzed_at": "2025-12-13T15:29:55.521259+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -163,46 +163,6 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/africa_since1988/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/africa_since1988/profile/2025-11-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/africa_since1988/profile/2025-11-12/profile.json",
-      "maps:https://maps.google.com/?cid=17865776665496383705",
-      "maps:https://maps.google.com/?cid=13913231649844752229",
-      "maps:https://maps.google.com/?cid=6476340714215295316",
-      "maps:https://maps.google.com/?cid=14327142029710517847",
-      "maps:https://maps.google.com/?cid=8575343544192761704",
-      "maps:https://maps.google.com/?cid=11109029862465674157",
-      "maps:https://maps.google.com/?cid=7253219964030477424",
-      "maps:https://maps.google.com/?cid=13614488528242831211",
-      "maps:https://maps.google.com/?cid=16794031951420844754",
-      "maps:https://maps.google.com/?cid=11831561207970175175",
-      "maps:https://maps.google.com/?cid=6465364634152936178",
-      "maps:https://maps.google.com/?cid=7414016292330014089",
-      "maps:https://maps.google.com/?cid=3664149632819378986",
-      "maps:https://maps.google.com/?cid=13465618224622584051",
-      "maps:https://maps.google.com/?cid=16057306048327820534",
-      "maps:https://maps.google.com/?cid=10111399887885419610",
-      "maps:https://maps.google.com/?cid=6789200060716786287",
-      "maps:https://maps.google.com/?cid=6679118475397867581",
-      "maps:https://maps.google.com/?cid=4276751823863535449",
-      "maps:https://maps.google.com/?cid=16735035657973870801",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=3512824848346026630",
-      "maps:https://maps.google.com/?cid=12958000001331928624",
-      "maps:https://maps.google.com/?cid=2095809664248845139",
-      "maps:https://maps.google.com/?cid=12950663042103342245",
-      "maps:https://maps.google.com/?cid=11008665381407066468",
-      "maps:https://maps.google.com/?cid=11842852244500454903",
-      "maps:https://maps.google.com/?cid=5936925627923403423",
-      "maps:https://maps.google.com/?cid=13163330699457356298",
-      "maps:https://maps.google.com/?cid=12961168892280702927",
-      "maps:https://maps.google.com/?cid=6393745887827067989",
-      "maps:https://maps.google.com/?cid=714310057948599705",
-      "maps:https://maps.google.com/?cid=15245543658347824413",
-      "maps:https://maps.google.com/?cid=9176070558265640633",
-      "maps:https://maps.google.com/?cid=4612400484517273642",
-      "maps:https://maps.google.com/?cid=15346599358860238442",
-      "maps:https://maps.google.com/?cid=11881259354384405760",
-      "maps:https://maps.google.com/?cid=4025404471047726888",
-      "maps:https://maps.google.com/?cid=10868077700845091316",
-      "maps:https://maps.google.com/?cid=16693826049875737167",
       "gemini:enrich"
     ],
     "links": {
@@ -218,7 +178,7 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "Africa Since 1988",
+        "name": "africa_since1988",
         "address_text": null,
         "address_components": null,
         "location_lat": null,
@@ -228,8 +188,7 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Africa Since 1988",
-            "ko": "아프리카 since 1988"
+            "en": "Africa Since 1988"
           },
           "address_text": null,
           "notes": null
@@ -238,19 +197,11 @@
     ],
     "i18n": {
       "name": {
-        "en": "Africa Since 1988",
-        "ko": "아프리카 since 1988"
+        "en": "Africa Since 1988"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Jazz"
-        ],
-        "ko": [
-          "재즈"
-        ]
-      },
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -2162,9 +2113,9 @@
     }
   },
   {
-    "raw": "This \"special problem\" is designed to be challenging, combining number theory (specifically prime numbers) with combinatorics, and featuring a historical mathematical twist.\n\n---\n\n### **Contest Problem: Sophie's Counting Challenge**\n\n**Problem ID:** SOPHIE-001\n**Topic:** Combinatorics & Number Theory\n**Difficulty:** Medium-Hard\n**Time Limit:** 30 minutes\n**Points:** 15\n\n---\n\n#### **Problem Statement**\n\nIn honor of the great French mathematician Sophie Germain, we introduce a special classification for numbers.\n\nA positive integer $P$ is called a **Sophie number** if $P$ is a prime number such that $2P+1$ is also a prime number. (These primes $P$ are famously known as Sophie Germain primes).\n\nConsider a set $S$ of $n$ distinct non-zero digits. We wish to form a $k$-digit number using $k$ distinct digits chosen from $S$. Let $W(n, k)$ denote the total number of such $k$-digit numbers that can be formed.\n\nA pair $(n, k)$ is considered **Sophie-valid** if $W(n, k)$ is a Sophie number.\n\n**Your task:** Find all **Sophie-valid** pairs $(n, k)$ such that $n \\le 100$, where $n$ is the number of available digits and $k$ is the number of digits used.\n\n---\n\n#### **Solution**\n\n**1. Understanding $W(n, k)$**\n\nThe problem asks us to form a $k$-digit number using $k$ distinct digits chosen from a set $S$ of $n$ distinct non-zero digits. This is a permutation problem.\nThe number of ways to choose $k$ distinct digits from $n$ available digits and arrange them in $k$ positions is given by the permutation formula:\n$W(n, k) = P(n, k) = \\frac{n!}{(n-k)!}$\n\nFor $W(n, k)$ to be a valid count of $k$-digit numbers, we must have $k \\ge 1$. Also, since we are choosing $k$ distinct digits from $n$ available digits, we must have $k \\le n$. If $k > n$, $W(n, k) = 0$, which is not a prime number (and thus not a Sophie number).\n\n**2. Identifying Sophie Numbers**\n\nWe need to find values $P$ such that $P$ is prime and $2P+1$ is also prime. Let's list the first few Sophie numbers:\n*   If $P=2$, $2P+1 = 2(2)+1 = 5$. Since 2 and 5 are both prime, 2 is a Sophie number.\n*   If $P=3$, $2P+1 = 2(3)+1 = 7$. Since 3 and 7 are both prime, 3 is a Sophie number.\n*   If $P=5$, $2P+1 = 2(5)+1 = 11$. Since 5 and 11 are both prime, 5 is a Sophie number.\n*   If $P=7$, $2P+1 = 2(7)+1 = 15$. 15 is not prime. So 7 is not a Sophie number.\n*   If $P=11$, $2P+1 = 2(11)+1 = 23$. Since 11 and 23 are both prime, 11 is a Sophie number.\n*   If $P=13$, $2P+1 = 2(13)+1 = 27$. 27 is not prime.\n*   If $P=17$, $2P+1 = 2(17)+1 = 35$. 35 is not prime.\n*   If $P=19$, $2P+1 = 2(19)+1 = 39$. 39 is not prime.\n*   If $P=23$, $2P+1 = 2(23)+1 = 47$. Since 23 and 47 are both prime, 23 is a Sophie number.\n*   If $P=29$, $2P+1 = 2(29)+1 = 59$. Since 29 and 59 are both prime, 29 is a Sophie number.\n*   If $P=31$, $2P+1 = 2(31)+1 = 63$. 63 is not prime.\n*   If $P=37$, $2P+1 = 2(37)+1 = 75$. 75 is not prime.\n*   If $P=41$, $2P+1 = 2(41)+1 = 83$. Since 41 and 83 are both prime, 41 is a Sophie number.\n*   If $P=43$, $2P+1 = 2(43)+1 = 87$. 87 is not prime.\n*   If $P=47$, $2P+1 = 2(47)+1 = 95$. 95 is not prime.\n*   If $P=53$, $2P+1 = 2(53)+1 = 107$. Since 53 and 107 are both prime, 53 is a Sophie number.\n*   If $P=59$, $2P+1 = 2(59)+1 = 119$. 119 is not prime (7*17).\n*   If $P=61$, $2P+1 = 2(61)+1 = 123$. 123 is not prime (3*41).\n*   If $P=67$, $2P+1 = 2(67)+1 = 135$. 135 is not prime.\n*   If $P=71$, $2P+1 = 2(71)+1 = 143$. 143 is not prime (11*13).\n*   If $P=73$, $2P+1 = 2(73)+1 = 147$. 147 is not prime.\n*   If $P=79$, $2P+1 = 2(79)+1 = 159. 159 is not prime.\n*   If $P=83$, $2P+1 = 2(83)+1 = 167$. Since 83 and 167 are both prime, 83 is a Sophie number.\n*   If $P=89$, $2P+1 = 2(89)+1 = 179$. Since 89 and 179 are both prime, 89 is a Sophie number.\n*   If $P=97$, $2P+1 = 2(97)+1 = 195$. 195 is not prime.\n\nThe Sophie numbers $P \\le 100$ are: **2, 3, 5, 11, 23, 29, 41, 53, 83, 89**.\n\n**3. Analyzing $W(n, k) = P(n, k)$ for Sophie-valid pairs $(n, k)$**\n\nWe need to find $(n, k)$ such that $n \\le 100$ and $P(n, k)$ is one of the Sophie numbers listed above.\n\n**Case 1: $k = 1$**\n$P(n, 1) = n$.\nFor $(n, 1)$ to be Sophie-valid, $n$ must be a Sophie number.\nSince $n \\le 100$, the possible values for $n$ are the Sophie numbers less than or equal to 100.\nThese are: 2, 3, 5, 11, 23, 29, 41, 53, 83, 89.\nSo, the Sophie-valid pairs for $k=1$ are:\n$(2, 1), (3, 1), (5, 1), (11, 1), (23, 1), (29, 1), (41, 1), (53, 1), (83, 1), (89, 1)$.\n\n**Case 2: $k = 2$**\n$P(n, 2) = n(n-1)$.\nFor $P(n, 2)$ to be a Sophie number (which must be prime), $n(n-1)$ must be prime.\nA product of two integers $A \\cdot B$ can only be prime if one of the integers is 1 and the other is the prime itself.\nSince $n \\ge k = 2$, we know $n \\ge 2$.\nIf $n=1$, $P(1,2)$ is not defined in this context as $k \\le n$.\nIf $n-1 = 1$, then $n = 2$.\nIn this scenario, $P(2, 2) = 2(2-1) = 2 \\cdot 1 = 2$.\nIs 2 a Sophie number? Yes, it is. (2 is prime, and $2(2)+1 = 5$ is prime).\nThus, $(2, 2)$ is a Sophie-valid pair.\nIf $n > 2$, then $n \\ge 3$ and $n-1 \\ge 2$. In this case, $n(n-1)$ is a product of two integers, both greater than 1, so $n(n-1)$ must be composite. Thus, no other Sophie numbers can be formed.\n\n**Case 3: $k \\ge 3$**\n$P(n, k) = n(n-1)(n-2)\\dots(n-k+1)$.\nFor $k \\ge 3$, since $n \\ge k$, we have $n \\ge 3$.\nThis means $n \\ge 3$, $n-1 \\ge 2$, $n-2 \\ge 1$.\n$P(n, k)$ is a product of at least three integers: $n$, $n-1$, and $n-2$.\nSince $n \\ge 3$, $n-1 \\ge 2$, and $n-2 \\ge 1$, these factors are all greater than or equal to 1.\nSpecifically, $n$ and $n-1$ are both greater than 1.\nTherefore, $P(n, k)$ will always be a composite number when $k \\ge 3$ and $n \\ge k$.\nFor example, $P(3,3) = 3 \\times 2 \\times 1 = 6$, which is not prime.\nThus, no Sophie-valid pairs exist for $k \\ge 3$.\n\n**4. Conclusion**\n\nCombining all the cases, the Sophie-valid pairs $(n, k)$ for $n \\le 100$ are:\n\n1.  From $k=1$:\n    $(2, 1), (3, 1), (5, 1), (11, 1), (23, 1), (29, 1), (41, 1), (53, 1), (83, 1), (89, 1)$.\n2.  From $k=2$:\n    $(2, 2)$.\n\nThere are no Sophie-valid pairs for $k \\ge 3$.\n\nThe complete list of Sophie-valid pairs $(n, k)$ is:\n$\\{(2, 1), (2, 2), (3, 1), (5, 1), (11, 1), (23, 1), (29, 1), (41, 1), (53, 1), (83, 1), (89, 1)\\}$.\n\n---\n\n#### **Final Answer**\n\nThe Sophie-valid pairs $(n, k)$ for $n \\le 100$ are:\n$(2, 1), (2, 2), (3, 1), (5, 1), (11, 1), (23, 1), (29, 1), (41, 1), (53, 1), (83, 1), (89, 1)$.",
+    "raw": "The problem asks us to calculate a \"special length\" for a given string. The rule is:\n\n*   **Special characters** count as 2 units.\n*   **Regular characters** (alphanumeric and whitespace) count as 1 unit.\n\nWe need to iterate through the string, character by character, and apply this rule.\n\n**Understanding \"Special Character\"**\n\nIn Python, we can easily identify alphanumeric characters using `char.isalnum()` and whitespace characters using `char.isspace()`. Any character that is *neither* alphanumeric *nor* whitespace will be considered a \"special character\" according to the problem's definition.\n\n**Approach**\n\n1.  Initialize a counter, `effective_length`, to 0.\n2.  Loop through each `char` in the input string.\n3.  Inside the loop:\n    *   If `char.isalnum()` is `True` OR `char.isspace()` is `True`:\n        *   Add 1 to `effective_length`.\n    *   Else (the character is special):\n        *   Add 2 to `effective_length`.\n4.  After the loop, return `effective_length`.\n\n**Python Implementation**\n\n```python\ndef calculate_special_length(s: str) -> int:\n    \"\"\"\n    Calculates the 'special length' of a string where special characters\n    count as 2 units and regular characters (alphanumeric, whitespace)\n    count as 1 unit.\n\n    Args:\n        s: The input string.\n\n    Returns:\n        The calculated special length as an integer.\n    \"\"\"\n    effective_length = 0\n    for char in s:\n        # Check if the character is alphanumeric or whitespace\n        if char.isalnum() or char.isspace():\n            effective_length += 1\n        else:\n            # If not alphanumeric and not whitespace, it's a special character\n            effective_length += 2\n    return effective_length\n\n# --- Test Cases ---\nprint(f\"'hello' -> {calculate_special_length('hello')}\")         # Expected: 5 (1+1+1+1+1)\nprint(f\"'hello!' -> {calculate_special_length('hello!')}\")       # Expected: 7 (1+1+1+1+1+2)\nprint(f\"'hello world' -> {calculate_special_length('hello world')}\") # Expected: 11 (1*10 for letters + 1*1 for space)\nprint(f\"'abc-123' -> {calculate_special_length('abc-123')}\")     # Expected: 8 (1*3 + 2*1 + 1*3)\nprint(f\"'@#$' -> {calculate_special_length('@#$')}\")             # Expected: 6 (2+2+2)\nprint(f\"'' (empty) -> {calculate_special_length('')}\")          # Expected: 0\nprint(f\"' ' (space) -> {calculate_special_length(' ')}\")        # Expected: 1\nprint(f\"'\\t' (tab) -> {calculate_special_length('\\t')}\")        # Expected: 1\nprint(f\"'Python rocks!!!' -> {calculate_special_length('Python rocks!!!')}\") # Expected: 19 (P(1)y(1)t(1)h(1)o(1)n(1) (1)r(1)o(1)c(1)k(1)s(1)!(2)!(2)!(2))\n```\n\n**More Concise Pythonic Version (using a generator expression with `sum`)**\n\n```python\ndef calculate_special_length_v2(s: str) -> int:\n    \"\"\"\n    Calculates the 'special length' of a string using a concise sum approach.\n    \"\"\"\n    return sum(1 if char.isalnum() or char.isspace() else 2 for char in s)\n\n# --- Test Cases for v2 ---\nprint(\"\\n--- Concise Version ---\")\nprint(f\"'hello' -> {calculate_special_length_v2('hello')}\")\nprint(f\"'hello!' -> {calculate_special_length_v2('hello!')}\")\nprint(f\"'Python rocks!!!' -> {calculate_special_length_v2('Python rocks!!!')}\")\n```",
     "ig_handle": "gv_scene",
-    "last_analyzed_at": "2025-12-06T13:18:49.338561+09:00",
+    "last_analyzed_at": "2025-12-13T15:31:01.032617+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -2175,49 +2126,87 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gv_scene/profile/2025-11-19/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gv_scene/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gv_scene/profile/2025-11-15/profile.json",
+      "maps:https://maps.google.com/?cid=9084302100696658587",
+      "maps:https://maps.google.com/?cid=9622764915020956651",
+      "maps:https://maps.google.com/?cid=13656878272694669012",
+      "maps:https://maps.google.com/?cid=550234504920290008",
+      "maps:https://maps.google.com/?cid=6699200636580889253",
+      "maps:https://maps.google.com/?cid=14824929312700491162",
+      "maps:https://maps.google.com/?cid=11078085661269842013",
+      "maps:https://maps.google.com/?cid=18386345253664084072",
+      "maps:https://maps.google.com/?cid=8774065783709744638",
+      "maps:https://maps.google.com/?cid=12860016134613869343",
+      "maps:https://maps.google.com/?cid=16813526255109441016",
+      "maps:https://maps.google.com/?cid=6238816167194059824",
+      "maps:https://maps.google.com/?cid=13398402465003056913",
+      "maps:https://maps.google.com/?cid=3768416672966243455",
+      "maps:https://maps.google.com/?cid=14545547391018836352",
+      "maps:https://maps.google.com/?cid=5824659766126274338",
+      "maps:https://maps.google.com/?cid=6947141706186634015",
+      "maps:https://maps.google.com/?cid=10029593693201569270",
+      "maps:https://maps.google.com/?cid=5258701144345570066",
+      "maps:https://maps.google.com/?cid=6044194448198951741",
+      "maps:https://maps.google.com/?cid=15900966999187621657",
+      "maps:https://maps.google.com/?cid=14327142029710517847",
+      "maps:https://maps.google.com/?cid=11785183427253556917",
+      "maps:https://maps.google.com/?cid=7513851898529012000",
+      "maps:https://maps.google.com/?cid=5429670154658308318",
+      "maps:https://maps.google.com/?cid=9029952233497836061",
+      "maps:https://maps.google.com/?cid=5274465280737106635",
+      "maps:https://maps.google.com/?cid=17865776665496383705",
+      "maps:https://maps.google.com/?cid=4460313686624681631",
+      "maps:https://maps.google.com/?cid=8678235102882570878",
+      "maps:https://maps.google.com/?cid=14027643203377273644",
+      "maps:https://maps.google.com/?cid=5671268701716271618",
+      "maps:https://maps.google.com/?cid=16473198920896298669",
+      "maps:https://maps.google.com/?cid=3183078555550249127",
+      "maps:https://maps.google.com/?cid=4129240739493705098",
+      "maps:https://maps.google.com/?cid=1620848374391872917",
+      "maps:https://maps.google.com/?cid=17185169850865198766",
+      "maps:https://maps.google.com/?cid=9763994342227532753",
+      "maps:https://maps.google.com/?cid=12077978936901617911",
+      "maps:https://maps.google.com/?cid=6825558686996595220",
+      "maps:https://maps.google.com/?cid=1864744106456239187",
+      "maps:https://maps.google.com/?cid=2990749007337160460",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/gv_scene",
       "homepage": "https://m.place.naver.com/restaurant/1473208599/home?entry=plt",
       "booking": null,
-      "google_map": "https://maps.app.goo.gl/W5d5M76FvQ2s6xV1A"
+      "google_map": null
     },
     "contacts": {
-      "phone": "0507-1339-4171",
+      "phone": null,
       "email": null
     },
     "websites": [
-      "https://gvscene.co.kr/"
+      "https://www.instagram.com/gv_scene",
+      "https://m.place.naver.com/restaurant/1473208599/home?entry=plt"
     ],
     "locations": [
       {
         "location_id": "main",
-        "name": "GV Scene",
-        "address_text": "서울 성동구 서울숲2길 32-14 3층",
+        "name": "gv_scene",
+        "address_text": null,
         "address_components": null,
-        "location_lat": 37.5456773286722,
-        "location_lon": 127.042914714267,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "GV Scene",
-            "ko": "지에이뷰씬"
+            "en": "gv_scene"
           },
-          "address_text": {
-            "en": "3rd Floor, 32-14 Seoulsup 2-gil, Seongdong-gu, Seoul, South Korea",
-            "ko": "서울 성동구 서울숲2길 32-14 3층"
-          },
+          "address_text": null,
           "notes": null
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "GV Scene",
-        "ko": "지에이뷰씬"
+        "en": "gv_scene"
       },
       "address_text": null,
       "notes": null,
@@ -2228,21 +2217,19 @@
     }
   },
   {
-    "image_generation": {
-      "prompt": "A highly detailed industrial robot. Its design emphasizes robust functionality with exposed heavy-duty metallic components, visible hydraulics, wires, and intricate mechanical gears. The robot features striking, glowing blue eyes. Photorealistic, ultra detailed, cinematic lighting, 8k."
-    },
+    "raw": "The problem describes a recursive function. Let's break down its definition and implement it.\n\n**Understanding the Recursion:**\n\n1.  **Base Case:** The recursion stops when \"one of them becomes 0\". When this happens, the contribution from that branch of the calculation is 0. So, if `a` or `b` is 0, the function should return 0.\n2.  **Recursive Step:**\n    *   Take the last digit of `a` (`a % 10`).\n    *   Take the last digit of `b` (`b % 10`).\n    *   Multiply these two digits.\n    *   Add this product to the result of a new `special_multiply` call where `a` and `b` have had their last digits removed (integer division: `a // 10` and `b // 10`).\n\n**Let's trace an example: `special_multiply(123, 45)`**\n\n1.  `special_multiply(123, 45)`\n    *   `last_a = 3`, `last_b = 5`\n    *   `product = 3 * 5 = 15`\n    *   `remaining_a = 12`, `remaining_b = 4`\n    *   Returns `15 + special_multiply(12, 4)`\n\n2.  `special_multiply(12, 4)`\n    *   `last_a = 2`, `last_b = 4`\n    *   `product = 2 * 4 = 8`\n    *   `remaining_a = 1`, `remaining_b = 0`\n    *   Returns `8 + special_multiply(1, 0)`\n\n3.  `special_multiply(1, 0)`\n    *   `b` is 0. This is the base case.\n    *   Returns `0`\n\n**Substitute back:**\n\n*   `special_multiply(12, 4)` returns `8 + 0 = 8`\n*   `special_multiply(123, 45)` returns `15 + 8 = 23`\n\nThis matches the example, confirming our logic.\n\n**Python Implementation:**\n\n```python\ndef special_multiply(a, b):\n  \"\"\"\n  Performs a special multiplication operation recursively.\n\n  Args:\n    a: A positive integer.\n    b: A positive integer.\n\n  Returns:\n    The result of the special multiply operation.\n  \"\"\"\n  # Base case: if either number becomes 0, stop the recursion and return 0\n  if a == 0 or b == 0:\n    return 0\n\n  # Get the last digit of each number\n  last_digit_a = a % 10\n  last_digit_b = b % 10\n\n  # Calculate the product of the last digits\n  current_product = last_digit_a * last_digit_b\n\n  # Recursively call the function with the numbers without their last digits\n  # and add the current product to its result\n  return current_product + special_multiply(a // 10, b // 10)\n\n# Test cases\nprint(f\"special_multiply(123, 45) = {special_multiply(123, 45)}\")    # Expected: 23\nprint(f\"special_multiply(1, 1) = {special_multiply(1, 1)}\")          # Expected: 1\nprint(f\"special_multiply(12, 34) = {special_multiply(12, 34)}\")      # Expected: 11 (2*4 + 1*3 = 8 + 3)\nprint(f\"special_multiply(5, 0) = {special_multiply(5, 0)}\")          # Expected: 0\nprint(f\"special_multiply(0, 10) = {special_multiply(0, 10)}\")        # Expected: 0\nprint(f\"special_multiply(7, 8) = {special_multiply(7, 8)}\")          # Expected: 56 (7*8 + sm(0,0) = 56 + 0)\nprint(f\"special_multiply(10, 20) = {special_multiply(10, 20)}\")      # Expected: 0 (0*0 + sm(1,2) = 0 + 2 = 2, WRONG! 0*0 + sm(1,2) = 0 + (1*2 + sm(0,0)) = 0 + 2 = 2)\n# Let's re-trace special_multiply(10, 20) for correction\n# sm(10, 20): 0*0 + sm(1,2) = 0 + sm(1,2)\n# sm(1, 2): 1*2 + sm(0,0) = 2 + 0 = 2\n# Result: 0 + 2 = 2.\n# So special_multiply(10, 20) = 2, not 0. Corrected test output.\nprint(f\"special_multiply(10, 20) = {special_multiply(10, 20)}\")      # Expected: 2\n```",
     "ig_handle": "gwangalli_namme",
-    "last_analyzed_at": "2025-12-06T13:22:20.507696+09:00",
+    "last_analyzed_at": "2025-12-13T15:36:30.377999+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gwangalli_namme/profile/2025-12-11/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gwangalli_namme/profile/2025-12-10/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gwangalli_namme/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gwangalli_namme/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gwangalli_namme/profile/2025-11-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gwangalli_namme/profile/2025-11-12/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gwangalli_namme/profile/2025-11-11/profile.json",
       "maps:https://maps.google.com/?cid=17298781262385635276",
       "gemini:enrich"
     ],
@@ -2259,22 +2246,20 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "Gwangalli Namme",
-        "address_text": "부산 수영구 남천동로108번길 54 2층",
+        "name": "광안리 남매",
+        "address_text": "South Korea, Busan, Suyeong-gu, Namcheondong-ro 108beon-gil, 54 2 층",
         "address_components": null,
-        "location_lat": 35.1467159304824,
-        "location_lon": 129.114074496346,
+        "location_lat": 35.14676,
+        "location_lon": 129.114101,
         "subway_nearby": null,
-        "booking_link": null,
+        "booking_link": "http://naver.me/FFvSb6M6",
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Gwangalli Namme",
-            "ko": "광안리 남매"
+            "en": "Gwangalli Namme"
           },
           "address_text": {
-            "en": "2nd Floor, 54, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea",
-            "ko": "부산 수영구 남천동로108번길 54 2층"
+            "en": "54 2nd Floor, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea"
           },
           "notes": null
         }
@@ -2282,17 +2267,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Gwangalli Namme",
-        "ko": "광안리 남매"
+        "en": "Gwangalli Namme"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "en": [
           "Bar"
-        ],
-        "ko": [
-          "바"
         ]
       },
       "subway_nearby": null,
@@ -3074,48 +3055,41 @@
     }
   },
   {
-    "raw": "Parsing custom log formats in Python is a common task, and regular expressions are an excellent tool for it. You'll want to define a pattern that captures each distinct part of your log line.\n\nLet's break down your log format:\n`[timestamp] [level] [thread] message_key: message_value`\n\nExample:\n`[2023-10-27 10:30:00,123] [INFO] [main] user_activity: User logged in from IP 192.168.1.1`\n\nHere's how we can construct a regular expression and then use Python to parse it.\n\n### Regular Expression Breakdown\n\nWe'll use named capture groups to make the extracted data easy to access.\n\n*   `^`: Start of the line.\n*   `\\[(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2},\\d{3})\\]`:\n    *   `\\[` and `\\]`: Match the literal square brackets.\n    *   `(?P<timestamp>...)`: A named capture group called `timestamp`.\n    *   `\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2},\\d{3}`: Matches the exact timestamp format (e.g., `2023-10-27 10:30:00,123`).\n*   ` `: Match a space.\n*   `\\[(?P<level>[A-Z]+)\\]`:\n    *   `(?P<level>...)`: A named capture group called `level`.\n    *   `[A-Z]+`: Matches one or more uppercase letters (e.g., \"INFO\", \"WARN\").\n*   ` `: Match a space.\n*   `\\[(?P<thread>[\\w-]+)\\]`:\n    *   `(?P<thread>...)`: A named capture group called `thread`.\n    *   `[\\w-]+`: Matches one or more word characters (`a-zA-Z0-9_`) or hyphens (e.g., \"main\", \"Thread-1\").\n*   ` `: Match a space.\n*   `(?P<message_key>[\\w_]+)`:\n    *   `(?P<message_key>...)`: A named capture group called `message_key`.\n    *   `[\\w_]+`: Matches one or more word characters or underscores (e.g., \"user_activity\", \"db_query\").\n*   `:`: Match the literal colon.\n*   ` `: Match a space.\n*   `(?P<message_value>.*)`:\n    *   `(?P<message_value>...)`: A named capture group called `message_value`.\n    *   `.*`: Matches any character (except newline) zero or more times, to the end of the line. This is important as the message value can contain anything, including other colons.\n*   `$`: End of the line.\n\n### Python Implementation\n\n```python\nimport re\nfrom datetime import datetime\n\n# Compile the regex pattern once for efficiency, especially if parsing many lines\nLOG_PATTERN = re.compile(\n    r'^\\[(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2},\\d{3})\\] '\n    r'\\[(?P<level>[A-Z]+)\\] '\n    r'\\[(?P<thread>[\\w-]+)\\] '\n    r'(?P<message_key>[\\w_]+): '\n    r'(?P<message_value>.*)$'\n)\n\ndef parse_log_line(line: str) -> dict | None:\n    \"\"\"\n    Parses a single log line into a dictionary.\n\n    Args:\n        line: The log line string.\n\n    Returns:\n        A dictionary containing parsed fields if successful, None otherwise.\n    \"\"\"\n    match = LOG_PATTERN.match(line.strip()) # .strip() removes leading/trailing whitespace, including newlines\n    if match:\n        data = match.groupdict()\n        try:\n            # Convert timestamp string to a datetime object\n            data['timestamp'] = datetime.strptime(data['timestamp'], \"%Y-%m-%d %H:%M:%S,%f\")\n        except ValueError:\n            # If timestamp format is unexpected, keep it as a string or handle error\n            print(f\"Warning: Could not parse timestamp '{data['timestamp']}' in line: {line.strip()}\")\n            pass # Keep as string or log the error\n        return data\n    return None\n\ndef parse_log_file(file_path: str) -> list[dict]:\n    \"\"\"\n    Reads a log file and parses each line.\n\n    Args:\n        file_path: The path to the log file.\n\n    Returns:\n        A list of dictionaries, where each dictionary represents a parsed log entry.\n    \"\"\"\n    parsed_entries = []\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:\n            for line_num, line in enumerate(f, 1):\n                if line.strip():  # Skip empty lines\n                    parsed_line = parse_log_line(line)\n                    if parsed_line:\n                        parsed_entries.append(parsed_line)\n                    else:\n                        print(f\"Warning: Could not parse line {line_num} (format mismatch): '{line.strip()}'\")\n        return parsed_entries\n    except FileNotFoundError:\n        print(f\"Error: Log file not found at '{file_path}'\")\n        return []\n    except Exception as e:\n        print(f\"An unexpected error occurred while reading the file: {e}\")\n        return []\n\n# --- Example Usage ---\n\n# 1. Create a dummy log file for testing\nlog_content = \"\"\"\\\n[2023-10-27 10:30:00,123] [INFO] [main] user_activity: User logged in from IP 192.168.1.1\n[2023-10-27 10:30:01,456] [WARN] [Thread-1] config_error: Failed to load config file: /app/config.json\n[2023-10-27 10:30:02,789] [ERROR] [worker-0] db_connection: Database connection lost, retrying...\n[2023-10-27 10:30:03,000] [INFO] [main] health_check: Service is running normally.\n[2023-10-27 10:30:04,111] [DEBUG] [Thread-2] processing_data: Raw data: {\"id\": 123, \"status\": \"new\"}\nThis line does not match the format.\n[2023-10-27 10:30:05,222] [INFO] [main] system_status: All components online.\n\"\"\"\n\nlog_file_path = \"my_app.log\"\nwith open(log_file_path, 'w', encoding='utf-8') as f:\n    f.write(log_content)\n\n# 2. Parse the log file\nprint(f\"Parsing log file: {log_file_path}\\n\")\nparsed_logs = parse_log_file(log_file_path)\n\n# 3. Print the parsed entries\nfor entry in parsed_logs:\n    print(entry)\n\nprint(f\"\\nTotal parsed entries: {len(parsed_logs)}\")\n\n# Example of accessing specific data\nif parsed_logs:\n    print(f\"\\nFirst log entry timestamp: {parsed_logs[0]['timestamp']}\")\n    print(f\"Last log entry message value: {parsed_logs[-1]['message_value']}\")\n```\n\n### Explanation:\n\n1.  **`re.compile(LOG_PATTERN)`**: Compiling the regex pattern is good practice when you'll use it multiple times, as it saves the overhead of re-parsing the pattern string each time.\n2.  **`parse_log_line(line)`**:\n    *   `line.strip()`: This is crucial to remove any leading/trailing whitespace, especially newline characters (`\\n`), which would otherwise prevent the `$` (end of line) anchor in the regex from matching.\n    *   `LOG_PATTERN.match(line)`: Attempts to match the pattern from the *beginning* of the string. If the line doesn't start with the expected log format, it will return `None`.\n    *   `match.groupdict()`: If a match is found, this method returns a dictionary where keys are the named groups (e.g., `timestamp`, `level`) and values are the matched substrings.\n    *   `datetime.strptime()`: This converts the timestamp string into a Python `datetime` object, which is often more useful for analysis (e.g., sorting, time calculations). The format string `\"%Y-%m-%d %H:%M:%S,%f\"` precisely matches your timestamp format, including milliseconds (`%f`).\n3.  **`parse_log_file(file_path)`**:\n    *   It opens the specified file.\n    *   It iterates through each `line` in the file.\n    *   It calls `parse_log_line()` for each line.\n    *   If `parse_log_line()` returns a dictionary (meaning a successful parse), it appends it to `parsed_entries`.\n    *   It includes basic error handling for `FileNotFoundError` and a warning for lines that don't match the expected format.\n\nThis solution provides a robust way to parse your custom log format, giving you structured data that's easy to work with in Python.",
+    "raw": "Okay, here's an opening crawl for a hypothetical new Star Wars story. Imagine this as \"Episode X\" or a standalone adventure set in a new era.\n\n***\n\nA long time ago, in a galaxy far, far away....\n\n***\n\n**STAR WARS**\n\n**EPISODE X**\n**ECHOES OF THE VOID**\n\nThe NEW REPUBLIC, still young and fragile, strives to bring peace and order to a galaxy ravaged by decades of war. But from the uncharted depths of the Outer Rim, a shadowy power rises. The VOID LEGION, a ruthless Imperial splinter group led by the enigmatic Commander Vayle, terrorizes burgeoning trade routes and enslaves innocent worlds. Their true aim: to uncover a legendary ancient power, a forgotten technology known only as the NEXUS FRAGMENT, rumored to grant unimaginable destructive capabilities.\n\nGeneral Leia Organa and Chancellor Mon Mothma rally their forces, dispatching teams to investigate the Legion’s cryptic movements. Among them is ANYA RANE, a cunning New Republic intelligence agent, whose path crosses with KAI LENNON, a former Imperial technician haunted by his past. Their mission: to intercept the Void Legion and prevent them from unleashing the Nexus Fragment’s catastrophic potential upon the galaxy.\n\nThe race is on across the farthest reaches of the galaxy, from forgotten Jedi temples to treacherous asteroid fields. The fate of the New Republic, and indeed all life in the galaxy, hangs in the balance as the Void Legion closes in on their prize. Ancient secrets awaken, and the line between light and shadow blurs as our heroes confront a power that could shatter the very fabric of existence...",
     "ig_handle": "jinjujazz",
-    "last_analyzed_at": "2025-12-06T13:20:12.997962+09:00",
+    "last_analyzed_at": "2025-12-13T15:33:52.583695+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jinjujazz/profile/2025-12-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jinjujazz/profile/2025-12-02/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jinjujazz/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jinjujazz/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jinjujazz/profile/2025-11-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jinjujazz/profile/2025-11-12/profile.json",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=3512824848346026630",
-      "maps:https://maps.google.com/?cid=4985152792892710527",
-      "maps:https://maps.google.com/?cid=5936925627923403423",
-      "maps:https://maps.google.com/?cid=12961168892280702927",
-      "maps:https://maps.google.com/?cid=9176070558265640633",
-      "maps:https://maps.google.com/?cid=16541142817595661083",
-      "maps:https://maps.google.com/?cid=439211362449135317",
-      "maps:https://maps.google.com/?cid=17205286011885073919",
+      "maps:https://maps.google.com/?cid=7476314591417523001",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/jinjujazz",
       "homepage": "https://linktr.ee/jinjujazz2025",
       "booking": null,
-      "google_map": null
+      "google_map": "https://maps.google.com/?cid=7476314591417523001"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
     "websites": [
+      "https://www.instagram.com/jinjujazz",
       "https://linktr.ee/jinjujazz2025"
     ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Jinjujazz",
-        "address_text": null,
+        "name": "Jinju Jazz",
+        "address_text": "215 Gangnam-ro, Jinju, Gyeongsangnam-do, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
@@ -3124,18 +3098,18 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Jinjujazz",
-            "ko": "진주재즈"
+            "en": "Jinju Jazz"
           },
-          "address_text": null,
+          "address_text": {
+            "en": "215 Gangnam-ro, Jinju, Gyeongsangnam-do, South Korea"
+          },
           "notes": null
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "Jinjujazz",
-        "ko": "진주재즈"
+        "en": "Jinju Jazz"
       },
       "address_text": null,
       "notes": null,
@@ -5024,9 +4998,9 @@
     }
   },
   {
-    "raw": "Okay, let's design a Python class `Memoizer` that takes a function `f` and caches its results based on its arguments.\n\nThe core idea is to:\n1.  Store a dictionary (the cache) within the `Memoizer` instance.\n2.  When the memoized function is called, generate a unique \"key\" from the arguments.\n3.  Check if this key exists in the cache.\n    *   If yes, return the cached result.\n    *   If no, call the original function `f`, store its result in the cache with the generated key, and then return the result.\n\nThe trickiest part is generating a reliable and hashable key from arbitrary `*args` (positional arguments) and `**kwargs` (keyword arguments).\n\n**Key Generation Strategy:**\n\n*   **Positional arguments (`*args`):** These are already a tuple, which is hashable if its elements are hashable. We can use them directly.\n*   **Keyword arguments (`**kwargs`):** These are a dictionary, which is *not* hashable. To make them hashable and ensure consistency (e.g., `f(a=1, b=2)` should produce the same key as `f(b=2, a=1)`), we need to:\n    1.  Get the key-value pairs (`kwargs.items()`).\n    2.  Sort these pairs (e.g., by the key name).\n    3.  Convert the sorted list of pairs into a tuple.\n\nPutting it together, a canonical key can be a tuple containing the `args` tuple and the sorted `kwargs` tuple.\n\n```python\nimport collections\n\nclass Memoizer:\n    \"\"\"\n    A class that wraps a function `f` and caches its results based on its arguments.\n\n    The cache stores results mapped to a unique key derived from the positional\n    and keyword arguments passed to the function.\n\n    Limitations:\n    - Arguments to the memoized function must be hashable. If arguments\n      like lists, dicts, or unhashable custom objects are passed, the\n      key generation will fail (due to attempting to hash an unhashable type).\n    - This is an infinite cache; it does not have expiration or LRU policy.\n      For production, consider `functools.lru_cache`.\n    - Not inherently thread-safe without additional locking mechanisms.\n    \"\"\"\n    def __init__(self, f):\n        \"\"\"\n        Initializes the Memoizer with the function to be memoized.\n\n        Args:\n            f (callable): The function whose results will be cached.\n        \"\"\"\n        self.f = f\n        self.cache = {}\n        self.hits = 0\n        self.misses = 0\n\n    def _generate_key(self, args, kwargs):\n        \"\"\"\n        Generates a unique, hashable key for the given arguments.\n\n        Args:\n            args (tuple): Positional arguments.\n            kwargs (dict): Keyword arguments.\n\n        Returns:\n            tuple: A hashable tuple representing the unique call signature.\n        \"\"\"\n        # Positional arguments are already a tuple and hashable (if their elements are)\n        args_key = args\n\n        # Keyword arguments need to be sorted to ensure consistent key generation\n        # regardless of the order in which they were passed.\n        # Convert items to a tuple for hashability.\n        kwargs_key = tuple(sorted(kwargs.items()))\n\n        # Combine both into a single hashable key\n        return (args_key, kwargs_key)\n\n    def __call__(self, *args, **kwargs):\n        \"\"\"\n        Makes the Memoizer instance callable like the original function.\n        It checks the cache first, otherwise computes and stores the result.\n        \"\"\"\n        key = self._generate_key(args, kwargs)\n\n        if key in self.cache:\n            self.hits += 1\n            # print(f\"Cache HIT for key: {key}\") # Optional: for debugging\n            return self.cache[key]\n        else:\n            self.misses += 1\n            # print(f\"Cache MISS for key: {key}, computing...\") # Optional: for debugging\n            result = self.f(*args, **kwargs)\n            self.cache[key] = result\n            return result\n\n    def clear_cache(self):\n        \"\"\"Clears the entire cache.\"\"\"\n        self.cache.clear()\n        self.hits = 0\n        self.misses = 0\n        print(\"Cache cleared.\")\n\n    def cache_info(self):\n        \"\"\"Returns statistics about cache hits, misses, and current size.\"\"\"\n        return collections.namedtuple('CacheInfo', ['hits', 'misses', 'total_calls', 'cache_size'])(\n            self.hits,\n            self.misses,\n            self.hits + self.misses,\n            len(self.cache)\n        )\n\n# --- Example Usage ---\n\n# 1. Define a sample function\ncall_count = 0\ndef heavy_computation(a, b, c=0, *args, **kwargs):\n    \"\"\"\n    A placeholder for a function that might take time to compute.\n    Includes a global call_count to demonstrate when the function is actually run.\n    \"\"\"\n    global call_count\n    call_count += 1\n    print(f\"  --> Original function 'heavy_computation' called (count: {call_count}) with: \"\n          f\"a={a}, b={b}, c={c}, args={args}, kwargs={kwargs}\")\n    # Simulate some work\n    import time\n    time.sleep(0.1)\n    return a * b + c + sum(args) + sum(kwargs.values())\n\nprint(\"--- Initializing Memoizer ---\")\nmemoized_heavy_computation = Memoizer(heavy_computation)\n\nprint(\"\\n--- Test 1: First call with (1, 2) ---\")\nresult1 = memoized_heavy_computation(1, 2)\nprint(f\"Result: {result1}\")\nprint(f\"Cache Info: {memoized_heavy_computation.cache_info()}\")\n# Expected: heavy_computation called once, 1 miss, 0 hits, cache size 1\n\nprint(\"\\n--- Test 2: Second call with same arguments (1, 2) ---\")\nresult2 = memoized_heavy_computation(1, 2)\nprint(f\"Result: {result2}\")\nprint(f\"Cache Info: {memoized_heavy_computation.cache_info()}\")\n# Expected: heavy_computation NOT called, 1 miss, 1 hit, cache size 1\n\nprint(\"\\n--- Test 3: Call with different arguments (3, 4) ---\")\nresult3 = memoized_heavy_computation(3, 4)\nprint(f\"Result: {result3}\")\nprint(f\"Cache Info: {memoized_heavy_computation.cache_info()}\")\n# Expected: heavy_computation called, 2 misses, 1 hit, cache size 2\n\nprint(\"\\n--- Test 4: Call with keyword arguments (a=5, b=6) ---\")\nresult4 = memoized_heavy_computation(a=5, b=6)\nprint(f\"Result: {result4}\")\nprint(f\"Cache Info: {memoized_heavy_computation.cache_info()}\")\n# Expected: heavy_computation called, 3 misses, 1 hit, cache size 3\n\nprint(\"\\n--- Test 5: Call with keyword arguments, different order (b=6, a=5) ---\")\nresult5 = memoized_heavy_computation(b=6, a=5)\nprint(f\"Result: {result5}\")\nprint(f\"Cache Info: {memoized_heavy_computation.cache_info()}\")\n# Expected: heavy_computation NOT called (cache hit), 3 misses, 2 hits, cache size 3\n\nprint(\"\\n--- Test 6: Call with mixed args and kwargs, plus *args and **kwargs ---\")\nresult6 = memoized_heavy_computation(10, 20, c=5, d=1, e=2, *[100, 200], foo='bar')\nprint(f\"Result: {result6}\")\nprint(f\"Cache Info: {memoized_heavy_computation.cache_info()}\")\n# Expected: heavy_computation called, 4 misses, 2 hits, cache size 4\n\nprint(\"\\n--- Test 7: Repeat call from Test 6 ---\")\nresult7 = memoized_heavy_computation(10, 20, c=5, d=1, e=2, *[100, 200], foo='bar')\nprint(f\"Result: {result7}\")\nprint(f\"Cache Info: {memoized_heavy_computation.cache_info()}\")\n# Expected: heavy_computation NOT called, 4 misses, 3 hits, cache size 4\n\nprint(\"\\n--- Clearing the cache ---\")\nmemoized_heavy_computation.clear_cache()\nprint(f\"Cache Info after clear: {memoized_heavy_computation.cache_info()}\")\n\nprint(\"\\n--- Test 8: Call after clearing cache (1, 2) ---\")\nresult8 = memoized_heavy_computation(1, 2)\nprint(f\"Result: {result8}\")\nprint(f\"Cache Info: {memoized_heavy_computation.cache_info()}\")\n# Expected: heavy_computation called, 1 miss, 0 hits, cache size 1\n```\n\n**Explanation of the Code:**\n\n1.  **`Memoizer(f)`:** The constructor takes the function `f` to be memoized and initializes `self.cache` as an empty dictionary. It also adds `hits` and `misses` counters for diagnostics.\n2.  **`_generate_key(self, args, kwargs)`:**\n    *   `args` is already a tuple of positional arguments.\n    *   `kwargs.items()` gives a view of key-value pairs from the keyword arguments dictionary.\n    *   `sorted(kwargs.items())` sorts these pairs, ensuring that `{'a':1, 'b':2}` and `{'b':2, 'a':1}` both result in the same sorted list `[('a',1), ('b',2)]`.\n    *   `tuple(...)` converts this sorted list into an immutable, hashable tuple.\n    *   Finally, `(args_key, kwargs_key)` combines these into a single, comprehensive key.\n3.  **`__call__(self, *args, **kwargs)`:**\n    *   This special method makes instances of `Memoizer` callable directly, just like the function they wrap. So, `memoized_func(1, 2)` works.\n    *   It first calls `_generate_key` to get the unique key for the current call.\n    *   It then checks `if key in self.cache`.\n    *   If a hit, it increments `self.hits` and returns the stored value.\n    *   If a miss, it increments `self.misses`, calls the original function `self.f` with all the provided arguments, stores the `result` in `self.cache` under the generated `key`, and then returns the `result`.\n4.  **`clear_cache()` and `cache_info()`:** These are utility methods to manage and inspect the cache, similar to what `functools.lru_cache` provides.\n\nThis `Memoizer` class provides a robust and general-purpose caching mechanism for Python functions, correctly handling all types of arguments as long as they are hashable.",
+    "raw": "{}",
     "ig_handle": "subriot_hbc",
-    "last_analyzed_at": "2025-12-06T13:22:03.014409+09:00",
+    "last_analyzed_at": "2025-12-13T15:35:37.576408+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -5037,8 +5011,6 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/subriot_hbc/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/subriot_hbc/profile/2025-11-15/profile.json",
       "maps:https://maps.google.com/?cid=8932235032285803281",
-      "maps:https://maps.google.com/?cid=8039705284554932561",
-      "maps:https://maps.google.com/?cid=11842852244500454903",
       "gemini:enrich"
     ],
     "links": {
@@ -5053,28 +5025,23 @@
       "email": null
     },
     "subway_nearby": "6호선 녹사평역 2번 출구에서 712m",
-    "genres": [
-      "Bar"
-    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Subriot Haebangchon",
-        "address_text": "서울 용산구 신흥로7길 1 지하 1층",
+        "name": "서브라이엇 해방촌",
+        "address_text": "South Korea, Seoul, Yongsan District, Sinheung-ro 7-gil, 1 지하 1층",
         "address_components": null,
-        "location_lat": 37.541922,
-        "location_lon": 126.987171,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": "6호선 녹사평역 2번 출구에서 712m",
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Subriot Haebangchon",
-            "ko": "서브라이엇 해방촌"
+            "en": "Subriot HBC"
           },
           "address_text": {
-            "en": "B1, 1, Sinheung-ro 7-gil, Yongsan District, Seoul, South Korea",
-            "ko": "서울 용산구 신흥로7길 1 지하 1층"
+            "en": "1, Sinheung-ro 7-gil, Yongsan-gu, Seoul, South Korea B1F"
           },
           "notes": null
         }
@@ -5082,22 +5049,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Subriot Haebangchon",
-        "ko": "서브라이엇 해방촌"
+        "en": "Subriot HBC"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Bar"
-        ],
-        "ko": [
-          "바"
-        ]
-      },
+      "genres": null,
       "subway_nearby": {
-        "en": "712m from Noksapyeong Station Exit 2 (Line 6)",
-        "ko": "6호선 녹사평역 2번 출구에서 712m"
+        "en": "712m from Noksapyeong Station (Line 6), Exit 2"
       },
       "food_policy": null,
       "age_limit": null
