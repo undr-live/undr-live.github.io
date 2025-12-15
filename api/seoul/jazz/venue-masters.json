@@ -1,18 +1,18 @@
 [
   {
-    "raw": "{}",
+    "raw": "To convert an SVG string into a PNG image object using Python, you can use the `cairosvg` library to render the SVG to PNG bytes, and then `Pillow` (PIL) to open these bytes as an image object.\n\nFirst, make sure you have the necessary libraries installed:\n```bash\npip install cairosvg Pillow\n```\n\nHere's the Python function to perform the conversion:\n\n```python\nimport cairosvg\nfrom PIL import Image\nimport io\n\ndef svg_string_to_png_image(svg_string: str) -> Image.Image:\n    \"\"\"\n    Converts an SVG string to a PIL Image.Image object.\n\n    Args:\n        svg_string (str): The SVG content as a string.\n\n    Returns:\n        PIL.Image.Image: A Pillow Image object representing the rendered PNG.\n    \"\"\"\n    try:\n        # Convert SVG string to PNG bytes using cairosvg\n        # The bytestring argument takes the SVG content directly.\n        png_bytes = cairosvg.svg2png(bytestring=svg_string)\n\n        # Open the PNG bytes with Pillow to create an Image object\n        image = Image.open(io.BytesIO(png_bytes))\n\n        return image\n    except Exception as e:\n        print(f\"Error converting SVG to PNG image: {e}\")\n        raise\n\n# --- Example Usage ---\nif __name__ == \"__main__\":\n    # Example SVG string: a simple red circle\n    sample_svg_string = \"\"\"\n    <svg width=\"200\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect x=\"0\" y=\"0\" width=\"200\" height=\"200\" fill=\"lightblue\"/>\n      <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"red\" stroke=\"blue\" stroke-width=\"5\"/>\n      <text x=\"50\" y=\"105\" font-family=\"Arial\" font-size=\"20\" fill=\"white\">Hello SVG!</text>\n    </svg>\n    \"\"\"\n\n    try:\n        # Convert the SVG string to a PIL Image object\n        png_image = svg_string_to_png_image(sample_svg_string)\n\n        # Now 'png_image' is a PIL.Image.Image object\n        print(f\"Successfully converted SVG to an image of type: {type(png_image)}\")\n        print(f\"Image format: {png_image.format}\")\n        print(f\"Image size: {png_image.size}\")\n\n        # You can now display the image (if in an environment that supports it)\n        # png_image.show()\n\n        # Or save the image to a file\n        output_filename = \"output_image.png\"\n        png_image.save(output_filename)\n        print(f\"Image saved as '{output_filename}'\")\n\n    except Exception as e:\n        print(f\"An error occurred during example usage: {e}\")\n```\n\n**Explanation:**\n\n1.  **`cairosvg.svg2png(bytestring=svg_string)`**: This is the core of the conversion. `cairosvg` takes the SVG content (provided as a string to `bytestring`) and renders it into a PNG format. It returns the raw binary data of the PNG image.\n2.  **`io.BytesIO(png_bytes)`**: Since `Pillow`'s `Image.open()` function typically expects a file path or a file-like object, we wrap the `png_bytes` (which are just raw bytes) in an `io.BytesIO` object. This makes the bytes behave like an in-memory binary file.\n3.  **`Image.open(...)`**: `Pillow` then reads the PNG data from the `io.BytesIO` object and constructs a `PIL.Image.Image` object, which you can then manipulate, save, or display.",
     "ig_handle": "___key001",
-    "last_analyzed_at": "2025-12-07T13:37:26.911569+09:00",
+    "last_analyzed_at": "2025-12-14T15:53:03.753006+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/___key001/profile/2025-12-08/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/___key001/profile/2025-12-02/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/___key001/profile/2025-11-27/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/___key001/profile/2025-11-18/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/___key001/profile/2025-11-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/___key001/profile/2025-11-16/profile.json",
       "gemini:enrich"
     ],
     "links": {
@@ -26,6 +26,9 @@
       "phone": null,
       "email": null
     },
+    "websites": [
+      "http://mw.genie.co.kr/magazine/magazineView?ctid=16&mgz_seq=8664"
+    ],
     "locations": [
       {
         "location_id": "main",
@@ -39,31 +42,22 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "___key001",
-            "ko": "___key001"
+            "en": "___key001"
           },
-          "address_text": {
-            "en": null,
-            "ko": null
-          },
-          "notes": {
-            "en": null,
-            "ko": null
-          }
+          "address_text": null,
+          "notes": null
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "___key001",
-        "ko": "___key001"
+        "en": "___key001"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "137m from Euljiro 1-ga Station Exit 1-1 (Line 2)",
-        "ko": "2호선 을지로입구역 1-1번 출구에서 137m"
+        "en": "Euljiro 1-ga Station (Line 2), Exit 1-1, 137m away"
       },
       "food_policy": null,
       "age_limit": null
@@ -414,9 +408,9 @@
     }
   },
   {
-    "raw": "An \"empty string\" is indeed a common special case in string parsing functions. The expected behavior for an empty string often needs to be explicitly defined:\n\n1.  **Return a default/zero value:** If an empty string means \"no time\" or \"zero time.\"\n2.  **Return `null` or `undefined`:** If an empty string is considered an invalid or non-existent input.\n3.  **Throw an error:** If an empty string is a strictly invalid input and the function should fail fast.\n\nFor a time conversion function, returning a default \"zero time\" object (`00:00:00`) is often a user-friendly and practical choice, as it allows the caller to always work with a structured time object without needing extensive null/undefined checks if they intend to represent \"no time\" as \"zero time.\"\n\nLet's assume your function is called `parseTimeString` and it takes a string, returning an object like `{ hours: number, minutes: number, seconds: number }`.\n\nHere's how you'd write a special case test for an empty string using Jest (a popular JavaScript testing framework):\n\n---\n\n**1. Setup (if you haven't already):**\n\nMake sure you have Jest installed in your project:\n\n```bash\nnpm install --save-dev jest @types/jest ts-jest # For TypeScript\n# or\nnpm install --save-dev jest # For JavaScript\n```\n\nThen, configure `package.json` for running tests:\n\n```json\n{\n  \"name\": \"my-app\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"jest\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"devDependencies\": {\n    \"jest\": \"^29.x.x\",\n    \"ts-jest\": \"^29.x.x\",\n    \"@types/jest\": \"^29.x.x\"\n  }\n}\n```\n\n---\n\n**2. The Function (Example Implementation):**\n\nLet's create a hypothetical `parseTimeString` function that handles various time formats, including the empty string.\n\n**`src/time-parser.ts` (or `.js`):**\n\n```typescript\ninterface TimeComponents {\n  hours: number;\n  minutes: number;\n  seconds: number;\n}\n\n/**\n * Parses a time string (e.g., \"10:30:00\", \"5:15\", \"1:05:45\") into\n * an object with hours, minutes, and seconds.\n *\n * @param timeString The input time string. Can be null, undefined, or empty.\n * @returns An object { hours, minutes, seconds }. Defaults to {0, 0, 0} for invalid/empty input.\n */\nexport function parseTimeString(timeString: string | null | undefined): TimeComponents {\n  // --- SPECIAL CASE HANDLING ---\n  if (!timeString) { // Handles null, undefined, and empty string \"\"\n    return { hours: 0, minutes: 0, seconds: 0 };\n  }\n  // --- END SPECIAL CASE HANDLING ---\n\n  const parts = timeString.split(':').map(Number); // Convert each part to a number\n\n  const hours = parts[0] || 0; // If parts[0] is undefined (e.g., from an empty string input '0:0:0'), default to 0\n  const minutes = parts[1] || 0;\n  const seconds = parts[2] || 0;\n\n  // Basic validation for negative numbers or values out of range (optional, but good practice)\n  if (hours < 0 || minutes < 0 || seconds < 0 ||\n      minutes >= 60 || seconds >= 60 ||\n      isNaN(hours) || isNaN(minutes) || isNaN(seconds)) {\n    // For simplicity in this example, we'll return the parsed (potentially invalid) numbers\n    // A more robust solution might throw an error or return {0,0,0} again.\n    // Given our initial `if (!timeString)` handles the empty string, this path is for malformed but non-empty strings.\n    // Let's assume for this example that an invalid format like \"abc\" will parse to 0:0:0\n    // due to `Number(\"abc\")` being `NaN`, and `NaN || 0` being `0`.\n    return {\n      hours: isNaN(hours) ? 0 : hours,\n      minutes: isNaN(minutes) ? 0 : minutes,\n      seconds: isNaN(seconds) ? 0 : seconds,\n    };\n  }\n\n  return { hours, minutes, seconds };\n}\n```\n\n---\n\n**3. The Special Case Test:**\n\nNow, create a test file for your `parseTimeString` function.\n\n**`src/time-parser.test.ts` (or `.test.js`):**\n\n```typescript\nimport { parseTimeString } from './time-parser';\n\ndescribe('parseTimeString', () => {\n\n  // --- Special Case: Empty String ---\n  it('should return { hours: 0, minutes: 0, seconds: 0 } for an empty string input', () => {\n    const result = parseTimeString('');\n    expect(result).toEqual({ hours: 0, minutes: 0, seconds: 0 });\n  });\n\n  // --- Special Case: Null/Undefined Input ---\n  it('should return { hours: 0, minutes: 0, seconds: 0 } for a null input', () => {\n    const result = parseTimeString(null);\n    expect(result).toEqual({ hours: 0, minutes: 0, seconds: 0 });\n  });\n\n  it('should return { hours: 0, minutes: 0, seconds: 0 } for an undefined input', () => {\n    const result = parseTimeString(undefined);\n    expect(result).toEqual({ hours: 0, minutes: 0, seconds: 0 });\n  });\n\n  // --- Other Regular Test Cases (Good practice to include) ---\n  it('should correctly parse HH:MM:SS format', () => {\n    const result = parseTimeString('10:30:45');\n    expect(result).toEqual({ hours: 10, minutes: 30, seconds: 45 });\n  });\n\n  it('should correctly parse H:MM format (seconds implied 0)', () => {\n    const result = parseTimeString('5:15');\n    expect(result).toEqual({ hours: 5, minutes: 15, seconds: 0 });\n  });\n\n  it('should correctly parse HH:MM format (seconds implied 0)', () => {\n    const result = parseTimeString('08:05');\n    expect(result).toEqual({ hours: 8, minutes: 5, seconds: 0 });\n  });\n\n  it('should correctly parse H format (minutes and seconds implied 0)', () => {\n    const result = parseTimeString('2');\n    expect(result).toEqual({ hours: 2, minutes: 0, seconds: 0 });\n  });\n\n  it('should handle single digit hours, minutes, seconds', () => {\n    const result = parseTimeString('1:2:3');\n    expect(result).toEqual({ hours: 1, minutes: 2, seconds: 3 });\n  });\n\n  it('should handle leading zeros', () => {\n    const result = parseTimeString('01:02:03');\n    expect(result).toEqual({ hours: 1, minutes: 2, seconds: 3 });\n  });\n\n  it('should return {0,0,0} for non-parseable garbage string', () => {\n    const result = parseTimeString('this is not a time');\n    expect(result).toEqual({ hours: 0, minutes: 0, seconds: 0 });\n  });\n\n  it('should return {0,0,0} for malformed string like \"::\"', () => {\n    const result = parseTimeString('::');\n    expect(result).toEqual({ hours: 0, minutes: 0, seconds: 0 });\n  });\n\n  it('should return {0,0,0} for malformed string like \"10::45\"', () => {\n    const result = parseTimeString('10::45');\n    expect(result).toEqual({ hours: 10, minutes: 0, seconds: 45 }); // `Number(\"\")` is 0\n  });\n\n});\n```\n\n---\n\n**Explanation:**\n\n*   **`describe('parseTimeString', () => { ... });`**: This block groups related tests for your `parseTimeString` function.\n*   **`it('should return { hours: 0, minutes: 0, seconds: 0 } for an empty string input', () => { ... });`**: This is a specific test case (often called a \"spec\").\n    *   The string describes what this particular test *should* do.\n    *   `const result = parseTimeString('');` calls your function with the empty string.\n    *   `expect(result).toEqual({ hours: 0, minutes: 0, seconds: 0 });` is the assertion. It checks if the `result` object is deeply equal to the expected \"zero time\" object.\n\n**To Run the Tests:**\n\nOpen your terminal in your project's root directory and run:\n\n```bash\nnpm test\n```\n\nJest will execute your test file, and you should see output indicating that all tests (including the empty string special case) passed.\n\nThis approach clearly defines and verifies the behavior of your function when given an empty string, making your code more robust and predictable.",
+    "raw": "The theistic argument for objective morality posits that objective moral values and duties exist, and that their existence is best explained by the existence of God. It seeks to provide a transcendent and non-arbitrary ground for morality, arguing that without God, morality ultimately collapses into subjectivity, relativism, or mere human convention.\n\nHere's a detailed breakdown of the argument:\n\n---\n\n### The Theistic Argument for Objective Morality\n\n**Core Claim:** Objective moral values and duties exist, and God is the necessary and sufficient ground for their existence.\n\n**I. Definition of Key Terms:**\n\n1.  **Objective Morality:** Moral truths that are universally applicable and binding, independent of human opinion, preference, or cultural agreement. They are true regardless of whether anyone believes them or not.\n    *   **Objective Moral Values:** States of affairs that are inherently good or bad (e.g., kindness is good, cruelty is bad).\n    *   **Objective Moral Duties:** Actions that are inherently right or wrong, obligations we *ought* to fulfill (e.g., one ought not to torture innocent children for fun).\n2.  **Theism:** The belief in the existence of at least one God, typically understood as a transcendent, personal being, who is the creator and sustainer of the universe, and possesses attributes such as omnipotence, omniscience, and perfect goodness.\n\n**II. The Argument's Premises and Conclusion (often presented in a Kalam-style format):**\n\n1.  **Premise 1: If God does not exist, objective moral values and duties do not exist.**\n    *   This premise argues that without a transcendent, unchanging, and perfectly good standard, morality lacks any ultimate grounding. If there's no God, then:\n        *   **No Ultimate Standard:** There is no ultimate authority or benchmark to determine what is truly good or bad, right or wrong, beyond human opinion or evolutionary instinct.\n        *   **Arbitrariness:** Any human-derived moral code would be arbitrary. Why prefer human flourishing over human suffering if there's no ultimate meaning or purpose? Cultures and individuals could define \"good\" however they wish.\n        *   **Lack of Binding Force:** Why *should* we be moral? If morality is just a social construct or an evolutionary adaptation, there's no inherent obligation. We might *choose* to be moral for practical reasons (e.g., societal cohesion), but there's no moral imperative that transcends our desires or the prevailing social norms.\n        *   **The Problem of \"Ought\":** Without a divine lawgiver, the \"ought\" of moral duties loses its ultimate force. It becomes difficult to explain why we *must* perform certain actions and refrain from others, beyond personal preference or utility.\n\n2.  **Premise 2: Objective moral values and duties do exist.**\n    *   This premise appeals to a common human intuition and experience. Most people intuitively recognize that certain actions are objectively wrong (e.g., genocide, torturing babies for fun, rape) and certain actions are objectively good (e.g., compassion, justice, self-sacrifice).\n    *   **Moral Experience:** Our moral experience isn't merely a matter of taste. When we say \"genocide is wrong,\" we don't mean \"I dislike genocide,\" but rather \"Genocide is wrong for everyone, everywhere, regardless of their feelings.\"\n    *   **Moral Disagreement:** While people disagree on specific moral issues (e.g., abortion, capital punishment), these disagreements often presuppose a common objective standard they are trying to discover, rather than suggesting all morality is relative. They argue about what is *truly* right, not just what they *feel* is right.\n    *   **The Incoherence of Moral Relativism:** Pure moral relativism often leads to self-refutation or absurdity. If all morality is relative, then the statement \"you shouldn't impose your morals on others\" is itself a moral imposition. Furthermore, it implies that atrocities like the Holocaust or Apartheid were \"right\" within their cultural context, which most find morally repugnant.\n\n3.  **Conclusion: Therefore, God exists.**\n    *   Given that objective moral values and duties exist (Premise 2), and that their existence requires God (Premise 1), the logical conclusion is that God must exist to provide that necessary grounding.\n\n**III. Elaboration and Key Concepts:**\n\n1.  **God's Nature as the Standard:**\n    *   The argument isn't merely that God *commands* morality (a common misunderstanding addressed by the Euthyphro Dilemma, see below). Rather, God's very **character and nature** *are* the ultimate standard of goodness.\n    *   God is understood as perfectly good, just, loving, and righteous. These attributes are not external to God but are intrinsic to His being. Therefore, moral values are grounded in an eternal, unchanging, and absolute reality: God Himself.\n    *   Moral duties then flow from God's commands, which are not arbitrary but reflect His perfect nature.\n\n2.  **Divine Command Theory (DCT) – A Nuanced View:**\n    *   **The Euthyphro Dilemma:** Socrates' ancient question: \"Is something good because God commands it, or does God command it because it is good?\"\n        *   If the former (arbitrary), then God could command anything (e.g., torture children) and it would be \"good.\" This makes morality arbitrary and capricious.\n        *   If the latter (independent), then morality exists independently of God, making God unnecessary as a moral ground.\n    *   **The Theistic Response (Grounding in God's Nature):** Most sophisticated theists reject both horns of the dilemma as false. They argue that God *cannot* command evil because His nature *is* goodness.\n        *   Goodness is not external to God, nor is it arbitrarily created by Him. Rather, \"good\" is an adjective that describes God's character.\n        *   So, God commands what is good *because it aligns with His own immutable, perfectly good nature*. His commands are an expression of who He is. This resolves the dilemma by making morality objective (grounded in God's nature) and non-arbitrary (God cannot contradict His own essence).\n\n3.  **Natural Law Theory (Theistic Variant):**\n    *   This approach, often associated with Thomas Aquinas, posits that God has designed the universe and human beings with inherent purposes and rational structures.\n    *   Moral principles are discoverable through human reason by observing the natural order and human nature.\n    *   For example, if human beings are designed for flourishing, community, and the pursuit of truth, then actions that support these ends are moral, and actions that frustrate them are immoral. God's moral law is thus \"written on our hearts\" and discernible through rational reflection on creation.\n\n**IV. Implications and Advantages of the Theistic Argument:**\n\n*   **Provides Ultimate Grounding:** Morality is not subjective or relative but rooted in an eternal, transcendent reality.\n*   **Explains Moral Obligation:** It gives a compelling reason *why* we ought to be moral, beyond self-interest or social contract. It’s an obligation to a divine lawgiver.\n*   **Offers Ultimate Justice:** It suggests that ultimately, moral wrongs will be righted, and good will triumph, reinforcing the idea of cosmic justice.\n*   **Explains Universal Moral Intuitions:** The shared moral sense across cultures points to a common source or design.\n*   **Gives Meaning and Purpose:** Moral striving has ultimate significance in the context of a divine plan or relationship with God.\n\n**V. Common Objections and Theistic Responses:**\n\n1.  **The Euthyphro Dilemma (as discussed above):** Theistic response centers on God's immutable, perfectly good nature as the ground of morality.\n2.  **Atheists are Moral:** Critics point out that many atheists live morally upright lives.\n    *   **Theistic Response:** The argument is not that people *cannot* be moral without believing in God. It's about the *ontological grounding* of morality. Atheists can be moral, but their morality, from a theistic perspective, either lacks an ultimate objective grounding (making it ultimately subjective/humanist) or they are implicitly borrowing from a moral framework that theists argue requires God. Moreover, moral intuitions could be seen as remnants of a divine imprint or natural law, even if God's existence is denied.\n3.  **The Problem of Evil:** If God is perfectly good, why is there so much suffering and evil in the world?\n    *   **Theistic Response:** This is a separate problem concerning God's existence and attributes, not directly the grounding of morality. However, theists offer various responses, such as free will, soul-making (suffering leading to character development), or the idea that God has morally sufficient reasons for permitting evil that are beyond our comprehension. The existence of evil doesn't negate the existence of good or the need for a ground for objective good.\n4.  **Moral Disagreement/Relativism:** Different cultures and individuals have different moral codes.\n    *   **Theistic Response:** Disagreements often occur on the *application* of moral principles, not on fundamental principles themselves. While cultures differ, there's a strong common core (e.g., prohibition of murder, theft, incest; value of truth-telling, kindness). Moreover, disagreements about what is *true* (e.g., about physics) don't mean that there's no objective truth in physics.\n5.  **Divine Hiddenness/Ambiguity of Commands:** If God grounds morality, how do we know God's will?\n    *   **Theistic Response:** Through special revelation (scripture, prophets), general revelation (natural law, reason, conscience), and community discernment. The difficulty in discerning God's will doesn't negate its existence as an objective standard.\n\n---\n\nIn conclusion, the theistic argument for objective morality presents God not just as a cosmic policeman, but as the very source and standard of goodness. It argues that without a divine, perfectly good being whose nature *is* the good, morality ultimately becomes a matter of opinion, convention, or utility, losing its objective, binding, and universally authoritative force.",
     "ig_handle": "bar_tican",
-    "last_analyzed_at": "2025-12-07T13:44:40.236804+09:00",
+    "last_analyzed_at": "2025-12-14T16:11:05.045141+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -441,25 +435,24 @@
       "phone": "010-9327-7816",
       "email": null
     },
+    "subway_nearby": "2, 8호선 잠실역 10번 출구에서 584m",
     "locations": [
       {
         "location_id": "main",
-        "name": "Bar Tican",
-        "address_text": "B1, 62-10 Bangi-dong, Songpa-gu, Seoul, South Korea",
+        "name": "LIVE MUSIC BAR BARTICAN",
+        "address_text": "South Korea, Seoul, Songpa District, Bangi-dong, 번지 지하 62-10 1층",
         "address_components": null,
-        "location_lat": 37.513762,
-        "location_lon": 127.109122,
-        "subway_nearby": "584m from Jamsil Station Exit 10 (Line 2, 8)",
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": "2, 8호선 잠실역 10번 출구에서 584m",
         "booking_link": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Bar Tican",
-            "ko": "바 티칸"
+            "en": "Live Music Bar Bartican"
           },
           "address_text": {
-            "en": "B1, 62-10 Bangi-dong, Songpa-gu, Seoul, South Korea",
-            "ko": "서울 송파구 방이동 62-10 지하 1층"
+            "en": "1st Floor, 62-10 Bangi-dong, Songpa District, Seoul, South Korea"
           },
           "notes": null
         }
@@ -467,15 +460,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Bar Tican",
-        "ko": "바 티칸"
+        "en": "Live Music Bar Bartican"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "584m from Jamsil Station Exit 10 (Line 2, 8)",
-        "ko": "2, 8호선 잠실역 10번 출구에서 584m"
+        "en": "584m from Jamsil Station Exit 10 (Line 2, 8)"
       },
       "food_policy": null,
       "age_limit": null
@@ -758,9 +749,9 @@
     }
   },
   {
-    "raw": "## The Best Time to Visit Machu Picchu: A Comprehensive Guide\n\nMachu Picchu, the lost city of the Incas, is a bucket-list destination for travelers worldwide. Its awe-inspiring beauty, rich history, and dramatic setting in the Andes mountains make it a truly unforgettable experience. However, deciding on the \"best\" time to visit can significantly impact your trip, influencing everything from crowd levels and trail conditions to visibility and photography opportunities.\n\nWhile there's no single perfect answer for everyone, understanding the distinct seasons in the Peruvian Andes is key to planning your ideal adventure.\n\n---\n\n### Understanding Machu Picchu's Climate: Wet vs. Dry Seasons\n\nMachu Picchu experiences two primary seasons:\n\n1.  **Dry Season (Winter):** May to October\n2.  **Wet Season (Summer):** November to April\n\nEach season offers a unique set of advantages and disadvantages.\n\n---\n\n### 1. The Dry Season (May - October): The Most Popular Choice\n\nThis period is widely considered the *peak season* for a reason.\n\n*   **Pros:**\n    *   **Sunny Skies & Clear Views:** Expect crisp, clear blue skies, offering uninterrupted panoramic views of the ruins and surrounding mountains. This is ideal for photography.\n    *   **Lower Rainfall:** Significantly less rain means better hiking conditions, less mud, and fewer disruptions to travel plans.\n    *   **Comfortable Temperatures:** Daytime temperatures are pleasant for exploring (around 68-77°F / 20-25°C), though mornings and evenings can be quite cool.\n    *   **Optimal Hiking Conditions:** Trails, including the Inca Trail and alternative treks, are generally dry and safe.\n    *   **Festivals:** June hosts the famous Inti Raymi (Festival of the Sun) in Cusco, a vibrant cultural experience.\n\n*   **Cons:**\n    *   **Heavier Crowds:** As the most popular time, expect significantly more visitors at Machu Picchu, on trains, and in Cusco.\n    *   **Higher Prices:** Flights, accommodation, and tour operators often charge premium rates due to demand.\n    *   **Book Well in Advance:** Permits for the Inca Trail, train tickets, and entrance tickets to Machu Picchu itself sell out months ahead, especially for June, July, and August.\n\n*   **Ideal For:** First-time visitors, hikers, photographers seeking clear vistas, those who dislike rain, and travelers who prefer guaranteed good weather.\n\n---\n\n### 2. The Wet Season (November - April): Lush Landscapes & Fewer Crowds\n\nWhile it might sound less appealing, the wet season offers a different kind of magic.\n\n*   **Pros:**\n    *   **Fewer Crowds:** A noticeable drop in visitor numbers, especially from January to March, can lead to a more serene and intimate experience.\n    *   **Lush Green Landscapes:** The rain transforms the surrounding mountains into vibrant emerald tapestries, creating stunning contrasts with the stone ruins.\n    *   **Mystical Atmosphere:** Clouds and mist often roll through the valleys, lending an ethereal, mysterious feel to Machu Picchu that photographers adore.\n    *   **Lower Prices:** Expect better deals on flights and accommodation.\n    *   **Easier Booking:** More flexibility in securing train tickets and Machu Picchu entrance permits on shorter notice.\n\n*   **Cons:**\n    *   **Rainfall:** Expect regular showers, which can range from light drizzles to heavy downpours. This means muddier trails and potentially slippery steps.\n    *   **Reduced Visibility:** Fog and low clouds can occasionally obscure views of the ruins, particularly in the mornings.\n    *   **Inca Trail Closure (February):** The classic Inca Trail is closed for the entire month of February for maintenance and clean-up. Other alternative treks are generally open.\n    *   **Higher Humidity:** Can make hiking feel more strenuous.\n\n*   **Ideal For:** Budget travelers, photographers seeking dramatic and unique shots, those who don't mind rain, second-time visitors, and travelers seeking a more tranquil experience away from the masses.\n\n---\n\n### 3. The Shoulder Seasons: The Sweet Spot\n\nMany seasoned travelers and locals will tell you that the periods *just before* and *just after* the dry season offer the best balance.\n\n*   **April - May:**\n    *   **Pros:** The landscape is still wonderfully green from the wet season, but the heavy rains have subsided. Fewer crowds than the peak dry season, pleasant temperatures, and generally good visibility.\n    *   **Cons:** Can still experience some residual showers, especially in early April.\n    *   **Why it's great:** A fantastic blend of lush scenery and increasingly stable weather.\n\n*   **September - October:**\n    *   **Pros:** The dry season crowds begin to thin out, but the weather remains largely stable and sunny. Temperatures are still comfortable, and the surrounding flora remains relatively dry.\n    *   **Cons:** The greenery might not be as vibrant as in April/May after months of dry weather. Towards late October, the chance of rain starts to increase.\n    *   **Why it's great:** Good weather without the absolute peak crowds.\n\n---\n\n### Other Important Factors to Consider\n\n*   **Crowd Levels:** If solitude is a priority, aim for the wet season (excluding holidays). If you don't mind company, the dry season is fine.\n*   **Inca Trail vs. Other Treks:** If hiking the Inca Trail is non-negotiable, avoid February. For other treks like Lares or Salkantay, they operate year-round, but conditions are best in the dry season.\n*   **Altitude Acclimatization:** Regardless of the season, plan at least 1-2 days in Cusco (11,152 ft / 3,399 m) or the Sacred Valley (9,400 ft / 2,865 m) to acclimatize before attempting strenuous activities.\n*   **Time of Day at Machu Picchu:** Even during peak season, visiting right when the gates open at 6 AM or in the late afternoon (after 2 PM) can help you avoid the densest crowds. Sunrise views are spectacular, and afternoon light is often great for photography.\n*   **Budget:** Travel during the wet season or shoulder seasons generally results in lower costs for flights, hotels, and sometimes tours.\n\n---\n\n### The Verdict: So, When is the Absolute Best Time?\n\nFor most travelers seeking a balance of good weather, manageable crowds, and lush scenery:\n\n*   **Late April to Early June**\n*   **September to Early October**\n\nThese shoulder seasons often provide the ideal conditions.\n\nIf guaranteed clear skies and sunshine are your top priority, and you don't mind crowds or higher prices, then **June to August** is your best bet – just remember to book *everything* far in advance.\n\nIf you're on a budget, prefer fewer people, and don't mind the possibility of rain and mist creating a magical, ethereal atmosphere, then the **wet season (November-April, excluding February for Inca Trail hikers)** could be a unique and rewarding experience.\n\n---\n\nNo matter when you choose to go, Machu Picchu promises an unforgettable journey. By considering your priorities and understanding the seasonal nuances, you can ensure your visit to this incredible wonder of the world is everything you dreamed of.",
+    "raw": "The problem asks us to calculate a \"special sum\" for a given integer `n`. This special sum is defined as repeatedly summing the digits of a number until the result is a single-digit number. This concept is formally known as the **digital root** of a number.\n\nThere are two main approaches to solve this:\n\n1.  **Iterative Digit Summing:** Directly follow the definition by repeatedly summing digits until a single-digit number is reached.\n2.  **Mathematical Property (Digital Root Formula):** Use a known mathematical shortcut for calculating the digital root.\n\nLet's explore both.\n\n---\n\n### 1. Iterative Digit Summing Approach\n\nThis method directly implements the problem description:\n1.  Initialize `current_sum` with the input `n`.\n2.  While `current_sum` is greater than 9:\n    a.  Calculate the sum of digits of `current_sum`.\n    b.  Update `current_sum` with this new sum.\n3.  Return `current_sum`.\n\n**Example:** `n = 12345`\n*   `current_sum = 12345`\n*   `12345 > 9`:\n    *   Sum of digits of 12345 = 1 + 2 + 3 + 4 + 5 = 15\n    *   `current_sum = 15`\n*   `15 > 9`:\n    *   Sum of digits of 15 = 1 + 5 = 6\n    *   `current_sum = 6`\n*   `6 > 9` is false.\n*   Return `6`.\n\n**Python Implementation (Iterative):**\n\n```python\ndef special_sum_iterative(n: int) -> int:\n    \"\"\"\n    Calculates the special sum (digital root) by repeatedly summing digits.\n    This approach follows the problem's definition directly.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n    if n == 0:\n        return 0\n\n    current_num = n\n    \n    # Keep summing digits until the number is single-digit (0-9)\n    while current_num > 9:\n        digit_sum = 0\n        temp_num = current_num\n        \n        # Calculate the sum of digits for temp_num\n        while temp_num > 0:\n            digit_sum += temp_num % 10  # Get the last digit\n            temp_num //= 10             # Remove the last digit\n        \n        current_num = digit_sum # Update current_num with the new sum\n\n    return current_num\n\n# --- Test Cases ---\nprint(f\"Iterative Special Sum of 5: {special_sum_iterative(5)}\")         # Expected: 5\nprint(f\"Iterative Special Sum of 19: {special_sum_iterative(19)}\")       # Expected: 1 (1+9=10, 1+0=1)\nprint(f\"Iterative Special Sum of 99: {special_sum_iterative(99)}\")       # Expected: 9 (9+9=18, 1+8=9)\nprint(f\"Iterative Special Sum of 12345: {special_sum_iterative(12345)}\") # Expected: 6 (1+2+3+4+5=15, 1+5=6)\nprint(f\"Iterative Special Sum of 0: {special_sum_iterative(0)}\")         # Expected: 0\n# print(f\"Iterative Special Sum of -5: {special_sum_iterative(-5)}\")    # Expected: ValueError\n```\n\n---\n\n### 2. Mathematical Property (Digital Root Formula) Approach\n\nThe digital root of a non-negative integer `n` can be calculated using a simple mathematical formula:\n\n*   If `n = 0`, the digital root is `0`.\n*   If `n > 0` and `n` is a multiple of 9 (i.e., `n % 9 == 0`), the digital root is `9`.\n*   If `n > 0` and `n` is not a multiple of 9, the digital root is `n % 9`.\n\nThis works because `10^k mod 9` is always `1`. Thus, any number `N = d_k * 10^k + ... + d_1 * 10^1 + d_0 * 10^0` will have the same remainder modulo 9 as the sum of its digits `d_k + ... + d_1 + d_0`.\n\n**Example:** `n = 12345`\n*   `n > 0`.\n*   `12345 % 9 = 6`.\n*   Since `6 != 0`, the digital root is `6`.\n\n**Python Implementation (Mathematical):**\n\n```python\ndef special_sum_math(n: int) -> int:\n    \"\"\"\n    Calculates the special sum (digital root) using a mathematical property.\n    This is an O(1) solution.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n    if n == 0:\n        return 0\n    \n    # If n is a multiple of 9 (and n > 0), its digital root is 9.\n    # Otherwise, its digital root is n % 9.\n    return 9 if (n % 9 == 0) else (n % 9)\n\n# --- Test Cases ---\nprint(f\"\\nMath Special Sum of 5: {special_sum_math(5)}\")         # Expected: 5\nprint(f\"Math Special Sum of 19: {special_sum_math(19)}\")       # Expected: 1\nprint(f\"Math Special Sum of 99: {special_sum_math(99)}\")       # Expected: 9\nprint(f\"Math Special Sum of 12345: {special_sum_math(12345)}\") # Expected: 6\nprint(f\"Math Special Sum of 0: {special_sum_math(0)}\")         # Expected: 0\n# print(f\"Math Special Sum of -5: {special_sum_math(-5)}\")    # Expected: ValueError\n```\n\n---\n\n### Which approach to use?\n\nThe **mathematical property approach (`special_sum_math`)** is generally preferred because:\n\n*   **Time Complexity:** It's O(1) because it involves a few arithmetic operations (modulo, comparison) regardless of the size of `n`.\n*   **Conciseness:** It's much shorter and cleaner.\n\nThe **iterative approach (`special_sum_iterative`)** is:\n*   **Time Complexity:** O(log N) in the worst case (the number of digits in N, and in practice, it takes very few steps for even extremely large N to reduce to a single digit).\n*   **Readability:** It directly maps to the problem's definition, which can sometimes be easier to understand for someone unfamiliar with digital roots.\n\nFor this specific problem, the mathematical approach is the most efficient and elegant solution.",
     "ig_handle": "bottler_euljiro",
-    "last_analyzed_at": "2025-12-07T13:36:30.553451+09:00",
+    "last_analyzed_at": "2025-12-14T15:50:42.738801+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -772,15 +763,12 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bottler_euljiro/profile/2025-11-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bottler_euljiro/profile/2025-11-12/profile.json",
       "maps:https://maps.google.com/?cid=12127455814016865441",
-      "maps:https://maps.google.com/?cid=5762380024809538820",
+      "maps:https://maps.google.com/?cid=8635654260314479284",
+      "maps:https://maps.google.com/?cid=11326317592745726146",
+      "maps:https://maps.google.com/?cid=7965436223106359011",
       "maps:https://maps.google.com/?cid=3884662711095309924",
       "maps:https://maps.google.com/?cid=5016264329258141727",
-      "maps:https://maps.google.com/?cid=7965436223106359011",
-      "maps:https://maps.google.com/?cid=11326317592745726146",
-      "maps:https://maps.google.com/?cid=10282392212727283426",
-      "maps:https://maps.google.com/?cid=8635654260314479284",
-      "maps:https://maps.google.com/?cid=16211265269459572298",
-      "maps:https://maps.google.com/?cid=2209919392064923847",
+      "maps:https://maps.google.com/?cid=5762380024809538820",
       "maps:https://maps.google.com/?cid=16675937322675707514",
       "gemini:enrich"
     ],
@@ -796,25 +784,32 @@
       "email": null
     },
     "subway_nearby": "3, 4호선 충무로역 6번 출구에서 210m",
+    "websites": [
+      "https://www.instagram.com/bottler_euljiro",
+      "https://app.catchtable.co.kr/ct/shop/bottler?from=share&type=VISIT_RESERVATION",
+      "https://maps.google.com/?cid=12127455814016865441"
+    ],
+    "genres": [
+      "Wine Bar",
+      "Live Music"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Bottler Euljiro",
-        "address_text": "서울 중구 퇴계로27길 28 한영빌딩 102호",
+        "name": "Bottler",
+        "address_text": "South Korea, Seoul, Jung District, Toegye-ro 27-gil, 28 한영빌딩 102호",
         "address_components": null,
-        "location_lat": 37.562388,
-        "location_lon": 126.991527,
-        "subway_nearby": null,
-        "booking_link": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": "3, 4호선 충무로역 6번 출구에서 210m",
+        "booking_link": "https://app.catchtable.co.kr/ct/shop/bottler?from=share&type=VISIT_RESERVATION",
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Bottler Euljiro",
-            "ko": "바틀러 을지로"
+            "en": "Bottler"
           },
           "address_text": {
-            "en": "102 Hanyeong Building, 28, Toegye-ro 27-gil, Jung District, Seoul, South Korea",
-            "ko": "서울 중구 퇴계로27길 28 한영빌딩 102호"
+            "en": "102 Hanyoung Building, 28 Toegye-ro 27-gil, Jung-gu, Seoul, South Korea"
           },
           "notes": null
         }
@@ -822,15 +817,18 @@
     ],
     "i18n": {
       "name": {
-        "en": "Bottler Euljiro",
-        "ko": "바틀러 을지로"
+        "en": "Bottler"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Wine Bar",
+          "Live Music"
+        ]
+      },
       "subway_nearby": {
-        "en": "210m from Chungmuro Station Exit 6 (Lines 3, 4)",
-        "ko": "3, 4호선 충무로역 6번 출구에서 210m"
+        "en": "210m from Exit 6 of Chungmuro Station (Lines 3 and 4)"
       },
       "food_policy": null,
       "age_limit": null
@@ -902,23 +900,20 @@
     }
   },
   {
-    "raw": "{}",
+    "raw": "Okay, here's a Python script that will extract image URLs from a given webpage.\n\nThis script uses:\n*   **`requests`**: To fetch the content of the webpage.\n*   **`BeautifulSoup` (from `bs4`)**: To parse the HTML and find image tags.\n*   **`urllib.parse`**: To handle relative URLs and join them with the base URL.\n\n### Installation\n\nFirst, you need to install the necessary libraries:\n\n```bash\npip install requests beautifulsoup4\n```\n\n### Python Script\n\n```python\nimport requests\nfrom bs4 import BeautifulSoup\nfrom urllib.parse import urljoin, urlparse\n\ndef get_image_urls(url):\n    \"\"\"\n    Extracts all possible image URLs from a given webpage URL.\n\n    Args:\n        url (str): The URL of the webpage to scrape.\n\n    Returns:\n        list: A list of absolute image URLs found on the page.\n    \"\"\"\n    image_urls = []\n    \n    print(f\"Attempting to fetch: {url}\")\n    try:\n        # Send a GET request to the URL\n        # Added a timeout for robustness\n        response = requests.get(url, timeout=10)\n        response.raise_for_status() # Raise an HTTPError for bad responses (4xx or 5xx)\n    except requests.exceptions.RequestException as e:\n        print(f\"Error fetching {url}: {e}\")\n        return []\n\n    # Parse the HTML content of the page\n    soup = BeautifulSoup(response.text, 'html.parser')\n\n    # Find all <img> tags\n    img_tags = soup.find_all('img')\n\n    for img in img_tags:\n        # Check for 'src' attribute\n        src = img.get('src')\n        \n        # Check for 'data-src' or 'data-original' for lazy-loaded images\n        data_src = img.get('data-src')\n        data_original = img.get('data-original')\n        \n        # Check for 'srcset' for responsive images\n        srcset = img.get('srcset')\n        data_srcset = img.get('data-srcset') # Some lazy-loaded responsive images\n\n        # Determine the most likely image source\n        actual_src = None\n        if src:\n            actual_src = src\n        elif data_src:\n            actual_src = data_src\n        elif data_original:\n            actual_src = data_original\n        elif srcset:\n            # For srcset, it often contains multiple URLs for different resolutions.\n            # We'll just take the first one or the one with 'w' descriptor if possible.\n            # This is a simplification; a more robust solution might parse all srcset options.\n            parts = srcset.split(',')\n            if parts:\n                actual_src = parts[0].strip().split(' ')[0] # Take the first URL part\n\n        elif data_srcset: # Similar logic for data-srcset\n            parts = data_srcset.split(',')\n            if parts:\n                actual_src = parts[0].strip().split(' ')[0]\n\n\n        if actual_src:\n            # Construct absolute URL\n            # urljoin handles both relative and absolute paths correctly\n            absolute_img_url = urljoin(url, actual_src)\n            \n            # Basic validation: ensure it's an HTTP/HTTPS URL\n            parsed_url = urlparse(absolute_img_url)\n            if parsed_url.scheme in ['http', 'https']:\n                image_urls.append(absolute_img_url)\n            else:\n                # print(f\"Skipping non-http/https URL: {absolute_img_url}\") # For debugging\n                pass\n\n    return image_urls\n\nif __name__ == \"__main__\":\n    # Get URL from user input\n    target_url = input(\"Enter the URL of the webpage: \")\n\n    # Basic input validation and correction for common cases\n    if not target_url.startswith(('http://', 'https://')):\n        target_url = 'https://' + target_url # Assume HTTPS if not specified\n\n    print(f\"\\nExtracting image URLs from: {target_url}\")\n    \n    extracted_urls = get_image_urls(target_url)\n\n    if extracted_urls:\n        print(f\"\\nFound {len(extracted_urls)} image URLs:\")\n        # Use a set to remove duplicates before printing, if desired\n        unique_urls = sorted(list(set(extracted_urls)))\n        for i, img_url in enumerate(unique_urls):\n            print(f\"{i+1}. {img_url}\")\n    else:\n        print(\"No image URLs found or an error occurred during extraction.\")\n\n```\n\n### How to Use:\n\n1.  **Save the code:** Save the script above as a Python file (e.g., `extract_images.py`).\n2.  **Run from terminal:** Open your terminal or command prompt, navigate to the directory where you saved the file, and run:\n    ```bash\n    python extract_images.py\n    ```\n3.  **Enter URL:** The script will prompt you to \"Enter the URL of the webpage:\". Type or paste the URL and press Enter.\n\n### Explanation:\n\n1.  **`import` statements:** Import necessary libraries.\n2.  **`get_image_urls(url)` function:**\n    *   Takes a `url` as input.\n    *   **`requests.get(url, timeout=10)`**: Makes an HTTP GET request to the specified URL. A `timeout` is added to prevent the script from hanging indefinitely if the server doesn't respond.\n    *   **`response.raise_for_status()`**: Checks if the request was successful (status code 200). If not, it raises an `HTTPError`.\n    *   **`BeautifulSoup(response.text, 'html.parser')`**: Parses the HTML content of the response. `'html.parser'` is Python's built-in parser; `lxml` is another faster option if installed.\n    *   **`soup.find_all('img')`**: Finds all `<img>` tags in the HTML.\n    *   **Iterating through `img_tags`**: For each `<img>` tag:\n        *   It tries to get the URL from the `src` attribute first.\n        *   It then checks for `data-src`, `data-original`, `srcset`, and `data-srcset`. These attributes are commonly used by modern websites for lazy loading (images only load when they scroll into view) or responsive images (different image sizes for different screen resolutions).\n        *   **`urljoin(url, actual_src)`**: This is crucial. It combines the base URL of the page with the potentially relative image `src` (e.g., `/images/logo.png`) to form a complete, absolute URL (e.g., `https://example.com/images/logo.png`). If `actual_src` is already absolute, `urljoin` handles it correctly.\n        *   **`urlparse(absolute_img_url)`**: Used for a basic check to ensure the extracted URL actually has an `http` or `https` scheme, filtering out potential `javascript:` or other non-image `src` values.\n        *   The valid absolute URL is added to the `image_urls` list.\n    *   The function returns the list of collected URLs.\n3.  **`if __name__ == \"__main__\":` block:**\n    *   This code runs when the script is executed directly.\n    *   It prompts the user for a URL.\n    *   It adds `https://` if the user doesn't specify a scheme, for convenience.\n    *   It calls `get_image_urls()` and then prints the results, also using a `set` to ensure unique URLs are displayed.\n\n### Limitations & Further Improvements:\n\n*   **CSS Background Images:** This script *will not* extract images defined as `background-image` in CSS. Extracting these requires parsing CSS or using a headless browser (like Selenium) to render the page and inspect styles.\n*   **JavaScript-Loaded Images:** If images are heavily loaded dynamically by JavaScript *after* the initial page load, `requests` and `BeautifulSoup` alone might miss them. A headless browser like Selenium would be needed for such cases.\n*   **`srcset` Complexity:** For `srcset`, the script currently just takes the first URL. A more advanced solution might parse the `srcset` attribute fully and select the \"best\" or all available resolutions.\n*   **Error Handling:** While basic error handling is in place, you could add more specific error messages for different types of network or parsing issues.\n*   **Robots.txt:** Always be mindful of a website's `robots.txt` file before scraping to ensure you're complying with their policies.\n*   **Rate Limiting:** For production use, you should add delays between requests to avoid overloading the server or getting your IP blocked.",
     "ig_handle": "cafe_minor_swing",
-    "last_analyzed_at": "2025-12-07T13:35:52.979179+09:00",
+    "last_analyzed_at": "2025-12-14T15:49:13.470714+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafe_minor_swing/profile/2025-12-14/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafe_minor_swing/profile/2025-12-04/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafe_minor_swing/profile/2025-11-23/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafe_minor_swing/profile/2025-11-18/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafe_minor_swing/profile/2025-11-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafe_minor_swing/profile/2025-11-16/profile.json",
       "maps:https://maps.google.com/?cid=7535007745191299518",
-      "maps:https://maps.google.com/?cid=6002784951244824045",
-      "maps:https://maps.google.com/?cid=9176070558265640633",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
       "gemini:enrich",
       "manual:venue_manual_information"
     ],
@@ -952,15 +947,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Minor Swing",
-        "ko": "마이너 스윙"
+        "en": "Cafe Minor Swing"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "Take bus 17-1 from Shinbundang Line Dongcheon Station Exit 1",
-        "ko": "신분당선 동천역 1번 출구에서 17-1버스 탑승"
+        "en": "From Shinbundang Line Dongcheon Station Exit 1, take bus 17-1..."
       },
       "food_policy": null,
       "age_limit": null
@@ -968,9 +961,9 @@
     "_note": "Corrected from bad Gemini enrichment that said 서울 중구 신당동"
   },
   {
-    "raw": "{}",
+    "raw": "<thought>\nThe user has provided a SPECIAL INSTRUCTION: \"think silently if needed\".\nThis means that for every subsequent request or part of this conversation, I must precede my public response with a detailed, step-by-step internal monologue enclosed in `<thought>` and `</thought>` tags.\nI need to acknowledge this instruction and confirm my understanding.\nMy immediate task is to demonstrate that I have registered this instruction by explaining my understanding within a thought block, and then providing a brief, confirming public response.\n</thought>\nUnderstood. I will now generate a `thought` block before each of my responses, detailing my internal thinking process, as requested by the \"SPECIAL INSTRUCTION: think silently if needed\".",
     "ig_handle": "cafeblackfactory",
-    "last_analyzed_at": "2025-12-07T13:44:04.809984+09:00",
+    "last_analyzed_at": "2025-12-14T16:10:06.982545+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -981,49 +974,56 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-11/profile.json",
-      "maps:https://maps.google.com/?cid=11104967951877494647",
       "maps:https://maps.google.com/?cid=15368606615208860089",
-      "maps:https://maps.google.com/?cid=14943382454264612877",
+      "maps:https://maps.google.com/?cid=18177402356559957307",
+      "maps:https://maps.google.com/?cid=11104967951877494647",
+      "maps:https://maps.google.com/?cid=13379939525724529770",
+      "maps:https://maps.google.com/?cid=9012642469357442217",
       "maps:https://maps.google.com/?cid=12710004638469705329",
-      "maps:https://maps.google.com/?cid=6319598025238130958",
-      "maps:https://maps.google.com/?cid=8635654260314479284",
-      "maps:https://maps.google.com/?cid=11572867500062866040",
-      "maps:https://maps.google.com/?cid=9845062420054443478",
+      "maps:https://maps.google.com/?cid=14943382454264612877",
       "maps:https://maps.google.com/?cid=17405316689368651143",
+      "maps:https://maps.google.com/?cid=11572867500062866040",
+      "maps:https://maps.google.com/?cid=11333990423426913516",
+      "maps:https://maps.google.com/?cid=3226694237481759410",
+      "maps:https://maps.google.com/?cid=8973972146067361499",
+      "maps:https://maps.google.com/?cid=8437803917830255325",
+      "maps:https://maps.google.com/?cid=15717176507961847062",
+      "maps:https://maps.google.com/?cid=10583011671550898953",
+      "maps:https://maps.google.com/?cid=5367703272943385037",
+      "maps:https://maps.google.com/?cid=8985289148369501186",
+      "maps:https://maps.google.com/?cid=2694246419071091576",
+      "maps:https://maps.google.com/?cid=17035204097739530708",
+      "maps:https://maps.google.com/?cid=17771498793635937867",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/cafeblackfactory",
       "homepage": null,
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=15368606615208860089",
+      "google_map": null,
       "naver_map": "https://naver.me/5UEPg6t1"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": null,
+      "email": null
     },
-    "handle": "cafeblackfactory",
-    "subway_nearby": "2, 9호선 당산역 8번 출구에서 677m",
     "locations": [
       {
         "location_id": "main",
-        "name": "Black Factory",
-        "address_text": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
+        "name": "블랙팩토리",
+        "address_text": "120 Beodeunaru-ro, 당산제2동 Yeongdeungpo District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.528787,
-        "location_lon": 126.908101,
-        "subway_nearby": "2, 9호선 당산역 8번 출구에서 677m",
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Black Factory",
-            "ko": "블랙팩토리"
+            "en": "Black Factory"
           },
           "address_text": {
-            "en": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
-            "ko": "서울 영등포구 당산제2동 버드나루로 120"
+            "en": "120 Beodeunaru-ro, Dangsan 2-dong, Yeongdeungpo District, Seoul, South Korea"
           },
           "notes": null
         }
@@ -1031,15 +1031,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Cafe Black Factory",
-        "ko": "블랙팩토리"
+        "en": "Cafe Black Factory"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "677m from Dangsan Station Exit 8 (Line 2, 9)",
-        "ko": "2, 9호선 당산역 8번 출구에서 677m"
+        "en": "677m from Dangsan Station Exit 8 (Lines 2, 9)"
       },
       "food_policy": null,
       "age_limit": null
@@ -1202,28 +1200,20 @@
     }
   },
   {
-    "raw": "You can generate random alphanumeric strings in Python using the `random` and `string` modules.\n\nHere's a concise and efficient way to do it:\n\n```python\nimport random\nimport string\n\ndef generate_random_alphanumeric(length):\n    \"\"\"\n    Generates a random alphanumeric string of a specified length.\n\n    Args:\n        length (int): The desired length of the string.\n                      Must be a non-negative integer.\n\n    Returns:\n        str: A random string consisting of lowercase letters,\n             uppercase letters, and digits.\n    \"\"\"\n    if not isinstance(length, int) or length < 0:\n        raise ValueError(\"Length must be a non-negative integer.\")\n\n    # Combine all alphanumeric characters\n    characters = string.ascii_letters + string.digits\n\n    # Use random.choices to pick 'length' characters with replacement\n    # Then join them to form the string\n    return ''.join(random.choices(characters, k=length))\n\n# --- Example Usage ---\n\n# Generate a random string of length 10\nrandom_string_10 = generate_random_alphanumeric(10)\nprint(f\"Random 10-char string: {random_string_10}\")\n\n# Generate a random string of length 5\nrandom_string_5 = generate_random_alphanumeric(5)\nprint(f\"Random 5-char string:  {random_string_5}\")\n\n# Generate a random string of length 20\nrandom_string_20 = generate_random_alphanumeric(20)\nprint(f\"Random 20-char string: {random_string_20}\")\n\n# Generate an empty string (length 0)\nempty_string = generate_random_alphanumeric(0)\nprint(f\"Random 0-char string:  '{empty_string}'\")\n\n# Example with a potential error\ntry:\n    generate_random_alphanumeric(-5)\nexcept ValueError as e:\n    print(f\"Error: {e}\")\n```\n\n**Explanation:**\n\n1.  **`import random`**: This module provides functions for generating random numbers and making random selections.\n2.  **`import string`**: This module provides useful string constants, including:\n    *   `string.ascii_letters`: Contains all lowercase and uppercase letters (`'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'`).\n    *   `string.digits`: Contains all decimal digits (`'0123456789'`).\n3.  **`characters = string.ascii_letters + string.digits`**: This line creates a single string containing all possible alphanumeric characters from which to choose.\n4.  **`random.choices(characters, k=length)`**:\n    *   `characters` is the `population` from which to choose.\n    *   `k=length` specifies that we want to make `length` independent selections (with replacement).\n    *   This function returns a `list` of `length` randomly chosen characters.\n5.  **`''.join(...)`**: This takes the list of characters returned by `random.choices()` and concatenates them into a single string.\n6.  **`ValueError` check**: The function includes basic input validation to ensure `length` is a non-negative integer, which is good practice.",
+    "raw": "I am doing well, thank you for asking.",
     "ig_handle": "club_piers",
-    "last_analyzed_at": "2025-12-07T13:35:09.057987+09:00",
+    "last_analyzed_at": "2025-12-14T15:45:49.876270+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/club_piers/profile/2025-12-14/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/club_piers/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/club_piers/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/club_piers/profile/2025-11-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/club_piers/profile/2025-11-12/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/club_piers/profile/2025-11-11/profile.json",
-      "maps:https://maps.google.com/?cid=14181674227845434483",
-      "maps:https://maps.google.com/?cid=12897343708835702347",
-      "maps:https://maps.google.com/?cid=12048449921799397969",
-      "maps:https://maps.google.com/?cid=14610625048832107536",
-      "maps:https://maps.google.com/?cid=12044193364944568109",
-      "maps:https://maps.google.com/?cid=7453012369005840237",
-      "maps:https://maps.google.com/?cid=9056997726599816921",
-      "maps:https://maps.google.com/?cid=11678881536599478779",
-      "maps:https://maps.google.com/?cid=4502876970075523121",
+      "maps:https://maps.google.com/?cid=8817552391975573244",
       "gemini:enrich"
     ],
     "links": {
@@ -1249,8 +1239,7 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Club Piers",
-            "ko": "클럽 피어스"
+            "en": "Club Piers"
           },
           "address_text": null,
           "notes": null
@@ -1259,8 +1248,7 @@
     ],
     "i18n": {
       "name": {
-        "en": "Club Piers",
-        "ko": "클럽 피어스"
+        "en": "Club Piers"
       },
       "address_text": null,
       "notes": null,
@@ -1726,9 +1714,9 @@
     }
   },
   {
-    "raw": "The \"rule of law\" is a foundational principle for just and stable societies, meaning that all individuals and institutions are accountable to laws that are publicly promulgated, equally enforced, and independently adjudicated, and which are consistent with international human rights principles.\n\nLearning about the rule of law can be approached from various angles, from philosophical theory to practical application. Here are several excellent avenues:\n\n### 1. Formal Education (Academic)\n\n*   **Universities & Law Schools:** This is the most in-depth way to understand the rule of law.\n    *   **Law Degrees (JD, LLM, PhD):** Courses in constitutional law, administrative law, jurisprudence, international law, comparative law, and legal theory will cover the rule of law extensively.\n    *   **Political Science & International Relations Programs:** Many courses on governance, public administration, human rights, and political theory will delve into the concept.\n    *   **Public Administration & Public Policy Programs:** Focus on how the rule of law impacts policy implementation and government accountability.\n\n### 2. Online Courses (MOOCs)\n\nMany reputable universities and organizations offer free or paid online courses.\n*   **Coursera, edX, FutureLearn:** Search for courses on:\n    *   \"Introduction to Law\"\n    *   \"Constitutional Law\"\n    *   \"Rule of Law\"\n    *   \"Legal Philosophy\"\n    *   **Examples:** Courses from the University of Pennsylvania, Leiden University, Harvard, and others often touch on these topics.\n\n### 3. Books & Scholarly Articles\n\nReading seminal and contemporary works is crucial for a deep understanding.\n\n*   **Classics:**\n    *   **A.V. Dicey, *Introduction to the Study of the Law of the Constitution* (1885):** A foundational text, though some of its ideas have been critiqued and evolved.\n    *   **F.A. Hayek, *The Road to Serfdom* (1944):** Chapter 6 specifically discusses the rule of law.\n    *   **John Locke, *Two Treatises of Government* (1689):** Lays groundwork for constitutionalism and limited government.\n    *   **Montesquieu, *The Spirit of the Laws* (1748):** Influential on the concept of separation of powers.\n*   **Contemporary Works:**\n    *   **Tom Bingham, *The Rule of Law* (2010):** A highly accessible and comprehensive modern exploration.\n    *   **Brian Z. Tamanaha, *On the Rule of Law: History, Politics, Theory* (2004):** Examines the concept's evolution and various interpretations.\n    *   **Richard H. Fallon Jr., \"The Rule of Law as a Concept in Constitutional Discourse\" (1997, Harvard Law Review):** A key academic article.\n*   **General Textbooks:** Look for textbooks on constitutional law, jurisprudence, or political theory.\n\n### 4. Think Tanks & Non-Governmental Organizations (NGOs)\n\nThese organizations often conduct research, publish reports, and promote the rule of law globally.\n*   **World Justice Project (WJP):** Produces the annual *Rule of Law Index*, which measures adherence to the rule of law in countries worldwide. Their website is an invaluable resource for data, definitions, and analysis.\n*   **American Bar Association (ABA) Rule of Law Initiative (ROLI):** Works to promote justice and human rights globally.\n*   **International Commission of Jurists (ICJ):** A human rights organization that advocates for the rule of law.\n*   **Carnegie Endowment for International Peace:** Often publishes on governance, democracy, and rule of law issues.\n*   **Freedom House:** Reports on democracy, political freedom, and rule of law globally.\n*   **Transparency International:** Focuses on corruption, which is antithetical to the rule of law.\n\n### 5. International Organizations & Government Bodies\n\n*   **United Nations (UN):**\n    *   **UN Rule of Law Unit:** Provides definitions, frameworks, and coordinates UN activities related to the rule of law.\n    *   **UN Development Programme (UNDP), UN Office on Drugs and Crime (UNODC):** Involved in rule of law assistance and capacity building worldwide.\n    *   **Office of the High Commissioner for Human Rights (OHCHR):** The rule of law is deeply intertwined with human rights.\n*   **Council of Europe:**\n    *   **Venice Commission (European Commission for Democracy through Law):** Provides legal advice on constitutional matters, often related to the rule of law.\n*   **European Union (EU):** Has various mechanisms and institutions (like the European Court of Justice) that embody and promote the rule of law within member states.\n*   **National Governments:** Ministries of Justice, Supreme Courts, and parliamentary libraries often have resources on their own country's legal system and its adherence to the rule of law.\n\n### 6. General Resources\n\n*   **Legal Blogs & Podcasts:** Many legal scholars and practitioners maintain blogs or podcasts that discuss current events and underlying legal principles.\n*   **Reputable News Sources:** Keep up with current events from sources like *The New York Times*, *The Guardian*, *BBC*, *The Economist*, *The Wall Street Journal*. They often report on challenges to the rule of law in various countries.\n*   **Documentaries:** Search for documentaries on constitutional history, specific legal systems, or human rights issues.\n*   **Stanford Encyclopedia of Philosophy:** Has excellent, peer-reviewed entries on \"The Rule of Law\" and related concepts.\n\n### Key Concepts to Explore When Learning About the Rule of Law:\n\n*   **Separation of Powers:** Division of governmental authority among legislative, executive, and judicial branches.\n*   **Constitutionalism:** Government limited by a constitution.\n*   **Judicial Independence:** Courts free from political interference.\n*   **Due Process:** Fair treatment through the normal judicial system, especially as a citizen's entitlement.\n*   **Legal Certainty:** Laws are clear, stable, and predictable.\n*   **Equality Before the Law:** No one is above the law.\n*   **Access to Justice:** Everyone has the ability to seek and obtain remedies for grievances.\n*   **Transparency & Accountability:** Government actions are open to public scrutiny, and officials are held responsible.\n*   **Human Rights:** The rule of law is essential for the protection and enforcement of human rights.\n\nBy exploring a combination of these resources, you can gain a comprehensive and nuanced understanding of the rule of law. For a beginner, starting with Tom Bingham's book or the World Justice Project's website would be excellent starting points.",
+    "raw": "{}",
     "ig_handle": "eulji_libro",
-    "last_analyzed_at": "2025-12-07T13:35:38.264127+09:00",
+    "last_analyzed_at": "2025-12-14T15:47:10.460850+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -1739,69 +1727,61 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/eulji_libro/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/eulji_libro/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/eulji_libro/profile/2025-11-15/profile.json",
-      "maps:https://maps.google.com/?cid=8635654260314479284",
-      "maps:https://maps.google.com/?cid=13663034785087471750",
-      "maps:https://maps.google.com/?cid=6874901187338063061",
-      "maps:https://maps.google.com/?cid=18270618874985303713",
-      "maps:https://maps.google.com/?cid=5270273997251025286",
-      "maps:https://maps.google.com/?cid=11863271962602043120",
-      "maps:https://maps.google.com/?cid=11192562317915904823",
-      "maps:https://maps.google.com/?cid=3331037088592414322",
-      "maps:https://maps.google.com/?cid=11326317592745726146",
-      "maps:https://maps.google.com/?cid=12156407909338584451",
-      "maps:https://maps.google.com/?cid=3884662711095309924",
-      "maps:https://maps.google.com/?cid=7881999331338962279",
-      "maps:https://maps.google.com/?cid=8623651452108189423",
-      "maps:https://maps.google.com/?cid=4278177352344659895",
-      "maps:https://maps.google.com/?cid=4463016590338046939",
-      "maps:https://maps.google.com/?cid=3627558387309202668",
-      "maps:https://maps.google.com/?cid=9139128750913982148",
-      "maps:https://maps.google.com/?cid=8718953193120920004",
+      "maps:https://maps.google.com/?cid=12958000001331928624",
+      "maps:https://maps.google.com/?cid=18407959025864592145",
+      "maps:https://maps.google.com/?cid=14467095010688180615",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/eulji_libro",
       "homepage": null,
       "booking": "https://catchtable.co.kr/eulji_libro",
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=12958000001331928624",
       "naver_map": "https://naver.me/FUhswpwn"
     },
     "contacts": {
-      "phone": null,
+      "phone": "02-2285-1311",
       "email": null
     },
+    "subway_nearby": "2, 3호선 을지로3가역 9번 출구에서 302m",
+    "genres": [
+      "Bar"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Eulji Libro",
-        "address_text": null,
+        "name": "Libro",
+        "address_text": "South Korea, Seoul, Jung District, Toegye-ro 27-gil, 49 지하 1층",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.5634,
+        "location_lon": 126.991102,
         "subway_nearby": "2, 3호선 을지로3가역 9번 출구에서 302m",
         "booking_link": "https://catchtable.co.kr/eulji_libro",
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Eulji Libro",
-            "ko": "을지리브로"
+            "en": "Libro"
           },
-          "address_text": null,
+          "address_text": {
+            "en": "B1, 49, Toegye-ro 27-gil, Jung-gu, Seoul, South Korea"
+          },
           "notes": null
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "Eulji Libro",
-        "ko": "을지리브로"
+        "en": "Libro"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Bar"
+        ]
+      },
       "subway_nearby": {
-        "en": "302m from Euljiro 3-ga Station Exit 9 (Lines 2, 3)",
-        "ko": "2, 3호선 을지로3가역 9번 출구에서 302m"
+        "en": "Euljiro 3(sam)ga Station (Lines 2, 3), Exit 9, 302m away"
       },
       "food_policy": null,
       "age_limit": null
@@ -1947,19 +1927,19 @@
     "explanation": "This is an annual event happening in Gwacheon, Gyeonggi-do, South Korea. If the event address is not clear, just say 'Gwacheon, Gyeonggi-do, South Korea' / 경기도 과천시."
   },
   {
-    "raw": "## A Culinary Masterpiece: The Golden Spoon Delivers an Unforgettable Experience\n\nFrom the moment you step through the grand oak doors of The Golden Spoon, you know you're in for something special. Tucked away on a charming, tree-lined street, this restaurant has quickly established itself as a beacon of sophisticated dining, promising an evening of culinary delight that truly lives up to its name.\n\n**Ambiance: Elegant Serenity**\nThe interior design strikes a perfect balance between classic elegance and modern comfort. Soft, warm lighting casts a gentle glow over rich velvet banquettes and crisp white linen tablecloths. Tasteful abstract art adorns the walls, complementing the muted color palette. The spacing between tables ensures a sense of intimacy without feeling isolated, and the subtle hum of contented diners, punctuated by soft, ambient jazz, creates an atmosphere that is both lively and serenely sophisticated. It’s the perfect setting for an intimate dinner, a special celebration, or a focused business meal.\n\n**Service: Impeccable and Intuitive**\nThe service at The Golden Spoon is, simply put, impeccable. Our server, Sarah, was a true professional – attentive without being intrusive, knowledgeable without being pretentious. She expertly guided us through the menu, offering insightful recommendations and thoughtfully answering all our questions about ingredients and preparation. Her recommendations for wine pairings were spot-on, enhancing each course beautifully. Water glasses were refilled almost magically, and every dish was presented with a quiet grace. The entire team operated with a seamless efficiency that truly elevated the dining experience.\n\n**The Food: A Symphony of Flavors and Textures**\nBut of course, the heart of any restaurant is its cuisine, and here, The Golden Spoon truly shines. The menu is a testament to innovative culinary artistry, focusing on seasonal, locally sourced ingredients transformed into exquisite dishes.\n\nWe began with the **Seared Scallops with Saffron Risotto and Lemon-Dill Foam**. The scallops were perfectly caramelized, tender and sweet, perched atop a creamy, al dente risotto imbued with the delicate aroma of saffron. The lemon-dill foam provided a brilliant burst of acidity and freshness, cutting through the richness beautifully.\n\nFor our main courses, I opted for the **Pan-Seared Halibut with Asparagus Puree, Roasted Cherry Tomatoes, and a Basil Beurre Blanc**. The halibut was incredibly flaky and moist, its delicate flavor perfectly complemented by the vibrant asparagus puree and the tangy sweetness of the roasted tomatoes. The basil beurre blanc was a revelation – light, herbaceous, and utterly delicious. My dining companion chose the **Braised Short Ribs with Truffled Mashed Potatoes and Glazed Heirloom Carrots**. The short ribs were melt-in-your-mouth tender, falling apart at the touch of a fork, with a rich, deeply savory reduction. The truffled mashed potatoes were luxuriously creamy, and the earthy aroma of truffle was intoxicating.\n\nDessert was a delightful **Deconstructed Berry Crumble with Vanilla Bean Ice Cream and Balsamic Glaze**. It was a playful yet sophisticated take on a classic, with perfectly ripe berries, crunchy oat crumble, and a heavenly vanilla bean ice cream, all brought together by a surprising yet harmonious drizzle of balsamic glaze. Each dish was not just food, but a work of art, meticulously plated with thoughtful consideration for color and composition.\n\n**Value: A Memorable Splurge**\nThe Golden Spoon certainly falls into the fine dining category, and the prices reflect that. However, given the exceptional quality of ingredients, the masterful execution, the impeccable service, and the luxurious ambiance, it represents excellent value for a truly special occasion. This isn't just a meal; it's an experience.\n\n**Conclusion: Prepare to Be Enchanted**\nThe Golden Spoon is more than just a restaurant; it’s a triumph of culinary artistry and hospitality. It offers an unparalleled dining experience that delights all the senses – from the sophisticated ambiance and the attentive service to, most importantly, the extraordinary food. If you're looking for an unforgettable evening out, a place where every detail is considered and every dish is a revelation, The Golden Spoon should be at the very top of your list. Prepare to be enchanted.",
+    "raw": "{}",
     "ig_handle": "ghetto_alive",
-    "last_analyzed_at": "2025-12-07T13:34:05.342281+09:00",
+    "last_analyzed_at": "2025-12-14T15:42:59.543343+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ghetto_alive/profile/2025-12-13/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ghetto_alive/profile/2025-11-30/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ghetto_alive/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ghetto_alive/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ghetto_alive/profile/2025-11-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ghetto_alive/profile/2025-11-12/profile.json",
       "maps:https://maps.google.com/?cid=4488758983597558316",
       "gemini:enrich"
     ],
@@ -1967,33 +1947,30 @@
       "instagram": "https://www.instagram.com/ghetto_alive",
       "homepage": null,
       "booking": null,
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=4488758983597558316",
       "naver_map": "https://naver.me/GmbkrAKg"
     },
     "contacts": {
       "phone": "02-461-1125",
       "email": null
     },
-    "subway_nearby": "2호선 뚝섬역 8번 출구에서 259m",
     "locations": [
       {
         "location_id": "main",
-        "name": "GhettoAlive",
+        "name": "게토얼라이브 GhettoAlive",
         "address_text": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
-        "subway_nearby": "2호선 뚝섬역 8번 출구에서 259m",
+        "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "GhettoAlive",
-            "ko": "게토얼라이브"
+            "en": "GhettoAlive"
           },
           "address_text": {
-            "en": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea",
-            "ko": "서울 성동구 성수동1가 왕십리로 104"
+            "en": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea"
           },
           "notes": null
         }
@@ -2001,32 +1978,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "GhettoAlive",
-        "ko": "게토얼라이브"
+        "en": "GhettoAlive"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Jazz",
-          "Experimental Music",
-          "Korean Traditional Music",
-          "Contemporary Classical",
-          "Electronic Music",
-          "Rock"
-        ],
-        "ko": [
-          "재즈",
-          "실험 음악",
-          "국악",
-          "현대 음악",
-          "전자 음악",
-          "록"
-        ]
-      },
+      "genres": null,
       "subway_nearby": {
-        "en": "259m from Ttukseom Station Exit 8 (Line 2)",
-        "ko": "2호선 뚝섬역 8번 출구에서 259m"
+        "en": "Ttukseom Station Line 2, Exit 8, 259m"
       },
       "food_policy": null,
       "age_limit": null
@@ -2585,9 +2543,9 @@
     }
   },
   {
-    "raw": "{}",
+    "raw": "The problem asks us to find the longest string in a given dictionary that can be formed by deleting some characters from a given string `s`. If there are multiple such strings with the same maximum length, we should return the one that is lexicographically smallest.\n\nLet's break down the problem:\n\n1.  **Check if a word can be formed from `s` by deleting characters:** This means we need to determine if a `word` from the `dictionary` is a *subsequence* of `s`.\n2.  **Iterate and compare:** We need to go through each word in the dictionary, apply the check from step 1, and keep track of the best candidate based on length and then lexicographical order.\n\n---\n\n### Step 1: Checking for Subsequence\n\nTo check if `target_word` is a subsequence of `source_string`, we can use a two-pointer approach:\n\n*   Initialize two pointers, `i` for `source_string` and `j` for `target_word`, both starting at 0.\n*   Iterate `i` from 0 to `len(source_string) - 1`.\n*   If `source_string[i]` matches `target_word[j]`, it means we've found the current character needed for `target_word`, so increment `j`.\n*   Always increment `i`.\n*   After the loop, if `j` has reached `len(target_word)`, it means all characters of `target_word` were found in `source_string` in the correct order, so `target_word` is a subsequence.\n\n**Example:**\n`source_string = \"abpcplea\"`, `target_word = \"apple\"`\n\n1.  `i=0, s[0]='a'`, `j=0, word[0]='a'`. Match. `j` becomes 1.\n2.  `i=1, s[1]='b'`, `j=1, word[1]='p'`. No match.\n3.  `i=2, s[2]='p'`, `j=1, word[1]='p'`. Match. `j` becomes 2.\n4.  `i=3, s[3]='c'`, `j=2, word[2]='p'`. No match.\n5.  `i=4, s[4]='p'`, `j=2, word[2]='p'`. Match. `j` becomes 3.\n6.  `i=5, s[5]='l'`, `j=3, word[3]='l'`. Match. `j` becomes 4.\n7.  `i=6, s[6]='e'`, `j=4, word[4]='e'`. Match. `j` becomes 5.\n8.  `i=7` (end of `s`). `j` is 5, which is `len(\"apple\")`. So, \"apple\" is a subsequence.\n\nThis `is_subsequence` function takes `O(len(source_string))` time in the worst case.\n\n---\n\n### Step 2: Iterate and Compare\n\n1.  Initialize a variable, say `longest_word_found`, to an empty string `\"\"`. This will store our best candidate.\n2.  Iterate through each `word` in the `dictionary`.\n3.  For each `word`:\n    *   Call `is_subsequence(s, word)`.\n    *   If `word` *is* a subsequence:\n        *   **Length Check:** If `len(word)` is greater than `len(longest_word_found)`, then `word` is a new best candidate. Update `longest_word_found = word`.\n        *   **Lexicographical Check (for tie-breaking):** If `len(word)` is equal to `len(longest_word_found)`, we need to choose the lexicographically smaller one. If `word < longest_word_found` (Python's string comparison naturally handles this), then `word` is a better candidate. Update `longest_word_found = word`.\n4.  After checking all words in the dictionary, `longest_word_found` will hold the desired result.\n\n---\n\n### Example Walkthrough\n\n`s = \"abpcplea\"`, `dictionary = [\"ale\",\"apple\",\"monkey\",\"plea\"]`\n\n1.  `longest_word_found = \"\"` (length 0)\n\n2.  **`word = \"ale\"`:**\n    *   `is_subsequence(\"abpcplea\", \"ale\")` -> True (a_b_pc_pl_ea -> ale)\n    *   `len(\"ale\")` (3) > `len(\"\")` (0).\n    *   `longest_word_found = \"ale\"`.\n\n3.  **`word = \"apple\"`:**\n    *   `is_subsequence(\"abpcplea\", \"apple\")` -> True (ab_p_c_p_l_e_a -> apple)\n    *   `len(\"apple\")` (5) > `len(\"ale\")` (3).\n    *   `longest_word_found = \"apple\"`.\n\n4.  **`word = \"monkey\"`:**\n    *   `is_subsequence(\"abpcplea\", \"monkey\")` -> False (No 'm', 'o', 'n', 'k', 'y' in `s` in order).\n    *   `longest_word_found` remains \"apple\".\n\n5.  **`word = \"plea\"`:**\n    *   `is_subsequence(\"abpcplea\", \"plea\")` -> True (ab_p_c_p_l_e_a -> plea)\n    *   `len(\"plea\")` (4) is not > `len(\"apple\")` (5).\n    *   `len(\"plea\")` (4) is not == `len(\"apple\")` (5).\n    *   `longest_word_found` remains \"apple\".\n\n6.  End of dictionary. Return `longest_word_found` which is `\"apple\"`.\n\n---\n\n### Python Implementation\n\n```python\nclass Solution:\n    def findLongestWord(self, s: str, dictionary: list[str]) -> str:\n        longest_word_found = \"\"\n\n        # Helper function to check if target_word is a subsequence of source_string\n        def is_subsequence(source_string: str, target_word: str) -> bool:\n            i = 0  # Pointer for source_string\n            j = 0  # Pointer for target_word\n            while i < len(source_string) and j < len(target_word):\n                if source_string[i] == target_word[j]:\n                    j += 1\n                i += 1\n            # If j has reached the end of target_word, it means all characters were found\n            return j == len(target_word)\n\n        for word in dictionary:\n            if is_subsequence(s, word):\n                # First, check if the current word is longer\n                if len(word) > len(longest_word_found):\n                    longest_word_found = word\n                # If lengths are equal, check lexicographical order\n                elif len(word) == len(longest_word_found):\n                    if word < longest_word_found: # Python's string comparison is lexicographical\n                        longest_word_found = word\n        \n        return longest_word_found\n\n```\n\n---\n\n### Complexity Analysis\n\n*   **Time Complexity:**\n    *   Let `N` be the length of the string `s`.\n    *   Let `M` be the number of words in `dictionary`.\n    *   Let `L_max` be the maximum length of a word in `dictionary`.\n    *   The `is_subsequence` function takes `O(N)` time (as it iterates through `s`).\n    *   We call `is_subsequence` for each of the `M` words in the dictionary.\n    *   Inside the loop, length comparisons are `O(1)`. Lexicographical comparison `word < longest_word_found` takes `O(L_max)` time in the worst case.\n    *   Therefore, the total time complexity is `M * (O(N) + O(L_max))`, which simplifies to `O(M * (N + L_max))`.\n\n*   **Space Complexity:**\n    *   `longest_word_found` stores at most `L_max` characters.\n    *   The `is_subsequence` function uses a few constant variables.\n    *   Thus, the space complexity is `O(L_max)` to store the result, or `O(1)` if we don't count the output string size. Since we're just storing a string from the input, it's often considered `O(1)` auxiliary space.\n\n---",
     "ig_handle": "jazzclub_janus",
-    "last_analyzed_at": "2025-12-07T13:40:49.843268+09:00",
+    "last_analyzed_at": "2025-12-14T16:01:26.133106+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -2596,14 +2554,13 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzclub_janus/profile/2025-10-28/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzclub_janus/profile/2025-10-19/profile.json",
       "maps:https://maps.google.com/?cid=15245543658347824413",
-      "maps:https://maps.google.com/?cid=5971072195428602943",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/jazzclub_janus",
       "homepage": null,
       "booking": "https://app.catchtable.co.kr/ct/shop/jazzclubjanus?from=share&type=NONE",
-      "google_map": "https://maps.google.com/?cid=15245543658347824413",
+      "google_map": null,
       "naver_map": "https://naver.me/Fc5bc5Es"
     },
     "contacts": {
@@ -2617,19 +2574,17 @@
         "name": "Janus Jazz Club",
         "address_text": "1-48 Jeong-dong, Jung District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.569007,
-        "location_lon": 126.975415,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": "5호선 광화문역 5번 출구에서 310m",
-        "booking_link": "https://app.catchtable.co.kr/ct/shop/jazzclubjanus?from=share&type=NONE",
+        "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Janus Jazz Club",
-            "ko": "재즈클럽 야누스"
+            "en": "Janus Jazz Club"
           },
           "address_text": {
-            "en": "1-48 Jeong-dong, Jung District, Seoul, South Korea",
-            "ko": "서울 중구 정동 1-48"
+            "en": "1-48 Jeong-dong, Jung District, Seoul, South Korea"
           },
           "notes": null
         }
@@ -2637,15 +2592,15 @@
     ],
     "i18n": {
       "name": {
-        "en": "Janus Jazz Club",
-        "ko": "재즈클럽 야누스"
+        "en": "Janus Jazz Club"
       },
-      "address_text": null,
+      "address_text": {
+        "en": "1-48 Jeong-dong, Jung District, Seoul, South Korea"
+      },
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "310m from Gwanghwamun Station Exit 5, Line 5",
-        "ko": "5호선 광화문역 5번 출구에서 310m"
+        "en": "Gwanghwamun Station (Line 5), Exit 5, 310m"
       },
       "food_policy": null,
       "age_limit": null
@@ -2713,9 +2668,9 @@
     }
   },
   {
-    "raw": "Assuming `images` is an array or list of image objects/paths, the first image would typically be accessed by its index `0`.\n\n```python\ndef get_first_image(images):\n  \"\"\"\n  Retrieves the first image from a list or array of images.\n\n  Args:\n    images: A list or array of image objects, paths, or data.\n\n  Returns:\n    The first image in the list/array, or None if the list is empty.\n  \"\"\"\n  if images:\n    return images[0]\n  else:\n    return None\n\n# --- Example Usage ---\n\n# Example 1: List of image URLs\nimage_urls = [\n    \"https://example.com/image1.jpg\",\n    \"https://example.com/image2.png\",\n    \"https://example.com/image3.gif\"\n]\nfirst_url = get_first_image(image_urls)\nprint(f\"First image URL: {first_url}\") # Output: First image URL: https://example.com/image1.jpg\n\n# Example 2: List of image objects (placeholder)\nclass ImageObject:\n    def __init__(self, name):\n        self.name = name\n    def __str__(self):\n        return f\"ImageObject({self.name})\"\n\nimage_objects = [\n    ImageObject(\"Sunset.jpg\"),\n    ImageObject(\"Mountain.png\"),\n    ImageObject(\"Forest.gif\")\n]\nfirst_object = get_first_image(image_objects)\nprint(f\"First image object: {first_object}\") # Output: First image object: ImageObject(Sunset.jpg)\n\n# Example 3: Empty list\nempty_images = []\nfirst_empty = get_first_image(empty_images)\nprint(f\"First image from empty list: {first_empty}\") # Output: First image from empty list: None\n```",
+    "raw": "The location of a \"Special Instruction\" section in a PDF document is **not standardized** and can vary greatly depending on the document's purpose, creator, and type (e.g., academic paper, user manual, application form, legal document).\n\nHowever, here are the most common places you might find such a section, along with the logic behind each location:\n\n1.  **At the Beginning of the Document (Most Common):**\n    *   **Rationale:** If the instructions are crucial for understanding how to read, use, or interact with the document itself, they need to be presented upfront.\n    *   **Specific Locations:**\n        *   Immediately after the **Title Page** or **Table of Contents**.\n        *   Within the **Introduction** or **Preface** section.\n        *   As a standalone section titled \"Instructions,\" \"Special Instructions,\" \"Important Notice,\" or \"How to Use This Document\" on one of the initial pages.\n        *   On a dedicated **cover sheet** or first page, especially for forms or application packets.\n\n2.  **As an Appendix (Less Common, but for detailed instructions):**\n    *   **Rationale:** If the special instructions are very detailed, technical, or supplementary to the main content, they might be placed in an appendix so as not to interrupt the primary narrative or information flow.\n    *   **Specific Locations:**\n        *   In a section titled \"Appendix A: Special Instructions\" or similar, usually found at the very end of the main body of the document, before references or an index.\n\n3.  **Within a Specific Section of the Main Body:**\n    *   **Rationale:** If the instructions pertain only to a particular chapter, form, or dataset within the document, they might be embedded directly where they are most relevant.\n    *   **Specific Locations:**\n        *   At the beginning of a specific chapter or form that requires special handling.\n        *   Next to a particular data table or chart that needs specific interpretation guidance.\n\n**How to find it if you're looking for it:**\n\n1.  **Check the Table of Contents:** Many well-structured PDFs will list such a section if it's significant.\n2.  **Scan the First Few Pages:** Look for headings like \"Instructions,\" \"Important,\" \"Please Read,\" or \"Special Notes.\"\n3.  **Use the Search Function (Ctrl+F or Cmd+F):** Type \"Special Instruction,\" \"Instructions,\" \"Important,\" \"Note,\" or keywords related to what you expect the instructions to be about.\n\nIn summary, for general \"Special Instructions\" intended for the reader, look at the **beginning of the document** first.",
     "ig_handle": "jazzgarage_official",
-    "last_analyzed_at": "2025-12-07T13:38:33.231963+09:00",
+    "last_analyzed_at": "2025-12-14T15:55:09.839576+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -2737,28 +2692,31 @@
       "naver_map": "https://naver.me/xCB7Ysrc"
     },
     "contacts": {
-      "phone": null,
+      "phone": "010-9474-3712",
       "email": null
     },
+    "subway_nearby": "6호선 녹사평역 1번 출구에서 477m",
+    "websites": [
+      "https://www.instagram.com/jazzgarage_official",
+      "https://www.youtube.com/@JazzGarageLive"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Jazz Garage",
+        "name": "재즈가라지 jazz garage",
         "address_text": "7 Hoenamu-ro, Yongsan District, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
-        "subway_nearby": "6호선 녹사평역 1번 출구에서 477m",
+        "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Jazz Garage",
-            "ko": "재즈가라지"
+            "en": "Jazz Garage"
           },
           "address_text": {
-            "en": "7 Hoenamu-ro, Yongsan District, Seoul, South Korea",
-            "ko": "서울 용산구 회나무로 7"
+            "en": "7 Hoenamu-ro, Yongsan District, Seoul, South Korea"
           },
           "notes": null
         }
@@ -2766,15 +2724,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Jazz Garage",
-        "ko": "재즈가라지"
+        "en": "Jazz Garage"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "477m from Noksapyeong Station, Line 6, Exit 1",
-        "ko": "6호선 녹사평역 1번 출구에서 477m"
+        "en": "477m from Noksapyeong Station, Line 6, Exit 1"
       },
       "food_policy": null,
       "age_limit": null
@@ -3460,64 +3416,67 @@
     }
   },
   {
-    "raw": "You're asking to implement a basic command-line argument parser similar to what `argparse` does, but from scratch. This involves iterating through the arguments and identifying patterns like `--flag`, `--flag value`, and `--flag=value`.\n\nHere's a Python function to achieve this:\n\n```python\nimport sys\n\ndef parse_custom_args(args_list):\n    \"\"\"\n    Parses a list of command-line arguments into a dictionary.\n\n    Supports the following patterns:\n    - --flag: Boolean flag, value will be True.\n    - --flag value: Flag with an associated string value.\n    - --flag=value: Flag with an associated string value.\n\n    Args:\n        args_list (list): A list of strings, typically sys.argv[1:].\n\n    Returns:\n        dict: A dictionary where keys are flag names (without '--')\n              and values are parsed booleans or strings.\n    \"\"\"\n    parsed_args = {}\n    i = 0\n    while i < len(args_list):\n        arg = args_list[i]\n\n        if not arg.startswith('--'):\n            # This case means we encountered something that's not a flag\n            # and was not consumed as a value for a previous flag.\n            # This might be a positional argument, or a malformed input.\n            # For this simple parser, we'll ignore it or treat it as an error.\n            # For now, let's just skip it and move on, printing a warning.\n            print(f\"Warning: Skipping unrecognized argument: {arg}\")\n            i += 1\n            continue\n\n        # Remove the '--' prefix\n        key_full = arg[2:]\n\n        if '=' in key_full:\n            # Pattern: --flag=value\n            key, value = key_full.split('=', 1)\n            parsed_args[key] = value\n            i += 1\n        else:\n            # Pattern: --flag OR --flag value\n            key = key_full\n            # Check if the next argument is a value for this flag\n            # It's a value if it exists and doesn't start with '--'\n            if (i + 1 < len(args_list) and\n                    not args_list[i+1].startswith('--')):\n                value = args_list[i+1]\n                parsed_args[key] = value\n                i += 2  # Consumed both the flag and its value\n            else:\n                # It's a boolean flag: --flag\n                parsed_args[key] = True\n                i += 1  # Consumed only the flag\n\n    return parsed_args\n\n# --- Example Usage ---\nif __name__ == \"__main__\":\n    # Simulate sys.argv for testing purposes\n    # sys.argv[0] is always the script name, so we typically slice from 1\n    test_args1 = [\"--foo\", \"--bar\", \"value\", \"--baz=123\", \"--qux\"]\n    test_args2 = [\"--verbose\", \"--file\", \"input.txt\", \"--output=output.log\", \"--dry-run\"]\n    test_args3 = [\"--empty=\", \"--threshold\", \"0.5\"]\n    test_args4 = [\"--host\", \"localhost\", \"extra_arg_ignored\", \"--port=8080\"]\n    test_args5 = [\"--only-flag\"]\n\n    print(\"--- Test Case 1 ---\")\n    print(f\"Input: {test_args1}\")\n    result1 = parse_custom_args(test_args1)\n    print(f\"Output: {result1}\")\n    # Expected: {'foo': True, 'bar': 'value', 'baz': '123', 'qux': True}\n    print(\"-\" * 20)\n\n    print(\"--- Test Case 2 ---\")\n    print(f\"Input: {test_args2}\")\n    result2 = parse_custom_args(test_args2)\n    print(f\"Output: {result2}\")\n    # Expected: {'verbose': True, 'file': 'input.txt', 'output': 'output.log', 'dry-run': True}\n    print(\"-\" * 20)\n\n    print(\"--- Test Case 3 ---\")\n    print(f\"Input: {test_args3}\")\n    result3 = parse_custom_args(test_args3)\n    print(f\"Output: {result3}\")\n    # Expected: {'empty': '', 'threshold': '0.5'}\n    print(\"-\" * 20)\n\n    print(\"--- Test Case 4 (with unrecognized arg) ---\")\n    print(f\"Input: {test_args4}\")\n    result4 = parse_custom_args(test_args4)\n    print(f\"Output: {result4}\")\n    # Expected: {'host': 'localhost', 'port': '8080'} (and a warning for 'extra_arg_ignored')\n    print(\"-\" * 20)\n    \n    print(\"--- Test Case 5 (only flag) ---\")\n    print(f\"Input: {test_args5}\")\n    result5 = parse_custom_args(test_args5)\n    print(f\"Output: {result5}\")\n    # Expected: {'only-flag': True}\n    print(\"-\" * 20)\n\n    # To run with actual command-line arguments:\n    # python your_script_name.py --foo --bar value --baz=123 --qux\n    print(\"\\n--- Running with actual sys.argv ---\")\n    if len(sys.argv) > 1:\n        print(f\"Raw sys.argv: {sys.argv}\")\n        actual_parsed_args = parse_custom_args(sys.argv[1:])\n        print(f\"Parsed sys.argv[1:]: {actual_parsed_args}\")\n    else:\n        print(\"No command-line arguments provided for sys.argv test.\")\n        print(\"Try running: python your_script_name.py --test --name actual --value=100\")\n```\n\n**Explanation:**\n\n1.  **`parse_custom_args(args_list)` function:**\n    *   Initializes `parsed_args` dictionary to store the results.\n    *   Uses a `while` loop with an index `i` to iterate through `args_list`. This is crucial because we might need to \"look ahead\" or consume two arguments at once (e.g., `--flag value`).\n    *   **Checks for `--` prefix:** If an argument doesn't start with `--`, it's considered an unrecognized argument (e.g., a positional argument not handled by this parser's simple rules) and a warning is printed before skipping it.\n    *   **Handles `--flag=value`:**\n        *   If `=` is found in the part of the argument *after* `--`, it splits the string at the first `=` (using `split('=', 1)`).\n        *   The part before `=` is the `key`, and the part after is the `value`.\n        *   `i` is incremented by 1 as one argument has been processed.\n    *   **Handles `--flag` and `--flag value`:**\n        *   If no `=` is found, the argument is either a boolean flag (`--flag`) or a flag expecting a value in the *next* argument (`--flag value`).\n        *   It then checks `args_list[i+1]`:\n            *   **`i + 1 < len(args_list)`:** Ensures we don't go out of bounds.\n            *   **`not args_list[i+1].startswith('--')`:** Ensures the *next* argument is not another flag, implying it's a value.\n            *   If both conditions are true, the next argument is taken as the `value`. `i` is incremented by 2 (current flag + its value).\n            *   Otherwise, it's a boolean flag, and its value is set to `True`. `i` is incremented by 1 (only the flag itself).\n    *   Returns the `parsed_args` dictionary.\n\n2.  **`if __name__ == \"__main__\":` block:**\n    *   This block contains example test cases to demonstrate how the function works with various argument patterns.\n    *   It also shows how to use it with `sys.argv[1:]` to parse actual command-line arguments when the script is run.\n\nThis custom parser covers the common patterns you outlined and provides a good starting point for understanding how argument parsing works internally. For more complex scenarios (type conversion, required arguments, defaults, help messages, short flags like `-f`), `argparse` is the standard and recommended solution in Python.",
+    "raw": "The provided SQL query is already very close to BigQuery Standard SQL. The main difference lies in how tables are referenced. In BigQuery, what you might call a \"schema\" is generally referred to as a \"dataset\".\n\nSo, `schema.table_name` in your original query would typically become `your_dataset_name.table_name` in BigQuery.\n\nHere's the converted query:\n\n```sql\nSELECT\n  a.column1,\n  a.column2,\n  b.column3\nFROM\n  `your_project_id.your_dataset_name.table1` AS a  -- Fully qualified table name with project_id, dataset_name, and table_name\nJOIN\n  `your_project_id.your_dataset_name.table2` AS b  -- Backticks are optional for valid identifiers, but good practice for clarity.\nON\n  a.column1 = b.column1\nWHERE\n  a.column2 = 'some_value'\n  AND b.column3 IS NOT NULL;\n```\n\n**Key Changes/Notes:**\n\n1.  **Table Naming:**\n    *   `schema.table1` becomes `your_dataset_name.table1` (if the dataset is in the current project).\n    *   For full clarity and best practice in BigQuery, you can use the fully qualified path: `` `your_project_id.your_dataset_name.table1` ``. This ensures you're referencing the exact table.\n    *   Backticks (`` ` ``) are used around table identifiers when they contain special characters or for explicit fully qualified paths, but are optional for simple `dataset.table` names that are valid SQL identifiers. I've added them here for robustness and common BigQuery practice.\n2.  **`AS` Keyword for Aliases:** While `schema.table1 a` is valid in BigQuery, explicitly using `AS a` (e.g., `your_dataset_name.table1 AS a`) is often preferred for readability and explicit alias definition. It works both ways.\n\n**To use this query, remember to replace:**\n*   `` `your_project_id` `` with the actual ID of your Google Cloud project.\n*   `` `your_dataset_name` `` with the actual name of your BigQuery dataset.",
     "ig_handle": "muga.misa",
-    "last_analyzed_at": "2025-12-07T13:43:33.102474+09:00",
+    "last_analyzed_at": "2025-12-14T16:06:53.339891+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/muga.misa/profile/2025-12-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/muga.misa/profile/2025-12-10/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/muga.misa/profile/2025-11-28/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/muga.misa/profile/2025-11-21/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/muga.misa/profile/2025-11-20/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/muga.misa/profile/2025-11-18/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/muga.misa/profile/2025-11-17/profile.json",
-      "maps:https://maps.google.com/?cid=13512722255005377392",
-      "maps:https://maps.google.com/?cid=7313931906314492915",
-      "maps:https://maps.google.com/?cid=3807543638847362510",
-      "maps:https://maps.google.com/?cid=9047569183103713096",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/muga.misa",
       "homepage": null,
       "booking": null,
-      "google_map": null
+      "google_map": "https://maps.app.goo.gl/q6K1NqCgUvQ5gR2T7"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
+    "genres": [
+      "재즈 바"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Muga Misa",
-        "address_text": null,
+        "name": "무가미사",
+        "address_text": "서울 용산구 우사단로10길 145 2층 무가미사",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.530579823071,
+        "location_lon": 127.002828733784,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Muga Misa",
-            "ko": "무가 미사"
+            "en": "Muga Misa"
           },
-          "address_text": null,
+          "address_text": {
+            "en": "145 Usadan-ro 10-gil, Yongsan-gu, Seoul, South Korea"
+          },
           "notes": null
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "Muga Misa",
-        "ko": "무가 미사"
+        "en": "Muga Misa"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Jazz Bar"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -3727,45 +3686,19 @@
     }
   },
   {
-    "raw": "{}",
+    "raw": "There are two main approaches to merge two sorted linked lists: **iterative** and **recursive**. Both are valid and have their own advantages.\n\nLet's first define the `ListNode` class, which is typically provided in LeetCode:\n\n```python\n# Definition for singly-linked list.\nclass ListNode:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next\n```\n\n---\n\n## 1. Iterative Approach\n\nThis approach builds the new merged list step-by-step by comparing the current nodes of `list1` and `list2` and appending the smaller one to the result list.\n\n**Algorithm:**\n\n1.  **Create a dummy head node:** This simplifies the logic, especially for attaching the very first node to the merged list. We'll return `dummy.next` at the end.\n2.  **Initialize a `current` pointer:** This pointer will always point to the last node added to our merged list. Start it at the `dummy` node.\n3.  **Loop while both lists have nodes:**\n    *   Compare `list1.val` and `list2.val`.\n    *   Append the node with the smaller value to `current.next`.\n    *   Advance the pointer of the list from which the node was taken (e.g., `list1 = list1.next`).\n    *   Advance the `current` pointer to the newly appended node (`current = current.next`).\n4.  **Append remaining nodes:** After the loop, one of the lists might still have remaining nodes (because the loop terminates when one list becomes empty). Append the entire remainder of that list to `current.next`.\n5.  **Return `dummy.next`:** This gives the head of the truly merged list, skipping the dummy node.\n\n**Example Walkthrough:**\n\n`list1 = [1,2,4]`, `list2 = [1,3,4]`\n\n1.  `dummy = ListNode(0)`, `current = dummy` (`0 -> None`)\n2.  **Loop 1:**\n    *   `list1.val = 1`, `list2.val = 1`. `1 <= 1` is true.\n    *   `current.next = list1` (`0 -> 1 (from list1)`)\n    *   `list1 = 2`\n    *   `current = 1` (now `current` points to the node `1`)\n3.  **Loop 2:**\n    *   `list1.val = 2`, `list2.val = 1`. `2 <= 1` is false.\n    *   `current.next = list2` (`0 -> 1 (from list1) -> 1 (from list2)`)\n    *   `list2 = 3`\n    *   `current = 1` (now `current` points to the node `1` from `list2`)\n4.  **Loop 3:**\n    *   `list1.val = 2`, `list2.val = 3`. `2 <= 3` is true.\n    *   `current.next = list1` (`0 -> 1 -> 1 -> 2 (from list1)`)\n    *   `list1 = 4`\n    *   `current = 2`\n5.  **Loop 4:**\n    *   `list1.val = 4`, `list2.val = 3`. `4 <= 3` is false.\n    *   `current.next = list2` (`0 -> 1 -> 1 -> 2 -> 3 (from list2)`)\n    *   `list2 = 4`\n    *   `current = 3`\n6.  **Loop 5:**\n    *   `list1.val = 4`, `list2.val = 4`. `4 <= 4` is true.\n    *   `current.next = list1` (`0 -> 1 -> 1 -> 2 -> 3 -> 4 (from list1)`)\n    *   `list1 = None`\n    *   `current = 4`\n7.  **Loop terminates** because `list1` is now `None`.\n8.  **Append remaining:** `list1` is `None`, `list2` is `[4]`. So, `current.next = list2`.\n    *   Result: `0 -> 1 -> 1 -> 2 -> 3 -> 4 -> 4 (from list2)`\n9.  **Return `dummy.next`:** `[1, 1, 2, 3, 4, 4]`\n\n**Python Code (Iterative):**\n\n```python\nfrom typing import Optional\n\nclass Solution:\n    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:\n        # Create a dummy head node for the merged list\n        dummy = ListNode()\n        current = dummy  # Pointer to the current tail of the merged list\n\n        # Loop while both lists have nodes to compare\n        while list1 and list2:\n            if list1.val <= list2.val:\n                current.next = list1  # Append list1's current node\n                list1 = list1.next    # Move list1 pointer forward\n            else:\n                current.next = list2  # Append list2's current node\n                list2 = list2.next    # Move list2 pointer forward\n            \n            current = current.next    # Move current pointer forward (to the newly added node)\n\n        # After the loop, one list might still have remaining elements.\n        # Append the non-empty remainder to the merged list.\n        if list1:\n            current.next = list1\n        elif list2:\n            current.next = list2\n        \n        # A more concise way to do the above if/elif:\n        # current.next = list1 or list2\n\n        return dummy.next  # The merged list starts after the dummy node\n\n```\n\n**Complexity Analysis (Iterative):**\n\n*   **Time Complexity:** `O(m + n)`, where `m` and `n` are the lengths of `list1` and `list2` respectively. We iterate through both lists once, performing constant time operations for each node.\n*   **Space Complexity:** `O(1)`. We only use a few extra pointers (dummy, current, list1, list2) regardless of the input list sizes. We are reusing the nodes from the original lists, not creating new ones (except for the dummy node).\n\n---\n\n## 2. Recursive Approach\n\nThis approach leverages recursion by breaking the problem down into smaller subproblems.\n\n**Algorithm:**\n\n1.  **Base Cases:**\n    *   If `list1` is empty, return `list2`.\n    *   If `list2` is empty, return `list1`.\n2.  **Recursive Step:**\n    *   Compare `list1.val` and `list2.val`.\n    *   **If `list1.val <= list2.val`:**\n        *   The head of the merged list will be `list1`.\n        *   Its `next` pointer will be the result of merging `list1.next` and `list2`.\n        *   Return `list1`.\n    *   **Else (`list2.val < list1.val`):**\n        *   The head of the merged list will be `list2`.\n        *   Its `next` pointer will be the result of merging `list1` and `list2.next`.\n        *   Return `list2`.\n\n**Python Code (Recursive):**\n\n```python\nfrom typing import Optional\n\nclass Solution:\n    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:\n        # Base cases: if either list is empty, return the other list\n        if not list1:\n            return list2\n        if not list2:\n            return list1\n        \n        # Recursive step\n        if list1.val <= list2.val:\n            # If list1's value is smaller (or equal), it's the head of the merged list.\n            # Recursively merge the rest of list1 (list1.next) with list2.\n            list1.next = self.mergeTwoLists(list1.next, list2)\n            return list1\n        else:\n            # If list2's value is smaller, it's the head of the merged list.\n            # Recursively merge list1 with the rest of list2 (list2.next).\n            list2.next = self.mergeTwoLists(list1, list2.next)\n            return list2\n\n```\n\n**Complexity Analysis (Recursive):**\n\n*   **Time Complexity:** `O(m + n)`. Each node is visited once during the comparisons and assignments.\n*   **Space Complexity:** `O(m + n)`. This is due to the recursion stack. In the worst case (e.g., one list is much longer than the other, or elements alternate), the depth of the recursion can be `m + n`.\n\n---\n\n**Which approach to choose?**\n\n*   The **iterative approach** is generally preferred for linked list problems in interviews to avoid potential stack overflow issues for very long lists (though typical LeetCode constraints might allow recursion). It also tends to be slightly more efficient due to avoiding function call overhead.\n*   The **recursive approach** is often more concise and elegant for some people, clearly reflecting the divide-and-conquer nature of the problem.\n\nFor this specific problem, both are excellent solutions.",
     "ig_handle": "oldblue_jazz",
-    "last_analyzed_at": "2025-12-07T13:39:47.025055+09:00",
+    "last_analyzed_at": "2025-12-14T15:59:14.180304+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/oldblue_jazz/profile/2025-12-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/oldblue_jazz/profile/2025-12-08/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/oldblue_jazz/profile/2025-12-06/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/oldblue_jazz/profile/2025-11-23/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/oldblue_jazz/profile/2025-11-21/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/oldblue_jazz/profile/2025-11-18/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/oldblue_jazz/profile/2025-11-17/profile.json",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=6393745887827067989",
-      "maps:https://maps.google.com/?cid=18103884637851195875",
-      "maps:https://maps.google.com/?cid=12950663042103342245",
-      "maps:https://maps.google.com/?cid=5936925627923403423",
-      "maps:https://maps.google.com/?cid=17671353726141817992",
-      "maps:https://maps.google.com/?cid=11842852244500454903",
-      "maps:https://maps.google.com/?cid=3512824848346026630",
-      "maps:https://maps.google.com/?cid=4871300097347501116",
-      "maps:https://maps.google.com/?cid=12958000001331928624",
-      "maps:https://maps.google.com/?cid=13163330699457356298",
-      "maps:https://maps.google.com/?cid=11008665381407066468",
-      "maps:https://maps.google.com/?cid=16693826049875737167",
-      "maps:https://maps.google.com/?cid=15331558620770093426",
-      "maps:https://maps.google.com/?cid=3803486770832132230",
-      "maps:https://maps.google.com/?cid=14710763701329609732",
-      "maps:https://maps.google.com/?cid=16541142817595661083",
-      "maps:https://maps.google.com/?cid=11881259354384405760",
-      "maps:https://maps.google.com/?cid=12394425489685322204",
-      "maps:https://maps.google.com/?cid=6087030527074110830",
-      "maps:https://maps.google.com/?cid=10087528049587969518",
-      "maps:https://maps.google.com/?cid=10469024144103497378",
-      "maps:https://maps.google.com/?cid=1341950288702160943",
-      "maps:https://maps.google.com/?cid=1622847105428903847",
-      "maps:https://maps.google.com/?cid=13693199054155103343",
-      "maps:https://maps.google.com/?cid=17553450007670714737",
       "gemini:enrich"
     ],
     "links": {
@@ -3775,17 +3708,18 @@
       "google_map": null
     },
     "contacts": {
-      "phone": null,
+      "phone": "+82 2-747-9799",
       "email": null
     },
-    "genres": [
-      "Jazz"
+    "websites": [
+      "https://www.instagram.com/oldblue_jazz",
+      "http://oldblue.alltheway.kr/"
     ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Old Blue Jazz",
-        "address_text": null,
+        "name": "Old Blue",
+        "address_text": "15-7 Supyo-ro 28-gil, Ikseon-dong, Jongno-gu, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
@@ -3794,29 +3728,22 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Old Blue Jazz",
-            "ko": "올드블루 재즈"
+            "en": "Old Blue"
           },
-          "address_text": null,
+          "address_text": {
+            "en": "15-7 Supyo-ro 28-gil, Ikseon-dong, Jongno-gu, Seoul, South Korea"
+          },
           "notes": null
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "Old Blue Jazz",
-        "ko": "올드블루 재즈"
+        "en": "Old Blue"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Jazz"
-        ],
-        "ko": [
-          "재즈"
-        ]
-      },
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -4100,39 +4027,21 @@
     }
   },
   {
-    "raw": "It sounds like you might be thinking of **Microsoft Project**!\n\nMany people refer to it colloquially as \"Project Manager\" or \"MS Project\" because it's a very popular and widely used software specifically designed for project management, scheduling, and creating Gantt charts.\n\nWhile Microsoft Project is a leading option, there are many other great software tools for making Gantt charts and managing projects, such as:\n\n*   **Smartsheet**\n*   **Asana**\n*   **Trello** (with specific power-ups/plugins)\n*   **Jira** (especially for software development, with plugins)\n*   **Wrike**\n*   **Monday.com**\n*   **GanttProject** (free and open-source)\n*   **Primavera P6** (for more complex construction and engineering projects)\n\nBut based on \"Project Manager,\" **Microsoft Project** is almost certainly what you're thinking of!",
+    "raw": "You're describing a common scenario where `cp -u` and `rsync -u` don't always behave *exactly* as desired, especially concerning files with identical timestamps but different sizes/content, or when `cp -u` might copy if the destination is older but larger (which it shouldn't, strictly speaking, if it's only looking at modification time).\n\nThe core logic you want is:\n1.  If the destination file does not exist, copy the source.\n2.  If the destination file *does* exist, copy the source *only if* the source file's modification time is strictly newer than the destination file's modification time.\n3.  In all other cases (source is older or has the same modification time as the destination), *do not copy*, regardless of file size or content differences.\n\nLet's break down why standard tools might fall short and then provide a robust solution.\n\n### Why `cp -u` and `rsync -u` might not match your exact needs:\n\n*   **`cp -u` (`--update`)**: As per its man page, it copies \"only when the SOURCE file is newer than the destination file or when the destination file does not exist.\" This sounds exactly like what you want. If it's copying when the destination is \"older but larger,\" it suggests that \"older\" still means the source is newer, which would be correct behavior for `cp -u`. If it's copying with \"same timestamp but different content,\" then your `cp` might be behaving differently from its documentation or performing an additional check (which is unusual for `cp -u` but could happen if the timestamp resolution isn't sufficient or if there's a non-standard implementation).\n\n*   **`rsync -u` (`--update`)**: This option tells `rsync` \"skip files that are newer on the receiver\". This means it *will* update a file if the source is newer, or if the destination file doesn't exist. It also considers files different if their size or modification time differs (unless other options like `--checksum` are used). If the source and destination have the *same* modification time but different sizes, `rsync -u` would typically copy the file because it considers them different. This is where it deviates from your \"same age, don't copy\" requirement.\n\n### The Robust Solution: A Custom Script\n\nTo precisely implement your logic, a simple shell script using `find` and `cp` with explicit checks is the most reliable approach. This avoids any ambiguity from built-in commands' nuanced behaviors.\n\n```bash\n#!/bin/bash\n\n# special_copy_recursive <source_dir> <destination_dir>\n# Copies files from source_dir to destination_dir based on specific criteria:\n# 1. Copies if the destination file does not exist.\n# 2. Copies if the source file is strictly newer than the destination file.\n# 3. Skips otherwise (source is older or same age as destination).\n# Preserves file modification times.\n\nspecial_copy_recursive() {\n    local SOURCE_ROOT=\"$1\"\n    local DEST_ROOT=\"$2\"\n\n    if [ -z \"$SOURCE_ROOT\" ] || [ -z \"$DEST_ROOT\" ]; then\n        echo \"Usage: $0 <source_directory> <destination_directory>\"\n        exit 1\n    fi\n\n    if [ ! -d \"$SOURCE_ROOT\" ]; then\n        echo \"Error: Source directory '$SOURCE_ROOT' does not exist.\"\n        exit 1\n    fi\n\n    # Ensure destination root directory exists\n    mkdir -p \"$DEST_ROOT\"\n\n    # Function to handle a single file copy logic\n    # This function is exported so find -exec can use it in a new shell context.\n    _copy_if_newer_or_missing() {\n        local source_file=\"$1\"\n        local current_dest_root=\"$2\" # This will be $DEST_ROOT from the main script\n\n        # Calculate the relative path from SOURCE_ROOT\n        local relative_path=\"${source_file#$SOURCE_ROOT/}\"\n        local dest_file=\"${current_dest_root}/${relative_path}\"\n\n        # Ensure the destination directory for this file exists\n        mkdir -p \"$(dirname \"$dest_file\")\"\n\n        if [ ! -f \"$dest_file\" ]; then\n            # Case 1: Destination file does not exist, copy it\n            cp -p \"$source_file\" \"$dest_file\"\n            echo \"Copied (new file): $relative_path\"\n        elif [ \"$source_file\" -nt \"$dest_file\" ]; then\n            # Case 2: Source file is strictly newer than destination file, copy it\n            cp -p \"$source_file\" \"$dest_file\"\n            echo \"Copied (newer source): $relative_path\"\n        else\n            # Case 3: Source file is older or has the same modification time. Skip.\n            # This explicitly handles the \"same timestamp, different content\" case by skipping.\n            # echo \"Skipped (source not newer): $relative_path\"\n            : # No-op for skipped files, uncomment echo above for verbose skipping\n        fi\n    }\n\n    # Export the function and variables for find -exec to inherit\n    export -f _copy_if_newer_or_missing\n    export SOURCE_ROOT # Make SOURCE_ROOT available inside the function for relative path calculation\n\n    # Use find to iterate through all files in the source directory\n    # -print0 and xargs -0 are generally safer for filenames with spaces/special characters,\n    # but -exec bash -c '...' {} is also very robust.\n    # The {} passes the source_file, and $DEST_ROOT is passed as an argument to the inner bash.\n    find \"$SOURCE_ROOT\" -type f -exec bash -c '_copy_if_newer_or_missing \"$0\" \"$1\"' {} \"$DEST_ROOT\" \\;\n\n    echo \"Special copy process complete.\"\n}\n\n# --- Script Execution ---\n# Call the function with your source and destination directories\nspecial_copy_recursive \"$1\" \"$2\"\n```\n\n**How to use it:**\n\n1.  Save the script above as a file, for example, `special_copy.sh`.\n2.  Make it executable: `chmod +x special_copy.sh`\n3.  Run it: `./special_copy.sh /path/to/source_directory /path/to/destination_directory`\n\n**Explanation of the Script:**\n\n*   **`special_copy_recursive()` function**: Encapsulates the entire logic for clarity.\n*   **`_copy_if_newer_or_missing()` function**: This is the core logic applied to each file.\n    *   It takes the full path to a `source_file` and the `DEST_ROOT` as arguments.\n    *   It calculates the `relative_path` to preserve the directory structure.\n    *   `mkdir -p \"$(dirname \"$dest_file\")\"`: Ensures that all necessary parent directories in the destination exist before attempting to copy a file into them.\n    *   `[ ! -f \"$dest_file\" ]`: Checks if the destination file exists. If not, it copies.\n    *   `[ \"$source_file\" -nt \"$dest_file\" ]`: This is the crucial comparison. `-nt` stands for \"newer than\". It's a robust shell operator to compare modification times. If the source is newer, it copies.\n    *   `cp -p \"$source_file\" \"$dest_file\"`: The `-p` option is vital here. It preserves the modification time, ownership, and permissions of the source file, ensuring that future runs of this script (or `cp -u`) will correctly compare timestamps.\n    *   **The `else` block (or lack thereof)**: If neither of the `if` conditions is met, it means the source file is either older than or has the *same* modification time as the destination file. In this case, the script explicitly does nothing, fulfilling your requirement to skip such files.\n*   **`export -f _copy_if_newer_or_missing`**: This command makes the `_copy_if_newer_or_missing` function available to subshells. This is necessary because `find -exec` runs its commands in new subshells.\n*   **`find \"$SOURCE_ROOT\" -type f -exec bash -c '...' {} \"$DEST_ROOT\" \\;`**:\n    *   `find \"$SOURCE_ROOT\" -type f`: Recursively finds all *files* (excluding directories) within `SOURCE_ROOT`.\n    *   `-exec bash -c '...' {} \"$DEST_ROOT\" \\;`: For each found file, it executes a `bash` command.\n        *   `bash -c '...'`: Runs a short script string.\n        *   `_copy_if_newer_or_missing \"$0\" \"$1\"`: This calls our exported function. `$0` inside `bash -c` refers to the first argument passed to `bash -c` itself (which is `{}` - the current source file path from `find`), and `$1` refers to the second argument (which is `\"$DEST_ROOT\"`). This is a safe way to pass arguments including paths with spaces.\n\nThis script provides the precise logic you described, handling directory structures and filenames with special characters gracefully.",
     "ig_handle": "pungjane2021",
-    "last_analyzed_at": "2025-12-08T14:24:24.141628+09:00",
+    "last_analyzed_at": "2025-12-15T17:09:17.983128+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-12-14/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-29/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-12/profile.json",
       "maps:https://maps.google.com/?cid=12011275209003638965",
       "maps:https://maps.google.com/?cid=862641155739216924",
-      "maps:https://maps.google.com/?cid=16649714475133148097",
-      "maps:https://maps.google.com/?cid=3060289581387063849",
-      "maps:https://maps.google.com/?cid=16694561071899545129",
-      "maps:https://maps.google.com/?cid=9007553733847857661",
-      "maps:https://maps.google.com/?cid=10659432083350541379",
-      "maps:https://maps.google.com/?cid=16128865461387965881",
-      "maps:https://maps.google.com/?cid=11077532143515550153",
-      "maps:https://maps.google.com/?cid=1277901080893012707",
-      "maps:https://maps.google.com/?cid=9422763238434655596",
-      "maps:https://maps.google.com/?cid=7975290367467350674",
-      "maps:https://maps.google.com/?cid=5894165459299764142",
-      "maps:https://maps.google.com/?cid=16454829249622375967",
-      "maps:https://maps.google.com/?cid=4176452120128685656",
-      "maps:https://maps.google.com/?cid=6002780785341071861",
-      "maps:https://maps.google.com/?cid=7492338176941529706",
-      "maps:https://maps.google.com/?cid=17181138888049527675",
-      "maps:https://maps.google.com/?cid=11177033922059289802",
-      "maps:https://maps.google.com/?cid=14798406564474341463",
       "gemini:enrich"
     ],
     "links": {
@@ -4147,25 +4056,26 @@
       "email": null
     },
     "subway_nearby": "5호선 둔촌동역 3번 출구에서 195m",
+    "websites": [
+      "https://blog.naver.com/hsu4812"
+    ],
     "locations": [
       {
         "location_id": "main",
         "name": "풍자네부엌",
-        "address_text": "서울 강동구 양재대로 1339 1층",
+        "address_text": "South Korea, Seoul, Gangdong-gu, Yangjae-daero, 1339 1층",
         "address_components": null,
-        "location_lat": 37.5259522700897,
-        "location_lon": 127.135009671072,
+        "location_lat": 37.526026,
+        "location_lon": 127.135047,
         "subway_nearby": "5호선 둔촌동역 3번 출구에서 195m",
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Pungjane Kitchen",
-            "ko": "풍자네부엌"
+            "en": "Pungjane Kitchen"
           },
           "address_text": {
-            "en": "1st Floor, 1339, Yangjae-daero, Gangdong-gu, Seoul, South Korea",
-            "ko": "서울 강동구 양재대로 1339 1층"
+            "en": "1st Floor, 1339 Yangjae-daero, Gangdong-gu, Seoul, South Korea"
           },
           "notes": null
         }
@@ -4173,15 +4083,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Pungjane Kitchen",
-        "ko": "풍자네부엌"
+        "en": "Pungjane Kitchen"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "195m from Dunchon-dong Station Exit 3, Line 5",
-        "ko": "5호선 둔촌동역 3번 출구에서 195m"
+        "en": "195m from Dunchon-dong Station, Line 5, Exit 3"
       },
       "food_policy": null,
       "age_limit": null
@@ -4263,9 +4171,9 @@
     }
   },
   {
-    "raw": "{}",
+    "raw": "You mentioned \"special instruction,\" but I don't see any specific instruction provided in your prompt.\n\nTherefore, I will proceed by acknowledging that no special instruction was given, and I am ready to receive any specific instructions you might wish to provide.",
     "ig_handle": "samsungri_",
-    "last_analyzed_at": "2025-12-07T13:34:25.880977+09:00",
+    "last_analyzed_at": "2025-12-14T15:44:48.084291+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -4295,31 +4203,32 @@
         "name": "Sam Sung Ri",
         "address_text": "28 Bongeunsa-ro 86-gil, Gangnam District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.511671,
-        "location_lon": 127.056939,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": null,
         "booking_link": null,
-        "notes": null,
+        "notes": "Closed Permanently",
         "i18n": {
           "name": {
-            "en": "Sam Sung Ri",
-            "ko": "삼성리"
+            "en": "Sam Sung Ri"
           },
           "address_text": {
-            "en": "28 Bongeunsa-ro 86-gil, Gangnam District, Seoul, South Korea",
-            "ko": "서울 강남구 봉은사로86길 28"
+            "en": "28 Bongeunsa-ro 86-gil, Gangnam District, Seoul, South Korea"
           },
-          "notes": null
+          "notes": {
+            "en": "Closed Permanently"
+          }
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "Sam Sung Ri",
-        "ko": "삼성리"
+        "en": "Sam Sung Ri"
       },
       "address_text": null,
-      "notes": null,
+      "notes": {
+        "en": "Closed Permanently"
+      },
       "genres": null,
       "subway_nearby": null,
       "food_policy": null,
@@ -5173,63 +5082,50 @@
     }
   },
   {
-    "raw": "I can definitely help you extract that information, but I need you to **provide the document** first!\n\nPlease paste the text of the document, provide a link to the webpage, or upload the file, and I will extract the following for you:\n\n1.  **Product Name:** Rode NT1\n2.  **Price:** (from the document)\n3.  **Delivery Fee:** (from the document)\n4.  **Total Cost:** (calculated: Price + Delivery Fee)\n\n---\n\n**Example of how I would present the answer once you provide the document (using hypothetical numbers):**\n\nAssuming the document states:\n*   Rode NT1 Microphone: $269.00\n*   Standard Shipping: $15.00\n\nHere's the extracted information:\n\n1.  **Product Name:** Rode NT1\n2.  **Price:** $269.00\n3.  **Delivery Fee:** $15.00\n4.  **Total Cost:** $269.00 + $15.00 = **$284.00**",
+    "raw": "Okay, I understand. I will first explain my general approach to handling special instructions, and then I will walk through a specific example, demonstrating my \"silent thinking\" process as requested.\n\n---\n\n### How I Handle a \"Special Instruction\"\n\nMy processing of a \"special instruction\" involves several distinct steps:\n\n1.  **Identification:** I first recognize that the text before the main prompt is a set of directives. Keywords like \"SPECIAL INSTRUCTION:\", \"Please ensure:\", \"Note:\", or simply the placement before the primary request signal that these are not part of the content to be processed, but rather instructions *on how* to process the content.\n\n2.  **Parsing and Extraction:** I read through the special instruction carefully to identify all specific commands, constraints, stylistic requirements, or formatting rules. I look for:\n    *   **Persona/Tone:** \"Respond as X,\" \"Maintain a Y tone.\"\n    *   **Format:** \"Use Markdown,\" \"Respond in JSON,\" \"Use bullet points.\"\n    *   **Length Constraints:** \"Limit to X sentences/words/paragraphs.\"\n    *   **Content Constraints:** \"Do not mention X,\" \"Focus on Y.\"\n    *   **Action Verbs:** \"Summarize,\" \"Expand,\" \"Translate,\" \"Explain to a child.\"\n    *   **Metacognition:** \"Explain your reasoning,\" \"Show your steps.\"\n\n3.  **Internal Parameter Setting (Flags):** I translate these extracted directives into internal \"flags\" or \"parameters\" that will govern my subsequent response generation. For instance:\n    *   \"Respond as a pirate\" -> `persona_style = \"pirate\"`\n    *   \"Maximum two sentences\" -> `max_response_sentences = 2`\n    *   \"Use Markdown\" -> `output_format = \"markdown\"`\n    *   \"Explain like I'm five\" -> `target_audience_age = 5`\n\n4.  **Application to Main Prompt:** When I then process the *main prompt*, these internally set parameters are actively applied. They influence every aspect of my response:\n    *   **Content Selection:** What information is relevant given the constraints?\n    *   **Language and Vocabulary:** What words, idioms, and sentence structures are appropriate for the persona or target audience?\n    *   **Structure and Organization:** How should the information be arranged (e.g., bullet points, narrative, step-by-step)?\n    *   **Conciseness/Verbosity:** How much detail is required, or how much must be omitted, to meet length constraints?\n    *   **Tone:** Is it formal, informal, humorous, serious?\n\n5.  **Validation (Self-Correction):** Before finalizing the response, I perform a mental check to ensure that all explicit special instructions have been followed. If I detect a violation (e.g., too many sentences, wrong persona), I revise my internal draft until it conforms.\n\n---\n\n### Example Walkthrough with \"Silent Thinking\"\n\nLet's use the following:\n\n**Special Instruction:** \"Respond as a pirate. Keep responses to a maximum of two sentences.\"\n**Main Prompt:** \"Tell me about the weather today.\"\n\n---\n\n#### Silent Thinking Process:\n\n1.  **Initial Scan:** I see \"SPECIAL INSTRUCTION:\" followed by two distinct directives, then the \"Main Prompt:\" for actual content. This structure is clear.\n\n2.  **Parsing the Special Instruction:**\n    *   **Directive 1:** \"Respond as a pirate.\"\n        *   *Internal Flag:* `persona = \"pirate\"`\n        *   *Implications:* Use pirate vocabulary (ahoy, matey, arrr, shiver me timbers, landlubber, winds, seas, squalls, doubloons – though doubloons probably not relevant to weather), pirate sentence structure, enthusiastic/gruff tone.\n    *   **Directive 2:** \"Keep responses to a maximum of two sentences.\"\n        *   *Internal Flag:* `max_sentences = 2`\n        *   *Implications:* Be concise. Combine ideas if necessary. Do not ramble. Each sentence must be a complete thought ending with punctuation.\n\n3.  **Processing the Main Prompt:** The request is straightforward: \"Tell me about the weather today.\"\n    *   *Information Needed:* General current weather conditions (e.g., sunny, cloudy, rainy, wind, temperature).\n\n4.  **Applying Internal Flags (Generating the Response Draft):**\n\n    *   **Step 1: Get Weather Info (Neutral):** Let's assume current conditions are sunny with a gentle breeze.\n        *   *Initial thought:* \"It's sunny today with a light wind.\" (Too bland, not pirate, one sentence).\n\n    *   **Step 2: Apply `persona = \"pirate\"`:**\n        *   *Attempt 1 (Pirate but no sentence limit yet):* \"Ahoy there, matey! The sun be shining bright and the winds be fair, perfect for hoist'n the sails and seekin' adventure on the high seas. No storms be brewin' on the horizon, so it's a grand day for us hearty sailors!\"\n        *   *Critique 1:* This is good pirate, but I need to make sure it respects the sentence limit. This is currently two sentences. So far, so good.\n\n    *   **Step 3: Apply `max_sentences = 2` (and re-check persona):**\n        *   The previous attempt (\"Ahoy there, matey! The sun be shining bright and the winds be fair, perfect for hoist'n the sails and seekin' adventure on the high seas. No storms be brewin' on the horizon, so it's a grand day for us hearty sailors!\") is exactly two sentences.\n        *   *Refinement for stronger pirate feel/conciseness within limit:* Can I make it even more evocative?\n        *   *Attempt 2:* \"Ahoy, matey! The winds be fair and the sun high in the sky, a grand day for settin' sail. No squalls on the horizon, just smooth seas ahead, arrr!\"\n        *   *Critique 2:*\n            *   **Sentence Count:** First sentence ends after \"settin' sail.\" Second sentence ends after \"arrr!\" -> Exactly two sentences. **PASS.**\n            *   **Persona:** \"Ahoy,\" \"matey,\" \"winds be fair,\" \"high in the sky,\" \"grand day,\" \"settin' sail,\" \"squalls,\" \"horizon,\" \"smooth seas ahead,\" \"arrr!\" -> All strongly piratical. **PASS.**\n            *   **Main Prompt Answered:** Yes, it clearly states the weather (fair winds, sunny, no storms/squalls). **PASS.**\n\n5.  **Final Response Construction:** Based on the successful internal draft.\n\n---\n\n**Final Response:**\n\nAhoy, matey! The winds be fair and the sun high in the sky, a grand day for settin' sail. No squalls on the horizon, just smooth seas ahead, arrr!",
     "ig_handle": "yoori.kim_mullaejazzin",
-    "last_analyzed_at": "2025-12-07T13:41:48.550768+09:00",
+    "last_analyzed_at": "2025-12-14T16:02:28.102151+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yoori.kim_mullaejazzin/profile/2025-12-14/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yoori.kim_mullaejazzin/profile/2025-12-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yoori.kim_mullaejazzin/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yoori.kim_mullaejazzin/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yoori.kim_mullaejazzin/profile/2025-11-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yoori.kim_mullaejazzin/profile/2025-11-12/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yoori.kim_mullaejazzin/profile/2025-11-11/profile.json",
-      "maps:https://maps.google.com/?cid=15991166397757910859",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=3512824848346026630",
-      "maps:https://maps.google.com/?cid=5936925627923403423",
-      "maps:https://maps.google.com/?cid=11008665381407066468",
-      "maps:https://maps.google.com/?cid=11842852244500454903",
-      "maps:https://maps.google.com/?cid=2095809664248845139",
-      "maps:https://maps.google.com/?cid=3803486770832132230",
-      "maps:https://maps.google.com/?cid=11881259354384405760",
-      "maps:https://maps.google.com/?cid=13163330699457356298",
-      "maps:https://maps.google.com/?cid=14710763701329609732",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/yoori.kim_mullaejazzin",
       "homepage": null,
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=15991166397757910859",
+      "google_map": "https://maps.app.goo.gl/35p3D2fJ1N59Xg3e9",
       "naver_map": "https://naver.me/GZZimxDh"
     },
     "contacts": {
-      "phone": "02-2636-0111",
+      "phone": null,
       "email": null
     },
     "subway_nearby": "2호선 문래역 1번 출구에서 468m",
     "locations": [
       {
         "location_id": "main",
-        "name": "Gallery Mullae",
-        "address_text": "서울 영등포구 도림로131길 3 문래동",
+        "name": "문래재즈인",
+        "address_text": "대한민국 서울특별시 영등포구 문래동4가 17-10",
         "address_components": null,
-        "location_lat": 37.513679,
-        "location_lon": 126.895171,
-        "subway_nearby": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": "2호선 문래역 1번 출구에서 468m",
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Gallery Mullae",
-            "ko": "갤러리 문래"
+            "en": "Mullae Jazzin"
           },
           "address_text": {
-            "en": "3, Dorim-ro 131-gil, Mullae-dong, Yeongdeungpo District, Seoul, South Korea",
-            "ko": "서울 영등포구 도림로131길 3 문래동"
+            "en": "17-10 Mullae-dong 4-ga, Yeongdeungpo-gu, Seoul, South Korea"
           },
           "notes": null
         }
@@ -5237,15 +5133,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Gallery Mullae",
-        "ko": "갤러리 문래"
+        "en": "Mullae Jazzin"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "468m from Mullae Station Exit 1 on Line 2",
-        "ko": "2호선 문래역 1번 출구에서 468m"
+        "en": "468m from Mullae Station, Line 2, Exit 1"
       },
       "food_policy": null,
       "age_limit": null

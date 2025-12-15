@@ -220,65 +220,6 @@
     }
   },
   {
-    "id": "ven_9121334e-11fe-4710-8d7b-87f5825e3fcd",
-    "ig_handle": "bar_tican",
-    "name_irl": "바 티칸",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": "010-9327-7816",
-    "email": null,
-    "google_map_url": "https://maps.google.com/?cid=9091986346322140521",
-    "booking_url": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Bar Tican",
-          "address_text": "B1, 62-10 Bangi-dong, Songpa-gu, Seoul, South Korea",
-          "address_components": null,
-          "location_lat": 37.513762,
-          "location_lon": 127.109122,
-          "subway_nearby": "584m from Jamsil Station Exit 10 (Line 2, 8)",
-          "booking_link": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "Bar Tican",
-              "ko": "바 티칸"
-            },
-            "address_text": {
-              "en": "B1, 62-10 Bangi-dong, Songpa-gu, Seoul, South Korea",
-              "ko": "서울 송파구 방이동 62-10 지하 1층"
-            },
-            "notes": null
-          }
-        }
-      ]
-    },
-    "i18n_data": {
-      "name": {
-        "en": "Bar Tican",
-        "ko": "바 티칸"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": null,
-      "subway_nearby": {
-        "en": "584m from Jamsil Station Exit 10 (Line 2, 8)",
-        "ko": "2, 8호선 잠실역 10번 출구에서 584m"
-      },
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
     "id": "ven_defc39a1-7787-48c7-b5f4-623157118647",
     "ig_handle": "bluecat.fezh",
     "name_irl": "Blue Cat",
@@ -513,7 +454,7 @@
   {
     "id": "ven_70e19462-6fe8-46bf-8e24-43276ed9ce12",
     "ig_handle": "bottler_euljiro",
-    "name_irl": "바틀러 을지로",
+    "name_irl": "Bottler",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -522,7 +463,11 @@
     "google_map_url": "https://maps.google.com/?cid=12127455814016865441",
     "booking_url": "https://app.catchtable.co.kr/ct/shop/bottler?from=share&type=VISIT_RESERVATION",
     "homepage_url": null,
-    "websites": [],
+    "websites": [
+      "https://www.instagram.com/bottler_euljiro",
+      "https://app.catchtable.co.kr/ct/shop/bottler?from=share&type=VISIT_RESERVATION",
+      "https://maps.google.com/?cid=12127455814016865441"
+    ],
     "subway_nearby": "3, 4호선 충무로역 6번 출구에서 210m",
     "food_policy": null,
     "age_limit": null,
@@ -531,22 +476,20 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Bottler Euljiro",
-          "address_text": "서울 중구 퇴계로27길 28 한영빌딩 102호",
+          "name": "Bottler",
+          "address_text": "South Korea, Seoul, Jung District, Toegye-ro 27-gil, 28 한영빌딩 102호",
           "address_components": null,
-          "location_lat": 37.562388,
-          "location_lon": 126.991527,
-          "subway_nearby": null,
-          "booking_link": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": "3, 4호선 충무로역 6번 출구에서 210m",
+          "booking_link": "https://app.catchtable.co.kr/ct/shop/bottler?from=share&type=VISIT_RESERVATION",
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Bottler Euljiro",
-              "ko": "바틀러 을지로"
+              "en": "Bottler"
             },
             "address_text": {
-              "en": "102 Hanyeong Building, 28, Toegye-ro 27-gil, Jung District, Seoul, South Korea",
-              "ko": "서울 중구 퇴계로27길 28 한영빌딩 102호"
+              "en": "102 Hanyoung Building, 28 Toegye-ro 27-gil, Jung-gu, Seoul, South Korea"
             },
             "notes": null
           }
@@ -555,15 +498,18 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Bottler Euljiro",
-        "ko": "바틀러 을지로"
+        "en": "Bottler"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Wine Bar",
+          "Live Music"
+        ]
+      },
       "subway_nearby": {
-        "en": "210m from Chungmuro Station Exit 6 (Lines 3, 4)",
-        "ko": "3, 4호선 충무로역 6번 출구에서 210m"
+        "en": "210m from Exit 6 of Chungmuro Station (Lines 3 and 4)"
       },
       "food_policy": null,
       "age_limit": null
@@ -572,7 +518,7 @@
   {
     "id": "ven_8533edc6-9a83-439c-9a62-3621c6ac0325",
     "ig_handle": "cafeblackfactory",
-    "name_irl": "블랙팩토리",
+    "name_irl": "Cafe Black Factory",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -590,22 +536,20 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Black Factory",
-          "address_text": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
+          "name": "블랙팩토리",
+          "address_text": "120 Beodeunaru-ro, 당산제2동 Yeongdeungpo District, Seoul, South Korea",
           "address_components": null,
-          "location_lat": 37.528787,
-          "location_lon": 126.908101,
-          "subway_nearby": "2, 9호선 당산역 8번 출구에서 677m",
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Black Factory",
-              "ko": "블랙팩토리"
+              "en": "Black Factory"
             },
             "address_text": {
-              "en": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
-              "ko": "서울 영등포구 당산제2동 버드나루로 120"
+              "en": "120 Beodeunaru-ro, Dangsan 2-dong, Yeongdeungpo District, Seoul, South Korea"
             },
             "notes": null
           }
@@ -614,15 +558,63 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Cafe Black Factory",
-        "ko": "블랙팩토리"
+        "en": "Cafe Black Factory"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "677m from Dangsan Station Exit 8 (Line 2, 9)",
-        "ko": "2, 9호선 당산역 8번 출구에서 677m"
+        "en": "677m from Dangsan Station Exit 8 (Lines 2, 9)"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_0f9c48b2-2ea8-4cd2-8993-eea16592d271",
+    "ig_handle": "cafe_minor_swing",
+    "name_irl": "Cafe Minor Swing",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=7535007745191299518",
+    "booking_url": "https://linktr.ee/minorswing",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Cafe Minor Swing",
+          "address_text": "경기도 용인시 수지구 동천로 470",
+          "i18n": {
+            "name": {
+              "en": "Cafe Minor Swing",
+              "ko": "카페 마이너 스윙"
+            },
+            "address_text": {
+              "en": "470 Dongcheon-ro, Suji-gu, Yongin-si, Gyeonggi-do",
+              "ko": "경기도 용인시 수지구 동천로 470"
+            }
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Cafe Minor Swing"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "From Shinbundang Line Dongcheon Station Exit 1, take bus 17-1..."
       },
       "food_policy": null,
       "age_limit": null
@@ -924,7 +916,7 @@
   {
     "id": "ven_57a06541-0595-4b64-aed9-fca6014c0a36",
     "ig_handle": "club_piers",
-    "name_irl": "클럽 피어스",
+    "name_irl": "Club Piers",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -952,8 +944,7 @@
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Club Piers",
-              "ko": "클럽 피어스"
+              "en": "Club Piers"
             },
             "address_text": null,
             "notes": null
@@ -963,8 +954,7 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Club Piers",
-        "ko": "클럽 피어스"
+        "en": "Club Piers"
       },
       "address_text": null,
       "notes": null,
@@ -1276,62 +1266,6 @@
     }
   },
   {
-    "id": "ven_7c3fbd40-071e-4a2b-b5c2-8ec96bc7f447",
-    "ig_handle": "eulji_libro",
-    "name_irl": "을지리브로",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": "https://catchtable.co.kr/eulji_libro",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Eulji Libro",
-          "address_text": null,
-          "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
-          "subway_nearby": "2, 3호선 을지로3가역 9번 출구에서 302m",
-          "booking_link": "https://catchtable.co.kr/eulji_libro",
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "Eulji Libro",
-              "ko": "을지리브로"
-            },
-            "address_text": null,
-            "notes": null
-          }
-        }
-      ]
-    },
-    "i18n_data": {
-      "name": {
-        "en": "Eulji Libro",
-        "ko": "을지리브로"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": null,
-      "subway_nearby": {
-        "en": "302m from Euljiro 3-ga Station Exit 9 (Lines 2, 3)",
-        "ko": "2, 3호선 을지로3가역 9번 출구에서 302m"
-      },
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
     "id": "ven_6e486fef-b548-4980-8565-9c7d54e964da",
     "ig_handle": "flatnine_jazzbar",
     "name_irl": "플랫나인",
@@ -1447,74 +1381,15 @@
     }
   },
   {
-    "id": "ven_6f67bf66-952d-480b-92cd-971d60e5c086",
-    "ig_handle": "yoori.kim_mullaejazzin",
-    "name_irl": "갤러리 문래",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": "02-2636-0111",
-    "email": null,
-    "google_map_url": "https://maps.google.com/?cid=15991166397757910859",
-    "booking_url": null,
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": "2호선 문래역 1번 출구에서 468m",
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Gallery Mullae",
-          "address_text": "서울 영등포구 도림로131길 3 문래동",
-          "address_components": null,
-          "location_lat": 37.513679,
-          "location_lon": 126.895171,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "Gallery Mullae",
-              "ko": "갤러리 문래"
-            },
-            "address_text": {
-              "en": "3, Dorim-ro 131-gil, Mullae-dong, Yeongdeungpo District, Seoul, South Korea",
-              "ko": "서울 영등포구 도림로131길 3 문래동"
-            },
-            "notes": null
-          }
-        }
-      ]
-    },
-    "i18n_data": {
-      "name": {
-        "en": "Gallery Mullae",
-        "ko": "갤러리 문래"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": null,
-      "subway_nearby": {
-        "en": "468m from Mullae Station Exit 1 on Line 2",
-        "ko": "2호선 문래역 1번 출구에서 468m"
-      },
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
     "id": "ven_1ec168de-e05d-4987-92a5-8596debd37e6",
     "ig_handle": "ghetto_alive",
-    "name_irl": "게토얼라이브",
+    "name_irl": "GhettoAlive",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
     "phone": "02-461-1125",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=4488758983597558316",
     "booking_url": null,
     "homepage_url": null,
     "websites": [],
@@ -1526,22 +1401,20 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "GhettoAlive",
+          "name": "게토얼라이브 GhettoAlive",
           "address_text": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
-          "subway_nearby": "2호선 뚝섬역 8번 출구에서 259m",
+          "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "GhettoAlive",
-              "ko": "게토얼라이브"
+              "en": "GhettoAlive"
             },
             "address_text": {
-              "en": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea",
-              "ko": "서울 성동구 성수동1가 왕십리로 104"
+              "en": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea"
             },
             "notes": null
           }
@@ -1550,32 +1423,13 @@
     },
     "i18n_data": {
       "name": {
-        "en": "GhettoAlive",
-        "ko": "게토얼라이브"
+        "en": "GhettoAlive"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Jazz",
-          "Experimental Music",
-          "Korean Traditional Music",
-          "Contemporary Classical",
-          "Electronic Music",
-          "Rock"
-        ],
-        "ko": [
-          "재즈",
-          "실험 음악",
-          "국악",
-          "현대 음악",
-          "전자 음악",
-          "록"
-        ]
-      },
+      "genres": null,
       "subway_nearby": {
-        "en": "259m from Ttukseom Station Exit 8 (Line 2)",
-        "ko": "2호선 뚝섬역 8번 출구에서 259m"
+        "en": "Ttukseom Station Line 2, Exit 8, 259m"
       },
       "food_policy": null,
       "age_limit": null
@@ -1933,8 +1787,8 @@
   {
     "id": "ven_989e17f4-eefd-44f0-8b50-e4bf716695ea",
     "ig_handle": "jazzclub_janus",
-    "name_irl": "재즈클럽 야누스",
-    "location_text": null,
+    "name_irl": "Janus Jazz Club",
+    "location_text": "1-48 Jeong-dong, Jung District, Seoul, South Korea",
     "location_lat": null,
     "location_lon": null,
     "phone": null,
@@ -1954,19 +1808,17 @@
           "name": "Janus Jazz Club",
           "address_text": "1-48 Jeong-dong, Jung District, Seoul, South Korea",
           "address_components": null,
-          "location_lat": 37.569007,
-          "location_lon": 126.975415,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": "5호선 광화문역 5번 출구에서 310m",
-          "booking_link": "https://app.catchtable.co.kr/ct/shop/jazzclubjanus?from=share&type=NONE",
+          "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Janus Jazz Club",
-              "ko": "재즈클럽 야누스"
+              "en": "Janus Jazz Club"
             },
             "address_text": {
-              "en": "1-48 Jeong-dong, Jung District, Seoul, South Korea",
-              "ko": "서울 중구 정동 1-48"
+              "en": "1-48 Jeong-dong, Jung District, Seoul, South Korea"
             },
             "notes": null
           }
@@ -1975,15 +1827,15 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Janus Jazz Club",
-        "ko": "재즈클럽 야누스"
+        "en": "Janus Jazz Club"
       },
-      "address_text": null,
+      "address_text": {
+        "en": "1-48 Jeong-dong, Jung District, Seoul, South Korea"
+      },
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "310m from Gwanghwamun Station Exit 5, Line 5",
-        "ko": "5호선 광화문역 5번 출구에서 310m"
+        "en": "Gwanghwamun Station (Line 5), Exit 5, 310m"
       },
       "food_policy": null,
       "age_limit": null
@@ -1992,17 +1844,20 @@
   {
     "id": "ven_668a43db-d5ab-412e-ae31-f0a49e4b4359",
     "ig_handle": "jazzgarage_official",
-    "name_irl": "재즈가라지",
+    "name_irl": "Jazz Garage",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "010-9474-3712",
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=18198161019852448277",
     "booking_url": null,
     "homepage_url": "https://www.youtube.com/@JazzGarageLive",
-    "websites": [],
-    "subway_nearby": null,
+    "websites": [
+      "https://www.instagram.com/jazzgarage_official",
+      "https://www.youtube.com/@JazzGarageLive"
+    ],
+    "subway_nearby": "6호선 녹사평역 1번 출구에서 477m",
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
@@ -2010,22 +1865,20 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Jazz Garage",
+          "name": "재즈가라지 jazz garage",
           "address_text": "7 Hoenamu-ro, Yongsan District, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
-          "subway_nearby": "6호선 녹사평역 1번 출구에서 477m",
+          "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Jazz Garage",
-              "ko": "재즈가라지"
+              "en": "Jazz Garage"
             },
             "address_text": {
-              "en": "7 Hoenamu-ro, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 회나무로 7"
+              "en": "7 Hoenamu-ro, Yongsan District, Seoul, South Korea"
             },
             "notes": null
           }
@@ -2034,15 +1887,13 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Jazz Garage",
-        "ko": "재즈가라지"
+        "en": "Jazz Garage"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "477m from Noksapyeong Station, Line 6, Exit 1",
-        "ko": "6호선 녹사평역 1번 출구에서 477m"
+        "en": "477m from Noksapyeong Station, Line 6, Exit 1"
       },
       "food_policy": null,
       "age_limit": null
@@ -2455,6 +2306,120 @@
     }
   },
   {
+    "id": "ven_7c3fbd40-071e-4a2b-b5c2-8ec96bc7f447",
+    "ig_handle": "eulji_libro",
+    "name_irl": "Libro",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "02-2285-1311",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=12958000001331928624",
+    "booking_url": "https://catchtable.co.kr/eulji_libro",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": "2, 3호선 을지로3가역 9번 출구에서 302m",
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Libro",
+          "address_text": "South Korea, Seoul, Jung District, Toegye-ro 27-gil, 49 지하 1층",
+          "address_components": null,
+          "location_lat": 37.5634,
+          "location_lon": 126.991102,
+          "subway_nearby": "2, 3호선 을지로3가역 9번 출구에서 302m",
+          "booking_link": "https://catchtable.co.kr/eulji_libro",
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Libro"
+            },
+            "address_text": {
+              "en": "B1, 49, Toegye-ro 27-gil, Jung-gu, Seoul, South Korea"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Libro"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Bar"
+        ]
+      },
+      "subway_nearby": {
+        "en": "Euljiro 3(sam)ga Station (Lines 2, 3), Exit 9, 302m away"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_9121334e-11fe-4710-8d7b-87f5825e3fcd",
+    "ig_handle": "bar_tican",
+    "name_irl": "Live Music Bar Bartican",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "010-9327-7816",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=9091986346322140521",
+    "booking_url": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": "2, 8호선 잠실역 10번 출구에서 584m",
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "LIVE MUSIC BAR BARTICAN",
+          "address_text": "South Korea, Seoul, Songpa District, Bangi-dong, 번지 지하 62-10 1층",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": "2, 8호선 잠실역 10번 출구에서 584m",
+          "booking_link": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Live Music Bar Bartican"
+            },
+            "address_text": {
+              "en": "1st Floor, 62-10 Bangi-dong, Songpa District, Seoul, South Korea"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Live Music Bar Bartican"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "584m from Jamsil Station Exit 10 (Line 2, 8)"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
     "ig_handle": "mammy__blue",
     "name_irl": "Mammy Blue",
@@ -2565,67 +2530,15 @@
     }
   },
   {
-    "id": "ven_0f9c48b2-2ea8-4cd2-8993-eea16592d271",
-    "ig_handle": "cafe_minor_swing",
-    "name_irl": "마이너 스윙",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": "https://maps.google.com/?cid=7535007745191299518",
-    "booking_url": "https://linktr.ee/minorswing",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Cafe Minor Swing",
-          "address_text": "경기도 용인시 수지구 동천로 470",
-          "i18n": {
-            "name": {
-              "en": "Cafe Minor Swing",
-              "ko": "카페 마이너 스윙"
-            },
-            "address_text": {
-              "en": "470 Dongcheon-ro, Suji-gu, Yongin-si, Gyeonggi-do",
-              "ko": "경기도 용인시 수지구 동천로 470"
-            }
-          }
-        }
-      ]
-    },
-    "i18n_data": {
-      "name": {
-        "en": "Minor Swing",
-        "ko": "마이너 스윙"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": null,
-      "subway_nearby": {
-        "en": "Take bus 17-1 from Shinbundang Line Dongcheon Station Exit 1",
-        "ko": "신분당선 동천역 1번 출구에서 17-1버스 탑승"
-      },
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
     "id": "ven_82d7e975-16ba-41d2-ad2d-93b561e8252a",
     "ig_handle": "muga.misa",
-    "name_irl": "무가 미사",
+    "name_irl": "Muga Misa",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
     "phone": null,
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.app.goo.gl/q6K1NqCgUvQ5gR2T7",
     "booking_url": null,
     "homepage_url": null,
     "websites": [],
@@ -2637,20 +2550,21 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Muga Misa",
-          "address_text": null,
+          "name": "무가미사",
+          "address_text": "서울 용산구 우사단로10길 145 2층 무가미사",
           "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
+          "location_lat": 37.530579823071,
+          "location_lon": 127.002828733784,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Muga Misa",
-              "ko": "무가 미사"
+              "en": "Muga Misa"
             },
-            "address_text": null,
+            "address_text": {
+              "en": "145 Usadan-ro 10-gil, Yongsan-gu, Seoul, South Korea"
+            },
             "notes": null
           }
         }
@@ -2658,13 +2572,71 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Muga Misa",
-        "ko": "무가 미사"
+        "en": "Muga Misa"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Jazz Bar"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_6f67bf66-952d-480b-92cd-971d60e5c086",
+    "ig_handle": "yoori.kim_mullaejazzin",
+    "name_irl": "Mullae Jazzin",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "02-2636-0111",
+    "email": null,
+    "google_map_url": "https://maps.app.goo.gl/35p3D2fJ1N59Xg3e9",
+    "booking_url": null,
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": "2호선 문래역 1번 출구에서 468m",
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "문래재즈인",
+          "address_text": "대한민국 서울특별시 영등포구 문래동4가 17-10",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": "2호선 문래역 1번 출구에서 468m",
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Mullae Jazzin"
+            },
+            "address_text": {
+              "en": "17-10 Mullae-dong 4-ga, Yeongdeungpo-gu, Seoul, South Korea"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Mullae Jazzin"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
-      "subway_nearby": null,
+      "subway_nearby": {
+        "en": "468m from Mullae Station, Line 2, Exit 1"
+      },
       "food_policy": null,
       "age_limit": null
     }
@@ -2786,16 +2758,19 @@
   {
     "id": "ven_c393a453-8e9d-4225-a9f1-a3d728266cd1",
     "ig_handle": "oldblue_jazz",
-    "name_irl": "올드블루 재즈",
+    "name_irl": "Old Blue",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "+82 2-747-9799",
     "email": null,
     "google_map_url": null,
     "booking_url": null,
     "homepage_url": "http://oldblue.alltheway.kr/",
-    "websites": [],
+    "websites": [
+      "https://www.instagram.com/oldblue_jazz",
+      "http://oldblue.alltheway.kr/"
+    ],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -2804,8 +2779,8 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Old Blue Jazz",
-          "address_text": null,
+          "name": "Old Blue",
+          "address_text": "15-7 Supyo-ro 28-gil, Ikseon-dong, Jongno-gu, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
@@ -2814,10 +2789,11 @@
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Old Blue Jazz",
-              "ko": "올드블루 재즈"
+              "en": "Old Blue"
             },
-            "address_text": null,
+            "address_text": {
+              "en": "15-7 Supyo-ro 28-gil, Ikseon-dong, Jongno-gu, Seoul, South Korea"
+            },
             "notes": null
           }
         }
@@ -2825,19 +2801,11 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Old Blue Jazz",
-        "ko": "올드블루 재즈"
+        "en": "Old Blue"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Jazz"
-        ],
-        "ko": [
-          "재즈"
-        ]
-      },
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -3014,7 +2982,7 @@
   {
     "id": "ven_f88dec65-9859-447a-8ffc-54fc501a2e84",
     "ig_handle": "pungjane2021",
-    "name_irl": "풍자네부엌",
+    "name_irl": "Pungjane Kitchen",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -3023,7 +2991,9 @@
     "google_map_url": "https://maps.google.com/?cid=12011275209003638965",
     "booking_url": null,
     "homepage_url": "https://blog.naver.com/hsu4812",
-    "websites": [],
+    "websites": [
+      "https://blog.naver.com/hsu4812"
+    ],
     "subway_nearby": "5호선 둔촌동역 3번 출구에서 195m",
     "food_policy": null,
     "age_limit": null,
@@ -3033,21 +3003,19 @@
         {
           "location_id": "main",
           "name": "풍자네부엌",
-          "address_text": "서울 강동구 양재대로 1339 1층",
+          "address_text": "South Korea, Seoul, Gangdong-gu, Yangjae-daero, 1339 1층",
           "address_components": null,
-          "location_lat": 37.5259522700897,
-          "location_lon": 127.135009671072,
+          "location_lat": 37.526026,
+          "location_lon": 127.135047,
           "subway_nearby": "5호선 둔촌동역 3번 출구에서 195m",
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Pungjane Kitchen",
-              "ko": "풍자네부엌"
+              "en": "Pungjane Kitchen"
             },
             "address_text": {
-              "en": "1st Floor, 1339, Yangjae-daero, Gangdong-gu, Seoul, South Korea",
-              "ko": "서울 강동구 양재대로 1339 1층"
+              "en": "1st Floor, 1339 Yangjae-daero, Gangdong-gu, Seoul, South Korea"
             },
             "notes": null
           }
@@ -3056,15 +3024,13 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Pungjane Kitchen",
-        "ko": "풍자네부엌"
+        "en": "Pungjane Kitchen"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "195m from Dunchon-dong Station Exit 3, Line 5",
-        "ko": "5호선 둔촌동역 3번 출구에서 195m"
+        "en": "195m from Dunchon-dong Station, Line 5, Exit 3"
       },
       "food_policy": null,
       "age_limit": null
@@ -3253,7 +3219,7 @@
   {
     "id": "ven_b99971e6-730d-48b4-8eac-0ef8f961293d",
     "ig_handle": "samsungri_",
-    "name_irl": "삼성리",
+    "name_irl": "Sam Sung Ri",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -3274,32 +3240,33 @@
           "name": "Sam Sung Ri",
           "address_text": "28 Bongeunsa-ro 86-gil, Gangnam District, Seoul, South Korea",
           "address_components": null,
-          "location_lat": 37.511671,
-          "location_lon": 127.056939,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "Closed Permanently",
           "i18n": {
             "name": {
-              "en": "Sam Sung Ri",
-              "ko": "삼성리"
+              "en": "Sam Sung Ri"
             },
             "address_text": {
-              "en": "28 Bongeunsa-ro 86-gil, Gangnam District, Seoul, South Korea",
-              "ko": "서울 강남구 봉은사로86길 28"
+              "en": "28 Bongeunsa-ro 86-gil, Gangnam District, Seoul, South Korea"
             },
-            "notes": null
+            "notes": {
+              "en": "Closed Permanently"
+            }
           }
         }
       ]
     },
     "i18n_data": {
       "name": {
-        "en": "Sam Sung Ri",
-        "ko": "삼성리"
+        "en": "Sam Sung Ri"
       },
       "address_text": null,
-      "notes": null,
+      "notes": {
+        "en": "Closed Permanently"
+      },
       "genres": null,
       "subway_nearby": null,
       "food_policy": null,
@@ -3914,7 +3881,9 @@
     "google_map_url": null,
     "booking_url": null,
     "homepage_url": "http://mw.genie.co.kr/magazine/magazineView?ctid=16&mgz_seq=8664",
-    "websites": [],
+    "websites": [
+      "http://mw.genie.co.kr/magazine/magazineView?ctid=16&mgz_seq=8664"
+    ],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -3933,32 +3902,23 @@
           "notes": null,
           "i18n": {
             "name": {
-              "en": "___key001",
-              "ko": "___key001"
+              "en": "___key001"
             },
-            "address_text": {
-              "en": null,
-              "ko": null
-            },
-            "notes": {
-              "en": null,
-              "ko": null
-            }
+            "address_text": null,
+            "notes": null
           }
         }
       ]
     },
     "i18n_data": {
       "name": {
-        "en": "___key001",
-        "ko": "___key001"
+        "en": "___key001"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "137m from Euljiro 1-ga Station Exit 1-1 (Line 2)",
-        "ko": "2호선 을지로입구역 1-1번 출구에서 137m"
+        "en": "Euljiro 1-ga Station (Line 2), Exit 1-1, 137m away"
       },
       "food_policy": null,
       "age_limit": null
