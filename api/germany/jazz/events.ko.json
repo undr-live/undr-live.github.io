@@ -30,12 +30,12 @@
   {
     "id": "evt_20251215_4a689845-a124-4eb2-b56c-5a3c47f18444",
     "event_key": "vh:stadtgarten_koeln|t:2025-12-15T19:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DSHZ3y4EhBm/",
+    "source_url": "https://www.instagram.com/p/DRtp4YLj6oN/",
     "venue_handle": "stadtgarten_koeln",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": null,
-    "venue_location_id": "jaki",
+    "venue_location_id": "main",
     "datetime": "2025-12-15T19:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
@@ -46,7 +46,33 @@
     "age_limit": null,
     "_search_en": {
       "title": "NICA live: Dudek x Goller | Fabian Dudek / Almost",
-      "description": "[Location: JAKI] Final concert by NICA artist Fabian Dudek in a double concert: experimental duo with Ruth Goller (e-bass) and with the quartet Almost, featuring new compositions."
+      "description": "NICA live presents Dudek x Goller and Fabian Dudek / Almost at JAKI."
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20251215_13d21119-34d4-4925-8037-d6bc643743a6",
+    "event_key": "v:ven_dd504682-96ec-45d0-aa19-49cc689349f8|t:2025-12-15T19:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSShel1DJ3t/",
+    "venue_handle": "jazzclubatrane",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dd504682-96ec-45d0-aa19-49cc689349f8",
+    "venue_location_id": "main",
+    "datetime": "2025-12-15T19:30:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Andreas Schmidt & Friends «Christmas Special»",
+      "description": "Andreas Schmidt & Friends present a Christmas Special. Featuring John Schröder (drums), Christian Kögel (guitar), Andreas Schmidt (piano), and special guest Eleanor Meredith (voice/piano)."
     },
     "_search_ko": {
       "title": null,
@@ -129,6 +155,39 @@
     "_search_ko": {
       "title": "Akintaya/Herzog",
       "description": "Akintaya and Herzog live."
+    }
+  },
+  {
+    "id": "evt_20251217_6f0f3fd5-802f-47d4-9cd0-8a96205bd96c",
+    "event_key": "vh:birdland_hamburg|t:2025-12-17T19:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSUTZ4FDnFf/",
+    "venue_handle": "birdland_hamburg",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "barry.king69",
+      "dirkachimdhonau",
+      "dirkbleese",
+      "konertzerik",
+      "stevewisemantrumpet",
+      "tadeus1959"
+    ],
+    "venue_id": null,
+    "venue_location_id": "main",
+    "datetime": "2025-12-17T19:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "JazzWerk Nonett",
+    "description": "JazzWerk Nonett live at Birdland Hamburg. A nine-piece ensemble featuring trumpet, flugelhorn, saxophones, flute, trombone, euphonium, piano, bass, and drums.\nRoster: Steve Wiseman (trumpet, flugelhorn) @stevewisemantrumpet, Claas Ueberschär (trumpet, flugelhorn), Tadeus (alto saxophone, soprano saxophone, flute) @tadeus1959, Ralph Reichert (tenor saxophone, flute), Erik Konertz (trombone, bass trombone, euphonium) @konertzerik, Barry King (baritone saxophone, bass clarinet, flute) @barry.king69, Dirk Bleese (piano) @dirkbleese, Felix Behrendt (bass), Dirk Achim Dhonau (drums) @dirkachimdhonau.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "JazzWerk Nonett",
+      "description": "JazzWerk Nonett live at Birdland Hamburg. A nine-piece ensemble featuring trumpet, flugelhorn, saxophones, flute, trombone, euphonium, piano, bass, and drums.\nRoster: Steve Wiseman (trumpet, flugelhorn) @stevewisemantrumpet, Claas Ueberschär (trumpet, flugelhorn), Tadeus (alto saxophone, soprano saxophone, flute) @tadeus1959, Ralph Reichert (tenor saxophone, flute), Erik Konertz (trombone, bass trombone, euphonium) @konertzerik, Barry King (baritone saxophone, bass clarinet, flute) @barry.king69, Dirk Bleese (piano) @dirkbleese, Felix Behrendt (bass), Dirk Achim Dhonau (drums) @dirkachimdhonau."
+    },
+    "_search_ko": {
+      "title": "JazzWerk Nonett",
+      "description": "JazzWerk Nonett live at Birdland Hamburg. A nine-piece ensemble featuring trumpet, flugelhorn, saxophones, flute, trombone, euphonium, piano, bass, and drums.\nRoster: Steve Wiseman (trumpet, flugelhorn) @stevewisemantrumpet, Claas Ueberschär (trumpet, flugelhorn), Tadeus (alto saxophone, soprano saxophone, flute) @tadeus1959, Ralph Reichert (tenor saxophone, flute), Erik Konertz (trombone, bass trombone, euphonium) @konertzerik, Barry King (baritone saxophone, bass clarinet, flute) @barry.king69, Dirk Bleese (piano) @dirkbleese, Felix Behrendt (bass), Dirk Achim Dhonau (drums) @dirkachimdhonau."
     }
   },
   {
@@ -288,14 +347,40 @@
     }
   },
   {
+    "id": "evt_20251219_4557c045-d18c-44a0-8a3e-0890fad8c387",
+    "event_key": "vh:jazzclub.kiste|t:2025-12-19T20:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSNVFyzDD1A/",
+    "venue_handle": "jazzclub.kiste",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": null,
+    "venue_location_id": "main",
+    "datetime": "2025-12-19T20:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The Fire Fingers Play The Music Of Stevie Wonder",
+      "description": "Finest Soul and RnB Music. Lineup: Christian Walther (drums/leader), Christoph Dangelmaier (e-bass), Henry Kasper (piano), Frank Rapke (e-guitar), Cemre Yilmaz (vocals), Clara De Farias (vocals), Beatriz Simoes (vocals), Georg Lange (trumpet), Tilman Schaal (trombone), Andreas Reichel (saxophone). Price: €15/10."
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
     "id": "evt_20251220_843b561a-3c86-4e7d-8482-bdabda76454c",
     "event_key": "vh:stadtgarten_koeln|t:2025-12-20T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DSHZ3y4EhBm/",
+    "source_url": "https://www.instagram.com/p/DRtp4YLj6oN/",
     "venue_handle": "stadtgarten_koeln",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": null,
-    "venue_location_id": "saal",
+    "venue_location_id": "main",
     "datetime": "2025-12-20T14:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
@@ -305,8 +390,8 @@
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Planschemalöör's Children's Christmas Splash",
-      "description": "[Location: Saal] Planschemalöör takes children on a grand Christmas adventure journey."
+      "title": "Planschemalöörs Children's Christmas Plunge",
+      "description": "Planschemalöörs performs a children's Christmas plunge at Saal."
     },
     "_search_ko": {
       "title": null,
@@ -316,12 +401,12 @@
   {
     "id": "evt_20251220_4bc18dc7-445f-4f6f-8aaf-71bb8984270a",
     "event_key": "vh:stadtgarten_koeln|t:2025-12-20T19:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DSHZ3y4EhBm/",
+    "source_url": "https://www.instagram.com/p/DRtp4YLj6oN/",
     "venue_handle": "stadtgarten_koeln",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": null,
-    "venue_location_id": "saal",
+    "venue_location_id": "main",
     "datetime": "2025-12-20T19:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
@@ -331,8 +416,8 @@
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Planschemalöör's Christmas Splash",
-      "description": "[Location: Saal] Humorous Kölsch-Pop, captivating sing-along hooks, and festive self-irony."
+      "title": "Planschemalöörs Christmas Plunge",
+      "description": "Planschemalöörs performs a Christmas plunge at Saal."
     },
     "_search_ko": {
       "title": null,
@@ -470,6 +555,32 @@
     }
   },
   {
+    "id": "evt_20251222_d5bf8680-9df4-4441-923b-8101dce9e116",
+    "event_key": "vh:stadtgarten_koeln|t:2025-12-22T19:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRtp4YLj6oN/",
+    "venue_handle": "stadtgarten_koeln",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": null,
+    "venue_location_id": "main",
+    "datetime": "2025-12-22T19:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Le Pop La Série: Mathieu Boogaerts",
+    "description": "Le Pop La Série presents Mathieu Boogaerts at Saal.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Le Pop La Série: Mathieu Boogaerts",
+      "description": "Le Pop La Série presents Mathieu Boogaerts at Saal."
+    },
+    "_search_ko": {
+      "title": "Le Pop La Série: Mathieu Boogaerts",
+      "description": "Le Pop La Série presents Mathieu Boogaerts at Saal."
+    }
+  },
+  {
     "id": "evt_20251222_3e93a97f-a083-4d85-8adb-3b7988e31305",
     "event_key": "v:ven_26dcf826-9724-4d7d-bb22-8d3aeba5e686|t:2025-12-22T20:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DSSJOhLjCJx/",
@@ -493,6 +604,110 @@
     "_search_ko": {
       "title": "Tallana Gabriel",
       "description": "Tallana Gabriel performs."
+    }
+  },
+  {
+    "id": "evt_20251228_2ea8aa3c-aacc-4aab-be49-fb6287dd4fb8",
+    "event_key": "vh:stadtgarten_koeln|t:2025-12-28T19:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRtp4YLj6oN/",
+    "venue_handle": "stadtgarten_koeln",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": null,
+    "venue_location_id": "main",
+    "datetime": "2025-12-28T19:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jamaram Meets Jahcoustix",
+    "description": "Jamaram meets Jahcoustix at Saal.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jamaram Meets Jahcoustix",
+      "description": "Jamaram meets Jahcoustix at Saal."
+    },
+    "_search_ko": {
+      "title": "Jamaram Meets Jahcoustix",
+      "description": "Jamaram meets Jahcoustix at Saal."
+    }
+  },
+  {
+    "id": "evt_20260110_d24b2fc2-999b-49b1-87a9-847e320e5bc1",
+    "event_key": "vh:stadtgarten_koeln|t:2026-01-10T18:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRyzgO_DGfY/",
+    "venue_handle": "stadtgarten_koeln",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": null,
+    "venue_location_id": "main",
+    "datetime": "2026-01-10T18:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Winterjazz Cologne 2026",
+      "description": "Winterjazz Cologne 2026: 15 Years Special Edition. 14 bands & projects on four stages at Stadtgarten & Club Zimmermanns. Curated by Niescier/Oster. Free admission."
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260116_6bf8f97d-2dfc-4bab-9511-c724860db5a0",
+    "event_key": "vh:jazzclub_unterfahrt|t:2026-01-16T19:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSP4rrYDdUj/",
+    "venue_handle": "jazzclub_unterfahrt",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": null,
+    "venue_location_id": "main",
+    "datetime": "2026-01-16T19:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Karoline Weidt",
+    "description": "Jazz concert with Karoline Weidt.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Karoline Weidt",
+      "description": "Jazz concert with Karoline Weidt."
+    },
+    "_search_ko": {
+      "title": "Karoline Weidt",
+      "description": "Jazz concert with Karoline Weidt."
+    }
+  },
+  {
+    "id": "evt_20260117_4073393c-c705-4bb0-aa81-604fd6d96f88",
+    "event_key": "vh:clubgretchen|t:2026-01-17T22:55:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSR99w6DEbE/",
+    "venue_handle": "clubgretchen",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": null,
+    "venue_location_id": "main",
+    "datetime": "2026-01-17T22:55:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Critical Sound: Recycle x Bassism",
+      "description": "Critical Music presents an evening of intelligent, danceable Drum'n'Bass at the pulse of the underground. Kasra delivers technically precise, bass-focused sets. Mefjus is known for his detailed, energetic sound between tech aesthetics and emotional drive. Sequent adds deep liquid sounds and technoid facets. Support from Survey, N'Dee, MC Jamie White. Box 2 hosted by the Bassism Crew with Vilify, Eklekt1k, Grzly Adams, and Tommy Lexxus."
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
     }
   },
   {

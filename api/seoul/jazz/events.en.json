@@ -54,7 +54,7 @@
   {
     "id": "evt_20251216_d6e25d47-f375-420b-b6fd-7052b5b137de",
     "event_key": "v:ven_e57e7dd0-ba54-4765-ace6-fbf774a5b181|t:2025-12-16T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DSOXLTtkmtU/",
+    "source_url": "https://www.instagram.com/p/DSSMBgSkoLN/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -63,18 +63,44 @@
     "datetime": "2025-12-16T10:30:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Paul Kirby Jam",
-    "description": "Jam session with Paul Kirby (piano), Ji Jae-il (bass), and Lee Sung-gu (drums).",
+    "title": "Jazz Jam Session",
+    "description": "Host band: Paul Kirby (piano), Ji Jae-il (bass), Lee Seong-gu (drums).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Paul Kirby Jam",
-      "description": "Jam session with Paul Kirby (piano), Ji Jae-il (bass), and Lee Sung-gu (drums)."
+      "title": "Jazz Jam Session",
+      "description": "Host band: Paul Kirby (piano), Ji Jae-il (bass), Lee Seong-gu (drums)."
     },
     "_search_ko": {
-      "title": "Paul Kirby Jam",
-      "description": "Paul Kirby (피아노), 지재일 (베이스), 이성구 (드럼)와 함께하는 잼 세션."
+      "title": "재즈 잼 세션",
+      "description": "호스트 밴드: Paul Kirby (피아노), 지재일 (베이스), 이성구 (드럼)."
+    }
+  },
+  {
+    "id": "evt_20251216_9999630b-a4bc-40b5-a4b9-0bf6dd281fb8",
+    "event_key": "v:ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89|t:2025-12-16T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSREtB7ied9/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-16T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Trio Closure",
+    "description": "[Location: Sadang] Dynamic and emotional jazz performance by Trio Closure. Standard jazz, blues, originals, POP, OST, tango, Latin. Bian (piano), Lee Won-sul (bass), Han Ung-won (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Trio Closure",
+      "description": "[Location: Sadang] Dynamic and emotional jazz performance by Trio Closure. Standard jazz, blues, originals, POP, OST, tango, Latin. Bian (piano), Lee Won-sul (bass), Han Ung-won (drums)."
+    },
+    "_search_ko": {
+      "title": "트리오 클로저",
+      "description": "[사당] 트리오 클로저의 역동적이고 감성적인 재즈 공연. 스탠다드 재즈, 블루스, 자작곡, POP, OST, 탱고, 라틴. 비안 (피아노), 이원술 (베이스), 한웅원 (드럼)."
     }
   },
   {
@@ -239,29 +265,63 @@
     }
   },
   {
+    "id": "evt_20251216_415a0a55-4a76-4d51-a6a7-b4a8ab4bf422",
+    "event_key": "v:ven_d8793345-9984-453f-ba47-85b936b044d8|t:2025-12-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSRIDwOk2BL/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "chennniverse",
+      "min_suuuuuuu8"
+    ],
+    "venue_id": "ven_d8793345-9984-453f-ba47-85b936b044d8",
+    "venue_location_id": "main",
+    "datetime": "2025-12-16T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Nojang Duo",
+    "description": "Nojang Duo: No Min-su (guitar) @min_suuuuuuu8, Jang Kyung-chun (piano) @chennniverse",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nojang Duo",
+      "description": "Nojang Duo: No Min-su (guitar) @min_suuuuuuu8, Jang Kyung-chun (piano) @chennniverse"
+    },
+    "_search_ko": {
+      "title": "노장 듀오",
+      "description": "노장 듀오: 노민수 (기타) @min_suuuuuuu8, 장경천 (피아노) @chennniverse"
+    }
+  },
+  {
     "id": "evt_20251216_ae14fc90-b75e-491b-a013-b11db944e9f1",
     "event_key": "v:ven_782b3bbf-b6a2-470e-a1e6-00b2f2d5587e|t:2025-12-16T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRUUMxZj2xQ/",
+    "source_url": "https://www.instagram.com/p/DSTd_ObE0nr/",
     "venue_handle": "dido_jazz_lounge",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "1_woolsss",
+      "_1mn0tsure",
+      "h_0zl",
+      "kgvovc"
+    ],
     "venue_id": "ven_782b3bbf-b6a2-470e-a1e6-00b2f2d5587e",
     "venue_location_id": "main",
     "datetime": "2025-12-16T11:30:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
     "title": "Jazz in Chet Baker",
-    "description": "Jazz performance tribute to Chet Baker.",
+    "description": "A performance reinterpreting songs sung by Chet Baker. Jung Hyun-woo Quartet presenting various music with diverse sounds: Kim Han-wool (vocal) @1_woolsss, Jung Hyun-woo (piano) @h_0zl, Kim Ji-hyun (bass) @kgvovc, Kim Ga-eun (drums) @_1mn0tsure.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jazz in Chet Baker",
-      "description": "Jazz performance tribute to Chet Baker."
+      "description": "A performance reinterpreting songs sung by Chet Baker. Jung Hyun-woo Quartet presenting various music with diverse sounds: Kim Han-wool (vocal) @1_woolsss, Jung Hyun-woo (piano) @h_0zl, Kim Ji-hyun (bass) @kgvovc, Kim Ga-eun (drums) @_1mn0tsure."
     },
     "_search_ko": {
       "title": "Jazz in Chet Baker",
-      "description": "쳇 베이커 헌정 재즈 공연."
+      "description": "쳇베이커가 불렀던 노래들을 재해석해서 연주하는 공연. 다채로운 사운드로 다양한 음악을 들려주는 정현우 퀄텟: 김한울 (보컬) @1_woolsss, 정현우 (피아노) @h_0zl, 김지현 (베이스) @kgvovc, 김가은 (드럼) @_1mn0tsure."
     }
   },
   {
@@ -288,6 +348,32 @@
     "_search_ko": {
       "title": "Colin Kim Quartet with 손영서 (2부)",
       "description": "역동적이고 감성적인 재즈 무대. Colin Kim Quartet with 손영서: 손영서 (보컬), Colin Kim (기타), 노바샘 (피아노), 박진교 (베이스), 김상수 (드럼)."
+    }
+  },
+  {
+    "id": "evt_20251216_b767eb88-5974-4cce-92bb-684f3414b425",
+    "event_key": "v:ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89|t:2025-12-16T12:40:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSREtB7ied9/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-16T12:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Trio Closure",
+    "description": "[Location: Sadang] Dynamic and emotional jazz performance by Trio Closure. Standard jazz, blues, originals, POP, OST, tango, Latin. Bian (piano), Lee Won-sul (bass), Han Ung-won (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Trio Closure",
+      "description": "[Location: Sadang] Dynamic and emotional jazz performance by Trio Closure. Standard jazz, blues, originals, POP, OST, tango, Latin. Bian (piano), Lee Won-sul (bass), Han Ung-won (drums)."
+    },
+    "_search_ko": {
+      "title": "트리오 클로저",
+      "description": "[사당] 트리오 클로저의 역동적이고 감성적인 재즈 공연. 스탠다드 재즈, 블루스, 자작곡, POP, OST, 탱고, 라틴. 비안 (피아노), 이원술 (베이스), 한웅원 (드럼)."
     }
   },
   {
@@ -373,6 +459,32 @@
     }
   },
   {
+    "id": "evt_20251217_24c8f0e5-bd4c-4941-a1c1-6e079ada0194",
+    "event_key": "v:ven_defc39a1-7787-48c7-b5f4-623157118647|t:2025-12-17T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSNH0ZzEiPD/",
+    "venue_handle": "bluecat.fezh",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_defc39a1-7787-48c7-b5f4-623157118647",
+    "venue_location_id": "main",
+    "datetime": "2025-12-17T10:00:00+00:00",
+    "price": "KRW 85,000",
+    "llm_confidence": 1.0,
+    "title": "The Architecture of a Night by Park To-ha and Imami",
+    "description": "Blue Cat Jazz Night: Jazz performance 'The Architecture of a Night' by the duo Park To-ha (vocal) and Imami (piano).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The Architecture of a Night by Park To-ha and Imami",
+      "description": "Blue Cat Jazz Night: Jazz performance 'The Architecture of a Night' by the duo Park To-ha (vocal) and Imami (piano)."
+    },
+    "_search_ko": {
+      "title": "박토하 이마미의 어느 밤의 건축",
+      "description": "블루캣 재즈 나이트: 박토하 (보컬)와 이마미 (피아노) 듀오의 '어느 밤의 건축' 공연."
+    }
+  },
+  {
     "id": "evt_20251217_3a20721a-2279-471e-9dc7-07ec21a7812d",
     "event_key": "v:ven_5bb65766-9242-4a8a-bbdf-c7cdd5dd73f0|t:2025-12-17T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DRQoiLrj4y5/",
@@ -422,6 +534,32 @@
     "_search_ko": {
       "title": "이대원 퀄텟",
       "description": "이대원 퀄텟의 라이브 재즈 공연."
+    }
+  },
+  {
+    "id": "evt_20251217_493c39bf-1237-46f3-a705-0357b25c990a",
+    "event_key": "v:ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89|t:2025-12-17T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSREtB7ied9/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-17T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Gwang-yong Trio with Kim Young-mi",
+    "description": "[Location: Sadang] Dynamic and emotional jazz performance by Kim Gwang-yong Trio with Kim Young-mi. Standard jazz, blues, originals, POP, OST, tango, Latin. Kim Young-mi (vocal), Kim Gwang-yong (piano), No Hyeon-bae (bass), Lee Min-gu (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Gwang-yong Trio with Kim Young-mi",
+      "description": "[Location: Sadang] Dynamic and emotional jazz performance by Kim Gwang-yong Trio with Kim Young-mi. Standard jazz, blues, originals, POP, OST, tango, Latin. Kim Young-mi (vocal), Kim Gwang-yong (piano), No Hyeon-bae (bass), Lee Min-gu (drums)."
+    },
+    "_search_ko": {
+      "title": "김광용 트리오 with 김영미",
+      "description": "[사당] 김광용 트리오 with 김영미의 역동적이고 감성적인 재즈 공연. 스탠다드 재즈, 블루스, 자작곡, POP, OST, 탱고, 라틴. 김영미 (보컬), 김광용 (피아노), 노현배 (베이스), 이민구 (드럼)."
     }
   },
   {
@@ -540,7 +678,7 @@
   {
     "id": "evt_20251217_41ab5431-72b3-470b-8b17-6aa765e4a7cb",
     "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-17T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DSRAyhWD2pP/",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
     "venue_handle": "mammy__blue",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -553,18 +691,18 @@
     "datetime": "2025-12-17T11:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Yong To The Sun",
-    "description": "The performance consists of two 45-minute parts. Part 1: 8:00-8:45 PM, 10-minute break, Part 2: 8:55-9:40 PM.",
+    "title": "Yong To The Sun (Part 1)",
+    "description": "Yong To The Sun band performance, Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Yong To The Sun",
-      "description": "The performance consists of two 45-minute parts. Part 1: 8:00-8:45 PM, 10-minute break, Part 2: 8:55-9:40 PM."
+      "title": "Yong To The Sun (Part 1)",
+      "description": "Yong To The Sun band performance, Part 1."
     },
     "_search_ko": {
-      "title": "Yong To The Sun",
-      "description": "공연은 1, 2부 각 45분씩 진행. 1부: 20:00~20:45, 10분 휴식, 2부: 20:55~21:40."
+      "title": "Yong To The Sun (1부)",
+      "description": "Yong To The Sun 밴드 공연 1부."
     }
   },
   {
@@ -646,6 +784,68 @@
     }
   },
   {
+    "id": "evt_20251217_b372c582-e9de-40d6-847a-cd33280d8260",
+    "event_key": "v:ven_d8793345-9984-453f-ba47-85b936b044d8|t:2025-12-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSRIDwOk2BL/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "ht_ham89",
+      "superdongdal",
+      "young_piano0504"
+    ],
+    "venue_id": "ven_d8793345-9984-453f-ba47-85b936b044d8",
+    "venue_location_id": "main",
+    "datetime": "2025-12-17T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DHL Trio",
+    "description": "DHL Trio: Kim Dong-hyun (vocal) @superdongdal, Lim Bo-young (piano) @young_piano0504, Ham Hee-tae (bass) @ht_ham89",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DHL Trio",
+      "description": "DHL Trio: Kim Dong-hyun (vocal) @superdongdal, Lim Bo-young (piano) @young_piano0504, Ham Hee-tae (bass) @ht_ham89"
+    },
+    "_search_ko": {
+      "title": "DHL 트리오",
+      "description": "DHL 트리오: 김동현 (보컬) @superdongdal, 임보영 (피아노) @young_piano0504, 함희태 (베이스) @ht_ham89"
+    }
+  },
+  {
+    "id": "evt_20251217_23fe1834-107c-4df3-ad2b-ac5d22569f89",
+    "event_key": "v:ven_b4187fa2-d079-42c6-a060-58a5aa8d78a8|t:2025-12-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSTwG2IExvG/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "evanskim00",
+      "kyuuuuukim",
+      "nicojinbass",
+      "philgrenadier",
+      "plex_park"
+    ],
+    "venue_id": "ven_b4187fa2-d079-42c6-a060-58a5aa8d78a8",
+    "venue_location_id": "main",
+    "datetime": "2025-12-17T11:00:00+00:00",
+    "price": "Free entry, deferred payment",
+    "llm_confidence": 1.0,
+    "title": "Nico Jin Quintet",
+    "description": "Quintet delivering the charm of jazz with good swing and bebop. Featuring Berkeley Professor Phil Grenadier on trumpet.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nico Jin Quintet",
+      "description": "Quintet delivering the charm of jazz with good swing and bebop. Featuring Berkeley Professor Phil Grenadier on trumpet."
+    },
+    "_search_ko": {
+      "title": "Nico Jin 퀸텟",
+      "description": "좋은 스윙과 비밥으로 재즈의 매력을 전하는 퀸텟. 버클리 교수 Phil Grenadier (트럼펫) 초청."
+    }
+  },
+  {
     "id": "evt_20251217_48373269-4875-4025-8a58-176609832e9a",
     "event_key": "v:ven_6e89ed93-cd64-46fc-83da-31ff34348700|t:2025-12-17T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DSKXVWFATfS/",
@@ -669,6 +869,32 @@
     "_search_ko": {
       "title": "김성수 Quartet",
       "description": "Contemporary 스타일의 감성적인 오리지널 곡들을 에너지 넘치게 연주하는 무대. 김성수 (기타), 박민선 (피아노), 윤종률 (베이스), 한인집 (드럼)."
+    }
+  },
+  {
+    "id": "evt_20251217_bd191b43-3932-46ec-96e2-e3388a6d66dc",
+    "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-17T11:55:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
+    "venue_location_id": "main",
+    "datetime": "2025-12-17T11:55:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Yong To The Sun (Part 2)",
+    "description": "Yong To The Sun band performance, Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yong To The Sun (Part 2)",
+      "description": "Yong To The Sun band performance, Part 2."
+    },
+    "_search_ko": {
+      "title": "Yong To The Sun (2부)",
+      "description": "Yong To The Sun 밴드 공연 2부."
     }
   },
   {
@@ -747,6 +973,32 @@
     "_search_ko": {
       "title": "추명진 퀄텟 (2부)",
       "description": "역동적이고 감성적인 재즈 무대. 추명진 퀄텟: 백효은 (보컬), 윤수진 (피아노), 전한국 (베이스), 추명진 (드럼)."
+    }
+  },
+  {
+    "id": "evt_20251217_d2fd67cc-ef4c-4b5d-ae41-23b8a44f014a",
+    "event_key": "v:ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89|t:2025-12-17T12:40:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSREtB7ied9/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-17T12:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Gwang-yong Trio with Kim Young-mi",
+    "description": "[Location: Sadang] Dynamic and emotional jazz performance by Kim Gwang-yong Trio with Kim Young-mi. Standard jazz, blues, originals, POP, OST, tango, Latin. Kim Young-mi (vocal), Kim Gwang-yong (piano), No Hyeon-bae (bass), Lee Min-gu (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Gwang-yong Trio with Kim Young-mi",
+      "description": "[Location: Sadang] Dynamic and emotional jazz performance by Kim Gwang-yong Trio with Kim Young-mi. Standard jazz, blues, originals, POP, OST, tango, Latin. Kim Young-mi (vocal), Kim Gwang-yong (piano), No Hyeon-bae (bass), Lee Min-gu (drums)."
+    },
+    "_search_ko": {
+      "title": "김광용 트리오 with 김영미",
+      "description": "[사당] 김광용 트리오 with 김영미의 역동적이고 감성적인 재즈 공연. 스탠다드 재즈, 블루스, 자작곡, POP, OST, 탱고, 라틴. 김영미 (보컬), 김광용 (피아노), 노현배 (베이스), 이민구 (드럼)."
     }
   },
   {
@@ -883,6 +1135,32 @@
     }
   },
   {
+    "id": "evt_20251218_b8c77228-b950-405e-a101-306c53f626d7",
+    "event_key": "v:ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89|t:2025-12-18T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSREtB7ied9/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-18T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Colin Kim Quintet",
+    "description": "[Location: Sadang] Dynamic and emotional jazz performance by Colin Kim Quintet. Standard jazz, blues, originals, POP, OST, tango, Latin. Yoo Taek-yeol (saxophone), Colin Kim (guitar), No Ba-saem (piano), Park Jin-gyo (bass), Kim Sang-soo (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Colin Kim Quintet",
+      "description": "[Location: Sadang] Dynamic and emotional jazz performance by Colin Kim Quintet. Standard jazz, blues, originals, POP, OST, tango, Latin. Yoo Taek-yeol (saxophone), Colin Kim (guitar), No Ba-saem (piano), Park Jin-gyo (bass), Kim Sang-soo (drums)."
+    },
+    "_search_ko": {
+      "title": "Colin Kim 퀸텟",
+      "description": "[사당] Colin Kim 퀸텟의 역동적이고 감성적인 재즈 공연. 스탠다드 재즈, 블루스, 자작곡, POP, OST, 탱고, 라틴. 유택열 (색소폰), Colin Kim (기타), 노바샘 (피아노), 박진교 (베이스), 김상수 (드럼)."
+    }
+  },
+  {
     "id": "evt_20251218_bcdd9de0-9df6-43c1-a353-d41d94c05f78",
     "event_key": "v:ven_0f9c48b2-2ea8-4cd2-8993-eea16592d271|t:2025-12-18T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DRGos_mj28Q/",
@@ -939,27 +1217,27 @@
   {
     "id": "evt_20251218_1caf924a-0b5e-42f6-a35c-b0b658ab6f0c",
     "event_key": "v:ven_c3b43966-ae0c-4c52-a64a-d9b9e69dc8c4|t:2025-12-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRJmS-xEmAo/",
+    "source_url": "https://www.instagram.com/p/DSTkHrTknKH/",
     "venue_handle": "pdpdclub",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_c3b43966-ae0c-4c52-a64a-d9b9e69dc8c4",
     "venue_location_id": "main",
     "datetime": "2025-12-18T11:00:00+00:00",
-    "price": null,
+    "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Hanol Kim Trio: Imprisoned Life",
-    "description": "Hanol Kim Trio's 'Imprisoned Life' project, featuring Piano, Bass, and Drums.",
+    "title": "Kim Han-eol's Joyful Island",
+    "description": "Kim Han-eol's jazz project <Joyful Island> performance. Kim Han-eol (piano), Deok-kkeong (bass), Lee Jong-ho (drums). Show times: Part 1 20:00-20:40, Part 2 21:00-21:40.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Hanol Kim Trio: Imprisoned Life",
-      "description": "Hanol Kim Trio's 'Imprisoned Life' project, featuring Piano, Bass, and Drums."
+      "title": "Kim Han-eol's Joyful Island",
+      "description": "Kim Han-eol's jazz project <Joyful Island> performance. Kim Han-eol (piano), Deok-kkeong (bass), Lee Jong-ho (drums). Show times: Part 1 20:00-20:40, Part 2 21:00-21:40."
     },
     "_search_ko": {
-      "title": "김한얼 트리오: 유폐한삶",
-      "description": "김한얼 트리오의 <유폐한삶> 프로젝트. 피아노, 베이스, 드럼 연주."
+      "title": "김한얼의 유쾌한 섬",
+      "description": "김한얼의 재즈 프로젝트 <유쾌한 섬> 공연. 김한얼 (피아노), 더껑 (베이스), 이종호 (드럼). 공연 1부 20:00-20:40, 2부 21:00-21:40."
     }
   },
   {
@@ -1041,6 +1319,36 @@
     }
   },
   {
+    "id": "evt_20251218_841fbf9c-dda6-490e-9cc4-f8ace0ba56e9",
+    "event_key": "v:ven_d8793345-9984-453f-ba47-85b936b044d8|t:2025-12-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSRIDwOk2BL/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "blue_jeeans",
+      "boriel_kim",
+      "k0_wellcome"
+    ],
+    "venue_id": "ven_d8793345-9984-453f-ba47-85b936b044d8",
+    "venue_location_id": "main",
+    "datetime": "2025-12-18T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Go Young-chan Trio",
+    "description": "Go Young-chan Trio: Go Young-chan (drums) @k0_wellcome, Kim Dae-hyun (bass) @boriel_kim, Heo Jin (guitar) @blue_jeeans",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Go Young-chan Trio",
+      "description": "Go Young-chan Trio: Go Young-chan (drums) @k0_wellcome, Kim Dae-hyun (bass) @boriel_kim, Heo Jin (guitar) @blue_jeeans"
+    },
+    "_search_ko": {
+      "title": "고영찬 트리오",
+      "description": "고영찬 트리오: 고영찬 (드럼) @k0_wellcome, 김대현 (베이스) @boriel_kim, 허진 (기타) @blue_jeeans"
+    }
+  },
+  {
     "id": "evt_20251218_63813612-e64e-4b49-b9d9-d478614a9395",
     "event_key": "v:ven_6e89ed93-cd64-46fc-83da-31ff34348700|t:2025-12-18T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DSKXVWFATfS/",
@@ -1095,7 +1403,7 @@
   {
     "id": "evt_20251218_bf6afcc3-888c-4be2-aa88-fcbead3df6b6",
     "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-18T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DSPEqokkT2R/",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
     "venue_handle": "mammy__blue",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -1109,18 +1417,18 @@
     "datetime": "2025-12-18T11:30:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "YL Jazz Trio + Jang Jungmi",
-    "description": "Performance by YL Jazz Trio with vocalist Jang Jungmi. Yang Junho (piano) @yljazztrio, Jang Jungmi (vocal) @juhochang, Lee Gwanghyeok (drums) @drummer_dandylee, Lee Sangjin (bass) @sangjean_lee. The performance consists of two 45-minute sets.",
+    "title": "Yang Jun-ho Trio (Part 1)",
+    "description": "Yang Jun-ho Trio performance, Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "YL Jazz Trio + Jang Jungmi",
-      "description": "Performance by YL Jazz Trio with vocalist Jang Jungmi. Yang Junho (piano) @yljazztrio, Jang Jungmi (vocal) @juhochang, Lee Gwanghyeok (drums) @drummer_dandylee, Lee Sangjin (bass) @sangjean_lee. The performance consists of two 45-minute sets."
+      "title": "Yang Jun-ho Trio (Part 1)",
+      "description": "Yang Jun-ho Trio performance, Part 1."
     },
     "_search_ko": {
-      "title": "YL 재즈 트리오 + 장정미",
-      "description": "YL 재즈 트리오와 보컬 장정미 공연. 양준호 (피아노) @yljazztrio, 장정미 (보컬) @juhochang, 이광혁 (드럼) @drummer_dandylee, 이상진 (베이스) @sangjean_lee. 공연은 1, 2부 각 45분씩 진행."
+      "title": "양준호 트리오 (1부)",
+      "description": "양준호 트리오 공연 1부."
     }
   },
   {
@@ -1152,7 +1460,7 @@
   {
     "id": "evt_20251218_83e63ea0-d1e7-435c-8c70-e7a5e19c3eda",
     "event_key": "v:ven_9121334e-11fe-4710-8d7b-87f5825e3fcd|t:2025-12-18T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRq4XsNgSo-/",
+    "source_url": "https://www.instagram.com/p/DRJ5ex1ATDs/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1161,18 +1469,18 @@
     "datetime": "2025-12-18T12:00:00+00:00",
     "price": "KRW 5,000",
     "llm_confidence": 1.0,
-    "title": "HEY P Duo",
-    "description": "HEY P Duo performance. Admission: KRW 5,000.",
+    "title": "HEY P Live Performance",
+    "description": "Live performance by HEY P at BARTICAN, featuring jazz, K-pop, and pop music.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "HEY P Duo",
-      "description": "HEY P Duo performance. Admission: KRW 5,000."
+      "title": "HEY P Live Performance",
+      "description": "Live performance by HEY P at BARTICAN, featuring jazz, K-pop, and pop music."
     },
     "_search_ko": {
-      "title": "HEY P 듀오",
-      "description": "HEY P 듀오 공연. 입장료: 5,000원."
+      "title": "HEY P 라이브 공연",
+      "description": "BARTICAN에서 열리는 HEY P의 라이브 공연. 재즈, 가요 및 팝 음악이 포함됩니다."
     }
   },
   {
@@ -1202,9 +1510,61 @@
     }
   },
   {
+    "id": "evt_20251218_4d2f4885-9efc-4b0a-9192-0b28166cc37e",
+    "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-18T12:25:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
+    "venue_location_id": "main",
+    "datetime": "2025-12-18T12:25:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Yang Jun-ho Trio (Part 2)",
+    "description": "Yang Jun-ho Trio performance, Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yang Jun-ho Trio (Part 2)",
+      "description": "Yang Jun-ho Trio performance, Part 2."
+    },
+    "_search_ko": {
+      "title": "양준호 트리오 (2부)",
+      "description": "양준호 트리오 공연 2부."
+    }
+  },
+  {
+    "id": "evt_20251218_e1bb955f-4c44-4854-9ccd-9faea9f4591b",
+    "event_key": "v:ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89|t:2025-12-18T12:40:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSREtB7ied9/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-18T12:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Colin Kim Quintet",
+    "description": "[Location: Sadang] Dynamic and emotional jazz performance by Colin Kim Quintet. Standard jazz, blues, originals, POP, OST, tango, Latin. Yoo Taek-yeol (saxophone), Colin Kim (guitar), No Ba-saem (piano), Park Jin-gyo (bass), Kim Sang-soo (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Colin Kim Quintet",
+      "description": "[Location: Sadang] Dynamic and emotional jazz performance by Colin Kim Quintet. Standard jazz, blues, originals, POP, OST, tango, Latin. Yoo Taek-yeol (saxophone), Colin Kim (guitar), No Ba-saem (piano), Park Jin-gyo (bass), Kim Sang-soo (drums)."
+    },
+    "_search_ko": {
+      "title": "Colin Kim 퀸텟",
+      "description": "[사당] Colin Kim 퀸텟의 역동적이고 감성적인 재즈 공연. 스탠다드 재즈, 블루스, 자작곡, POP, OST, 탱고, 라틴. 유택열 (색소폰), Colin Kim (기타), 노바샘 (피아노), 박진교 (베이스), 김상수 (드럼)."
+    }
+  },
+  {
     "id": "evt_20251218_aa74213b-0742-4552-98c5-21eb10485432",
     "event_key": "v:ven_9121334e-11fe-4710-8d7b-87f5825e3fcd|t:2025-12-18T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRq4XsNgSo-/",
+    "source_url": "https://www.instagram.com/p/DRJ5ex1ATDs/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1213,18 +1573,18 @@
     "datetime": "2025-12-18T13:00:00+00:00",
     "price": "KRW 5,000",
     "llm_confidence": 1.0,
-    "title": "HEY P Duo",
-    "description": "HEY P Duo performance. Admission: KRW 5,000.",
+    "title": "HEY P Live Performance",
+    "description": "Live performance by HEY P at BARTICAN, featuring jazz, K-pop, and pop music.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "HEY P Duo",
-      "description": "HEY P Duo performance. Admission: KRW 5,000."
+      "title": "HEY P Live Performance",
+      "description": "Live performance by HEY P at BARTICAN, featuring jazz, K-pop, and pop music."
     },
     "_search_ko": {
-      "title": "HEY P 듀오",
-      "description": "HEY P 듀오 공연. 입장료: 5,000원."
+      "title": "HEY P 라이브 공연",
+      "description": "BARTICAN에서 열리는 HEY P의 라이브 공연. 재즈, 가요 및 팝 음악이 포함됩니다."
     }
   },
   {
@@ -1468,6 +1828,32 @@
     "_search_ko": {
       "title": "김이슬 퀄텟",
       "description": "세계 곳곳에서 얻은 음악적 영감을 바탕으로 뉴욕과 한국을 오가며 활동하는 김이슬 퀄텟. 재즈, 라틴, 월드뮤직을 넘나드는 독창적인 사운드를 선보이며, '리베로시스'와 '김이슬의 두개의 소리' 앙상블을 이끌어 왔다. 김이슬 (피아노/보컬) @iseul.music, 김준범 (기타) @junbeomkimguitar, 김종현 (드럼) @jhyundrums, 박한율 (베이스) @hanyulpark"
+    }
+  },
+  {
+    "id": "evt_20251219_acab22fe-d5d8-4062-b5ea-149f5f78dd67",
+    "event_key": "v:ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89|t:2025-12-19T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSREtB7ied9/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-19T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Gyeong-il Sextet",
+    "description": "[Location: Sadang] Dynamic and emotional jazz performance by Lee Gyeong-il Sextet. Standard jazz, blues, originals, POP, OST, tango, Latin. Lee Gyeong-il (saxophone), Lee Yoon (trombone), Yoo Dong-hyuk (piano), Han Gyu-min (guitar), Jeong Hyo-rim (bass), Na Uk-gyun (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Gyeong-il Sextet",
+      "description": "[Location: Sadang] Dynamic and emotional jazz performance by Lee Gyeong-il Sextet. Standard jazz, blues, originals, POP, OST, tango, Latin. Lee Gyeong-il (saxophone), Lee Yoon (trombone), Yoo Dong-hyuk (piano), Han Gyu-min (guitar), Jeong Hyo-rim (bass), Na Uk-gyun (drums)."
+    },
+    "_search_ko": {
+      "title": "이경일 섹스텟",
+      "description": "[사당] 이경일 섹스텟의 역동적이고 감성적인 재즈 공연. 스탠다드 재즈, 블루스, 자작곡, POP, OST, 탱고, 라틴. 이경일 (색소폰), 이윤 (트롬본), 유동혁 (피아노), 한규민 (기타), 정효림 (베이스), 나욱균 (드럼)."
     }
   },
   {
@@ -1769,7 +2155,7 @@
   {
     "id": "evt_20251219_d2d18977-22b8-484d-9b6c-6233151e2076",
     "event_key": "v:ven_5cb218fb-385c-4061-b355-02940bbba48b|t:2025-12-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRrxx9qDwyv/",
+    "source_url": "https://www.instagram.com/p/DSTq0Tzj19K/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1779,17 +2165,17 @@
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
     "title": "Choi Gu-seul Quartet",
-    "description": "Performance by Choi Gu-seul Quartet (vocal).",
+    "description": "Jazz performance by Choi Gu-seul Quartet. Choi Geun-hyuk (drums), Kim Hyun-young (bass), Jang Dong-won (piano), Choi Gu-seul (vocal).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Choi Gu-seul Quartet",
-      "description": "Performance by Choi Gu-seul Quartet (vocal)."
+      "description": "Jazz performance by Choi Gu-seul Quartet. Choi Geun-hyuk (drums), Kim Hyun-young (bass), Jang Dong-won (piano), Choi Gu-seul (vocal)."
     },
     "_search_ko": {
       "title": "최구슬 퀄텟",
-      "description": "보컬 최구슬 퀄텟의 공연."
+      "description": "최구슬 퀄텟의 재즈 공연. 드럼 최근혁, 베이스 김현영, 피아노 장동원, 보컬 최구슬."
     }
   },
   {
@@ -1897,6 +2283,67 @@
     }
   },
   {
+    "id": "evt_20251219_47f8ff1c-2e3d-48ac-8884-fb126597cdf1",
+    "event_key": "v:ven_d8793345-9984-453f-ba47-85b936b044d8|t:2025-12-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSRIDwOk2BL/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "ccc_chambers",
+      "dain.oday",
+      "teddy.shin_drums",
+      "wook_charlie_._._"
+    ],
+    "venue_id": "ven_d8793345-9984-453f-ba47-85b936b044d8",
+    "venue_location_id": "main",
+    "datetime": "2025-12-19T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Da-in Quartet",
+    "description": "Special Carol Day: Lee Da-in Quartet: Lee Da-in (vocal) @dain.oday, Park Jung-wook (piano) @wook_charlie_._._, Choi Min-ho (bass) @ccc_chambers, Teddy Shin (drums) @teddy.shin_drums",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Da-in Quartet",
+      "description": "Special Carol Day: Lee Da-in Quartet: Lee Da-in (vocal) @dain.oday, Park Jung-wook (piano) @wook_charlie_._._, Choi Min-ho (bass) @ccc_chambers, Teddy Shin (drums) @teddy.shin_drums"
+    },
+    "_search_ko": {
+      "title": "이다인 퀄텟",
+      "description": "스페셜 캐롤 데이: 이다인 퀄텟: 이다인 (보컬) @dain.oday, 박정욱 (피아노) @wook_charlie_._._, 최민호 (베이스) @ccc_chambers, 테디신 (드럼) @teddy.shin_drums"
+    }
+  },
+  {
+    "id": "evt_20251219_28eab382-e39b-42d4-9da0-6b95cc4d62d5",
+    "event_key": "v:ven_3e9472b8-61e7-43c2-9d79-7c4d5a932a0a|t:2025-12-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSTljaPAeGl/",
+    "venue_handle": "oleojazzpub",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "hsk9146",
+      "nowherebefore",
+      "rob.ligato"
+    ],
+    "venue_id": "ven_3e9472b8-61e7-43c2-9d79-7c4d5a932a0a",
+    "venue_location_id": "main",
+    "datetime": "2025-12-19T11:00:00+00:00",
+    "price": "KRW 15,000 (includes 1 basic drink)",
+    "llm_confidence": 1.0,
+    "title": "HSK Violin Trio",
+    "description": "Jazz live performance & session. HSK Violin Trio: Kim Hyung-seop (violin) @hsk9146, Yoon Chan (piano) @nowherebefore, Robert Fernandez (bass) @rob.ligato.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "HSK Violin Trio",
+      "description": "Jazz live performance & session. HSK Violin Trio: Kim Hyung-seop (violin) @hsk9146, Yoon Chan (piano) @nowherebefore, Robert Fernandez (bass) @rob.ligato."
+    },
+    "_search_ko": {
+      "title": "HSK 바이올린 트리오",
+      "description": "재즈 라이브 및 세션. HSK 바이올린 트리오: 김형섭 (바이올린) @hsk9146, 윤찬 (피아노) @nowherebefore, 로버트 페르난데즈 (베이스) @rob.ligato."
+    }
+  },
+  {
     "id": "evt_20251219_723506ab-febb-4679-82cc-56da0c77228d",
     "event_key": "v:ven_5ad56022-0396-4cbb-b164-1c01bffcb0f9|t:2025-12-19T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DSSDxwNj2VH/",
@@ -1951,27 +2398,32 @@
   {
     "id": "evt_20251219_c6ce51c7-df9e-453e-a63b-3eb20759b9a8",
     "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-19T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "source_url": "https://www.instagram.com/p/DSSMRT7EZrn/",
     "venue_handle": "mammy__blue",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "bowingpark",
+      "brownsoundstudio",
+      "saxophone_heaven",
+      "seokgwon_k"
+    ],
     "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
     "venue_location_id": "main",
     "datetime": "2025-12-19T11:30:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
     "title": "Kim Jae-hyung Quartet",
-    "description": "Performance by Kim Jae-hyung Quartet.",
+    "description": "Kim Jae-hyung Quartet performance. Kim Jae-hyung (piano) @brownsoundstudio, Lee Jong-won (saxophone) @saxophone_heaven, Kang Seok-gwon (drums) @seokgwon_k, Park Jeong-hyun (bass) @bowingpark.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Jae-hyung Quartet",
-      "description": "Performance by Kim Jae-hyung Quartet."
+      "description": "Kim Jae-hyung Quartet performance. Kim Jae-hyung (piano) @brownsoundstudio, Lee Jong-won (saxophone) @saxophone_heaven, Kang Seok-gwon (drums) @seokgwon_k, Park Jeong-hyun (bass) @bowingpark."
     },
     "_search_ko": {
       "title": "김재형 퀄텟",
-      "description": "김재형 퀄텟의 공연."
+      "description": "김재형 퀄텟 공연. 김재형 (피아노) @brownsoundstudio, 이종원 (색소폰) @saxophone_heaven, 강석권 (드럼) @seokgwon_k, 박정현 (베이스) @bowingpark."
     }
   },
   {
@@ -2050,6 +2502,32 @@
     "_search_ko": {
       "title": "닥터홍 재즈 밴드",
       "description": "닥터홍 재즈 밴드 공연. 닥터홍 (색소폰), 강병표 (베이스), 김선희 (드럼). 가격: 10,000원."
+    }
+  },
+  {
+    "id": "evt_20251219_95d028e0-f178-4ce9-89dd-6106bcb822de",
+    "event_key": "v:ven_dc290c4d-e87a-46e2-b62c-c979bcbd0ae3|t:2025-12-19T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSRoxo3k8Ff/",
+    "venue_handle": "bluechicago_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dc290c4d-e87a-46e2-b62c-c979bcbd0ae3",
+    "venue_location_id": "main",
+    "datetime": "2025-12-19T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "YZ Band",
+    "description": "YZ Band Christmas performance. Baek Han-eum (piano), Kim Min-gyu (guitar), Han Ye-seul (vocal), Jo Hyeong-jin (bass), Yun Jin-eon (drum).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "YZ Band",
+      "description": "YZ Band Christmas performance. Baek Han-eum (piano), Kim Min-gyu (guitar), Han Ye-seul (vocal), Jo Hyeong-jin (bass), Yun Jin-eon (drum)."
+    },
+    "_search_ko": {
+      "title": "YZ 밴드",
+      "description": "YZ 밴드 크리스마스 공연. 백한음 (피아노), 김민규 (기타), 한예슬 (보컬), 조형진 (베이스), 윤진언 (드럼)."
     }
   },
   {
@@ -2159,6 +2637,32 @@
     }
   },
   {
+    "id": "evt_20251219_7aa88a43-aa45-4e02-b32c-0824c47fdc7c",
+    "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-19T12:25:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
+    "venue_location_id": "main",
+    "datetime": "2025-12-19T12:25:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Kim Jae-hyeong Quartet (Part 2)",
+    "description": "Kim Jae-hyeong Quartet performance, Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Jae-hyeong Quartet (Part 2)",
+      "description": "Kim Jae-hyeong Quartet performance, Part 2."
+    },
+    "_search_ko": {
+      "title": "김재형 퀄텟 (2부)",
+      "description": "김재형 퀄텟 공연 2부."
+    }
+  },
+  {
     "id": "evt_20251219_5268f613-feda-4abe-8d2e-66fd552b24ac",
     "event_key": "v:ven_5ad56022-0396-4cbb-b164-1c01bffcb0f9|t:2025-12-19T12:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DRt3xJBj1Sb/",
@@ -2208,6 +2712,32 @@
     "_search_ko": {
       "title": "이정식 Quartet & Vo.김준",
       "description": "대한민국 대표 재즈 색소포니스트 이정식의 오리지널 Quartet 무대. 음악 인생 속 감동을 주었던 곡들을 엄선해 들려준다. 1세대 재즈보컬 김준과 함께. 김준 (보컬), 이정식 (색소폰), 박성준 (피아노), 최세열 (베이스), 이길종 (드럼)."
+    }
+  },
+  {
+    "id": "evt_20251219_8940ab48-c2aa-4838-83b8-0be790825edf",
+    "event_key": "v:ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89|t:2025-12-19T12:40:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSREtB7ied9/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_43bce5a9-5cf4-4a74-abdc-06bf5b998b89",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-19T12:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Gyeong-il Sextet",
+    "description": "[Location: Sadang] Dynamic and emotional jazz performance by Lee Gyeong-il Sextet. Standard jazz, blues, originals, POP, OST, tango, Latin. Lee Gyeong-il (saxophone), Lee Yoon (trombone), Yoo Dong-hyuk (piano), Han Gyu-min (guitar), Jeong Hyo-rim (bass), Na Uk-gyun (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Gyeong-il Sextet",
+      "description": "[Location: Sadang] Dynamic and emotional jazz performance by Lee Gyeong-il Sextet. Standard jazz, blues, originals, POP, OST, tango, Latin. Lee Gyeong-il (saxophone), Lee Yoon (trombone), Yoo Dong-hyuk (piano), Han Gyu-min (guitar), Jeong Hyo-rim (bass), Na Uk-gyun (drums)."
+    },
+    "_search_ko": {
+      "title": "이경일 섹스텟",
+      "description": "[사당] 이경일 섹스텟의 역동적이고 감성적인 재즈 공연. 스탠다드 재즈, 블루스, 자작곡, POP, OST, 탱고, 라틴. 이경일 (색소폰), 이윤 (트롬본), 유동혁 (피아노), 한규민 (기타), 정효림 (베이스), 나욱균 (드럼)."
     }
   },
   {
@@ -2774,7 +3304,7 @@
   {
     "id": "evt_20251220_917a3771-f128-4ec0-8953-ef4d08c47b0f",
     "event_key": "v:ven_9121334e-11fe-4710-8d7b-87f5825e3fcd|t:2025-12-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRq4XsNgSo-/",
+    "source_url": "https://www.instagram.com/p/DRJ5ex1ATDs/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -2783,18 +3313,18 @@
     "datetime": "2025-12-20T11:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "HEY P Band",
-    "description": "HEY P Band performance. Admission: KRW 10,000.",
+    "title": "HEY P Live Performance",
+    "description": "Live performance by HEY P at BARTICAN, featuring jazz, K-pop, and pop music.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "HEY P Band",
-      "description": "HEY P Band performance. Admission: KRW 10,000."
+      "title": "HEY P Live Performance",
+      "description": "Live performance by HEY P at BARTICAN, featuring jazz, K-pop, and pop music."
     },
     "_search_ko": {
-      "title": "HEY P 밴드",
-      "description": "HEY P 밴드 공연. 입장료: 10,000원."
+      "title": "HEY P 라이브 공연",
+      "description": "BARTICAN에서 열리는 HEY P의 라이브 공연. 재즈, 가요 및 팝 음악이 포함됩니다."
     }
   },
   {
@@ -2960,7 +3490,7 @@
   {
     "id": "evt_20251220_3c0a610c-7676-4d58-a3cc-c2e8c98a0073",
     "event_key": "v:ven_5cb218fb-385c-4061-b355-02940bbba48b|t:2025-12-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DSRnPoJD8cU/",
+    "source_url": "https://www.instagram.com/p/DRrxx9qDwyv/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -2969,18 +3499,18 @@
     "datetime": "2025-12-20T11:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "SP Jazz Band (Vocal)",
-    "description": "SP Jazz Band performance featuring Song In-ae (vocal), Hong Gi-cheol (drums), David park (bass), Kyle Kim (tenor saxophone), Lee Sang-chul (guitar), Jang Seong-gyun (piano).",
+    "title": "SP Jazz Band",
+    "description": "Jazz performance by SP Jazz Band with vocal. Part 1 20:00-20:50, Part 2 21:10-22:00.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "SP Jazz Band (Vocal)",
-      "description": "SP Jazz Band performance featuring Song In-ae (vocal), Hong Gi-cheol (drums), David park (bass), Kyle Kim (tenor saxophone), Lee Sang-chul (guitar), Jang Seong-gyun (piano)."
+      "title": "SP Jazz Band",
+      "description": "Jazz performance by SP Jazz Band with vocal. Part 1 20:00-20:50, Part 2 21:10-22:00."
     },
     "_search_ko": {
-      "title": "SP 재즈 밴드 (보컬)",
-      "description": "SP 재즈 밴드 공연. 송인애 (보컬), 홍기철 (드럼), David park (베이스), Kyle Kim (테너색소폰), 이상철 (기타), 장성균 (피아노)."
+      "title": "SP Jazz Band",
+      "description": "보컬과 함께하는 SP Jazz Band의 재즈 공연. 1부 20:00-20:50, 2부 21:10-22:00."
     }
   },
   {
@@ -3114,6 +3644,37 @@
     }
   },
   {
+    "id": "evt_20251220_2b6a339e-81d3-4ade-9214-8e7a547c7be1",
+    "event_key": "v:ven_d8793345-9984-453f-ba47-85b936b044d8|t:2025-12-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSRIDwOk2BL/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "bongtrabass",
+      "modaaaaaaal",
+      "soonwookhahn",
+      "wooyeonjeong"
+    ],
+    "venue_id": "ven_d8793345-9984-453f-ba47-85b936b044d8",
+    "venue_location_id": "main",
+    "datetime": "2025-12-20T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Modal Band",
+    "description": "Special Carol Day: Modal Band: Modal (vocal) @modaaaaaaal, Jung Woo-yeon (piano) @wooyeonjeong, Kim Bong-gwan (bass) @bongtrabass, Han Soon-wook (drums) @soonwookhahn",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Modal Band",
+      "description": "Special Carol Day: Modal Band: Modal (vocal) @modaaaaaaal, Jung Woo-yeon (piano) @wooyeonjeong, Kim Bong-gwan (bass) @bongtrabass, Han Soon-wook (drums) @soonwookhahn"
+    },
+    "_search_ko": {
+      "title": "모달 밴드",
+      "description": "스페셜 캐롤 데이: 모달 밴드: 모달 (보컬) @modaaaaaaal, 정우연 (피아노) @wooyeonjeong, 김봉관 (베이스) @bongtrabass, 한순욱 (드럼) @soonwookhahn"
+    }
+  },
+  {
     "id": "evt_20251220_31733220-3a69-413d-91f4-3d1a51437ca7",
     "event_key": "v:ven_5ad56022-0396-4cbb-b164-1c01bffcb0f9|t:2025-12-20T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DSSDxwNj2VH/",
@@ -3168,27 +3729,31 @@
   {
     "id": "evt_20251220_dff06b31-bfc1-4e02-8bf2-d6445cdd9a68",
     "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-20T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "source_url": "https://www.instagram.com/p/DSSMiuZkdn1/",
     "venue_handle": "mammy__blue",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "js__piano",
+      "min.hacho",
+      "woonjo_"
+    ],
     "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
     "venue_location_id": "main",
     "datetime": "2025-12-20T11:30:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
     "title": "Jo Un and Good Friends",
-    "description": "Performance by Jo Un and Good Friends band.",
+    "description": "Performance by 'Jo Un and Good Friends' featuring vocalist Jo Un (@woonjo_), pianist Park Jin-seong (@js__piano), bassist Jo Min-ha (@min.hacho), and drummer Lee Seok-hyeon. The show consists of two 45-minute sets.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jo Un and Good Friends",
-      "description": "Performance by Jo Un and Good Friends band."
+      "description": "Performance by 'Jo Un and Good Friends' featuring vocalist Jo Un (@woonjo_), pianist Park Jin-seong (@js__piano), bassist Jo Min-ha (@min.hacho), and drummer Lee Seok-hyeon. The show consists of two 45-minute sets."
     },
     "_search_ko": {
       "title": "조운과 좋은 친구들",
-      "description": "조운과 좋은 친구들 밴드의 공연."
+      "description": "보컬 조운 (@woonjo_), 피아노 박진성 (@js__piano), 베이스 조민하 (@min.hacho), 드럼 이석현으로 구성된 '조운과 좋은 친구들' 공연. 총 2부로 진행되며 각 45분씩 연주."
     }
   },
   {
@@ -3244,6 +3809,32 @@
     }
   },
   {
+    "id": "evt_20251220_28515ee0-1df4-4184-99b3-b41ea46417fe",
+    "event_key": "v:ven_dc290c4d-e87a-46e2-b62c-c979bcbd0ae3|t:2025-12-20T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSRo05Kk0J2/",
+    "venue_handle": "bluechicago_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dc290c4d-e87a-46e2-b62c-c979bcbd0ae3",
+    "venue_location_id": "main",
+    "datetime": "2025-12-20T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Team Cotton",
+    "description": "Team Cotton jazz performance. Shin In-gyu (piano), Gong Jeong-eun (vocal), Park Hyo-seok (vocal), Kim Jong-hwa (bass), S W T P (trumpet, drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Team Cotton",
+      "description": "Team Cotton jazz performance. Shin In-gyu (piano), Gong Jeong-eun (vocal), Park Hyo-seok (vocal), Kim Jong-hwa (bass), S W T P (trumpet, drums)."
+    },
+    "_search_ko": {
+      "title": "팀 코튼",
+      "description": "팀 코튼 재즈 공연. 신인규 (피아노), 공정은 (보컬), 박효석 (보컬), 김종화 (베이스), S W T P (트럼펫, 드럼)."
+    }
+  },
+  {
     "id": "evt_20251220_abc210da-0c57-4ac2-8891-7c1277a55649",
     "event_key": "v:ven_6715fe20-c3e0-47e4-a54d-fd33305d3fd2|t:2025-12-20T11:50:00+00:00",
     "source_url": "https://www.instagram.com/p/DSMdV4biS2I/",
@@ -3272,7 +3863,7 @@
   {
     "id": "evt_20251220_326e56c9-4f8e-4b13-a1f6-ac0c299725fb",
     "event_key": "v:ven_9121334e-11fe-4710-8d7b-87f5825e3fcd|t:2025-12-20T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRq4XsNgSo-/",
+    "source_url": "https://www.instagram.com/p/DRJ5ex1ATDs/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -3281,18 +3872,18 @@
     "datetime": "2025-12-20T12:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "HEY P Band",
-    "description": "HEY P Band performance. Admission: KRW 10,000.",
+    "title": "HEY P Live Performance",
+    "description": "Live performance by HEY P at BARTICAN, featuring jazz, K-pop, and pop music.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "HEY P Band",
-      "description": "HEY P Band performance. Admission: KRW 10,000."
+      "title": "HEY P Live Performance",
+      "description": "Live performance by HEY P at BARTICAN, featuring jazz, K-pop, and pop music."
     },
     "_search_ko": {
-      "title": "HEY P 밴드",
-      "description": "HEY P 밴드 공연. 입장료: 10,000원."
+      "title": "HEY P 라이브 공연",
+      "description": "BARTICAN에서 열리는 HEY P의 라이브 공연. 재즈, 가요 및 팝 음악이 포함됩니다."
     }
   },
   {
@@ -3373,6 +3964,32 @@
     "_search_ko": {
       "title": "김한율 트리오",
       "description": "김한율 (보컬) 트리오의 재즈 라이브 공연. 피아노, 베이스."
+    }
+  },
+  {
+    "id": "evt_20251220_742339cd-3e89-465f-af62-a40b3bc0090c",
+    "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-20T12:25:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
+    "venue_location_id": "main",
+    "datetime": "2025-12-20T12:25:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Jo Un and Good Friends (Part 2)",
+    "description": "Jo Un and Good Friends band performance, Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jo Un and Good Friends (Part 2)",
+      "description": "Jo Un and Good Friends band performance, Part 2."
+    },
+    "_search_ko": {
+      "title": "조운과 좋은 친구들 (2부)",
+      "description": "조운과 좋은 친구들 밴드 공연 2부."
     }
   },
   {
@@ -3742,6 +4359,32 @@
     "_search_ko": {
       "title": "정소희 Quartet",
       "description": "12월 재즈 & 와인 디너. 공연료 1인 15,000원, 1인 1식사 주문 필수. 출연: 정소희 (보컬), 김대규 (피아노), 박주민 (베이스), 최현수 (드럼)."
+    }
+  },
+  {
+    "id": "evt_20251221_756894bb-a4ac-49f5-b2e1-704cc7048f26",
+    "event_key": "v:ven_d8793345-9984-453f-ba47-85b936b044d8|t:2025-12-21T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSRIDwOk2BL/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d8793345-9984-453f-ba47-85b936b044d8",
+    "venue_location_id": "main",
+    "datetime": "2025-12-21T09:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Haileup Quartet",
+    "description": "Haileup Quartet. Vocal, piano, bass, drums.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Haileup Quartet",
+      "description": "Haileup Quartet. Vocal, piano, bass, drums."
+    },
+    "_search_ko": {
+      "title": "해일럽 퀄텟",
+      "description": "해일럽 퀄텟. 보컬, 피아노, 베이스, 드럼."
     }
   },
   {
@@ -4406,24 +5049,27 @@
     "source_url": "https://www.instagram.com/p/DRoyuXskdO1/",
     "venue_handle": "subriot_hbc",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "sowhatnola",
+      "zip4official"
+    ],
     "venue_id": "ven_b4187fa2-d079-42c6-a060-58a5aa8d78a8",
     "venue_location_id": "main",
     "datetime": "2025-12-23T10:30:00+00:00",
     "price": "KRW 66,000",
     "llm_confidence": 1.0,
-    "title": "Christmas Time in New Orleans",
-    "description": "A Christmas party from New Orleans, the home of jazz, held at Seongsu Art Hall. A 16-member band performance featuring SoWhat NOLA (@sowhatnola, 10 members) and ZIP4 (@zip4official, 6 members), representing the Korean New Orleans jazz scene. Delivers exciting jazz unique to New Orleans and a warm Christmas atmosphere. SoWhat NOLA performs 'Second Line' based music for shaking and enjoying together, not just listening, while ZIP4 presents swing, blues, gospel, and New Orleans jazz.",
+    "title": "Christmas time in New Orleans",
+    "description": "Special Christmas performance by SoWhat NOLA (@sowhatnola) and ZIP4 (@zip4official), 16-member New Orleans jazz bands, representing the Korean New Orleans jazz scene at Seongsu Art Hall. Lively New Orleans jazz and warm Christmas atmosphere for an unforgettable night with diverse repertoire.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Christmas Time in New Orleans",
-      "description": "A Christmas party from New Orleans, the home of jazz, held at Seongsu Art Hall. A 16-member band performance featuring SoWhat NOLA (@sowhatnola, 10 members) and ZIP4 (@zip4official, 6 members), representing the Korean New Orleans jazz scene. Delivers exciting jazz unique to New Orleans and a warm Christmas atmosphere. SoWhat NOLA performs 'Second Line' based music for shaking and enjoying together, not just listening, while ZIP4 presents swing, blues, gospel, and New Orleans jazz."
+      "title": "Christmas time in New Orleans",
+      "description": "Special Christmas performance by SoWhat NOLA (@sowhatnola) and ZIP4 (@zip4official), 16-member New Orleans jazz bands, representing the Korean New Orleans jazz scene at Seongsu Art Hall. Lively New Orleans jazz and warm Christmas atmosphere for an unforgettable night with diverse repertoire."
     },
     "_search_ko": {
-      "title": "크리스마스 타임 인 뉴올리언스",
-      "description": "성수아트홀에서 펼쳐지는 재즈의 고향 뉴올리언스의 크리스마스 파티. 한국 뉴올리언스 재즈 씬을 대표하는 쏘왓놀라 (@sowhatnola, 10인조)와 집사 (@zip4official, 6인조)가 함께하는 16인조 밴드 공연. 뉴올리언스 특유의 흥겨운 재즈와 따뜻한 크리스마스 분위기를 선사한다. 쏘왓놀라는 '세컨드 라인' 기반의 듣는 것이 아닌 함께 흔들고 즐기는 음악을, 집사는 스윙, 블루스, 가스펠, 뉴올리언스 재즈를 선보인다."
+      "title": "Christmas time in New Orleans",
+      "description": "성수아트홀에서 펼쳐지는 한국 뉴올리언스 재즈 씬 대표 밴드 SoWhat NOLA (@sowhatnola)와 ZIP4 (@zip4official)의 16인조 크리스마스 특별 공연. 뉴올리언스 특유의 흥겨운 재즈와 따뜻한 크리스마스 분위기를 결합한 축제의 밤. 다양한 레퍼토리를 통해 뉴올리언스의 크리스마스를 경험."
     }
   },
   {
@@ -5845,7 +6491,7 @@
   {
     "id": "evt_20251224_2c0c9919-bb82-4962-b3d0-67d986f5a0d7",
     "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-24T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DR_7pwGEe0P/",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
     "venue_handle": "mammy__blue",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -5859,18 +6505,18 @@
     "datetime": "2025-12-24T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Modal Band",
-    "description": "Modal Band: Modal (vocal) @modaaaaaaal, Park Han-bin (piano) @onebean_p, Jeon Jae-geun (bass) @jaegeun0118, Han Soon-wook (drums) @soonwookhahn. Christmas special performance requires a set menu and one drink order per person per set.",
+    "title": "Modal Band (Part 1)",
+    "description": "Christmas Eve performance by Modal Band, Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Modal Band",
-      "description": "Modal Band: Modal (vocal) @modaaaaaaal, Park Han-bin (piano) @onebean_p, Jeon Jae-geun (bass) @jaegeun0118, Han Soon-wook (drums) @soonwookhahn. Christmas special performance requires a set menu and one drink order per person per set."
+      "title": "Modal Band (Part 1)",
+      "description": "Christmas Eve performance by Modal Band, Part 1."
     },
     "_search_ko": {
-      "title": "모달 밴드",
-      "description": "모달 밴드: 모달 (보컬) @modaaaaaaal, 박한빈 (피아노) @onebean_p, 전재근 (베이스) @jaegeun0118, 한순욱 (드럼) @soonwookhahn. 크리스마스 특별 공연으로 세트 메뉴 및 1인 1부당 1음료 주문 필수."
+      "title": "모달 밴드 (1부)",
+      "description": "크리스마스 이브 공연. 모달 밴드 1부."
     }
   },
   {
@@ -6186,6 +6832,32 @@
     }
   },
   {
+    "id": "evt_20251224_9ad2662e-718a-4e38-ac52-e68026593afa",
+    "event_key": "v:ven_6715fe20-c3e0-47e4-a54d-fd33305d3fd2|t:2025-12-24T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRtkTGbCXla/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_6715fe20-c3e0-47e4-a54d-fd33305d3fd2",
+    "venue_location_id": "jonggak",
+    "datetime": "2025-12-24T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hora",
+    "description": "[Location: Jonggak] Hora's Christmas Eve Concert. 15% discount for early bird reservation, 10% wine discount.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hora",
+      "description": "[Location: Jonggak] Hora's Christmas Eve Concert. 15% discount for early bird reservation, 10% wine discount."
+    },
+    "_search_ko": {
+      "title": "호라",
+      "description": "[위치: 종각] 호라의 크리스마스 이브 콘서트. 예약 선예매 시 15% 할인, 와인 10% 할인."
+    }
+  },
+  {
     "id": "evt_20251224_bf69afbd-e4a7-4286-a1b9-7eb4280b15a1",
     "event_key": "v:ven_9121334e-11fe-4710-8d7b-87f5825e3fcd|t:2025-12-24T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DRq4XsNgSo-/",
@@ -6261,6 +6933,32 @@
     "_search_ko": {
       "title": "다은 트리오",
       "description": "다은 (보컬) 트리오의 재즈 라이브 공연. 피아노, 베이스."
+    }
+  },
+  {
+    "id": "evt_20251224_1238b200-1e9c-44bf-a01a-ab130f2e0989",
+    "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-24T12:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
+    "venue_location_id": "main",
+    "datetime": "2025-12-24T12:10:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Modal Band (Part 2)",
+    "description": "Christmas Eve performance by Modal Band, Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Modal Band (Part 2)",
+      "description": "Christmas Eve performance by Modal Band, Part 2."
+    },
+    "_search_ko": {
+      "title": "모달 밴드 (2부)",
+      "description": "크리스마스 이브 공연. 모달 밴드 2부."
     }
   },
   {
@@ -8188,7 +8886,7 @@
   {
     "id": "evt_20251225_0b6be0ce-46b1-4a68-882a-b4c48d6ed23c",
     "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-25T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DR4ClAekYiw/",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
     "venue_handle": "mammy__blue",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -8197,18 +8895,18 @@
     "datetime": "2025-12-25T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Yong To The Sun",
-    "description": "Christmas special performance. Table reservations via Naver, bar seats are walk-in. Set menu order mandatory on performance day. Performance fee KRW 20,000 per person (same price for Part 1 & 2).",
+    "title": "Yong To The Sun (Part 1)",
+    "description": "Christmas performance by Yong To The Sun, Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Yong To The Sun",
-      "description": "Christmas special performance. Table reservations via Naver, bar seats are walk-in. Set menu order mandatory on performance day. Performance fee KRW 20,000 per person (same price for Part 1 & 2)."
+      "title": "Yong To The Sun (Part 1)",
+      "description": "Christmas performance by Yong To The Sun, Part 1."
     },
     "_search_ko": {
-      "title": "Yong To The Sun",
-      "description": "크리스마스 특별 공연. 테이블 예약은 네이버, 바 좌석은 워크인. 공연 당일 세트 메뉴 주문 필수. 1인 공연비 20,000원 (1,2부 공연 동일 가격)."
+      "title": "Yong To The Sun (1부)",
+      "description": "크리스마스 공연. Yong To The Sun 1부."
     }
   },
   {
@@ -8813,6 +9511,32 @@
     "_search_ko": {
       "title": "노민수 트리오",
       "description": "노민수 (기타) 트리오의 재즈 라이브 공연. 피아노, 보컬."
+    }
+  },
+  {
+    "id": "evt_20251225_f47e091b-821b-41af-8a9a-055b73c4e36f",
+    "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-25T12:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
+    "venue_location_id": "main",
+    "datetime": "2025-12-25T12:10:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Yong To The Sun (Part 2)",
+    "description": "Christmas performance by Yong To The Sun, Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yong To The Sun (Part 2)",
+      "description": "Christmas performance by Yong To The Sun, Part 2."
+    },
+    "_search_ko": {
+      "title": "Yong To The Sun (2부)",
+      "description": "크리스마스 공연. Yong To The Sun 2부."
     }
   },
   {
@@ -9561,18 +10285,18 @@
     "datetime": "2025-12-26T11:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Song Kyung-min Trio",
-    "description": "Performance by Song Kyung-min Trio (vocal).",
+    "title": "Song Gyeong-min Trio",
+    "description": "Jazz performance by Song Gyeong-min Trio. Song Gyeong-min (vocal). Part 1 20:00-20:50, Part 2 21:10-22:00.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Song Kyung-min Trio",
-      "description": "Performance by Song Kyung-min Trio (vocal)."
+      "title": "Song Gyeong-min Trio",
+      "description": "Jazz performance by Song Gyeong-min Trio. Song Gyeong-min (vocal). Part 1 20:00-20:50, Part 2 21:10-22:00."
     },
     "_search_ko": {
       "title": "송경민 트리오",
-      "description": "보컬 송경민 트리오의 공연."
+      "description": "보컬 송경민 트리오의 재즈 공연. 송경민 (보컬). 1부 20:00-20:50, 2부 21:10-22:00."
     }
   },
   {
@@ -9717,18 +10441,18 @@
     "datetime": "2025-12-26T11:30:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Kim Jae-hyung Quartet",
-    "description": "Performance by Kim Jae-hyung Quartet.",
+    "title": "Kim Jae-hyeong Quartet (Part 1)",
+    "description": "Kim Jae-hyeong Quartet performance, Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Jae-hyung Quartet",
-      "description": "Performance by Kim Jae-hyung Quartet."
+      "title": "Kim Jae-hyeong Quartet (Part 1)",
+      "description": "Kim Jae-hyeong Quartet performance, Part 1."
     },
     "_search_ko": {
-      "title": "김재형 퀄텟",
-      "description": "김재형 퀄텟의 공연."
+      "title": "김재형 퀄텟 (1부)",
+      "description": "김재형 퀄텟 공연 1부."
     }
   },
   {
@@ -9861,6 +10585,32 @@
     "_search_ko": {
       "title": "황보웅 트리오",
       "description": "황보웅 (기타, 보컬) 트리오의 재즈 라이브 공연. 피아노, 베이스."
+    }
+  },
+  {
+    "id": "evt_20251226_31227947-e3d6-4bca-b149-e3a07055fb19",
+    "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-26T12:25:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
+    "venue_location_id": "main",
+    "datetime": "2025-12-26T12:25:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Kim Jae-hyeong Quartet (Part 2)",
+    "description": "Kim Jae-hyeong Quartet performance, Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Jae-hyeong Quartet (Part 2)",
+      "description": "Kim Jae-hyeong Quartet performance, Part 2."
+    },
+    "_search_ko": {
+      "title": "김재형 퀄텟 (2부)",
+      "description": "김재형 퀄텟 공연 2부."
     }
   },
   {
@@ -10401,18 +11151,18 @@
     "datetime": "2025-12-27T11:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Wi Jeong-hoo Quartet",
-    "description": "Performance by Wi Jeong-hoo Quartet.",
+    "title": "Wi Jeong-hu Quartet",
+    "description": "Jazz performance by Wi Jeong-hu Quartet. Part 1 20:00-20:50, Part 2 21:10-22:00.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Wi Jeong-hoo Quartet",
-      "description": "Performance by Wi Jeong-hoo Quartet."
+      "title": "Wi Jeong-hu Quartet",
+      "description": "Jazz performance by Wi Jeong-hu Quartet. Part 1 20:00-20:50, Part 2 21:10-22:00."
     },
     "_search_ko": {
       "title": "위정후 퀄텟",
-      "description": "위정후 퀄텟의 공연."
+      "description": "위정후 퀄텟의 재즈 공연. 1부 20:00-20:50, 2부 21:10-22:00."
     }
   },
   {
@@ -10552,6 +11302,32 @@
     }
   },
   {
+    "id": "evt_20251227_6181ce65-97d4-497e-803f-f68c73099c2c",
+    "event_key": "v:ven_6d8469c2-569f-47c0-84fa-3740ef8b0448|t:2025-12-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSTujPUkp0R/",
+    "venue_handle": "cafe_gig",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_6d8469c2-569f-47c0-84fa-3740ef8b0448",
+    "venue_location_id": "main",
+    "datetime": "2025-12-27T11:00:00+00:00",
+    "price": "KRW 15,000",
+    "llm_confidence": 1.0,
+    "title": "Koo Jae-chang Quartet",
+    "description": "The warmth of Koo Jae-chang Quartet suitable for the year-end. Koo Jae-chang (piano), Han Da-seul (vocal), Ham Hee-tae (bass), Kim Do-hyun (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Koo Jae-chang Quartet",
+      "description": "The warmth of Koo Jae-chang Quartet suitable for the year-end. Koo Jae-chang (piano), Han Da-seul (vocal), Ham Hee-tae (bass), Kim Do-hyun (drums)."
+    },
+    "_search_ko": {
+      "title": "구제창 퀄텟",
+      "description": "연말에 어울리는 구제창 퀄텟의 온기. 구제창 (피아노), 한다슬 (보컬), 함희태 (베이스), 김도현 (드럼)."
+    }
+  },
+  {
     "id": "evt_20251227_2f28c2c9-2bc8-49df-a9a3-8fe89d9ab9f9",
     "event_key": "v:ven_5ad56022-0396-4cbb-b164-1c01bffcb0f9|t:2025-12-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DRb-UAND2ah/",
@@ -10615,18 +11391,18 @@
     "datetime": "2025-12-27T11:30:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Lee Jong-won Trio",
-    "description": "Performance by Lee Jong-won Trio.",
+    "title": "Lee Jong-won Trio (Part 1)",
+    "description": "Lee Jong-won Trio performance, Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lee Jong-won Trio",
-      "description": "Performance by Lee Jong-won Trio."
+      "title": "Lee Jong-won Trio (Part 1)",
+      "description": "Lee Jong-won Trio performance, Part 1."
     },
     "_search_ko": {
-      "title": "이종원 트리오",
-      "description": "이종원 트리오의 공연."
+      "title": "이종원 트리오 (1부)",
+      "description": "이종원 트리오 공연 1부."
     }
   },
   {
@@ -10759,6 +11535,32 @@
     "_search_ko": {
       "title": "윤 트리오",
       "description": "윤 (보컬, 베이스) 트리오의 재즈 라이브 공연. 기타, 드럼."
+    }
+  },
+  {
+    "id": "evt_20251227_fd735e83-5d03-455c-930d-9a4d66a3de96",
+    "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-27T12:25:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
+    "venue_location_id": "main",
+    "datetime": "2025-12-27T12:25:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Lee Jong-won Trio (Part 2)",
+    "description": "Lee Jong-won Trio performance, Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Jong-won Trio (Part 2)",
+      "description": "Lee Jong-won Trio performance, Part 2."
+    },
+    "_search_ko": {
+      "title": "이종원 트리오 (2부)",
+      "description": "이종원 트리오 공연 2부."
     }
   },
   {
@@ -11868,27 +12670,31 @@
   {
     "id": "evt_20251231_0aa6729b-0515-49bf-9140-b308c91c1f0d",
     "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-31T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DR4ClAekYiw/",
+    "source_url": "https://www.instagram.com/p/DSAMZCTEeYQ/",
     "venue_handle": "mammy__blue",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "boaz_ku",
+      "hey.hailluv",
+      "jazzmin0707"
+    ],
     "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
     "venue_location_id": "main",
     "datetime": "2025-12-31T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Hail-Up Band",
-    "description": "Year-end special performance. Table reservations via Naver, bar seats are walk-in. Set menu order mandatory on performance day. Performance fee KRW 20,000 per person (same price for Part 1 & 2).",
+    "title": "Hailluv Quartet",
+    "description": "Hailluv Quartet for the last day of 2025. Hailluv (vocal), Kwon Min-jung (piano), Lee Cheol-hoon (bass), Koo Bon-jun (drums).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Hail-Up Band",
-      "description": "Year-end special performance. Table reservations via Naver, bar seats are walk-in. Set menu order mandatory on performance day. Performance fee KRW 20,000 per person (same price for Part 1 & 2)."
+      "title": "Hailluv Quartet",
+      "description": "Hailluv Quartet for the last day of 2025. Hailluv (vocal), Kwon Min-jung (piano), Lee Cheol-hoon (bass), Koo Bon-jun (drums)."
     },
     "_search_ko": {
-      "title": "해일럽 밴드",
-      "description": "연말 특별 공연. 테이블 예약은 네이버, 바 좌석은 워크인. 공연 당일 세트 메뉴 주문 필수. 1인 공연비 20,000원 (1,2부 공연 동일 가격)."
+      "title": "해일럽 퀄텟",
+      "description": "2025년 마지막 날 해일럽 퀄텟 공연. 해일럽 (보컬), 권민정 (피아노), 이철훈 (베이스), 구본준 (드럼)."
     }
   },
   {
@@ -12073,6 +12879,32 @@
     "_search_ko": {
       "title": "박유라 트리오",
       "description": "박유라 (기타) 트리오의 재즈 라이브 공연. 베이스, 드럼."
+    }
+  },
+  {
+    "id": "evt_20251231_5a3093ab-76d1-4e42-9502-a99ab3ad8dd0",
+    "event_key": "v:ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1|t:2025-12-31T12:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRuNuGiEUvo/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a33b875a-ca85-4f9f-8b30-b7e0def9f0c1",
+    "venue_location_id": "main",
+    "datetime": "2025-12-31T12:10:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Ha-il-leop Band (Part 2)",
+    "description": "New Year's Eve 2025 performance by Ha-il-leop Band, Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ha-il-leop Band (Part 2)",
+      "description": "New Year's Eve 2025 performance by Ha-il-leop Band, Part 2."
+    },
+    "_search_ko": {
+      "title": "해일럽 밴드 (2부)",
+      "description": "2025년 마지막 날 공연. 해일럽 밴드 2부."
     }
   },
   {
@@ -13687,6 +14519,58 @@
     "_search_ko": {
       "title": "최기윤 트리오",
       "description": "최기윤 트리오 재즈 공연. 최기윤 (기타) @jazz_gychoi219, 서규성 (베이스) @kyu_patitucci, 심준범 (드럼) @keep_swingin_jb."
+    }
+  },
+  {
+    "id": "evt_20261129_ed9f39bc-3f0a-4a85-8986-cae17fb987ef",
+    "event_key": "v:ven_9121334e-11fe-4710-8d7b-87f5825e3fcd|t:2026-11-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRq3hZ4gSqP/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_9121334e-11fe-4710-8d7b-87f5825e3fcd",
+    "venue_location_id": "main",
+    "datetime": "2026-11-29T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Beard and Young Bloods",
+    "description": "Live performance by Beard and Young Bloods, Part 1. Featuring various genres including jazz, K-pop, and pop.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Beard and Young Bloods",
+      "description": "Live performance by Beard and Young Bloods, Part 1. Featuring various genres including jazz, K-pop, and pop."
+    },
+    "_search_ko": {
+      "title": "털보와 젊은피들",
+      "description": "털보와 젊은피들의 라이브 공연 1부. 재즈, 가요, 팝 등 다양한 장르."
+    }
+  },
+  {
+    "id": "evt_20261129_281e9e3e-311e-4958-8829-68de89ef9bd9",
+    "event_key": "v:ven_9121334e-11fe-4710-8d7b-87f5825e3fcd|t:2026-11-29T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRq3hZ4gSqP/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_9121334e-11fe-4710-8d7b-87f5825e3fcd",
+    "venue_location_id": "main",
+    "datetime": "2026-11-29T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Beard and Young Bloods",
+    "description": "Live performance by Beard and Young Bloods, Part 2. Featuring various genres including jazz, K-pop, and pop.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Beard and Young Bloods",
+      "description": "Live performance by Beard and Young Bloods, Part 2. Featuring various genres including jazz, K-pop, and pop."
+    },
+    "_search_ko": {
+      "title": "털보와 젊은피들",
+      "description": "털보와 젊은피들의 라이브 공연 2부. 재즈, 가요, 팝 등 다양한 장르."
     }
   },
   {
