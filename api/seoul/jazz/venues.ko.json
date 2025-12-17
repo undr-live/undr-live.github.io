@@ -623,7 +623,7 @@
   {
     "id": "ven_9142f2b2-e19c-4556-8ba7-7f42d8445f28",
     "ig_handle": "ninejazz_chungdam",
-    "name_irl": "청담 나인",
+    "name_irl": "Chungdam Nine",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -633,7 +633,7 @@
     "booking_url": "https://catchtable.co.kr/ninejazz",
     "homepage_url": null,
     "websites": [],
-    "subway_nearby": null,
+    "subway_nearby": "7호선 청담역 6번 출구에서 237m",
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
@@ -642,21 +642,19 @@
         {
           "location_id": "main",
           "name": "Chungdam Nine",
-          "address_text": "서울 강남구 삼성로 634 지하2층",
+          "address_text": "634 B2 Samseong-ro, Gangnam District, Seoul, South Korea",
           "address_components": null,
-          "location_lat": 37.5166377998582,
-          "location_lon": 127.051864456444,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": "7호선 청담역 6번 출구에서 237m",
-          "booking_link": null,
+          "booking_link": "https://catchtable.co.kr/ninejazz",
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Chungdam Nine",
-              "ko": "청담 나인"
+              "en": "Chungdam Nine"
             },
             "address_text": {
-              "en": "B2, 634 Samseong-ro, Gangnam District, Seoul, South Korea",
-              "ko": "서울 강남구 삼성로 634 지하2층"
+              "en": "634 B2 Samseong-ro, Gangnam District, Seoul, South Korea"
             },
             "notes": null
           }
@@ -665,15 +663,17 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Chungdam Nine",
-        "ko": "청담 나인"
+        "en": "Chungdam Nine"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Jazz Bar"
+        ]
+      },
       "subway_nearby": {
-        "en": "Approx. 4 min walk from Cheongdam Station Exit 6 (Line 7)",
-        "ko": "7호선 청담역 6번 출구에서 237m"
+        "en": "237m from Cheongdam Station (Line 7), Exit 6"
       },
       "food_policy": null,
       "age_limit": null
@@ -1721,14 +1721,14 @@
   {
     "id": "ven_ff526dd8-69a6-4ed1-b648-e54cc0b7ceb1",
     "ig_handle": "_jam_lounge",
-    "name_irl": "잼 라운지",
+    "name_irl": "Jam Lounge",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
     "phone": null,
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=1247755727907721205",
-    "booking_url": null,
+    "booking_url": "https://m.booking.naver.com/booking/6/bizes/519939/items/4192733?theme=place&area=ple",
     "homepage_url": "https://m.booking.naver.com/booking/6/bizes/519939/items/4192733?theme=place&area=ple",
     "websites": [],
     "subway_nearby": "2호선 수인분당선릉역 5번 출구에서 195m",
@@ -1740,21 +1740,19 @@
         {
           "location_id": "main",
           "name": "Jam Lounge",
-          "address_text": "서울 강남구 테헤란로51길 16 B1 & B2",
+          "address_text": "South Korea, Seoul, Gangnam District, Teheran-ro 51-gil, 16 B1 & B2",
           "address_components": null,
-          "location_lat": 37.5051040166436,
-          "location_lon": 127.046518509723,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": "2호선 수인분당선릉역 5번 출구에서 195m",
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Jam Lounge",
-              "ko": "잼 라운지"
+              "en": "Jam Lounge"
             },
             "address_text": {
-              "en": "B1 & B2, 16, Teheran-ro 51-gil, Gangnam District, Seoul, South Korea",
-              "ko": "서울 강남구 테헤란로51길 16 B1 & B2"
+              "en": "16, Teheran-ro 51-gil, Gangnam District, Seoul, South Korea"
             },
             "notes": null
           }
@@ -1763,22 +1761,13 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Jam Lounge",
-        "ko": "잼 라운지"
+        "en": "Jam Lounge"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Jazz"
-        ],
-        "ko": [
-          "재즈"
-        ]
-      },
+      "genres": null,
       "subway_nearby": {
-        "en": "195m from Seolleung Station Exit 5 (Line 2, Suin-Bundang Line)",
-        "ko": "2호선 수인분당선릉역 5번 출구에서 195m"
+        "en": "Line 2, Suin-Bundang Line, Seolleung Station Exit 5, 195m"
       },
       "food_policy": null,
       "age_limit": null
@@ -2863,6 +2852,61 @@
       "genres": null,
       "subway_nearby": {
         "en": "273m from Geumho Station, Line 3, Exit 1"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_b0e60f70-963d-426b-a8a4-ae2d0b335e84",
+    "ig_handle": "orient_express_wine_",
+    "name_irl": "Orient Express Wine",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=5540853786533473181",
+    "booking_url": "https://app.catchtable.co.kr/ct/shop/orientexpresswine",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": "6호선 대흥역 4번 출구에서 312m",
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Orient Express Wine",
+          "address_text": "South Korea, Seoul, Mapo-gu, Gwangseong-ro 6-gil, 14 지하 1층",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": "6호선 대흥역 4번 출구에서 312m",
+          "booking_link": "https://app.catchtable.co.kr/ct/shop/orientexpresswine",
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Orient Express Wine"
+            },
+            "address_text": {
+              "en": "B1, 14, Gwangseong-ro 6-gil, Mapo-gu, Seoul, South Korea"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Orient Express Wine"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "312m from Exit 4 of Daeheung Station (Line 6)"
       },
       "food_policy": null,
       "age_limit": null
@@ -3974,65 +4018,6 @@
       "notes": null,
       "genres": null,
       "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
-    "id": "ven_b0e60f70-963d-426b-a8a4-ae2d0b335e84",
-    "ig_handle": "orient_express_wine_",
-    "name_irl": "오리엔트 익스프레스 와인",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": "https://maps.google.com/?cid=5540853786533473181",
-    "booking_url": "https://app.catchtable.co.kr/ct/shop/orientexpresswine",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": "6호선 대흥역 4번 출구에서 312m",
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "orient express wine",
-          "address_text": "South Korea, Seoul, Mapo-gu, Gwangseong-ro 6-gil, 14 지하 1층",
-          "address_components": null,
-          "location_lat": 37.549195,
-          "location_lon": 126.938329,
-          "subway_nearby": "6호선 대흥역 4번 출구에서 312m",
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "orient express wine",
-              "ko": "오리엔트 익스프레스 와인"
-            },
-            "address_text": {
-              "en": "B1, 14, Gwangseong-ro 6-gil, Mapo-gu, Seoul, South Korea",
-              "ko": "서울 마포구 광성로6길 14 지하 1층"
-            },
-            "notes": null
-          }
-        }
-      ]
-    },
-    "i18n_data": {
-      "name": {
-        "en": "orient express wine",
-        "ko": "오리엔트 익스프레스 와인"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": null,
-      "subway_nearby": {
-        "en": "312m from Daeheung Station Exit 4 (Line 6)",
-        "ko": "6호선 대흥역 4번 출구에서 312m"
-      },
       "food_policy": null,
       "age_limit": null
     }

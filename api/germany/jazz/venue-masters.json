@@ -1,5 +1,96 @@
 [
   {
+    "raw": "{}",
+    "ig_handle": "birdland_hamburg",
+    "last_analyzed_at": "2025-12-17T16:29:16.902497+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/birdland_hamburg/profile/2025-12-17/profile.json",
+      "maps:https://maps.google.com/?cid=11531881862156874421",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/birdland_hamburg",
+      "homepage": "https://www.tixforgigs.com/de-DE/Location/1758/birdland-hamburg-hamburg",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=11531881862156874421"
+    },
+    "contacts": {
+      "phone": "040-405277",
+      "email": null
+    },
+    "genres": [
+      "Jazz Club",
+      "Blues Club"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Birdland",
+        "address_text": "Gärtnerstraße 122, 20253 Hamburg, Germany",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": "Cocktails are served in this buzzing, underground nightspot offering jazz & blues concerts.",
+        "i18n": {
+          "name": {
+            "en": "Birdland"
+          },
+          "address_text": {
+            "en": "Gärtnerstraße 122, 20253 Hamburg, Germany"
+          },
+          "notes": {
+            "en": "Cocktails are served in this buzzing, underground nightspot offering jazz & blues concerts."
+          }
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Birdland"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Cocktails are served in this buzzing, underground nightspot offering jazz & blues concerts."
+      },
+      "genres": {
+        "en": [
+          "Jazz Club",
+          "Blues Club"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "raw": "Integrating a React Single Page Application (SPA) with Django involves setting up Django to serve the React build and handle API requests. This guide will walk you through creating a new Django project, a new React project within it, and configuring them to work together.\n\nWe'll use **Vite** for the React project, as it's faster and more modern than Create React App.\n\n---\n\n### Project Structure Overview\n\n```\nmyproject/\n├── myproject/                  # Django project settings\n├── myapp/                      # Django app to house React\n│   ├── frontend/               # React project lives here\n│   │   ├── public/\n│   │   ├── src/\n│   │   ├── index.html          # Vite's entry HTML (will be built)\n│   │   ├── vite.config.js\n│   │   └── package.json\n│   ├── templates/\n│   │   └── myapp/\n│   │       └── index.html      # Django will serve this modified Vite index.html\n│   ├── static/                 # Django static dir for 'myapp'\n│   │   └── dist/               # React build output (from Vite's build.outDir)\n│   ├── views.py\n│   ├── urls.py\n│   ├── api_views.py            # For Django REST API\n│   └── api_urls.py             # For Django REST API URLs\n├── manage.py\n└── venv/\n```\n\n---\n\n### Step 1: Django Project Setup\n\n1.  **Create a Django Project:**\n    ```bash\n    mkdir myproject\n    cd myproject\n\n    python -m venv venv\n    # On Windows: venv\\Scripts\\activate\n    source venv/bin/activate\n\n    pip install django djangorestframework  # djangorestframework for APIs\n\n    django-admin startproject myproject .\n    python manage.py startapp myapp\n    ```\n\n2.  **Configure Django Settings (`myproject/settings.py`):**\n    ```python\n    # myproject/settings.py\n\n    import os\n\n    # ... (other settings)\n\n    INSTALLED_APPS = [\n        'django.contrib.admin',\n        'django.contrib.auth',\n        'django.contrib.contenttypes',\n        'django.contrib.sessions',\n        'django.contrib.messages',\n        'django.contrib.staticfiles',\n        'myapp', # Add your Django app\n        'rest_framework', # Add Django REST Framework\n    ]\n\n    # ... (MIDDLEWARE)\n\n    TEMPLATES = [\n        {\n            'BACKEND': 'django.template.backends.django.DjangoTemplates',\n            'DIRS': [os.path.join(BASE_DIR, 'myapp', 'templates')], # Add this line\n            'APP_DIRS': True,\n            'OPTIONS': {\n                'context_processors': [\n                    'django.template.context_processors.debug',\n                    'django.template.context_processors.request',\n                    'django.contrib.auth.context_processors.auth',\n                    'django.contrib.messages.context_processors.messages',\n                ],\n            },\n        },\n    ]\n\n    # ... (WSGI_APPLICATION)\n\n    # Static files (CSS, JavaScript, Images)\n    # https://docs.djangoproject.com/en/5.0/howto/static-files/\n\n    STATIC_URL = '/static/'\n\n    # This is where Django will look for additional static files, including your React build output\n    STATICFILES_DIRS = [\n        os.path.join(BASE_DIR, 'myapp', 'static'),\n    ]\n\n    # This is where collectstatic will gather all static files for production\n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_collected')\n\n    # ... (other settings like AUTH_PASSWORD_VALIDATORS, LANGUAGE_CODE, TIME_ZONE, USE_I18N, USE_TZ)\n    ```\n\n3.  **Configure Django URLs (`myproject/urls.py`):**\n    ```python\n    # myproject/urls.py\n\n    from django.contrib import admin\n    from django.urls import path, include, re_path\n    from django.views.static import serve\n    from django.conf import settings\n\n    urlpatterns = [\n        path('admin/', admin.site.urls),\n        path('api/', include('myapp.api_urls')), # For Django API endpoints\n        re_path(r'^(?:.*)/?$', include('myapp.urls')), # Catch-all for React frontend routing\n    ]\n\n    # Serve collected static files in development (optional, Django's runserver does it)\n    # In production, a web server (Nginx/Apache) should serve these.\n    if settings.DEBUG:\n        urlpatterns += [\n            re_path(r'^staticfiles/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),\n        ]\n    ```\n\n4.  **Create Django API Views (`myapp/api_views.py`):**\n    ```python\n    # myapp/api_views.py\n\n    from rest_framework.decorators import api_view\n    from rest_framework.response import Response\n\n    @api_view(['GET'])\n    def hello_world_api(request):\n        return Response({\"message\": \"Hello from Django API!\"})\n    ```\n\n5.  **Create Django API URLs (`myapp/api_urls.py`):**\n    ```python\n    # myapp/api_urls.py\n\n    from django.urls import path\n    from . import api_views\n\n    urlpatterns = [\n        path('hello/', api_views.hello_world_api, name='hello_api'),\n    ]\n    ```\n\n6.  **Create Django Frontend Views (`myapp/views.py`):**\n    ```python\n    # myapp/views.py\n\n    from django.shortcuts import render\n\n    def index(request):\n        # This view will serve your React app's index.html\n        return render(request, 'myapp/index.html')\n    ```\n\n7.  **Create Django Frontend URLs (`myapp/urls.py`):**\n    ```python\n    # myapp/urls.py\n\n    from django.urls import path, re_path\n    from . import views\n\n    urlpatterns = [\n        re_path(r'^(?:.*)/?$', views.index, name='index'), # Catch-all for React routing\n    ]\n    ```\n\n---\n\n### Step 2: React Project Setup (with Vite)\n\n1.  **Install Node.js/npm:**\n    Make sure you have Node.js and npm (or yarn/pnpm) installed. You can download it from [nodejs.org](https://nodejs.org/).\n\n2.  **Create Vite React Project:**\n    Navigate into your `myapp` directory (where `views.py` and `urls.py` are).\n    ```bash\n    cd myapp\n    npm create vite@latest frontend -- --template react # This creates 'myapp/frontend'\n    cd frontend\n    npm install\n    ```\n\n3.  **Configure Vite (`myapp/frontend/vite.config.js`):**\n    This configuration tells Vite where to build the output and how to proxy API requests to Django during development.\n\n    ```javascript\n    // myapp/frontend/vite.config.js\n\n    import { defineConfig } from 'vite'\n    import react from '@vitejs/plugin-react'\n\n    // https://vitejs.dev/config/\n    export default defineConfig({\n      plugins: [react()],\n      // Base URL for the production build. Assets will be referenced relative to this.\n      // If you're serving from `/static/dist/`, then `/` means Django will provide\n      // the full path with {% static 'dist/...' %}.\n      base: '/',\n\n      build: {\n        outDir: '../static/dist', // Output to myapp/static/dist\n        emptyOutDir: true, // Clears the output directory before building\n      },\n      server: {\n        // Proxy API requests from React dev server to Django dev server\n        proxy: {\n          '/api': {\n            target: 'http://localhost:8000', // Your Django dev server address\n            changeOrigin: true, // Necessary for virtual hosted sites\n            // rewrite: (path) => path.replace(/^\\/api/, '/api'), // Only needed if Django path is different\n          },\n        },\n      },\n    })\n    ```\n\n4.  **Create a Simple React Component (`myapp/frontend/src/App.jsx`):**\n    ```jsx\n    // myapp/frontend/src/App.jsx\n\n    import { useState, useEffect } from 'react'\n\n    function App() {\n      const [message, setMessage] = useState('');\n\n      useEffect(() => {\n        // Fetch data from Django API using the proxy defined in vite.config.js\n        fetch('/api/hello/')\n          .then(response => response.json())\n          .then(data => setMessage(data.message))\n          .catch(error => console.error('Error fetching data:', error));\n      }, []);\n\n      return (\n        <div style={{ padding: '20px', fontFamily: 'sans-serif', textAlign: 'center' }}>\n          <h1>Django React Integration</h1>\n          <p>Message from Django: <strong>{message}</strong></p>\n          <p>This React app is now being served by Django!</p>\n          <p>This is a simple SPA.</p>\n        </div>\n      )\n    }\n\n    export default App\n    ```\n\n---\n\n### Step 3: Integration (Development & Production)\n\n#### Development Mode\n\nIn development, you'll run both the Django development server and the React development server separately. The React server will proxy API calls to Django.\n\n1.  **Start Django Server:**\n    Open your first terminal, navigate to `myproject/`, activate your virtual environment, and run:\n    ```bash\n    python manage.py makemigrations\n    python manage.py migrate\n    python manage.py runserver\n    ```\n    (Django will be running on `http://localhost:8000`)\n\n2.  **Start React Dev Server:**\n    Open your second terminal, navigate to `myproject/myapp/frontend/`, and run:\n    ```bash\n    npm run dev\n    ```\n    (React will be running on `http://localhost:5173` by default)\n\n3.  **Access Your App:**\n    Open your browser and go to `http://localhost:5173`. You should see your React app, which fetches the \"Hello from Django API!\" message from your Django backend.\n\n    *   **How it works in Dev:**\n        *   Your browser requests `http://localhost:5173`. Vite's dev server serves the `index.html` and the React app.\n        *   When React makes an `fetch('/api/hello/')` call, Vite's proxy intercepts `/api` and forwards it to `http://localhost:8000/api/hello/`.\n        *   Django handles the API request and returns the data.\n\n#### Production Build\n\nFor production, you'll build your React app, and Django will serve all the static files and the `index.html` template.\n\n1.  **Build React App:**\n    Navigate to `myproject/myapp/frontend/` and run:\n    ```bash\n    npm run build\n    ```\n    This command will create the optimized production build in `myproject/myapp/static/dist/`. Inside this `dist` folder, you'll find `index.html`, and an `assets/` subfolder containing your JavaScript and CSS bundles (with hashed filenames like `index-xxxx.js`, `index-xxxx.css`).\n\n2.  **Prepare Django Template:**\n    After building, you need to tell Django how to serve the React app. The simplest way is to copy the built `index.html` and modify it slightly to use Django's `static` template tag.\n\n    *   Copy `myproject/myapp/static/dist/index.html` to `myproject/myapp/templates/myapp/index.html`.\n    *   Open `myproject/myapp/templates/myapp/index.html` with a text editor.\n    *   Add `{% load static %}` at the very top of the file.\n    *   Find the `<script>` and `<link>` tags for your React app's main bundles. They will look something like this (filenames with hashes will vary):\n        ```html\n        <!doctype html>\n        <html lang=\"en\">\n          <head>\n            <meta charset=\"UTF-8\" />\n            <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n            <title>Vite + React</title>\n            <script type=\"module\" crossorigin src=\"/assets/index-xxxxxxxx.js\"></script>\n            <link rel=\"stylesheet\" crossorigin href=\"/assets/index-xxxxxxxx.css\">\n          </head>\n          <body>\n            <div id=\"root\"></div>\n\n          </body>\n        </html>\n        ```\n    *   **Modify these paths** to use Django's `{% static %}` tag, pointing to the `dist` folder.\n        ```html\n        {% load static %}\n        <!doctype html>\n        <html lang=\"en\">\n          <head>\n            <meta charset=\"UTF-8\" />\n            <link rel=\"icon\" type=\"image/svg+xml\" href=\"{% static 'dist/vite.svg' %}\" />\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n            <title>Vite + React</title>\n            <script type=\"module\" crossorigin src=\"{% static 'dist/assets/index-xxxxxxxx.js' %}\"></script>\n            <link rel=\"stylesheet\" crossorigin href=\"{% static 'dist/assets/index-xxxxxxxx.css' %}\">\n          </head>\n          <body>\n            <div id=\"root\"></div>\n          </body>\n        </html>\n        ```\n        *Note:* The `vite.svg` path also needs modification if you're using it. Ensure the `assets/` subfolder is included in the `static` path.\n\n3.  **Collect Static Files:**\n    Navigate back to `myproject/` and run:\n    ```bash\n    python manage.py collectstatic\n    ```\n    This command will gather all static files (including your React build from `myapp/static/dist`) into the `staticfiles_collected` directory, ready for production serving.\n\n4.  **Run Django Server (Production Mode):**\n    ```bash\n    python manage.py runserver\n    ```\n\n5.  **Access Your App:**\n    Open your browser and go to `http://localhost:8000`. Django is now serving the `index.html` template (your React app) and all its static assets, as well as handling API requests.\n\n    *   **How it works in Prod:**\n        *   Your browser requests `http://localhost:8000`. Django renders `myapp/index.html`.\n        *   The `{% static %}` tags resolve to paths like `/static/dist/assets/index-xxxx.js`, and Django serves these files from `STATIC_ROOT`.\n        *   React makes API calls to `/api/hello/`, which Django routes to `myapp.api_urls` and `api_views.hello_world_api`.\n\n---\n\n### Important Considerations:\n\n*   **Caching:** In production, web servers like Nginx or Apache should be configured to serve `STATIC_ROOT` directly for better performance and to handle caching effectively.\n*   **CSRF Protection:** For `POST`, `PUT`, `DELETE` requests from React to Django, you'll need to handle CSRF tokens. Django provides `get_token` for this.\n    *   You can expose the CSRF token in your `index.html` template using `{{ csrf_token }}` and then have your React app read it from a meta tag or a global JS variable.\n*   **Error Handling:** Implement robust error handling in both your React frontend and Django backend.\n*   **Routing:** React Router (or similar) will handle client-side routing. The `re_path(r'^(?:.*)/?$', ...)` in Django ensures that all non-API paths are routed to your `index.html`, allowing React Router to take over.\n*   **Environment Variables:** Use `.env` files for managing environment-specific variables in both React (Vite supports this out of the box) and Django.\n*   **SCSS/Tailwind/Other CSS frameworks:** Integrate them into your React `frontend` project as you normally would with Vite.",
+    "ig_handle": "clubgretchen",
+    "last_analyzed_at": "2025-12-17T16:27:17.985486+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_analyze",
+    "prompt_version": "2.1.2",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/clubgretchen/profile/2025-12-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/clubgretchen/profile/2025-12-16/profile.json"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/clubgretchen",
+      "homepage": "https://linktr.ee/clubgretchen"
+    },
+    "contacts": {
+      "email": null,
+      "phone": null
+    }
+  },
+  {
     "raw": "INSERT INTO example_table (\"name\", \"age\", \"city\") VALUES ('John Doe', 30, 'New York');",
     "ig_handle": "donau115",
     "last_analyzed_at": "2025-12-13T05:34:34.596480+09:00",
@@ -73,22 +164,406 @@
   },
   {
     "raw": "{}",
+    "ig_handle": "jazzclub.kiste",
+    "last_analyzed_at": "2025-12-17T16:35:11.359791+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/jazzclub.kiste/profile/2025-12-17/profile.json",
+      "maps:https://maps.google.com/?cid=13112467062764406437",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/jazzclub.kiste",
+      "homepage": "http://www.kiste-stuttgart.de/",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=13112467062764406437"
+    },
+    "contacts": {
+      "phone": "0711-16034970",
+      "email": null
+    },
+    "websites": [
+      "http://www.kiste-stuttgart.de/"
+    ],
+    "genres": [
+      "Jazz"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Jazzclub Kiste",
+        "address_text": "Hauptstätter Str. 35, 70173 Stuttgart, Germany",
+        "address_components": null,
+        "location_lat": 48.772449,
+        "location_lon": 9.179267,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Jazzclub Kiste"
+          },
+          "address_text": {
+            "en": "Hauptstätter Str. 35, 70173 Stuttgart, Germany"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Jazzclub Kiste"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Jazz"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "ig_handle": "jazzclub_unterfahrt",
+    "last_analyzed_at": "2025-12-17T16:23:52.750608+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/jazzclub_unterfahrt/profile/2025-12-17/profile.json",
+      "maps:https://maps.google.com/?cid=15828913675574537634",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/jazzclub_unterfahrt",
+      "homepage": "http://linktr.ee/jazzclubunterfahrt",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=15828913675574537634"
+    },
+    "contacts": {
+      "phone": "089-4482794",
+      "email": null
+    },
+    "websites": [
+      "http://linktr.ee/jazzclubunterfahrt"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Jazzclub Unterfahrt",
+        "address_text": "Einsteinstraße 42, 81675 München, Germany",
+        "address_components": null,
+        "location_lat": 48.135447,
+        "location_lon": 11.600847,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Jazzclub Unterfahrt"
+          },
+          "address_text": {
+            "en": "Einsteinstraße 42, 81675 Munich, Germany"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Jazzclub Unterfahrt"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "raw": "{}",
     "ig_handle": "jazzclubatrane",
     "last_analyzed_at": "2025-12-13T09:46:58.296394+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/jazzclubatrane/profile/2025-12-13/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/jazzclubatrane/profile/2025-12-13/profile.json",
+      "maps:https://maps.google.com/?cid=12517570731854252460",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/jazzclubatrane",
-      "homepage": "http://www.a-trane.de/"
+      "homepage": "http://www.a-trane.de/",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=12517570731854252460"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": "030-3132550",
+      "email": null
+    },
+    "websites": [
+      "http://www.a-trane.de/"
+    ],
+    "genres": [
+      "Jazz club",
+      "Bar",
+      "Live Music"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "A-Trane",
+        "address_text": "Ecke Pestalozzistrasse am Savigny-Platzz, Bleibtreustraße 1, 10623 Berlin, Germany",
+        "address_components": null,
+        "location_lat": 52.507239,
+        "location_lon": 13.319958,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": "Compact jazz club, established in 1992, with regular evening concerts by international musicians.",
+        "i18n": {
+          "name": {
+            "en": "A-Trane"
+          },
+          "address_text": {
+            "en": "Ecke Pestalozzistrasse at Savigny-Platzz, Bleibtreustraße 1, 10623 Berlin, Germany"
+          },
+          "notes": {
+            "en": "Compact jazz club, established in 1992, with regular evening concerts by international musicians."
+          }
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "A-Trane"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Compact jazz club, established in 1992, with regular evening concerts by international musicians."
+      },
+      "genres": {
+        "en": [
+          "Jazz club",
+          "Bar",
+          "Live Music"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "raw": "{}",
+    "ig_handle": "jazzhall.hamburg",
+    "last_analyzed_at": "2025-12-17T16:33:12.297740+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/jazzhall.hamburg/profile/2025-12-17/profile.json",
+      "maps:https://maps.google.com/?cid=5205961389663980784",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/jazzhall.hamburg",
+      "homepage": "https://linktr.ee/jazzhall",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=5205961389663980784"
+    },
+    "contacts": {
+      "phone": "040-69458599",
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "JazzHall Hamburg",
+        "address_text": "Harvestehuder Weg 12, 20148 Hamburg, Germany",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "JazzHall Hamburg"
+          },
+          "address_text": {
+            "en": "Harvestehuder Weg 12, 20148 Hamburg, Germany"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "JazzHall Hamburg"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "user": {
+      "id": 12345,
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "roles": [
+        "admin",
+        "developer",
+        "tester"
+      ],
+      "isActive": true,
+      "lastLogin": "2023-10-27T10:30:00Z",
+      "profile": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": 35,
+        "address": {
+          "street": "123 Main St",
+          "city": "Anytown",
+          "zipCode": "12345",
+          "country": "USA"
+        }
+      }
+    },
+    "project": {
+      "projectId": 9876,
+      "projectName": "My Awesome Project",
+      "description": "A comprehensive project to revolutionize everything with cutting-edge technology.",
+      "startDate": "2023-01-15",
+      "endDate": null,
+      "status": "in-progress",
+      "budget": 150000.75,
+      "tasks": [
+        {
+          "taskId": 1,
+          "taskName": "Design Database Schema",
+          "dueDate": "2023-02-01",
+          "completed": true,
+          "assignedTo": "Alice Smith"
+        },
+        {
+          "taskId": 2,
+          "taskName": "Develop RESTful API",
+          "dueDate": "2023-03-15",
+          "completed": false,
+          "assignedTo": "Bob Johnson"
+        },
+        {
+          "taskId": 3,
+          "taskName": "Build Frontend UI",
+          "dueDate": "2023-04-20",
+          "completed": false,
+          "assignedTo": "Charlie Brown"
+        },
+        {
+          "taskId": 4,
+          "taskName": "Deploy to Production",
+          "dueDate": "2023-05-01",
+          "completed": false,
+          "assignedTo": "Alice Smith"
+        }
+      ],
+      "members": [
+        {
+          "memberId": 101,
+          "name": "Alice Smith",
+          "role": "Project Manager"
+        },
+        {
+          "memberId": 102,
+          "name": "Bob Johnson",
+          "role": "Lead Developer"
+        },
+        {
+          "memberId": 103,
+          "name": "Charlie Brown",
+          "role": "Frontend Developer"
+        },
+        {
+          "memberId": 104,
+          "name": "Diana Prince",
+          "role": "QA Engineer"
+        }
+      ],
+      "techStack": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ]
+    },
+    "ig_handle": "jazzhausfreiburg",
+    "last_analyzed_at": "2025-12-17T16:23:33.560179+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/jazzhausfreiburg/profile/2025-12-17/profile.json",
+      "maps:https://maps.google.com/?cid=4038881225582367248",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/jazzhausfreiburg",
+      "homepage": "https://linktr.ee/jazzhausfreiburg",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=4038881225582367248"
+    },
+    "contacts": {
+      "phone": "0761-7919780",
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Jazzhaus Freiburg",
+        "address_text": "Schnewlinstraße 1, 79098 Freiburg im Breisgau, Germany",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Jazzhaus Freiburg"
+          },
+          "address_text": {
+            "en": "Schnewlinstrasse 1, 79098 Freiburg im Breisgau, Germany"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Jazzhaus Freiburg"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
@@ -105,6 +580,81 @@
     "links": {
       "instagram": "https://www.instagram.com/kunstfabrikschlot",
       "homepage": "http://www.kunstfabrik-schlot.de"
+    },
+    "contacts": {
+      "email": null,
+      "phone": null
+    }
+  },
+  {
+    "ig_handle": "nica_jazz_club",
+    "last_analyzed_at": "2025-12-17T16:24:51.216360+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/nica_jazz_club/profile/2025-12-17/profile.json",
+      "maps:https://maps.google.com/?cid=8195040897400983612",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/nica_jazz_club",
+      "homepage": "http://nica-jazzclub.de",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=8195040897400983612"
+    },
+    "contacts": {
+      "phone": null,
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Nica Jazz Club",
+        "address_text": "Alter Wall 20, 20457 Hamburg, Germany",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Nica Jazz Club"
+          },
+          "address_text": {
+            "en": "Alter Wall 20, 20457 Hamburg, Germany"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Nica Jazz Club"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "ig_handle": "silentjazzbar",
+    "last_analyzed_at": "2025-12-17T16:25:36.038826+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_analyze",
+    "prompt_version": "2.1.2",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/silentjazzbar/profile/2025-12-17/profile.json"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/silentjazzbar",
+      "homepage": "http://www.silentjazzbar.de"
     },
     "contacts": {
       "email": null,
@@ -164,6 +714,79 @@
       "address_text": null,
       "notes": null,
       "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "raw": "Okay, let's create a custom social share feature for your WordPress single posts, complete with a modal popup. This solution will use Vanilla JavaScript, CSS, and some basic HTML, integrated into your WordPress theme.\n\n**Goal:**\n\n*   A share icon appears on single posts.\n*   Clicking the icon opens a modal popup.\n*   The modal contains \"Share This Post\" title.\n*   It has buttons for Facebook, Twitter, LinkedIn, WhatsApp, and Copy Link.\n*   These buttons share the *current post's* URL and title.\n*   The \"Copy Link\" button copies the current post's URL to the clipboard.\n*   The modal can be closed by clicking outside it, or by clicking a close button.\n\n---\n\n### Step 1: Enqueue Styles and Scripts (functions.php)\n\nYou'll need to enqueue a Font Awesome stylesheet for the icons, your custom CSS, and your custom JavaScript file.\n\nOpen your theme's `functions.php` file (or preferably, your child theme's `functions.php`). Add the following code:\n\n```php\n<?php\n/**\n * Enqueue custom social share scripts and styles.\n */\nfunction mytheme_enqueue_social_share_assets() {\n    // Enqueue Font Awesome (if your theme doesn't already)\n    wp_enqueue_style( 'font-awesome-all', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css', array(), '6.0.0-beta3', 'all' );\n\n    // Enqueue custom social share CSS\n    wp_enqueue_style( 'mytheme-social-share-style', get_stylesheet_directory_uri() . '/css/social-share.css', array(), '1.0.0', 'all' );\n\n    // Enqueue custom social share JavaScript\n    wp_enqueue_script( 'mytheme-social-share-script', get_stylesheet_directory_uri() . '/js/social-share.js', array(), '1.0.0', true ); // true loads script in footer\n}\nadd_action( 'wp_enqueue_scripts', 'mytheme_enqueue_social_share_assets' );\n\n?>\n```\n\n**Explanation:**\n\n*   `mytheme_enqueue_social_share_assets()`: This function will register and load our necessary files.\n*   `wp_enqueue_style('font-awesome-all', ...)`: Loads Font Awesome from a CDN. If your theme already loads Font Awesome, you can skip this line.\n*   `wp_enqueue_style('mytheme-social-share-style', ...)`: Loads your custom CSS file. We'll create this at `your-theme/css/social-share.css`.\n*   `wp_enqueue_script('mytheme-social-share-script', ...)`: Loads your custom JavaScript file. We'll create this at `your-theme/js/social-share.js`. The `true` argument ensures it loads in the footer, which is good practice.\n*   `add_action('wp_enqueue_scripts', ...)`: Hooks our function into WordPress's script/style loading process.\n\n---\n\n### Step 2: Create CSS File (`css/social-share.css`)\n\nCreate a new directory named `css` inside your theme's root folder (or child theme's root folder). Inside `css`, create a file named `social-share.css` and add the following styles:\n\n```css\n/* Share Button */\n.custom-share-button {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    background-color: #0073aa; /* WordPress blue */\n    color: white;\n    padding: 10px 15px;\n    border-radius: 5px;\n    cursor: pointer;\n    font-size: 16px;\n    font-weight: 600;\n    transition: background-color 0.3s ease;\n    margin-top: 20px; /* Adjust as needed */\n    margin-bottom: 20px;\n}\n\n.custom-share-button:hover {\n    background-color: #005177;\n}\n\n.custom-share-button i {\n    font-size: 18px;\n}\n\n/* Modal Overlay */\n.share-modal-overlay {\n    display: none; /* Hidden by default */\n    position: fixed; /* Stay in place */\n    z-index: 9999; /* Sit on top */\n    left: 0;\n    top: 0;\n    width: 100%; /* Full width */\n    height: 100%; /* Full height */\n    overflow: auto; /* Enable scroll if needed */\n    background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */\n    justify-content: center;\n    align-items: center;\n    padding: 20px;\n    box-sizing: border-box;\n}\n\n/* Modal Content */\n.share-modal-content {\n    background-color: #fefefe;\n    margin: auto;\n    padding: 30px;\n    border-radius: 8px;\n    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);\n    position: relative;\n    width: 90%; /* Adjust width for responsiveness */\n    max-width: 500px; /* Max width for larger screens */\n    animation: fadeIn 0.3s ease-out;\n}\n\n@keyframes fadeIn {\n    from {\n        opacity: 0;\n        transform: translateY(-20px);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n/* Close Button */\n.share-modal-close {\n    color: #aaa;\n    position: absolute;\n    top: 10px;\n    right: 15px;\n    font-size: 28px;\n    font-weight: bold;\n    cursor: pointer;\n    transition: color 0.2s ease;\n}\n\n.share-modal-close:hover,\n.share-modal-close:focus {\n    color: #333;\n    text-decoration: none;\n}\n\n/* Modal Title */\n.share-modal-content h2 {\n    margin-top: 0;\n    margin-bottom: 25px;\n    color: #333;\n    font-size: 24px;\n    text-align: center;\n    border-bottom: 1px solid #eee;\n    padding-bottom: 15px;\n}\n\n/* Social Buttons Container */\n.share-buttons {\n    display: flex;\n    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */\n    gap: 15px; /* Spacing between buttons */\n    justify-content: center;\n}\n\n/* Individual Social Button */\n.share-buttons a,\n.share-buttons button {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 100%; /* Full width on small screens */\n    max-width: 220px; /* Max width for larger screens */\n    padding: 12px 20px;\n    border-radius: 6px;\n    text-decoration: none;\n    color: white;\n    font-weight: 600;\n    font-size: 16px;\n    transition: transform 0.2s ease, box-shadow 0.2s ease;\n    border: none;\n    cursor: pointer;\n}\n\n.share-buttons a:hover,\n.share-buttons button:hover {\n    transform: translateY(-2px);\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n}\n\n.share-buttons a i,\n.share-buttons button i {\n    margin-right: 10px;\n    font-size: 18px;\n}\n\n/* Specific Social Colors */\n.share-facebook {\n    background-color: #1877f2;\n}\n.share-twitter {\n    background-color: #1da1f2;\n}\n.share-linkedin {\n    background-color: #0a66c2;\n}\n.share-whatsapp {\n    background-color: #25d366;\n}\n.share-copylink {\n    background-color: #6c757d; /* Bootstrap secondary grey */\n}\n\n/* Copy Link confirmation message */\n.copy-message {\n    text-align: center;\n    margin-top: 20px;\n    font-size: 14px;\n    color: #28a745; /* Green success color */\n    opacity: 0; /* Hidden by default */\n    transition: opacity 0.3s ease-in-out;\n}\n.copy-message.show {\n    opacity: 1;\n}\n\n/* Hidden input for copying */\n.hidden-url-input {\n    position: absolute;\n    left: -9999px;\n}\n\n/* Responsive Adjustments */\n@media (min-width: 576px) {\n    .share-buttons {\n        justify-content: space-between; /* Evenly space buttons */\n    }\n    .share-buttons a,\n    .share-buttons button {\n        width: calc(50% - 10px); /* Two columns with gap */\n    }\n}\n@media (max-width: 480px) {\n    .share-modal-content {\n        padding: 20px;\n    }\n    .share-modal-content h2 {\n        font-size: 20px;\n        margin-bottom: 20px;\n    }\n    .share-buttons a,\n    .share-buttons button {\n        font-size: 15px;\n        padding: 10px 15px;\n    }\n}\n```\n\n---\n\n### Step 3: Create JavaScript File (`js/social-share.js`)\n\nCreate a new directory named `js` inside your theme's root folder (or child theme's root folder). Inside `js`, create a file named `social-share.js` and add the following JavaScript:\n\n```javascript\ndocument.addEventListener('DOMContentLoaded', function() {\n    const shareButton = document.querySelector('.custom-share-button');\n    const shareModalOverlay = document.getElementById('shareModalOverlay');\n    const shareModalClose = document.querySelector('.share-modal-close');\n    const copyLinkBtn = document.getElementById('copyLinkBtn');\n    const hiddenUrlInput = document.getElementById('hiddenUrlInput');\n    const copyMessage = document.getElementById('copyMessage');\n\n    // Get current post URL and Title\n    const postUrl = encodeURIComponent(window.location.href);\n    const postTitle = encodeURIComponent(document.title);\n\n    // Update social share links dynamically\n    document.getElementById('shareFacebook').href = `https://www.facebook.com/sharer/sharer.php?u=${postUrl}`;\n    document.getElementById('shareTwitter').href = `https://twitter.com/intent/tweet?url=${postUrl}&text=${postTitle}`;\n    document.getElementById('shareLinkedin').href = `https://www.linkedin.com/sharing/share-offsite/?url=${postUrl}`;\n    document.getElementById('shareWhatsapp').href = `https://api.whatsapp.com/send?text=${postTitle}%20${postUrl}`;\n\n    // Show modal\n    if (shareButton) {\n        shareButton.addEventListener('click', function() {\n            shareModalOverlay.style.display = 'flex'; // Use flex to center content\n            // Update the hidden input value for copying\n            hiddenUrlInput.value = decodeURIComponent(postUrl);\n        });\n    }\n\n    // Hide modal when close button is clicked\n    if (shareModalClose) {\n        shareModalClose.addEventListener('click', function() {\n            shareModalOverlay.style.display = 'none';\n            copyMessage.classList.remove('show'); // Hide copy message on close\n        });\n    }\n\n    // Hide modal when clicking outside the modal content\n    if (shareModalOverlay) {\n        shareModalOverlay.addEventListener('click', function(event) {\n            if (event.target === shareModalOverlay) {\n                shareModalOverlay.style.display = 'none';\n                copyMessage.classList.remove('show'); // Hide copy message on close\n            }\n        });\n    }\n\n    // Copy Link functionality\n    if (copyLinkBtn) {\n        copyLinkBtn.addEventListener('click', function() {\n            // Select the text field\n            hiddenUrlInput.select();\n            hiddenUrlInput.setSelectionRange(0, 99999); // For mobile devices\n\n            // Copy the text inside the text field\n            try {\n                // Modern Way (preferred)\n                navigator.clipboard.writeText(hiddenUrlInput.value).then(function() {\n                    console.log('Async: Copying to clipboard was successful!');\n                    showCopyMessage();\n                }, function(err) {\n                    console.error('Async: Could not copy text: ', err);\n                    // Fallback to execCommand if clipboard API fails or is not available\n                    document.execCommand('copy');\n                    showCopyMessage();\n                });\n            } catch (err) {\n                console.error('Fallback: Oops, unable to copy', err);\n                // Fallback for older browsers\n                document.execCommand('copy');\n                showCopyMessage();\n            }\n        });\n    }\n\n    function showCopyMessage() {\n        copyMessage.classList.add('show');\n        setTimeout(() => {\n            copyMessage.classList.remove('show');\n        }, 2000); // Hide message after 2 seconds\n    }\n});\n```\n\n---\n\n### Step 4: Add HTML to Your Single Post Template\n\nNow you need to place the HTML for the share button and the modal in your WordPress theme. A common place for this is `single.php` or `content-single.php` within the loop, usually after `the_content()`.\n\nFind `single.php` in your theme's root directory. If your theme uses template parts, you might need to look for `content-single.php` or a similar file.\n\nPlace the following HTML where you want the share button to appear (e.g., after the post content):\n\n```html\n<?php\n// This ensures the HTML only loads on single post pages\nif ( is_singular('post') ) :\n?>\n\n    <!-- Custom Share Button -->\n    <div class=\"custom-share-button\">\n        <i class=\"fas fa-share-alt\"></i> Share This Post\n    </div>\n\n    <!-- Social Share Modal Overlay -->\n    <div id=\"shareModalOverlay\" class=\"share-modal-overlay\">\n        <!-- Modal Content -->\n        <div class=\"share-modal-content\">\n            <span class=\"share-modal-close\">&times;</span>\n            <h2>Share This Post</h2>\n            <div class=\"share-buttons\">\n                <a href=\"#\" id=\"shareFacebook\" class=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\">\n                    <i class=\"fab fa-facebook-f\"></i> Facebook\n                </a>\n                <a href=\"#\" id=\"shareTwitter\" class=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\">\n                    <i class=\"fab fa-twitter\"></i> Twitter\n                </a>\n                <a href=\"#\" id=\"shareLinkedin\" class=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\">\n                    <i class=\"fab fa-linkedin-in\"></i> LinkedIn\n                </a>\n                <a href=\"#\" id=\"shareWhatsapp\" class=\"share-whatsapp\" target=\"_blank\" rel=\"noopener noreferrer\">\n                    <i class=\"fab fa-whatsapp\"></i> WhatsApp\n                </a>\n                <button id=\"copyLinkBtn\" class=\"share-copylink\" type=\"button\">\n                    <i class=\"fas fa-link\"></i> Copy Link\n                </button>\n            </div>\n            <p id=\"copyMessage\" class=\"copy-message\">Link Copied!</p>\n        </div>\n    </div>\n\n    <!-- Hidden input field for copying URL -->\n    <input type=\"text\" id=\"hiddenUrlInput\" class=\"hidden-url-input\" readonly>\n\n<?php endif; // End if is_singular('post') ?>\n```\n\n---\n\n### Instructions Summary:\n\n1.  **Child Theme (Recommended):** If you're not using a child theme, create one first. This prevents your changes from being overwritten when your parent theme updates.\n2.  **`functions.php`:** Add the PHP code from **Step 1** to your child theme's `functions.php`.\n3.  **`css/social-share.css`:**\n    *   Create a `css` folder inside your child theme.\n    *   Create `social-share.css` inside the `css` folder.\n    *   Paste the CSS code from **Step 2** into this file.\n4.  **`js/social-share.js`:**\n    *   Create a `js` folder inside your child theme.\n    *   Create `social-share.js` inside the `js` folder.\n    *   Paste the JavaScript code from **Step 3** into this file.\n5.  **`single.php` (or `content-single.php`):**\n    *   Copy `single.php` from your parent theme into your child theme (if it doesn't already exist in your child theme).\n    *   Paste the HTML code from **Step 4** into `single.php` (or the appropriate template part) where you want the share button to appear, typically after `<?php the_content(); ?>`.\n\nAfter following these steps, clear any caching you might have on your WordPress site, then visit a single post. You should see the \"Share This Post\" button, and clicking it will reveal the modal with functional social share links.",
+    "ig_handle": "stadtgarten_koeln",
+    "last_analyzed_at": "2025-12-17T16:31:13.567114+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/stadtgarten_koeln/profile/2025-12-17/profile.json",
+      "maps:https://maps.google.com/?cid=13512541600499266817",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/stadtgarten_koeln",
+      "homepage": "https://linktr.ee/stadtgarten",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=13512541600499266817"
+    },
+    "contacts": {
+      "phone": "0221-95299421",
+      "email": null
+    },
+    "websites": [
+      "https://linktr.ee/stadtgarten"
+    ],
+    "genres": [
+      "Restaurant",
+      "Live Music"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Stadtgarten Köln",
+        "address_text": "Venloer Str. 40, 50672 Köln, Germany",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": "Refined locale with a beer garden offering light fare & local dishes in a park setting.",
+        "i18n": {
+          "name": {
+            "en": "Stadtgarten Cologne"
+          },
+          "address_text": {
+            "en": "Venloer Street 40, 50672 Cologne, Germany"
+          },
+          "notes": {
+            "en": "Refined locale with a beer garden offering light fare & local dishes in a park setting."
+          }
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Stadtgarten Cologne"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Refined locale with a beer garden offering light fare & local dishes in a park setting."
+      },
+      "genres": {
+        "en": [
+          "Restaurant",
+          "Live Music"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
