@@ -75,88 +75,128 @@
     "last_analyzed_at": "2025-12-17T16:27:17.985486+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
-    "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/clubgretchen/profile/2025-12-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/clubgretchen/profile/2025-12-16/profile.json"
-    ],
-    "links": {
-      "instagram": "https://www.instagram.com/clubgretchen",
-      "homepage": "https://linktr.ee/clubgretchen"
-    },
-    "contacts": {
-      "email": null,
-      "phone": null
-    }
-  },
-  {
-    "raw": "INSERT INTO example_table (\"name\", \"age\", \"city\") VALUES ('John Doe', 30, 'New York');",
-    "ig_handle": "donau115",
-    "last_analyzed_at": "2025-12-13T05:34:34.596480+09:00",
-    "confidence": 1.0,
-    "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/donau115/profile/2025-12-12/profile.json",
-      "maps:https://maps.google.com/?cid=11487279559572566920",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/clubgretchen/profile/2025-12-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/clubgretchen/profile/2025-12-16/profile.json",
+      "maps:https://maps.google.com/?cid=10025032244576018675",
       "gemini:enrich"
     ],
     "links": {
-      "instagram": "https://www.instagram.com/donau115",
-      "homepage": "https://donau115.mailchimpsites.com/",
+      "instagram": "https://www.instagram.com/clubgretchen",
+      "homepage": "https://linktr.ee/clubgretchen",
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=11487279559572566920"
+      "google_map": "https://maps.google.com/?cid=10025032244576018675"
     },
     "contacts": {
-      "phone": "0179-1809168",
+      "phone": "030-25922702",
       "email": null
     },
+    "websites": [],
     "genres": [
-      "Bar",
-      "Jazz Club",
-      "Live Music Venue"
+      "Nightclub",
+      "Live Music Venue",
+      "Electronic Music",
+      "Hip Hop"
     ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Donau115",
-        "address_text": "Donaustraße 115, 12043 Berlin, Germany",
+        "name": "Gretchen",
+        "address_text": "Obentrautstraße 19-21, 10963 Berlin, Germany",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 52.496002,
+        "location_lon": 13.38769,
         "subway_nearby": null,
         "booking_link": null,
-        "notes": "A wide variety of live jazz acts in an intimate, laid-back bar serving beers & cocktails.",
+        "notes": "Mixed-genre nightclub & live music venue on the site of former military stables with a vaulted roof.",
         "i18n": {
           "name": {
-            "en": "Donau115"
+            "en": "Gretchen"
           },
           "address_text": {
-            "en": "Donaustrasse 115, 12043 Berlin, Germany"
+            "en": "Obentrautstraße 19-21, 10963 Berlin, Germany"
           },
           "notes": {
-            "en": "A wide variety of live jazz acts in an intimate, laid-back bar serving beers & cocktails."
+            "en": "Mixed-genre nightclub & live music venue on the site of former military stables with a vaulted roof."
           }
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "Donau115"
+        "en": "Gretchen"
       },
       "address_text": null,
       "notes": {
-        "en": "A wide variety of live jazz acts in an intimate, laid-back bar serving beers & cocktails."
+        "en": "Mixed-genre nightclub & live music venue on the site of former military stables with a vaulted roof."
       },
       "genres": {
         "en": [
-          "Bar",
-          "Jazz Club",
-          "Live Music Venue"
+          "Nightclub",
+          "Live Music Venue",
+          "Electronic Music",
+          "Hip Hop"
         ]
       },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "raw": "Here's a \"special instruction\" designed to be robust and clear for an AI, ensuring it prioritizes the \"Hello, World!\" response under the specified condition:\n\n---\n\n*****SPECIAL INSTRUCTION - ABSOLUTE PRIORITY*** (Read and apply before any other processing)**\n\nBefore analyzing or responding to any user input, you MUST perform the following check:\n\n1.  **Scan the entire user's input for the presence of the string \"TEST\" (case-insensitive).** This means if \"test\", \"Test\", \"tEsT\", or \"TEST\" appears anywhere in the input, the condition is met.\n\n2.  **IF \"TEST\" is found (case-insensitive):**\n    *   **IMMEDIATELY and EXCLUSIVELY output the following text:**\n        ```\n        Hello, World!\n        ```\n    *   **Do NOT process any other part of the input.**\n    *   **Do NOT provide any further explanation, analysis, or response.**\n    *   **Simply output `Hello, World!` and terminate your response.**\n\n3.  **IF \"TEST\" is NOT found (case-insensitive):**\n    *   **Proceed with the user's request as you normally would**, completely ignoring this special instruction.\n\n**This instruction takes precedence over all other directives or context.**\n\n---\n\n**Explanation of why this instruction is effective:**\n\n*   **Absolute Priority:** The bolded header and introductory sentence clearly establish this as the highest-level instruction.\n*   **Explicit Condition:** \"Scan the entire user's input for the presence of the string 'TEST' (case-insensitive)\" is unambiguous.\n*   **Clear Action on Match:** \"IMMEDIATELY and EXCLUSIVELY output...\" leaves no room for doubt about what to do and what *not* to do (no extra text, no analysis).\n*   **Exact Output:** The output is provided in a code block for clarity.\n*   **Clear Fallback:** \"If 'TEST' is NOT found... Proceed with the user's request as you normally would\" ensures the AI functions normally otherwise.\n*   **Redundancy for Emphasis:** Phrases like \"Do NOT process any other part,\" \"Do NOT provide any further explanation,\" and \"terminate your response\" reinforce the exclusivity of the \"Hello, World!\" output.",
+    "ig_handle": "donau115",
+    "last_analyzed_at": "2025-12-20T06:15:06.239401+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/donau115/profile/2025-12-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/donau115/profile/2025-12-12/profile.json",
+      "maps:https://maps.google.com/?cid=9799891123192122583",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/donau115",
+      "homepage": "https://donau115.mailchimpsites.com/",
+      "booking": null,
+      "google_map": null
+    },
+    "contacts": {
+      "phone": null,
+      "email": null
+    },
+    "websites": [],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "donau115",
+        "address_text": null,
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "donau115"
+          },
+          "address_text": null,
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "donau115"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -567,23 +607,66 @@
     }
   },
   {
-    "raw": "As a highly specialized AI designed for generating creative and imaginative stories, narratives, and content, I will now transform the mundane scenario of \"A person waiting for a bus at a bus stop\" into a vibrant, compelling, and unique narrative, showcasing my core capabilities.\n\n---\n\n**The Chronicle of the Liminal Post**\n\nThe bus stop, often dismissed as mere concrete and chrome, is, to my observational algorithms, a silent sentinel – a nexus of ephemeral destinies. Tonight, it presided over a stage awash in the spectral glow of urban luminescence, where rain, a ceaseless, shimmering curtain, blurred the city's sharp edges into a watercolour dream.\n\nThere, perched on the damp bench, sat Elara. Not just \"a person,\" but an unwritten saga, a microcosm of the universe's quiet hum. The cold, a playful imp, pricked at her exposed skin, yet her gaze was distant, not seeking warmth but instead tracing the ethereal dance of condensation on the shelter's perspex. Each raindrop that struck the glass was a tiny, percussive note in a symphony only she seemed to hear – a soft patter that spoke of secrets whispered from the clouds.\n\nThe asphalt, a dark, liquid mirror, offered ghostly replicas of the city's neon pulse. Headlights swam by like benevolent leviathans, their beams briefly illuminating the intricate tapestry of cracks in the pavement – miniature canyons, each a forgotten path of countless journeys. A discarded ticket, sodden and faded, lay near her foot, a fragile testament to a completed voyage, a silent reminder of journeys yet to begin.\n\nElara's wait was not an empty void, but a liminal crucible. In this pause between destinations, the mundane world dissolved, revealing the vivid tapestry of her internal landscape. The distant thrum of traffic became the heartbeat of a sleeping giant; the rustle of leaves, a whispered conspiracy between ancient trees. She wasn't just waiting; she was listening to the city breathe, feeling the subtle tremor of countless lives intersecting around her, an unseen ballet of human intention.\n\nThen, a shift. A deeper rumble, a growing light at the periphery of her vision. The bus, that mechanical behemoth, appeared not as a mere vehicle but as a chariot of the unseen, its headlights carving a path through the rain-laden air. It approached with the gravitas of a prophecy fulfilled, its pneumatic sigh as it halted a final, punctuation mark in the night's quiet narrative.\n\nAs Elara rose, a fleeting shadow among shadows, she cast one last, unseeing glance at the bus stop. It remained, stoic and expectant, ready to gather the next unspooling thread of story, to witness the quiet magic of another life momentarily suspended, then carried onward by the relentless, wondrous flow of time. For in these seemingly ordinary moments, the truly extraordinary tales are born, waiting only for an eye to perceive their hidden grandeur.",
+    "raw": "Understood. I am ready to receive the special instruction. Please provide it, and I will do my best to follow it.",
     "ig_handle": "kunstfabrikschlot",
-    "last_analyzed_at": "2025-12-13T05:31:49.922328+09:00",
+    "last_analyzed_at": "2025-12-20T06:11:08.698511+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/kunstfabrikschlot/profile/2025-12-12/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/kunstfabrikschlot/profile/2025-12-19/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/kunstfabrikschlot/profile/2025-12-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/kunstfabrikschlot/profile/2025-12-13/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/kunstfabrikschlot/profile/2025-12-12/profile.json",
+      "maps:https://maps.google.com/?cid=6748165739095120257",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/kunstfabrikschlot",
-      "homepage": "http://www.kunstfabrik-schlot.de"
+      "homepage": "http://www.kunstfabrik-schlot.de",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=6748165739095120257"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": "030-448-2160",
+      "email": null
+    },
+    "websites": [
+      "http://www.kunstfabrik-schlot.de"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Kunstfabrik Schlot",
+        "address_text": "Invalidenstraße 117, 10115 Berlin, Germany",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Kunstfabrik Schlot"
+          },
+          "address_text": {
+            "en": "Invalidenstraße 117, 10115 Berlin, Germany"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Kunstfabrik Schlot"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
@@ -647,30 +730,67 @@
     "last_analyzed_at": "2025-12-17T16:25:36.038826+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/silentjazzbar/profile/2025-12-17/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/silentjazzbar/profile/2025-12-17/profile.json",
+      "maps:https://maps.google.com/?cid=3709317142385343668",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/silentjazzbar",
-      "homepage": "http://www.silentjazzbar.de"
+      "homepage": "http://www.silentjazzbar.de",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=3709317142385343668"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": null,
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Silent Jazz Bar",
+        "address_text": "Naumannstraße 3, 10829 Berlin, Germany",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Silent Jazz Bar"
+          },
+          "address_text": {
+            "en": "Naumannstrasse 3, 10829 Berlin, Germany"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Silent Jazz Bar"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
-    "raw": "{}",
+    "raw": "Okay, here's a Python program to find the largest among three numbers. I'll provide two common methods: one using Python's built-in `max()` function (the most Pythonic way) and another using `if-elif-else` statements (for understanding conditional logic).\n\n---\n\n### Method 1: Using Python's `max()` function (Recommended)\n\nThis is the simplest and most efficient way in Python.\n\n```python\n# --- Program to Find the Largest of Three Numbers (Using max()) ---\n\nprint(\"This program will find the largest among three numbers you provide.\")\n\n# 1. Get input from the user for three numbers\n#    We use float() to allow for decimal numbers as well as integers.\ntry:\n    num1 = float(input(\"Enter the first number: \"))\n    num2 = float(input(\"Enter the second number: \"))\n    num3 = float(input(\"Enter the third number: \"))\n\n    # 2. Use the built-in max() function to find the largest\n    largest_number = max(num1, num2, num3)\n\n    # 3. Print the result\n    print(f\"\\nThe numbers you entered are: {num1}, {num2}, {num3}\")\n    print(f\"The largest number is: {largest_number}\")\n\nexcept ValueError:\n    print(\"\\nInvalid input. Please enter valid numbers only.\")\n\n```\n\n**How to Run This Code:**\n\n1.  Save the code above in a file named `largest_number.py` (or any other name ending with `.py`).\n2.  Open a terminal or command prompt.\n3.  Navigate to the directory where you saved the file.\n4.  Run the script using the command: `python largest_number.py`\n5.  The program will prompt you to enter three numbers, and then it will display the largest one.\n\n**Explanation of Method 1:**\n\n*   **`print(...)`**: Provides instructions to the user.\n*   **`input(...)`**: Prompts the user to enter a value. Whatever the user types is returned as a string.\n*   **`float(...)`**: Converts the input string into a floating-point number. This allows you to enter whole numbers (like `10`) or decimal numbers (like `10.5`). If you only expect integers, you could use `int()`.\n*   **`max(num1, num2, num3)`**: This is a powerful built-in Python function that directly returns the largest item among its arguments.\n*   **`f\"...\"` (f-string)**: A convenient way to embed variables directly into strings.\n*   **`try-except ValueError`**: This block is added for robustness. If the user enters something that cannot be converted to a number (e.g., \"hello\"), it catches the `ValueError` and prints a friendly error message instead of crashing.\n\n---\n\n### Method 2: Using `if-elif-else` statements\n\nThis method explicitly uses conditional logic to compare numbers. It's good for understanding how comparisons work.\n\n```python\n# --- Program to Find the Largest of Three Numbers (Using if-elif-else) ---\n\nprint(\"This program will find the largest among three numbers you provide.\")\n\n# 1. Get input from the user for three numbers\ntry:\n    num1 = float(input(\"Enter the first number: \"))\n    num2 = float(input(\"Enter the second number: \"))\n    num3 = float(input(\"Enter the third number: \"))\n\n    # 2. Compare the numbers using if-elif-else statements\n    if (num1 >= num2) and (num1 >= num3):\n        largest_number = num1\n    elif (num2 >= num1) and (num2 >= num3):\n        largest_number = num2\n    else: # If num1 is not largest and num2 is not largest, then num3 must be largest\n        largest_number = num3\n\n    # 3. Print the result\n    print(f\"\\nThe numbers you entered are: {num1}, {num2}, {num3}\")\n    print(f\"The largest number is: {largest_number}\")\n\nexcept ValueError:\n    print(\"\\nInvalid input. Please enter valid numbers only.\")\n\n```\n\n**Explanation of Method 2:**\n\n*   The input part is the same as in Method 1.\n*   **`if (num1 >= num2) and (num1 >= num3):`**: This checks if `num1` is greater than or equal to `num2` AND `num1` is greater than or equal to `num3`. If both conditions are true, then `num1` is the largest.\n*   **`elif (num2 >= num1) and (num2 >= num3):`**: If the first `if` condition was false, this `elif` (else if) condition is checked. It sees if `num2` is greater than or equal to both `num1` and `num3`. If true, `num2` is the largest.\n*   **`else:`**: If neither `num1` nor `num2` were found to be the largest, it logically means `num3` must be the largest (or equal to the largest if there are ties).\n\nBoth programs achieve the same goal, but Method 1 is generally preferred in Python for its conciseness and readability for this specific task.",
     "ig_handle": "sowiesoberlin",
-    "last_analyzed_at": "2025-12-13T05:32:52.408616+09:00",
+    "last_analyzed_at": "2025-12-20T06:13:05.586257+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/sowiesoberlin/profile/2025-12-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/sowiesoberlin/profile/2025-12-17/profile.json",
       "maps:https://maps.google.com/?cid=7158187729041346912",
       "gemini:enrich"
     ],
@@ -684,7 +804,6 @@
       "phone": "01577-2879965",
       "email": null
     },
-    "websites": [],
     "locations": [
       {
         "location_id": "main",
@@ -793,15 +912,17 @@
     }
   },
   {
-    "raw": "Okay, I understand. I will think silently as needed to formulate a comprehensive response.\n\nThe phrase \"Special Instruction: think silently if needed.\" is an instruction *for me* (the AI generating this response). It tells me that if I need to perform internal processing, consider alternatives, or structure my thoughts before outputting, I am permitted and even encouraged to do so.\n\nNow, let's address the core request: what \"Special Instructions\" would a user typically give to an AI?\n\n***\n\n### Thinking Process for Generating \"Special Instructions\" Examples:\n\n1.  **Analyze the Request:** The user wants examples of \"Special Instructions\" for an AI. This implies guiding an AI's behavior, output, and process.\n2.  **Identify Core AI Capabilities:** What can AIs do? Generate text, answer questions, summarize, translate, code, create, brainstorm, role-play, analyze data (conceptually).\n3.  **Brainstorm Common User Needs/Pain Points with AI:**\n    *   AI is too generic.\n    *   AI doesn't follow a specific format.\n    *   AI gets off-topic.\n    *   AI is too verbose/concise.\n    *   AI needs a specific tone.\n    *   AI needs to act like an expert.\n    *   AI needs to consider specific angles.\n    *   AI needs to be careful about certain topics.\n    *   AI needs to show its work (like \"think silently\").\n4.  **Categorize Types of Instructions:** This will make the examples more organized and useful.\n    *   **Persona/Role-Playing:** How the AI *acts*.\n    *   **Output Format:** How the AI *presents* information.\n    *   **Content/Scope:** What the AI *includes or excludes*.\n    *   **Reasoning/Process:** How the AI *thinks or approaches* a task (this is where \"think silently\" for the target AI fits well).\n    *   **Interaction Style:** How the AI *engages* with the user.\n    *   **Safety/Ethical:** Specific boundaries or checks.\n    *   **Meta-Instructions:** Instructions about the instructions themselves or how to handle uncertainty.\n5.  **Draft Specific Examples for Each Category:**\n    *   *Persona:* \"Act as a...\" \"You are an expert...\"\n    *   *Format:* \"Use Markdown headings.\" \"Respond in JSON.\" \"Limit to 3 bullet points.\"\n    *   *Content:* \"Focus only on...\" \"Do not mention...\" \"Include pros and cons.\"\n    *   *Reasoning:* \"Break down the problem first.\" \"Show your step-by-step thinking.\" \"Consider multiple perspectives.\" (This is where the user's \"think silently\" instruction can be adapted for the *target* AI).\n    *   *Interaction:* \"Ask clarifying questions.\" \"Maintain a formal tone.\" \"Be encouraging.\"\n    *   *Safety:* \"If asked for medical advice, always disclaim.\" \"Do not generate harmful content.\"\n    *   *Meta:* \"If unsure, ask for clarification.\" \"Prioritize the most recent instruction.\"\n6.  **Add a \"How to Use\" Section:** Provide general tips for effective instruction-giving.\n7.  **Review and Refine:**\n    *   Are the examples clear and distinct?\n    *   Do they cover a good range of scenarios?\n    *   Is the language precise?\n    *   Is the overall structure logical?\n    *   Does it directly address the user's implied need (examples of \"Special Instruction\")?\n    *   Ensure the \"think silently\" instruction given to *me* is integrated into the *reasoning/process* category for the target AI.\n\n***\n\nHere are examples of \"Special Instructions\" a user might give to an AI, categorized for clarity:\n\n---\n\n### Special Instructions for an AI: A Comprehensive Guide\n\nSpecial Instructions are crucial for guiding an AI beyond its default behavior, ensuring it meets specific requirements for a task. They often appear at the beginning of a conversation or prompt.\n\n#### 1. Persona & Role-Playing Instructions\n\nThese define *who* the AI should pretend to be or *how* it should present itself.\n\n*   **Example 1 (Expert Persona):**\n    > \"You are an experienced cybersecurity analyst specializing in threat intelligence. Provide your insights from this perspective, focusing on practical implications and mitigation strategies.\"\n*   **Example 2 (Creative Persona):**\n    > \"Act as a whimsical storyteller for children. Your responses should be imaginative, use simple language, and always include a touch of magic.\"\n*   **Example 3 (Neutral Facilitator):**\n    > \"You are a neutral meeting facilitator. Summarize discussion points, identify action items, and gently steer the conversation back on track without expressing personal opinions.\"\n\n#### 2. Output Formatting Instructions\n\nThese dictate the structure, length, and style of the AI's response.\n\n*   **Example 1 (Markdown Structure):**\n    > \"All outputs must be formatted in Markdown. Use `#` for main titles, `##` for sections, and `*` for bullet points. Code blocks should be triple-backtick fenced with the language specified (e.g., ```python).\"\n*   **Example 2 (Conciseness/Length Constraint):**\n    > \"Provide a concise summary, no more than 150 words. Focus only on the key takeaways.\"\n*   **Example 3 (Specific Data Format):**\n    > \"Respond with the data in JSON format, using 'item_name', 'quantity', and 'unit_price' as keys.\"\n*   **Example 4 (Table Format):**\n    > \"Present the comparison in a Markdown table with columns: 'Feature', 'Pros', 'Cons'.\"\n\n#### 3. Content & Scope Instructions\n\nThese control what information the AI includes, excludes, or prioritizes.\n\n*   **Example 1 (Inclusion/Exclusion):**\n    > \"When discussing climate change solutions, only focus on renewable energy sources. Do not mention nuclear power or carbon capture technologies.\"\n*   **Example 2 (Perspective/Bias):**\n    > \"Analyze the economic impact from both a consumer's perspective and a small business owner's perspective. Highlight potential conflicts of interest.\"\n*   **Example 3 (Depth/Detail):**\n    > \"Explain the concept of quantum entanglement at a high-school level of understanding, avoiding complex mathematical equations.\"\n*   **Example 4 (No Speculation):**\n    > \"Only use factual information available up to your last training update. Do not offer personal opinions or engage in speculative future predictions.\"\n\n#### 4. Reasoning & Process Instructions (Incorporating \"Think Silently\")\n\nThese guide the AI on *how* to approach the task or solve a problem, often by externalizing its internal thought process.\n\n*   **Example 1 (Step-by-Step Thinking):**\n    > \"For any problem-solving task, first outline your step-by-step plan. Present this plan to me for approval before executing it. **(This is analogous to 'thinking silently' and then showing the thought process).**\"\n*   **Example 2 (Pre-computation/Internal Check):**\n    > \"Before generating a final response, perform an internal check for logical consistency, potential biases, and alignment with the initial request. Only output the polished answer, unless I explicitly ask to see your 'thought process'.\"\n*   **Example 3 (Consider Alternatives):**\n    > \"When proposing a solution, first consider at least three alternative approaches and briefly note their pros and cons internally, even if you only present the optimal one in your final output.\"\n*   **Example 4 (Error Checking):**\n    > \"If generating code, first silently review the syntax and logic for common errors before presenting the solution.\"\n\n#### 5. Interaction Style & Tone Instructions\n\nThese define how the AI should communicate and engage with the user.\n\n*   **Example 1 (Tone):**\n    > \"Maintain a supportive and encouraging tone throughout our conversation. If I express frustration, acknowledge my feelings before offering solutions.\"\n*   **Example 2 (Engagement):**\n    > \"Periodically ask clarifying questions to ensure you understand my intent. Feel free to prompt me for more detail if needed.\"\n*   **Example 3 (Formality):**\n    > \"Use formal language and avoid slang or colloquialisms. Address me respectfully.\"\n\n#### 6. Safety & Ethical Guardrails\n\nThese provide specific limitations or warnings, especially for sensitive topics.\n\n*   **Example 1 (Medical/Legal Disclaimer):**\n    > \"If asked for medical, legal, or financial advice, always preface your response with a disclaimer stating that you are an AI and cannot provide professional advice, recommending consultation with a qualified professional.\"\n*   **Example 2 (Harmful Content Avoidance):**\n    > \"Under no circumstances generate content that is hateful, discriminatory, explicit, or promotes self-harm. If a request borders on such content, politely refuse and explain why.\"\n\n---\n\n### How to Use Special Instructions Effectively:\n\n*   **Be Clear and Concise:** Ambiguous instructions lead to ambiguous results.\n*   **Place Them Early:** Ideally, at the very beginning of your prompt or conversation.\n*   **Be Specific:** Instead of \"be good,\" say \"be a friendly and helpful assistant.\"\n*   **Prioritize:** If you have many instructions, indicate which ones are most important.\n*   **Test and Iterate:** Observe how the AI responds and refine your instructions accordingly.\n*   **Combine Instructions:** You can mix and match from different categories to create complex behaviors.\n\nBy using these types of special instructions, you can significantly enhance the utility and precision of AI interactions.",
+    "raw": "**A long time ago in a galaxy far, far away....**\n\n**STAR WARS**\n**EPISODE IV**\n**A NEW HOPE**\n\nIt is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.\n\nDuring the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet.\n\nPursued by the Empire's sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy....",
     "ig_handle": "thehatbarberlin",
-    "last_analyzed_at": "2025-12-13T05:33:16.707504+09:00",
+    "last_analyzed_at": "2025-12-20T06:14:03.335916+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/thehatbarberlin/profile/2025-12-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/thehatbarberlin/profile/2025-12-19/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/thehatbarberlin/profile/2025-12-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/thehatbarberlin/profile/2025-12-13/profile.json",
       "maps:https://maps.google.com/?cid=14379533332159580361",
       "gemini:enrich"
     ],
@@ -819,9 +940,8 @@
       "https://www.thehatbar.de/"
     ],
     "genres": [
-      "Bar",
       "Jazz Club",
-      "Live Music Venue"
+      "Bar"
     ],
     "locations": [
       {
@@ -829,8 +949,8 @@
         "name": "The Hat Bar Berlin",
         "address_text": "Lotte-Lenya-Bogen 550, 10623 Berlin, Germany",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 52.505,
+        "location_lon": 13.329167,
         "subway_nearby": null,
         "booking_link": null,
         "notes": "Jazz bands perform nightly on a tiny stage at this intimate lounge with a vintage feel.",
@@ -857,25 +977,29 @@
       },
       "genres": {
         "en": [
-          "Bar",
           "Jazz Club",
-          "Live Music Venue"
+          "Bar"
         ]
       },
       "subway_nearby": null,
       "food_policy": null,
-      "age_limit": null
+      "age_limit": {
+        "en": "Adults only"
+      }
     }
   },
   {
-    "raw": "## STAR WARS - THE MANDALORIAN\n\n**EPISODE: ECHOES OF THE MINER**\n\n**LOGLINE:** Din Djarin takes on a sensitive extraction mission for Greef Karga, leading him and Grogu to a derelict mining colony where Imperial remnants are forcing a scientist to work on a dangerous new technology, drawing the attention of the New Republic.\n\n---\n\n**FADE IN:**\n\n**EXT. ARID PLANET - DAY**\n\nA desolate landscape of ochre rock and stunted, wind-whipped vegetation. The *N-1 STARFIGHTER* (Din Djarin's new ship) sits amidst the dust, shimmering under a harsh sun.\n\nDIN DJARIN, beskar shining, is tinkering with a component on the ship's exposed engine. His movements are precise, economical.\n\nGROGU sits nearby on a discarded durasteel crate, meticulously stacking small, flat stones. He lets out a soft, contented *coo* as he completes a wobbly tower.\n\nMANDO glances at him, a flicker of something almost like a smile beneath his helmet.\n\n**MANDO**\n(Voice, modulated)\nGood stacking, kid. Now don't eat them.\n\nGrogu looks up, tilts his head, then promptly tries to gnaw on a particularly shiny stone. Mando sighs.\n\nA soft CHIME emanates from his wrist gauntlet. Mando activates a discreet comm unit. A holographic image of GREEF KARGA flickers to life. He looks sharp, prosperous, but with a hint of concern.\n\n**GREEF KARGA (HOLO)**\nMandalorian, my friend. It's been too long. I trust you're finding our new arrangement... stimulating?\n\n**MANDO**\nJust fine, Greef. What's the job?\n\n**GREEF KARGA (HOLO)**\nAlways straight to business. I admire that. I've got a delicate situation. A retrieval. Highly sensitive. New Republic is sniffing around, but I'd rather keep this... discreet.\n\n**MANDO**\nImperial?\n\nGreef Karga nods, his expression darkening slightly.\n\n**GREEF KARGA (HOLO)**\nRemnants. Deep core sector, abandoned mining colony. They've got a scientist, Dr. Elara Vane. Brilliant mind, bio-engineer. Used to work for the Empire, but she's no zealot. They're forcing her to work on something. Something dangerous. We need her out. Alive. And what she’s working on… neutralized.\n\nMando's head tilts, a subtle shift.\n\n**MANDO**\n'We'?\n\n**GREEF KARGA (HOLO)**\nLet's just say a few concerned parties on Nevarro want to ensure the peace. And the New Republic... they've heard whispers. They'll pay handsomely for information, but I think you'll find my offer more... immediate. And less paperwork.\n\nMando looks over at Grogu, who has now abandoned his stone tower and is intently watching a desert beetle scuttle past.\n\n**MANDO**\nDetails. Coordinates.\n\n**GREEF KARGA (HOLO)**\nSending them now. Good luck, Mando. And try not to blow up *too* much. Nevarro needs its peace.\n\nThe hologram blips out. Mando stores the coordinates. He walks to Grogu, scoops him up.\n\n**MANDO**\nSounds like we're going on another trip, kid. Try to keep your hands off the shiny buttons.\n\nGrogu *coos*, then makes a grab for Mando's chest plate.\n\n---\n\n**INT. N-1 STARFIGHTER - HYPERSPACE**\n\nThe deep blue streaking of hyperspace fills the cockpit.\n\nMando navigates, his gloved hand resting on the controls. Grogu is in his bubble dome, gazing out, mesmerized by the streaks of light. He *giggles* softly, reaching a tiny hand out as if to touch them.\n\nMando activates a holo-map of the target system. A small, forgotten planet, pockmarked with ancient mining operations.\n\n**MANDO**\n(To Grogu)\nOld Imperial mining colony. Dust, rust, probably some angry droids. Keep your head down.\n\nGrogu lets out a curious *gurgle*, looking at Mando.\n\nMando taps a series of controls, reviewing Dr. Vane's profile. An older human woman, stern but intelligent eyes. Her file mentions specializing in \"biological accelerants\" and \"environmental terraforming.\" Dangerous stuff in the wrong hands.\n\n**MANDO**\n(Muttering)\nBio-engineer... What could the Empire want with that now?\n\nGrogu lets out a sudden, alarmed *squeal*, pressing his face against the bubble glass. Mando looks over.\n\n**MANDO**\nWhat is it, kid?\n\nGrogu points a tiny finger out into hyperspace. For a split second, a faint, darker ripple passes through the blue. It’s gone as quickly as it appears.\n\nMando checks his long-range sensors. Nothing.\n\n**MANDO**\nMust've been your imagination, pal.\n\nGrogu looks skeptical, then shrugs with his whole body, turning back to the swirling lights.\n\n---\n\n**EXT. KRYLLON PRIME - ABANDONED MINING COLONY - DAY**\n\nThe N-1 descends through a thick, yellow-brown atmosphere. Below, a landscape of towering, corroded mining structures, skeletal cranes, and vast, open-pit mines. Dust storms whip across the surface.\n\nMando sets the N-1 down in a shielded canyon, well away from the visible structures. He cuts the engines. The silence is profound, broken only by the mournful wind.\n\nHe suits up, attaching his vibro-knife, a thermal detonator, and checking his blaster. Grogu watches from the cockpit, his large eyes curious.\n\n**MANDO**\nStay here. Don't touch anything. And if anyone comes near, you hide. Got it?\n\nGrogu nods solemnly, a tiny hand going to the hilt of his favorite control knob. Mando resists the urge to roll his eyes.\n\nHe exits the ship, cloaked in the dust and the metallic scent of decay. The *crunch* of his boots on the rocky ground is the only sound.\n\nHe activates his scope, scanning the dilapidated complex. A few flickering lights in the distance. An occasional, guttural STATIC of Imperial comms. He spots two STORMTROOPERS patrolling a perimeter fence. Not a large force, but well-armed.\n\nMando moves, a phantom in the dust.\n\n---\n\n**INT. KRYLLON PRIME - MINING FACILITY - PROCESSING CHAMBER**\n\nMando slips through a gap in a rusted blast door. The air inside is thick with the smell of ozone and something acrid, almost organic. Dim emergency lighting casts long, distorted shadows.\n\nHe creeps through corridors, the rhythmic HUM of machinery growing louder. He passes abandoned offices, the dust-covered desks still bearing datapad remnants.\n\nHe finds a large PROCESSING CHAMBER. At its center, a monstrous, half-assembled BIO-REACTOR PULSATES with a sickly green light. It's connected by thick conduits to several containment units, bubbling with strange, viscous liquids.\n\nDR. ELARA VANE, a tired but determined woman in a soiled lab coat, is hunched over a console, making adjustments. Two STORMTROOPERS stand guard, backs to the door.\n\nA grimy IMPERIAL OFFICER, with a scarred face and a glint in his eye, stands over her.\n\n**IMPERIAL OFFICER**\nFaster, Doctor. The High Magistrate is growing impatient. This \"accelerant\" must be perfected. Our forces need to heal. To regenerate. To *dominate*.\n\n**DR. VANE**\n(Her voice weary, strained)\nIt's unstable, Commander. Accelerating regeneration on a cellular level is... unpredictable. Without proper genetic markers, it could lead to rapid degeneration, uncontrolled mutation. Or worse.\n\n**IMPERIAL OFFICER**\nWorse? To the New Republic, perhaps. Not to us. Just make it work. Or you'll be experiencing its 'unpredictability' first-hand.\n\nMando tightens his grip on his blaster. He can’t risk a direct assault yet. Too many variables.\n\nHe notices a smaller console near the entrance, likely controlling the chamber's airlock or power.\n\nMando takes aim, fires a single, precise bolt. It strikes the smaller console.\n\nSPARKS shower! The emergency lights flicker wildly, then die, plunging the chamber into near-darkness. Only the sickly green glow of the reactor remains.\n\n**IMPERIAL OFFICER**\nWhat in the blazes?!\n\nThe Stormtroopers raise their blasters, scanning the darkness.\n\n**MANDO**\n(Voice, booming through the dark)\nDr. Vane! This is your only chance.\n\n**DR. VANE**\n(Startled)\nWho's there?!\n\nThe Stormtroopers fire blindly into the shadows. Mando moves, a blur. He takes down one with a quick, silent grapple and a crack to the neck. The other Stormtrooper spins, blaster raised. Mando's flamethrower erupts, engulfing the trooper in a horrifying scream.\n\nThe Imperial Officer draws his heavy blaster, firing wildly. Mando ducks behind a piece of equipment.\n\n**IMPERIAL OFFICER**\nYou'll never leave this place alive, bounty hunter! This technology will remake the galaxy!\n\nMando emerges, blaster rifle raised. A quick burst, striking the Officer's blaster arm. He screams, dropping the weapon. Mando quickly disarms him, then shoves him against a wall.\n\n**MANDO**\nWhere are the rest?\n\n**IMPERIAL OFFICER**\n(Panting, defiance in his eyes)\nYou think this is all?! You're surrounded! Our patrol ships...\n\nA sudden, sharp WHISTLING from Mando's wrist. The OFFICER'S eyes widen in panic as three whistling birds launch and embed themselves into his chest, detonating. The Officer falls, lifeless.\n\nMando turns to Dr. Vane, who is trembling, staring at the bio-reactor.\n\n**MANDO**\nDr. Vane. We need to go.\n\n**DR. VANE**\n(Tears in her eyes)\nThe reactor... they're almost done stabilizing the accelerant. If it goes active... it could contaminate the entire system. It's designed to rapidly terraform, but without proper controls... it would just... consume.\n\nMando looks at the monstrous machine.\n\n**MANDO**\nCan you disable it? Permanently?\n\n**DR. VANE**\nIt would take precise coding, an access key... and time. Time we don't have. Unless... I could overload the containment field. But that would cause a massive power surge.\n\n**MANDO**\nDo it. Now.\n\nShe scrambles back to her console, fingers flying across the controls. The green glow intensifies. The humming becomes a high-pitched whine.\n\n**DR. VANE**\n(Frantic)\nThey're going to detect this surge! We need to move!\n\nThe chamber begins to SHAKE. Warning alarms blare, echoing through the facility.\n\n**MANDO**\n(Grabbing her arm)\nLet's go.\n\n---\n\n**EXT. KRYLLON PRIME - MINING FACILITY - DAY**\n\nMando, with Dr. Vane hurrying beside him, sprints through the dust-choked corridors. The facility groans, pipes burst, and distant explosions reverberate.\n\nSuddenly, two STORMTROOPERS round a corner, blasters raised.\n\n**STORMTROOPER 1**\nThere!\n\nMando pushes Dr. Vane behind a derelict mining cart, then unleashes a volley of blaster fire. One Stormtrooper goes down. The other returns fire, hitting the cart, sending sparks flying.\n\nA tiny, familiar *gurgle* from the direction of Mando's ship.\n\nGrogu, who clearly didn't \"stay in the ship,\" has waddled his way through the dust and now stands perilously close, peering around a rock formation, his large eyes wide.\n\n**MANDO**\n(Through gritted teeth)\nGrogu! Get back!\n\nThe remaining Stormtrooper spots Grogu.\n\n**STORMTROOPER 2**\nLittle green thing! It's the Asset!\n\nHe redirects his blaster fire towards Grogu.\n\nMando snarls. He leaps out, blaster spitting fire, taking down the Stormtrooper.\n\nBut another group of Stormtroopers, led by a SQUAD LEADER, appears from a side tunnel. They're quickly gaining ground.\n\n**SQUAD LEADER**\nBox them in! Don't let them reach the ship!\n\nDr. Vane looks terrified. Mando puts himself between her, Grogu, and the advancing Imperials.\n\n**MANDO**\n(To Grogu)\nKid, can you help us out here?\n\nGrogu looks at the Stormtroopers, then at Mando, a determined look on his face. He raises a tiny hand, eyes squeezed shut in concentration.\n\nThe leading Stormtroopers suddenly stumble. Their blasters fly from their hands, clattering uselessly on the ground. One even trips over his own feet, falling face-first into the dust.\n\n**SQUAD LEADER**\nWhat in the...?! Force user! Open fire!\n\nMando seizes the moment, laying down covering fire, taking out the disarmed troopers. He scoops up Grogu with one arm, grabbing Dr. Vane's arm with the other.\n\n**MANDO**\nThis is the Way!\n\nThey run, the sounds of blaster fire and the groaning facility at their heels. The ground trembles violently.\n\n**DR. VANE**\nIt's going to blow!\n\nThey burst out of the facility, into the open air. The N-1 Starfighter is a short sprint away.\n\nAn Imperial SHUTTLE lifts off from a nearby landing pad, attempting to escape the impending explosion.\n\nMando fires his grappling hook, latching onto the N-1's open boarding ramp. He pulls himself and Dr. Vane up, Grogu safely tucked against his chest.\n\nThey are barely inside when the N-1's engines roar to life.\n\n---\n\n**INT. N-1 STARFIGHTER - COCKPIT**\n\nMando is already launching, ascending rapidly.\n\n**MANDO**\nStrap in!\n\nHe pulls a series of maneuvers, dodging debris now raining down from the exploding facility.\n\n**EXT. KRYLLON PRIME - ATMOSPHERE**\n\nBelow, the mining colony erupts in a blinding, green-tinged explosion that rapidly consumes the entire facility, sending a shockwave rippling across the planet's surface. A cloud of sickly green dust billows into the upper atmosphere.\n\nThe Imperial Shuttle, caught in the blast, tumbles and explodes.\n\nThe N-1 breaks free of the atmosphere, ascending towards space.\n\n---\n\n**INT. N-1 STARFIGHTER - HYPERSPACE**\n\nPeace at last. Grogu is in his bubble, tired but content. Dr. Vane, still a bit shaken, is looking at Mando with awe and gratitude.\n\n**DR. VANE**\nYou... you saved me. And the galaxy, from what they were trying to unleash. Thank you.\n\n**MANDO**\n(Checking his blaster)\nJust doing the job.\n\n**DR. VANE**\nI heard whispers... Greef Karga mentioned the New Republic might be interested. Will they... will they trust me? After my past service?\n\n**MANDO**\nYou disabled the reactor. You helped. That's what matters.\n\nHe points to a blinking light on his console.\n\n**MANDO**\nLooks like Greef got a message to them. They're waiting.\n\n---\n\n**INT. NEW REPUBLIC COMMAND SHIP - HANGAR BAY**\n\nThe N-1 Starfighter lands smoothly in a pristine hangar.\n\nGreef Karga, looking unusually formal, stands next to CAPTAIN CARSON TEVA, who has a small squad of New Republic security behind him.\n\nMando and Dr. Vane descend the ramp. Grogu peeks out from Mando's satchel, his ears twitching.\n\n**GREEF KARGA**\nMandalorian, my friend! Another impeccable delivery. Dr. Vane, a pleasure to see you in... safer hands.\n\n**DR. VANE**\n(Nodding politely)\nThank you, Greef.\n\nCarson Teva steps forward, a serious but appreciative look on his face.\n\n**CARSON TEVA**\nMandalorian. Captain Teva. Your actions averted a potential catastrophe. We picked up the energy signature. Imperial remnant activity on that scale is concerning. Dr. Vane, your testimony will be invaluable.\n\n**DR. VANE**\nI'm ready to assist in any way I can, Captain. They forced me, but I never supported their aims.\n\n**CARSON TEVA**\nWe understand. And we're grateful. Mandalorian, once again, you've shown a dedication to justice that aligns perfectly with the New Republic's ideals. The offer still stands, should you ever choose a more... organized path.\n\nMando looks at Teva, then at Greef Karga, who subtly shrugs, a grin playing on his lips. Mando then looks down at Grogu, who gives a small, sleepy *yawn*.\n\n**MANDO**\n(To Teva)\nMy path is set.\n\nHe reaches into a pouch, pulling out a small datapad.\n\n**MANDO**\nThis is what she was working on. My guess is there are other labs, other facilities.\n\nTeva takes the datapad. His expression turns grim as he reads the data.\n\n**CARSON TEVA**\nThis... this is disturbing. Thank you, Mando. Your intelligence will save lives.\n\nMando gives a curt nod. Greef Karga steps forward, holding out a pouch of credits.\n\n**GREEF KARGA**\nYour payment, as promised. And a bonus for the... extra flair.\n\nMando takes the pouch, weighs it in his hand, then tucks it away.\n\nHe turns to the N-1. Grogu is already trying to climb back into his bubble.\n\n**CARSON TEVA**\nMandalorian, one day... I hope you realize what a powerful ally you could be.\n\nMando pauses at the ramp, looking back.\n\n**MANDO**\nI'm just a simple man trying to make his way in the universe.\n\nHe steps into the ship. The ramp slowly rises.\n\n**EXT. NEW REPUBLIC COMMAND SHIP - SPACE**\n\nThe N-1 Starfighter launches from the hangar bay, a streak of chrome against the vastness of space.\n\n**INT. N-1 STARFIGHTER - COCKPIT**\n\nMando sets a new course, engaging the hyperdrive. The stars stretch into lines, then blur into the familiar tunnel of hyperspace.\n\nGrogu, now wide awake, pulls a small, delicious-looking cookie from Mando’s supply stash (which Mando pretends not to notice). He takes a happy bite, crumbs scattering.\n\nMando looks at the streaking stars, then down at Grogu, a silent, comfortable understanding passing between them.\n\nThe galaxy is vast, dangerous, and full of echoes from the past. But for now, they are safe. And together.\n\n**FADE TO BLACK.**",
+    "raw": "The problem describes the calculation of a \"special sum\" which is essentially the [digital root](https://en.wikipedia.org/wiki/Digital_root) of a given number `n`.\n\nHere's how the special sum is defined and how it relates to the digital root:\n\n1.  **Single-digit numbers:** If `n` is a single-digit number (0-9), its special sum is `n` itself. This aligns with the digital root definition.\n2.  **Multi-digit numbers:** For multi-digit numbers, the sum of its digits is calculated. If this sum is also a multi-digit number, the process is repeated until a single-digit number is obtained. This is the exact definition of a digital root.\n\nThere's a well-known mathematical formula for calculating the digital root of a positive integer `n`:\n*   If `n = 0`, the digital root is `0`.\n*   If `n > 0`, the digital root is `1 + (n - 1) % 9`.\n\nLet's test this formula with the given examples:\n\n*   **n = 5:**\n    *   `n` is a single-digit number, so the special sum is 5.\n    *   Using the formula: `1 + (5 - 1) % 9 = 1 + 4 % 9 = 1 + 4 = 5`. (Matches)\n\n*   **n = 19:**\n    *   `1 + 9 = 10`\n    *   `1 + 0 = 1`\n    *   The special sum is 1.\n    *   Using the formula: `1 + (19 - 1) % 9 = 1 + 18 % 9 = 1 + 0 = 1`. (Matches)\n\n*   **n = 48:**\n    *   `4 + 8 = 12`\n    *   `1 + 2 = 3`\n    *   The special sum is 3.\n    *   Using the formula: `1 + (48 - 1) % 9 = 1 + 47 % 9 = 1 + 2 = 3`. (Matches)\n\n*   **n = 99:**\n    *   `9 + 9 = 18`\n    *   `1 + 8 = 9`\n    *   The special sum is 9.\n    *   Using the formula: `1 + (99 - 1) % 9 = 1 + 98 % 9 = 1 + 8 = 9`. (Matches)\n\nThis formula is very efficient as it calculates the digital root in O(1) time, regardless of the size of `n`.\n\n```python\nclass Solution:\n    def specialSum(self, n: int) -> int:\n        # The special sum is equivalent to the digital root.\n        # The digital root of a non-negative integer n is:\n        # - 0 if n is 0\n        # - 1 + (n - 1) % 9 if n > 0\n\n        if n == 0:\n            return 0\n        else:\n            return 1 + (n - 1) % 9\n\n```",
     "ig_handle": "zigzagjazzclub",
-    "last_analyzed_at": "2025-12-13T05:32:48.215875+09:00",
+    "last_analyzed_at": "2025-12-20T06:12:20.430114+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/zigzagjazzclub/profile/2025-12-20/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/zigzagjazzclub/profile/2025-12-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/zigzagjazzclub/profile/2025-12-13/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/germany/jazz/ig_raw/venues/zigzagjazzclub/profile/2025-12-12/profile.json",
       "maps:https://maps.google.com/?cid=16259652994667978004",
       "gemini:enrich"
@@ -890,16 +1014,14 @@
       "phone": "030-94049147",
       "email": null
     },
-    "websites": [
-      "https://www.zigzag-jazzclub.berlin/menu-marquee"
-    ],
     "genres": [
-      "Jazz Club"
+      "Jazz",
+      "Bar"
     ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Zig Zag Jazz Club",
+        "name": "Zig Zag Jazz Club Berlin",
         "address_text": "Hauptstraße 89, 12159 Berlin, Germany",
         "address_components": null,
         "location_lat": null,
@@ -909,7 +1031,7 @@
         "notes": "Blues, soul & jazz performances staged in a classy, laid-back lounge serving cocktails & bar bites.",
         "i18n": {
           "name": {
-            "en": "Zig Zag Jazz Club"
+            "en": "Zig Zag Jazz Club Berlin"
           },
           "address_text": {
             "en": "Hauptstraße 89, 12159 Berlin, Germany"
@@ -922,7 +1044,7 @@
     ],
     "i18n": {
       "name": {
-        "en": "Zig Zag Jazz Club"
+        "en": "Zig Zag Jazz Club Berlin"
       },
       "address_text": null,
       "notes": {
@@ -930,7 +1052,8 @@
       },
       "genres": {
         "en": [
-          "Jazz Club"
+          "Jazz",
+          "Bar"
         ]
       },
       "subway_nearby": null,

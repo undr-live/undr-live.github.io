@@ -127,17 +127,17 @@
     }
   },
   {
-    "id": "ven_2eca8f12-f65e-48da-8229-ce9ff2724748",
-    "ig_handle": "donau115",
-    "name_irl": "Donau115",
+    "id": "ven_05be316b-a677-48a0-b2e6-4eb3b71527b4",
+    "ig_handle": "clubgretchen",
+    "name_irl": "Gretchen",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "0179-1809168",
+    "phone": "030-25922702",
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=11487279559572566920",
+    "google_map_url": "https://maps.google.com/?cid=10025032244576018675",
     "booking_url": null,
-    "homepage_url": "https://donau115.mailchimpsites.com/",
+    "homepage_url": "https://linktr.ee/clubgretchen",
     "websites": [],
     "subway_nearby": null,
     "food_policy": null,
@@ -147,23 +147,23 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Donau115",
-          "address_text": "Donaustraße 115, 12043 Berlin, Germany",
+          "name": "Gretchen",
+          "address_text": "Obentrautstraße 19-21, 10963 Berlin, Germany",
           "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
+          "location_lat": 52.496002,
+          "location_lon": 13.38769,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": "A wide variety of live jazz acts in an intimate, laid-back bar serving beers & cocktails.",
+          "notes": "Mixed-genre nightclub & live music venue on the site of former military stables with a vaulted roof.",
           "i18n": {
             "name": {
-              "en": "Donau115"
+              "en": "Gretchen"
             },
             "address_text": {
-              "en": "Donaustrasse 115, 12043 Berlin, Germany"
+              "en": "Obentrautstraße 19-21, 10963 Berlin, Germany"
             },
             "notes": {
-              "en": "A wide variety of live jazz acts in an intimate, laid-back bar serving beers & cocktails."
+              "en": "Mixed-genre nightclub & live music venue on the site of former military stables with a vaulted roof."
             }
           }
         }
@@ -171,17 +171,18 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Donau115"
+        "en": "Gretchen"
       },
       "address_text": null,
       "notes": {
-        "en": "A wide variety of live jazz acts in an intimate, laid-back bar serving beers & cocktails."
+        "en": "Mixed-genre nightclub & live music venue on the site of former military stables with a vaulted roof."
       },
       "genres": {
         "en": [
-          "Bar",
-          "Jazz Club",
-          "Live Music Venue"
+          "Nightclub",
+          "Live Music Venue",
+          "Electronic Music",
+          "Hip Hop"
         ]
       },
       "subway_nearby": null,
@@ -410,6 +411,61 @@
     }
   },
   {
+    "id": "ven_c7c62f53-4e47-4364-b6d6-a852b9c44906",
+    "ig_handle": "kunstfabrikschlot",
+    "name_irl": "Kunstfabrik Schlot",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "030-448-2160",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=6748165739095120257",
+    "booking_url": null,
+    "homepage_url": "http://www.kunstfabrik-schlot.de",
+    "websites": [
+      "http://www.kunstfabrik-schlot.de"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Kunstfabrik Schlot",
+          "address_text": "Invalidenstraße 117, 10115 Berlin, Germany",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Kunstfabrik Schlot"
+            },
+            "address_text": {
+              "en": "Invalidenstraße 117, 10115 Berlin, Germany"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Kunstfabrik Schlot"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_9bc6c20f-c395-4bd7-98d6-014be520a05a",
     "ig_handle": "nica_jazz_club",
     "name_irl": "Nica Jazz Club",
@@ -453,6 +509,59 @@
     "i18n_data": {
       "name": {
         "en": "Nica Jazz Club"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_4544735c-28cc-4e1a-8b60-a18f3d4ffc8d",
+    "ig_handle": "silentjazzbar",
+    "name_irl": "Silent Jazz Bar",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=3709317142385343668",
+    "booking_url": null,
+    "homepage_url": "http://www.silentjazzbar.de",
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Silent Jazz Bar",
+          "address_text": "Naumannstraße 3, 10829 Berlin, Germany",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Silent Jazz Bar"
+            },
+            "address_text": {
+              "en": "Naumannstrasse 3, 10829 Berlin, Germany"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Silent Jazz Bar"
       },
       "address_text": null,
       "notes": null,
@@ -596,7 +705,7 @@
     ],
     "subway_nearby": null,
     "food_policy": null,
-    "age_limit": null,
+    "age_limit": "Adults only",
     "dress_code": null,
     "venue_data": {
       "locations": [
@@ -605,8 +714,8 @@
           "name": "The Hat Bar Berlin",
           "address_text": "Lotte-Lenya-Bogen 550, 10623 Berlin, Germany",
           "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
+          "location_lat": 52.505,
+          "location_lon": 13.329167,
           "subway_nearby": null,
           "booking_link": null,
           "notes": "Jazz bands perform nightly on a tiny stage at this intimate lounge with a vintage feel.",
@@ -634,20 +743,21 @@
       },
       "genres": {
         "en": [
-          "Bar",
           "Jazz Club",
-          "Live Music Venue"
+          "Bar"
         ]
       },
       "subway_nearby": null,
       "food_policy": null,
-      "age_limit": null
+      "age_limit": {
+        "en": "Adults only"
+      }
     }
   },
   {
     "id": "ven_26dcf826-9724-4d7d-bb22-8d3aeba5e686",
     "ig_handle": "zigzagjazzclub",
-    "name_irl": "Zig Zag Jazz Club",
+    "name_irl": "Zig Zag Jazz Club Berlin",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -656,9 +766,7 @@
     "google_map_url": "https://maps.google.com/?cid=16259652994667978004",
     "booking_url": null,
     "homepage_url": "https://www.zigzag-jazzclub.berlin/menu-marquee",
-    "websites": [
-      "https://www.zigzag-jazzclub.berlin/menu-marquee"
-    ],
+    "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -667,7 +775,7 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Zig Zag Jazz Club",
+          "name": "Zig Zag Jazz Club Berlin",
           "address_text": "Hauptstraße 89, 12159 Berlin, Germany",
           "address_components": null,
           "location_lat": null,
@@ -677,7 +785,7 @@
           "notes": "Blues, soul & jazz performances staged in a classy, laid-back lounge serving cocktails & bar bites.",
           "i18n": {
             "name": {
-              "en": "Zig Zag Jazz Club"
+              "en": "Zig Zag Jazz Club Berlin"
             },
             "address_text": {
               "en": "Hauptstraße 89, 12159 Berlin, Germany"
@@ -691,7 +799,7 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Zig Zag Jazz Club"
+        "en": "Zig Zag Jazz Club Berlin"
       },
       "address_text": null,
       "notes": {
@@ -699,7 +807,8 @@
       },
       "genres": {
         "en": [
-          "Jazz Club"
+          "Jazz",
+          "Bar"
         ]
       },
       "subway_nearby": null,
@@ -708,63 +817,54 @@
     }
   },
   {
-    "id": "ven_c7c62f53-4e47-4364-b6d6-a852b9c44906",
-    "ig_handle": "kunstfabrikschlot",
-    "name_irl": null,
+    "id": "ven_2eca8f12-f65e-48da-8229-ce9ff2724748",
+    "ig_handle": "donau115",
+    "name_irl": "donau115",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "0179-1809168",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=11487279559572566920",
     "booking_url": null,
-    "homepage_url": "http://www.kunstfabrik-schlot.de",
+    "homepage_url": "https://donau115.mailchimpsites.com/",
     "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_05be316b-a677-48a0-b2e6-4eb3b71527b4",
-    "ig_handle": "clubgretchen",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://linktr.ee/clubgretchen",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_4544735c-28cc-4e1a-8b60-a18f3d4ffc8d",
-    "ig_handle": "silentjazzbar",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "http://www.silentjazzbar.de",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "donau115",
+          "address_text": null,
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "donau115"
+            },
+            "address_text": null,
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "donau115"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
   }
 ]

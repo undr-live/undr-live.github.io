@@ -1244,20 +1244,24 @@
     }
   },
   {
-    "raw": "{}",
+    "raw": "Okay, this is a comprehensive request involving Python, Tkinter, PostgreSQL, and Docker. I'll break it down into the following parts:\n\n1.  **PostgreSQL Manager Class:** A Python class to handle database connections and CRUD operations.\n2.  **Tkinter GUI Application:** A class that uses the PostgreSQL manager to build the user interface.\n3.  **Python Main Script:** To initialize and run the application.\n4.  **`requirements.txt`:** For Python dependencies.\n5.  **`Dockerfile`:** To containerize the Python application (though running a GUI app directly in a headless Docker container requires X forwarding, which is complex; we'll discuss the practical approach).\n6.  **`docker-compose.yml`:** To set up a PostgreSQL database server easily.\n7.  **Instructions:** How to set up and run everything.\n\n---\n\n### 1. Project Structure\n\n```\n.\n├── app.py\n├── requirements.txt\n├── Dockerfile\n└── docker-compose.yml\n```\n\n---\n\n### 2. `requirements.txt`\n\nThis file lists the Python libraries needed.\n\n```\npsycopg2-binary\n```\n\n---\n\n### 3. `app.py` (Main Python Application)\n\nThis file will contain both the `PostgresManager` and the `TkinterApp` classes.\n\n```python\nimport tkinter as tk\nfrom tkinter import messagebox, scrolledtext\nimport psycopg2\nfrom psycopg2 import Error\nimport os\nimport logging\n\n# Configure logging\nlogging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')\n\nclass PostgresManager:\n    \"\"\"Manages connection and CRUD operations with a PostgreSQL database.\"\"\"\n\n    def __init__(self):\n        self.conn = None\n        self.cursor = None\n        self._connect()\n        if self.conn:\n            self.create_table()\n\n    def _connect(self):\n        \"\"\"Establishes a connection to the PostgreSQL database.\"\"\"\n        try:\n            # Get database credentials from environment variables\n            self.db_name = os.getenv(\"POSTGRES_DB\", \"mydb\")\n            self.db_user = os.getenv(\"POSTGRES_USER\", \"user\")\n            self.db_password = os.getenv(\"POSTGRES_PASSWORD\", \"password\")\n            self.db_host = os.getenv(\"POSTGRES_HOST\", \"localhost\")\n            self.db_port = os.getenv(\"POSTGRES_PORT\", \"5432\")\n\n            logging.info(f\"Attempting to connect to PostgreSQL at {self.db_host}:{self.db_port}/{self.db_name} with user {self.db_user}...\")\n            self.conn = psycopg2.connect(\n                database=self.db_name,\n                user=self.db_user,\n                password=self.db_password,\n                host=self.db_host,\n                port=self.db_port\n            )\n            self.conn.autocommit = True # For simplicity, commit after each operation\n            self.cursor = self.conn.cursor()\n            logging.info(\"PostgreSQL database connection successful.\")\n        except Error as e:\n            logging.error(f\"Error while connecting to PostgreSQL: {e}\")\n            messagebox.showerror(\"DB Connection Error\", f\"Could not connect to database:\\n{e}\\n\"\n                                                      \"Please ensure PostgreSQL is running and environment variables are set correctly.\")\n            self.conn = None # Ensure conn is None if connection fails\n\n    def _execute(self, sql, params=None):\n        \"\"\"Helper method to execute SQL queries, handle errors, and return results.\"\"\"\n        if not self.conn or self.conn.closed:\n            self._connect() # Try reconnecting\n            if not self.conn or self.conn.closed:\n                logging.error(\"No active database connection.\")\n                return None\n\n        try:\n            self.cursor.execute(sql, params)\n            if self.conn.autocommit:\n                # No explicit commit needed if autocommit is True, but still good to know\n                pass\n            logging.debug(f\"SQL executed: {sql} with params: {params}\")\n            return True\n        except Error as e:\n            logging.error(f\"Error executing SQL query: {e}\\nSQL: {sql}\\nParams: {params}\")\n            # self.conn.rollback() # Not needed with autocommit=True, but useful for manual transaction management\n            return False\n\n    def create_table(self):\n        \"\"\"Creates the 'users' table if it doesn't exist.\"\"\"\n        sql = \"\"\"\n        CREATE TABLE IF NOT EXISTS users (\n            id SERIAL PRIMARY KEY,\n            name VARCHAR(100) NOT NULL,\n            email VARCHAR(100) UNIQUE NOT NULL,\n            age INTEGER\n        );\n        \"\"\"\n        if self._execute(sql):\n            logging.info(\"Table 'users' ensured to exist.\")\n            return True\n        return False\n\n    def insert_record(self, name, email, age):\n        \"\"\"Inserts a new user record into the 'users' table.\"\"\"\n        sql = \"INSERT INTO users (name, email, age) VALUES (%s, %s, %s);\"\n        return self._execute(sql, (name, email, age))\n\n    def get_all_records(self):\n        \"\"\"Retrieves all records from the 'users' table.\"\"\"\n        sql = \"SELECT id, name, email, age FROM users ORDER BY id;\"\n        if self._execute(sql):\n            return self.cursor.fetchall()\n        return []\n\n    def get_record_by_id(self, user_id):\n        \"\"\"Retrieves a single record by ID from the 'users' table.\"\"\"\n        sql = \"SELECT id, name, email, age FROM users WHERE id = %s;\"\n        if self._execute(sql, (user_id,)):\n            return self.cursor.fetchone()\n        return None\n\n    def update_record(self, user_id, name, email, age):\n        \"\"\"Updates an existing user record in the 'users' table.\"\"\"\n        sql = \"UPDATE users SET name = %s, email = %s, age = %s WHERE id = %s;\"\n        return self._execute(sql, (name, email, age, user_id))\n\n    def delete_record(self, user_id):\n        \"\"\"Deletes a user record from the 'users' table by ID.\"\"\"\n        sql = \"DELETE FROM users WHERE id = %s;\"\n        return self._execute(sql, (user_id,))\n\n    def close(self):\n        \"\"\"Closes the database connection and cursor.\"\"\"\n        if self.cursor:\n            self.cursor.close()\n            logging.info(\"PostgreSQL cursor closed.\")\n        if self.conn:\n            self.conn.close()\n            logging.info(\"PostgreSQL connection closed.\")\n\nclass TkinterApp(tk.Tk):\n    \"\"\"Tkinter GUI application for CRUD operations.\"\"\"\n\n    def __init__(self, db_manager):\n        super().__init__()\n        self.title(\"PostgreSQL CRUD Application\")\n        self.geometry(\"800x600\")\n        self.db_manager = db_manager\n\n        self.create_widgets()\n        self.refresh_display() # Display initial records on startup\n\n        # Handle window closing to ensure DB connection is closed\n        self.protocol(\"WM_DELETE_WINDOW\", self.on_closing)\n\n    def create_widgets(self):\n        \"\"\"Creates all the GUI elements.\"\"\"\n        # Input Frame\n        input_frame = tk.Frame(self, padx=10, pady=10)\n        input_frame.pack(fill='x')\n\n        labels = [\"ID (for Read/Update/Delete):\", \"Name:\", \"Email:\", \"Age:\"]\n        self.entries = {}\n        for i, text in enumerate(labels):\n            tk.Label(input_frame, text=text).grid(row=i, column=0, sticky='w', pady=2)\n            entry = tk.Entry(input_frame, width=40)\n            entry.grid(row=i, column=1, sticky='ew', pady=2)\n            self.entries[text.split(' ')[0].lower()] = entry # Store by key: 'id', 'name', 'email', 'age'\n\n        # Buttons Frame\n        button_frame = tk.Frame(self, padx=10, pady=5)\n        button_frame.pack(fill='x')\n\n        tk.Button(button_frame, text=\"Create Record\", command=self.create_record).grid(row=0, column=0, padx=5, pady=2)\n        tk.Button(button_frame, text=\"Read All Records\", command=self.read_all_records).grid(row=0, column=1, padx=5, pady=2)\n        tk.Button(button_frame, text=\"Read by ID\", command=self.read_by_id).grid(row=0, column=2, padx=5, pady=2)\n        tk.Button(button_frame, text=\"Update Record\", command=self.update_record).grid(row=0, column=3, padx=5, pady=2)\n        tk.Button(button_frame, text=\"Delete Record\", command=self.delete_record).grid(row=0, column=4, padx=5, pady=2)\n        tk.Button(button_frame, text=\"Clear Fields\", command=self.clear_fields).grid(row=0, column=5, padx=5, pady=2)\n\n        # Status Label\n        self.status_label = tk.Label(self, text=\"Status: Ready\", bd=1, relief=tk.SUNKEN, anchor='w')\n        self.status_label.pack(fill='x', padx=10, pady=5)\n\n        # Display Area\n        tk.Label(self, text=\"Database Records:\").pack(fill='x', padx=10, pady=2)\n        self.record_display = scrolledtext.ScrolledText(self, wrap=tk.WORD, height=15)\n        self.record_display.pack(fill='both', expand=True, padx=10, pady=5)\n\n    def _get_input(self, field_name, is_int=False, allow_empty=False):\n        \"\"\"Helper to get input from an entry field.\"\"\"\n        value = self.entries[field_name].get().strip()\n        if not allow_empty and not value:\n            self.update_status(f\"Error: {field_name.capitalize()} cannot be empty.\", \"red\")\n            return None\n        if is_int:\n            try:\n                return int(value)\n            except ValueError:\n                self.update_status(f\"Error: {field_name.capitalize()} must be an integer.\", \"red\")\n                return None\n        return value\n\n    def update_status(self, message, color=\"black\"):\n        \"\"\"Updates the status label with a message and color.\"\"\"\n        self.status_label.config(text=f\"Status: {message}\", fg=color)\n        logging.info(message)\n\n    def clear_fields(self):\n        \"\"\"Clears all input entry fields.\"\"\"\n        for entry in self.entries.values():\n            entry.delete(0, tk.END)\n        self.update_status(\"Fields cleared.\")\n\n    def refresh_display(self):\n        \"\"\"Fetches all records and updates the display area.\"\"\"\n        records = self.db_manager.get_all_records()\n        self.record_display.delete(1.0, tk.END) # Clear existing text\n\n        if not records:\n            self.record_display.insert(tk.END, \"No records found.\")\n            return\n\n        # Format and display records\n        header = f\"{'ID':<5} {'Name':<20} {'Email':<30} {'Age':<5}\\n\"\n        self.record_display.insert(tk.END, header)\n        self.record_display.insert(tk.END, \"-\" * (5 + 20 + 30 + 5 + 4) + \"\\n\") # Separator\n\n        for record in records:\n            id_val, name, email, age = record\n            self.record_display.insert(tk.END, f\"{id_val:<5} {name:<20} {email:<30} {age:<5}\\n\")\n\n    def create_record(self):\n        name = self._get_input(\"name\")\n        email = self._get_input(\"email\")\n        age = self._get_input(\"age\", is_int=True)\n\n        if name is None or email is None or age is None:\n            return # Error already handled by _get_input\n\n        if self.db_manager.insert_record(name, email, age):\n            self.update_status(f\"Record created for {name}.\", \"green\")\n            self.clear_fields()\n            self.refresh_display()\n        else:\n            self.update_status(\"Failed to create record. Email might already exist or DB error.\", \"red\")\n\n    def read_all_records(self):\n        self.refresh_display()\n        self.update_status(\"All records displayed.\", \"blue\")\n\n    def read_by_id(self):\n        user_id = self._get_input(\"id\", is_int=True)\n        if user_id is None:\n            return\n\n        record = self.db_manager.get_record_by_id(user_id)\n        self.record_display.delete(1.0, tk.END)\n        if record:\n            id_val, name, email, age = record\n            self.record_display.insert(tk.END, f\"Found Record:\\n\"\n                                               f\"ID: {id_val}\\n\"\n                                               f\"Name: {name}\\n\"\n                                               f\"Email: {email}\\n\"\n                                               f\"Age: {age}\\n\")\n            self.update_status(f\"Record with ID {user_id} found.\", \"blue\")\n            # Optionally populate fields\n            self.entries['id'].delete(0, tk.END); self.entries['id'].insert(0, str(id_val))\n            self.entries['name'].delete(0, tk.END); self.entries['name'].insert(0, name)\n            self.entries['email'].delete(0, tk.END); self.entries['email'].insert(0, email)\n            self.entries['age'].delete(0, tk.END); self.entries['age'].insert(0, str(age))\n        else:\n            self.record_display.insert(tk.END, f\"No record found with ID {user_id}.\")\n            self.update_status(f\"No record with ID {user_id} found.\", \"red\")\n\n    def update_record(self):\n        user_id = self._get_input(\"id\", is_int=True)\n        name = self._get_input(\"name\")\n        email = self._get_input(\"email\")\n        age = self._get_input(\"age\", is_int=True)\n\n        if user_id is None or name is None or email is None or age is None:\n            return\n\n        if self.db_manager.update_record(user_id, name, email, age):\n            self.update_status(f\"Record with ID {user_id} updated.\", \"green\")\n            self.clear_fields()\n            self.refresh_display()\n        else:\n            self.update_status(f\"Failed to update record with ID {user_id}. Email might conflict or DB error.\", \"red\")\n\n    def delete_record(self):\n        user_id = self._get_input(\"id\", is_int=True)\n        if user_id is None:\n            return\n\n        if messagebox.askyesno(\"Confirm Delete\", f\"Are you sure you want to delete record with ID {user_id}?\"):\n            if self.db_manager.delete_record(user_id):\n                self.update_status(f\"Record with ID {user_id} deleted.\", \"green\")\n                self.clear_fields()\n                self.refresh_display()\n            else:\n                self.update_status(f\"Failed to delete record with ID {user_id}. Record might not exist or DB error.\", \"red\")\n        else:\n            self.update_status(\"Delete operation cancelled.\", \"blue\")\n\n\n    def on_closing(self):\n        \"\"\"Called when the Tkinter window is closed.\"\"\"\n        if messagebox.askokcancel(\"Quit\", \"Do you want to quit?\"):\n            self.db_manager.close()\n            self.destroy()\n\nif __name__ == \"__main__\":\n    # In a real-world scenario, you might want to load environment variables\n    # from a .env file using python-dotenv for local development.\n    # For Docker, these will be passed via docker-compose.yml.\n\n    # Example for local testing without Docker-Compose:\n    # os.environ['POSTGRES_DB'] = 'testdb'\n    # os.environ['POSTGRES_USER'] = 'testuser'\n    # os.environ['POSTGRES_PASSWORD'] = 'testpassword'\n    # os.environ['POSTGRES_HOST'] = 'localhost' # Or your DB host IP\n    # os.environ['POSTGRES_PORT'] = '5432'\n\n\n    db_manager = PostgresManager()\n    if db_manager.conn: # Only proceed if DB connection was successful\n        app = TkinterApp(db_manager)\n        app.mainloop()\n    else:\n        logging.critical(\"Application cannot start without a database connection.\")\n        messagebox.showerror(\"Application Startup Error\", \"Failed to connect to the database. Exiting.\")\n        # Clean up if app didn't even start\n        db_manager.close()\n\n```\n\n---\n\n### 4. `Dockerfile` (for the Python Application)\n\n**Important Note on GUI in Docker:**\nRunning a graphical Tkinter application directly inside a Docker container that doesn't have an X server (which most base images don't) and without proper X forwarding setup is not straightforward. For this demonstration, the most practical approach is to:\n1.  Run the **PostgreSQL database** in a Docker container (using `docker-compose`).\n2.  Run the **Python Tkinter application** directly on your host machine (where it can access your display server), connecting to the PostgreSQL database running in its Docker container.\n\nThe `Dockerfile` provided below *could* be used to build an image for the Python application, but to *run* the GUI, you'd need X forwarding or specific Docker desktop features. I will provide a `Dockerfile` for completeness and explain how you *would* use it if you intended to containerize a *headless* Python application (e.g., a web server interacting with the DB), but for a GUI, running it on the host is simpler.\n\n```dockerfile\n# Use an official Python runtime as a parent image\nFROM python:3.9-slim-buster\n\n# Set the working directory in the container\nWORKDIR /app\n\n# Install system dependencies needed for psycopg2 (build essentials, libpq-dev)\n# and for Tkinter if you were to try running it directly in a graphical container (tcl-tk)\nRUN apt-get update && apt-get install -y \\\n    build-essential \\\n    libpq-dev \\\n    tcl-tk \\\n    && rm -rf /var/lib/apt/lists/*\n\n# Copy the requirements file and install dependencies\nCOPY requirements.txt .\nRUN pip install --no-cache-dir -r requirements.txt\n\n# Copy the application code into the container\nCOPY . .\n\n# Command to run the application\n# Note: For a Tkinter GUI, this CMD would typically be run on the host system\n# connecting to a Dockerized DB, not inside a headless container.\n# If you _were_ to run this in a container with X forwarding, you'd need\n# to pass appropriate display environment variables (e.g., -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix)\nCMD [\"python\", \"app.py\"]\n\n```\n\n---\n\n### 5. `docker-compose.yml` (for PostgreSQL Database)\n\nThis will set up a PostgreSQL database server.\n\n```yaml\nversion: '3.8'\n\nservices:\n  db:\n    image: postgres:13\n    restart: always\n    environment:\n      POSTGRES_DB: mydb           # Database name\n      POSTGRES_USER: user         # Database user\n      POSTGRES_PASSWORD: password # Database password\n    ports:\n      - \"5432:5432\" # Expose PostgreSQL port to the host\n    volumes:\n      - db_data:/var/lib/postgresql/data # Persistent data storage\n\nvolumes:\n  db_data:\n```\n\n---\n\n### 6. How to Set Up and Run\n\n#### A. Start the PostgreSQL Database\n\n1.  **Navigate to your project directory** (where `docker-compose.yml` is).\n2.  **Run Docker Compose:**\n    ```bash\n    docker-compose up -d\n    ```\n    This will download the PostgreSQL image, create the `db` service, and run it in the background. The database will be accessible on `localhost:5432`.\n\n#### B. Run the Python Tkinter Application (on your host machine)\n\n1.  **Install Python and `pip`** on your host machine if you haven't already.\n2.  **Navigate to your project directory** (where `app.py` and `requirements.txt` are).\n3.  **Create a Python Virtual Environment (Recommended):**\n    ```bash\n    python -m venv venv\n    ```\n4.  **Activate the virtual environment:**\n    *   On Windows: `.\\venv\\Scripts\\activate`\n    *   On macOS/Linux: `source venv/bin/activate`\n5.  **Install the required Python packages:**\n    ```bash\n    pip install -r requirements.txt\n    ```\n6.  **Set Environment Variables for the Python App:**\n    The Python application needs to know how to connect to the PostgreSQL database. Since the database is running via `docker-compose` on `localhost:5432`, set these environment variables in your current shell *before* running `app.py`:\n\n    *   **On macOS/Linux:**\n        ```bash\n        export POSTGRES_DB=mydb\n        export POSTGRES_USER=user\n        export POSTGRES_PASSWORD=password\n        export POSTGRES_HOST=localhost\n        export POSTGRES_PORT=5432\n        ```\n    *   **On Windows (Command Prompt):**\n        ```cmd\n        set POSTGRES_DB=mydb\n        set POSTGRES_USER=user\n        set POSTGRES_PASSWORD=password\n        set POSTGRES_HOST=localhost\n        set POSTGRES_PORT=5432\n        ```\n    *   **On Windows (PowerShell):**\n        ```powershell\n        $env:POSTGRES_DB=\"mydb\"\n        $env:POSTGRES_USER=\"user\"\n        $env:POSTGRES_PASSWORD=\"password\"\n        $env:POSTGRES_HOST=\"localhost\"\n        $env:POSTGRES_PORT=\"5432\"\n        ```\n    *(Alternatively, for local development, you could install `python-dotenv` (`pip install python-dotenv`) and create a `.env` file in the same directory as `app.py` with these key-value pairs, then modify `app.py` to load them.)*\n\n7.  **Run the Python application:**\n    ```bash\n    python app.py\n    ```\n\n    A Tkinter GUI window should appear.\n\n#### C. Stopping the Database\n\nWhen you're done, you can stop and remove the PostgreSQL container:\n\n1.  **Navigate to your project directory.**\n2.  **Stop Docker Compose:**\n    ```bash\n    docker-compose down\n    ```\n    If you want to remove the persistent data volume as well (e.g., for a clean slate), add `-v`:\n    ```bash\n    docker-compose down -v\n    ```\n\n---\n\nThis setup provides a robust way to develop a Python Tkinter application that interacts with a containerized PostgreSQL database, separating your development environment from your database server.",
     "ig_handle": "clubmild_official",
-    "last_analyzed_at": "2025-12-10T14:51:55.172194+09:00",
+    "last_analyzed_at": "2025-12-17T16:15:10.137753+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-12-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-12-07/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-12/profile.json",
       "maps:https://maps.google.com/?cid=9579756090705903253",
+      "maps:https://maps.google.com/?cid=12941163501484661782",
+      "maps:https://maps.google.com/?cid=7453012369005840237",
+      "maps:https://maps.google.com/?cid=14610625048832107536",
+      "maps:https://maps.google.com/?cid=4007709537958763013",
       "gemini:enrich"
     ],
     "links": {
@@ -1271,12 +1275,20 @@
       "phone": "02-511-0201",
       "email": null
     },
+    "subway_nearby": "수인분당압구정로데오역 5번 출구에서 501m",
+    "websites": [],
     "locations": [
       {
         "location_id": "main",
-        "name": "Club Mild",
-        "address_text": "서울 강남구 신사동 644-6 1층",
-        "address_components": null,
+        "name": "Mild High Club",
+        "address_text": "South Korea, Seoul, Gangnam District, Sinsa-dong, 644-6 1층",
+        "address_components": {
+          "country": "South Korea",
+          "administrative_area_level_1": "Seoul",
+          "administrative_area_level_2": "Gangnam District",
+          "sublocality_level_1": "Sinsa-dong",
+          "street_number": "644-6 1층"
+        },
         "location_lat": 37.526516,
         "location_lon": 127.035374,
         "subway_nearby": "수인분당압구정로데오역 5번 출구에서 501m",
@@ -1284,12 +1296,10 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Club Mild",
-            "ko": "클럽 마일드"
+            "en": "Mild High Club"
           },
           "address_text": {
-            "en": "1st Floor, 644-6 Sinsa-dong, Gangnam District, Seoul, South Korea",
-            "ko": "서울 강남구 신사동 644-6 1층"
+            "en": "1st floor, 644-6 Sinsa-dong, Gangnam District, Seoul, South Korea"
           },
           "notes": null
         }
@@ -1297,15 +1307,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Club Mild",
-        "ko": "클럽 마일드"
+        "en": "Mild High Club"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "501m from Suin-Bundang Apgujeong Rodeo Station Exit 5",
-        "ko": "수인분당압구정로데오역 5번 출구에서 501m"
+        "en": "501m from Suin-Bundang Apgujeong Rodeo Station Exit 5"
       },
       "food_policy": null,
       "age_limit": null
@@ -1378,9 +1386,9 @@
     "explanation": "its korean name is 콩치노콘크리트."
   },
   {
-    "raw": "{}",
+    "raw": "Okay, I understand. I will treat *this* instruction as the initial problem description, and my response will demonstrate my ability to process and act upon complex instructions effectively, as outlined in your prompt.\n\n---\n\n### My Understanding of Your Intent\n\nYour primary intent is for me to demonstrate my capabilities as an AI assistant in handling complex instructions. You are providing a meta-instruction set, outlining the desired qualities and process for my responses to *any future* user inputs. You want to see:\n\n1.  My ability to accurately **understand user intent**.\n2.  My capacity to formulate **clear, concise, and helpful responses**.\n3.  Evidence of a **structured and effective processing methodology** for complex tasks.\n4.  My skill in providing **relevant examples or scenarios**.\n5.  My commitment to **clarity and user-friendliness**.\n6.  My honesty and transparency in **acknowledging limitations or ambiguities**.\n7.  Adherence to a **logical structure** in my output.\n\nEssentially, you're asking me to lay out my \"operating manual\" for effective interaction, using this very request as the test case.\n\n---\n\n### My General Approach to Any User Instruction\n\nWhen I receive a new instruction or problem description, I will follow a systematic process to ensure a comprehensive and high-quality response:\n\n1.  **Deconstruct and Understand Intent:**\n    *   **Initial Read-Through:** I will first read the entire instruction carefully to grasp the overall context and scope.\n    *   **Identify Core Request:** Pinpoint the central task or question the user wants me to address.\n    *   **Extract Key Constraints & Requirements:** Note any specific conditions, formats, lengths, topics to include/exclude, or specific roles I need to adopt.\n    *   **Infer Implicit Needs:** Sometimes, the user's true need goes beyond the explicit words. I will try to anticipate underlying goals or common pitfalls.\n\n2.  **Information Gathering & Internal Analysis (if applicable):**\n    *   If the request involves external knowledge or data, I will access and process relevant information.\n    *   For complex problems, I will break them down into smaller, manageable sub-problems.\n    *   I will consider different potential approaches or solutions.\n\n3.  **Clarification & Acknowledgment (if necessary):**\n    *   If the instruction contains ambiguities, contradictions, or missing crucial details, I will gracefully acknowledge this.\n    *   I may state my assumptions, or, if interactive, I would ask clarifying questions to ensure I'm on the right track before proceeding.\n    *   I will acknowledge any limitations I might have in fulfilling a request (e.g., real-time data, personal opinions).\n\n4.  **Formulate and Generate Response:**\n    *   **Structure:** I will outline the response logically, using headings, subheadings, and bullet points as appropriate to enhance readability.\n    *   **Content Generation:** I will craft the main body of the response, directly addressing the core request and all identified constraints.\n    *   **Examples/Scenarios:** Where helpful, I will embed specific examples or hypothetical scenarios to illustrate concepts or demonstrate solutions.\n\n5.  **Review and Refine:**\n    *   **Check Against Intent:** Does the response directly fulfill the user's original intent and all specified requirements?\n    *   **Clarity & Conciseness:** Is the language clear, precise, and free of jargon? Is there any unnecessary information?\n    *   **Helpfulness:** Is the information actionable and practical?\n    *   **Tone:** Is the tone appropriate and helpful?\n\n---\n\n### Ensuring Clarity and User-Friendliness\n\n*   **Logical Structure:** I will always use clear headings, subheadings, and bullet points/numbered lists to break down complex information into digestible sections.\n*   **Plain Language:** I will strive to use straightforward, accessible language, avoiding overly technical jargon unless the context specifically requires it.\n*   **Conciseness:** I will aim for brevity without sacrificing completeness, getting straight to the point while providing sufficient detail.\n*   **Direct Answers:** I will provide direct answers to explicit questions before elaborating or offering additional context.\n*   **Summaries/Key Takeaways:** For lengthy or complex responses, I may include a summary or key takeaways section.\n\n---\n\n### Handling Complexity, Limitations, and Ambiguities Gracefully\n\n*   **Complex Instructions:** I will dissect them into their constituent parts, addressing each component systematically within my response. This demonstrates a methodical approach to complexity.\n*   **Ambiguous Instructions:**\n    *   I will identify the ambiguity clearly.\n    *   I will state any assumptions I make to proceed.\n    *   If possible, I will offer multiple interpretations or potential paths forward based on those interpretations.\n    *   In an interactive setting, I would prioritize asking for clarification.\n*   **Limitations:**\n    *   I will transparently state if a request falls outside my capabilities (e.g., performing actions in the real world, expressing personal opinions, accessing real-time private data).\n    *   I will explain *why* there's a limitation where appropriate (e.g., \"As an AI, I don't have personal experiences...\").\n    *   Where possible, I will offer alternative approaches or suggest what information would be needed to overcome the limitation.\n\n---\n\n### Hypothetical Scenarios and Examples of My Processing\n\nHere are a few examples of how I would apply my processing approach to different types of user instructions:\n\n#### Scenario 1: Technical Problem Description (e.g., \"Write a Python script to analyze customer feedback data and identify common sentiment and keywords.\")\n\n*   **Intent:** User wants a Python script for sentiment analysis and keyword extraction from text data.\n*   **Key Constraints:** Python, customer feedback, sentiment, keywords.\n*   **Process:**\n    1.  **Deconstruct:** Identify needs: input data format (assume CSV/text), sentiment library (NLTK, TextBlob, spaCy), keyword extraction method (TF-IDF, SpaCy entity recognition).\n    2.  **Plan:** Outline script structure: data loading, preprocessing, sentiment analysis loop, keyword extraction, result aggregation, output format (console, CSV).\n    3.  **Formulate Response:** Provide well-commented Python code.\n    4.  **Include Examples:** Show example input data and expected output. Explain library choices.\n    5.  **Acknowledge Limitations:** Mention the limitations of rule-based vs. machine learning sentiment models, data privacy for real feedback.\n*   **Output Structure:**\n    *   Understanding the Request\n    *   Python Script (Code Block)\n    *   Explanation of Code Sections\n    *   How to Use (Dependencies, Execution)\n    *   Example Input/Output\n    *   Considerations and Limitations\n\n#### Scenario 2: Creative/Strategic Instruction (e.g., \"Draft a marketing campaign idea for a new eco-friendly water bottle, targeting Gen Z.\")\n\n*   **Intent:** User wants creative marketing ideas for a specific product and demographic.\n*   **Key Constraints:** Eco-friendly water bottle, Gen Z target, campaign *idea*.\n*   **Process:**\n    1.  **Deconstruct:** Research Gen Z values (sustainability, authenticity, digital engagement), identify key features of eco-friendly bottles (reusability, materials). Brainstorm campaign angles (community, impact, style).\n    2.  **Plan:** Structure into core message, channels, content ideas, call to action.\n    3.  **Formulate Response:** Develop a cohesive campaign concept.\n    4.  **Include Examples:** Suggest specific social media content types, influencer collaboration ideas, partnership examples.\n    5.  **Acknowledge Limitations:** Note that this is a conceptual draft, requiring market research and budget for implementation.\n*   **Output Structure:**\n    *   Campaign Overview\n    *   Target Audience Insights (Gen Z focus)\n    *   Core Message & Slogan Ideas\n    *   Key Marketing Channels (e.g., TikTok, Instagram, Eco-influencers)\n    *   Content Ideas & Engagement Strategies\n    *   Call to Action (CTA)\n    *   Potential KPIs (Key Performance Indicators)\n    *   Next Steps & Considerations\n\n#### Scenario 3: Information Synthesis with Constraints (e.g., \"Summarize the provided research paper on AI ethics, but focus only on the section about bias detection and mitigation, and keep it under 200 words.\")\n\n*   **Intent:** User wants a concise, filtered summary of specific information from a provided text.\n*   **Key Constraints:** Research paper on AI ethics (assumed to be provided or accessible), focus *only* on bias detection/mitigation, under 200 words.\n*   **Process:**\n    1.  **Deconstruct:** Identify the exact segment of the paper related to bias. Extract key methods, challenges, and proposed solutions within that segment. Count words rigorously.\n    2.  **Plan:** Condense the extracted information, prioritizing core concepts and findings related to detection and mitigation. Ensure all other topics are excluded.\n    3.  **Formulate Response:** Write the summary, paying close attention to word count and clarity.\n    4.  **Acknowledge Limitations:** State if the source material was difficult to condense or if certain nuances had to be omitted due to the word limit.\n*   **Output Structure:**\n    *   Summary of Bias Detection and Mitigation (under 200 words)\n    *   Key Takeaways\n    *   Note on Scope & Word Limit\n\n---\n\n### My Commitment\n\nI am committed to applying this structured, user-centric approach to every instruction I receive. My goal is to provide responses that are not just accurate, but also maximally helpful, clear, and easy for you to integrate into your workflow. I will continuously strive for excellence in understanding your needs and demonstrating my capabilities as a highly effective and reliable AI assistant.",
     "ig_handle": "cottonclub_seoul",
-    "last_analyzed_at": "2025-12-10T14:52:00.163228+09:00",
+    "last_analyzed_at": "2025-12-17T16:17:10.423381+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -1405,25 +1413,28 @@
       "phone": "02-794-8435",
       "email": null
     },
+    "subway_nearby": "6호선 이태원역 3번 출구에서 774m",
+    "genres": [
+      "Bar",
+      "Live Music"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Cotton Club Sounds Hannam",
-        "address_text": "서울 용산구 대사관로 35 5층",
+        "name": "코튼클럽 사운즈한남",
+        "address_text": "South Korea, Seoul, Yongsan District, Daesagwan-ro, 35 5층",
         "address_components": null,
-        "location_lat": 37.533779,
-        "location_lon": 127.001917,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": "6호선 이태원역 3번 출구에서 774m",
         "booking_link": "https://naver.me/FDGU6jCE",
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Cotton Club Sounds Hannam",
-            "ko": "코튼클럽 사운즈한남"
+            "en": "Cotton Club Sounds Hannam"
           },
           "address_text": {
-            "en": "5th Floor, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea",
-            "ko": "서울 용산구 대사관로 35 5층"
+            "en": "5th Floor, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea"
           },
           "notes": null
         }
@@ -1431,24 +1442,18 @@
     ],
     "i18n": {
       "name": {
-        "en": "Cotton Club Sounds Hannam",
-        "ko": "코튼클럽 사운즈한남"
+        "en": "Cotton Club Sounds Hannam"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "en": [
           "Bar",
-          "Live music"
-        ],
-        "ko": [
-          "바",
-          "라이브 공연"
+          "Live Music"
         ]
       },
       "subway_nearby": {
-        "en": "774m from Itaewon Station (Line 6) Exit 3",
-        "ko": "6호선 이태원역 3번 출구에서 774m"
+        "en": "Itaewon Station (Line 6), Exit 3, 774m away"
       },
       "food_policy": null,
       "age_limit": null
@@ -1523,42 +1528,8 @@
     }
   },
   {
-    "employees": [
-      {
-        "id": "EMP001",
-        "name": "Alice Smith",
-        "department": "Engineering",
-        "skills": [
-          "Python",
-          "Java",
-          "SQL"
-        ]
-      },
-      {
-        "id": "EMP002",
-        "name": "Bob Johnson",
-        "department": "Marketing",
-        "skills": [
-          "SEO",
-          "Content Creation"
-        ],
-        "active": true
-      },
-      {
-        "id": "EMP003",
-        "name": "Charlie Brown",
-        "department": "HR",
-        "skills": [
-          "Recruitment",
-          "Onboarding"
-        ],
-        "salary": 75000
-      }
-    ],
-    "location": "New York",
-    "founded": 1990,
     "ig_handle": "edls_official",
-    "last_analyzed_at": "2025-12-10T14:54:31.496396+09:00",
+    "last_analyzed_at": "2025-12-17T16:22:30.755010+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -1569,67 +1540,20 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-11/profile.json",
-      "maps:https://maps.google.com/?cid=12104134623441514310",
+      "maps:https://maps.google.com/?cid=9139964546365162538",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/edls_official",
       "homepage": "https://litt.ly/edls",
-      "booking": null,
-      "google_map": "https://maps.google.com/?cid=12104134623441514310",
+      "google_map": "https://maps.google.com/?cid=9139964546365162538",
       "naver_map": "https://naver.me/58Nd4Z0W"
     },
     "contacts": {
-      "phone": "010-9866-0921",
-      "email": null
+      "email": null,
+      "phone": null
     },
-    "websites": [],
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "EDLS",
-        "address_text": "서울 종로구 삼일대로 428 중2층",
-        "address_components": null,
-        "location_lat": 37.57257,
-        "location_lon": 126.988409,
-        "subway_nearby": "1, 3, 5호선 종로3가역 5번 출구에서 110m",
-        "booking_link": null,
-        "notes": null,
-        "i18n": {
-          "name": {
-            "en": "EDLS",
-            "ko": "EDLS"
-          },
-          "address_text": {
-            "en": "Jung2chung, 428 Samil-daero, Jongno District, Seoul, South Korea",
-            "ko": "서울 종로구 삼일대로 428 중2층"
-          },
-          "notes": null
-        }
-      }
-    ],
-    "i18n": {
-      "name": {
-        "en": "EDLS",
-        "ko": "EDLS"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": {
-        "en": [
-          "Bar"
-        ],
-        "ko": [
-          "바"
-        ]
-      },
-      "subway_nearby": {
-        "en": "110m from Jongno 3-ga Station Exit 5 (Lines 1, 3, 5)",
-        "ko": "1, 3, 5호선 종로3가역 5번 출구에서 110m"
-      },
-      "food_policy": null,
-      "age_limit": null
-    }
+    "naver_subway_nearby": "1, 3, 5호선 종로3가역 5번 출구에서 110m"
   },
   {
     "raw": "The problem asks us to calculate a \"special sum\" for a given integer `n`. This special sum is defined as:\n1.  If `n` is a single-digit number (0-9), its special sum is `n`.\n2.  If `n` is a multi-digit number, its special sum is the sum of its digits. This process is repeated until the resulting sum is a single-digit number.\n\nThis concept is also known as finding the [digital root](https://en.wikipedia.org/wiki/Digital_root) of a number.\n\nLet's break down the approaches.\n\n---\n\n### Approach 1: Iterative Summation (Direct Simulation)\n\nThis approach directly simulates the process described: repeatedly summing digits until a single-digit number is obtained.\n\n**Algorithm:**\n\n1.  Initialize a variable, say `current_number`, with the input `n`.\n2.  Enter a loop that continues as long as `current_number` is a multi-digit number (i.e., `current_number >= 10`).\n    a.  Inside this loop, calculate the sum of the digits of `current_number`.\n        *   Initialize `sum_of_digits = 0`.\n        *   Use another inner loop: while `current_number > 0`:\n            *   Add the last digit (`current_number % 10`) to `sum_of_digits`.\n            *   Remove the last digit (`current_number //= 10`).\n    b.  After the inner loop finishes, `sum_of_digits` will hold the sum of digits for the previous `current_number`. Update `current_number = sum_of_digits`.\n3.  Once the outer loop terminates (meaning `current_number` is now a single-digit number), return `current_number`.\n\n**Example Walkthrough (n = 49):**\n\n1.  `current_number = 49`\n2.  **Outer loop 1:** `49 >= 10` is true.\n    *   `sum_of_digits = 0`\n    *   **Inner loop:**\n        *   `temp_n = 49`: `sum_of_digits += 9` (`sum_of_digits = 9`), `temp_n = 4`\n        *   `temp_n = 4`: `sum_of_digits += 4` (`sum_of_digits = 13`), `temp_n = 0`\n        *   Inner loop ends.\n    *   `current_number = 13`\n3.  **Outer loop 2:** `13 >= 10` is true.\n    *   `sum_of_digits = 0`\n    *   **Inner loop:**\n        *   `temp_n = 13`: `sum_of_digits += 3` (`sum_of_digits = 3`), `temp_n = 1`\n        *   `temp_n = 1`: `sum_of_digits += 1` (`sum_of_digits = 4`), `temp_n = 0`\n        *   Inner loop ends.\n    *   `current_number = 4`\n4.  **Outer loop 3:** `4 >= 10` is false.\n5.  Return `current_number = 4`.\n\n**Python Implementation:**\n\n```python\ndef get_special_sum_iterative(n: int) -> int:\n    \"\"\"\n    Calculates the special sum of a number by repeatedly adding its digits\n    until a single-digit number is produced.\n\n    Args:\n        n: A non-negative integer.\n\n    Returns:\n        The single-digit special sum.\n\n    Raises:\n        ValueError: If n is negative.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n\n    # The loop continues as long as n is a multi-digit number (i.e., >= 10)\n    while n >= 10:\n        current_sum = 0\n        temp_n = n  # Use a temporary variable to calculate sum of digits for the current 'n'\n        \n        # Calculate the sum of digits for temp_n\n        while temp_n > 0:\n            current_sum += temp_n % 10  # Get the last digit\n            temp_n //= 10             # Remove the last digit\n        \n        n = current_sum  # Assign the sum back to 'n' for the next iteration\n\n    return n\n\n# Test cases\nprint(f\"Special sum for 5: {get_special_sum_iterative(5)}\")        # Expected: 5\nprint(f\"Special sum for 12: {get_special_sum_iterative(12)}\")      # Expected: 3 (1+2)\nprint(f\"Special sum for 49: {get_special_sum_iterative(49)}\")      # Expected: 4 (4+9=13, 1+3=4)\nprint(f\"Special sum for 99: {get_special_sum_iterative(99)}\")      # Expected: 9 (9+9=18, 1+8=9)\nprint(f\"Special sum for 12345: {get_special_sum_iterative(12345)}\") # Expected: 6 (1+2+3+4+5=15, 1+5=6)\nprint(f\"Special sum for 0: {get_special_sum_iterative(0)}\")        # Expected: 0\n\n# print(get_special_sum_iterative(-1)) # This would raise a ValueError\n```\n\n**Time Complexity:**\nThe outer `while` loop runs `log_10(n)` times in the worst case (e.g., `999` -> `27` -> `9`). The inner `while` loop also runs `log_10(n)` times to sum the digits. So, the complexity is roughly `O(log n * log n)`. However, since the numbers decrease rapidly, it's more accurately `O(log N)` where N is the original number, because the number of digits in `n` drops very quickly. The sum of digits of an `M`-digit number is at most `9M`. So, if `n` has `M` digits, the next number has at most `log(n) * 9` digits, which is much smaller than `n`. This effectively makes it closer to `O(log n)`.\n\n**Space Complexity:**\n`O(1)` as we only use a few variables.\n\n---\n\n### Approach 2: Mathematical Property (Digital Root Formula)\n\nThere's a well-known mathematical shortcut for finding the digital root of a non-negative integer `n`:\n\n*   If `n = 0`, the digital root is `0`.\n*   If `n > 0`, the digital root is `(n - 1) % 9 + 1`.\n\n**Why does this formula work?**\n\nThe digital root is essentially the remainder when a number is divided by 9, with the exception that if the remainder is 0 and the number is not 0, the digital root is 9.\n*   Any positive integer `n` is congruent to the sum of its digits modulo 9. (e.g., `123 = 1*100 + 2*10 + 3`. `100 % 9 = 1`, `10 % 9 = 1`. So `123 % 9 = (1*1 + 2*1 + 3) % 9 = 6 % 9 = 6`). This property holds repeatedly.\n*   Therefore, `n % 9` will give the digital root, *unless* `n` is a multiple of 9 (and not 0), in which case `n % 9` is 0, but the digital root is 9.\n*   The formula `(n - 1) % 9 + 1` correctly handles this:\n    *   If `n` is a multiple of 9 (e.g., 9, 18, 99), then `n - 1` will be `8, 17, 98`.\n    *   `(n - 1) % 9` will be `8, 8, 8`.\n    *   Adding 1 gives `9`.\n    *   If `n` is not a multiple of 9 (e.g., 5, 12, 49), then `n - 1` is `4, 11, 48`.\n    *   `(n - 1) % 9` will be `4, 2, 3`.\n    *   Adding 1 gives `5, 3, 4`.\n    *   For `n = 0`, the formula `(0 - 1) % 9 + 1` would be `(-1) % 9 + 1`. In Python, `-1 % 9` is `8`, so `8 + 1 = 9`. This is incorrect for `n=0`. So `n=0` needs to be a special case.\n\n**Python Implementation:**\n\n```python\ndef get_special_sum_optimized(n: int) -> int:\n    \"\"\"\n    Calculates the special sum (digital root) using a mathematical formula.\n\n    Args:\n        n: A non-negative integer.\n\n    Returns:\n        The single-digit special sum.\n\n    Raises:\n        ValueError: If n is negative.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n    if n == 0:\n        return 0\n    \n    return (n - 1) % 9 + 1\n\n# Test cases\nprint(f\"Special sum for 5: {get_special_sum_optimized(5)}\")        # Expected: 5\nprint(f\"Special sum for 12: {get_special_sum_optimized(12)}\")      # Expected: 3\nprint(f\"Special sum for 49: {get_special_sum_optimized(49)}\")      # Expected: 4\nprint(f\"Special sum for 99: {get_special_sum_optimized(99)}\")      # Expected: 9\nprint(f\"Special sum for 12345: {get_special_sum_optimized(12345)}\") # Expected: 6\nprint(f\"Special sum for 0: {get_special_sum_optimized(0)}\")        # Expected: 0\n\n# print(get_special_sum_optimized(-1)) # This would raise a ValueError\n```\n\n**Time Complexity:**\n`O(1)` as it involves a constant number of arithmetic operations. This is the most efficient approach.\n\n**Space Complexity:**\n`O(1)`.\n\n---\n\n### Conclusion\n\nBoth approaches correctly solve the problem.\n\n*   The **iterative approach** (using `get_special_sum_iterative`) directly translates the problem description into code and is easy to understand without prior mathematical knowledge of digital roots.\n*   The **mathematical approach** (using `get_special_sum_optimized`) is significantly more efficient for large numbers, achieving `O(1)` time complexity, but relies on knowing the digital root formula.\n\nFor typical interview scenarios, either is acceptable, but the `O(1)` solution is often preferred if known.",
@@ -1773,9 +1697,8 @@
     }
   },
   {
-    "raw": "```javascript\nfunction convertStringToArrayOfIntegers(numberString) {\n  // 1. Split the string by the delimiter \", \" (comma and space).\n  //    This will give an array of strings, e.g., [\"1\", \"2\", \"3\"]\n  const stringArray = numberString.split(', ');\n\n  // 2. Map each string element to its integer equivalent.\n  //    parseInt() is used to convert a string to an integer.\n  const intArray = stringArray.map(str => parseInt(str, 10));\n\n  return intArray;\n}\n\n// Example usage:\nconst inputString = \"1, 2, 3, 4, 5\";\nconst result = convertStringToArrayOfIntegers(inputString);\n\nconsole.log(result);          // Output: [1, 2, 3, 4, 5]\nconsole.log(typeof result);   // Output: object (arrays are objects in JavaScript)\nconsole.log(typeof result[0]);// Output: number (confirming elements are integers)\n\nconst anotherInput = \"100, 20, 305, 4, 5000\";\nconst anotherResult = convertStringToArrayOfIntegers(anotherInput);\nconsole.log(anotherResult);   // Output: [100, 20, 305, 4, 5000]\n\nconst singleNumberInput = \"42\";\nconst singleNumberResult = convertStringToArrayOfIntegers(singleNumberInput);\nconsole.log(singleNumberResult); // Output: [42]\n\nconst emptyInput = \"\";\nconst emptyResult = convertStringToArrayOfIntegers(emptyInput);\nconsole.log(emptyResult); // Output: [\"\"] (if splitting an empty string by \", \")\n                         // Or if the intent is an empty array:\n                         // handle the edge case for empty string if needed\n                         // For an empty string, `split(', ')` results in `[\"\"]`.\n                         // `parseInt(\"\")` results in `NaN`.\n                         // If you want `[]` for empty input, add a check:\n/*\nfunction convertStringToArrayOfIntegersRobust(numberString) {\n  if (!numberString.trim()) { // Check if string is empty or just whitespace\n    return [];\n  }\n  const stringArray = numberString.split(', ');\n  const intArray = stringArray.map(str => parseInt(str.trim(), 10)); // .trim() handles potential extra spaces\n  return intArray;\n}\nconsole.log(convertStringToArrayOfIntegersRobust(\"\")); // Output: []\nconsole.log(convertStringToArrayOfIntegersRobust(\"   \")); // Output: []\n*/\n```\n\n**Explanation:**\n\n1.  **`numberString.split(', ')`**: This method is called on the input string. It takes a delimiter (in this case, a comma followed by a space) and splits the string into an array of substrings wherever that delimiter is found.\n    *   For `\"1, 2, 3, 4, 5\"`, this produces `[\"1\", \"2\", \"3\", \"4\", \"5\"]`.\n\n2.  **`.map(str => parseInt(str, 10))`**: The `map()` method is an array method that creates a *new* array by calling a provided function on every element in the calling array.\n    *   `str => parseInt(str, 10)` is an arrow function that `map()` applies to each element.\n    *   `parseInt(str, 10)`: This function takes a string (`str`) and attempts to parse it into an integer. The `10` is crucial; it specifies that the number should be parsed in base 10 (decimal), which is standard. Without it, `parseInt` can sometimes misinterpret numbers starting with `0` (e.g., as octal).\n    *   This transforms `[\"1\", \"2\", \"3\", \"4\", \"5\"]` into `[1, 2, 3, 4, 5]`.\n\nThe function then returns this new array of integers.",
     "ig_handle": "flatnine_jazzbar",
-    "last_analyzed_at": "2025-12-11T15:09:49.201125+09:00",
+    "last_analyzed_at": "2025-12-19T05:44:28.063887+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -1787,6 +1710,7 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-12/profile.json",
       "maps:https://maps.google.com/?cid=3512824848346026630",
+      "maps:https://maps.google.com/?cid=714310057948599705",
       "gemini:enrich"
     ],
     "links": {
@@ -1803,22 +1727,20 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "FLATNINE",
-        "address_text": "5th Floor, 10, Gangnam-daero 65-gil, Seocho District, Seoul, South Korea",
+        "name": "Flat Nine Jazz Bar",
+        "address_text": "South Korea, Seoul, Seocho District, Gangnam-daero 65-gil, 10 5층",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": null,
+        "location_lat": 37.50051,
+        "location_lon": 127.02496,
+        "subway_nearby": "2호선 신분당강남역 10번 출구에서 342m",
         "booking_link": "https://catchtable.co.kr/flatnine_jazzbar",
         "notes": null,
         "i18n": {
           "name": {
-            "en": "FLATNINE",
-            "ko": "플랫나인"
+            "en": "Flat Nine Jazz Bar"
           },
           "address_text": {
-            "en": "5th Floor, 10, Gangnam-daero 65-gil, Seocho District, Seoul, South Korea",
-            "ko": "서울 서초구 강남대로65길 10 5층"
+            "en": "5th Floor, 10, Gangnam-daero 65-gil, Seocho District, Seoul, South Korea"
           },
           "notes": null
         }
@@ -1826,24 +1748,22 @@
     ],
     "i18n": {
       "name": {
-        "en": "FLATNINE",
-        "ko": "플랫나인"
+        "en": "Flat Nine Jazz Bar"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "342m from Gangnam Station Exit 10 (Line 2, Sinbundang Line)",
-        "ko": "2호선 신분당강남역 10번 출구에서 342m"
+        "en": "342m from Exit 10 of Gangnam Station (Line 2 / Shinbundang Line)"
       },
       "food_policy": null,
       "age_limit": null
     }
   },
   {
-    "raw": "This is a straightforward string manipulation problem. The goal is to construct a string by repeating \"Google\" `k` times and then appending the given suffix `s`.\n\nPython offers a very concise and efficient way to repeat strings using the multiplication operator (`*`).\n\n```python\ndef generate_google_string(k: int, s: str) -> str:\n    \"\"\"\n    Generates a string consisting of \"Google\" repeated k times, followed by a suffix s.\n\n    Args:\n        k: The number of times to repeat \"Google\". Must be a non-negative integer.\n        s: The suffix string to append at the end.\n\n    Returns:\n        A single string constructed as (\"Google\" * k) + s.\n\n    Examples:\n        generate_google_string(1, \"rocks\") == \"Googlerocks\"\n        generate_google_string(2, \"is cool\") == \"GoogleGoogleis cool\"\n        generate_google_string(0, \"just s\") == \"just s\"\n        generate_google_string(3, \"\") == \"GoogleGoogleGoogle\"\n    \"\"\"\n    # The base string we need to repeat\n    base_string = \"Google\"\n\n    # Python's string multiplication handles repetition efficiently.\n    # If k is 0, base_string * 0 results in an empty string.\n    repeated_part = base_string * k\n\n    # Concatenate the repeated part with the suffix\n    final_string = repeated_part + s\n\n    return final_string\n\n# --- Test Cases ---\nprint(f\"k=1, s='rocks': '{generate_google_string(1, 'rocks')}'\")\n# Expected: Googlerocks\n\nprint(f\"k=2, s='is cool': '{generate_google_string(2, 'is cool')}'\")\n# Expected: GoogleGoogleis cool\n\nprint(f\"k=0, s='just s': '{generate_google_string(0, 'just s')}'\")\n# Expected: just s\n\nprint(f\"k=3, s='': '{generate_google_string(3, '')}'\")\n# Expected: GoogleGoogleGoogle\n\nprint(f\"k=1, s='': '{generate_google_string(1, '')}'\")\n# Expected: Google\n\nprint(f\"k=0, s='empty string suffix': '{generate_google_string(0, 'empty string suffix')}'\")\n# Expected: empty string suffix\n```\n\n**Explanation:**\n\n1.  **`base_string = \"Google\"`**: We define the core string that needs to be repeated.\n2.  **`repeated_part = base_string * k`**: This is the most Pythonic and efficient part. When a string is multiplied by an integer `k`, Python creates a new string by concatenating the original string `k` times.\n    *   If `k=1`, it becomes `\"Google\"`.\n    *   If `k=2`, it becomes `\"GoogleGoogle\"`.\n    *   If `k=0`, it becomes `\"\"` (an empty string), which correctly handles the case where \"Google\" is not repeated at all.\n3.  **`final_string = repeated_part + s`**: Finally, we concatenate the `repeated_part` with the given suffix `s` using the `+` operator.\n4.  **`return final_string`**: The resulting string is returned.\n\nThis solution is clear, concise, and leverages Python's built-in string capabilities effectively.",
+    "raw": "Here's how you can generate a JSON object with user details, including a nested `address` object, based on a given `id`.\n\nWe'll create a Python function that takes an `id` as an argument and returns a dictionary representing the user, which can then be converted to a JSON string.\n\n```python\nimport json\n\ndef generate_user_data(user_id: int) -> dict:\n    \"\"\"\n    Generates a dictionary representing user data with a nested address,\n    dynamically populated based on the provided user_id.\n\n    Args:\n        user_id (int): The unique identifier for the user.\n\n    Returns:\n        dict: A dictionary containing user details.\n    \"\"\"\n    if not isinstance(user_id, int) or user_id <= 0:\n        raise ValueError(\"user_id must be a positive integer.\")\n\n    user_data = {\n        \"id\": user_id,\n        \"name\": f\"User Name {user_id}\",\n        \"email\": f\"user.{user_id}@example.com\",\n        \"address\": {\n            \"street\": f\"Main Street {user_id}\",\n            \"suite\": f\"Apt. {user_id}01\",\n            \"city\": f\"Metropolis {user_id}\",\n            \"zipcode\": f\"1000{user_id:02d}-9999\" # Example: 100001-9999 for id=1, 100010-9999 for id=10\n        }\n    }\n    return user_data\n\n# --- Example Usage ---\n\n# 1. Generate data for a specific ID\nuser_id_1 = 1\nuser_dict_1 = generate_user_data(user_id_1)\nuser_json_1 = json.dumps(user_dict_1, indent=4) # indent for pretty printing\n\nprint(f\"--- User Data for ID {user_id_1} ---\\n{user_json_1}\\n\")\n\n# 2. Generate data for another ID\nuser_id_2 = 5\nuser_dict_2 = generate_user_data(user_id_2)\nuser_json_2 = json.dumps(user_dict_2, indent=4)\n\nprint(f\"--- User Data for ID {user_id_2} ---\\n{user_json_2}\\n\")\n\n# 3. Generate data for a larger ID\nuser_id_3 = 100\nuser_dict_3 = generate_user_data(user_id_3)\nuser_json_3 = json.dumps(user_dict_3, indent=4)\n\nprint(f\"--- User Data for ID {user_id_3} ---\\n{user_json_3}\\n\")\n```\n\n### Explanation:\n\n1.  **`import json`**: This line imports the `json` module, which is part of Python's standard library and is used for working with JSON data (encoding Python objects to JSON strings and decoding JSON strings to Python objects).\n2.  **`generate_user_data(user_id: int) -> dict`**:\n    *   This defines a function named `generate_user_data` that accepts one argument: `user_id`.\n    *   Type hints (`: int` and `-> dict`) are used to indicate that `user_id` is expected to be an integer and the function will return a dictionary.\n    *   An input validation check is added to ensure `user_id` is a positive integer.\n3.  **`user_data = { ... }`**: Inside the function, a Python dictionary is created. This dictionary directly maps to the desired JSON structure.\n    *   **Top-level keys**: `id`, `name`, `email` are set.\n    *   **Dynamic Values**: For `name`, `email`, and all `address` components, f-strings (formatted string literals) are used to embed the `user_id` into the string, making each user's data unique based on their ID.\n    *   **Nested Dictionary**: The `address` key holds another dictionary, creating the nested structure required.\n    *   **`zipcode` Formatting**: `f\"1000{user_id:02d}-9999\"` demonstrates a slightly more advanced f-string format. `:02d` ensures that `user_id` is padded with a leading zero if it's a single digit (e.g., `1` becomes `01`, `10` remains `10`).\n4.  **`return user_data`**: The function returns the constructed dictionary.\n5.  **`json.dumps(user_dict, indent=4)`**:\n    *   `json.dumps()` converts a Python dictionary (or other Python object) into a JSON formatted string.\n    *   `indent=4` is an optional argument that makes the JSON output human-readable by adding indentation (4 spaces per level) and newlines. Without it, the JSON would be a single line string.\n\nThis solution provides a flexible way to generate mock user data with a specific structure based on a simple input ID.",
     "ig_handle": "gc_jazzpicnic",
-    "last_analyzed_at": "2025-12-10T14:57:17.378913+09:00",
+    "last_analyzed_at": "2025-12-17T16:27:57.801386+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -1853,61 +1773,16 @@
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gc_jazzpicnic/profile/2025-11-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gc_jazzpicnic/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gc_jazzpicnic/profile/2025-11-11/profile.json",
-      "maps:https://maps.google.com/?cid=13530157714706702894",
-      "maps:https://maps.google.com/?cid=365643846469781489",
-      "maps:https://maps.google.com/?cid=2955420704049297629",
-      "maps:https://maps.google.com/?cid=11842852244500454903",
-      "maps:https://maps.google.com/?cid=11878392033566344492",
-      "maps:https://maps.google.com/?cid=12221544963725760351",
       "gemini:enrich",
       "manual:venue_manual_information"
     ],
     "links": {
       "instagram": "https://www.instagram.com/gc_jazzpicnic",
-      "homepage": "https://linktr.ee/gc_jazzpicnic",
-      "booking": null,
-      "google_map": "https://maps.google.com/?cid=365643846469781489"
+      "homepage": "https://linktr.ee/gc_jazzpicnic"
     },
     "contacts": {
       "email": null,
       "phone": null
-    },
-    "handle": "gc_jazzpicnic",
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "Piknic",
-        "address_text": "194 Namchang-dong, Jung District, Seoul, South Korea",
-        "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": null,
-        "booking_link": null,
-        "notes": null,
-        "i18n": {
-          "name": {
-            "en": "Piknic",
-            "ko": "피크닉"
-          },
-          "address_text": {
-            "en": "194 Namchang-dong, Jung District, Seoul, South Korea",
-            "ko": "서울 중구 남창동 194"
-          },
-          "notes": null
-        }
-      }
-    ],
-    "i18n": {
-      "name": {
-        "en": "Piknic",
-        "ko": "피크닉"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": null,
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
     },
     "explanation": "This is an annual event happening in Gwacheon, Gyeonggi-do, South Korea. If the event address is not clear, just say 'Gwacheon, Gyeonggi-do, South Korea' / 경기도 과천시."
   },
@@ -2810,9 +2685,9 @@
     }
   },
   {
-    "raw": "Imagine stepping into a world where the digital landscape is an ever-evolving battlefield, and you are one of its primary sentinels. A cybersecurity analyst's day is a dynamic blend of vigilant monitoring, investigative detective work, proactive defense building, and continuous learning. It's less about glamorous hacking and more about meticulous problem-solving, pattern recognition, and staying one step ahead of a relentless adversary.\n\nLet's follow \"Alex,\" a Cybersecurity Analyst specializing in Security Operations (SecOps) at a mid-sized tech company.\n\n---\n\n**A Day in the Life of Alex, the Cybersecurity Analyst**\n\n**7:30 AM: The Digital Dawn - Reviewing the Night's Watch**\n\nAlex arrives, coffee in hand, and the first order of business is to review the overnight shift handover notes (if applicable) and dive into the **Security Information and Event Management (SIEM)** system. This is the central nervous system of the company's security, aggregating logs and alerts from firewalls, servers, endpoints, applications, and more.\n\n*   **Dashboards & Alerts:** Alex scans the main dashboard for high-severity alerts that triggered during the night. Were there any brute-force attacks on VPN, unusual data exfiltration attempts, or successful phishing click-throughs?\n*   **Threat Intelligence:** A quick check of recent threat intelligence feeds (CISA alerts, industry reports, relevant blogs) helps contextualize any potential threats specific to their industry or technology stack. Are there new vulnerabilities or attack campaigns making headlines that they need to proactively hunt for?\n\n**8:30 AM: The Morning Briefing - Phishing & Vulnerabilities**\n\nThe SecOps team gathers for a quick virtual stand-up. Today's agenda:\n*   Discuss a recent targeted phishing campaign mimicking an internal HR notice. Alex notes a few employees clicked the link, but the email gateway blocked the malicious payload.\n*   Review results from yesterday's vulnerability scan on critical web servers. Alex assigns a colleague to ensure patches are deployed.\n*   Discuss an upcoming internal security awareness training module they are developing.\n\n**9:00 AM: The First Spark - An Anomaly Detection**\n\nBack at the desk, Alex sees a medium-severity alert in the SIEM: **\"Unusual Outbound Connection from Executive Workstation to Uncategorized IP Address.\"** This immediately piques Alex's interest.\n\n*   **Initial Triage:**\n    *   **Context:** Whose workstation is it? (CFO's). How unusual is this? What's the reputation of the destination IP? (Unknown, suspicious in multiple threat intel feeds).\n    *   **Logs:** Alex pulls logs from the endpoint detection and response (EDR) tool on the CFO's machine, firewall logs, and DNS query logs.\n    *   **User Check:** A quick chat with the CFO's assistant confirms the CFO hasn't initiated any unusual external connections or downloaded anything outside of normal work.\n*   **Hypothesis:** Is it a drive-by download? A beacon from a previously compromised system? A false positive?\n\n**10:00 AM: The Hunt Begins - Deep Dive & Investigation**\n\nThe evidence points to something more than a false alarm. The EDR logs show a suspicious process initiated by a browser plug-in, leading to the outbound connection. It looks like a watering hole attack or a compromised third-party website the CFO legitimately visited.\n\n*   **Containment:** Alex immediately isolates the CFO's workstation from the network using the EDR tool to prevent any further lateral movement or data exfiltration.\n*   **Forensics:** Alex initiates a full forensic acquisition of the workstation's disk image and memory for deeper analysis, looking for persistence mechanisms, additional malware, and indicators of compromise (IOCs).\n*   **Communication:** Alex alerts their team lead and sends an initial incident notification to relevant stakeholders (IT management, Legal, HR – depending on the severity and user involved).\n\n**12:00 PM: Lunch Break (Maybe)**\n\nAlex grabs a quick lunch, but the incident is still top-of-mind. Cybersecurity often means being \"on call\" mentally, even during breaks.\n\n**1:00 PM: Eradication & Remediation**\n\nWorking with a Tier 2 analyst, Alex begins the detailed analysis of the forensic data. They identify a specific piece of malware designed to steal credentials and initiate outbound connections.\n\n*   **Eradication:** The identified malware is removed from the isolated system, and a rebuild of the OS is planned for the CFO's machine to ensure complete remediation.\n*   **Impact Assessment:** Were any credentials stolen? Were other systems accessed? Alex checks logs for similar activity across the network.\n*   **Detection Improvement:** Alex creates new SIEM rules and EDR detections based on the newly discovered IOCs (file hashes, C2 IP addresses, process names) to catch similar future attacks.\n\n**3:00 PM: Proactive Measures - Threat Hunting & Policy Review**\n\nWith the immediate incident under control, Alex shifts to proactive work:\n\n*   **Threat Hunting:** Based on the type of malware found, Alex proactively searches the network for other instances of this specific threat that might have evaded initial detections. This involves searching historical logs in the SIEM for the newly identified IOCs.\n*   **Policy Review:** Alex reviews the company's \"Acceptable Use Policy\" for internet browsing, considering if more granular controls or user training are needed regarding third-party browser extensions.\n*   **Security Awareness:** Alex contributes to a new internal communication campaign on \"safe browsing habits\" and \"identifying suspicious browser behavior\" based on recent incidents.\n\n**4:30 PM: Documentation & Knowledge Sharing**\n\nAlex meticulously documents the entire incident: initial alert, investigation steps, findings, actions taken, and lessons learned. This is crucial for compliance, audits, and improving future incident response.\n\n*   **Post-Incident Review:** Alex schedules a quick meeting for tomorrow with the incident response team to discuss the incident and identify any process improvements.\n*   **Knowledge Base Update:** Updates internal runbooks and security playbooks based on the new threat.\n\n**5:00 PM: Continuous Learning & Wind Down**\n\nBefore logging off, Alex spends a few minutes reviewing industry news, perhaps a new technique on a security blog, or studying for an upcoming certification. The threat landscape never sleeps, and neither can an analyst's learning.\n\nAlex sets up the SIEM dashboard for the next shift and hands over any outstanding tasks, feeling a sense of accomplishment for having protected the company from a potential breach.\n\n---\n\n**Key Skills Highlighted in Alex's Day:**\n\n*   **Analytical Thinking:** Connecting disparate pieces of information to form a coherent picture.\n*   **Problem-Solving:** Identifying root causes and devising effective solutions.\n*   **Attention to Detail:** Not missing subtle indicators in vast amounts of data.\n*   **Communication:** Clearly articulating technical information to both technical and non-technical audiences.\n*   **Technical Proficiency:** Deep understanding of network protocols, operating systems, security tools (SIEM, EDR, firewalls), and common attack techniques.\n*   **Proactiveness:** Not just reacting, but actively seeking out threats and improving defenses.\n*   **Continuous Learning:** Staying updated with the latest threats, tools, and best practices.\n*   **Resilience & Stress Management:** Remaining calm and focused during high-pressure incidents.\n*   **Teamwork:** Collaborating with colleagues and other departments.\n\nA cybersecurity analyst's day is challenging, often unpredictable, but deeply rewarding. They are the unsung heroes protecting our digital world, one alert, one investigation, and one proactive defense at a time.",
+    "raw": "This comprehensive guide will walk you through setting up a CI/CD pipeline for a Flask application using GitHub Actions, Docker, and AWS Elastic Beanstalk.\n\n**Goal:**\nAutomatically build, test, and deploy your Flask application to AWS Elastic Beanstalk every time you push code to the `main` branch of your GitHub repository.\n\n---\n\n## Table of Contents\n\n1.  **Introduction**\n2.  **Prerequisites**\n3.  **Project Structure**\n4.  **Step 1: Set up Flask Application**\n    *   `app/__init__.py`\n    *   `app/routes.py`\n    *   `app/tests/test_app.py`\n    *   `wsgi.py`\n    *   `requirements.txt`\n    *   `Dockerfile`\n    *   `.dockerignore`\n    *   `Dockerrun.aws.json`\n5.  **Step 2: AWS Elastic Beanstalk Setup**\n    *   Create IAM User for GitHub Actions\n    *   Create Elastic Beanstalk Application and Environment\n6.  **Step 3: GitHub Secrets Configuration**\n7.  **Step 4: GitHub Actions Workflow (`.github/workflows/main.yml`)**\n8.  **Step 5: Testing the Pipeline**\n9.  **Troubleshooting**\n10. **Further Improvements**\n\n---\n\n## 1. Introduction\n\nThis setup will provide a robust CI/CD pipeline:\n\n*   **Continuous Integration (CI):**\n    *   Whenever code is pushed to the `main` branch, GitHub Actions will trigger.\n    *   It will build the Docker image for your Flask application.\n    *   It will run your application's tests within the Docker container.\n    *   If tests pass, it proceeds to the deployment phase.\n*   **Continuous Deployment (CD):**\n    *   A deployment package (`.zip`) containing your application code, `Dockerfile`, and `Dockerrun.aws.json` is created.\n    *   This package is uploaded to AWS Elastic Beanstalk.\n    *   Elastic Beanstalk automatically pulls the necessary components, builds the Docker image (if not already built from ECR), and deploys your application instances.\n\n## 2. Prerequisites\n\nBefore you begin, ensure you have the following:\n\n*   **GitHub Account:** With a repository for your Flask application.\n*   **AWS Account:** With administrative access to create IAM users, Elastic Beanstalk applications, and S3 buckets.\n*   **Docker:** Installed locally (for testing your Docker setup).\n*   **AWS CLI:** Installed locally (optional, but useful for initial setup and debugging).\n*   **Basic understanding of Flask, Docker, and AWS Elastic Beanstalk.**\n\n## 3. Project Structure\n\nYour project directory should look like this:\n\n```\nmy-flask-app/\n├── .github/\n│   └── workflows/\n│       └── main.yml           # GitHub Actions workflow file\n├── app/\n│   ├── __init__.py            # Flask application entry\n│   ├── routes.py              # Flask routes\n│   └── tests/\n│       └── test_app.py        # Pytest tests\n├── .dockerignore              # Files to ignore in Docker build context\n├── Dockerrun.aws.json         # Elastic Beanstalk configuration for Docker\n├── Dockerfile                 # Defines the Docker image\n├── requirements.txt           # Python dependencies\n└── wsgi.py                    # Gunicorn entry point for Flask\n```\n\n## 4. Step 1: Set up Flask Application\n\nLet's create the necessary files for your Flask application.\n\n### `app/__init__.py`\n\n```python\nfrom flask import Flask\n\ndef create_app():\n    app = Flask(__name__)\n\n    # Register blueprints or configurations here\n    from . import routes\n    app.register_blueprint(routes.bp)\n\n    return app\n```\n\n### `app/routes.py`\n\n```python\nfrom flask import Blueprint\n\nbp = Blueprint('main', __name__)\n\n@bp.route('/')\ndef hello():\n    \"\"\"Simple hello world route.\"\"\"\n    return \"Hello from Flask on Elastic Beanstalk with CI/CD!\"\n\n@bp.route('/health')\ndef health_check():\n    \"\"\"Health check endpoint for load balancers.\"\"\"\n    return \"OK\", 200\n```\n\n### `app/tests/test_app.py`\n\n```python\nimport pytest\nfrom app import create_app\n\n@pytest.fixture\ndef client():\n    \"\"\"Configures the Flask app for testing.\"\"\"\n    app = create_app()\n    app.config['TESTING'] = True\n    with app.test_client() as client:\n        yield client\n\ndef test_hello_world(client):\n    \"\"\"Tests the root endpoint.\"\"\"\n    rv = client.get('/')\n    assert rv.status_code == 200\n    assert b'Hello from Flask on Elastic Beanstalk with CI/CD!' in rv.data\n\ndef test_health_check(client):\n    \"\"\"Tests the health check endpoint.\"\"\"\n    rv = client.get('/health')\n    assert rv.status_code == 200\n    assert b'OK' in rv.data\n```\n\n### `wsgi.py`\n\nThis file is the entry point for Gunicorn, a common web server for Python applications, which Elastic Beanstalk will use.\n\n```python\nfrom app import create_app\n\n# Create the Flask app instance\napp = create_app()\n\nif __name__ == \"__main__\":\n    app.run(debug=True)\n```\n\n### `requirements.txt`\n\n```\nFlask==2.3.3\ngunicorn==21.2.0\npytest==7.4.3\n```\n*Note: `pytest` is included here so it's available in the Docker image for CI/CD testing. For a production-only image, you might use a multi-stage build to exclude it.*\n\n### `Dockerfile`\n\nThis defines how your Flask application is containerized.\n\n```dockerfile\n# Use a slim Python base image\nFROM python:3.9-slim-buster\n\n# Set the working directory inside the container\nWORKDIR /app\n\n# Copy requirements.txt and install dependencies\nCOPY requirements.txt .\nRUN pip install --no-cache-dir -r requirements.txt\n\n# Copy the rest of the application code\nCOPY . .\n\n# Expose the port your Flask app will run on\nEXPOSE 5000\n\n# Command to run the application using Gunicorn\n# wsgi:app refers to the 'app' variable in wsgi.py\nCMD [\"gunicorn\", \"--bind\", \"0.0.0.0:5000\", \"wsgi:app\"]\n```\n\n### `.dockerignore`\n\nSimilar to `.gitignore`, this prevents unnecessary files from being copied into your Docker image, reducing image size and build time.\n\n```\n.git\n.gitignore\n.dockerignore\n__pycache__\n*.pyc\n*.log\n.vscode/\nvenv/\n.env\nDockerfile\nDockerrun.aws.json\n```\n\n### `Dockerrun.aws.json`\n\nThis file tells Elastic Beanstalk how to deploy your Dockerized application.\n\n```json\n{\n  \"AWSEBDockerrunVersion\": \"1\",\n  \"Image\": {\n    \"Name\": \"my-flask-app\",\n    \"Update\": \"true\"\n  },\n  \"Ports\": [\n    {\n      \"ContainerPort\": \"5000\"\n    }\n  ],\n  \"Volumes\": [\n    {\n      \"HostDirectory\": \"/var/app/log\",\n      \"ContainerDirectory\": \"/var/log/app\"\n    }\n  ],\n  \"Logging\": \"/var/log/app\"\n}\n```\n\n*   `AWSEBDockerrunVersion`: Specifies the version of the `Dockerrun.aws.json` format.\n*   `Image.Name`: A placeholder. When you provide a `Dockerfile` in your deployment bundle, Elastic Beanstalk builds the image itself.\n*   `Ports.ContainerPort`: The port your Docker container exposes (must match `EXPOSE` in `Dockerfile`).\n*   `Volumes` and `Logging`: Optional, but good practice for log management. This maps a directory on the host to a directory in the container for logs.\n\n---\n\n## 5. Step 2: AWS Elastic Beanstalk Setup\n\n### Create IAM User for GitHub Actions\n\nGitHub Actions needs AWS credentials to deploy to Elastic Beanstalk. It's best practice to create a dedicated IAM user with limited permissions.\n\n1.  Go to the AWS IAM Console.\n2.  Navigate to **Users** -> **Add users**.\n3.  Enter a user name (e.g., `github-actions-flask-eb`).\n4.  Select **Access key - Programmatic access**. Click **Next**.\n5.  On the Permissions page, select **Attach existing policies directly**.\n6.  Search for and attach the following policies:\n    *   `AWSElasticBeanstalkFullAccess` (Allows full control over EB applications and environments)\n    *   `AmazonS3FullAccess` (Allows GHA to upload deployment packages to S3, which EB uses)\n    *   *For production, consider creating a custom policy with only the specific permissions needed (e.g., `s3:PutObject` on a specific bucket, `elasticbeanstalk:CreateApplicationVersion`, `elasticbeanstalk:UpdateEnvironment`).*\n7.  Click **Next**, then **Create user**.\n8.  **Important:** Copy the `Access key ID` and `Secret access key`. You will need these for GitHub Secrets. **Do not close this window until you have saved them.**\n\n### Create Elastic Beanstalk Application and Environment\n\n1.  Go to the AWS Elastic Beanstalk Console.\n2.  Click **Create a new environment**.\n3.  Choose **Web server environment**. Click **Select**.\n4.  **Environment name:** Enter `MyFlaskWebApp-env` (or your desired name).\n    *   The application name will automatically be `MyFlaskWebApp`.\n5.  **Platform:** Select **Docker**.\n6.  **Application code:** Choose **Sample application** for now. We'll deploy our own code via GitHub Actions later.\n7.  Click **Create environment**.\n8.  Wait for the environment to provision (this can take several minutes).\n\n**Once the environment is running:**\n\n*   Go to your environment's configuration page.\n*   Under **Software**, click **Edit**.\n*   Ensure that the **Proxy server** is set to `Nginx` (default).\n*   If you need to change the **Container port**, ensure it matches the `EXPOSE` in your `Dockerfile` and `ContainerPort` in `Dockerrun.aws.json` (which is 5000 in our case).\n*   Go to **Load balancer** (if using one) -> **Listeners**. Ensure the HTTP listener is configured correctly and the health check path is `/health` (our custom health check endpoint).\n\n---\n\n## 6. Step 3: GitHub Secrets Configuration\n\nYou need to store your AWS credentials securely in your GitHub repository.\n\n1.  Go to your GitHub repository.\n2.  Click on **Settings** -> **Secrets and variables** -> **Actions**.\n3.  Click **New repository secret**.\n4.  Create two secrets:\n    *   **Name:** `AWS_ACCESS_KEY_ID`\n        *   **Value:** Your AWS IAM user's Access Key ID\n    *   **Name:** `AWS_SECRET_ACCESS_KEY`\n        *   **Value:** Your AWS IAM user's Secret Access Key\n\n---\n\n## 7. Step 4: GitHub Actions Workflow (`.github/workflows/main.yml`)\n\nCreate the file `.github/workflows/main.yml` in your repository with the following content:\n\n```yaml\nname: Flask CI/CD to AWS Elastic Beanstalk\n\non:\n  push:\n    branches:\n      - main # Trigger on pushes to the main branch\n\nenv:\n  AWS_REGION: us-east-1             # Your AWS region (e.g., us-west-2, eu-central-1)\n  EB_APPLICATION_NAME: MyFlaskWebApp # The name of your Elastic Beanstalk application\n  EB_ENVIRONMENT_NAME: MyFlaskWebApp-env # The name of your Elastic Beanstalk environment\n\njobs:\n  build_and_test:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v3\n\n      - name: Build Docker image\n        run: docker build -t my-flask-app .\n\n      - name: Run tests inside Docker container\n        # This command runs pytest within the built Docker image\n        run: docker run my-flask-app python -m pytest /app/tests\n\n      - name: Create deployment package\n        # Zip all necessary files for Elastic Beanstalk deployment\n        # The .zip file should contain: Dockerfile, Dockerrun.aws.json, wsgi.py, requirements.txt, and the app/ directory\n        run: |\n          zip -r deploy.zip . -x \".git/*\" \".github/*\" \"*/__pycache__/*\" \"*.DS_Store\"\n\n      - name: Upload deployment package as artifact\n        uses: actions/upload-artifact@v3\n        with:\n          name: flask-app-deploy\n          path: deploy.zip\n          retention-days: 5 # Keep artifact for 5 days\n\n  deploy:\n    needs: build_and_test # This job depends on the build_and_test job succeeding\n    runs-on: ubuntu-latest\n    steps:\n      - name: Download deployment package artifact\n        uses: actions/download-artifact@v3\n        with:\n          name: flask-app-deploy\n          path: . # Downloads deploy.zip to the current directory\n\n      - name: Configure AWS credentials\n        uses: aws-actions/configure-aws-credentials@v2\n        with:\n          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}\n          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}\n          aws-region: ${{ env.AWS_REGION }}\n\n      - name: Deploy to Elastic Beanstalk\n        uses: aws-actions/elastic-beanstalk-deploy@v1\n        with:\n          application_name: ${{ env.EB_APPLICATION_NAME }}\n          environment_name: ${{ env.EB_ENVIRONMENT_NAME }}\n          version_label: flask-app-${{ github.sha }} # Unique version label for each deployment\n          deployment_package: deploy.zip # The action will handle uploading this to S3 for EB\n```\n\n---\n\n## 8. Step 5: Testing the Pipeline\n\n1.  **Commit and Push:** Commit all the files (Flask app, Dockerfile, `Dockerrun.aws.json`, and `.github/workflows/main.yml`) to your `main` branch.\n    ```bash\n    git add .\n    git commit -m \"Initial Flask app and CI/CD setup\"\n    git push origin main\n    ```\n2.  **Monitor GitHub Actions:**\n    *   Go to your GitHub repository -> **Actions** tab.\n    *   You should see a new workflow run triggered by your push to `main`.\n    *   Click on the running workflow to view the progress of the `build_and_test` and `deploy` jobs.\n3.  **Monitor AWS Elastic Beanstalk:**\n    *   Go to your Elastic Beanstalk environment.\n    *   In the **Events** timeline, you should see events related to new application version deployment, environment updates, etc.\n4.  **Verify Deployment:**\n    *   Once the GitHub Actions workflow completes successfully and Elastic Beanstalk indicates the environment is \"OK\", copy the environment URL from the Elastic Beanstalk console.\n    *   Open it in your browser. You should see: `Hello from Flask on Elastic Beanstalk with CI/CD!`\n    *   Navigate to `/health` on your application URL; you should see `OK`.\n\nCongratulations! You have successfully set up a CI/CD pipeline for your Flask application using GitHub Actions, Docker, and AWS Elastic Beanstalk.\n\n---\n\n## 9. Troubleshooting\n\n*   **GitHub Actions Failure:**\n    *   Check the logs of the failed job in the GitHub Actions tab. Error messages are usually descriptive.\n    *   **Permission issues:** Double-check your AWS IAM user policies. `AWSElasticBeanstalkFullAccess` and `AmazonS3FullAccess` should cover most cases for this setup.\n    *   **Docker build issues:** Test building your Docker image locally (`docker build -t my-flask-app .`).\n    *   **Test failures:** Run tests locally (`docker run my-flask-app python -m pytest /app/tests`).\n    *   **Artifact upload/download:** Ensure `upload-artifact` and `download-artifact` steps have correct `name` and `path`.\n*   **Elastic Beanstalk Deployment Failure:**\n    *   **Environment Health:** Check the Elastic Beanstalk environment health status in the console.\n    *   **Events:** Look at the \"Events\" tab for your environment in the EB console for detailed logs from EB itself.\n    *   **Logs:** Go to your EB environment -> **Logs** -> **Request Logs** (for Nginx/Gunicorn access/error logs) or **Bundle Logs** (for full system logs including Docker build issues).\n    *   **`Dockerrun.aws.json` / `Dockerfile`:** Ensure port 5000 is exposed in `Dockerfile` and specified in `Dockerrun.aws.json`.\n    *   **Health Check URL:** Verify the health check URL in your EB Load Balancer settings is correctly set to `/health`.\n    *   **Dependencies:** If the application starts but then fails, it might be missing Python dependencies. Check `requirements.txt` and ensure `pip install` completes successfully in the Docker build logs.\n*   **AWS Region/Names:** Ensure `AWS_REGION`, `EB_APPLICATION_NAME`, and `EB_ENVIRONMENT_NAME` in your `.github/workflows/main.yml` match your AWS setup exactly.\n\n## 10. Further Improvements\n\n*   **Multi-stage Docker Builds:** Use a multi-stage `Dockerfile` to create a smaller, production-ready image by excluding development/testing dependencies like `pytest`.\n*   **Amazon ECR (Elastic Container Registry):** Instead of having Elastic Beanstalk build the image, push your Docker image to ECR after a successful build in GitHub Actions, and then have `Dockerrun.aws.json` point to the ECR image. This can speed up deployments and decouple image building from EB.\n*   **Custom IAM Policies:** Implement granular IAM policies instead of `*FullAccess` to enhance security.\n*   **VPC and Networking:** Configure your Elastic Beanstalk environment within a custom VPC, private subnets, and security groups for better network isolation and security.\n*   **Environment Variables:** Manage sensitive application configurations (e.g., database credentials) using Elastic Beanstalk environment properties.\n*   **HTTPS/Custom Domain:** Configure a custom domain and SSL certificate (e.g., from AWS Certificate Manager) for HTTPS access.\n*   **Database Integration:** Integrate with AWS RDS for persistent data storage.\n*   **Blue/Green Deployment:** For zero-downtime deployments, consider implementing blue/green deployments (e.g., using a separate environment or `aws-actions/elastic-beanstalk-deploy`'s swap URLs feature).\n*   **Code Quality/Linting:** Add steps to your CI pipeline for code linting (e.g., `flake8`, `black`) and security scanning.",
     "ig_handle": "jazzxover",
-    "last_analyzed_at": "2025-12-11T15:10:40.560630+09:00",
+    "last_analyzed_at": "2025-12-19T05:45:55.920906+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -2841,22 +2716,20 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "Jazzxover",
-        "address_text": "서울 성동구 성수동2가 277-138",
+        "name": "JAZZXOVER",
+        "address_text": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.5434061241534,
-        "location_lon": 127.06070275861,
-        "subway_nearby": "2호선 성수역 2번 출구에서 335m",
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Jazzxover",
-            "ko": "재즈엑스오버"
+            "en": "JAZZXOVER"
           },
           "address_text": {
-            "en": "277-138, Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
-            "ko": "서울 성동구 성수동2가 277-138"
+            "en": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea"
           },
           "notes": null
         }
@@ -2864,15 +2737,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Jazzxover",
-        "ko": "재즈엑스오버"
+        "en": "JAZZXOVER"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "335m from Seongsu Station Exit 2 on Line 2",
-        "ko": "2호선 성수역 2번 출구에서 335m"
+        "en": "Seongsu Station Line 2, Exit 2, 335m away"
       },
       "food_policy": null,
       "age_limit": null
@@ -2944,74 +2815,52 @@
     }
   },
   {
-    "raw": "The problem describes finding the \"special sum\" of a positive integer `N`. This \"special sum\" is defined as the sum of its digits, then the sum of the digits of that sum, and so on, until the sum becomes a single-digit number. This concept is formally known as the **digital root** of a number.\n\nThere are two main ways to solve this:\n\n1.  **Iterative Summation:**\n    *   Repeatedly calculate the sum of digits until the sum is less than 10.\n    *   This approach directly follows the problem's definition.\n\n2.  **Mathematical Property (Digital Root Formula):**\n    *   There's a well-known mathematical property for the digital root of a positive integer `N`:\n        *   If `N` is 0, its digital root is 0.\n        *   If `N` is a positive multiple of 9, its digital root is 9.\n        *   Otherwise, its digital root is `N % 9`.\n    *   This can be concisely expressed as `1 + (N - 1) % 9` for `N > 0`.\n\nLet's illustrate with an example: `N = 987`\n\n*   **Iterative Method:**\n    1.  `9 + 8 + 7 = 24`\n    2.  `2 + 4 = 6`\n    3.  `6` is a single digit, so the special sum is `6`.\n\n*   **Mathematical Property Method:**\n    1.  `N = 987`\n    2.  `987 % 9 = 6`\n    3.  Since `987` is not 0 and not a multiple of 9 (remainder is not 0), the digital root is `6`.\n    4.  Using the condensed formula: `1 + (987 - 1) % 9 = 1 + 986 % 9 = 1 + 5 = 6`.\n\nThe mathematical property method is significantly more efficient as it's an O(1) operation (constant time, independent of the size of N), whereas the iterative method's performance depends on the number of digits in N.\n\n### Python Solution (Mathematical Property Method)\n\nThis is the most efficient and elegant solution.\n\n```python\ndef special_sum(N: int) -> int:\n    \"\"\"\n    Calculates the special sum (digital root) of a positive integer N.\n\n    The special sum is found by repeatedly summing the digits of a number\n    until a single-digit number is obtained.\n\n    Args:\n        N: A positive integer.\n\n    Returns:\n        The single-digit special sum.\n    \"\"\"\n    if N == 0:\n        return 0\n    \n    # The digital root of a positive integer N is given by 1 + (N - 1) % 9.\n    # This formula correctly handles all cases:\n    # - If N is a multiple of 9 (e.g., 9, 18), (N - 1) % 9 will be 8,\n    #   so 1 + 8 = 9.\n    # - If N is not a multiple of 9 (e.g., 10, 24), (N - 1) % 9 will be\n    #   (N % 9) - 1, so 1 + ((N % 9) - 1) = N % 9.\n    return 1 + (N - 1) % 9\n\n# --- Test Cases ---\nprint(f\"Special sum of 987: {special_sum(987)}\")  # Expected: 6\nprint(f\"Special sum of 10: {special_sum(10)}\")    # Expected: 1\nprint(f\"Special sum of 1: {special_sum(1)}\")      # Expected: 1\nprint(f\"Special sum of 9: {special_sum(9)}\")      # Expected: 9\nprint(f\"Special sum of 18: {special_sum(18)}\")    # Expected: 9\nprint(f\"Special sum of 12345: {special_sum(12345)}\") # 1+2+3+4+5=15; 1+5=6. Expected: 6\nprint(f\"Special sum of 0: {special_sum(0)}\")      # Expected: 0 (handling N=0)\n\n```\n\n### Python Solution (Iterative Method)\n\nThis method is also correct and directly implements the definition.\n\n```python\ndef sum_digits_of_num(num: int) -> int:\n    \"\"\"Helper function to sum the digits of a single number.\"\"\"\n    digit_sum = 0\n    # Handle negative numbers if necessary, but problem states positive N.\n    # num = abs(num) \n    while num > 0:\n        digit_sum += num % 10  # Add the last digit\n        num //= 10             # Remove the last digit\n    return digit_sum\n\ndef special_sum_iterative(N: int) -> int:\n    \"\"\"\n    Calculates the special sum of a positive integer N using iteration.\n    \"\"\"\n    if N == 0:\n        return 0\n    \n    current_sum = N\n    while current_sum >= 10:\n        current_sum = sum_digits_of_num(current_sum)\n    \n    return current_sum\n\n# --- Test Cases ---\nprint(\"\\n--- Iterative Method ---\")\nprint(f\"Special sum of 987: {special_sum_iterative(987)}\")  # Expected: 6\nprint(f\"Special sum of 10: {special_sum_iterative(10)}\")    # Expected: 1\nprint(f\"Special sum of 1: {special_sum_iterative(1)}\")      # Expected: 1\nprint(f\"Special sum of 9: {special_sum_iterative(9)}\")      # Expected: 9\nprint(f\"Special sum of 18: {special_sum_iterative(18)}\")    # Expected: 9\nprint(f\"Special sum of 12345: {special_sum_iterative(12345)}\") # Expected: 6\nprint(f\"Special sum of 0: {special_sum_iterative(0)}\")      # Expected: 0\n```",
+    "raw": "Crafting \"Special Instructions\" for your prompts is a powerful way to guide AI models to produce highly specific, accurate, and desired outputs. Think of them as the \"rules of engagement\" or the \"project brief\" for the AI.\n\nThey typically appear at the very beginning of your prompt, clearly delineated, and set the stage before you introduce the main task.\n\n---\n\n## What are \"Special Instructions\"?\n\n\"Special Instructions\" are a set of directives, constraints, persona assignments, formatting requirements, and meta-level guidance that you provide to an AI model *before* giving it the core task. Their purpose is to define the boundaries and desired characteristics of the AI's response, making the output more consistent, relevant, and aligned with your expectations.\n\n## Why Use Special Instructions?\n\n1.  **Clarity & Precision:** Eliminate ambiguity about what you want.\n2.  **Consistency:** Ensure the AI adheres to a specific style, tone, or format across multiple interactions.\n3.  **Efficiency:** Reduce the need for follow-up prompts or edits.\n4.  **Control:** Prevent the AI from hallucinating, going off-topic, or generating unwanted content.\n5.  **Persona Adoption:** Make the AI \"act\" as a specific expert, character, or role.\n6.  **Context Setting:** Provide background information that the AI needs to understand the request fully.\n\n## Common Elements of Special Instructions:\n\nHere are the categories and examples of what you might include in your special instructions:\n\n### 1. **Role/Persona Assignment:**\n*   **Purpose:** Tell the AI to adopt a specific identity or expertise.\n*   **Examples:**\n    *   \"You are an experienced marketing strategist specializing in SaaS.\"\n    *   \"Act as a strict editor focusing on conciseness and clarity.\"\n    *   \"You are a friendly and encouraging fitness coach.\"\n    *   \"Assume the persona of a senior backend engineer.\"\n\n### 2. **Tone & Style:**\n*   **Purpose:** Define the emotional quality and linguistic characteristics of the output.\n*   **Examples:**\n    *   \"Maintain a professional, formal, and authoritative tone.\"\n    *   \"Write in a lighthearted, humorous, and conversational style.\"\n    *   \"Be empathetic and supportive, avoiding jargon.\"\n    *   \"Use concise, direct, and action-oriented language.\"\n\n### 3. **Format & Structure:**\n*   **Purpose:** Specify how the output should be organized and presented.\n*   **Examples:**\n    *   \"Present the information as a bulleted list.\"\n    *   \"Structure the response in Markdown, using headings and subheadings.\"\n    *   \"Output must be valid JSON.\"\n    *   \"Provide a numbered list of steps.\"\n    *   \"Begin with a 1-paragraph summary, followed by detailed explanations.\"\n\n### 4. **Constraints & Limitations:**\n*   **Purpose:** Set boundaries on content, length, or specific things to avoid.\n*   **Examples:**\n    *   \"The response must be under 200 words.\"\n    *   \"Do NOT mention any specific brands or product names.\"\n    *   \"Focus ONLY on benefits, not features.\"\n    *   \"Ensure all facts are cited from reputable sources (do not invent sources).\"\n    *   \"Avoid using clichés or common idioms.\"\n    *   \"Only answer questions related to web development.\"\n\n### 5. **Context & Background Information:**\n*   **Purpose:** Provide necessary information for the AI to understand the prompt's nuances.\n*   **Examples:**\n    *   \"The target audience for this content is beginners with no prior knowledge.\"\n    *   \"This article is for a blog post on a tech startup's website.\"\n    *   \"The user is a busy executive who needs quick, actionable insights.\"\n    *   \"My company sells eco-friendly cleaning products.\"\n\n### 6. **Meta-Instructions (How to Process):**\n*   **Purpose:** Guide the AI on its thought process or how it should handle the interaction.\n*   **Examples:**\n    *   \"Think step-by-step before providing your final answer.\"\n    *   \"If you need more information, ask clarifying questions.\"\n    *   \"Acknowledge these instructions before proceeding.\"\n    *   \"If a question is outside your knowledge domain, state so explicitly.\"\n\n## Best Practices for Writing Special Instructions:\n\n1.  **Place Them First:** Always at the top of your prompt, before the main query.\n2.  **Be Explicit and Specific:** Avoid vague language. Instead of \"make it good,\" say \"ensure the arguments are well-supported with evidence.\"\n3.  **Use Clear Formatting:** Use bullet points, numbered lists, bold text, or distinct paragraphs to make instructions easy for the AI to parse.\n4.  **Prioritize:** List the most critical instructions first.\n5.  **Be Concise:** Get straight to the point.\n6.  **Use Positive Framing:** Tell the AI what *to do* rather than what *not to do* whenever possible (e.g., \"Use active voice\" instead of \"Don't use passive voice\").\n7.  **Test and Iterate:** If the AI isn't getting it right, refine your instructions.\n\n---\n\n## Example Scenarios:\n\nHere's how you might combine these elements into effective \"Special Instructions\":\n\n### Scenario 1: Blog Post Content Creation\n\n```\n**Special Instructions:**\n- You are a knowledgeable content marketer specializing in SEO for B2B SaaS companies.\n- The target audience is marketing managers looking for practical advice.\n- Maintain an informative, professional, and slightly enthusiastic tone.\n- The output should be formatted in Markdown with a clear title, H2 subheadings, and bullet points where appropriate.\n- Ensure the article is optimized for readability and scannability.\n- Avoid overly technical jargon and explain any necessary technical terms simply.\n- Do NOT include a conclusion or call to action; focus solely on the body content.\n\n**Main Task:**\nWrite an article explaining 3 actionable strategies for improving organic search rankings for a new SaaS product, focusing on content marketing tactics.\n```\n\n### Scenario 2: Data Extraction and Summarization\n\n```\n**Special Instructions:**\n- You are a data analyst.\n- The output MUST be in valid JSON format.\n- Extract only the 'product_name', 'price', and 'availability_status' from the provided text.\n- If 'availability_status' is not explicitly mentioned, assume 'In Stock'.\n- Group the products under a single JSON array named 'products'.\n- Do NOT include any introductory or concluding remarks; just the JSON.\n\n**Main Task:**\nAnalyze the following product descriptions and extract the specified data:\n\"Product A: The Amazing Gadget, priced at $99.99. Limited stock available.\nProduct B: The Super Widget, $49.50. Currently out of stock.\nProduct C: The Ultimate Gizmo, only $120.00.\"\n```\n\n### Scenario 3: Creative Writing - Story Prompt\n\n```\n**Special Instructions:**\n- You are a creative writer specializing in sci-fi fantasy.\n- The story should be set in a dystopian future where nature has reclaimed cities.\n- The mood should be melancholic and reflective, yet with a hint of hope.\n- Focus on descriptive language, particularly sensory details (sight, sound, smell).\n- Introduce a protagonist who is an old scavenger.\n- The story should be approximately 300 words.\n- Do NOT introduce any other characters.\n\n**Main Task:**\nWrite a short story about an old scavenger discovering a forgotten relic in the ruins of a collapsed skyscraper.\n```\n\n---\n\nBy consistently applying \"Special Instructions,\" you'll find that your interactions with AI models become much more efficient and the quality of their output significantly improves.",
     "ig_handle": "jrja_roy",
-    "last_analyzed_at": "2025-12-10T14:53:00.106585+09:00",
+    "last_analyzed_at": "2025-12-17T16:20:13.084424+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-12-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-12-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-24/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-16/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-15/profile.json",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=5393230292943843725",
-      "maps:https://maps.google.com/?cid=12961168892280702927",
-      "maps:https://maps.google.com/?cid=4106408759488744447",
-      "maps:https://maps.google.com/?cid=16304753398286188968",
-      "maps:https://maps.google.com/?cid=5936925627923403423",
-      "maps:https://maps.google.com/?cid=17441298849254633058",
-      "maps:https://maps.google.com/?cid=18103884637851195875",
-      "maps:https://maps.google.com/?cid=4561401043917096143",
-      "maps:https://maps.google.com/?cid=2095809664248845139",
-      "maps:https://maps.google.com/?cid=16693826049875737167",
-      "maps:https://maps.google.com/?cid=6572639563358631112",
-      "maps:https://maps.google.com/?cid=17671353726141817992",
-      "maps:https://maps.google.com/?cid=7855199652409796780",
-      "maps:https://maps.google.com/?cid=8426830491845882428",
-      "maps:https://maps.google.com/?cid=6720482472125146926",
-      "maps:https://maps.google.com/?cid=8816785685119642120",
-      "maps:https://maps.google.com/?cid=11008665381407066468",
-      "maps:https://maps.google.com/?cid=6087030527074110830",
-      "maps:https://maps.google.com/?cid=14710763701329609732",
+      "maps:https://maps.google.com/?cid=16113452973903227162",
+      "maps:https://maps.google.com/?cid=15234906910508222336",
+      "maps:https://maps.google.com/?cid=16110422360233387664",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/jrja_roy",
       "homepage": "https://m.blog.naver.com/roy_jazz_art_hall?proxyReferer=https%253A%252F%252Fm.place.naver.com%252Fplace%252F1396699431%252Fhome%253Fentry%253Dpll%2526view%253Dblog_blog_e704d02780a2eb77720bf703f86c57cb_419114969&tab=1&trackingCode=naver_place",
       "booking": null,
-      "google_map": null
+      "google_map": "https://maps.google.com/?cid=16113452973903227162"
     },
     "contacts": {
-      "phone": "0507-1335-0814",
+      "phone": "02-2274-2121",
       "email": null
     },
-    "websites": [
-      "https://www.instagram.com/jrja_roy",
-      "https://m.blog.naver.com/roy_jazz_art_hall?proxyReferer=https%253A%252F%252Fm.place.naver.com%252Fplace%252F1396699431%252Fhome%253Fentry%253Dpll%2526view%253Dblog_blog_e704d02780a2eb77720bf703f86c57cb_419114969&tab=1&trackingCode=naver_place"
-    ],
+    "subway_nearby": "Euljiro 3(sam)ga Station",
     "locations": [
       {
         "location_id": "main",
-        "name": "로이 재즈 아트홀",
-        "address_text": "서울 종로구 삼일대로 428",
+        "name": "명보아트홀",
+        "address_text": "47 Mareunnae-ro, Jung District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.5727635233966,
-        "location_lon": 126.987902476529,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Roy Jazz Art Hall",
-            "ko": "로이 재즈 아트홀"
+            "en": "Myeongbo Art Hall"
           },
           "address_text": {
-            "en": "428 Samil-daero, Jongno District, Seoul, South Korea",
-            "ko": "서울 종로구 삼일대로 428"
+            "en": "47 Mareunnae-ro, Jung District, Seoul, South Korea"
           },
           "notes": null
         }
@@ -3019,22 +2868,14 @@
     ],
     "i18n": {
       "name": {
-        "en": "Roy Jazz Art Hall",
-        "ko": "로이 재즈 아트홀"
+        "en": "Myeongbo Art Hall"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Jazz",
-          "Performance Hall"
-        ],
-        "ko": [
-          "재즈",
-          "공연장"
-        ]
+      "genres": null,
+      "subway_nearby": {
+        "en": "Euljiro 3(sam)ga Station"
       },
-      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -3326,78 +3167,28 @@
     }
   },
   {
-    "raw": "When examining a medieval noble's wardrobe (roughly 12th-15th centuries, as \"medieval\" is a broad period, but typically focuses on High to Late Medieval fashion), you're looking for overt displays of wealth, status, and adherence to sumptuary laws. The clothing wasn't just functional; it was a carefully constructed statement.\n\nHere's what to look for:\n\n### 1. Materials: The Ultimate Indicator of Wealth\n\n*   **Silk:** The most coveted fabric. Look for:\n    *   **Brocade:** Elaborately woven patterns, often incorporating gold or silver thread.\n    *   **Velvet:** A luxurious pile fabric, often patterned (ciselé velvet).\n    *   **Damask:** Reversible figured fabric with patterns woven into it.\n    *   **Satin:** Smooth, glossy silk.\n*   **Fine Wool:** While wool was common, noble wool would be of the finest weave, tightly spun, and often imported from places like Flanders. It would be soft, not scratchy.\n*   **Linen:** Used for undergarments (chemises, shirts, braies) due to its breathability and ease of washing. For nobles, it would be extremely fine and bleached white.\n*   **Furs:** Essential for warmth and status. Look for:\n    *   **Ermine:** White fur with black tips (from the tail of the stoat) – *the* quintessential royal and high noble fur. Often seen as lining cloaks or trimming collars/cuffs.\n    *   **Sable, Marten, Lynx:** Other expensive, dark, soft furs used for lining and trim.\n    *   Less expensive furs like rabbit or squirrel were for lesser nobility or inner linings.\n\n### 2. Colors & Dyes: The Mark of Expensive Production\n\n*   **Vibrant, Saturated Hues:** The ability to achieve bright, stable colors was extremely expensive and difficult. Look for:\n    *   **Rich Reds:** Achieved with kermes or later cochineal dyes, highly prized.\n    *   **Deep Blues:** From indigo or woad.\n    *   **Emerald Greens:** Often a compound dye.\n    *   **Royal Purples:** Extremely rare and expensive, historically derived from murex snails (Tyrian purple) or later from lichen (orchil/cudbear), often reserved for royalty. More common was a mix of red and blue dyes to approximate purple.\n*   **\"Fast\" Colors:** Dyes that wouldn't fade or run easily were a sign of quality.\n\n### 3. Styles & Silhouettes: Fashion and Status\n\n*   **Layers:** Clothing was worn in multiple layers.\n    *   **Undergarments:** Fine linen chemise/shirt closest to the skin.\n    *   **Kirtle/Cotehardie:** A fitted underdress or tunic.\n    *   **Outer Gown/Houppelande:** The main display garment.\n*   **Voluminous & Trailing Fabrics:**\n    *   **Trains:** Long, trailing skirts on women's gowns and men's houppelandes. The longer the train, the higher the status (impracticality = wealth).\n    *   **Exaggerated Sleeves:** Wide, flowing sleeves (e.g., the trumpet sleeves of a houppelande), often dagged (cut into decorative points or scallops).\n*   **Fitted Bodices:** Especially for women, emphasizing a slender upper body and high waist.\n*   **High Necklines:** Often standing collars, especially on houppelandes.\n*   **Sumptuary Laws:** These laws dictated what materials, colors, and styles different social classes could wear. Nobles were exempt from most restrictions, allowing them to wear anything.\n\n### 4. Embellishments & Details: Craftsmanship and Bling\n\n*   **Embroidery:**\n    *   **Gold and Silver Thread:** Woven into fabric or embroidered on its surface.\n    *   **Pearls and Precious Stones:** Sewn onto garments, especially necklines, cuffs, and belts.\n    *   **Heraldry:** Embroidered or appliquéd coats of arms or family badges.\n*   **Trims:** Contrasting fabrics, braids, tassels, and decorative stitching.\n*   **Buttons:** Many small, decorative, often metal buttons were used on tight-fitting garments like cotehardies and sleeves.\n*   **Dagging:** Decorative scalloping or cutting on the edges of sleeves, hems, and liripipes (the long tail of a chaperon hood).\n\n### 5. Accessories: Completing the Noble Look\n\n*   **Belts:** Ornate, often jewel-encrusted or made of expensive metals, worn low on the hips or high under the bust. Small purses (aumônières) might hang from them.\n*   **Jewelry:** Brooches (to fasten cloaks or decorate gowns), rings, necklaces, girdles (decorative belts).\n*   **Headwear:**\n    *   **Women:** Elaborate hennins (cone-shaped hats), escofions (horned headdresses), padded rolls, veils of fine silk or linen.\n    *   **Men:** Chaperons (hoods with long liripipes draped decoratively), ornate felt or fabric hats.\n*   **Footwear:** Pointed shoes (poulaines or crakows), often made of fine leather or silk, sometimes brightly colored. The longer the toe, the higher the status.\n\n### In Summary:\n\nWhen looking at a medieval noble's wardrobe, the key is **ostentatious display**. Every element, from the fabric's origin to the length of a sleeve, was chosen to signal immense wealth, high status, and a life free from manual labor. It was a walking billboard of their position in the feudal hierarchy.",
+    "raw": "To run a Python script at boot as a specific user using `systemd`, you'll need to create a service unit file. This is the recommended and most robust way to manage long-running processes on Linux systems using `systemd`.\n\nHere's a step-by-step guide:\n\n### 1. Prepare Your Python Script\n\nMake sure your Python script (`my_python_script.py`) is located in a suitable directory, for example, `/opt/my_script/`.\n\n**Example Script (`/opt/my_script/my_python_script.py`):**\n\n```python\nimport time\nimport datetime\nimport os\n\nLOG_FILE = \"/var/log/my_python_script.log\" # Or use systemd's journal\n\ndef main():\n    with open(LOG_FILE, \"a\") as f:\n        f.write(f\"[{datetime.datetime.now()}] Script started by user {os.getlogin()} ({os.geteuid()}). PID: {os.getpid()}\\n\")\n    print(f\"[{datetime.datetime.now()}] My Python script is running...\")\n    \n    try:\n        while True:\n            # Your script's main logic goes here\n            message = f\"[{datetime.datetime.now()}] Doing some work...\\n\"\n            print(message.strip()) # This goes to systemd journal\n            with open(LOG_FILE, \"a\") as f: # This goes to a custom log file\n                f.write(message)\n            time.sleep(60) # Run every minute\n    except KeyboardInterrupt:\n        print(f\"[{datetime.datetime.now()}] Script interrupted.\")\n    finally:\n        with open(LOG_FILE, \"a\") as f:\n            f.write(f\"[{datetime.datetime.now()}] Script finished.\\n\")\n        print(f\"[{datetime.datetime.now()}] Script finished.\")\n\nif __name__ == \"__main__\":\n    main()\n```\n\n**Permissions for the script:**\n\nEnsure the user you intend to run the script as (`myuser` in this example) has read and execute permissions for the script and read/write permissions for its directory if needed.\n\n```bash\nsudo mkdir -p /opt/my_script\nsudo chown -R myuser:myuser /opt/my_script\nsudo chmod 755 /opt/my_script/my_python_script.py\n```\n\n### 2. Create the systemd Service Unit File\n\nCreate a new file for your service, typically in `/etc/systemd/system/`. Let's name it `my-python-script.service`.\n\n```bash\nsudo nano /etc/systemd/system/my-python-script.service\n```\n\nPaste the following content, adjusting the paths and user/group as needed:\n\n```ini\n[Unit]\nDescription=My Python Script Service\n# Start after network and logging facilities are available\nAfter=network.target syslog.target multi-user.target\n\n[Service]\n# User and group to run the script as\nUser=myuser\nGroup=myuser\n\n# Specify the working directory for the script\n# This is important if your script uses relative paths\nWorkingDirectory=/opt/my_script/\n\n# The command to execute.\n# Use the full path to your Python interpreter and script.\n# If using a virtual environment, replace /usr/bin/python3 with \n# e.g., /opt/my_script/venv/bin/python\nExecStart=/usr/bin/python3 /opt/my_script/my_python_script.py\n\n# Restart policy:\n# 'on-failure' will restart the service if it exits with a non-zero status\n# 'always' will restart it even if it exits cleanly\nRestart=on-failure\nRestartSec=5s # Wait 5 seconds before attempting to restart\n\n# Standard output and error will be directed to the systemd journal\nStandardOutput=journal\nStandardError=journal\n\n# Defines the service type. 'simple' is common for scripts like this.\nType=simple\n\n[Install]\n# This unit should be started when the system reaches the multi-user graphical or console target.\nWantedBy=multi-user.target\n```\n\n**Key points in the service file:**\n\n*   **`User=myuser` / `Group=myuser`**: **CRITICAL** for running the script as a specific non-root user. Make sure `myuser` exists on your system (`sudo adduser myuser`).\n*   **`WorkingDirectory=/opt/my_script/`**: Sets the current working directory for the script, important for relative paths.\n*   **`ExecStart=/usr/bin/python3 /opt/my_script/my_python_script.py`**: The actual command that starts your script.\n    *   **Python Interpreter:** Use the full path to your Python interpreter (e.g., `/usr/bin/python3`, `/usr/local/bin/python3`).\n    *   **Virtual Environment:** If you use a `venv`, you *must* specify the Python interpreter inside the virtual environment:\n        `ExecStart=/opt/my_script/venv/bin/python /opt/my_script/my_python_script.py`\n*   **`Restart=on-failure`**: Ensures your script is restarted automatically if it crashes.\n*   **`StandardOutput=journal` / `StandardError=journal`**: Sends all output (both stdout and stderr) to the `systemd` journal, which can be viewed with `journalctl`. This is the modern and recommended way for logging.\n*   **`WantedBy=multi-user.target`**: This ensures the service starts automatically when the system boots up into a multi-user environment.\n\n### 3. Reload systemd, Enable, and Start the Service\n\nAfter creating or modifying the service file, you need to tell `systemd` to reload its configuration, then enable and start your service.\n\n1.  **Reload systemd daemon:**\n    ```bash\n    sudo systemctl daemon-reload\n    ```\n\n2.  **Enable the service (to start at boot):**\n    ```bash\n    sudo systemctl enable my-python-script.service\n    ```\n\n3.  **Start the service immediately:**\n    ```bash\n    sudo systemctl start my-python-script.service\n    ```\n\n### 4. Check the Service Status and Logs\n\nYou can verify that your service is running and check its output.\n\n1.  **Check status:**\n    ```bash\n    sudo systemctl status my-python-script.service\n    ```\n    You should see `Active: active (running)`.\n\n2.  **View logs:**\n    ```bash\n    sudo journalctl -u my-python-script.service -f\n    ```\n    The `-u` flag specifies the unit, and `-f` (follow) will show new log entries in real-time. You should see the `print()` statements from your Python script here.\n\n### To Stop and Disable the Service\n\nIf you need to stop your script and prevent it from starting at boot:\n\n```bash\nsudo systemctl stop my-python-script.service\nsudo systemctl disable my-python-script.service\n```\n\n### Important Considerations:\n\n*   **User Existence:** Ensure the user specified in `User=` (e.g., `myuser`) actually exists on your system.\n*   **Permissions:** Double-check that `myuser` has the necessary read/write/execute permissions for the script, its directory, any log files, and any other resources it needs to access.\n*   **Python Interpreter Path:** Always use the full, absolute path to your Python interpreter.\n*   **Virtual Environments:** If you're using a virtual environment, ensure your `ExecStart` command points to the `python` executable *inside* that virtual environment (e.g., `/path/to/venv/bin/python`).\n*   **Relative Paths in Script:** If your script uses relative paths to access other files, ensure `WorkingDirectory` is set correctly to the base directory of your script.\n*   **Dependencies:** If your script relies on other services (e.g., a database, a specific network connection, or an external API), you might need to add more `After=` dependencies to `[Unit]` to ensure those services are fully up before your script starts.\n*   **Environment Variables:** If your script needs specific environment variables, you can set them in the `[Service]` section using `Environment=\"VAR=value\"` or `EnvironmentFile=/path/to/envfile`.",
     "ig_handle": "milestones_jazz",
-    "last_analyzed_at": "2025-12-10T14:56:04.040214+09:00",
+    "last_analyzed_at": "2025-12-17T16:25:25.508362+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-12-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-18/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-12/profile.json",
-      "maps:https://maps.google.com/?cid=2190136828111905418",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=14714176468931161517",
-      "maps:https://maps.google.com/?cid=9176070558265640633",
-      "maps:https://maps.google.com/?cid=1199590693163131108",
-      "maps:https://maps.google.com/?cid=2955420704049297629",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/milestones_jazz",
-      "homepage": null,
-      "booking": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll",
-      "google_map": "https://maps.google.com/?cid=1629884300631888791"
+      "booking": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll"
     },
     "contacts": {
-      "phone": "02-795-5701",
-      "email": null
-    },
-    "genres": [
-      "Bar",
-      "Live Music"
-    ],
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "All That Jazz",
-        "address_text": "South Korea, Seoul, Yongsan District, Itaewon-ro, 216 2층",
-        "address_components": null,
-        "location_lat": 37.534754,
-        "location_lon": 126.998166,
-        "subway_nearby": null,
-        "booking_link": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll",
-        "notes": null,
-        "i18n": {
-          "name": {
-            "en": "All That Jazz"
-          },
-          "address_text": {
-            "en": "2F, 216, Itaewon-ro, Yongsan-gu, Seoul, South Korea"
-          },
-          "notes": null
-        }
-      }
-    ],
-    "i18n": {
-      "name": {
-        "en": "All That Jazz"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": {
-        "en": [
-          "Bar",
-          "Live Music"
-        ]
-      },
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
+      "email": null,
+      "phone": null
     }
   },
   {
@@ -3874,19 +3665,19 @@
     }
   },
   {
-    "raw": "{}",
+    "raw": "Understood. I will use a `thought` block for internal processing and reasoning whenever I deem it necessary to structure my approach, clarify a problem, or explore different options before providing my final answer.\n\nI am ready for your next request.",
     "ig_handle": "pdpdclub",
-    "last_analyzed_at": "2025-12-10T14:53:53.399887+09:00",
+    "last_analyzed_at": "2025-12-17T16:22:22.540555+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-12-13/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-18/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-16/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-12/profile.json",
       "maps:https://maps.google.com/?cid=15770757789872884450",
       "gemini:enrich"
     ],
@@ -3901,8 +3692,10 @@
       "phone": "070-4578-8792",
       "email": null
     },
-    "websites": [
-      "https://linktr.ee/pdpdclub"
+    "websites": [],
+    "genres": [
+      "Restaurant",
+      "Live Music Venue"
     ],
     "locations": [
       {
@@ -3910,37 +3703,36 @@
         "name": "pdpdclub",
         "address_text": "54 Changnyong-daero, Paldal-gu, Suwon, Gyeonggi-do, South Korea",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.28355,
+        "location_lon": 127.02169,
         "subway_nearby": null,
         "booking_link": null,
-        "notes": null,
+        "notes": "Offers live music, serves cocktails, beer, and wine, and has Wi-Fi.",
         "i18n": {
           "name": {
-            "en": "pdpdclub",
-            "ko": "파닥파닥클럽"
+            "en": "pdpdclub"
           },
           "address_text": {
-            "en": "54 Changnyong-daero, Paldal-gu, Suwon, Gyeonggi-do, South Korea",
-            "ko": "경기도 수원시 팔달구 창룡대로 54"
+            "en": "54 Changnyong-daero, Paldal-gu, Suwon, Gyeonggi-do, South Korea"
           },
-          "notes": null
+          "notes": {
+            "en": "Offers live music, serves cocktails, beer, and wine, and has Wi-Fi."
+          }
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "pdpdclub",
-        "ko": "파닥파닥클럽"
+        "en": "pdpdclub"
       },
       "address_text": null,
-      "notes": null,
+      "notes": {
+        "en": "Offers live music, serves cocktails, beer, and wine, and has Wi-Fi."
+      },
       "genres": {
         "en": [
-          "Live Music"
-        ],
-        "ko": [
-          "라이브 음악"
+          "Restaurant",
+          "Live Music Venue"
         ]
       },
       "subway_nearby": null,
@@ -4289,9 +4081,9 @@
     }
   },
   {
-    "raw": "Here's a step-by-step breakdown of how the command will execute:\n\n1.  **`find /tmp/myfiles -type f -name \"*a*\"`**\n    *   This command will search the `/tmp/myfiles` directory recursively.\n    *   `-type f` ensures it only looks for regular files (not directories, symlinks, etc.).\n    *   `-name \"*a*\"` filters for filenames that contain the letter 'a' (case-sensitive by default).\n\n    Let's identify the files that match:\n    *   `/tmp/myfiles/dir1/fileA.txt` (contains 'A') - **Matches**\n    *   `/tmp/myfiles/dir1/fileB.log` - No 'a' or 'A'\n    *   `/tmp/myfiles/dir2/anotherfile.txt` (contains 'a') - **Matches**\n    *   `/tmp/myfiles/dir2/sub_dir/data.bin` (contains 'a') - **Matches**\n    *   `/tmp/myfiles/dir3/temp.json` - No 'a' or 'A'\n    *   `/tmp/myfiles/executable_script.sh` - No 'a' or 'A'\n\n    The output of the `find` command will be:\n    ```\n    /tmp/myfiles/dir1/fileA.txt\n    /tmp/myfiles/dir2/anotherfile.txt\n    /tmp/myfiles/dir2/sub_dir/data.bin\n    ```\n    (The order might vary slightly depending on the `find` implementation, but it will be passed as separate arguments.)\n\n2.  **Command Substitution (`$()`)**\n    *   The shell will take the output of the `find` command (each path on a new line) and substitute it directly into the `ls -F` command as arguments.\n    *   So, the command effectively becomes:\n        `ls -F /tmp/myfiles/dir1/fileA.txt /tmp/myfiles/dir2/anotherfile.txt /tmp/myfiles/dir2/sub_dir/data.bin`\n\n3.  **`ls -F`**\n    *   `ls` will list the specified files.\n    *   `-F` appends a character to indicate the file type:\n        *   `/` for directories\n        *   `*` for executables\n        *   `@` for symbolic links\n        *   `|` for FIFOs\n        *   `=` for sockets\n        *   (nothing) for regular files\n\n    Since all the files found by `find` are regular files (due to `-type f`), `ls -F` will *not* append any special character to them.\n\n4.  **Sorting**\n    *   `ls` by default sorts its output alphabetically.\n    *   The paths provided are already in alphabetical order:\n        1. `/tmp/myfiles/dir1/fileA.txt`\n        2. `/tmp/myfiles/dir2/anotherfile.txt`\n        3. `/tmp/myfiles/dir2/sub_dir/data.bin`\n\n5.  **Final Output Format**\n    *   When `ls` is given multiple file arguments (especially when piped or via command substitution), it typically prints each on a new line.\n\n---\n\n**Output of the command:**\n\n```text\n/tmp/myfiles/dir1/fileA.txt\n/tmp/myfiles/dir2/anotherfile.txt\n/tmp/myfiles/dir2/sub_dir/data.bin\n```",
+    "raw": "The problem asks us to calculate a \"special sum\" based on an array of non-negative integers. The rules are:\n1. Initialize `current_sum` to 0.\n2. Iterate through each number `x` in the input array.\n3. Add `x` to `current_sum`.\n4. If `current_sum` becomes a prime number, reset `current_sum` to 0.\n5. After processing all numbers, return the final `current_sum`.\n\nTo solve this, we need a function to check if a number is prime.\n\n**1. `is_prime(n)` function:**\n*   Numbers less than 2 are not prime.\n*   2 is the only even prime number.\n*   Any other even number is not prime.\n*   For odd numbers, we only need to check for divisibility by odd numbers up to the square root of `n`.\n\n**2. `special_sum(nums)` function:**\n*   Initialize `current_sum = 0`.\n*   Loop through each `num` in `nums`.\n*   Add `num` to `current_sum`.\n*   Call `is_prime(current_sum)`. If it returns `True`, set `current_sum = 0`.\n*   After the loop, return `current_sum`.\n\nLet's implement this.\n\n```python\nimport math\n\ndef is_prime(n: int) -> bool:\n    \"\"\"\n    Checks if a non-negative integer is a prime number.\n    \"\"\"\n    if n < 2:\n        return False\n    if n == 2:\n        return True\n    if n % 2 == 0:  # All other even numbers are not prime\n        return False\n    \n    # Check for divisibility by odd numbers up to sqrt(n)\n    # We start from 3 and increment by 2\n    for i in range(3, int(math.sqrt(n)) + 1, 2):\n        if n % i == 0:\n            return False\n    return True\n\ndef special_sum(nums: list[int]) -> int:\n    \"\"\"\n    Calculates the special sum of a list of non-negative integers.\n\n    The special sum starts at 0. For each number in the list, it's added\n    to the current sum. If the current sum becomes a prime number,\n    the sum is reset to 0.\n    \"\"\"\n    current_sum = 0\n    for x in nums:\n        current_sum += x\n        if is_prime(current_sum):\n            current_sum = 0\n    return current_sum\n\n```",
     "ig_handle": "seoul.society.club",
-    "last_analyzed_at": "2025-12-10T14:56:58.412500+09:00",
+    "last_analyzed_at": "2025-12-17T16:26:55.758114+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -4307,13 +4099,8 @@
       "maps:https://maps.google.com/?cid=10202960881228967146",
       "maps:https://maps.google.com/?cid=7035786665359032247",
       "maps:https://maps.google.com/?cid=10163213318750349541",
-      "maps:https://maps.google.com/?cid=1122758754087036530",
       "maps:https://maps.google.com/?cid=14610625048832107536",
-      "maps:https://maps.google.com/?cid=7427632660776512811",
-      "maps:https://maps.google.com/?cid=11599251743250488566",
-      "maps:https://maps.google.com/?cid=4571388162504049555",
-      "maps:https://maps.google.com/?cid=5599139222648750732",
-      "maps:https://maps.google.com/?cid=4371664749110927424",
+      "maps:https://maps.google.com/?cid=1122758754087036530",
       "gemini:enrich"
     ],
     "links": {
@@ -4330,8 +4117,8 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "Social Club Seoul",
-        "address_text": "서울 마포구 망원제1동 414-27",
+        "name": "Seoul Society Club",
+        "address_text": "South Korea, Seoul, Mapo-gu, 망원제1동 414-27",
         "address_components": null,
         "location_lat": 37.556531,
         "location_lon": 126.906503,
@@ -4340,12 +4127,10 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Social Club Seoul",
-            "ko": "소셜클럽 서울"
+            "en": "Seoul Society Club"
           },
           "address_text": {
-            "en": "414-27, Mangwonje 1(il)-dong, Mapo-gu, Seoul, South Korea",
-            "ko": "서울 마포구 망원제1동 414-27"
+            "en": "414-27 Mangwon 1(il)-dong, Mapo-gu, Seoul, South Korea"
           },
           "notes": null
         }
@@ -4353,15 +4138,13 @@
     ],
     "i18n": {
       "name": {
-        "en": "Social Club Seoul",
-        "ko": "소셜클럽 서울"
+        "en": "Seoul Society Club"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "551m walk from Mangwon Station Exit 2 (Line 6)",
-        "ko": "6호선 망원역 2번 출구에서 551m"
+        "en": "Mangwon Station Exit 2, Line 6, 551m away"
       },
       "food_policy": null,
       "age_limit": null
@@ -4445,9 +4228,9 @@
     }
   },
   {
-    "raw": "To remove all \"special characters\" from a string, keeping only letters (a-z, A-Z) and digits (0-9), you can iterate through the string and check each character. Python's `str` methods like `isalnum()` are perfect for this.\n\n`char.isalnum()` returns `True` if all characters in the string are alphanumeric (alphabets or numbers) and there is at least one character, `False` otherwise.\n\nHere are a few ways to achieve this, from simple loops to more Pythonic list comprehensions and even regular expressions.\n\n---\n\n### Method 1: Using a Loop and `isalnum()` (Clear and Explicit)\n\nThis is a straightforward approach. We build a list of characters that meet our criteria and then join them at the end.\n\n```python\ndef remove_special_chars_loop(input_string: str) -> str:\n    \"\"\"\n    Removes all special characters from a string, keeping only letters and digits.\n\n    Args:\n        input_string: The string from which to remove special characters.\n\n    Returns:\n        A new string containing only letters and digits from the original string.\n    \"\"\"\n    cleaned_chars = []\n    for char in input_string:\n        if char.isalnum():  # Checks if the character is an alphabet (a-z, A-Z) or a digit (0-9)\n            cleaned_chars.append(char)\n    return \"\".join(cleaned_chars)\n\n# --- Examples ---\nprint(f\"'Hello, World!123' -> '{remove_special_chars_loop(\"Hello, World!123\")}'\")\nprint(f\"'Python rocks @ 2023!!' -> '{remove_special_chars_loop(\"Python rocks @ 2023!!\")}'\")\nprint(f\"'!@#$%^&*()' -> '{remove_special_chars_loop(\"!@#$%^&*()\")}'\")\nprint(f\"'' -> '{remove_special_chars_loop(\"\")}'\")\nprint(f\"'NoSpecialCharsHere123' -> '{remove_special_chars_loop(\"NoSpecialCharsHere123\")}'\")\n```\n\n**Output:**\n```\n'Hello, World!123' -> 'HelloWorld123'\n'Python rocks @ 2023!!' -> 'Pythonrocks2023'\n'!@#$%^&*()' -> ''\n'' -> ''\n'NoSpecialCharsHere123' -> 'NoSpecialCharsHere123'\n```\n\n---\n\n### Method 2: Using a List Comprehension (More Pythonic)\n\nThis is a more concise and often preferred Pythonic way to achieve the same result as Method 1.\n\n```python\ndef remove_special_chars_comprehension(input_string: str) -> str:\n    \"\"\"\n    Removes all special characters from a string using a list comprehension.\n    \"\"\"\n    return \"\".join(char for char in input_string if char.isalnum())\n\n# --- Examples ---\nprint(f\"'Hello, World!123' -> '{remove_special_chars_comprehension(\"Hello, World!123\")}'\")\nprint(f\"'Python rocks @ 2023!!' -> '{remove_special_chars_comprehension(\"Python rocks @ 2023!!\")}'\")\n```\n\n---\n\n### Method 3: Using Regular Expressions (`re` module)\n\nFor pattern matching and replacement, the `re` module is very powerful. This method is often the most concise for more complex pattern removal.\n\nThe pattern `[^a-zA-Z0-9]` matches any character that is *not* a letter (uppercase or lowercase) or a digit. `re.sub()` then replaces all occurrences of this pattern with an empty string.\n\n```python\nimport re\n\ndef remove_special_chars_regex(input_string: str) -> str:\n    \"\"\"\n    Removes all special characters from a string using regular expressions.\n    \"\"\"\n    # [^a-zA-Z0-9] matches any character that is NOT a letter or a digit.\n    # We replace those matched characters with an empty string.\n    return re.sub(r'[^a-zA-Z0-9]', '', input_string)\n\n# --- Examples ---\nprint(f\"'Hello, World!123' -> '{remove_special_chars_regex(\"Hello, World!123\")}'\")\nprint(f\"'Python rocks @ 2023!!' -> '{remove_special_chars_regex(\"Python rocks @ 2023!!\")}'\")\nprint(f\"'!@#$%^&*()' -> '{remove_special_chars_regex(\"!@#$%^&*()\")}'\")\nprint(f\"'' -> '{remove_special_chars_regex(\"\")}'\")\n```\n\n---\n\n### Which method to choose?\n\n*   **Method 1 (Loop):** Easiest to understand for beginners, very explicit.\n*   **Method 2 (List Comprehension):** Often considered the most Pythonic for this specific task. It's concise, readable, and efficient.\n*   **Method 3 (Regular Expressions):** Powerful and very concise. If you're already familiar with regex, this can be the quickest way to write it. For more complex character filtering tasks (e.g., removing only specific symbols but keeping spaces), regex is generally the go-to solution.\n\nFor this problem (keeping only alphanumeric characters), the **list comprehension approach (Method 2)** is generally recommended for its balance of readability, conciseness, and performance.",
+    "raw": "{}",
     "ig_handle": "seoulforestjazz",
-    "last_analyzed_at": "2025-12-10T14:58:41.888554+09:00",
+    "last_analyzed_at": "2025-12-17T16:29:56.430285+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
@@ -4461,23 +4244,22 @@
       "maps:https://maps.google.com/?cid=15968524466520016538",
       "maps:https://maps.google.com/?cid=12961168892280702927",
       "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=12958000001331928624",
       "maps:https://maps.google.com/?cid=13163330699457356298",
-      "maps:https://maps.google.com/?cid=13994463002958167587",
-      "maps:https://maps.google.com/?cid=15245543658347824413",
+      "maps:https://maps.google.com/?cid=1622847105428903847",
       "maps:https://maps.google.com/?cid=15346599358860238442",
-      "maps:https://maps.google.com/?cid=5936925627923403423",
+      "maps:https://maps.google.com/?cid=12215941447602648811",
+      "maps:https://maps.google.com/?cid=12958000001331928624",
+      "maps:https://maps.google.com/?cid=13994463002958167587",
+      "maps:https://maps.google.com/?cid=11842852244500454903",
+      "maps:https://maps.google.com/?cid=5550789818210732130",
+      "maps:https://maps.google.com/?cid=9176070558265640633",
       "maps:https://maps.google.com/?cid=2603954066245394090",
       "maps:https://maps.google.com/?cid=2095809664248845139",
       "maps:https://maps.google.com/?cid=4259537056996752822",
-      "maps:https://maps.google.com/?cid=10469024144103497378",
-      "maps:https://maps.google.com/?cid=5971072195428602943",
-      "maps:https://maps.google.com/?cid=12215941447602648811",
-      "maps:https://maps.google.com/?cid=1622847105428903847",
-      "maps:https://maps.google.com/?cid=5550789818210732130",
-      "maps:https://maps.google.com/?cid=9176070558265640633",
-      "maps:https://maps.google.com/?cid=3803486770832132230",
+      "maps:https://maps.google.com/?cid=5936925627923403423",
       "maps:https://maps.google.com/?cid=7855199652409796780",
+      "maps:https://maps.google.com/?cid=12950663042103342245",
+      "maps:https://maps.google.com/?cid=10469024144103497378",
       "gemini:enrich"
     ],
     "links": {
@@ -4490,44 +4272,53 @@
       "phone": null,
       "email": null
     },
+    "websites": [
+      "https://linktr.ee/seoulforestjazz"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Seoul Forest Jazz",
+        "name": null,
         "address_text": null,
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
         "subway_nearby": null,
         "booking_link": null,
-        "notes": "Could not find a specific address for 'Seoul Forest Jazz' on Google Maps. It might be an event or not a distinct physical venue. [0]",
+        "notes": null,
         "i18n": {
           "name": {
-            "en": "Seoul Forest Jazz",
-            "ko": "서울숲재즈"
+            "en": null
           },
-          "address_text": null,
+          "address_text": {
+            "en": null
+          },
           "notes": {
-            "en": "Could not find a specific address for 'Seoul Forest Jazz' on Google Maps. It might be an event or not a distinct physical venue.",
-            "ko": "'서울숲재즈'의 특정 주소를 Google 지도에서 찾을 수 없었습니다. 행사 또는 독립적인 물리적 장소가 아닐 수 있습니다."
+            "en": null
           }
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "Seoul Forest Jazz",
-        "ko": "서울숲재즈"
+        "en": null
       },
       "address_text": null,
       "notes": {
-        "en": "Could not find a specific address for 'Seoul Forest Jazz' on Google Maps. It might be an event or not a distinct physical venue.",
-        "ko": "'서울숲재즈'의 특정 주소를 Google 지도에서 찾을 수 없었습니다. 행사 또는 독립적인 물리적 장소가 아닐 수 있습니다."
+        "en": null
       },
-      "genres": null,
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
+      "genres": {
+        "en": []
+      },
+      "subway_nearby": {
+        "en": null
+      },
+      "food_policy": {
+        "en": null
+      },
+      "age_limit": {
+        "en": null
+      }
     }
   },
   {
