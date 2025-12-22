@@ -4,25 +4,19 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-12-20T10:01:29Z
-- **Source Commit**: [`2fabc90f1221cb566b453333f14ec19290558388`](https://github.com/keunwoochoi/seoulunderground.live/commit/2fabc90f1221cb566b453333f14ec19290558388)
+- **Build Time**: 2025-12-22T13:55:45Z
+- **Source Commit**: [`4e622c4fd9e554c8bcf88ba1f0bb4bc28c040b4a`](https://github.com/keunwoochoi/seoulunderground.live/commit/4e622c4fd9e554c8bcf88ba1f0bb4bc28c040b4a)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20392750295)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20433903622)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: improve - Add weekly germany (#59)
+- **Message**: fix the address and others.... (#60)
 
-* first fix
+* fix the address and others....
 
-* first version
-
-* .ddd
-
-* add phone number and address for meta verify
-
-* add missing file
+* wow fixed
 
 ## Deployment
 
