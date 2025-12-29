@@ -158,27 +158,29 @@
   {
     "id": "evt_20251229_fd6c7d3e-df4c-41e2-8be5-cb10951b7b61",
     "event_key": "v:ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d|t:2025-12-29T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRv0unTEw2j/",
+    "source_url": "https://www.instagram.com/p/DSz74ySE1BW/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "hanxazz"
+    ],
     "venue_id": "ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d",
     "venue_location_id": "main",
     "datetime": "2025-12-29T11:00:00+00:00",
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "김한 퀄텟",
-    "description": "김한 퀄텟 공연.",
+    "description": "클래식 재즈의 스윙감과 블루스의 깊은 정서. 부드럽고 서정적인 보사노바와 브라질리언 음악을 넘나들며 아름답고 풍부한 사운드를 전합니다.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Han Quartet",
-      "description": "Kim Han Quartet performance."
+      "description": "Delivers beautiful and rich sounds, blending the swing and deep emotion of classic jazz, with soft and lyrical bossa nova and Brazilian music."
     },
     "_search_ko": {
       "title": "김한 퀄텟",
-      "description": "김한 퀄텟 공연."
+      "description": "클래식 재즈의 스윙감과 블루스의 깊은 정서. 부드럽고 서정적인 보사노바와 브라질리언 음악을 넘나들며 아름답고 풍부한 사운드를 전합니다."
     }
   },
   {
@@ -338,6 +340,32 @@
     }
   },
   {
+    "id": "evt_20251229_f7f1c6bd-97c1-46b4-ae67-e001073ceeaa",
+    "event_key": "v:ven_37f2f880-8cf2-4f8f-8245-898170c54cfd|t:2025-12-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSz2o4tEZl4/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_37f2f880-8cf2-4f8f-8245-898170c54cfd",
+    "venue_location_id": "main",
+    "datetime": "2025-12-29T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "2025년 마지막 슈퍼 잼 데이",
+    "description": "2025년 마지막 잼 세션 주간. 호스트 밴드: 윤석철 (피아노), 정영준 (베이스), 김영진 (드럼).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The Last Super Jam Day of 2025",
+      "description": "The last jam session week of 2025. Host band: Yun Seok-cheol (piano), Jung Young-jun (bass), Kim Young-jin (drums)."
+    },
+    "_search_ko": {
+      "title": "2025년 마지막 슈퍼 잼 데이",
+      "description": "2025년 마지막 잼 세션 주간. 호스트 밴드: 윤석철 (피아노), 정영준 (베이스), 김영진 (드럼)."
+    }
+  },
+  {
     "id": "evt_20251229_c619fb81-b877-4ca6-a53a-482051573262",
     "event_key": "v:ven_e55ca375-6a74-45ce-95f5-389ea8b1f438|t:2025-12-29T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DSzdwp-k96E/",
@@ -391,6 +419,37 @@
     "_search_ko": {
       "title": "박재홍 블루스 & 소울",
       "description": "[위치: 종각] 박재홍 블루스 & 소울 공연."
+    }
+  },
+  {
+    "id": "evt_20251229_a1683f7b-229e-4d14-8889-11ac76d0b0ed",
+    "event_key": "v:ven_cc8973ff-14f5-469c-9d4d-07e40c2345c9|t:2025-12-29T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSdDvIdEpLq/",
+    "venue_handle": "michiko.seoul_official",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "bass_seok",
+      "heedojin",
+      "iamheyp",
+      "nakzzing"
+    ],
+    "venue_id": "ven_cc8973ff-14f5-469c-9d4d-07e40c2345c9",
+    "venue_location_id": "main",
+    "datetime": "2025-12-29T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Goodbye 2025 Hello 2026",
+    "description": "HEYP 밴드 (팝&소울) 라이브. 출연진: 헤이피 (보컬) @iamheyp, 진희도 (피아노) @heedojin, 이진석 (베이스) @bass_seok, 낙지 (드럼) @nakzzing.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Goodbye 2025 Hello 2026",
+      "description": "POP&SOUL live by HEYP Band. Lineup: HEYP (vocal) @iamheyp, Jin Hee-do (piano) @heedojin, Lee Jin-seok (bass) @bass_seok, Nak Ji (drums) @nakzzing."
+    },
+    "_search_ko": {
+      "title": "Goodbye 2025 Hello 2026",
+      "description": "HEYP 밴드 (팝&소울) 라이브. 출연진: 헤이피 (보컬) @iamheyp, 진희도 (피아노) @heedojin, 이진석 (베이스) @bass_seok, 낙지 (드럼) @nakzzing."
     }
   },
   {
@@ -634,27 +693,29 @@
   {
     "id": "evt_20251230_d2117475-3972-4dce-b09a-a828be0302fe",
     "event_key": "v:ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d|t:2025-12-30T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRv0unTEw2j/",
+    "source_url": "https://www.instagram.com/p/DSz74ySE1BW/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "youngjoojulialee"
+    ],
     "venue_id": "ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d",
     "venue_location_id": "main",
     "datetime": "2025-12-30T11:00:00+00:00",
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "이영주 퀄텟",
-    "description": "이영주 퀄텟 공연.",
+    "description": "재즈 씬에서 다양한 색깔로 활동하는 보컬리스트 이영주 퀄텟. 자작곡과 스탠다드 넘버를 독창적인 방식으로 연주하며 깊은 몰입감을 선사합니다.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Young-joo Quartet",
-      "description": "Lee Young-joo Quartet performance."
+      "description": "Vocalist Lee Young-joo Quartet, active with diverse colors in the jazz scene. Performs original compositions and standard numbers with a unique approach, offering deep immersion."
     },
     "_search_ko": {
       "title": "이영주 퀄텟",
-      "description": "이영주 퀄텟 공연."
+      "description": "재즈 씬에서 다양한 색깔로 활동하는 보컬리스트 이영주 퀄텟. 자작곡과 스탠다드 넘버를 독창적인 방식으로 연주하며 깊은 몰입감을 선사합니다."
     }
   },
   {
@@ -785,6 +846,32 @@
     "_search_ko": {
       "title": "고민석 밴드",
       "description": "[위치: 낙원] 고민석 밴드 공연."
+    }
+  },
+  {
+    "id": "evt_20251230_349b4fe6-c3d7-47a4-9ecf-267b5fff495a",
+    "event_key": "v:ven_37f2f880-8cf2-4f8f-8245-898170c54cfd|t:2025-12-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSz2o4tEZl4/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_37f2f880-8cf2-4f8f-8245-898170c54cfd",
+    "venue_location_id": "main",
+    "datetime": "2025-12-30T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "2025년 마지막 어반 잼 데이",
+    "description": "2025년 마지막 잼 세션 주간. 호스트 밴드: 이삼수 (색소폰), 김민준 (키보드), 전국국 (베이스), 강성실 (드럼).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The Last Urban Jam Day of 2025",
+      "description": "The last jam session week of 2025. Host band: Lee Sam-su (saxophone), Kim Min-jun (keyboard), Jeon Guk-guk (bass), Kang Seong-sil (drums)."
+    },
+    "_search_ko": {
+      "title": "2025년 마지막 어반 잼 데이",
+      "description": "2025년 마지막 잼 세션 주간. 호스트 밴드: 이삼수 (색소폰), 김민준 (키보드), 전국국 (베이스), 강성실 (드럼)."
     }
   },
   {
@@ -1425,27 +1512,29 @@
   {
     "id": "evt_20251231_9f009455-700e-4e69-a622-33a7021975b1",
     "event_key": "v:ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d|t:2025-12-31T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DSwZj1ek13u/",
+    "source_url": "https://www.instagram.com/p/DSz74ySE1BW/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "nanahjin"
+    ],
     "venue_id": "ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d",
     "venue_location_id": "main",
     "datetime": "2025-12-31T10:30:00+00:00",
-    "price": null,
+    "price": "30,000원",
     "llm_confidence": 1.0,
-    "title": "GOODBYE 2025",
-    "description": "대체불가한 보컬리스트 난아진 밴드. 재즈를 기반으로 펑크, 팝, 소울을 넘나드는 스타일리시한 사운드와 강렬한 퍼포먼스를 선보입니다. 다양한 장르의 경계를 허무는 음악을 통해 존재감을 드러내고 있습니다.",
+    "title": "난아진 밴드: GOODBYE 2025",
+    "description": "대체불가능한 아티스트 난아진 밴드. 재즈를 베이스로 펑크, 팝, 소울을 넘나드는 스타일리시한 사운드와 강력한 퍼포먼스를 선보입니다.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "GOODBYE 2025",
-      "description": "Unrivaled vocalist Nanahjin Band. Presents stylish sound and powerful performance, blending jazz with funk, pop, and soul. Showcases music that transcends various genres."
+      "title": "Nanahjin Band: GOODBYE 2025",
+      "description": "Irreplaceable artist Nanahjin Band. Presents stylish sound based on jazz, spanning funk, pop, and soul, with powerful performances."
     },
     "_search_ko": {
-      "title": "GOODBYE 2025",
-      "description": "대체불가한 보컬리스트 난아진 밴드. 재즈를 기반으로 펑크, 팝, 소울을 넘나드는 스타일리시한 사운드와 강렬한 퍼포먼스를 선보입니다. 다양한 장르의 경계를 허무는 음악을 통해 존재감을 드러내고 있습니다."
+      "title": "난아진 밴드: GOODBYE 2025",
+      "description": "대체불가능한 아티스트 난아진 밴드. 재즈를 베이스로 펑크, 팝, 소울을 넘나드는 스타일리시한 사운드와 강력한 퍼포먼스를 선보입니다."
     }
   },
   {
@@ -2193,27 +2282,29 @@
   {
     "id": "evt_20251231_2500da3c-6e4e-408c-9a4b-702d1cf8a942",
     "event_key": "v:ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d|t:2025-12-31T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DSwZj1ek13u/",
+    "source_url": "https://www.instagram.com/p/DSz74ySE1BW/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "nanahjin"
+    ],
     "venue_id": "ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d",
     "venue_location_id": "main",
     "datetime": "2025-12-31T14:00:00+00:00",
     "price": "30,000원",
     "llm_confidence": 1.0,
-    "title": "2026 COUNTDOWN PARTY",
-    "description": "대체불가한 보컬리스트 난아진 밴드. 재즈를 기반으로 펑크, 팝, 소울을 넘나드는 스타일리시한 사운드와 강렬한 퍼포먼스를 선보입니다. 다양한 장르의 경계를 허무는 음악을 통해 존재감을 드러내고 있습니다. 2026년 카운트다운 파티.",
+    "title": "난아진 밴드: COUNTDOWN PARTY 2026",
+    "description": "2026 카운트다운 파티. 대체불가능한 아티스트 난아진 밴드의 재즈, 펑크, 팝, 소울 사운드와 강력한 퍼포먼스. \"3. 2. 1 ... 라이브로 여는 2026.\"",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "2026 COUNTDOWN PARTY",
-      "description": "Unrivaled vocalist Nanahjin Band. Presents stylish sound and powerful performance, blending jazz with funk, pop, and soul. Showcases music that transcends various genres. 2026 Countdown Party."
+      "title": "Nanahjin Band: COUNTDOWN PARTY 2026",
+      "description": "2026 Countdown Party. Irreplaceable artist Nanahjin Band's jazz, funk, pop, and soul sound with powerful performances. \"3. 2. 1 ... 2026 opens with live music.\""
     },
     "_search_ko": {
-      "title": "2026 COUNTDOWN PARTY",
-      "description": "대체불가한 보컬리스트 난아진 밴드. 재즈를 기반으로 펑크, 팝, 소울을 넘나드는 스타일리시한 사운드와 강렬한 퍼포먼스를 선보입니다. 다양한 장르의 경계를 허무는 음악을 통해 존재감을 드러내고 있습니다. 2026년 카운트다운 파티."
+      "title": "난아진 밴드: COUNTDOWN PARTY 2026",
+      "description": "2026 카운트다운 파티. 대체불가능한 아티스트 난아진 밴드의 재즈, 펑크, 팝, 소울 사운드와 강력한 퍼포먼스. \"3. 2. 1 ... 라이브로 여는 2026.\""
     }
   },
   {
@@ -2639,6 +2730,34 @@
     }
   },
   {
+    "id": "evt_20260102_84429fe3-a7d1-4552-9732-bd233ba0ef51",
+    "event_key": "v:ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d|t:2026-01-02T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSz74ySE1BW/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "lazykuma80"
+    ],
+    "venue_id": "ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d",
+    "venue_location_id": "main",
+    "datetime": "2026-01-02T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "LAZYKUMA 퀄텟",
+    "description": "존 콜트레인, 파로아 샌더스의 곡들과 스탠다드 재즈를 연주하는 스피리추얼 재즈 오디세이.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "LAZYKUMA Quartet",
+      "description": "A spiritual jazz odyssey, performing songs by John Coltrane, Pharoah Sanders, and jazz standards."
+    },
+    "_search_ko": {
+      "title": "LAZYKUMA 퀄텟",
+      "description": "존 콜트레인, 파로아 샌더스의 곡들과 스탠다드 재즈를 연주하는 스피리추얼 재즈 오디세이."
+    }
+  },
+  {
     "id": "evt_20260102_8170ebce-ccc5-44b0-8961-a18724875d2f",
     "event_key": "v:ven_e55ca375-6a74-45ce-95f5-389ea8b1f438|t:2026-01-02T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DSzdwp-k96E/",
@@ -2929,6 +3048,34 @@
     "_search_ko": {
       "title": "김하진 퀸텟",
       "description": "재즈 라이브 공연. 1부 20:00~20:50, 2부 21:10~22:00."
+    }
+  },
+  {
+    "id": "evt_20260103_0738dac1-6239-4889-bf17-3df349c16e5f",
+    "event_key": "v:ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d|t:2026-01-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DSz74ySE1BW/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "wonseongjinn"
+    ],
+    "venue_id": "ven_6bcf2791-77d9-4af5-9cf2-7bfe8626c82d",
+    "venue_location_id": "main",
+    "datetime": "2026-01-03T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "원성진 트리오",
+    "description": "피아노 트리오 사운드로 재즈, 소울, 펑크 등 다양한 장르를 즐길 수 있는 무대.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Won Seong-jin Trio",
+      "description": "A stage where you can enjoy various genres including jazz, soul, and funk with a piano trio sound."
+    },
+    "_search_ko": {
+      "title": "원성진 트리오",
+      "description": "피아노 트리오 사운드로 재즈, 소울, 펑크 등 다양한 장르를 즐길 수 있는 무대."
     }
   },
   {
@@ -6419,21 +6566,21 @@
     "musician_ig_handles": [],
     "venue_id": "ven_4419edb6-0662-4c3f-9487-dd94d5198673",
     "venue_location_id": "main",
-    "datetime": "2026-11-13T11:00:00+00:00",
+    "datetime": "2026-11-13T12:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
     "title": "니나 박 듀오",
-    "description": "재즈 뿐 아니라 가요 및 팝 공연도 진행하는 라이브 뮤직 바 바티칸에서 니나 박 듀오의 공연.",
+    "description": "니나 박 듀오의 라이브 공연. 금요일 20:00와 21:00에 두 차례 진행됩니다.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Nina Park Duo",
-      "description": "Live performance by Nina Park Duo at Bartican, a live music bar hosting various genres including jazz, pop, and K-pop."
+      "description": "Live performance by Nina Park Duo. Two sets will be held on Friday at 20:00 and 21:00."
     },
     "_search_ko": {
       "title": "니나 박 듀오",
-      "description": "재즈 뿐 아니라 가요 및 팝 공연도 진행하는 라이브 뮤직 바 바티칸에서 니나 박 듀오의 공연."
+      "description": "니나 박 듀오의 라이브 공연. 금요일 20:00와 21:00에 두 차례 진행됩니다."
     }
   },
   {
