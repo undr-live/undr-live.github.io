@@ -6,14 +6,15 @@
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "040-405277",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=11531881862156874421",
     "booking_url": "https://www.tixforgigs.com/de-DE/Location/1758/birdland-hamburg-hamburg",
     "homepage_url": "https://www.birdlandhamburg.de/",
     "websites": [
-      "https://www.birdlandhamburg.de/",
-      "https://www.deineindruck.de/birdland/"
+      "https://www.deineindruck.de/birdland/?orderby=popularity&post_type=product",
+      "https://clubkombinat.de/clubaward/%23PublicVoting",
+      "https://youtube.com/@birdlandhamburg4323?si=cVNCKrGaAz761rgr"
     ],
     "subway_nearby": null,
     "food_policy": null,
@@ -30,7 +31,7 @@
           "location_lon": null,
           "subway_nearby": null,
           "booking_link": "https://www.tixforgigs.com/de-DE/Location/1758/birdland-hamburg-hamburg",
-          "notes": "Finest drinks & cocktails available.",
+          "notes": null,
           "i18n": {
             "name": {
               "de": "Birdland Hamburg",
@@ -40,10 +41,7 @@
               "de": "Gärtnerstraße 122, 20253 Hamburg",
               "en": "Gärtnerstraße 122, 20253 Hamburg, Germany"
             },
-            "notes": {
-              "de": "Feinste Getränke & Cocktails erhältlich.",
-              "en": "Finest drinks & cocktails available."
-            }
+            "notes": null
           }
         }
       ]
@@ -55,8 +53,8 @@
       },
       "address_text": null,
       "notes": {
-        "de": "Jazzclub, Live-Veranstaltungsort & Bar seit 1985. Feiert 40-jähriges Jubiläum vom 13.10.-19.10.2025.",
-        "en": "Jazzclub, Live Venue & Bar since 1985. Celebrating 40th anniversary from 13.10-19.10.2025."
+        "de": "Gegründet 1985. Bietet feinste Drinks & Cocktails.",
+        "en": "Established in 1985. Offers finest drinks & cocktails."
       },
       "genres": {
         "de": [
@@ -77,7 +75,7 @@
     "id": "ven_71297b9b-8cbb-4e50-b82b-cf223aeca10c",
     "ig_handle": "donau115",
     "name_irl": "Donau115",
-    "location_text": null,
+    "location_text": "Donaustraße 115, 12043 Berlin, Germany",
     "location_lat": null,
     "location_lon": null,
     "phone": "0179-1809168",
@@ -98,8 +96,10 @@
         {
           "location_id": "main",
           "name": "Donau115",
-          "address_text": "Donaustraße 115, 12043 Berlin, Germany",
+          "address_text": "Donaustraße 115, 12043 Berlin",
           "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
@@ -115,22 +115,38 @@
             "notes": null
           }
         }
-      ]
+      ],
+      "typical_show_times": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": [
+          "19:30"
+        ],
+        "sat": [
+          "19:30"
+        ],
+        "sun": null
+      }
     },
     "i18n_data": {
       "name": {
         "de": "Donau115",
         "en": "Donau115"
       },
-      "address_text": null,
+      "address_text": {
+        "de": "Donaustraße 115, 12043 Berlin",
+        "en": "Donaustraße 115, 12043 Berlin, Germany"
+      },
       "notes": {
-        "de": "Einlass: 19:30 Uhr. Für den zweiten Set: Registrierung um 19:30 Uhr. Keine Reservierungen.",
-        "en": "Doors: 7:30 PM. For 2nd Set: register at 7:30 PM. No reservations."
+        "de": "Keine Reservierungen. 2ST: Anmeldung um 19:30 Uhr.",
+        "en": "No reservations. 2ST: register at 7:30 PM."
       },
       "genres": {
         "de": [
           "Jazz",
-          "Experimentell"
+          "Experimental"
         ],
         "en": [
           "Jazz",
@@ -154,9 +170,7 @@
     "google_map_url": null,
     "booking_url": null,
     "homepage_url": "https://linktr.ee/clubgretchen",
-    "websites": [
-      "https://linktr.ee/clubgretchen"
-    ],
+    "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -166,7 +180,7 @@
         {
           "location_id": "main",
           "name": "GRETCHEN",
-          "address_text": "Obentrautstraße 19-21, 10963 Berlin, Germany",
+          "address_text": "Obentrautstraße 19-21, 10963 Berlin",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
@@ -196,38 +210,10 @@
       "notes": null,
       "genres": {
         "de": [
-          "Electronica",
-          "Bass",
-          "Drum'n'Bass",
-          "Dubstep",
-          "Trap",
-          "IDM",
-          "Glitch",
-          "Experimental",
-          "HipHop",
-          "Funk",
-          "Soul",
-          "Folk",
-          "Afrobeats",
-          "Jazz",
-          "Worldmusic"
+          "Jazz"
         ],
         "en": [
-          "Electronica",
-          "Bass",
-          "Drum'n'Bass",
-          "Dubstep",
-          "Trap",
-          "IDM",
-          "Glitch",
-          "Experimental",
-          "Hip Hop",
-          "Funk",
-          "Soul",
-          "Folk",
-          "Afrobeats",
-          "Jazz",
-          "World Music"
+          "Jazz"
         ]
       },
       "subway_nearby": null,
@@ -260,15 +246,9 @@
           "location_id": "main",
           "name": "Jazz Club A-Trane",
           "address_text": "Bleibtreustraße 1, 10623 Berlin",
-          "address_components": {
-            "street": "Bleibtreustraße 1",
-            "district": "Charlottenburg",
-            "city": "Berlin",
-            "postal_code": "10623",
-            "country": "Germany"
-          },
-          "location_lat": 52.507239,
-          "location_lon": 13.319958,
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
@@ -281,10 +261,7 @@
               "de": "Bleibtreustraße 1, 10623 Berlin",
               "en": "Bleibtreustraße 1, 10623 Berlin, Germany"
             },
-            "notes": {
-              "de": null,
-              "en": null
-            }
+            "notes": null
           }
         }
       ]
@@ -294,36 +271,21 @@
         "de": "Jazz Club A-Trane",
         "en": "Jazz Club A-Trane"
       },
-      "address_text": {
-        "de": "Bleibtreustraße 1, 10623 Berlin",
-        "en": "Bleibtreustraße 1, 10623 Berlin, Germany"
-      },
-      "notes": {
-        "de": null,
-        "en": null
-      },
+      "address_text": null,
+      "notes": null,
       "genres": {
         "de": [
-          "Jazz Club",
-          "Live-Musik-Veranstaltungsort"
+          "Jazz",
+          "Live-Musik"
         ],
         "en": [
-          "Jazz Club",
-          "Live Music Venue"
+          "Jazz",
+          "Live music"
         ]
       },
-      "subway_nearby": {
-        "de": null,
-        "en": null
-      },
-      "food_policy": {
-        "de": null,
-        "en": null
-      },
-      "age_limit": {
-        "de": null,
-        "en": null
-      }
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
@@ -336,7 +298,7 @@
     "phone": "0711-16034970",
     "email": "info@kiste-stuttgart.de",
     "google_map_url": "https://maps.google.com/?cid=13112467062764406437",
-    "booking_url": null,
+    "booking_url": "http://www.kiste-stuttgart.de/",
     "homepage_url": "http://www.kiste-stuttgart.de/",
     "websites": [
       "http://www.kiste-stuttgart.de/"
@@ -355,7 +317,7 @@
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
-          "booking_link": null,
+          "booking_link": "http://www.kiste-stuttgart.de/",
           "notes": null,
           "i18n": {
             "name": {
@@ -372,11 +334,11 @@
       ],
       "opening_hours": {
         "mon": null,
-        "tue": "7:30 PM-late",
-        "wed": "7:30 PM-late",
-        "thu": "7:30 PM-late",
-        "fri": "7:30 PM-late",
-        "sat": "7:30 PM-late",
+        "tue": "7:30 PM - late",
+        "wed": "7:30 PM - late",
+        "thu": "7:30 PM - late",
+        "fri": "7:30 PM - late",
+        "sat": "7:30 PM - late",
         "sun": null
       }
     },
@@ -406,7 +368,7 @@
     "id": "ven_8dff27a6-065c-4929-8563-208ef72cda88",
     "ig_handle": "jazzhall.hamburg",
     "name_irl": "JazzHall Hamburg",
-    "location_text": null,
+    "location_text": "Harvestehuder Weg 12, 20148 Hamburg, Germany",
     "location_lat": null,
     "location_lon": null,
     "phone": null,
@@ -426,15 +388,52 @@
         {
           "location_id": "main",
           "name": "JazzHall Hamburg",
-          "address_text": null,
+          "address_text": "Harvestehuder Weg 12, 20148 Hamburg",
           "address_components": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": "Hamburgs Konzertsaal an der Hochschule für Musik und Theater."
+          "notes": "Hamburgs Konzertsaal an der Hochschule für Musik und Theater.",
+          "i18n": {
+            "name": {
+              "de": "JazzHall Hamburg",
+              "en": "JazzHall Hamburg"
+            },
+            "address_text": {
+              "de": "Harvestehuder Weg 12, 20148 Hamburg",
+              "en": "Harvestehuder Weg 12, 20148 Hamburg, Germany"
+            },
+            "notes": {
+              "de": "Hamburgs Konzertsaal an der Hochschule für Musik und Theater.",
+              "en": "Hamburg's concert hall at the University of Music and Theatre."
+            }
+          }
         }
       ]
     },
-    "i18n_data": null
+    "i18n_data": {
+      "name": {
+        "de": "JazzHall Hamburg",
+        "en": "JazzHall Hamburg"
+      },
+      "address_text": {
+        "de": "Harvestehuder Weg 12, 20148 Hamburg",
+        "en": "Harvestehuder Weg 12, 20148 Hamburg, Germany"
+      },
+      "notes": null,
+      "genres": {
+        "de": [
+          "Jazz",
+          "Live-Musik"
+        ],
+        "en": [
+          "Jazz",
+          "Live Music"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
   },
   {
     "id": "ven_e93f3424-5b98-47e1-8a28-7fe86a6df717",
@@ -464,15 +463,15 @@
           "address_components": {
             "street": "Einsteinstraße 42",
             "district": null,
-            "city": "Munich",
+            "city": "München",
             "postal_code": "81675",
             "country": "Germany"
           },
-          "location_lat": 48.135447,
-          "location_lon": 11.600847,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "Legendary jazz club in Munich.",
           "i18n": {
             "name": {
               "de": "Jazzclub Unterfahrt",
@@ -482,7 +481,10 @@
               "de": "Einsteinstraße 42, 81675 München",
               "en": "Einsteinstraße 42, 81675 Munich, Germany"
             },
-            "notes": null
+            "notes": {
+              "de": "Legendärer Jazzclub in München.",
+              "en": "Legendary jazz club in Munich."
+            }
           }
         }
       ]
@@ -492,17 +494,19 @@
         "de": "Jazzclub Unterfahrt",
         "en": "Jazzclub Unterfahrt"
       },
-      "address_text": {
-        "de": "Einsteinstraße 42, 81675 München",
-        "en": "Einsteinstraße 42, 81675 Munich, Germany"
+      "address_text": null,
+      "notes": {
+        "de": "Münchens legendärer Jazzclub. Jeden Abend lokale und internationale Jazz-Live-Musik genießen.",
+        "en": "Munich's legendary jazz club. Enjoy local and international jazz live every night."
       },
-      "notes": null,
       "genres": {
         "de": [
-          "Jazzclub"
+          "Jazz",
+          "Live-Musik"
         ],
         "en": [
-          "Jazz club"
+          "Jazz",
+          "Live music"
         ]
       },
       "subway_nearby": null,
@@ -514,7 +518,7 @@
     "id": "ven_558763b8-eaa7-4a25-9081-2f82e1ceb228",
     "ig_handle": "jazzhausfreiburg",
     "name_irl": "Jazzhaus Freiburg",
-    "location_text": null,
+    "location_text": "Schnewlinstraße 1, 79098 Freiburg im Breisgau, Germany",
     "location_lat": null,
     "location_lon": null,
     "phone": "0761-7919780",
@@ -534,17 +538,15 @@
           "name": "Jazzhaus Freiburg",
           "address_text": "Schnewlinstraße 1, 79098 Freiburg im Breisgau",
           "address_components": {
-            "street": "Schnewlinstraße 1",
+            "street": null,
             "district": null,
-            "city": "Freiburg im Breisgau",
-            "postal_code": "79098",
+            "city": "Freiburg",
+            "postal_code": null,
             "country": "Germany"
           },
-          "location_lat": 47.994799,
-          "location_lon": 7.840491,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "Konzerte + Partys",
           "i18n": {
             "name": {
               "de": "Jazzhaus Freiburg",
@@ -554,7 +556,10 @@
               "de": "Schnewlinstraße 1, 79098 Freiburg im Breisgau",
               "en": "Schnewlinstraße 1, 79098 Freiburg im Breisgau, Germany"
             },
-            "notes": null
+            "notes": {
+              "de": "Konzerte + Partys",
+              "en": "Concerts + Parties"
+            }
           }
         }
       ]
@@ -564,18 +569,19 @@
         "de": "Jazzhaus Freiburg",
         "en": "Jazzhaus Freiburg"
       },
-      "address_text": null,
+      "address_text": {
+        "de": "Schnewlinstraße 1, 79098 Freiburg im Breisgau",
+        "en": "Schnewlinstraße 1, 79098 Freiburg im Breisgau, Germany"
+      },
       "notes": null,
       "genres": {
         "de": [
           "Jazz",
-          "Live-Musik",
-          "Konzerte"
+          "Live-Musik"
         ],
         "en": [
           "Jazz",
-          "Live music",
-          "Concerts"
+          "Live music"
         ]
       },
       "subway_nearby": null,
@@ -615,8 +621,6 @@
             "postal_code": "10115",
             "country": "Germany"
           },
-          "location_lat": null,
-          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
@@ -659,7 +663,7 @@
     "location_lon": null,
     "phone": null,
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=8195040897400983612",
     "booking_url": null,
     "homepage_url": "http://nica-jazzclub.de",
     "websites": [
@@ -675,9 +679,15 @@
           "location_id": "main",
           "name": "NICA JAZZ CLUB",
           "address_text": "Alter Wall 20, 20457 Hamburg",
-          "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
+          "address_components": {
+            "street": "Alter Wall 20",
+            "district": "Altstadt",
+            "city": "Hamburg",
+            "postal_code": "20457",
+            "country": "Germany"
+          },
+          "location_lat": 53.55084,
+          "location_lon": 9.990739,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
@@ -704,10 +714,12 @@
       "notes": null,
       "genres": {
         "de": [
-          "Live-Musik"
+          "Jazz",
+          "Live-Musik-Veranstaltungsort"
         ],
         "en": [
-          "Live music"
+          "Jazz",
+          "Live Music Venue"
         ]
       },
       "subway_nearby": null,
@@ -745,13 +757,13 @@
             "district": null,
             "city": "Berlin",
             "postal_code": "10829",
-            "country": "Germany"
+            "country": null
           },
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "Cocktailbar, Livestage & Listening Lounge",
           "i18n": {
             "name": {
               "de": "Silent Jazz Bar",
@@ -761,7 +773,10 @@
               "de": "Naumannstr. 3, 10829 Berlin",
               "en": "Naumannstr. 3, 10829 Berlin, Germany"
             },
-            "notes": null
+            "notes": {
+              "de": "Cocktailbar, Live-Bühne & Listening Lounge",
+              "en": "Cocktail bar, live stage & listening lounge"
+            }
           }
         }
       ]
@@ -775,14 +790,77 @@
       "notes": null,
       "genres": {
         "de": [
-          "Cocktailbar",
+          "Jazz",
           "Live-Musik",
-          "Jazz-Lounge"
+          "Jazzbar"
         ],
         "en": [
-          "Cocktail bar",
+          "Jazz",
           "Live music",
-          "Jazz lounge"
+          "Jazz bar"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_8ad8b8ee-5d06-46db-a58b-fb787931e1ac",
+    "ig_handle": "sowiesoberlin",
+    "name_irl": "Sowieso",
+    "location_text": "Weisestraße 24, 12049 Berlin, Germany",
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "01577-2879965",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=7158187729041346912",
+    "booking_url": null,
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Sowieso",
+          "address_text": "Weisestraße 24, 12049 Berlin",
+          "address_components": null,
+          "location_lat": 52.475393,
+          "location_lon": 13.424394,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "de": "Sowieso",
+              "en": "Sowieso"
+            },
+            "address_text": {
+              "de": "Weisestraße 24, 12049 Berlin",
+              "en": "Weisestraße 24, 12049 Berlin, Germany"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "de": "Sowieso",
+        "en": "Sowieso"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "de": [
+          "Live-Musik"
+        ],
+        "en": [
+          "Live Music"
         ]
       },
       "subway_nearby": null,
@@ -803,7 +881,7 @@
     "booking_url": null,
     "homepage_url": "https://www.stadtgarten.de",
     "websites": [
-      "https://linktr.ee/stadtgarten",
+      "https://www.stadtgarten.de",
       "https://www.winterjazzkoeln.com"
     ],
     "subway_nearby": null,
@@ -815,8 +893,10 @@
         {
           "location_id": "main",
           "name": "Stadtgarten Köln",
-          "address_text": "Venloer Str. 40, 50672 Köln",
+          "address_text": "Venloer Str. 40, 50672 Köln, Germany",
           "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
@@ -827,7 +907,7 @@
             },
             "address_text": {
               "de": "Venloer Str. 40, 50672 Köln",
-              "en": "Venloer Str. 40, 50672 Cologne, Germany"
+              "en": "Venloer Str. 40, 50672 Köln, Germany"
             },
             "notes": null
           }
@@ -839,14 +919,8 @@
         "de": "Stadtgarten Köln",
         "en": "Stadtgarten Cologne"
       },
-      "address_text": {
-        "de": "Venloer Str. 40, 50672 Köln",
-        "en": "Venloer Str. 40, 50672 Cologne, Germany"
-      },
-      "notes": {
-        "de": "Europäisches Zentrum für Jazz und aktuelle Musik",
-        "en": "European Center for Jazz and Contemporary Music"
-      },
+      "address_text": null,
+      "notes": null,
       "genres": {
         "de": [
           "Jazz",
@@ -866,7 +940,7 @@
     "id": "ven_7a1a7c16-74df-436c-9d71-689f8b115363",
     "ig_handle": "thehatbarberlin",
     "name_irl": "The Hat Bar Berlin",
-    "location_text": null,
+    "location_text": "Lotte-Lenya-Bogen 550, 10623 Berlin, Germany",
     "location_lat": null,
     "location_lon": null,
     "phone": null,
@@ -879,7 +953,7 @@
     ],
     "subway_nearby": null,
     "food_policy": null,
-    "age_limit": null,
+    "age_limit": "No entry to under 18 years old.",
     "dress_code": null,
     "venue_data": {
       "locations": [
@@ -887,8 +961,16 @@
           "location_id": "main",
           "name": "The Hat Bar Berlin",
           "address_text": "Lotte-Lenya-Bogen 550, 10623 Berlin",
-          "address_components": null,
-          "subway_nearby": null,
+          "address_components": {
+            "street": "Lotte-Lenya-Bogen 550",
+            "district": "Charlottenburg",
+            "city": "Berlin",
+            "postal_code": "10623",
+            "country": "Germany"
+          },
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": "U Kurfürstendamm (0.2km) U1; U9, S+U Zoologischer Garten Bhf. (0.2km) U2; U9, S+U Zoologischer Garten Bhf. (0.3km) S3; S5; S7; S9",
           "booking_link": null,
           "notes": null,
           "i18n": {
@@ -905,35 +987,35 @@
         }
       ],
       "opening_hours": {
-        "mon": "20:00",
-        "tue": "20:00",
-        "wed": "20:00",
-        "thu": "20:00",
-        "fri": "19:00",
-        "sat": "19:00",
-        "sun": "19:00"
+        "mon": "8 PM",
+        "tue": "8 PM",
+        "wed": "8 PM",
+        "thu": "8 PM",
+        "fri": "7 PM",
+        "sat": "7 PM",
+        "sun": "7 PM"
       },
       "typical_show_times": {
         "mon": [
-          "20:00"
+          "8 PM"
         ],
         "tue": [
-          "20:00"
+          "8 PM"
         ],
         "wed": [
-          "20:00"
+          "8 PM"
         ],
         "thu": [
-          "20:00"
+          "8 PM"
         ],
         "fri": [
-          "19:00"
+          "7 PM"
         ],
         "sat": [
-          "19:00"
+          "7 PM"
         ],
         "sun": [
-          "19:00"
+          "7 PM"
         ]
       }
     },
@@ -942,22 +1024,35 @@
         "de": "The Hat Bar Berlin",
         "en": "The Hat Bar Berlin"
       },
-      "address_text": null,
+      "address_text": {
+        "de": "Lotte-Lenya-Bogen 550, 10623 Berlin",
+        "en": "Lotte-Lenya-Bogen 550, 10623 Berlin, Germany"
+      },
       "notes": {
-        "de": "Old-School JAZZ BAR est.2015. Premium Spirituosen & handgemachte Cocktails. Freier Eintritt.",
+        "de": "Old-School JAZZ BAR est.2015. Premium Spirituosen & Handgemachte Cocktails. Freier Eintritt.",
         "en": "Old-School JAZZ BAR est.2015. Premium Spirits & Crafted Cocktails. Free Entry."
       },
       "genres": {
         "de": [
-          "Jazz"
+          "Jazz",
+          "Jazz Bar",
+          "Live-Musik"
         ],
         "en": [
-          "Jazz"
+          "Jazz",
+          "Jazz Bar",
+          "Live music"
         ]
       },
-      "subway_nearby": null,
+      "subway_nearby": {
+        "de": "U Kurfürstendamm (0.2km) U1; U9, S+U Zoologischer Garten Bhf. (0.2km) U2; U9, S+U Zoologischer Garten Bhf. (0.3km) S3; S5; S7; S9",
+        "en": "U Kurfürstendamm (0.2km) U1; U9, S+U Zoologischer Garten Bhf. (0.2km) U2; U9, S+U Zoologischer Garten Bhf. (0.3km) S3; S5; S7; S9"
+      },
       "food_policy": null,
-      "age_limit": null
+      "age_limit": {
+        "de": "Kein Zutritt unter 18 Jahren.",
+        "en": "No entry to under 18 years old."
+      }
     }
   },
   {
@@ -970,11 +1065,11 @@
     "phone": "030-94049147",
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=16259652994667978004",
-    "booking_url": "https://linktr.ee/zigzagjazzclub",
+    "booking_url": "https://www.zigzag-jazzclub.berlin/menu-marquee",
     "homepage_url": "https://www.zigzag-jazzclub.berlin/",
     "websites": [
-      "https://www.zigzag-jazzclub.berlin/menu-marquee",
-      "https://www.zigzag-jazzclub.berlin/mitglieder"
+      "https://www.zigzag-jazzclub.berlin/",
+      "https://linktr.ee/zigzagjazzclub"
     ],
     "subway_nearby": null,
     "food_policy": null,
@@ -987,11 +1082,9 @@
           "name": "Zig Zag Jazz Club",
           "address_text": "Hauptstraße 89, 12159 Berlin",
           "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
           "subway_nearby": null,
-          "booking_link": "https://linktr.ee/zigzagjazzclub",
-          "notes": null,
+          "booking_link": "https://www.zigzag-jazzclub.berlin/menu-marquee",
+          "notes": "Live-Konzerte der besten nationalen und internationalen Künstler*innen in Wohnzimmer-Atmosphäre!",
           "i18n": {
             "name": {
               "de": "Zig Zag Jazz Club",
@@ -1001,7 +1094,10 @@
               "de": "Hauptstraße 89, 12159 Berlin",
               "en": "Hauptstraße 89, 12159 Berlin, Germany"
             },
-            "notes": null
+            "notes": {
+              "de": "Live-Konzerte der besten nationalen und internationalen Künstler*innen in Wohnzimmer-Atmosphäre!",
+              "en": "Live concerts by the best national and international artists in a living room atmosphere!"
+            }
           }
         }
       ]
@@ -1011,13 +1107,10 @@
         "de": "Zig Zag Jazz Club",
         "en": "Zig Zag Jazz Club"
       },
-      "address_text": {
-        "de": "Hauptstraße 89, 12159 Berlin",
-        "en": "Hauptstraße 89, 12159 Berlin, Germany"
-      },
+      "address_text": null,
       "notes": {
-        "de": "Live-Konzerte der besten nationalen und internationalen Künstler*innen in Wohnzimmer-Atmosphäre.",
-        "en": "Live concerts by the best national and international artists in a living room atmosphere."
+        "de": "Live-Konzerte der besten nationalen und internationalen Künstler*innen in Wohnzimmer-Atmosphäre!",
+        "en": "Live concerts by the best national and international artists in a living room atmosphere!"
       },
       "genres": {
         "de": [
@@ -1029,69 +1122,6 @@
           "Live music"
         ]
       },
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
-    "id": "ven_8ad8b8ee-5d06-46db-a58b-fb787931e1ac",
-    "ig_handle": "sowiesoberlin",
-    "name_irl": "sowiesoberlin",
-    "location_text": "Weisestraße 24, 12049 Berlin, Germany",
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "sowiesoberlin",
-          "address_text": "Weisestraße 24, 12049 Berlin",
-          "address_components": {
-            "street": null,
-            "district": null,
-            "city": null,
-            "postal_code": null,
-            "country": null
-          },
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "de": "sowiesoberlin",
-              "en": "sowiesoberlin"
-            },
-            "address_text": {
-              "de": "Weisestraße 24, 12049 Berlin",
-              "en": "Weisestraße 24, 12049 Berlin, Germany"
-            },
-            "notes": null
-          }
-        }
-      ]
-    },
-    "i18n_data": {
-      "name": {
-        "de": "sowiesoberlin",
-        "en": "sowiesoberlin"
-      },
-      "address_text": {
-        "de": "Weisestraße 24, 12049 Berlin",
-        "en": "Weisestraße 24, 12049 Berlin, Germany"
-      },
-      "notes": null,
-      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
