@@ -4,19 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-01-12T16:47:19Z
-- **Source Commit**: [`20795b846105db08f6d5cc5dbefe538f8d50f436`](https://github.com/keunwoochoi/seoulunderground.live/commit/20795b846105db08f6d5cc5dbefe538f8d50f436)
+- **Build Time**: 2026-01-13T23:28:58Z
+- **Source Commit**: [`b28a431218b4e0bf51ce783def49c8ea2d746af3`](https://github.com/keunwoochoi/seoulunderground.live/commit/b28a431218b4e0bf51ce783def49c8ea2d746af3)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20927470747)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20976353324)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Fix cover overlay: use position:fixed to cover entire viewport includ… (#63)
-
-* Fix cover overlay: use position:fixed to cover entire viewport including header
-
-* Refactor: use Z_INDEX constant instead of magic number for maintainability
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 

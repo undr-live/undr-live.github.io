@@ -1,5 +1,79 @@
 [
   {
+    "id": "ven_bdcc46a4-db8b-4e93-a95f-e3885845dd03",
+    "ig_handle": "jazzclubatrane",
+    "name_irl": "A-Trane",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "030-3132550",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=12517570731854252460",
+    "booking_url": null,
+    "homepage_url": "http://www.a-trane.de/",
+    "websites": [
+      "http://www.a-trane.de/",
+      "https://maps.google.com/?cid=12517570731854252460"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "A-Trane",
+          "address_text": "Bleibtreustraße 1, 10623 Berlin",
+          "address_components": null,
+          "location_lat": 52.507239,
+          "location_lon": 13.319958,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": "Compact jazz club, established in 1992, with regular evening concerts by international musicians.",
+          "i18n": {
+            "name": {
+              "de": "A-Trane",
+              "en": "A-Trane"
+            },
+            "address_text": {
+              "de": "Bleibtreustraße 1, 10623 Berlin",
+              "en": "Bleibtreustraße 1, 10623 Berlin, Germany"
+            },
+            "notes": {
+              "de": "Kompakter Jazzclub, gegründet 1992, mit regelmäßigen Abendkonzerten internationaler Musiker.",
+              "en": "Compact jazz club, established in 1992, with regular evening concerts by international musicians."
+            }
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "de": "A-Trane",
+        "en": "A-Trane"
+      },
+      "address_text": null,
+      "notes": {
+        "de": "Kompakter Jazzclub, gegründet 1992, mit regelmäßigen Abendkonzerten internationaler Musiker.",
+        "en": "Compact jazz club, established in 1992, with regular evening concerts by international musicians."
+      },
+      "genres": {
+        "de": [
+          "Jazz",
+          "Live-Musik"
+        ],
+        "en": [
+          "Jazz",
+          "Live music"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_48ddc516-fef5-463e-9040-feabeff28302",
     "ig_handle": "birdland_hamburg",
     "name_irl": "Birdland Hamburg",
@@ -165,9 +239,9 @@
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "030-25922702",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=10025032244576018675",
     "booking_url": null,
     "homepage_url": "https://linktr.ee/clubgretchen",
     "websites": [],
@@ -186,7 +260,7 @@
           "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "Mixed-genre nightclub & live music venue on the site of former military stables with a vaulted roof.",
           "i18n": {
             "name": {
               "de": "GRETCHEN",
@@ -196,7 +270,10 @@
               "de": "Obentrautstraße 19-21, 10963 Berlin",
               "en": "Obentrautstraße 19-21, 10963 Berlin, Germany"
             },
-            "notes": null
+            "notes": {
+              "de": "Gemischtes Genre Nachtclub und Live-Musik-Veranstaltungsort auf dem Gelände ehemaliger Militärställe mit Gewölbedach.",
+              "en": "Mixed-genre nightclub and live music venue on the site of former military stables with a vaulted roof."
+            }
           }
         }
       ]
@@ -207,80 +284,44 @@
         "en": "GRETCHEN"
       },
       "address_text": null,
-      "notes": null,
+      "notes": {
+        "de": "Gemischtes Genre Nachtclub und Live-Musik-Veranstaltungsort auf dem Gelände ehemaliger Militärställe mit Gewölbedach.",
+        "en": "Mixed-genre nightclub and live music venue on the site of former military stables with a vaulted roof."
+      },
       "genres": {
         "de": [
-          "Jazz"
+          "Electronica",
+          "Bass",
+          "Drum'n'Bass",
+          "Dubstep",
+          "Trap",
+          "IDM",
+          "Glitch",
+          "Experimentell",
+          "HipHop",
+          "Funk",
+          "Soul",
+          "Folk",
+          "Afrobeats",
+          "Jazz",
+          "Weltmusik"
         ],
         "en": [
-          "Jazz"
-        ]
-      },
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
-    "id": "ven_bdcc46a4-db8b-4e93-a95f-e3885845dd03",
-    "ig_handle": "jazzclubatrane",
-    "name_irl": "Jazz Club A-Trane",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "http://www.a-trane.de/",
-    "websites": [
-      "http://www.a-trane.de/"
-    ],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Jazz Club A-Trane",
-          "address_text": "Bleibtreustraße 1, 10623 Berlin",
-          "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "de": "Jazz Club A-Trane",
-              "en": "Jazz Club A-Trane"
-            },
-            "address_text": {
-              "de": "Bleibtreustraße 1, 10623 Berlin",
-              "en": "Bleibtreustraße 1, 10623 Berlin, Germany"
-            },
-            "notes": null
-          }
-        }
-      ]
-    },
-    "i18n_data": {
-      "name": {
-        "de": "Jazz Club A-Trane",
-        "en": "Jazz Club A-Trane"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": {
-        "de": [
+          "Electronica",
+          "Bass",
+          "Drum'n'Bass",
+          "Dubstep",
+          "Trap",
+          "IDM",
+          "Glitch",
+          "Experimental",
+          "HipHop",
+          "Funk",
+          "Soul",
+          "Folk",
+          "Afrobeats",
           "Jazz",
-          "Live-Musik"
-        ],
-        "en": [
-          "Jazz",
-          "Live music"
+          "World Music"
         ]
       },
       "subway_nearby": null,
@@ -442,7 +483,7 @@
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "089-4482794",
+    "phone": "089 4482794",
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=15828913675574537634",
     "booking_url": null,
@@ -460,18 +501,12 @@
           "location_id": "main",
           "name": "Jazzclub Unterfahrt",
           "address_text": "Einsteinstraße 42, 81675 München",
-          "address_components": {
-            "street": "Einsteinstraße 42",
-            "district": null,
-            "city": "München",
-            "postal_code": "81675",
-            "country": "Germany"
-          },
+          "address_components": null,
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": "Legendary jazz club in Munich.",
+          "notes": null,
           "i18n": {
             "name": {
               "de": "Jazzclub Unterfahrt",
@@ -479,11 +514,11 @@
             },
             "address_text": {
               "de": "Einsteinstraße 42, 81675 München",
-              "en": "Einsteinstraße 42, 81675 Munich, Germany"
+              "en": "Einsteinstraße 42, 81675 München, Germany"
             },
             "notes": {
-              "de": "Legendärer Jazzclub in München.",
-              "en": "Legendary jazz club in Munich."
+              "de": "Münchens legendärer Jazzclub. Genießen Sie jeden Abend lokalen und internationalen Jazz live.",
+              "en": "Munich‘s legendary jazz club. Enjoy local and international jazz live every night."
             }
           }
         }
@@ -496,17 +531,15 @@
       },
       "address_text": null,
       "notes": {
-        "de": "Münchens legendärer Jazzclub. Jeden Abend lokale und internationale Jazz-Live-Musik genießen.",
-        "en": "Munich's legendary jazz club. Enjoy local and international jazz live every night."
+        "de": "Münchens legendärer Jazzclub. Genießen Sie jeden Abend lokalen und internationalen Jazz live.",
+        "en": "Munich‘s legendary jazz club. Enjoy local and international jazz live every night."
       },
       "genres": {
         "de": [
-          "Jazz",
-          "Live-Musik"
+          "Jazz"
         ],
         "en": [
-          "Jazz",
-          "Live music"
+          "Jazz"
         ]
       },
       "subway_nearby": null,
@@ -521,9 +554,9 @@
     "location_text": "Schnewlinstraße 1, 79098 Freiburg im Breisgau",
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "0761-7919780",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=4038881225582367248",
     "booking_url": null,
     "homepage_url": "https://linktr.ee/jazzhausfreiburg",
     "websites": [],
@@ -537,16 +570,12 @@
           "location_id": "main",
           "name": "Jazzhaus Freiburg",
           "address_text": "Schnewlinstraße 1, 79098 Freiburg im Breisgau",
-          "address_components": {
-            "street": null,
-            "district": null,
-            "city": "Freiburg",
-            "postal_code": null,
-            "country": "Germany"
-          },
+          "address_components": null,
+          "location_lat": 47.994799,
+          "location_lon": 7.840491,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": "Konzerte + Partys",
+          "notes": null,
           "i18n": {
             "name": {
               "de": "Jazzhaus Freiburg",
@@ -556,10 +585,7 @@
               "de": "Schnewlinstraße 1, 79098 Freiburg im Breisgau",
               "en": "Schnewlinstraße 1, 79098 Freiburg im Breisgau, Germany"
             },
-            "notes": {
-              "de": "Konzerte + Partys",
-              "en": "Concerts + Parties"
-            }
+            "notes": null
           }
         }
       ]
@@ -574,16 +600,7 @@
         "en": "Schnewlinstraße 1, 79098 Freiburg im Breisgau, Germany"
       },
       "notes": null,
-      "genres": {
-        "de": [
-          "Jazz",
-          "Live-Musik"
-        ],
-        "en": [
-          "Jazz",
-          "Live music"
-        ]
-      },
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -1066,10 +1083,10 @@
     "email": null,
     "google_map_url": null,
     "booking_url": "https://www.zigzag-jazzclub.berlin/menu-marquee",
-    "homepage_url": "https://www.zigzag-jazzclub.berlin/",
+    "homepage_url": "https://www.zigzag-jazzclub.berlin",
     "websites": [
-      "https://www.zigzag-jazzclub.berlin/",
-      "https://linktr.ee/zigzagjazzclub"
+      "https://linktr.ee/zigzagjazzclub",
+      "https://www.zigzag-jazzclub.berlin/mitglieder"
     ],
     "subway_nearby": null,
     "food_policy": null,
@@ -1084,7 +1101,7 @@
           "address_components": null,
           "subway_nearby": null,
           "booking_link": "https://www.zigzag-jazzclub.berlin/menu-marquee",
-          "notes": "Live-Konzerte der besten nationalen und internationalen Künstler*innen in Wohnzimmer-Atmosphäre!",
+          "notes": "Live concerts by the best national and international artists in a living room atmosphere.",
           "i18n": {
             "name": {
               "de": "Zig Zag Jazz Club",
@@ -1095,8 +1112,8 @@
               "en": "Hauptstraße 89, 12159 Berlin, Germany"
             },
             "notes": {
-              "de": "Live-Konzerte der besten nationalen und internationalen Künstler*innen in Wohnzimmer-Atmosphäre!",
-              "en": "Live concerts by the best national and international artists in a living room atmosphere!"
+              "de": "Live-Konzerte der besten nationalen und internationalen Künstler in Wohnzimmeratmosphäre.",
+              "en": "Live concerts by the best national and international artists in a living room atmosphere."
             }
           }
         }
@@ -1109,8 +1126,8 @@
       },
       "address_text": null,
       "notes": {
-        "de": "Live-Konzerte der besten nationalen und internationalen Künstler*innen in Wohnzimmer-Atmosphäre!",
-        "en": "Live concerts by the best national and international artists in a living room atmosphere!"
+        "de": "Live-Konzerte der besten nationalen und internationalen Künstler in Wohnzimmeratmosphäre.",
+        "en": "Live concerts by the best national and international artists in a living room atmosphere."
       },
       "genres": {
         "de": [
