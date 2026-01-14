@@ -4,20 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-01-14T15:34:55Z
+- **Build Time**: 2026-01-14T16:04:41Z
 - **Source Commit**: [`38a5f981eb62ae9f08e59f4e3a45617047b816d9`](https://github.com/keunwoochoi/seoulunderground.live/commit/38a5f981eb62ae9f08e59f4e3a45617047b816d9)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20999843766)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/21000870549)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Focus on Seoul/jazz only: disable Germany/jazz ETL and frontend (#66)
-
-- Comment out Germany/jazz sections in event_job.sh and venue_job.sh
-- Remove 'germany' from SUPPORTED_LOCALITIES in frontend
-- Keep all Germany data and code intact for future reactivation
-- Immediate cost savings by stopping Germany ETL pipeline
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 
