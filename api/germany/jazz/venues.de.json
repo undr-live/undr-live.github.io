@@ -76,7 +76,7 @@
   {
     "id": "ven_48ddc516-fef5-463e-9040-feabeff28302",
     "ig_handle": "birdland_hamburg",
-    "name_irl": "Birdland Hamburg",
+    "name_irl": "Birdland",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -84,12 +84,8 @@
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=11531881862156874421",
     "booking_url": "https://www.tixforgigs.com/de-DE/Location/1758/birdland-hamburg-hamburg",
-    "homepage_url": "https://www.birdlandhamburg.de/",
-    "websites": [
-      "https://www.deineindruck.de/birdland/?orderby=popularity&post_type=product",
-      "https://clubkombinat.de/clubaward/%23PublicVoting",
-      "https://youtube.com/@birdlandhamburg4323?si=cVNCKrGaAz761rgr"
-    ],
+    "homepage_url": "https://www.tixforgigs.com/de-DE/Location/1758/birdland-hamburg-hamburg",
+    "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -98,18 +94,18 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Birdland Hamburg",
+          "name": "Birdland",
           "address_text": "Gärtnerstraße 122, 20253 Hamburg",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
-          "booking_link": "https://www.tixforgigs.com/de-DE/Location/1758/birdland-hamburg-hamburg",
+          "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "de": "Birdland Hamburg",
-              "en": "Birdland Hamburg"
+              "de": "Birdland",
+              "en": "Birdland"
             },
             "address_text": {
               "de": "Gärtnerstraße 122, 20253 Hamburg",
@@ -122,21 +118,20 @@
     },
     "i18n_data": {
       "name": {
-        "de": "Birdland Hamburg",
-        "en": "Birdland Hamburg"
+        "de": "Birdland",
+        "en": "Birdland"
       },
       "address_text": null,
-      "notes": {
-        "de": "Gegründet 1985. Bietet feinste Drinks & Cocktails.",
-        "en": "Established in 1985. Offers finest drinks & cocktails."
-      },
+      "notes": null,
       "genres": {
         "de": [
           "Jazz",
+          "Blues",
           "Live-Musik"
         ],
         "en": [
           "Jazz",
+          "Blues",
           "Live music"
         ]
       },
@@ -149,17 +144,17 @@
     "id": "ven_dd14af1c-14a1-4b3f-9b4a-d7cea2e566ed",
     "ig_handle": "donau115",
     "name_irl": "Donau115",
-    "location_text": "Donaustraße 115, 12043 Berlin",
+    "location_text": "Donaustraße 115, 12043 Berlin, Germany",
     "location_lat": null,
     "location_lon": null,
     "phone": null,
     "email": "info@donau115.de",
     "google_map_url": null,
     "booking_url": null,
-    "homepage_url": "https://www.donau115.de",
+    "homepage_url": "https://www.donau115.de/",
     "websites": [
-      "https://www.donau115.de",
-      "https://donau115.mailchimpsites.com/"
+      "https://donau115.mailchimpsites.com/",
+      "https://www.donau115.de/"
     ],
     "subway_nearby": null,
     "food_policy": null,
@@ -170,7 +165,7 @@
         {
           "location_id": "main",
           "name": "Donau115",
-          "address_text": "Donaustraße 115, 12043 Berlin",
+          "address_text": "Donaustraße 115, 12043 Berlin, Germany",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
@@ -186,50 +181,46 @@
               "de": "Donaustraße 115, 12043 Berlin",
               "en": "Donaustraße 115, 12043 Berlin, Germany"
             },
-            "notes": null
+            "notes": {
+              "de": null,
+              "en": null
+            }
           }
         }
-      ],
-      "typical_show_times": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": [
-          "19:30"
-        ],
-        "sat": [
-          "19:30"
-        ],
-        "sun": null
-      }
+      ]
     },
     "i18n_data": {
       "name": {
         "de": "Donau115",
         "en": "Donau115"
       },
-      "address_text": {
-        "de": "Donaustraße 115, 12043 Berlin",
-        "en": "Donaustraße 115, 12043 Berlin, Germany"
-      },
+      "address_text": null,
       "notes": {
-        "de": "Keine Reservierungen. 2ST: Anmeldung um 19:30 Uhr.",
-        "en": "No reservations. 2ST: register at 7:30 PM."
+        "de": "Türen: 19:30; 2. Set: Anmeldung um 19:30; Keine Reservierungen.",
+        "en": "Doors: 7:30 PM; 2nd Set: register at 7:30 PM; No reservations."
       },
       "genres": {
         "de": [
           "Jazz",
-          "Experimental"
+          "Experimentelle Musik"
         ],
         "en": [
           "Jazz",
-          "Experimental"
+          "Experimental Music"
         ]
       },
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
+      "subway_nearby": {
+        "de": null,
+        "en": null
+      },
+      "food_policy": {
+        "de": null,
+        "en": null
+      },
+      "age_limit": {
+        "de": null,
+        "en": null
+      }
     }
   },
   {
@@ -358,7 +349,7 @@
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
-          "booking_link": "http://www.kiste-stuttgart.de/",
+          "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
@@ -375,11 +366,11 @@
       ],
       "opening_hours": {
         "mon": null,
-        "tue": "7:30 PM - late",
-        "wed": "7:30 PM - late",
-        "thu": "7:30 PM - late",
-        "fri": "7:30 PM - late",
-        "sat": "7:30 PM - late",
+        "tue": "7:30pm-late",
+        "wed": "7:30pm-late",
+        "thu": "7:30pm-late",
+        "fri": "7:30pm-late",
+        "sat": "7:30pm-late",
         "sun": null
       }
     },
@@ -389,7 +380,10 @@
         "en": "JazzClub Kiste Stuttgart"
       },
       "address_text": null,
-      "notes": null,
+      "notes": {
+        "de": "Livemusic Club & Jazz-Events",
+        "en": "Live music club & jazz events"
+      },
       "genres": {
         "de": [
           "Jazz",
@@ -430,7 +424,15 @@
           "location_id": "main",
           "name": "JazzHall Hamburg",
           "address_text": "Harvestehuder Weg 12, 20148 Hamburg",
-          "address_components": null,
+          "address_components": {
+            "street": "Harvestehuder Weg 12",
+            "district": null,
+            "city": "Hamburg",
+            "postal_code": "20148",
+            "country": "Germany"
+          },
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
           "notes": "Hamburgs Konzertsaal an der Hochschule für Musik und Theater.",
@@ -460,7 +462,10 @@
         "de": "Harvestehuder Weg 12, 20148 Hamburg",
         "en": "Harvestehuder Weg 12, 20148 Hamburg, Germany"
       },
-      "notes": null,
+      "notes": {
+        "de": "Hamburgs Konzertsaal an der Hochschule für Musik und Theater.",
+        "en": "Hamburg's concert hall at the University of Music and Theatre."
+      },
       "genres": {
         "de": [
           "Jazz",
@@ -468,7 +473,7 @@
         ],
         "en": [
           "Jazz",
-          "Live Music"
+          "Live music"
         ]
       },
       "subway_nearby": null,
@@ -613,7 +618,7 @@
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "030-4482160",
+    "phone": "030-448-2160",
     "email": null,
     "google_map_url": null,
     "booking_url": null,
@@ -638,9 +643,11 @@
             "postal_code": "10115",
             "country": "Germany"
           },
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "Seit 1993 Bühne & Veranstaltungsort in Berlin",
           "i18n": {
             "name": {
               "de": "Kunstfabrik Schlot",
@@ -650,7 +657,10 @@
               "de": "Schlegelstraße 26, 10115 Berlin",
               "en": "Schlegelstraße 26, 10115 Berlin, Germany"
             },
-            "notes": null
+            "notes": {
+              "de": "Seit 1993 Bühne & Veranstaltungsort in Berlin",
+              "en": "Stage & event venue in Berlin since 1993"
+            }
           }
         }
       ]
@@ -661,11 +671,17 @@
         "en": "Kunstfabrik Schlot"
       },
       "address_text": null,
-      "notes": {
-        "de": "Seit 1993 Bühne & Veranstaltungsort in Berlin",
-        "en": "Stage & event venue in Berlin since 1993"
+      "notes": null,
+      "genres": {
+        "de": [
+          "Live-Musik-Veranstaltungsort",
+          "Konzerthalle"
+        ],
+        "en": [
+          "Live music venue",
+          "Concert hall"
+        ]
       },
-      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -674,7 +690,7 @@
   {
     "id": "ven_2ace33ce-6209-49c2-b23a-b02048dd700b",
     "ig_handle": "nica_jazz_club",
-    "name_irl": "NICA JAZZ CLUB",
+    "name_irl": "Nica Jazz Club",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -694,24 +710,18 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "NICA JAZZ CLUB",
+          "name": "Nica Jazz Club",
           "address_text": "Alter Wall 20, 20457 Hamburg",
-          "address_components": {
-            "street": "Alter Wall 20",
-            "district": "Altstadt",
-            "city": "Hamburg",
-            "postal_code": "20457",
-            "country": "Germany"
-          },
-          "location_lat": 53.55084,
-          "location_lon": 9.990739,
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "de": "NICA JAZZ CLUB",
-              "en": "NICA JAZZ CLUB"
+              "de": "Nica Jazz Club",
+              "en": "Nica Jazz Club"
             },
             "address_text": {
               "de": "Alter Wall 20, 20457 Hamburg",
@@ -724,21 +734,12 @@
     },
     "i18n_data": {
       "name": {
-        "de": "NICA JAZZ CLUB",
-        "en": "NICA JAZZ CLUB"
+        "de": "Nica Jazz Club",
+        "en": "Nica Jazz Club"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "de": [
-          "Jazz",
-          "Live-Musik-Veranstaltungsort"
-        ],
-        "en": [
-          "Jazz",
-          "Live Music Venue"
-        ]
-      },
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -780,7 +781,7 @@
           "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": "Cocktailbar, Livestage & Listening Lounge",
+          "notes": null,
           "i18n": {
             "name": {
               "de": "Silent Jazz Bar",
@@ -788,12 +789,9 @@
             },
             "address_text": {
               "de": "Naumannstr. 3, 10829 Berlin",
-              "en": "Naumannstr. 3, 10829 Berlin, Germany"
+              "en": "Naumannstraße 3, 10829 Berlin, Germany"
             },
-            "notes": {
-              "de": "Cocktailbar, Live-Bühne & Listening Lounge",
-              "en": "Cocktail bar, live stage & listening lounge"
-            }
+            "notes": null
           }
         }
       ]
@@ -807,14 +805,14 @@
       "notes": null,
       "genres": {
         "de": [
-          "Jazz",
-          "Live-Musik",
-          "Jazzbar"
+          "Jazzbar",
+          "Cocktailbar",
+          "Live-Musik-Veranstaltungsort"
         ],
         "en": [
-          "Jazz",
-          "Live music",
-          "Jazz bar"
+          "Jazz bar",
+          "Cocktail bar",
+          "Live music venue"
         ]
       },
       "subway_nearby": null,
@@ -844,10 +842,10 @@
         {
           "location_id": "main",
           "name": "Sowieso",
-          "address_text": "Weisestraße 24, 12049 Berlin",
+          "address_text": "Weisestraße 24, 12049 Berlin, Germany",
           "address_components": null,
-          "location_lat": 52.475393,
-          "location_lon": 13.424394,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
@@ -874,10 +872,12 @@
       "notes": null,
       "genres": {
         "de": [
+          "Jazz",
           "Live-Musik"
         ],
         "en": [
-          "Live Music"
+          "Jazz",
+          "Live music"
         ]
       },
       "subway_nearby": null,
@@ -898,6 +898,7 @@
     "booking_url": null,
     "homepage_url": "https://www.stadtgarten.de",
     "websites": [
+      "https://linktr.ee/stadtgarten",
       "https://www.stadtgarten.de",
       "https://www.winterjazzkoeln.com"
     ],
@@ -910,13 +911,13 @@
         {
           "location_id": "main",
           "name": "Stadtgarten Köln",
-          "address_text": "Venloer Str. 40, 50672 Köln, Germany",
+          "address_text": "Venloer Str. 40, 50672 Köln",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "Europäisches Zentrum für Jazz und aktuelle Musik",
           "i18n": {
             "name": {
               "de": "Stadtgarten Köln",
@@ -924,9 +925,12 @@
             },
             "address_text": {
               "de": "Venloer Str. 40, 50672 Köln",
-              "en": "Venloer Str. 40, 50672 Köln, Germany"
+              "en": "Venloer Str. 40, 50672 Cologne, Germany"
             },
-            "notes": null
+            "notes": {
+              "de": "Europäisches Zentrum für Jazz und aktuelle Musik",
+              "en": "European Center for Jazz and Contemporary Music"
+            }
           }
         }
       ]
@@ -937,7 +941,10 @@
         "en": "Stadtgarten Cologne"
       },
       "address_text": null,
-      "notes": null,
+      "notes": {
+        "de": "Europäisches Zentrum für Jazz und aktuelle Musik",
+        "en": "European Center for Jazz and Contemporary Music"
+      },
       "genres": {
         "de": [
           "Jazz",
@@ -957,12 +964,12 @@
     "id": "ven_574fecc7-877d-4dd9-befc-a494cb9a7024",
     "ig_handle": "thehatbarberlin",
     "name_irl": "The Hat Bar Berlin",
-    "location_text": "Lotte-Lenya-Bogen 550, 10623 Berlin",
+    "location_text": "Lotte-Lenya-Bogen 550, 10623 Berlin, Germany",
     "location_lat": null,
     "location_lon": null,
     "phone": null,
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=14379533332159580361",
     "booking_url": null,
     "homepage_url": "https://www.thehatbar.de/",
     "websites": [
@@ -978,16 +985,10 @@
           "location_id": "main",
           "name": "The Hat Bar Berlin",
           "address_text": "Lotte-Lenya-Bogen 550, 10623 Berlin",
-          "address_components": {
-            "street": "Lotte-Lenya-Bogen 550",
-            "district": "Charlottenburg",
-            "city": "Berlin",
-            "postal_code": "10623",
-            "country": "Germany"
-          },
+          "address_components": null,
           "location_lat": null,
           "location_lon": null,
-          "subway_nearby": "U Kurfürstendamm (0.2km) U1; U9, S+U Zoologischer Garten Bhf. (0.2km) U2; U9, S+U Zoologischer Garten Bhf. (0.3km) S3; S5; S7; S9",
+          "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
@@ -1002,74 +1003,30 @@
             "notes": null
           }
         }
-      ],
-      "opening_hours": {
-        "mon": "8 PM",
-        "tue": "8 PM",
-        "wed": "8 PM",
-        "thu": "8 PM",
-        "fri": "7 PM",
-        "sat": "7 PM",
-        "sun": "7 PM"
-      },
-      "typical_show_times": {
-        "mon": [
-          "8 PM"
-        ],
-        "tue": [
-          "8 PM"
-        ],
-        "wed": [
-          "8 PM"
-        ],
-        "thu": [
-          "8 PM"
-        ],
-        "fri": [
-          "7 PM"
-        ],
-        "sat": [
-          "7 PM"
-        ],
-        "sun": [
-          "7 PM"
-        ]
-      }
+      ]
     },
     "i18n_data": {
       "name": {
         "de": "The Hat Bar Berlin",
         "en": "The Hat Bar Berlin"
       },
-      "address_text": {
-        "de": "Lotte-Lenya-Bogen 550, 10623 Berlin",
-        "en": "Lotte-Lenya-Bogen 550, 10623 Berlin, Germany"
-      },
-      "notes": {
-        "de": "Old-School JAZZ BAR est.2015. Premium Spirituosen & Handgemachte Cocktails. Freier Eintritt.",
-        "en": "Old-School JAZZ BAR est.2015. Premium Spirits & Crafted Cocktails. Free Entry."
-      },
+      "address_text": null,
+      "notes": null,
       "genres": {
         "de": [
+          "Bar",
           "Jazz",
-          "Jazz Bar",
           "Live-Musik"
         ],
         "en": [
+          "Bar",
           "Jazz",
-          "Jazz Bar",
-          "Live music"
+          "Live Music"
         ]
       },
-      "subway_nearby": {
-        "de": "U Kurfürstendamm (0.2km) U1; U9, S+U Zoologischer Garten Bhf. (0.2km) U2; U9, S+U Zoologischer Garten Bhf. (0.3km) S3; S5; S7; S9",
-        "en": "U Kurfürstendamm (0.2km) U1; U9, S+U Zoologischer Garten Bhf. (0.2km) U2; U9, S+U Zoologischer Garten Bhf. (0.3km) S3; S5; S7; S9"
-      },
+      "subway_nearby": null,
       "food_policy": null,
-      "age_limit": {
-        "de": "Kein Zutritt unter 18 Jahren.",
-        "en": "No entry to under 18 years old."
-      }
+      "age_limit": null
     }
   },
   {
