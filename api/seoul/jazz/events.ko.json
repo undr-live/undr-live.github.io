@@ -266,7 +266,7 @@
   {
     "id": "evt_20260116_f811f15f-a627-421d-bd6d-31a9d918317a",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-01-16T10:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DS1KeV2klVt/",
+    "source_url": "https://www.instagram.com/p/DTjs8JPkQUj/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -276,17 +276,17 @@
     "price": "11,000원",
     "llm_confidence": 1.0,
     "title": "La Petite France 퀄텟",
-    "description": "La Petite France 퀄텟 라이브 재즈 공연 (1부).",
+    "description": "La Petite France 퀄텟의 공연. 김경문 (기타), 최기윤 (기타), 김연송 (바이올린), 서규성 (베이스).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "La Petite France Quartet",
-      "description": "La Petite France Quartet live jazz performance (Part 1)."
+      "description": "Performance by La Petite France Quartet. Kim Kyung-moon (guitar), Choi Ki-yoon (guitar), Kim Yeon-song (violin), Seo Kyu-sung (bass)."
     },
     "_search_ko": {
       "title": "La Petite France 퀄텟",
-      "description": "La Petite France 퀄텟 라이브 재즈 공연 (1부)."
+      "description": "La Petite France 퀄텟의 공연. 김경문 (기타), 최기윤 (기타), 김연송 (바이올린), 서규성 (베이스)."
     }
   },
   {
@@ -448,7 +448,7 @@
   {
     "id": "evt_20260116_3e024794-5e84-446d-8c7b-6f8be61aaeef",
     "event_key": "v:ven_2a778508-67fc-4373-abfb-4bc4e4d19c48|t:2026-01-16T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DTZ3kKDEgoR/",
+    "source_url": "https://www.instagram.com/p/DTkO2qxEuu6/",
     "venue_handle": "orient_express_wine_",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -457,18 +457,18 @@
     "datetime": "2026-01-16T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "재즈 투맨",
-    "description": null,
+    "title": "Jazz 2 Men",
+    "description": "김근홍 (보컬, 색소폰)과 안치훈 (피아노)의 재즈 듀오 공연. 김근홍은 밴드 소울팔레트 활동 및 싱글 [기다리는 밤] 발매. 안치훈은 고희안 사사 및 재즈아카데미 이수. 일반 관람료 20,000원, 학생 (미취학-대학생) 7,000원. 0세-120세 이용 가능.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Jazz 2MEN",
-      "description": null
+      "title": "Jazz 2 Men",
+      "description": "Jazz 2 Men performance by Kim Geun-hong (vocal, saxophone) and Ahn Chi-hoon (piano). Kim Geun-hong is active in band Soul Palette and released the single [Waiting Night]. Ahn Chi-hoon studied under Ko Hee-ahn and completed Jazz Academy. General admission KRW 20,000, student (preschool-university) KRW 7,000. Ages 0-120 welcome."
     },
     "_search_ko": {
-      "title": "재즈 투맨",
-      "description": null
+      "title": "Jazz 2 Men",
+      "description": "김근홍 (보컬, 색소폰)과 안치훈 (피아노)의 재즈 듀오 공연. 김근홍은 밴드 소울팔레트 활동 및 싱글 [기다리는 밤] 발매. 안치훈은 고희안 사사 및 재즈아카데미 이수. 일반 관람료 20,000원, 학생 (미취학-대학생) 7,000원. 0세-120세 이용 가능."
     }
   },
   {
@@ -1584,27 +1584,34 @@
   {
     "id": "evt_20260117_842eef48-b9c9-4dbf-98c6-e1fada272036",
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-01-17T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DTiKCetE9Nr/",
+    "source_url": "https://www.instagram.com/p/DTkj8gsE5ms/",
     "venue_handle": "subriot_hbc",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "jaeyung_3625",
+      "jeongkyudrum",
+      "onlyjazz__",
+      "qjawns005",
+      "retro.0524",
+      "sax_mikyung"
+    ],
     "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "venue_location_id": "main",
     "datetime": "2026-01-17T09:00:00+00:00",
-    "price": "무료 입장 & 후불 결제",
+    "price": "무료 입장 (후불 페이)",
     "llm_confidence": 1.0,
-    "title": "Kansas City band",
-    "description": "스윙 재즈 공연.",
+    "title": "Kansas City Band",
+    "description": "1940년대 캔자스 시티에서 시작된 한 편의 영화 같은 재즈를 들려드립니다. 출연: 박은성 (트럼펫) @onlyjazz__, 강미경 (색소폰) @sax_mikyung, 김범준 (트롬본) @qjawns005, 변재경 (피아노) @jaeyung_3625, 이예녹 (베이스) @retro.0524, 이정규 (드럼) @jeongkyudrum.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kansas City band",
-      "description": "Swing jazz performance."
+      "title": "Kansas City Band",
+      "description": "Delivers cinematic jazz that started in 1940s Kansas City. Roster: Park Eun-seong (trumpet) @onlyjazz__, Kang Mi-kyung (saxophone) @sax_mikyung, Kim Beom-jun (trombone) @qjawns005, Byun Jae-kyung (piano) @jaeyung_3625, Lee Ye-nok (bass) @retro.0524, Lee Jeong-gyu (drums) @jeongkyudrum."
     },
     "_search_ko": {
-      "title": "Kansas City band",
-      "description": "스윙 재즈 공연."
+      "title": "Kansas City Band",
+      "description": "1940년대 캔자스 시티에서 시작된 한 편의 영화 같은 재즈를 들려드립니다. 출연: 박은성 (트럼펫) @onlyjazz__, 강미경 (색소폰) @sax_mikyung, 김범준 (트롬본) @qjawns005, 변재경 (피아노) @jaeyung_3625, 이예녹 (베이스) @retro.0524, 이정규 (드럼) @jeongkyudrum."
     }
   },
   {
@@ -1940,27 +1947,29 @@
   {
     "id": "evt_20260117_bda73bf5-d493-41b8-a806-d1e945cf971f",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-01-17T10:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DS1KeV2klVt/",
+    "source_url": "https://www.instagram.com/p/DTjs8JPkQUj/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "jaekonjeon"
+    ],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
     "datetime": "2026-01-17T10:40:00+00:00",
     "price": "11,000원",
     "llm_confidence": 1.0,
-    "title": "전제곤 퀄텟",
-    "description": "전제곤 퀄텟 라이브 재즈 공연 (1부).",
+    "title": "전제곤 트리오",
+    "description": "전제곤 트리오의 공연. 전제곤 (베이스), 김택준 (색소폰), 오진원 (기타).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Jeon Je-gon Quartet",
-      "description": "Jeon Je-gon Quartet live jazz performance (Part 1)."
+      "title": "Jeon Jae-gon Trio",
+      "description": "Performance by Jeon Jae-gon Trio. Jeon Jae-gon (bass), Kim Taek-joon (saxophone), Oh Jin-won (guitar)."
     },
     "_search_ko": {
-      "title": "전제곤 퀄텟",
-      "description": "전제곤 퀄텟 라이브 재즈 공연 (1부)."
+      "title": "전제곤 트리오",
+      "description": "전제곤 트리오의 공연. 전제곤 (베이스), 김택준 (색소폰), 오진원 (기타)."
     }
   },
   {
@@ -2044,7 +2053,7 @@
   {
     "id": "evt_20260117_3e104e8d-64fd-4bf3-9ad8-ad5af79d4772",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-01-17T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DTX2uBsErNj/",
+    "source_url": "https://www.instagram.com/p/DTkmlOIkp5f/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -2054,17 +2063,17 @@
     "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "남유선 퀄텟",
-    "description": "남유선 퀄텟 공연.",
+    "description": "남유선 퀄텟 라이브 공연. 남유선 (색소폰), 임채선 (피아노), 류형곤 (베이스), 김선빈 (드럼).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Nam Yoo-sun Quartet",
-      "description": "Nam Yoo-sun Quartet performance."
+      "title": "Nam Yoo-seon Quartet",
+      "description": "Nam Yoo-seon Quartet live performance. Nam Yoo-seon (saxophone), Lim Chae-seon (piano), Ryu Hyeong-gon (bass), Kim Seon-bin (drums)."
     },
     "_search_ko": {
       "title": "남유선 퀄텟",
-      "description": "남유선 퀄텟 공연."
+      "description": "남유선 퀄텟 라이브 공연. 남유선 (색소폰), 임채선 (피아노), 류형곤 (베이스), 김선빈 (드럼)."
     }
   },
   {
@@ -2200,7 +2209,7 @@
   {
     "id": "evt_20260117_3b8952a7-b8db-4da6-ae74-59264a5e7c54",
     "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-01-17T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DTXmPpZEudW/",
+    "source_url": "https://www.instagram.com/p/DTkd7qWknU3/",
     "venue_handle": "yellow___taxi",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -2209,18 +2218,18 @@
     "datetime": "2026-01-17T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "김병렬 프랜즈",
-    "description": "최고의 알토 색소포니스트 김병렬과 함께하는 김병렬 프랜즈 공연. 김병렬 (색소폰), 류인기 (베이스), 박지용 (피아노), 조남혁 (드럼), 조아혜 (보컬). 팝과 재즈를 펑키하게 재해석한 레퍼토리, 뜨거운 라틴 그루브.",
+    "title": "김병렬 & 프렌즈",
+    "description": "한국을 대표하는 알토 색소포니스트 김병렬과 프렌즈의 재즈 공연. 김병렬 (색소폰), 류인기 (베이스), 박지용 (피아노), 조남혁 (드럼), 조아혜 (보컬).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Byeong-ryeol Friends",
-      "description": "Kim Byeong-ryeol Friends performance with top alto saxophonist Kim Byeong-ryeol. Featuring Kim Byeong-ryeol (saxophone), Ryu In-gi (bass), Park Ji-yong (piano), Jo Nam-hyeok (drums), Jo A-hye (vocals). Repertoire of funky reinterpretations of pop and jazz, and hot Latin grooves."
+      "title": "Kim Byung-ryeol & Friends",
+      "description": "Jazz performance by Korea's representative alto saxophonist Kim Byung-ryeol and Friends. Kim Byung-ryeol (saxophone), Ryu In-ki (bass), Park Ji-yong (piano), Jo Nam-hyeok (drums), Jo Ah-hye (vocals)."
     },
     "_search_ko": {
-      "title": "김병렬 프랜즈",
-      "description": "최고의 알토 색소포니스트 김병렬과 함께하는 김병렬 프랜즈 공연. 김병렬 (색소폰), 류인기 (베이스), 박지용 (피아노), 조남혁 (드럼), 조아혜 (보컬). 팝과 재즈를 펑키하게 재해석한 레퍼토리, 뜨거운 라틴 그루브."
+      "title": "김병렬 & 프렌즈",
+      "description": "한국을 대표하는 알토 색소포니스트 김병렬과 프렌즈의 재즈 공연. 김병렬 (색소폰), 류인기 (베이스), 박지용 (피아노), 조남혁 (드럼), 조아혜 (보컬)."
     }
   },
   {
@@ -2453,27 +2462,31 @@
   {
     "id": "evt_20260117_466823a0-d1f8-4121-856e-53b21b93cc41",
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-01-17T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DTiKCetE9Nr/",
+    "source_url": "https://www.instagram.com/p/DTkj8gsE5ms/",
     "venue_handle": "subriot_hbc",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "97_swing",
+      "kbs88488",
+      "vetkeyboardist"
+    ],
     "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "venue_location_id": "main",
     "datetime": "2026-01-17T11:00:00+00:00",
-    "price": "무료 입장 & 후불 결제",
+    "price": "무료 입장 (후불 페이)",
     "llm_confidence": 1.0,
-    "title": "김태형 퀸텟",
-    "description": "스탠다드 재즈, 비밥 공연.",
+    "title": "김태형 퀄텟",
+    "description": "업템포 곡들 위주로 연주하는 스탠다드 재즈, 비밥 공연. 김태형 퀄텟: 김태형 (알토 색소폰) @kbs88488, 문성환 (드럼) @97_swing, 김정호 (피아노) @vetkeyboardist, 최진우 (베이스).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Tae-hyung Quintet",
-      "description": "Standard jazz and bebop performance."
+      "title": "Kim Tae-hyung Quartet",
+      "description": "Standard jazz and bebop performance mainly featuring uptempo songs. Kim Tae-hyung Quartet: Kim Tae-hyung (alto saxophone) @kbs88488, Moon Seong-hwan (drums) @97_swing, Kim Jeong-ho (piano) @vetkeyboardist, Choi Jin-woo (bass)."
     },
     "_search_ko": {
-      "title": "김태형 퀸텟",
-      "description": "스탠다드 재즈, 비밥 공연."
+      "title": "김태형 퀄텟",
+      "description": "업템포 곡들 위주로 연주하는 스탠다드 재즈, 비밥 공연. 김태형 퀄텟: 김태형 (알토 색소폰) @kbs88488, 문성환 (드럼) @97_swing, 김정호 (피아노) @vetkeyboardist, 최진우 (베이스)."
     }
   },
   {
@@ -3006,27 +3019,31 @@
   {
     "id": "evt_20260117_fe508135-1278-4fd9-8e8a-47a765316fe9",
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-01-17T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DTiKCetE9Nr/",
+    "source_url": "https://www.instagram.com/p/DTkj8gsE5ms/",
     "venue_handle": "subriot_hbc",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "eeeqdrum",
+      "jazzswagger_music",
+      "jiho6667"
+    ],
     "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "venue_location_id": "main",
     "datetime": "2026-01-17T13:00:00+00:00",
-    "price": "무료 입장 & 후불 결제",
+    "price": "무료 입장 (후불 페이)",
     "llm_confidence": 1.0,
     "title": "EQ Production",
-    "description": "재즈 힙합 공연.",
+    "description": "드러머 EQ를 주축으로 재즈씬 최고의 연주자들이 모여 힙한 재즈 힙합을 선보입니다. EQ Production: EQ (드럼) @eeeqdrum, 정성현 (키보드) @jazzswagger_music, 최지호 (베이스) @jiho6667.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "EQ Production",
-      "description": "Jazz hiphop performance."
+      "description": "Led by drummer EQ, top jazz musicians gather to present hip jazz hiphop. EQ Production: EQ (drums) @eeeqdrum, Jeong Seong-hyeon (keyboard) @jazzswagger_music, Choi Ji-ho (bass) @jiho6667."
     },
     "_search_ko": {
       "title": "EQ Production",
-      "description": "재즈 힙합 공연."
+      "description": "드러머 EQ를 주축으로 재즈씬 최고의 연주자들이 모여 힙한 재즈 힙합을 선보입니다. EQ Production: EQ (드럼) @eeeqdrum, 정성현 (키보드) @jazzswagger_music, 최지호 (베이스) @jiho6667."
     }
   },
   {
@@ -3468,27 +3485,29 @@
   {
     "id": "evt_20260118_fd4675f5-d497-4cf9-a3f6-b6af57270744",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-01-18T10:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DS1KeV2klVt/",
+    "source_url": "https://www.instagram.com/p/DTjs8JPkQUj/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "mihje_off"
+    ],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
     "datetime": "2026-01-18T10:40:00+00:00",
     "price": "11,000원",
     "llm_confidence": 1.0,
-    "title": "고닭과 친구들",
-    "description": "고닭과 친구들 라이브 재즈 공연 (1부).",
+    "title": "김미혜 트리오",
+    "description": "김미혜 트리오의 공연. 김미혜 (피아노), 김성수 (베이스), 이민구 (드럼).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Godak and Friends",
-      "description": "Godak and Friends live jazz performance (Part 1)."
+      "title": "Kim Mi-hye Trio",
+      "description": "Performance by Kim Mi-hye Trio. Kim Mi-hye (piano), Kim Sung-soo (bass), Lee Min-gu (drums)."
     },
     "_search_ko": {
-      "title": "고닭과 친구들",
-      "description": "고닭과 친구들 라이브 재즈 공연 (1부)."
+      "title": "김미혜 트리오",
+      "description": "김미혜 트리오의 공연. 김미혜 (피아노), 김성수 (베이스), 이민구 (드럼)."
     }
   },
   {
