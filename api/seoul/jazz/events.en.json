@@ -2,27 +2,30 @@
   {
     "id": "evt_20260120_8227422a-7a45-4767-869f-234b89510b9b",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-01-20T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DTrSdwVE9Gn/",
+    "source_url": "https://www.instagram.com/p/DTtm_FMk0et/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "parkjyuk",
+      "yohan_drum_"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-01-20T09:00:00+00:00",
-    "price": null,
+    "price": "Free entry + deferred payment",
     "llm_confidence": 1.0,
-    "title": "Park Jihyuk Trio",
-    "description": "Fusion Jazz, Blues trio.",
+    "title": "Park Ji-hyuk Trio",
+    "description": "A trio performing fusion jazz and blues.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Park Jihyuk Trio",
-      "description": "Fusion Jazz, Blues trio."
+      "title": "Park Ji-hyuk Trio",
+      "description": "A trio performing fusion jazz and blues."
     },
     "_search_ko": {
       "title": "박지혁 트리오",
-      "description": "퓨전 재즈, 블루스 트리오."
+      "description": "퓨전 재즈와 블루스를 연주하는 트리오."
     }
   },
   {
@@ -121,17 +124,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Jazz Jam Day",
-    "description": "Jazz Jam Day.",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jazz Jam Day",
-      "description": "Jazz Jam Day."
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "Jazz Jam Day",
-      "description": "재즈 잼 데이."
+      "title": "재즈 잼 데이",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -218,27 +221,32 @@
   {
     "id": "evt_20260120_4974f267-d389-4090-9158-82841cf120df",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-01-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DTrSdwVE9Gn/",
+    "source_url": "https://www.instagram.com/p/DTtm_FMk0et/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "akinahadano",
+      "bassist_lee_dong_min",
+      "myungjin_drums",
+      "younssu_"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-01-20T11:00:00+00:00",
-    "price": null,
+    "price": "Free entry + deferred payment",
     "llm_confidence": 1.0,
-    "title": "Choomyungjin Trio With Akina Hadano",
-    "description": "Standard Jazz trio featuring international invited artist Akina Hadano.",
+    "title": "Choo Myung-jin Trio With Akina Hadano",
+    "description": "Standard jazz performance featuring overseas artist Akina Hadano.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Choomyungjin Trio With Akina Hadano",
-      "description": "Standard Jazz trio featuring international invited artist Akina Hadano."
+      "title": "Choo Myung-jin Trio With Akina Hadano",
+      "description": "Standard jazz performance featuring overseas artist Akina Hadano."
     },
     "_search_ko": {
-      "title": "추명진 트리오 With Akina Hadano",
-      "description": "해외 초청 아티스트 Akina Hadano와 함께하는 스탠다드 재즈 트리오."
+      "title": "추명진 트리오 With 아키나 하다노",
+      "description": "해외 아티스트 아키나 하다노와 함께하는 스탠다드 재즈."
     }
   },
   {
@@ -265,6 +273,32 @@
     "_search_ko": {
       "title": "Oldie but Goodie",
       "description": "보컬 정화의 스탠다드 재즈. 'Lost Verses' 감성으로 듣는 올드 재즈의 매력."
+    }
+  },
+  {
+    "id": "evt_20260120_9d398761-0df4-4810-823a-f55666e30ae6",
+    "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-01-20T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DTtr2mvj3Ub/",
+    "venue_handle": "dido_jazz_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
+    "venue_location_id": "main",
+    "datetime": "2026-01-20T11:30:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "An Seong-mi Trio",
+    "description": "Vocalist An Seong-mi Trio performs diverse standard jazz and pop repertoire. An Seong-mi (vocal), Jung Mo-se (piano), Choi Min-ho (bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "An Seong-mi Trio",
+      "description": "Vocalist An Seong-mi Trio performs diverse standard jazz and pop repertoire. An Seong-mi (vocal), Jung Mo-se (piano), Choi Min-ho (bass)."
+    },
+    "_search_ko": {
+      "title": "안성미 트리오",
+      "description": "대학가요제 대상 수상, 이문세 밴드 세션으로 활동한 보컬리스트 안성미 트리오의 다채로운 무대. 안성미 (보컬), 정모세 (피아노), 최민호 (베이스)."
     }
   },
   {
@@ -296,27 +330,31 @@
   {
     "id": "evt_20260120_d64736df-689d-4167-b2a4-596250ee789d",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-01-20T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DTrSdwVE9Gn/",
+    "source_url": "https://www.instagram.com/p/DTtm_FMk0et/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "hoyeon.choi",
+      "lee_daaahe",
+      "minseok_keys"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-01-20T13:00:00+00:00",
-    "price": null,
+    "price": "Free entry + deferred payment",
     "llm_confidence": 1.0,
     "title": "Three Way Conversation",
-    "description": "Swing, Blues, Standard Jazz band.",
+    "description": "A jazz band constantly pursuing newness, performing swing, blues, and standard jazz.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Three Way Conversation",
-      "description": "Swing, Blues, Standard Jazz band."
+      "description": "A jazz band constantly pursuing newness, performing swing, blues, and standard jazz."
     },
     "_search_ko": {
-      "title": "Three Way Conversation",
-      "description": "스윙, 블루스, 스탠다드 재즈 밴드."
+      "title": "쓰리 웨이 컨버세이션",
+      "description": "항상 새로움을 추구하는 재즈 밴드. 스윙, 블루스, 스탠다드 재즈를 연주합니다."
     }
   },
   {
@@ -493,17 +531,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Ji Soo Trio",
-    "description": "Kim Ji Soo Trio performance. Kim Ji Soo (piano), Choi Yoon Seok (bass), Baek Chang Gyu (drums). One mandatory drink order per person.",
+    "description": "Performance by Kim Ji Soo Trio. Kim Ji Soo (piano), Choi Yoon Seok (bass), Baek Chang Gyu (drums).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Ji Soo Trio",
-      "description": "Kim Ji Soo Trio performance. Kim Ji Soo (piano), Choi Yoon Seok (bass), Baek Chang Gyu (drums). One mandatory drink order per person."
+      "description": "Performance by Kim Ji Soo Trio. Kim Ji Soo (piano), Choi Yoon Seok (bass), Baek Chang Gyu (drums)."
     },
     "_search_ko": {
       "title": "김지수 트리오",
-      "description": "김지수 트리오 공연. 김지수 (피아노), 최윤석 (베이스), 백창규 (드럼). 1인 1음료 주문 필수."
+      "description": "김지수 트리오 공연. 피아노 김지수, 베이스 최윤석, 드럼 백창규."
     }
   },
   {
@@ -519,17 +557,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kang Jae-hoon Trio",
-    "description": "Kang Jae-hoon Trio",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kang Jae-hoon Trio",
-      "description": "Kang Jae-hoon Trio"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "강재훈 트리오",
-      "description": "강재훈 트리오"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -715,17 +753,17 @@
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
     "title": "Yong To The Sun",
-    "description": "Yong To The Sun performance. Hyun Yong-sun (guitar) @yongtothesun, Jo Min-ha (bass) @min.hacho, Chae Seok-woo (drums) @drum_seokwoo. Two sets (Part 1: 8:00-8:45 PM, Part 2: 8:55-9:40 PM).",
+    "description": "Yong To The Sun performance. Hyun Yong-sun (guitar) @yongtothesun, Jo Min-ha (bass) @min.hacho, Chae Seok-woo (drums) @drum_seokwoo.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Yong To The Sun",
-      "description": "Yong To The Sun performance. Hyun Yong-sun (guitar) @yongtothesun, Jo Min-ha (bass) @min.hacho, Chae Seok-woo (drums) @drum_seokwoo. Two sets (Part 1: 8:00-8:45 PM, Part 2: 8:55-9:40 PM)."
+      "description": "Yong To The Sun performance. Hyun Yong-sun (guitar) @yongtothesun, Jo Min-ha (bass) @min.hacho, Chae Seok-woo (drums) @drum_seokwoo."
     },
     "_search_ko": {
       "title": "Yong To The Sun",
-      "description": "Yong To The Sun 공연. 현용선 (기타) @yongtothesun, 조민하 (베이스) @min.hacho, 채석우 (드럼) @drum_seokwoo. 2부 구성 (1부: 8:00~8:45, 2부: 8:55~9:40)."
+      "description": "Yong To The Sun 공연. 현용선 (기타) @yongtothesun, 조민하 (베이스) @min.hacho, 채석우 (드럼) @drum_seokwoo."
     }
   },
   {
@@ -1040,17 +1078,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "The Famous Bakery",
-    "description": "The Famous Bakery",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "The Famous Bakery",
-      "description": "The Famous Bakery"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "더 페이머스 베이커리",
-      "description": "더 페이머스 베이커리"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -1353,6 +1391,37 @@
     "_search_ko": {
       "title": "해방임 트리오",
       "description": "해방임 트리오의 공연. 해일럽 (보컬) @hey.hailluv, 방병조 (기타) @byungjobang, 임대섭 (베이스)."
+    }
+  },
+  {
+    "id": "evt_20260122_3f647bd9-0ffb-4fb3-a9a1-203ce9e9c185",
+    "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-01-22T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DTts1AIEqI4/",
+    "venue_handle": "michiko.seoul_official",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "2junebbang2",
+      "ccc_chambers",
+      "lester_yoo",
+      "moohchoi"
+    ],
+    "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
+    "venue_location_id": "main",
+    "datetime": "2026-01-22T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoo Taek-eon Quartet: SAX in the city",
+    "description": "Yoo Taek-eon Quartet's SAX in the city swing jazz performance. Yoo Taek-eon (saxophone) @lester_yoo, Lee Jun-young (piano & vocal) @2junebbang2, Choi Min-ho (bass) @ccc_chambers, Choi Mu-hyeon (drums) @moohchoi.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoo Taek-eon Quartet: SAX in the city",
+      "description": "Yoo Taek-eon Quartet's SAX in the city swing jazz performance. Yoo Taek-eon (saxophone) @lester_yoo, Lee Jun-young (piano & vocal) @2junebbang2, Choi Min-ho (bass) @ccc_chambers, Choi Mu-hyeon (drums) @moohchoi."
+    },
+    "_search_ko": {
+      "title": "유택언 퀄텟: SAX in the city",
+      "description": "유택언 퀄텟의 SAX in the city 스윙 재즈 공연. 유택언 (색소폰) @lester_yoo, 이준영 (피아노 & 보컬) @2junebbang2, 최민호 (베이스) @ccc_chambers, 최무현 (드럼) @moohchoi."
     }
   },
   {
@@ -1706,17 +1775,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Yoon Hye-jin and Brothers",
-    "description": "Yoon Hye-jin and Brothers",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Yoon Hye-jin and Brothers",
-      "description": "Yoon Hye-jin and Brothers"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "윤혜진과 브라더스",
-      "description": "윤혜진과 브라더스"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -1951,18 +2020,18 @@
     "datetime": "2026-01-23T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "Kim Han-eol Yukaehanseom 'Latin'",
-    "description": "Kim Han-eol Yukaehanseom's 'Latin' performance. Piano Kim Han-eol, saxophone Lee Gi-hyeon, double bass Jeon Je-gon, drums Lee Jong-ho.",
+    "title": "Kim Han-eol Yukaehansum 'Latin'",
+    "description": "Latin jazz performance by the Yukaehansum band led by Kim Han-eol. Kim Han-eol (piano), Lee Ki-hyun (saxophone), Jeon Je-gon (double bass), Lee Jong-ho (drums).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Han-eol Yukaehanseom 'Latin'",
-      "description": "Kim Han-eol Yukaehanseom's 'Latin' performance. Piano Kim Han-eol, saxophone Lee Gi-hyeon, double bass Jeon Je-gon, drums Lee Jong-ho."
+      "title": "Kim Han-eol Yukaehansum 'Latin'",
+      "description": "Latin jazz performance by the Yukaehansum band led by Kim Han-eol. Kim Han-eol (piano), Lee Ki-hyun (saxophone), Jeon Je-gon (double bass), Lee Jong-ho (drums)."
     },
     "_search_ko": {
       "title": "김한얼 유쾌한섬 'Latin'",
-      "description": "김한얼 유쾌한섬의 'Latin' 공연. 피아노 김한얼, 색소폰 이기현, 더블베이스 전제곤, 드럼 이종호."
+      "description": "김한얼이 이끄는 유쾌한섬 밴드의 라틴 재즈 공연. 김한얼 (피아노), 이기현 (색소폰), 전제곤 (더블 베이스), 이종호 (드럼)."
     }
   },
   {
@@ -2122,18 +2191,18 @@
     "datetime": "2026-01-23T11:30:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Kim Jae-hyung Quartet + Yu Hara",
-    "description": "Jazz performance by Kim Jae-hyung Quartet and vocalist Yu Hara. Kim Jae-hyung (piano) @brownsoundstudio, Yu Hara (vocal) @yoohara, Jo Kwang-hyun (guitar) @yoyihuri, Kang Seok-gwon (drums) @seokgwon_k, Park Jung-hyun (bass) @bowingpark. Price: KRW 10,000.",
+    "title": "Kim Jae-hyung Quartet + Yoo Ha-ra",
+    "description": "Jazz performance by Kim Jae-hyung Quartet and vocalist Yoo Ha-ra.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Jae-hyung Quartet + Yu Hara",
-      "description": "Jazz performance by Kim Jae-hyung Quartet and vocalist Yu Hara. Kim Jae-hyung (piano) @brownsoundstudio, Yu Hara (vocal) @yoohara, Jo Kwang-hyun (guitar) @yoyihuri, Kang Seok-gwon (drums) @seokgwon_k, Park Jung-hyun (bass) @bowingpark. Price: KRW 10,000."
+      "title": "Kim Jae-hyung Quartet + Yoo Ha-ra",
+      "description": "Jazz performance by Kim Jae-hyung Quartet and vocalist Yoo Ha-ra."
     },
     "_search_ko": {
       "title": "김재형 퀄텟 + 유하라",
-      "description": "김재형 퀄텟과 보컬 유하라의 재즈 공연. 김재형 (피아노) @brownsoundstudio, 유하라 (보컬) @yoohara, 조광현 (기타) @yoyihuri, 강석권 (드럼) @seokgwon_k, 박정현 (베이스) @bowingpark. 관람료: 10,000원."
+      "description": "김재형 퀄텟과 보컬 유하라의 재즈 공연. 1부 8:30~9:15, 2부 9:25~10:10. 피아노 김재형 @brownsoundstudio, 보컬 유하라 @yoohara, 기타 조광현 @yoyihuri, 드럼 강석권 @seokgwon_k, 베이스 박정현 @bowingpark."
     }
   },
   {
@@ -2874,17 +2943,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Stupid Bird",
-    "description": "Stupid Bird",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Stupid Bird",
-      "description": "Stupid Bird"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "스투피드 버드",
-      "description": "스투피드 버드"
+      "title": "Stupid Bird",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -3796,17 +3865,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Ricotta Jazz Trio",
-    "description": "Ricotta Jazz Trio",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Ricotta Jazz Trio",
-      "description": "Ricotta Jazz Trio"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "리코타 재즈 트리오",
-      "description": "리코타 재즈 트리오"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -4220,17 +4289,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Charlie Jung Blues",
-    "description": "Charlie Jung Blues",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Charlie Jung Blues",
-      "description": "Charlie Jung Blues"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "찰리정 블루스",
-      "description": "찰리정 블루스"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -4298,17 +4367,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Jazz Jam Day",
-    "description": "Jazz Jam Day.",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jazz Jam Day",
-      "description": "Jazz Jam Day."
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "Jazz Jam Day",
-      "description": "재즈 잼 데이."
+      "title": "재즈 잼 데이",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -4428,17 +4497,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Max Light",
-    "description": "Max Light",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Max Light",
-      "description": "Max Light"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "맥스 라이트",
-      "description": "맥스 라이트"
+      "title": "Max Light",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -4529,20 +4598,20 @@
     "venue_id": "ven_1aa53620-2006-41ed-8fec-93d15747afa9",
     "venue_location_id": "main",
     "datetime": "2026-01-29T10:30:00+00:00",
-    "price": "KRW 15,000 (Incl. one drink & free parking)",
+    "price": "KRW 15,000",
     "llm_confidence": 1.0,
     "title": "Roy McGrath Quartet",
-    "description": "Puerto Rican-born, Chicago-based tenor saxophonist Roy McGrath Quartet. Blends Puerto Rican folkloric traditions with jazz improvisation. Roy McGrath (saxophone), Meghan Staghl (vocal/piano), Evan Levine (bass), William Garcia (drums).",
+    "description": "Puerto Rican, Chicago-based tenor saxophonist Roy McGrath Quartet performance. Music blends Puerto Rican folkloric traditions with improvisational jazz. One show only. Includes one welcome drink and free parking.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Roy McGrath Quartet",
-      "description": "Puerto Rican-born, Chicago-based tenor saxophonist Roy McGrath Quartet. Blends Puerto Rican folkloric traditions with jazz improvisation. Roy McGrath (saxophone), Meghan Staghl (vocal/piano), Evan Levine (bass), William Garcia (drums)."
+      "description": "Puerto Rican, Chicago-based tenor saxophonist Roy McGrath Quartet performance. Music blends Puerto Rican folkloric traditions with improvisational jazz. One show only. Includes one welcome drink and free parking."
     },
     "_search_ko": {
       "title": "로이 맥그래스 퀄텟",
-      "description": "푸에르토리코 출신 시카고 기반의 테너 색소포니스트 로이 맥그래스 퀄텟. 푸에르토리코 전통 음악과 재즈 즉흥 연주를 결합. 로이 맥그래스 (색소폰), 메간 스태글 (보컬/피아노), 에반 레빈 (베이스), 윌리엄 가르시아 (드럼)."
+      "description": "푸에르토리코 시카고 기반 테너 색소포니스트 로이 맥그래스 퀄텟의 공연. 푸에르토리코 민속 전통과 재즈 즉흥 언어를 혼합한 음악. 1회 공연. 웰컴 드링크 및 무료 주차 포함."
     }
   },
   {
@@ -4610,17 +4679,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Cham-chi",
-    "description": "Kim Cham-chi",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Cham-chi",
-      "description": "Kim Cham-chi"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "김참치",
-      "description": "김참치"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -4870,17 +4939,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Shin Dong-jin",
-    "description": "Shin Dong-jin",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Shin Dong-jin",
-      "description": "Shin Dong-jin"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "신동진",
-      "description": "신동진"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -5457,17 +5526,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lee Yong-seok",
-    "description": "Lee Yong-seok",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Yong-seok",
-      "description": "Lee Yong-seok"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "이용석",
-      "description": "이용석"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -5801,17 +5870,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Jung Woo-yeon",
-    "description": "Jung Woo-yeon",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jung Woo-yeon",
-      "description": "Jung Woo-yeon"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "정우연",
-      "description": "정우연"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -5855,17 +5924,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Min-jun",
-    "description": "Kim Min-jun",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Min-jun",
-      "description": "Kim Min-jun"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "김민준",
-      "description": "김민준"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -5909,17 +5978,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Jazz Jam Day",
-    "description": "Jazz Jam Day.",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jazz Jam Day",
-      "description": "Jazz Jam Day."
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "Jazz Jam Day",
-      "description": "재즈 잼 데이."
+      "title": "재즈 잼 데이",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -5963,17 +6032,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Shin Dong-ha",
-    "description": "Shin Dong-ha",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Shin Dong-ha",
-      "description": "Shin Dong-ha"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "신동하",
-      "description": "신동하"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6015,17 +6084,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Seo Su-jin",
-    "description": "Seo Su-jin",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Seo Su-jin",
-      "description": "Seo Su-jin"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "서수진",
-      "description": "서수진"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6041,17 +6110,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "New Jazz Messengers",
-    "description": "New Jazz Messengers",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "New Jazz Messengers",
-      "description": "New Jazz Messengers"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "뉴 재즈 메신저스",
-      "description": "뉴 재즈 메신저스"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6067,17 +6136,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "New Jazz Messengers",
-    "description": "New Jazz Messengers",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "New Jazz Messengers",
-      "description": "New Jazz Messengers"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "뉴 재즈 메신저스",
-      "description": "뉴 재즈 메신저스"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6122,17 +6191,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Sang-beom",
-    "description": "Kim Sang-beom",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Sang-beom",
-      "description": "Kim Sang-beom"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "김상범",
-      "description": "김상범"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6148,17 +6217,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Han-eol",
-    "description": "Kim Han-eol",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Han-eol",
-      "description": "Kim Han-eol"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "김한얼",
-      "description": "김한얼"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6174,17 +6243,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Jazz Jam Day",
-    "description": "Jazz Jam Day.",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jazz Jam Day",
-      "description": "Jazz Jam Day."
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "Jazz Jam Day",
-      "description": "재즈 잼 데이."
+      "title": "재즈 잼 데이",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6200,17 +6269,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Cham-chi",
-    "description": "Kim Cham-chi",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Cham-chi",
-      "description": "Kim Cham-chi"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "김참치",
-      "description": "김참치"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6225,18 +6294,18 @@
     "datetime": "2026-02-12T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Yoo Myung-han",
-    "description": "Yoo Myung-han",
+    "title": "Yoo Myeong-han",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Yoo Myung-han",
-      "description": "Yoo Myung-han"
+      "title": "Yoo Myeong-han",
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "유명한",
-      "description": "유명한"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6252,17 +6321,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lee Yong-seok",
-    "description": "Lee Yong-seok",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Yong-seok",
-      "description": "Lee Yong-seok"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "이용석",
-      "description": "이용석"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6330,17 +6399,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "La Petite France Quartet",
-    "description": "La Petite France Quartet",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "La Petite France Quartet",
-      "description": "La Petite France Quartet"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "라 쁘띠 프랑스 퀄텟",
-      "description": "라 쁘띠 프랑스 퀄텟"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6384,17 +6453,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Stupid Bird",
-    "description": "Stupid Bird",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Stupid Bird",
-      "description": "Stupid Bird"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "스투피드 버드",
-      "description": "스투피드 버드"
+      "title": "Stupid Bird",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6435,18 +6504,18 @@
     "datetime": "2026-02-16T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Kim Sun-woo",
-    "description": "Kim Sun-woo",
+    "title": "Kim Seon-woo",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Sun-woo",
-      "description": "Kim Sun-woo"
+      "title": "Kim Seon-woo",
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "김선우",
-      "description": "김선우"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6514,17 +6583,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kang Jae-hoon",
-    "description": "Kang Jae-hoon",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kang Jae-hoon",
-      "description": "Kang Jae-hoon"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "강재훈",
-      "description": "강재훈"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6566,17 +6635,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lee Ji-young",
-    "description": "Lee Ji-young",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Ji-young",
-      "description": "Lee Ji-young"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "이지영",
-      "description": "이지영"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6591,18 +6660,18 @@
     "datetime": "2026-02-20T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Rich Man Groove Nice",
-    "description": "Rich Man Groove Nice",
+    "title": "Richman Groove Nice",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Rich Man Groove Nice",
-      "description": "Rich Man Groove Nice"
+      "title": "Richman Groove Nice",
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "리치맨 그루브 나이스",
-      "description": "리치맨 그루브 나이스"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6618,17 +6687,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lee Sang-min Art of Legacy",
-    "description": "Lee Sang-min Art of Legacy",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Sang-min Art of Legacy",
-      "description": "Lee Sang-min Art of Legacy"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "이상민 아트 오브 레거시",
-      "description": "이상민 아트 오브 레거시"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6644,17 +6713,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Mona",
-    "description": "Mona",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Mona",
-      "description": "Mona"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "모나",
-      "description": "모나"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6696,17 +6765,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Jung Ji-su",
-    "description": "Jung Ji-su",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jung Ji-su",
-      "description": "Jung Ji-su"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "정지수",
-      "description": "정지수"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6722,17 +6791,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Blues Jam Day",
-    "description": "Blues Jam Day.",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Blues Jam Day",
-      "description": "Blues Jam Day."
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "Blues Jam Day",
-      "description": "블루스 잼 데이."
+      "title": "블루스 잼 데이",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6748,17 +6817,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lee Mi-young",
-    "description": "Lee Mi-young",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Mi-young",
-      "description": "Lee Mi-young"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "이미영",
-      "description": "이미영"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6774,17 +6843,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kang Jae-hoon Sounddog 4Days",
-    "description": "Kang Jae-hoon Sounddog 4Days",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kang Jae-hoon Sounddog 4Days",
-      "description": "Kang Jae-hoon Sounddog 4Days"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "강재훈 사운드독 4데이즈",
-      "description": "강재훈 사운드독 4데이즈"
+      "title": "강재훈 사운드독 4Days",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6800,17 +6869,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kang Jae-hoon Sounddog 4Days",
-    "description": "Kang Jae-hoon Sounddog 4Days",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kang Jae-hoon Sounddog 4Days",
-      "description": "Kang Jae-hoon Sounddog 4Days"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "강재훈 사운드독 4데이즈",
-      "description": "강재훈 사운드독 4데이즈"
+      "title": "강재훈 사운드독 4Days",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6826,17 +6895,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kang Jae-hoon Sounddog 4Days",
-    "description": "Kang Jae-hoon Sounddog 4Days",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kang Jae-hoon Sounddog 4Days",
-      "description": "Kang Jae-hoon Sounddog 4Days"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "강재훈 사운드독 4데이즈",
-      "description": "강재훈 사운드독 4데이즈"
+      "title": "강재훈 사운드독 4Days",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6880,17 +6949,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kang Jae-hoon Sounddog 4Days",
-    "description": "Kang Jae-hoon Sounddog 4Days",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kang Jae-hoon Sounddog 4Days",
-      "description": "Kang Jae-hoon Sounddog 4Days"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "강재훈 사운드독 4데이즈",
-      "description": "강재훈 사운드독 4데이즈"
+      "title": "강재훈 사운드독 4Days",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6906,17 +6975,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Yo-han",
-    "description": "Kim Yo-han",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Yo-han",
-      "description": "Kim Yo-han"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "김요한",
-      "description": "김요한"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6932,17 +7001,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Jazz Jam Day",
-    "description": "Jazz Jam Day.",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jazz Jam Day",
-      "description": "Jazz Jam Day."
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "Jazz Jam Day",
-      "description": "재즈 잼 데이."
+      "title": "재즈 잼 데이",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6957,18 +7026,18 @@
     "datetime": "2026-03-04T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Bae Min-hyuk",
-    "description": "Bae Min-hyuk",
+    "title": "Bae Min-hyeok",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Bae Min-hyuk",
-      "description": "Bae Min-hyuk"
+      "title": "Bae Min-hyeok",
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "배민혁",
-      "description": "배민혁"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -6984,17 +7053,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Seo Su-jin",
-    "description": "Seo Su-jin",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Seo Su-jin",
-      "description": "Seo Su-jin"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "서수진",
-      "description": "서수진"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7010,17 +7079,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Ki-beom",
-    "description": "Kim Ki-beom",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Ki-beom",
-      "description": "Kim Ki-beom"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "김기범",
-      "description": "김기범"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7036,17 +7105,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Damon Brown",
-    "description": "Damon Brown",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Damon Brown",
-      "description": "Damon Brown"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "데이먼 브라운",
-      "description": "데이먼 브라운"
+      "title": "Damon Brown",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7062,17 +7131,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Nova Sam",
-    "description": "Nova Sam",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Nova Sam",
-      "description": "Nova Sam"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "노바샘",
-      "description": "노바샘"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7088,17 +7157,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Sang-beom",
-    "description": "Kim Sang-beom",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Sang-beom",
-      "description": "Kim Sang-beom"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "김상범",
-      "description": "김상범"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7114,17 +7183,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Jazz Jam Day",
-    "description": "Jazz Jam Day.",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jazz Jam Day",
-      "description": "Jazz Jam Day."
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "Jazz Jam Day",
-      "description": "재즈 잼 데이."
+      "title": "재즈 잼 데이",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7140,17 +7209,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Seok Da-yeon",
-    "description": "Seok Da-yeon",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Seok Da-yeon",
-      "description": "Seok Da-yeon"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "석다연",
-      "description": "석다연"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7166,17 +7235,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Song Jun-young",
-    "description": "Song Jun-young",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Song Jun-young",
-      "description": "Song Jun-young"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "송준영",
-      "description": "송준영"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7192,17 +7261,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lee Sang-su",
-    "description": "Lee Sang-su",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Sang-su",
-      "description": "Lee Sang-su"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "이상수",
-      "description": "이상수"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7218,17 +7287,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Park Ye-jin",
-    "description": "Park Ye-jin",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Park Ye-jin",
-      "description": "Park Ye-jin"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "박예진",
-      "description": "박예진"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7271,18 +7340,18 @@
     "datetime": "2026-03-15T10:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Jang Hyun-seung",
-    "description": "Jang Hyun-seung",
+    "title": "Jang Hyeon-seung",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Jang Hyun-seung",
-      "description": "Jang Hyun-seung"
+      "title": "Jang Hyeon-seung",
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "장현승",
-      "description": "장현승"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7298,17 +7367,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Charlie Jung",
-    "description": "Charlie Jung",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Charlie Jung",
-      "description": "Charlie Jung"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "찰리정",
-      "description": "찰리정"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7324,17 +7393,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Jazz Jam Day",
-    "description": "Jazz Jam Day.",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jazz Jam Day",
-      "description": "Jazz Jam Day."
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
-      "title": "Jazz Jam Day",
-      "description": "재즈 잼 데이."
+      "title": "재즈 잼 데이",
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7350,17 +7419,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kang Jae-hoon",
-    "description": "Kang Jae-hoon",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kang Jae-hoon",
-      "description": "Kang Jae-hoon"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "강재훈",
-      "description": "강재훈"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7376,17 +7445,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lee Ji-young",
-    "description": "Lee Ji-young",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Ji-young",
-      "description": "Lee Ji-young"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "이지영",
-      "description": "이지영"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7402,17 +7471,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lee Sang-min",
-    "description": "Lee Sang-min",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Sang-min",
-      "description": "Lee Sang-min"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "이상민",
-      "description": "이상민"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7428,17 +7497,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lim Chae-hee",
-    "description": "Lim Chae-hee",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lim Chae-hee",
-      "description": "Lim Chae-hee"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "임채희",
-      "description": "임채희"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
@@ -7454,17 +7523,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Park Him-chan",
-    "description": "Park Him-chan",
+    "description": "Snacks allowed (KRW 5,000 charge for 2 persons).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Park Him-chan",
-      "description": "Park Him-chan"
+      "description": "Snacks allowed (KRW 5,000 charge for 2 persons)."
     },
     "_search_ko": {
       "title": "박힘찬",
-      "description": "박힘찬"
+      "description": "안주류 반입 가능 (2인 5천원)."
     }
   },
   {
