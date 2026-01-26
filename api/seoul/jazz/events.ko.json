@@ -480,17 +480,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "김호철 트리오",
-    "description": "김호철 트리오: 김호철 (베이스), 김민준 (피아노), 신동진 (드럼).",
+    "description": "김호철 (베이스), 김민준 (피아노), 신동진 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Ho-cheol Trio",
-      "description": "Kim Ho-cheol Trio: Kim Ho-cheol (bass), Kim Min-jun (piano), Shin Dong-jin (drums)."
+      "description": "Kim Ho-cheol (bass), Kim Min-jun (piano), Shin Dong-jin (drums)"
     },
     "_search_ko": {
       "title": "김호철 트리오",
-      "description": "김호철 트리오: 김호철 (베이스), 김민준 (피아노), 신동진 (드럼)."
+      "description": "김호철 (베이스), 김민준 (피아노), 신동진 (드럼)"
     }
   },
   {
@@ -791,18 +791,18 @@
     "datetime": "2026-01-29T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "맥스 라이트 퀄텟",
-    "description": "맥스 라이트 퀄텟: Max Light (기타), 용리 (피아노), Sean Pentland (베이스), 석다연 (드럼).",
+    "title": "Max Light 퀄텟",
+    "description": "Max Light (기타), 오율 (피아노), Sean Pentland (베이스), 석다연 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Max Light Quartet",
-      "description": "Max Light Quartet: Max Light (guitar), Yong-ri (piano), Sean Pentland (bass), Seok Da-yeon (drums)."
+      "description": "Max Light (guitar), Oh Yul (piano), Sean Pentland (bass), Seok Da-yeon (drums)"
     },
     "_search_ko": {
-      "title": "맥스 라이트 퀄텟",
-      "description": "맥스 라이트 퀄텟: Max Light (기타), 용리 (피아노), Sean Pentland (베이스), 석다연 (드럼)."
+      "title": "Max Light 퀄텟",
+      "description": "Max Light (기타), 오율 (피아노), Sean Pentland (베이스), 석다연 (드럼)"
     }
   },
   {
@@ -907,6 +907,32 @@
     "_search_ko": {
       "title": "Band kay",
       "description": "Band kay 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20260130_8b134655-379a-4a9d-b0d6-e8fd8803a4a4",
+    "event_key": "v:ven_09991403-4f4f-42a7-a165-602d7e0cefdb|t:2026-01-30T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DTxI-4Wke27/",
+    "venue_handle": "ninejazz_chungdam",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_09991403-4f4f-42a7-a165-602d7e0cefdb",
+    "venue_location_id": "main",
+    "datetime": "2026-01-30T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "더 제레미 박 트리오",
+    "description": "레트로 재즈 팝/보컬 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The Jeremy Park Trio",
+      "description": "Retro Jazz Pop/Vocal performance."
+    },
+    "_search_ko": {
+      "title": "더 제레미 박 트리오",
+      "description": "레트로 재즈 팝/보컬 공연."
     }
   },
   {
@@ -1253,8 +1279,60 @@
     }
   },
   {
-    "id": "evt_20260130_8b134655-379a-4a9d-b0d6-e8fd8803a4a4",
-    "event_key": "v:ven_09991403-4f4f-42a7-a165-602d7e0cefdb|t:2026-01-30T10:00:00+00:00",
+    "id": "evt_20260130_554a90a6-f87c-46cf-a33a-604950441c49",
+    "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-01-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DT7N4ESjypo/",
+    "venue_handle": "cafe_minor_swing",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1655af5a-ea12-47f6-8d39-eb30735e8b48",
+    "venue_location_id": "main",
+    "datetime": "2026-01-30T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "맥스 라이트 퀄텟",
+    "description": "허비 행콕 국제 콩쿠르 2위 수상, 팻 메스니 등 거장들에게 인정받은 브루클린 기반 재즈 기타리스트 맥스 라이트 퀄텟. 정교한 리듬과 매혹적인 선율의 '마스터 클래스급 연주'.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Max Light Quartet",
+      "description": "Max Light Quartet, a Brooklyn-based jazz guitarist recognized by masters like Pat Metheny and awarded 2nd place at the Herbie Hancock International Competition. Praised by Downbeat for 'master-class performance' with intricate rhythms and enchanting melodies."
+    },
+    "_search_ko": {
+      "title": "맥스 라이트 퀄텟",
+      "description": "허비 행콕 국제 콩쿠르 2위 수상, 팻 메스니 등 거장들에게 인정받은 브루클린 기반 재즈 기타리스트 맥스 라이트 퀄텟. 정교한 리듬과 매혹적인 선율의 '마스터 클래스급 연주'."
+    }
+  },
+  {
+    "id": "evt_20260130_bec438f3-550f-4ae2-9a43-9417d8695296",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-01-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DT4oeEnkcTg/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-01-30T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Warit Techakanont 서울 퀄텟",
+    "description": "Warit Techakanont (키보드), 홍준표 (색소폰), 이원태 (기타), 이은마루 (드럼)",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Warit Techakanont Seoul Quartet",
+      "description": "Warit Techakanont (keyboard), Hong Jun-pyo (saxophone), Lee Won-tae (guitar), Lee Eun-maru (drums)"
+    },
+    "_search_ko": {
+      "title": "Warit Techakanont 서울 퀄텟",
+      "description": "Warit Techakanont (키보드), 홍준표 (색소폰), 이원태 (기타), 이은마루 (드럼)"
+    }
+  },
+  {
+    "id": "evt_20260130_f8bd6012-5a51-4096-9859-5a4a1b0ffe7d",
+    "event_key": "v:ven_09991403-4f4f-42a7-a165-602d7e0cefdb|t:2026-01-30T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DTxI-4Wke27/",
     "venue_handle": "ninejazz_chungdam",
     "musician_ids": [],
@@ -1276,58 +1354,6 @@
     "_search_ko": {
       "title": "더 제레미 박 쇼",
       "description": "제레미 박의 레트로 재즈 팝 보컬 쇼."
-    }
-  },
-  {
-    "id": "evt_20260130_554a90a6-f87c-46cf-a33a-604950441c49",
-    "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-01-30T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DT7N4ESjypo/",
-    "venue_handle": "cafe_minor_swing",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_1655af5a-ea12-47f6-8d39-eb30735e8b48",
-    "venue_location_id": "main",
-    "datetime": "2026-01-30T11:00:00+00:00",
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "맥스 라이트 퀄텟",
-    "description": "허비 행콕, 팻 메스니 등 거장들에게 인정받고 다운비트 매거진이 '마스터 클래스급 연주'라 극찬한 기타리스트 맥스 라이트 퀄텟의 공연. 정교한 리듬과 매혹적인 선율이 특징.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Max Light Quartet",
-      "description": "A performance by the Max Light Quartet, featuring guitarist Max Light, recognized by jazz legends like Herbie Hancock and Pat Metheny. His music, praised by Downbeat magazine as a 'master class performance,' is characterized by refined rhythm and captivating melodies."
-    },
-    "_search_ko": {
-      "title": "맥스 라이트 퀄텟",
-      "description": "허비 행콕, 팻 메스니 등 거장들에게 인정받고 다운비트 매거진이 '마스터 클래스급 연주'라 극찬한 기타리스트 맥스 라이트 퀄텟의 공연. 정교한 리듬과 매혹적인 선율이 특징."
-    }
-  },
-  {
-    "id": "evt_20260130_bec438f3-550f-4ae2-9a43-9417d8695296",
-    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-01-30T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DT4oeEnkcTg/",
-    "venue_handle": "jazzclub_evans",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
-    "venue_location_id": "main",
-    "datetime": "2026-01-30T11:00:00+00:00",
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "와릿 테차카논트 서울 퀄텟",
-    "description": "와릿 테차카논트 서울 퀄텟: 홍준표 (색소폰), 이원태 (기타), Warit Techakanont (키보드), 이은마루 (드럼).",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Warit Techakanont Seoul Quartet",
-      "description": "Warit Techakanont Seoul Quartet: Hong Jun-pyo (saxophone), Lee Won-tae (guitar), Warit Techakanont (keyboard), Lee Eun-maru (drums)."
-    },
-    "_search_ko": {
-      "title": "와릿 테차카논트 서울 퀄텟",
-      "description": "와릿 테차카논트 서울 퀄텟: 홍준표 (색소폰), 이원태 (기타), Warit Techakanont (키보드), 이은마루 (드럼)."
     }
   },
   {
@@ -1552,20 +1578,20 @@
     "venue_id": "ven_0f8c8afb-de53-4468-a531-ea696d418e6b",
     "venue_location_id": "main",
     "datetime": "2026-01-31T07:00:00+00:00",
-    "price": "25,000원",
+    "price": "25,000원 (원프리드링크 포함)",
     "llm_confidence": 1.0,
-    "title": "김대윤 트리오",
-    "description": "김대윤 트리오 공연. 김대윤 (피아노), 백용훈 (베이스), 테디 신 (드럼). 티켓 25,000원 (원프리드링크 포함).",
+    "title": "김대연 트리오",
+    "description": "김대연 트리오 공연. 김대연 (피아노), 백용훈 (베이스), 테디 신 (드럼). 티켓에 하우스 와인, 맥주, 논알콜 음료 중 원프리드링크 포함.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Daeyoun Trio",
-      "description": "Kim Daeyoun Trio performance. Daeyoun Kim (piano), Yonghoon Baek (bass), Teddy Shin (drums). Ticket KRW 25,000 (includes one free drink)."
+      "description": "Kim Daeyoun Trio performance. Daeyoun Kim (piano), Yonghoon Baek (bass), Teddy Shin (drums). Ticket includes one free drink (house wine, beer, or non-alcoholic beverage)."
     },
     "_search_ko": {
-      "title": "김대윤 트리오",
-      "description": "김대윤 트리오 공연. 김대윤 (피아노), 백용훈 (베이스), 테디 신 (드럼). 티켓 25,000원 (원프리드링크 포함)."
+      "title": "김대연 트리오",
+      "description": "김대연 트리오 공연. 김대연 (피아노), 백용훈 (베이스), 테디 신 (드럼). 티켓에 하우스 와인, 맥주, 논알콜 음료 중 원프리드링크 포함."
     }
   },
   {
@@ -1742,18 +1768,18 @@
     "datetime": "2026-01-31T10:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "정화 트리오",
-    "description": "보컬 정화와 베이시스트 박해찬, 피아니스트 강한성으로 구성된 재즈 트리오 공연.",
+    "title": "정화 and her duo",
+    "description": "BLUE CAT JAZZ Night. 보컬 정화 @junghwa_jazz, 베이스 박해찬 @praise_like_sunshine, 피아노 강한성 @strongcastle_.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Junghwa Trio",
-      "description": "Jazz trio performance featuring vocalist Junghwa, bassist Park Hae-chan, and pianist Kang Han-seong."
+      "title": "Jung Hwa and her duo",
+      "description": "BLUE CAT JAZZ Night. Jung Hwa (vocal) @junghwa_jazz, Park Hae-chan (bass) @praise_like_sunshine, Kang Han-sung (piano) @strongcastle_."
     },
     "_search_ko": {
-      "title": "정화 트리오",
-      "description": "보컬 정화와 베이시스트 박해찬, 피아니스트 강한성으로 구성된 재즈 트리오 공연."
+      "title": "정화 and her duo",
+      "description": "BLUE CAT JAZZ Night. 보컬 정화 @junghwa_jazz, 베이스 박해찬 @praise_like_sunshine, 피아노 강한성 @strongcastle_."
     }
   },
   {
@@ -2054,18 +2080,18 @@
     "datetime": "2026-01-31T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "로빅스 월드",
-    "description": "로빅스 월드: 정하민 (기타), Robiq Lakov (베이스), 우재훈 (피아노), 김동현 (드럼), 우재훈 (퍼커션).",
+    "title": "Robiq's World",
+    "description": "정하민 (기타), Robiq (베이스), Lakov (피아노), 김동현 (드럼), 우재훈 (퍼커션)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Robiq's World",
-      "description": "Robiq's World: Jung Ha-min (guitar), Robiq Lakov (bass), Woo Jae-hoon (piano), Kim Dong-hyun (drums), Woo Jae-hoon (percussion)."
+      "description": "Jeong Ha-min (guitar), Robiq (bass), Lakov (piano), Kim Dong-hyun (drums), Woo Jae-hoon (percussion)"
     },
     "_search_ko": {
-      "title": "로빅스 월드",
-      "description": "로빅스 월드: 정하민 (기타), Robiq Lakov (베이스), 우재훈 (피아노), 김동현 (드럼), 우재훈 (퍼커션)."
+      "title": "Robiq's World",
+      "description": "정하민 (기타), Robiq (베이스), Lakov (피아노), 김동현 (드럼), 우재훈 (퍼커션)"
     }
   },
   {
@@ -2373,17 +2399,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "신원준 퀄텟",
-    "description": "신원준 퀄텟: 신원준 (기타), 나도윤 (피아노), 강환수 (베이스), 김선빈 (드럼).",
+    "description": "신원준 (기타), 나도윤 (피아노), 강환수 (베이스), 김선빈 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Shin Won-jun Quartet",
-      "description": "Shin Won-jun Quartet: Shin Won-jun (guitar), Na Do-yoon (piano), Kang Hwan-su (bass), Kim Sun-bin (drums)."
+      "description": "Shin Won-jun (guitar), Na Do-yoon (piano), Kang Hwan-soo (bass), Kim Seon-bin (drums)"
     },
     "_search_ko": {
       "title": "신원준 퀄텟",
-      "description": "신원준 퀄텟: 신원준 (기타), 나도윤 (피아노), 강환수 (베이스), 김선빈 (드럼)."
+      "description": "신원준 (기타), 나도윤 (피아노), 강환수 (베이스), 김선빈 (드럼)"
     }
   },
   {
