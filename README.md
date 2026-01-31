@@ -4,15 +4,33 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-01-31T19:15:31Z
-- **Source Commit**: [`b71366c4ad475aacc682dff3d1a7c76f95986fa6`](https://github.com/keunwoochoi/seoulunderground.live/commit/b71366c4ad475aacc682dff3d1a7c76f95986fa6)
+- **Build Time**: 2026-01-31T19:25:17Z
+- **Source Commit**: [`2b56a20ff1b7694089b0d15d5510047df23d9c6c`](https://github.com/keunwoochoi/seoulunderground.live/commit/2b56a20ff1b7694089b0d15d5510047df23d9c6c)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/21549520704)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/21549645720)
 
 ## Commit Details
 
-- **Author**:  <>
-- **Message**: 
+- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
+- **Message**: fix: Fix cover screenshot alignment for center-crop (#84)
+
+* fix: Fix cover screenshot alignment for center-crop
+
+- Replace flexbox percentage sections with absolute centering technique
+- Use transform: translate(-50%, -50%) for bulletproof centering
+- Content now appears correctly in the center 1170px crop area
+- Works for both non-highlighted days (genre title) and highlighted days (event card)
+- Add test script for manual screenshot generation with date/highlight override
+- Add App.tsx support for test_date and test_highlight URL parameters
+
+Fixes the issue where date text was half trimmed off after the highlighted
+shows feature was added (commit 2080775).
+
+* refactor: Clean up test_cover_screenshot.py
+
+- Remove unused inject_highlight_json function
+- Move urllib.parse import to top of file (PEP 8)
+- Remove unused Page import
 
 ## Deployment
 
