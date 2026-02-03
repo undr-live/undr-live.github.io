@@ -4,15 +4,30 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-02-03T03:12:36Z
-- **Source Commit**: [`4ae25c850bb2bedb4d7f5ae71c7913755e0a0f11`](https://github.com/keunwoochoi/seoulunderground.live/commit/4ae25c850bb2bedb4d7f5ae71c7913755e0a0f11)
+- **Build Time**: 2026-02-03T04:25:53Z
+- **Source Commit**: [`d8cafec7818ded8d6b50bd526252fae4495670d6`](https://github.com/keunwoochoi/seoulunderground.live/commit/d8cafec7818ded8d6b50bd526252fae4495670d6)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/21615390886)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/21616929448)
 
 ## Commit Details
 
-- **Author**:  <>
-- **Message**: 
+- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
+- **Message**: fix: Use UTC-based weekday calculation for cover date color (#86)
+
+The previous implementation used .getDay() which returns the weekday
+in the local timezone of the machine running the code. This caused
+incorrect coloring when the GitHub Actions runner is in a different
+timezone than KST - e.g., Monday in KST was being colored red (Sunday)
+because the runner's local time was still Sunday.
+
+Fix: Use .getUTCDay() with a UTC-based timestamp to ensure we get the
+weekday for the actual calendar date regardless of local timezone.
+
+Color scheme (unchanged):
+- Sunday: red (#FF6B9D)
+- Saturday: blue (#6BB6FF)
+- Friday: gold (#FFD700)
+- Weekdays: white (#fff)
 
 ## Deployment
 
