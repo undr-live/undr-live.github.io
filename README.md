@@ -4,30 +4,26 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-02-03T04:25:53Z
-- **Source Commit**: [`d8cafec7818ded8d6b50bd526252fae4495670d6`](https://github.com/keunwoochoi/seoulunderground.live/commit/d8cafec7818ded8d6b50bd526252fae4495670d6)
+- **Build Time**: 2026-02-03T04:51:45Z
+- **Source Commit**: [`14f9b282efc2c1c2f0aba8109f1634a813d9d5de`](https://github.com/keunwoochoi/seoulunderground.live/commit/14f9b282efc2c1c2f0aba8109f1634a813d9d5de)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/21616929448)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/21617489109)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix: Use UTC-based weekday calculation for cover date color (#86)
+- **Message**: fix: Use UTC-based dateStr for cover overlay (#87)
 
-The previous implementation used .getDay() which returns the weekday
-in the local timezone of the machine running the code. This caused
-incorrect coloring when the GitHub Actions runner is in a different
-timezone than KST - e.g., Monday in KST was being colored red (Sunday)
-because the runner's local time was still Sunday.
+Apply the same timezone-agnostic technique to dateStr creation.
+The previous implementation had:
+- Hardcoded -05:00 for America/New_York (incorrect during DST)
+- Only handled America/New_York, defaulting to +09:00 for all else
 
-Fix: Use .getUTCDay() with a UTC-based timestamp to ensure we get the
-weekday for the actual calendar date regardless of local timezone.
+Since formatDateHeader already takes the timezone parameter and handles
+conversion internally, we can simply pass a UTC timestamp.
 
-Color scheme (unchanged):
-- Sunday: red (#FF6B9D)
-- Saturday: blue (#6BB6FF)
-- Friday: gold (#FFD700)
-- Weekdays: white (#fff)
+Also refactored to create the Date object once (dateAtUtcNoon) and reuse
+it for both dateStr and weekdayIdx.
 
 ## Deployment
 
