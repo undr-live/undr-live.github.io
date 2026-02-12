@@ -731,27 +731,31 @@
   {
     "id": "evt_20260213_345c4fff-468e-4531-b3ec-5fa8ff86cbee",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-02-13T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUnby6HE6To/",
+    "source_url": "https://www.instagram.com/p/DUqPsGKk9sE/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "gownna.park_music",
+      "parkjinhyeok0510",
+      "wlsehaud"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-02-13T09:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Jin Do-myung Quartet",
-    "description": "A Jazz quartet performance.",
+    "title": "Jin Do-myeong Quartet",
+    "description": "Jazz. Free entry + deferred payment.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Jin Do-myung Quartet",
-      "description": "A Jazz quartet performance."
+      "title": "Jin Do-myeong Quartet",
+      "description": "Jazz. Free entry + deferred payment."
     },
     "_search_ko": {
       "title": "진도명 퀄텟",
-      "description": "재즈 퀄텟 공연."
+      "description": "재즈. 무료입장 + 후불페이."
     }
   },
   {
@@ -1028,7 +1032,7 @@
   {
     "id": "evt_20260213_3fa95513-38bb-4380-bd91-637231da56ec",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-02-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUeV3ZvEncq/",
+    "source_url": "https://www.instagram.com/p/DUqJv4zklVG/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1038,17 +1042,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Lee Yong-seok Quartet",
-    "description": "Jazz performance by Lee Yong-seok Quartet featuring Lee Yong-seok (saxophone), Paul Kirby (piano), Kim In-young (bass), Moon Sae-rop (drums).",
+    "description": "Lee Yong-seok Quartet live performance. Lee Yong-seok (saxophone), Paul Kirby (piano), Kim In-yeong (bass), Moon Sae-rop (drums).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Yong-seok Quartet",
-      "description": "Jazz performance by Lee Yong-seok Quartet featuring Lee Yong-seok (saxophone), Paul Kirby (piano), Kim In-young (bass), Moon Sae-rop (drums)."
+      "description": "Lee Yong-seok Quartet live performance. Lee Yong-seok (saxophone), Paul Kirby (piano), Kim In-yeong (bass), Moon Sae-rop (drums)."
     },
     "_search_ko": {
       "title": "이용석 퀄텟",
-      "description": "이용석 (색소폰), Paul Kirby (피아노), 김인영 (베이스), 문새롭 (드럼)으로 구성된 이용석 퀄텟의 재즈 공연."
+      "description": "이용석 퀄텟 라이브 공연. 이용석 (색소폰), 폴 커비 (피아노), 김인영 (베이스), 문새롭 (드럼)."
     }
   },
   {
@@ -1439,7 +1443,7 @@
   {
     "id": "evt_20260213_3660fb52-66f2-4973-bcbb-178b761e2fe8",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-02-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUkm34pElIg/",
+    "source_url": "https://www.instagram.com/p/DUp-pT9kr60/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -1451,17 +1455,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "Goo Min-sang Quartet",
-    "description": "A quartet performance led by saxophonist Goo Min-sang (@saxholic9).",
+    "description": "Goo Min-sang Quartet performance. Goo Min-sang (saxophone), Lee Si-hwan (bass), Kim Da-hee (piano), Lee Gwang-hyeok (drums). Performance times: 1st Set 8:00 – 8:45, 2nd Set 9:15 – 10:00.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Goo Min-sang Quartet",
-      "description": "A quartet performance led by saxophonist Goo Min-sang (@saxholic9)."
+      "description": "Goo Min-sang Quartet performance. Goo Min-sang (saxophone), Lee Si-hwan (bass), Kim Da-hee (piano), Lee Gwang-hyeok (drums). Performance times: 1st Set 8:00 – 8:45, 2nd Set 9:15 – 10:00."
     },
     "_search_ko": {
-      "title": "구민상 쿼텟",
-      "description": "색소폰 구민상 (@saxholic9)이 이끄는 쿼텟 공연."
+      "title": "구민상 퀄텟",
+      "description": "구민상 퀄텟 공연. 구민상 (색소폰), 이시환 (베이스), 김다희 (피아노), 이광혁 (드럼). 공연 시간: 1부 8:00 – 8:45, 2부 9:15 – 10:00."
     }
   },
   {
@@ -1497,27 +1501,33 @@
   {
     "id": "evt_20260213_622dc9e3-1d50-49e9-9b1c-aba12b5edf92",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-02-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUnby6HE6To/",
+    "source_url": "https://www.instagram.com/p/DUqPsGKk9sE/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "ddoublebass",
+      "e_ohoho",
+      "jp_shinhee",
+      "kim_kun_young",
+      "ohsangho_music"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-02-13T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
     "title": "Oh Sang-ho Quintet",
-    "description": "A Hardbop Jazz quintet performance.",
+    "description": "A team of talented musicians actively performing in Korea, playing powerful yet delicate Hardbop Jazz based on storytelling. Free entry + deferred payment.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Oh Sang-ho Quintet",
-      "description": "A Hardbop Jazz quintet performance."
+      "description": "A team of talented musicians actively performing in Korea, playing powerful yet delicate Hardbop Jazz based on storytelling. Free entry + deferred payment."
     },
     "_search_ko": {
       "title": "오상호 퀸텟",
-      "description": "하드밥 재즈 퀸텟 공연."
+      "description": "국내에서 왕성히 활동하는 실력파 뮤지션들이 멤버로 참여하여 강하면서도 스토리텔링을 기반으로한 섬세한 하드밥 재즈를 연주하는 팀. 무료입장 + 후불페이."
     }
   },
   {
@@ -1845,27 +1855,32 @@
   {
     "id": "evt_20260213_7b623bfd-8a24-4f6a-b71f-5fd84e97fbdb",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-02-13T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUnby6HE6To/",
+    "source_url": "https://www.instagram.com/p/DUqPsGKk9sE/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "__iliixiili__",
+      "jinyounghwan",
+      "lazykuma80",
+      "sorakim_art"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-02-13T13:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
     "title": "Jin Young-hwan Quartet",
-    "description": "A quartet performance featuring Standard, Modern, and Latin Jazz.",
+    "description": "A delightful time where the feeling obtained from appreciation and the interaction of senses occur. Standard, Modern, Latin, Original Jazz. Free entry + deferred payment.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jin Young-hwan Quartet",
-      "description": "A quartet performance featuring Standard, Modern, and Latin Jazz."
+      "description": "A delightful time where the feeling obtained from appreciation and the interaction of senses occur. Standard, Modern, Latin, Original Jazz. Free entry + deferred payment."
     },
     "_search_ko": {
-      "title": "진영환 쿼텟",
-      "description": "스탠다드, 모던, 라틴 재즈를 선보이는 쿼텟 공연."
+      "title": "진영환 퀄텟",
+      "description": "감상에서 얻는 느낌과 감각의 상호 작용이 발생되는 즐거운 시간. 스탠다드, 모던, 라틴, 오리지널 재즈. 무료입장 + 후불페이."
     }
   },
   {
@@ -2475,7 +2490,7 @@
   {
     "id": "evt_20260214_84c9440c-b9e8-4d52-95d7-fdd7d5e624c7",
     "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-02-14T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUdhhLJmJhl/",
+    "source_url": "https://www.instagram.com/p/DUqOhZ5kmvq/",
     "venue_handle": "bluecat.fezh",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -2487,18 +2502,18 @@
     "datetime": "2026-02-14T10:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Valentine's Day Special: Jo Un and Good Friends",
-    "description": "Valentine's Day special jazz night. Live jazz performance with a chocolate plate (including Dubai chewy cookies) made by the chef. Part 1 (40 min), intermission (20 min), Part 2 (40 min).",
+    "title": "Valentine's Day Special Jazz Night",
+    "description": "Bluecat's special jazz night for Valentine's Day. Featuring a live performance by Jo Un and Good Friends (vocal Jo Un, bass Hong Seung-min, piano Park Jung-wook), accompanied by a chocolate platter including 2 types of handmade Dubai chewy cookies, macadamia chocolate bark, chocolate strawberries, and a cheese plate.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Valentine's Day Special: Jo Un and Good Friends",
-      "description": "Valentine's Day special jazz night. Live jazz performance with a chocolate plate (including Dubai chewy cookies) made by the chef. Part 1 (40 min), intermission (20 min), Part 2 (40 min)."
+      "title": "Valentine's Day Special Jazz Night",
+      "description": "Bluecat's special jazz night for Valentine's Day. Featuring a live performance by Jo Un and Good Friends (vocal Jo Un, bass Hong Seung-min, piano Park Jung-wook), accompanied by a chocolate platter including 2 types of handmade Dubai chewy cookies, macadamia chocolate bark, chocolate strawberries, and a cheese plate."
     },
     "_search_ko": {
-      "title": "발렌타인데이 스페셜: 조운과 좋은친구들",
-      "description": "발렌타인데이 스페셜 재즈 나잇. 셰프가 직접 만든 초콜릿 플레이트 (두바이 쫀득 쿠키 포함)와 함께하는 라이브 재즈 공연. 1부 40분, 인터미션 20분, 2부 40분."
+      "title": "발렌타인데이 스페셜 재즈 나잇",
+      "description": "발렌타인데이를 위한 블루캣 스페셜 재즈 나잇. 조운과 좋은친구들 (보컬 조운, 베이스 홍승민, 피아노 박정욱) 라이브 공연과 함께 수제 두바이 쫀득 쿠키, 마카다미아 초콜릿 바크, 초콜릿 딸기 및 치즈 플레이트 구성의 초콜릿 플래터가 제공됩니다."
     }
   },
   {
