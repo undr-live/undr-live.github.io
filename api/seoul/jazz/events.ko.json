@@ -616,7 +616,7 @@
   {
     "id": "evt_20260215_81e9b9a7-ff5b-461b-a3b8-8768dfd31576",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-02-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUw-QyekpKB/",
+    "source_url": "https://www.instagram.com/p/DUxOFd5Ej0u/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -628,17 +628,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "김대윤 트리오",
-    "description": "건반 위에서 이야기를 만드는 피아노 김대윤의 트리오 공연.",
+    "description": "김대윤 트리오 재즈 공연: 김종현 (베이스), 김대윤 (피아노), 오종대 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Daeyoun Trio",
-      "description": "Piano Kim Daeyoun's trio performance, creating stories on the keyboard."
+      "title": "Kim Daeyun Trio",
+      "description": "Jazz performance by Kim Daeyun Trio: Kim Jong-hyeon (bass), Kim Daeyun (piano), Oh Jong-dae (drums)"
     },
     "_search_ko": {
       "title": "김대윤 트리오",
-      "description": "건반 위에서 이야기를 만드는 피아노 김대윤의 트리오 공연."
+      "description": "김대윤 트리오 재즈 공연: 김종현 (베이스), 김대윤 (피아노), 오종대 (드럼)"
     }
   },
   {
@@ -866,53 +866,66 @@
   {
     "id": "evt_20260216_a8e5d188-577f-4158-8cf8-359075a652ca",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-02-16T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUnby6HE6To/",
+    "source_url": "https://www.instagram.com/p/DUxbOunExJJ/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "haeram_v",
+      "nokrbass",
+      "yoo_bohyun",
+      "yurimsongjazz"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-02-16T09:00:00+00:00",
-    "price": null,
+    "price": "무료입장 + 후불페이",
     "llm_confidence": 1.0,
-    "title": "유림 with Hot Club de Seoul",
-    "description": "스탠다드, 스윙, 집시 재즈 보컬 공연.",
+    "title": "송유림 with Hot Club de Seoul",
+    "description": "매혹적인 리듬. 송유림 (보컬) @yurimsongjazz, 유보현 (기타) @yoo_bohyun, 신해람 (기타) @haeram_v, 노광래 (베이스) @nokrbass. 무료입장 + 후불페이.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Yurim with Hot Club de Seoul",
-      "description": "A Standard, Swing, Gypsy Jazz vocal performance."
+      "title": "Song Yu-rim with Hot Club de Seoul",
+      "description": "Fascinating Rhythm. Song Yu-rim (vocal) @yurimsongjazz, Yoo Bo-hyun (guitar) @yoo_bohyun, Shin Hae-ram (guitar) @haeram_v, Noh Gwang-rae (bass) @nokrbass. Free entry + deferred payment."
     },
     "_search_ko": {
-      "title": "유림 with Hot Club de Seoul",
-      "description": "스탠다드, 스윙, 집시 재즈 보컬 공연."
+      "title": "송유림 with Hot Club de Seoul",
+      "description": "매혹적인 리듬. 송유림 (보컬) @yurimsongjazz, 유보현 (기타) @yoo_bohyun, 신해람 (기타) @haeram_v, 노광래 (베이스) @nokrbass. 무료입장 + 후불페이."
     }
   },
   {
     "id": "evt_20260216_7303d992-3131-459c-9127-36d83ba1b7be",
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-02-16T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUoyc5mE6ya/",
+    "source_url": "https://www.instagram.com/p/DUxTY3CAEF3/",
     "venue_handle": "subriot_hbc",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "jaekyung_3625",
+      "jeongkyudrum",
+      "lee_choongha",
+      "minxophone",
+      "onlyjazz__",
+      "qjawns005",
+      "sheisyooon"
+    ],
     "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "venue_location_id": "main",
     "datetime": "2026-02-16T10:00:00+00:00",
-    "price": "무료 입장",
+    "price": "무료입장 + 후불페이",
     "llm_confidence": 1.0,
-    "title": "캔자스 시티 밴드",
-    "description": "캔자스 시티 재즈 사운드, 빅밴드. 설연휴 재즈 특집.",
+    "title": "Kansas City Band",
+    "description": "1940년대 Kansas City에서 시작된 영화같은 재즈를 들려주는 빅밴드 공연. 미리 들으면 좋은 셋리스트: Count Basie - The Queen Bee, Count Basie - A Little Tempo Please.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kansas City Band",
-      "description": "The Sound of Kansas City Jazz, Big Band. Lunar New Year Jazz Special."
+      "description": "Big Band performance delivering cinematic jazz that originated in 1940s Kansas City. Recommended setlist: Count Basie - The Queen Bee, Count Basie - A Little Tempo Please."
     },
     "_search_ko": {
-      "title": "캔자스 시티 밴드",
-      "description": "캔자스 시티 재즈 사운드, 빅밴드. 설연휴 재즈 특집."
+      "title": "Kansas City Band",
+      "description": "1940년대 Kansas City에서 시작된 영화같은 재즈를 들려주는 빅밴드 공연. 미리 들으면 좋은 셋리스트: Count Basie - The Queen Bee, Count Basie - A Little Tempo Please."
     }
   },
   {
@@ -1022,27 +1035,33 @@
   {
     "id": "evt_20260216_29522ee7-0ec9-43bb-9a0d-646ad0325cd6",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-02-16T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUnby6HE6To/",
+    "source_url": "https://www.instagram.com/p/DUxbOunExJJ/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "2junebbang2",
+      "arum_world",
+      "emmet_709",
+      "gyoungdun",
+      "lester_yoo"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-02-16T11:00:00+00:00",
-    "price": null,
+    "price": "무료입장 + 후불페이",
     "llm_confidence": 1.0,
     "title": "유택언의 동물농장",
-    "description": "해피 재즈 보컬 밴드 공연.",
+    "description": "다시 돌아온 유택언의 동물농장! 유택언 (색소폰) @lester_yoo, 장아름 (보컬) @arum_world, 이준영 (피아노) @2junebbang2, 최은규 (베이스) @emmet_709, 김경태 (드럼) @gyoungdun. 무료입장 + 후불페이.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Yu Taek-eon's Animal Farm",
-      "description": "A Happy Jazz vocal band performance."
+      "title": "Yoo Taek-eon's Animal Farm",
+      "description": "Yoo Taek-eon's Animal Farm is back! Yoo Taek-eon (saxophone) @lester_yoo, Jang Ah-reum (vocal) @arum_world, Lee Jun-young (piano) @2junebbang2, Choi Eun-gyu (bass) @emmet_709, Kim Kyung-tae (drums) @gyoungdun. Free entry + deferred payment."
     },
     "_search_ko": {
       "title": "유택언의 동물농장",
-      "description": "해피 재즈 보컬 밴드 공연."
+      "description": "다시 돌아온 유택언의 동물농장! 유택언 (색소폰) @lester_yoo, 장아름 (보컬) @arum_world, 이준영 (피아노) @2junebbang2, 최은규 (베이스) @emmet_709, 김경태 (드럼) @gyoungdun. 무료입장 + 후불페이."
     }
   },
   {
@@ -1131,53 +1150,63 @@
   {
     "id": "evt_20260216_84855225-96ca-493a-b3cc-d74a6381b567",
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-02-16T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUoyc5mE6ya/",
+    "source_url": "https://www.instagram.com/p/DUxTY3CAEF3/",
     "venue_handle": "subriot_hbc",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "chuni_mcbride",
+      "gt_tae6",
+      "juu.piano",
+      "vinn0zro_"
+    ],
     "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "venue_location_id": "main",
     "datetime": "2026-02-16T12:00:00+00:00",
-    "price": "무료 입장",
+    "price": "무료입장 + 후불페이",
     "llm_confidence": 1.0,
-    "title": "포스트 스팟",
-    "description": "팝, 소울, 재즈, 보컬. 설연휴 재즈 특집.",
+    "title": "Post Spot",
+    "description": "소울, 팝 음악을 선보이는 밴드. 그루브한 사운드. 미리 들으면 좋은 셋리스트 (1부): Tune 88, We Go Together, 4.9 to 5, Spain. (2부): Small Time Shit, That's What I Like, If I Ain't Got You +Gravity, I Want You Back, Pass Some Soul to Another.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Post Spot",
-      "description": "Pop, Soul, Jazz, Vocal. Lunar New Year Jazz Special."
+      "description": "Band showcasing Soul, Pop music with a groovy sound. Recommended setlist (Part 1): Tune 88, We Go Together, 4.9 to 5, Spain. (Part 2): Small Time Shit, That's What I Like, If I Ain't Got You +Gravity, I Want You Back, Pass Some Soul to Another."
     },
     "_search_ko": {
-      "title": "포스트 스팟",
-      "description": "팝, 소울, 재즈, 보컬. 설연휴 재즈 특집."
+      "title": "Post Spot",
+      "description": "소울, 팝 음악을 선보이는 밴드. 그루브한 사운드. 미리 들으면 좋은 셋리스트 (1부): Tune 88, We Go Together, 4.9 to 5, Spain. (2부): Small Time Shit, That's What I Like, If I Ain't Got You +Gravity, I Want You Back, Pass Some Soul to Another."
     }
   },
   {
     "id": "evt_20260216_91e6cf7a-0e24-4118-99cc-6bef56717270",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-02-16T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUnby6HE6To/",
+    "source_url": "https://www.instagram.com/p/DUxbOunExJJ/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "__suno_kim__",
+      "brightsizelife_joo",
+      "ljs3526",
+      "lunatic_ash"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-02-16T13:00:00+00:00",
-    "price": null,
+    "price": "무료입장 + 후불페이",
     "llm_confidence": 1.0,
-    "title": "애쉬인 퀄텟",
-    "description": "재즈, 소울, 팝을 아우르는 퀄텟 공연.",
+    "title": "애쉬안 퀄텟",
+    "description": "그루브의 정수! 애쉬안 (보컬) @lunatic_ash, 주지호 (베이스) @brightsizelife_joo, 임재석 (피아노) @ljs3526, 김선호 (드럼) @__suno_kim__. 무료입장 + 후불페이.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Ashin Quartet",
-      "description": "A quartet performance covering Jazz, Soul, and Pop."
+      "title": "Ash Ahn Quartet",
+      "description": "In the key of GROOVE! Ash Ahn (vocal) @lunatic_ash, Joo Ji-ho (bass) @brightsizelife_joo, Lim Jae-seok (piano) @ljs3526, Kim Seon-ho (drums) @__suno_kim__. Free entry + deferred payment."
     },
     "_search_ko": {
-      "title": "애쉬인 퀄텟",
-      "description": "재즈, 소울, 팝을 아우르는 퀄텟 공연."
+      "title": "애쉬안 퀄텟",
+      "description": "그루브의 정수! 애쉬안 (보컬) @lunatic_ash, 주지호 (베이스) @brightsizelife_joo, 임재석 (피아노) @ljs3526, 김선호 (드럼) @__suno_kim__. 무료입장 + 후불페이."
     }
   },
   {
@@ -1683,27 +1712,29 @@
   {
     "id": "evt_20260218_36ca9db0-4b85-4216-8754-26656430f2ab",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-02-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUMc_6LE9zX/",
+    "source_url": "https://www.instagram.com/p/DUxdH9Ak7ib/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "1redeggs"
+    ],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
     "datetime": "2026-02-18T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "박재홍 블루스 오르간 퀄텟",
-    "description": "박재홍 블루스 오르간 퀄텟의 블루스 공연.",
+    "description": "블루스 소울 밴드 박재홍 밴드. 대한민국 최정상 뮤지션들로 구성된 각 파트의 개성 넘치는 솔로와 끈끈한 조화가 특징. 대중에게 익숙한 레퍼토리를 그들만의 해석으로 선보입니다.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Park Jaehong Blues Organ Quartet",
-      "description": "Blues performance by Park Jaehong Blues Organ Quartet."
+      "title": "Park Jae-hong Blues Organ Quartet",
+      "description": "Blues and soul band led by Park Jae-hong, featuring top Korean musicians. Charismatic solos and cohesive ensemble. Familiar repertoires with unique interpretations."
     },
     "_search_ko": {
       "title": "박재홍 블루스 오르간 퀄텟",
-      "description": "박재홍 블루스 오르간 퀄텟의 블루스 공연."
+      "description": "블루스 소울 밴드 박재홍 밴드. 대한민국 최정상 뮤지션들로 구성된 각 파트의 개성 넘치는 솔로와 끈끈한 조화가 특징. 대중에게 익숙한 레퍼토리를 그들만의 해석으로 선보입니다."
     }
   },
   {
@@ -2073,27 +2104,29 @@
   {
     "id": "evt_20260219_14e49196-e854-42f5-837f-a5e3c218f4df",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-02-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUMc_6LE9zX/",
+    "source_url": "https://www.instagram.com/p/DUxdH9Ak7ib/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "hey.hailluv"
+    ],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
     "datetime": "2026-02-19T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "해일렴 트리오",
-    "description": "해일렴 트리오의 재즈 공연.",
+    "title": "해일럽 트리오",
+    "description": "부드럽고 깊이 있는 보컬 해일럽과 트리오. 재즈의 섬세함과 소울의 온기를 담은 깊이 있는 사운드. 피아니스트 김재형의 감각적인 화성과 베이시스트 민경환의 포근한 저음이 조화롭습니다.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Hae Il-ryeom Trio",
-      "description": "Jazz performance by Hae Il-ryeom Trio."
+      "title": "Hailluv Trio",
+      "description": "Hailluv Trio, led by vocalist Hailluv. They blend jazz delicacy with soul's warmth for a profound sound. Featuring Kim Jae-hyung (piano) and Min Kyung-hwan (bass)."
     },
     "_search_ko": {
-      "title": "해일렴 트리오",
-      "description": "해일렴 트리오의 재즈 공연."
+      "title": "해일럽 트리오",
+      "description": "부드럽고 깊이 있는 보컬 해일럽과 트리오. 재즈의 섬세함과 소울의 온기를 담은 깊이 있는 사운드. 피아니스트 김재형의 감각적인 화성과 베이시스트 민경환의 포근한 저음이 조화롭습니다."
     }
   },
   {
@@ -2517,27 +2550,29 @@
   {
     "id": "evt_20260220_9a18bcff-177c-4eda-97ca-eaf230834456",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-02-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUMc_6LE9zX/",
+    "source_url": "https://www.instagram.com/p/DUxdH9Ak7ib/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "nanahjin"
+    ],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
     "datetime": "2026-02-20T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "난아진 밴드",
-    "description": "난아진 밴드의 재즈 공연.",
+    "description": "대체불가능한 아티스트 난아진 밴드. 재즈, 펑크, 팝, 소울을 넘나드는 스타일리시한 사운드와 강렬한 퍼포먼스. 한국 재즈씬 대표 보컬리스트로 다양한 장르의 경계를 허무는 음악을 선보입니다.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Nan Ah-jin Band",
-      "description": "Jazz performance by Nan Ah-jin Band."
+      "title": "Nanahjin Band",
+      "description": "Nanahjin Band. Irreplaceable artist Nanahjin. Blends jazz, funk, pop, and soul with stylish sound and powerful performances. A leading vocalist in the Korean jazz scene."
     },
     "_search_ko": {
       "title": "난아진 밴드",
-      "description": "난아진 밴드의 재즈 공연."
+      "description": "대체불가능한 아티스트 난아진 밴드. 재즈, 펑크, 팝, 소울을 넘나드는 스타일리시한 사운드와 강렬한 퍼포먼스. 한국 재즈씬 대표 보컬리스트로 다양한 장르의 경계를 허무는 음악을 선보입니다."
     }
   },
   {
@@ -3289,27 +3324,29 @@
   {
     "id": "evt_20260221_e5373fa7-8c9a-4213-a184-3015b72aa538",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-02-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUMc_6LE9zX/",
+    "source_url": "https://www.instagram.com/p/DUxdH9Ak7ib/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "jyunkkim"
+    ],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
     "datetime": "2026-02-21T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "지윤 퀸텟",
-    "description": "지윤 퀸텟의 재즈 공연.",
+    "description": "색채감 있는 플루트 연주로 독창적인 무대를 선보이는 재즈 뮤지션 JIYUN 퀸텟. 2020년 뉴욕 데뷔 후 한국을 중심으로 다양한 장르에서 활동. 2024년 재즈피플 '라이징스타'로 선정.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Jiyun Quintet",
-      "description": "Jazz performance by Jiyun Quintet."
+      "title": "JIYUN Quintet",
+      "description": "JIYUN Quintet: jazz flutist JIYUN. Captivates with colorful flute performances. Debuted 2020, active in classical, indie, jazz. Selected 'Rising Star' by Jazz People 2024."
     },
     "_search_ko": {
       "title": "지윤 퀸텟",
-      "description": "지윤 퀸텟의 재즈 공연."
+      "description": "색채감 있는 플루트 연주로 독창적인 무대를 선보이는 재즈 뮤지션 JIYUN 퀸텟. 2020년 뉴욕 데뷔 후 한국을 중심으로 다양한 장르에서 활동. 2024년 재즈피플 '라이징스타'로 선정."
     }
   },
   {
