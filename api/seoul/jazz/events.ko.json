@@ -696,27 +696,30 @@
   {
     "id": "evt_20260215_c0cb39a6-0ba4-416f-a74f-bd13c30f7dd5",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-02-15T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DT2jDwgD5c3/",
+    "source_url": "https://www.instagram.com/p/DUwmly5j81q/",
     "venue_handle": "dido_jazz_lounge",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "krazy_dragon",
+      "vocal_lima_"
+    ],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
     "datetime": "2026-02-15T11:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
     "title": "김광용 트리오+1",
-    "description": null,
+    "description": "2016년과 2019년 앨범을 발표한 김광용 트리오+1. 정통 스윙재즈를 기반으로 최고의 에너지를 선사한다. 게스트 보컬리스트 리마 (@vocal_lima_)와 함께 대중에게 친숙한 곡들을 선보일 예정.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Gwang-yong Trio+1",
-      "description": null
+      "title": "Kim Kwang-yong Trio+1",
+      "description": "Kim Kwang-yong Trio+1, who released albums in 2016 and 2019. They deliver the best energy based on traditional swing jazz. Featuring guest vocalist Lima (@vocal_lima_), they will present familiar songs."
     },
     "_search_ko": {
       "title": "김광용 트리오+1",
-      "description": null
+      "description": "2016년과 2019년 앨범을 발표한 김광용 트리오+1. 정통 스윙재즈를 기반으로 최고의 에너지를 선사한다. 게스트 보컬리스트 리마 (@vocal_lima_)와 함께 대중에게 친숙한 곡들을 선보일 예정."
     }
   },
   {
@@ -2590,6 +2593,37 @@
     }
   },
   {
+    "id": "evt_20260220_a5981f76-46b4-47c9-a053-55b72125d891",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-02-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DUwsG8QDwC9/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "jihyung_hong",
+      "jinungjun",
+      "kyu_patitucci",
+      "oheunha_music"
+    ],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-02-20T11:00:00+00:00",
+    "price": "예매 10,000원, 현매 15,000원",
+    "llm_confidence": 1.0,
+    "title": "전진웅 퀄텟",
+    "description": "전진웅 퀄텟의 재즈 나이트. 전진웅 (색소폰) @jinungjun, 오은하 (피아노) @oheunha_music, 서규성 (베이스) @kyu_patitucci, 홍지형 (드럼) @jihyung_hong.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jun Jin-woong Quartet",
+      "description": "Jazz Night with Jun Jin-woong Quartet. Jun Jin-woong (saxophone) @jinungjun, Oh Eun-ha (piano) @oheunha_music, Seo Gyu-seong (bass) @kyu_patitucci, Hong Ji-hyung (drums) @jihyung_hong."
+    },
+    "_search_ko": {
+      "title": "전진웅 퀄텟",
+      "description": "전진웅 퀄텟의 재즈 나이트. 전진웅 (색소폰) @jinungjun, 오은하 (피아노) @oheunha_music, 서규성 (베이스) @kyu_patitucci, 홍지형 (드럼) @jihyung_hong."
+    }
+  },
+  {
     "id": "evt_20260220_8de7a2e6-f4c8-4e9e-bf6b-3908ce3cd1e3",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-02-20T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DT2jDwgD5c3/",
@@ -2694,6 +2728,32 @@
     "_search_ko": {
       "title": "우 선 희 트리오",
       "description": "우 선 희 트리오의 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20260220_6434a90a-1117-424d-a7d0-e4733bceb69a",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-02-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DUwPHmRk3x-/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-02-20T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "윈섬 밴드",
+    "description": "윈섬 밴드의 라이브 재즈 공연. 예약 없이 워크인 입장 가능. 문의: 02-415-7816.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Winsome Band",
+      "description": "Live jazz performance by Winsome Band. Walk-ins welcome without reservation. Inquiries: 02-415-7816."
+    },
+    "_search_ko": {
+      "title": "윈섬 밴드",
+      "description": "윈섬 밴드의 라이브 재즈 공연. 예약 없이 워크인 입장 가능. 문의: 02-415-7816."
     }
   },
   {
@@ -3201,32 +3261,6 @@
     }
   },
   {
-    "id": "evt_20260221_dff5499f-fcb4-4d9e-be0a-3fb20070fe50",
-    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-02-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUL09f0k88Q/",
-    "venue_handle": "bar_tican",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
-    "venue_location_id": "main",
-    "datetime": "2026-02-21T11:00:00+00:00",
-    "price": "10,000원",
-    "llm_confidence": 1.0,
-    "title": "윈썸 밴드",
-    "description": "2회 공연 (20:00, 21:00). 각 40분 진행.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Winsome Band",
-      "description": "Two performances (8 PM, 9 PM), 40 minutes each."
-    },
-    "_search_ko": {
-      "title": "윈썸 밴드",
-      "description": "2회 공연 (20:00, 21:00). 각 40분 진행."
-    }
-  },
-  {
     "id": "evt_20260221_e5373fa7-8c9a-4213-a184-3015b72aa538",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-02-21T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DUMc_6LE9zX/",
@@ -3392,7 +3426,7 @@
   {
     "id": "evt_20260221_165b8285-4bdf-44e8-916b-ae52c4b79b4a",
     "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-02-21T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUvZS9jD__A/",
+    "source_url": "https://www.instagram.com/p/DUwl1vbE6UT/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -3400,26 +3434,25 @@
       "cha_nie2",
       "g0_29",
       "jihyeonisjihyeon",
-      "momints_notice",
-      "szayhn_"
+      "momints_notice"
     ],
     "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
     "venue_location_id": "main",
     "datetime": "2026-02-21T11:30:00+00:00",
     "price": "13,000원",
     "llm_confidence": 1.0,
-    "title": "Now's The Time 섹스텟",
-    "description": "재즈 밴드 Now's The Time 섹스텟의 라이브 공연. 민홍기 (트럼펫), 손웅찬 (알토 색소폰), 정지현 (테너 색소폰), 이도현 (피아노), 김고은 (베이스), 강재우 (드럼), 남유현 (보컬).",
+    "title": "Now's The Time 남유현 섹스텟",
+    "description": "남유현 섹스텟 라이브. 민홍기 (트럼펫) @momints_notice, 손웅찬 (알토 색소폰) @cha_nie2, 정지현 (테너 색소폰) @jihyeonisjihyeon, 이도현 (피아노) @blue_garland_, 김고은 (베이스) @g0_29, 강재우 (드럼), 남유현 (보컬).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Now's The Time Sextet",
-      "description": "Jazz live performance by Now's The Time Sextet. Min Hong-gi (trumpet), Son Woong-chan (alto saxophone), Jung Ji-hyun (tenor saxophone), Lee Do-hyun (piano), Kim Go-eun (bass), Kang Jae-woo (drums), Nam Yu-hyun (vocal)."
+      "title": "Now's The Time Nam Yu-hyun Sextet",
+      "description": "Nam Yu-hyun Sextet live. Min Hong-gi (trumpet) @momints_notice, Son Ung-chan (alto saxophone) @cha_nie2, Jung Ji-hyun (tenor saxophone) @jihyeonisjihyeon, Lee Do-hyun (piano) @blue_garland_, Kim Go-eun (bass) @g0_29, Kang Jae-woo (drums), Nam Yu-hyun (vocal)."
     },
     "_search_ko": {
-      "title": "Now's The Time 섹스텟",
-      "description": "재즈 밴드 Now's The Time 섹스텟의 라이브 공연. 민홍기 (트럼펫), 손웅찬 (알토 색소폰), 정지현 (테너 색소폰), 이도현 (피아노), 김고은 (베이스), 강재우 (드럼), 남유현 (보컬)."
+      "title": "Now's The Time 남유현 섹스텟",
+      "description": "남유현 섹스텟 라이브. 민홍기 (트럼펫) @momints_notice, 손웅찬 (알토 색소폰) @cha_nie2, 정지현 (테너 색소폰) @jihyeonisjihyeon, 이도현 (피아노) @blue_garland_, 김고은 (베이스) @g0_29, 강재우 (드럼), 남유현 (보컬)."
     }
   },
   {
@@ -3472,6 +3505,32 @@
     "_search_ko": {
       "title": "Beard & Youngblood (2부)",
       "description": "진한 감성의 블루스 밴드 Beard & Youngblood. 강호권 (기타, 보컬), 김인규 (베이스), 엄주용 (드럼), 강미경 (색소폰)."
+    }
+  },
+  {
+    "id": "evt_20260221_dff5499f-fcb4-4d9e-be0a-3fb20070fe50",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-02-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DUwPOv7E9_F/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-02-21T12:00:00+00:00",
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "다빈치 프로젝트",
+    "description": "라이브 재즈 공연 '다빈치 프로젝트'. 보컬, 키보드, 베이스, 드럼으로 구성된 밴드의 무대.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Da Vinci Project",
+      "description": "Live jazz performance by 'Da Vinci Project', a band featuring vocal, keyboard, bass, and drums."
+    },
+    "_search_ko": {
+      "title": "다빈치 프로젝트",
+      "description": "라이브 재즈 공연 '다빈치 프로젝트'. 보컬, 키보드, 베이스, 드럼으로 구성된 밴드의 무대."
     }
   },
   {
