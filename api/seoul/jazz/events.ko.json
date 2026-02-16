@@ -314,27 +314,32 @@
   {
     "id": "evt_20260216_3090a415-f17d-462d-adde-2990bfb0d6f2",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-02-16T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DT2jDwgD5c3/",
+    "source_url": "https://www.instagram.com/p/DUzO_jRD3am/",
     "venue_handle": "dido_jazz_lounge",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "choizzallang",
+      "happiness_pf",
+      "k0_wellcome",
+      "ssu_chan_"
+    ],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
     "datetime": "2026-02-16T11:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "최수영 재즈밴드",
-    "description": null,
+    "title": "최수영 재즈 밴드",
+    "description": "보컬 최수영과 재즈 뮤지션들이 모여 정제된 에너지에 아름다운 선율로 스탠다드 재즈를 연주.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Choi Su-young Jazz Band",
-      "description": null
+      "description": "Vocal Choi Su-young and jazz musicians perform standard jazz with refined energy and beautiful melodies."
     },
     "_search_ko": {
-      "title": "최수영 재즈밴드",
-      "description": null
+      "title": "최수영 재즈 밴드",
+      "description": "보컬 최수영과 재즈 뮤지션들이 모여 정제된 에너지에 아름다운 선율로 스탠다드 재즈를 연주."
     }
   },
   {
@@ -1787,27 +1792,27 @@
   {
     "id": "evt_20260220_e96db708-3583-4b58-a416-a7ec47eb2385",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-02-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUfPWEPkmVr/",
+    "source_url": "https://www.instagram.com/p/DUzNCxmklYn/",
     "venue_handle": "pdpdclub",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
     "venue_location_id": "main",
     "datetime": "2026-02-20T11:00:00+00:00",
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "논스톱 재즈밴드",
-    "description": "논스톱 재즈밴드: 색소폰, 피아노, 베이스, 드럼.",
+    "title": "Non-stop Band",
+    "description": "Non-stop Band의 공연. 김민제 (알토 색소폰), Yuichi Tearai (테너 색소폰), Yuka Kawabata (트럼펫), 정승구 (피아노), 이예녹 (베이스), 김균언 (드럼).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "'Non' stop Jazzband",
-      "description": "'Non' stop Jazzband: Saxophone, Piano, Bass, Drums."
+      "title": "Non-stop Band",
+      "description": "Performance by Non-stop Band. Lineup: Kim Min-je (alto saxophone), Yuichi Tearai (tenor saxophone), Yuka Kawabata (trumpet), Jung Seung-gu (piano), Lee Ye-nok (bass), Kim Gyun-eon (drums)."
     },
     "_search_ko": {
-      "title": "논스톱 재즈밴드",
-      "description": "논스톱 재즈밴드: 색소폰, 피아노, 베이스, 드럼."
+      "title": "Non-stop Band",
+      "description": "Non-stop Band의 공연. 김민제 (알토 색소폰), Yuichi Tearai (테너 색소폰), Yuka Kawabata (트럼펫), 정승구 (피아노), 이예녹 (베이스), 김균언 (드럼)."
     }
   },
   {
@@ -2137,6 +2142,32 @@
     "_search_ko": {
       "title": "다은 퀄텟",
       "description": "다은 퀄텟 라이브 공연. 라인업: 다은 (보컬) @d.a__zz, 김형민 (피아노) @hyoungminkim_jazzjange, 조우진 (베이스), 최무현 (드럼)."
+    }
+  },
+  {
+    "id": "evt_20260220_16afc87d-270a-4bea-bde5-9c3d6d23ce85",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-02-20T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DUyclKtkwIG/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-02-20T11:30:00+00:00",
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "진재환 쿼텟",
+    "description": "로맨틱하고 멋있는 재즈 피아니스트 진재환 쿼텟의 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jin Jae-hwan Quartet",
+      "description": "Performance by the romantic and wonderful jazz pianist Jin Jae-hwan Quartet."
+    },
+    "_search_ko": {
+      "title": "진재환 쿼텟",
+      "description": "로맨틱하고 멋있는 재즈 피아니스트 진재환 쿼텟의 공연."
     }
   },
   {
@@ -2620,27 +2651,27 @@
   {
     "id": "evt_20260221_b1e69d1c-6375-4d6e-8a7e-63fd0cb845ac",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-02-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUfPWEPkmVr/",
+    "source_url": "https://www.instagram.com/p/DUzN5x5kohZ/",
     "venue_handle": "pdpdclub",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
     "venue_location_id": "main",
     "datetime": "2026-02-21T11:00:00+00:00",
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "아키나 쿼텟",
-    "description": "아키나 쿼텟: 클라리넷, 피아노, 베이스, 드럼.",
+    "title": "아키나 클라리넷 퀄텟",
+    "description": "아키나 클라리넷 퀄텟 공연. 아키나 (클라리넷), 강승훈 (피아노), 최은규 (베이스), 추명진 (드럼).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Akina Quartet",
-      "description": "Akina Quartet: Clarinet, Piano, Bass, Drums."
+      "title": "Akina Clarinet Quartet",
+      "description": "Akina Clarinet Quartet performance. Akina (clarinet), Kang Seung-hoon (piano), Choi Eun-gyu (bass), Chu Myung-jin (drums)."
     },
     "_search_ko": {
-      "title": "아키나 쿼텟",
-      "description": "아키나 쿼텟: 클라리넷, 피아노, 베이스, 드럼."
+      "title": "아키나 클라리넷 퀄텟",
+      "description": "아키나 클라리넷 퀄텟 공연. 아키나 (클라리넷), 강승훈 (피아노), 최은규 (베이스), 추명진 (드럼)."
     }
   },
   {
@@ -3012,6 +3043,32 @@
     }
   },
   {
+    "id": "evt_20260221_65f11536-5c1d-4b23-8f8b-24a64aebc849",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-02-21T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DUyclKtkwIG/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-02-21T11:30:00+00:00",
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "피크닉재즈밴드",
+    "description": "러블리한 피크닉재즈밴드의 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Picnic Jazz Band",
+      "description": "Performance by the lovely Picnic Jazz Band."
+    },
+    "_search_ko": {
+      "title": "피크닉재즈밴드",
+      "description": "러블리한 피크닉재즈밴드의 공연."
+    }
+  },
+  {
     "id": "evt_20260221_a6e73936-b2c0-4fc9-a686-6486b324d7d2",
     "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-02-21T11:50:00+00:00",
     "source_url": "https://www.instagram.com/p/DUsUIcXE3oK/",
@@ -3359,27 +3416,27 @@
   {
     "id": "evt_20260222_52f539d8-0d37-4fd2-94f9-d34b942fe826",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-02-22T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUfPWEPkmVr/",
+    "source_url": "https://www.instagram.com/p/DUzOSTNkl6P/",
     "venue_handle": "pdpdclub",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
     "venue_location_id": "main",
     "datetime": "2026-02-22T10:00:00+00:00",
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "이예주 퀸텟",
-    "description": "이예주 퀸텟: 보컬, 피아노, 베이스, 드럼.",
+    "description": "피아노 이예주를 주축으로 보컬 이진희, 색소폰 김성래, 베이스 전한국, 드럼 송하연으로 구성된 재즈 퀸텟.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lee Ye-joo Quintet",
-      "description": "Lee Ye-joo Quintet: Vocal, Piano, Bass, Drums."
+      "title": "Lee Ye-Joo Quintet",
+      "description": "A jazz quintet led by pianist Lee Ye-Joo, featuring vocalist Lee Jin-hee, saxophonist Kim Seong-rae, bassist Jeon Han-guk, and drummer Song Ha-yeon."
     },
     "_search_ko": {
       "title": "이예주 퀸텟",
-      "description": "이예주 퀸텟: 보컬, 피아노, 베이스, 드럼."
+      "description": "피아노 이예주를 주축으로 보컬 이진희, 색소폰 김성래, 베이스 전한국, 드럼 송하연으로 구성된 재즈 퀸텟."
     }
   },
   {
