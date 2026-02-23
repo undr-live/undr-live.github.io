@@ -357,7 +357,7 @@
   {
     "id": "evt_20260224_5f4bc49c-73df-42f0-b2d2-49452ac2f6df",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-02-24T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DU-yC5ckves/",
+    "source_url": "https://www.instagram.com/p/DVFvY3FEtZb/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -366,18 +366,18 @@
     "datetime": "2026-02-24T10:30:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "RICHIMAN 잼 세션",
-    "description": "RICHIMAN 잼 세션.",
+    "title": "리치맨 잼 세션",
+    "description": "리치맨 블루스 잼 세션. 'Hoochie Coochie man', 'Dust My Broom', 'Call It Stormy Monday' 등 12마디, 8마디 형식의 블루스곡.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "RICHIMAN Jam Session",
-      "description": "RICHIMAN jam session."
+      "title": "Richman Jam Session",
+      "description": "Richman Blues Jam Session. Featuring classic blues tunes like 'Hoochie Coochie man', 'Dust My Broom', 'Call It Stormy Monday', and all 12-bar and 8-bar blues formats."
     },
     "_search_ko": {
-      "title": "RICHIMAN 잼 세션",
-      "description": "RICHIMAN 잼 세션."
+      "title": "리치맨 잼 세션",
+      "description": "리치맨 블루스 잼 세션. 'Hoochie Coochie man', 'Dust My Broom', 'Call It Stormy Monday' 등 12마디, 8마디 형식의 블루스곡."
     }
   },
   {
@@ -2114,6 +2114,36 @@
     }
   },
   {
+    "id": "evt_20260227_3277f60d-b80d-4eb2-a542-b016343fcad0",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-02-27T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVFvGblEZls/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "bowingpark",
+      "brownsoundstudio",
+      "seokgwon_k"
+    ],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-02-27T11:30:00+00:00",
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "김재형 트리오",
+    "description": "김재형 트리오 공연. 공연은 1부 8:30~9:15, 2부 9:25~10:10 (각 45분씩 진행). 김재형 (피아노) @brownsoundstudio, 박정현 (베이스) @bowingpark, 강석권 (드럼) @seokgwon_k.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Jae-hyung Trio",
+      "description": "Kim Jae-hyung Trio performance. The show runs in two 45-minute sets: Part 1 from 8:30-9:15 PM, Part 2 from 9:25-10:10 PM. Musicians: Kim Jae-hyung (piano) @brownsoundstudio, Park Jung-hyun (bass) @bowingpark, Kang Seok-gwon (drums) @seokgwon_k."
+    },
+    "_search_ko": {
+      "title": "김재형 트리오",
+      "description": "김재형 트리오 공연. 공연은 1부 8:30~9:15, 2부 9:25~10:10 (각 45분씩 진행). 김재형 (피아노) @brownsoundstudio, 박정현 (베이스) @bowingpark, 강석권 (드럼) @seokgwon_k."
+    }
+  },
+  {
     "id": "evt_20260227_b54611d1-813a-4a5a-9a7e-9d012f6b59f4",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-02-27T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DUL09f0k88Q/",
@@ -2137,6 +2167,32 @@
     "_search_ko": {
       "title": "해일럽 듀오",
       "description": "2회 공연 (21:00, 22:00). 각 35분 진행."
+    }
+  },
+  {
+    "id": "evt_20260227_2a9a1db1-d4a2-4b8f-8a0f-b9d10d7ab83f",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-02-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVF_ZR3gXaD/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-02-27T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "단예 퀄텟",
+    "description": "단예 퀄텟의 라이브 재즈 공연. 두 번째 세트.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Dan-ye Quartet",
+      "description": "Live jazz performance by Dan-ye Quartet. Second set."
+    },
+    "_search_ko": {
+      "title": "단예 퀄텟",
+      "description": "단예 퀄텟의 라이브 재즈 공연. 두 번째 세트."
     }
   },
   {
