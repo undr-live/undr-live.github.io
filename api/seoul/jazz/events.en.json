@@ -85,27 +85,27 @@
   {
     "id": "evt_20260228_fbabe1fd-037d-4d7d-a639-87b5156a0c1c",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-02-28T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVKf6G1k5qE/",
+    "source_url": "https://www.instagram.com/p/DVQ4eq1EyZs/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-02-28T09:00:00+00:00",
-    "price": "Free Entry",
+    "price": "Free entry, deferred payment",
     "llm_confidence": 1.0,
     "title": "Modal Band",
-    "description": "Standard Jazz and Vocal performance.",
+    "description": "Standard and original jazz performance by Modal Band.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Modal Band",
-      "description": "Standard Jazz and Vocal performance."
+      "description": "Standard and original jazz performance by Modal Band."
     },
     "_search_ko": {
       "title": "모달 밴드",
-      "description": "스탠다드 재즈와 보컬 공연."
+      "description": "스탠다드 재즈와 오리지널 재즈를 선보이는 모달 밴드 공연."
     }
   },
   {
@@ -868,27 +868,32 @@
   {
     "id": "evt_20260228_db83c5d8-c8dd-4fdd-9a42-536d589b10be",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-02-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVKf6G1k5qE/",
+    "source_url": "https://www.instagram.com/p/DVQ4eq1EyZs/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "bassist_lee_dong_min",
+      "manuelweyand",
+      "paulkirby8547",
+      "philgrenadier"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-02-28T11:00:00+00:00",
-    "price": "Free Entry",
+    "price": "Free entry, deferred payment",
     "llm_confidence": 1.0,
     "title": "DrumBop Quartet",
-    "description": "Overseas artist invitation. Straight Ahead Jazz performance.",
+    "description": "International invited artists. A straight-ahead acoustic jazz quartet delivering hard-swinging grooves and melodic interplay. Featuring Phil Grenadier (trumpet) and Manuel Weyand (drums).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "DrumBop Quartet",
-      "description": "Overseas artist invitation. Straight Ahead Jazz performance."
+      "description": "International invited artists. A straight-ahead acoustic jazz quartet delivering hard-swinging grooves and melodic interplay. Featuring Phil Grenadier (trumpet) and Manuel Weyand (drums)."
     },
     "_search_ko": {
-      "title": "DrumBop 퀄텟",
-      "description": "해외 아티스트 초청. 스트레이트 어헤드 재즈 공연."
+      "title": "드럼밥 퀄텟",
+      "description": "해외 초청 아티스트. 하드 스윙 그루브와 멜로딕 인터플레이를 선사하는 스트레이트 어헤드 재즈 퀄텟. 트럼펫 필 그레나디어, 드럼 마누엘 웨이랜드."
     }
   },
   {
@@ -1322,27 +1327,29 @@
   {
     "id": "evt_20260228_436a7eaf-4e72-4971-a264-10a53a2cdbf1",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-02-28T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVKf6G1k5qE/",
+    "source_url": "https://www.instagram.com/p/DVQ4eq1EyZs/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "sowhatnola"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-02-28T13:00:00+00:00",
-    "price": "Free Entry",
+    "price": "Free entry, deferred payment",
     "llm_confidence": 1.0,
     "title": "SoWhat NOLA",
-    "description": "New Orleans Second Line Jazz performance.",
+    "description": "Midnight Jazz featuring SoWhat NOLA, a New Orleans and Second Line jazz Big Band.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "SoWhat NOLA",
-      "description": "New Orleans Second Line Jazz performance."
+      "description": "Midnight Jazz featuring SoWhat NOLA, a New Orleans and Second Line jazz Big Band."
     },
     "_search_ko": {
-      "title": "SoWhat NOLA",
-      "description": "뉴올리언스 세컨드 라인 재즈 공연."
+      "title": "쏘왓 놀라",
+      "description": "뉴올리언스 및 세컨드 라인 재즈 빅밴드, 쏘왓 놀라의 미드나잇 재즈."
     }
   },
   {
@@ -2018,6 +2025,36 @@
     "_search_ko": {
       "title": "김주엽 밴드",
       "description": "기타리스트이자 작곡가 김주엽을 중심으로, 블루스, 펑키, 소울 등 흑인 음악을 기반으로 하는 밴드. 보컬 유효림은 가스펠과 재즈 씬에서 인정받으며 활발히 활동 중이다. 밝고 에너지 넘치는 무대를 선사한다."
+    }
+  },
+  {
+    "id": "evt_20260301_4ef09a30-836b-433d-9d38-7b8aefe05d30",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-03-01T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVQlN1jEeGn/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "basspark_",
+      "myungjin_drums",
+      "yoon_sunghee_trio"
+    ],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-03-01T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Yoon Sung-hee Trio",
+    "description": "Jazz pianist Yoon Sung-hee Trio featuring Yoon Sung-hee (piano), Park Yeop (bass), Chu Myung-jin (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon Sung-hee Trio",
+      "description": "Jazz pianist Yoon Sung-hee Trio featuring Yoon Sung-hee (piano), Park Yeop (bass), Chu Myung-jin (drums)."
+    },
+    "_search_ko": {
+      "title": "윤성희 트리오",
+      "description": "재즈 피아니스트 윤성희 트리오 공연. 윤성희 (피아노), 박엽 (베이스), 추명진 (드럼)."
     }
   },
   {
