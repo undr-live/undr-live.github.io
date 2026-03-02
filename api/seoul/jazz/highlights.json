@@ -1,78 +1,78 @@
 {
-  "week_start_date": "2026-02-23",
-  "generated_at": "2026-02-23T07:00:06.314950+00:00",
+  "week_start_date": "2026-03-02",
+  "generated_at": "2026-03-02T07:00:06.245913+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-02-25": {
-      "event_id": "evt_20260225_801fb490-b8a8-4f89-b5dd-6f662c802572",
+    "2026-03-04": {
+      "event_id": "evt_20260304_158d29bc-1f86-4966-90fb-8d0c1dd3414c",
       "title": {
-        "ko": "정필섭 듀오",
-        "en": "Jung Pil-sup Duo"
+        "ko": "황수경 트리오",
+        "en": "Hwang Su-kyung Trio"
+      },
+      "venue_name": {
+        "en": "Cafe Africa",
+        "ko": "Cafe 아프리카"
+      },
+      "venue_handle": "africa_since1988",
+      "datetime": "2026-03-04T11:30:00+00:00",
+      "selected_at": "2026-03-02T07:00:06.244845+00:00"
+    },
+    "2026-03-05": {
+      "event_id": "evt_20260305_fabada76-34a8-45ef-b64b-b998ad67d8e3",
+      "title": {
+        "ko": "박정환 트리오 feat Betty",
+        "en": "Park Junghwan Trio feat Betty"
+      },
+      "venue_name": {
+        "en": "FLATNINE",
+        "ko": "FLATNINE"
+      },
+      "venue_handle": "flatnine_jazzbar",
+      "datetime": "2026-03-05T11:00:00+00:00",
+      "selected_at": "2026-03-02T07:00:06.245124+00:00"
+    },
+    "2026-03-06": {
+      "event_id": "evt_20260306_d5096d17-fd7d-4067-9d47-86dc302dd7ad",
+      "title": {
+        "ko": "임보영 퀄텟",
+        "en": "Lim Bo-young Quartet"
       },
       "venue_name": {
         "en": "Newall Jazz Lounge",
         "ko": "뉴올 재즈 라운지"
       },
       "venue_handle": "newall_jazz",
-      "datetime": "2026-02-25T11:00:00+00:00",
-      "selected_at": "2026-02-23T07:00:06.299317+00:00"
+      "datetime": "2026-03-06T11:00:00+00:00",
+      "selected_at": "2026-03-02T07:00:06.245386+00:00"
     },
-    "2026-02-26": {
-      "event_id": "evt_20260226_914953ec-f251-4e6b-9569-fe60d81a248d",
+    "2026-03-07": {
+      "event_id": "evt_20260307_a83b4e9c-667c-4f25-aabd-264698cf5cfd",
       "title": {
-        "ko": "블루스 잼 세션",
-        "en": "Blues Jam Session"
-      },
-      "venue_name": {
-        "en": "Boogie Woogie",
-        "ko": "부기우기"
-      },
-      "venue_handle": "boogiewoogieseoul",
-      "datetime": "2026-02-26T11:00:00+00:00",
-      "selected_at": "2026-02-23T07:00:06.303377+00:00"
-    },
-    "2026-02-27": {
-      "event_id": "evt_20260227_d713b359-6ab6-4d5b-a32e-1303c2bb40c6",
-      "title": {
-        "ko": "더 제레미 박 쇼",
-        "en": "The Jeremy Park Show"
+        "ko": "구교진 뉴타운",
+        "en": "Koo Kyo-jin Newtown"
       },
       "venue_name": {
         "en": "Cotton Club",
         "ko": "코튼클럽"
       },
       "venue_handle": "cottonclub_seoul",
-      "datetime": "2026-02-27T12:30:00+00:00",
-      "selected_at": "2026-02-23T07:00:06.307566+00:00"
+      "datetime": "2026-03-07T10:00:00+00:00",
+      "selected_at": "2026-03-02T07:00:06.245639+00:00"
     },
-    "2026-02-28": {
-      "event_id": "evt_20260228_f9d18596-6944-45fa-ad13-484aa190d1ca",
+    "2026-03-08": {
+      "event_id": "evt_20260308_8245700f-cdd4-4d67-8b74-08aec4714806",
       "title": {
-        "ko": "박재홍 밴드",
-        "en": "Park Jae-hong Band"
+        "ko": "노바샘 트리오",
+        "en": "Nobasaem Trio"
       },
       "venue_name": {
-        "en": "Cotton Club",
-        "ko": "코튼클럽"
+        "en": "Sounddog",
+        "ko": "사운드독"
       },
-      "venue_handle": "cottonclub_seoul",
-      "datetime": "2026-02-28T10:00:00+00:00",
-      "selected_at": "2026-02-23T07:00:06.311694+00:00"
-    },
-    "2026-03-01": {
-      "event_id": "evt_20260301_0e326cc4-420d-4016-9c4b-32da611700b9",
-      "title": {
-        "ko": "코어플레이",
-        "en": "Coreplay"
-      },
-      "venue_name": {
-        "en": "Cotton Club",
-        "ko": "코튼클럽"
-      },
-      "venue_handle": "cottonclub_seoul",
-      "datetime": "2026-03-01T12:30:00+00:00",
-      "selected_at": "2026-02-23T07:00:06.314940+00:00"
+      "venue_handle": "sounddog_jazz",
+      "datetime": "2026-03-08T10:00:00+00:00",
+      "selected_at": "2026-03-02T07:00:06.245905+00:00"
     }
   }
 }
