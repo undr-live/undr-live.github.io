@@ -2,7 +2,7 @@
   {
     "id": "evt_20260303_5d93b4d5-a35e-44e4-b7b7-04e9209941fe",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-03T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVYTSatk_tb/",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -16,18 +16,18 @@
     "datetime": "2026-03-03T09:00:00+00:00",
     "price": "Free entry, deferred payment",
     "llm_confidence": 1.0,
-    "title": "Jung Harin Quartet",
-    "description": "Standard Jazz, Bebop performance. Keep swinging!",
+    "title": "Jeong Ha-rin Quartet",
+    "description": "Standard Jazz, Bebop",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Jung Harin Quartet",
-      "description": "Standard Jazz, Bebop performance. Keep swinging!"
+      "title": "Jeong Ha-rin Quartet",
+      "description": "Standard Jazz, Bebop"
     },
     "_search_ko": {
       "title": "정하린 퀄텟",
-      "description": "스탠다드 재즈, 비밥 공연. Keep swinging!"
+      "description": "스탠다드 재즈, 비밥"
     }
   },
   {
@@ -250,7 +250,7 @@
   {
     "id": "evt_20260303_80ed20e4-b5b8-4a96-a311-426bea5bf69a",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-03T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVYTSatk_tb/",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -264,18 +264,18 @@
     "datetime": "2026-03-03T11:00:00+00:00",
     "price": "Free entry, deferred payment",
     "llm_confidence": 1.0,
-    "title": "Lee Gihyun Canta Bossa Nova",
-    "description": "Sings Brazilian bossa nova.",
+    "title": "Lee Gi-hyeon Canta Bossa",
+    "description": "Bossa Nova, Vocal",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lee Gihyun Canta Bossa Nova",
-      "description": "Sings Brazilian bossa nova."
+      "title": "Lee Gi-hyeon Canta Bossa",
+      "description": "Bossa Nova, Vocal"
     },
     "_search_ko": {
-      "title": "이기현 칸타 보사노바",
-      "description": "브라질의 보사노바를 노래합니다."
+      "title": "이기현 칸타 보사",
+      "description": "보사노바, 보컬"
     }
   },
   {
@@ -364,7 +364,7 @@
   {
     "id": "evt_20260303_5501347f-ed60-4731-a887-9e960bc33f50",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-03T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVYTSatk_tb/",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -377,18 +377,44 @@
     "datetime": "2026-03-03T13:00:00+00:00",
     "price": "Free entry, deferred payment",
     "llm_confidence": 1.0,
-    "title": "Ahn Seongmin Trio",
-    "description": "Jazz, country, and blues performance featuring original and famous songs.",
+    "title": "An Seong-min Trio",
+    "description": "Jazz, Blues, Country",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Ahn Seongmin Trio",
-      "description": "Jazz, country, and blues performance featuring original and famous songs."
+      "title": "An Seong-min Trio",
+      "description": "Jazz, Blues, Country"
     },
     "_search_ko": {
       "title": "안성민 트리오",
-      "description": "자작곡과 유명한 곡들을 연주하는 재즈, 컨트리, 블루스 공연."
+      "description": "재즈, 블루스, 컨트리"
+    }
+  },
+  {
+    "id": "evt_20260304_ad9758ef-6834-4115-8810-b05e130aa68a",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-04T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-04T09:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kang Seong-mo Trio",
+    "description": "Standard Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kang Seong-mo Trio",
+      "description": "Standard Jazz"
+    },
+    "_search_ko": {
+      "title": "강성모 트리오",
+      "description": "스탠다드 재즈"
     }
   },
   {
@@ -767,6 +793,32 @@
     }
   },
   {
+    "id": "evt_20260304_34733962-57ee-4209-b2ab-96f7a21e1c96",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-04T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Leo Kim Group",
+    "description": "Fusion Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Leo Kim Group",
+      "description": "Fusion Jazz"
+    },
+    "_search_ko": {
+      "title": "레오킴 그룹",
+      "description": "퓨전 재즈"
+    }
+  },
+  {
     "id": "evt_20260304_158d29bc-1f86-4966-90fb-8d0c1dd3414c",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-03-04T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DVNtIwFD3WP/",
@@ -894,6 +946,32 @@
     "_search_ko": {
       "title": "남정민 듀오",
       "description": "남정민 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20260304_660c2762-2734-4f8b-8037-8165118e0f73",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-04T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-04T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yu Ji-ho Trio",
+    "description": "Modern Jazz, Hard Bop, Jazz Fusion",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yu Ji-ho Trio",
+      "description": "Modern Jazz, Hard Bop, Jazz Fusion"
+    },
+    "_search_ko": {
+      "title": "유지호 트리오",
+      "description": "모던 재즈, 하드밥, 재즈 퓨전"
     }
   },
   {
@@ -1298,6 +1376,32 @@
     }
   },
   {
+    "id": "evt_20260305_365400d9-d2fa-438b-a7fe-913157e9b4b3",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-05T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Relaxin' with Lee's Quartet",
+    "description": "West Coast Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Relaxin' with Lee's Quartet",
+      "description": "West Coast Jazz"
+    },
+    "_search_ko": {
+      "title": "Relaxin' with Lee's 퀄텟",
+      "description": "웨스트 코스트 재즈"
+    }
+  },
+  {
     "id": "evt_20260305_9f61c8bb-8376-4ead-b662-fa2ed1cec302",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-03-05T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DVNtIwFD3WP/",
@@ -1507,6 +1611,58 @@
     "_search_ko": {
       "title": "헤이피 듀오",
       "description": "헤이피 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20260305_aea7d5cb-7539-4f41-8de3-8b54a1110a1d",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-05T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-05T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Seung-heon Quartet",
+    "description": "Standard Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Seung-heon Quartet",
+      "description": "Standard Jazz"
+    },
+    "_search_ko": {
+      "title": "이승헌 퀄텟",
+      "description": "스탠다드 재즈"
+    }
+  },
+  {
+    "id": "evt_20260306_b8aad2dd-b926-4ec9-bf4d-3ef52f7f2a2b",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-06T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-06T09:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yu Bo-hyeon Trio",
+    "description": "Gypsy Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yu Bo-hyeon Trio",
+      "description": "Gypsy Jazz"
+    },
+    "_search_ko": {
+      "title": "유보현 트리오",
+      "description": "집시 재즈"
     }
   },
   {
@@ -2074,6 +2230,32 @@
     }
   },
   {
+    "id": "evt_20260306_3c182dab-68de-47d4-83f1-4d19b3938eee",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-06T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Damon Brown International Band",
+    "description": "International invited artist. Modern Jazz, Vocal",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Damon Brown International Band",
+      "description": "International invited artist. Modern Jazz, Vocal"
+    },
+    "_search_ko": {
+      "title": "데이먼 브라운 인터내셔널 밴드",
+      "description": "해외 아티스트 초청. 모던 재즈, 보컬"
+    }
+  },
+  {
     "id": "evt_20260306_c698d9ab-4d61-47b6-aac2-e375866e7d73",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-06T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
@@ -2428,6 +2610,32 @@
     }
   },
   {
+    "id": "evt_20260306_f872d0bf-91fe-41ba-a021-650c6e5ae554",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-06T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-06T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Yeong-jik Quartet",
+    "description": "Post-Bop Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Yeong-jik Quartet",
+      "description": "Post-Bop Jazz"
+    },
+    "_search_ko": {
+      "title": "김영직 퀄텟",
+      "description": "포스트밥 재즈"
+    }
+  },
+  {
     "id": "evt_20260307_43850230-716c-48bb-92ce-540f5bebd500",
     "event_key": "v:ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da|t:2026-03-07T06:50:00+00:00",
     "source_url": "https://www.instagram.com/p/DVZ0lvUktZo/",
@@ -2584,6 +2792,32 @@
     "_search_ko": {
       "title": "조남혁 밴드",
       "description": "[위치: 낙원] 조남혁 밴드. 조남혁 (보컬)."
+    }
+  },
+  {
+    "id": "evt_20260307_9f0fcd48-71d7-4e3a-9179-3421974bbf81",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-07T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-07T09:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Swingable",
+    "description": "Swing, Vocal",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Swingable",
+      "description": "Swing, Vocal"
+    },
+    "_search_ko": {
+      "title": "스윙어블",
+      "description": "스윙, 보컬"
     }
   },
   {
@@ -3241,6 +3475,32 @@
     }
   },
   {
+    "id": "evt_20260307_df9ee980-3080-4aa2-ac82-e60947ddcaf2",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-07T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Han-jin Band",
+    "description": "Funk, Pop, Jazz, Vocal",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Han-jin Band",
+      "description": "Funk, Pop, Jazz, Vocal"
+    },
+    "_search_ko": {
+      "title": "이한진 밴드",
+      "description": "펑크, 팝, 재즈, 보컬"
+    }
+  },
+  {
     "id": "evt_20260307_7d8bc890-a576-4c3e-9bd0-1a14ed8b86e0",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-07T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
@@ -3569,6 +3829,32 @@
     }
   },
   {
+    "id": "evt_20260307_43224e3d-fbd6-4073-a9f6-926c28772d51",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-07T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-07T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Won-seok Quartet",
+    "description": "Standard Jazz, Original Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Choi Won-seok Quartet",
+      "description": "Standard Jazz, Original Jazz"
+    },
+    "_search_ko": {
+      "title": "최원석 퀄텟",
+      "description": "스탠다드 재즈, 오리지널 재즈"
+    }
+  },
+  {
     "id": "evt_20260308_b791b7f7-065a-428a-9c92-0c67c0ebde5c",
     "event_key": "v:ven_dda28cb8-70a0-4815-971c-666b82e81609|t:2026-03-08T07:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DVTKx-qDwhx/",
@@ -3760,6 +4046,32 @@
     "_search_ko": {
       "title": "Jump Mingus",
       "description": "[사당] Jump Mingus의 라이브 재즈 공연 1부."
+    }
+  },
+  {
+    "id": "evt_20260308_3b08f7a0-3a25-448c-b609-77d1e0d5084f",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-08T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-08T09:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Belleza",
+    "description": "Latin, Afro-Cuban Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Belleza",
+      "description": "Latin, Afro-Cuban Jazz"
+    },
+    "_search_ko": {
+      "title": "벨레자",
+      "description": "라틴, 아프로-큐반 재즈"
     }
   },
   {
@@ -4056,6 +4368,32 @@
     }
   },
   {
+    "id": "evt_20260308_2f826035-89e9-4850-a1a0-9a66e19202b6",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-08T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kang Mi-gyeong Quartet",
+    "description": "Standard Jazz, Original Jazz, Modern Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kang Mi-gyeong Quartet",
+      "description": "Standard Jazz, Original Jazz, Modern Jazz"
+    },
+    "_search_ko": {
+      "title": "강미경 퀄텟",
+      "description": "스탠다드 재즈, 오리지널 재즈, 모던 재즈"
+    }
+  },
+  {
     "id": "evt_20260308_4b39537a-e13c-4a5f-86dc-64546a4cd031",
     "event_key": "v:ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da|t:2026-03-08T11:10:00+00:00",
     "source_url": "https://www.instagram.com/p/DVZ0lvUktZo/",
@@ -4183,6 +4521,32 @@
     "_search_ko": {
       "title": "이지영 퀄텟",
       "description": "이지영 (보컬), 최재원 (트럼펫), 송하철 (피아노), 김대호 (베이스), 신동진 (드럼)"
+    }
+  },
+  {
+    "id": "evt_20260308_ee8ff87e-c457-4319-b420-15c4f0db7caf",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-08T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-08T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Jun-gi Quintet",
+    "description": "Standard Jazz",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Choi Jun-gi Quintet",
+      "description": "Standard Jazz"
+    },
+    "_search_ko": {
+      "title": "최준기 퀸텟",
+      "description": "스탠다드 재즈"
     }
   },
   {
@@ -4317,6 +4681,32 @@
     "_search_ko": {
       "title": "Cotton Club Band & Sina",
       "description": "코튼클럽 밴드와 보컬 Sina의 재즈 공연."
+    }
+  },
+  {
+    "id": "evt_20260309_0eb91e45-6692-4477-aa81-52ab2296303c",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-09T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVa2FA4k0EN/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-09T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jo Jae-beom Latin Jazz Unit",
+    "description": "Latin jazz unit led by top percussionist Jo Jae-beom. Featuring premier musicians Yum Shin-hye (piano), Lee Gyu-jae (flute), and Koo Gyo-jin (bass), showcasing the essence of Afro-Cuban jazz. Vocalist Hong Ju-hye also joins.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jo Jae-beom Latin Jazz Unit",
+      "description": "Latin jazz unit led by top percussionist Jo Jae-beom. Featuring premier musicians Yum Shin-hye (piano), Lee Gyu-jae (flute), and Koo Gyo-jin (bass), showcasing the essence of Afro-Cuban jazz. Vocalist Hong Ju-hye also joins."
+    },
+    "_search_ko": {
+      "title": "조재범 라틴재즈유닛",
+      "description": "정상의 퍼커션 연주자 조재범이 이끄는 라틴 재즈 유닛. 염신혜 (피아노), 이규재 (플루트), 구교진 (베이스) 등 최고의 연주자들과 함께 아프로 큐반 재즈의 진수를 보여준다. 보컬 홍주혜가 함께 한다."
     }
   },
   {
@@ -4473,6 +4863,32 @@
     "_search_ko": {
       "title": "전재근 트리오",
       "description": "전재근 트리오의 재즈 공연."
+    }
+  },
+  {
+    "id": "evt_20260310_fdd20908-64ce-46e0-b359-542c2edcd833",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-10T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVa2FA4k0EN/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-10T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Tae-hoon Quartet",
+    "description": "Stage for new vocalist Kim Tae-hoon, a new face at Janus. Presenting the charm of standard jazz across various genres. Featuring Lee Myung-geon (piano), Jung Young-jun (bass), and Kim Jong-hyun (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Tae-hoon Quartet",
+      "description": "Stage for new vocalist Kim Tae-hoon, a new face at Janus. Presenting the charm of standard jazz across various genres. Featuring Lee Myung-geon (piano), Jung Young-jun (bass), and Kim Jong-hyun (drums)."
+    },
+    "_search_ko": {
+      "title": "김태훈 퀄텟",
+      "description": "야누스의 새 얼굴, 신예 보컬 김태훈의 무대. 다양한 장르를 오가며 스탠더드 재즈의 매력을 선사한다. 이명건 (피아노), 정영준 (베이스), 김종현 (드럼)이 함께한다."
     }
   },
   {
@@ -4689,6 +5105,32 @@
     "_search_ko": {
       "title": "김호철",
       "description": "김호철의 재즈 공연."
+    }
+  },
+  {
+    "id": "evt_20260311_b8605b3a-ed81-4d0a-a105-d8e316501da1",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVa2FA4k0EN/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-11T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Sang-yeon Overdriven Angel",
+    "description": "Project performance by guitarist Park Sang-yeon. Featuring leading Korean musicians Kang Yoon-mi (vocal), Lee Ji-young (piano), Choi Eun-chang (bass), and Kim Jong-hyun (drums), showcasing the charm of contemporary jazz.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Sang-yeon Overdriven Angel",
+      "description": "Project performance by guitarist Park Sang-yeon. Featuring leading Korean musicians Kang Yoon-mi (vocal), Lee Ji-young (piano), Choi Eun-chang (bass), and Kim Jong-hyun (drums), showcasing the charm of contemporary jazz."
+    },
+    "_search_ko": {
+      "title": "박상연 Overdriven Angel",
+      "description": "기타리스트 박상연의 프로젝트 공연. 강윤미 (보컬), 이지영 (피아노), 최은창 (베이스), 김종현 (드럼) 등 한국을 대표하는 연주자들이 함께 컨템퍼러리 재즈의 매력을 선사한다."
     }
   },
   {
@@ -4954,6 +5396,32 @@
     "_search_ko": {
       "title": "조재범 라틴 재즈 유닛",
       "description": "조재범 라틴 재즈 유닛의 공연."
+    }
+  },
+  {
+    "id": "evt_20260312_419e20dd-d9f8-4119-912b-801ccd05dfdd",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVa2FA4k0EN/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-12T11:00:00+00:00",
+    "price": "KRW 30,000",
+    "llm_confidence": 1.0,
+    "title": "Malo Special Performance",
+    "description": "Malo's special performance commemorating her Korean Music Awards win. The setlist will consist solely of songs from her award-winning album ‘Malo live at muddy,’ recreating her solo concert from Mapo Art Center last year. A rare opportunity to hear the entire album in a club setting.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Malo Special Performance",
+      "description": "Malo's special performance commemorating her Korean Music Awards win. The setlist will consist solely of songs from her award-winning album ‘Malo live at muddy,’ recreating her solo concert from Mapo Art Center last year. A rare opportunity to hear the entire album in a club setting."
+    },
+    "_search_ko": {
+      "title": "말로 특별 공연",
+      "description": "한국대중음악상 수상 기념 말로의 특별 무대. 수상작인 ‘Malo live at muddy’ 앨범 수록곡들로만 셋리스트를 채우며, 작년 마포아트센터 단독 공연을 재현한다. 앨범 전곡을 클럽에서 만날 수 있는 드문 기회."
     }
   },
   {
@@ -5292,6 +5760,32 @@
     "_search_ko": {
       "title": "노민수 트리오",
       "description": "노민수 트리오 공연. 출연진: 노민수 (기타), 피아노 (보컬 겸임), 베이스."
+    }
+  },
+  {
+    "id": "evt_20260313_f27abcb7-6153-472e-b7c1-946f80f0e846",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVa2FA4k0EN/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-13T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Common Ground",
+    "description": "A 9-member band, Common Ground, presenting a splendid funky sound led by brass. A leading Korean soul band known as the house band for SNL Korea. Returning to the stage by popular demand after their December performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Common Ground",
+      "description": "A 9-member band, Common Ground, presenting a splendid funky sound led by brass. A leading Korean soul band known as the house band for SNL Korea. Returning to the stage by popular demand after their December performance."
+    },
+    "_search_ko": {
+      "title": "커먼 그라운드",
+      "description": "브라스를 앞세워 화려한 펑키 사운드를 들려주는 9인조 밴드 커먼 그라운드. SNL코리아 하우스 밴드로 명성이 높은 한국 대표 소울 밴드. 작년 12월 앵콜 요청으로 다시 무대에 선다."
     }
   },
   {
@@ -5959,6 +6453,32 @@
     }
   },
   {
+    "id": "evt_20260314_928046d5-1ead-4684-9f30-35d232efeec0",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVa2FA4k0EN/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-14T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Han Sang-won Band",
+    "description": "The first Janus performance by Han Sang-won, 'Godfather of Korean Funk Guitar.' A first-generation Berklee-educated musician who significantly influenced Korean popular music. A large-scale funk performance featuring four vocalists.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Han Sang-won Band",
+      "description": "The first Janus performance by Han Sang-won, 'Godfather of Korean Funk Guitar.' A first-generation Berklee-educated musician who significantly influenced Korean popular music. A large-scale funk performance featuring four vocalists."
+    },
+    "_search_ko": {
+      "title": "한상원 밴드",
+      "description": "'한국 펑크 기타의 대부' 한상원의 야누스 첫 공연. 버클리 유학 1세대 뮤지션으로 한국 대중음악에 지대한 영향을 끼친 기타리스트. 4명의 보컬이 가세하는 대규모 편성의 펑크 공연."
+    }
+  },
+  {
     "id": "evt_20260314_93a5b04b-dc92-46ae-9424-19b7dff1e51d",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-14T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
@@ -6404,6 +6924,32 @@
     "_search_ko": {
       "title": "1247 시네 콘서트",
       "description": "동양의 악기 가야금(12현)과 서양의 악기 하프(47현)의 만남을 기록한 음악 다큐멘터리 영화 [1247] 상영과 함께 가야금 연주자 주보라, 하피스트 기화의 라이브 연주가 펼쳐지는 시네 콘서트."
+    }
+  },
+  {
+    "id": "evt_20260315_2f7effc6-dae7-492d-bbd1-166e680f6866",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVa2FA4k0EN/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-15T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jam Day",
+    "description": "Increasingly popular Jam Day. Welcoming hidden talents. Host Band: Malo (vocal), Lee Myung-geon (piano), Choi Jin-bae (bass), Kim Jong-hyun (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jam Day",
+      "description": "Increasingly popular Jam Day. Welcoming hidden talents. Host Band: Malo (vocal), Lee Myung-geon (piano), Choi Jin-bae (bass), Kim Jong-hyun (drums)."
+    },
+    "_search_ko": {
+      "title": "잼데이",
+      "description": "갈수록 화제 만발인 잼데이. 숨은 실력자들을 기다린다. 호스트 밴드: 말로 (보컬), 이명건 (피아노), 최진배 (베이스), 김종현 (드럼)."
     }
   },
   {
