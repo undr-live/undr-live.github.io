@@ -84,7 +84,7 @@
   {
     "id": "evt_20260304_b9e61923-a1d9-4246-b3e5-e076a30ea6a7",
     "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-03-04T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVNN7N4AUVu/",
+    "source_url": "https://www.instagram.com/p/DVdRifOAWwU/",
     "venue_handle": "_jam_lounge",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -93,18 +93,18 @@
     "datetime": "2026-03-04T10:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Kim Ju-won Trio",
-    "description": "Kim Ju-won Trio performance.",
+    "title": "Kim Joo-won Trio",
+    "description": "Jazz performance by Kim Joo-won Trio. Lineup includes Kim Joo-won (vocal), Choi Jung-won (piano), and Ahn Won-seok (bass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Ju-won Trio",
-      "description": "Kim Ju-won Trio performance."
+      "title": "Kim Joo-won Trio",
+      "description": "Jazz performance by Kim Joo-won Trio. Lineup includes Kim Joo-won (vocal), Choi Jung-won (piano), and Ahn Won-seok (bass)."
     },
     "_search_ko": {
       "title": "김주원 트리오",
-      "description": "김주원 트리오 공연."
+      "description": "김주원 트리오의 재즈 공연. 김주원 (보컬), 최정원 (피아노), 안원석 (베이스)으로 구성된 라인업."
     }
   },
   {
@@ -727,7 +727,7 @@
   {
     "id": "evt_20260305_b427b918-c731-4991-9526-82b3a633fd87",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-03-05T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVUerC0kgls/",
+    "source_url": "https://www.instagram.com/p/DVdgpLFEo-Y/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -737,17 +737,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Seo Sujin Quartet",
-    "description": "Live jazz performance by Seo Su-jin.",
+    "description": "Seo Sujin Quartet live performance. Seo Sujin (drums), Song Hacheol (saxophone), Kang Jaehun (piano), Kim Yeonghu (bass). Admission KRW 20,000. (Inquiries: 010.5368.2584)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Seo Sujin Quartet",
-      "description": "Live jazz performance by Seo Su-jin."
+      "description": "Seo Sujin Quartet live performance. Seo Sujin (drums), Song Hacheol (saxophone), Kang Jaehun (piano), Kim Yeonghu (bass). Admission KRW 20,000. (Inquiries: 010.5368.2584)"
     },
     "_search_ko": {
       "title": "서수진 퀄텟",
-      "description": "Live jazz performance by Seo Su-jin."
+      "description": "서수진 퀄텟 라이브 공연. 서수진 (드럼), 송하철 (색소폰), 강재훈 (피아노), 김영후 (베이스). 입장료 20,000원. (문의: 010.5368.2584)"
     }
   },
   {
@@ -1019,6 +1019,34 @@
     "_search_ko": {
       "title": "Relaxin' with Lee's 퀄텟",
       "description": "웨스트 코스트 재즈"
+    }
+  },
+  {
+    "id": "evt_20260305_7d46e4b3-7b16-405f-bc1a-822e69f56abc",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVdPBjQErxx/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "hyounwoochoi"
+    ],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-03-05T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Hyoun-woo Trio",
+    "description": "Performance by jazz pianist Choi Hyoun-woo (@hyounwoochoi) Trio, known for traversing delicacy and splendor.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Choi Hyoun-woo Trio",
+      "description": "Performance by jazz pianist Choi Hyoun-woo (@hyounwoochoi) Trio, known for traversing delicacy and splendor."
+    },
+    "_search_ko": {
+      "title": "최현우 트리오",
+      "description": "섬세함과 화려함을 오가는 재즈 피아니스트 최현우 (@hyounwoochoi) 트리오의 공연."
     }
   },
   {
