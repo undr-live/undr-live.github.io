@@ -54,7 +54,7 @@
   {
     "id": "evt_20260305_6d9eb5b2-5f4c-4c8d-af1b-5de69fc08a98",
     "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-03-05T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVNN7N4AUVu/",
+    "source_url": "https://www.instagram.com/p/DVf40xpgQLo/",
     "venue_handle": "_jam_lounge",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -64,17 +64,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "이한진 밴드",
-    "description": "이한진 밴드 공연.",
+    "description": "이한진 밴드의 재즈 공연. 이한진 (트롬본), 황은혜 (보컬), 김희란 (피아노), 주지호 (베이스), 엄진용 (드럼).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Han-jin Band",
-      "description": "Lee Han-jin Band performance."
+      "description": "Jazz performance by Lee Han-jin Band. Lee Han-jin (trombone), Hwang Eun-hye (vocal), Kim Hee-ran (piano), Joo Ji-ho (bass), Eom Jin-yong (drums)."
     },
     "_search_ko": {
       "title": "이한진 밴드",
-      "description": "이한진 밴드 공연."
+      "description": "이한진 밴드의 재즈 공연. 이한진 (트롬본), 황은혜 (보컬), 김희란 (피아노), 주지호 (베이스), 엄진용 (드럼)."
     }
   },
   {
@@ -807,6 +807,32 @@
     }
   },
   {
+    "id": "evt_20260306_fa50d7b9-8df7-4df3-adb4-d4190bf3685c",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-03-06T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVf4QIMk5nj/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-03-06T10:00:00+00:00",
+    "price": "무료 입장",
+    "llm_confidence": 1.0,
+    "title": "ChuTheNote 프로젝트",
+    "description": "소울, R&B, 보컬",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "ChuTheNote Project",
+      "description": "Soul, R&B, Vocal"
+    },
+    "_search_ko": {
+      "title": "ChuTheNote 프로젝트",
+      "description": "소울, R&B, 보컬"
+    }
+  },
+  {
     "id": "evt_20260306_45ee712e-d9d3-4589-86d6-05770bc82b05",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-03-06T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DVPhZxhEvZE/",
@@ -1493,6 +1519,32 @@
     }
   },
   {
+    "id": "evt_20260306_0303eaa1-ec05-40ca-86f8-c55b7642d26d",
+    "event_key": "v:ven_81f12bb5-7e7e-4dbf-88e3-517c01c1ab34|t:2026-03-06T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVfbzzRgNkU/",
+    "venue_handle": "bluechicago_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_81f12bb5-7e7e-4dbf-88e3-517c01c1ab34",
+    "venue_location_id": "main",
+    "datetime": "2026-03-06T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jimi & The Groovers",
+    "description": "Jimi & The Groovers 공연. 최로아 (베이스), 김도윤 (기타), 우지민 (보컬), 이재형 (피아노), 홍민준 (드럼).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jimi & The Groovers",
+      "description": "Jimi & The Groovers performance. Choi Ro-a (bass), Kim Do-yoon (guitar), Woo Ji-min (vocal), Lee Jae-hyeong (piano), Hong Min-joon (drums)."
+    },
+    "_search_ko": {
+      "title": "Jimi & The Groovers",
+      "description": "Jimi & The Groovers 공연. 최로아 (베이스), 김도윤 (기타), 우지민 (보컬), 이재형 (피아노), 홍민준 (드럼)."
+    }
+  },
+  {
     "id": "evt_20260306_0e3bba3e-ef32-4cf9-992b-b217de126f9c",
     "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-03-06T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DVNN7N4AUVu/",
@@ -1568,6 +1620,32 @@
     "_search_ko": {
       "title": "Tap.oz 재즈 밴드",
       "description": "탭댄스와 보컬이 어우러진 재즈 밴드."
+    }
+  },
+  {
+    "id": "evt_20260306_c403faa8-623e-43f1-96fb-6909cce0ce5b",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-03-06T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVf4QIMk5nj/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-03-06T12:00:00+00:00",
+    "price": "무료 입장",
+    "llm_confidence": 1.0,
+    "title": "유태언 퀄텟",
+    "description": "해피 재즈",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yu Tae-eon Quartet",
+      "description": "Happy Jazz"
+    },
+    "_search_ko": {
+      "title": "유태언 퀄텟",
+      "description": "해피 재즈"
     }
   },
   {
@@ -1909,6 +1987,32 @@
     "_search_ko": {
       "title": "스윙어블",
       "description": "스윙, 보컬"
+    }
+  },
+  {
+    "id": "evt_20260307_facf6273-7688-40e2-ad89-cffd0b806efd",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-03-07T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVf4QIMk5nj/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-03-07T09:00:00+00:00",
+    "price": "무료 입장",
+    "llm_confidence": 1.0,
+    "title": "진웅준 퀄텟",
+    "description": "포스트 밥",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jinung Jun Quartet",
+      "description": "Post-Bop"
+    },
+    "_search_ko": {
+      "title": "진웅준 퀄텟",
+      "description": "포스트 밥"
     }
   },
   {
@@ -2594,6 +2698,32 @@
     }
   },
   {
+    "id": "evt_20260307_70847fcb-891b-498d-b865-dbd33e61d9f5",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-03-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVf4QIMk5nj/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-03-07T11:00:00+00:00",
+    "price": "무료 입장",
+    "llm_confidence": 1.0,
+    "title": "김태형 퀸텟",
+    "description": "스탠다드 재즈, 비밥",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Tae-hyung Quintet",
+      "description": "Standard Jazz, Bebop"
+    },
+    "_search_ko": {
+      "title": "김태형 퀸텟",
+      "description": "스탠다드 재즈, 비밥"
+    }
+  },
+  {
     "id": "evt_20260307_7d8bc890-a576-4c3e-9bd0-1a14ed8b86e0",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-07T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
@@ -2737,6 +2867,32 @@
     "_search_ko": {
       "title": "이재원월드재즈유닛",
       "description": "이재원월드재즈유닛의 라틴 쿠반 재즈 공연. 이재원 (드럼) @drumjaewon, 전혜연 (보컬) @teresita.yeon, 신주연 (피아노) @juuu_deee, 김동연 (베이스) @dyk_bass."
+    }
+  },
+  {
+    "id": "evt_20260307_1fb24429-cd6c-49ec-b79d-128281ae780f",
+    "event_key": "v:ven_81f12bb5-7e7e-4dbf-88e3-517c01c1ab34|t:2026-03-07T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVfb31TAAPC/",
+    "venue_handle": "bluechicago_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_81f12bb5-7e7e-4dbf-88e3-517c01c1ab34",
+    "venue_location_id": "main",
+    "datetime": "2026-03-07T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Team Cotton",
+    "description": "Team Cotton 공연. 김종화 (베이스), 공정은 (보컬), SWTP (트럼펫, 드럼), 신치호 (피아노). 문의: 053)253-7727.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Team Cotton",
+      "description": "Team Cotton performance. Kim Jong-hwa (bass), Gong Jung-eun (vocal), SWTP (trumpet, drums), Shin Chi-ho (piano). Inquiries: 053)253-7727."
+    },
+    "_search_ko": {
+      "title": "Team Cotton",
+      "description": "Team Cotton 공연. 김종화 (베이스), 공정은 (보컬), SWTP (트럼펫, 드럼), 신치호 (피아노). 문의: 053)253-7727."
     }
   },
   {
@@ -2945,6 +3101,32 @@
     "_search_ko": {
       "title": "최원석 퀄텟",
       "description": "스탠다드 재즈, 오리지널 재즈"
+    }
+  },
+  {
+    "id": "evt_20260307_b9207695-02bc-4d2a-8207-a69e068c9ccf",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-03-07T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVf4QIMk5nj/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-03-07T13:00:00+00:00",
+    "price": "무료 입장",
+    "llm_confidence": 1.0,
+    "title": "DrHong 재즈 밴드",
+    "description": "하드 밥",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DrHong Jazz Band",
+      "description": "Hard Bop"
+    },
+    "_search_ko": {
+      "title": "DrHong 재즈 밴드",
+      "description": "하드 밥"
     }
   },
   {
@@ -3355,6 +3537,32 @@
     }
   },
   {
+    "id": "evt_20260308_9507900a-627a-49bb-aeea-6b86108cb296",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-03-08T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVf4QIMk5nj/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-03-08T10:00:00+00:00",
+    "price": "무료 입장",
+    "llm_confidence": 1.0,
+    "title": "마르디 퀄텟",
+    "description": "스탠다드 재즈, 스윙, 보컬",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Mardi Quartet",
+      "description": "Standard Jazz, Swing, Vocal"
+    },
+    "_search_ko": {
+      "title": "마르디 퀄텟",
+      "description": "스탠다드 재즈, 스윙, 보컬"
+    }
+  },
+  {
     "id": "evt_20260308_e4b1cc69-f9cd-482a-b43a-a445e4306280",
     "event_key": "v:ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da|t:2026-03-08T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DVZ0FAMkmjp/",
@@ -3614,6 +3822,32 @@
     "_search_ko": {
       "title": "이지영 퀄텟",
       "description": "이지영 (보컬), 최재원 (트럼펫), 송하철 (피아노), 김대호 (베이스), 신동진 (드럼)"
+    }
+  },
+  {
+    "id": "evt_20260308_61fe3943-9d48-4f70-a303-d6c8e19ed858",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-03-08T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVf4QIMk5nj/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-03-08T12:00:00+00:00",
+    "price": "무료 입장",
+    "llm_confidence": 1.0,
+    "title": "블루 메신저스",
+    "description": "재즈, 블루 자이언트 OST",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "BLUE MESSENGERS",
+      "description": "Jazz, BLUE GIANT OST"
+    },
+    "_search_ko": {
+      "title": "블루 메신저스",
+      "description": "재즈, 블루 자이언트 OST"
     }
   },
   {
@@ -5046,7 +5280,7 @@
   {
     "id": "evt_20260314_d8167ce3-5b25-4e63-9065-6bb808672655",
     "event_key": "v:ven_09991403-4f4f-42a7-a165-602d7e0cefdb|t:2026-03-14T03:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVIoUXVDyal/",
+    "source_url": "https://www.instagram.com/p/DVfzpeHjHNz/",
     "venue_handle": "ninejazz_chungdam",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -5057,18 +5291,18 @@
     "datetime": "2026-03-14T03:00:00+00:00",
     "price": "99,000원",
     "llm_confidence": 1.0,
-    "title": "Sweet White Day: 권기중 앤 프렌즈",
-    "description": "화이트데이 스페셜 코스와 함께하는 한낮의 재즈 판타지. '권기중 앤 프렌즈'의 라이브 공연.",
+    "title": "One White Day",
+    "description": "뮤지컬 배우 권기중 앤 프렌즈가 선보이는 특별한 화이트데이 재즈 선율과 깜짝 마술 퍼포먼스. 화이트 스페셜 코스 메뉴가 포함된 엔터테인먼트 쇼.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Sweet White Day: Kwon Ki-jung & Friends",
-      "description": "Midday jazz fantasy accompanying the White Day Special Course. Live performance by 'Kwon Ki-jung & Friends'."
+      "title": "One White Day",
+      "description": "A special White Day event featuring musical actor Kwon Gi-jung & Friends, presenting jazz melodies and a surprise magic performance. An entertainment show including a White Special Course Menu."
     },
     "_search_ko": {
-      "title": "Sweet White Day: 권기중 앤 프렌즈",
-      "description": "화이트데이 스페셜 코스와 함께하는 한낮의 재즈 판타지. '권기중 앤 프렌즈'의 라이브 공연."
+      "title": "One White Day",
+      "description": "뮤지컬 배우 권기중 앤 프렌즈가 선보이는 특별한 화이트데이 재즈 선율과 깜짝 마술 퍼포먼스. 화이트 스페셜 코스 메뉴가 포함된 엔터테인먼트 쇼."
     }
   },
   {
@@ -7348,6 +7582,32 @@
     "_search_ko": {
       "title": "이수경 밴드",
       "description": "이수경 밴드의 재즈 공연."
+    }
+  },
+  {
+    "id": "evt_20260321_739fe615-51ce-4851-8e5a-6fda8cdbf22a",
+    "event_key": "v:ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0|t:2026-03-21T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVf_8OUAeK3/",
+    "venue_handle": "yoori.kim_mullaejazzin",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-03-21T10:00:00+00:00",
+    "price": "예매 30,000원, 현장 35,000원 (1 drink & snack 포함)",
+    "llm_confidence": 1.0,
+    "title": "임미정 박윤우 듀오 콘서트",
+    "description": "재즈 피아니스트 임미정 (제23회 한국대중음악상 최우수 연주음반상 수상)과 기타리스트 박윤우의 듀오 콘서트. 예매 시 1 drink & snack 포함.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lim Mi-jung Park Yoon-woo Duo Concert",
+      "description": "Duo concert by jazz pianist Lim Mi-jung (winner of the 23rd Korean Popular Music Awards for Best Performance Album) and guitarist Park Yoon-woo. Advance ticket includes 1 drink & snack."
+    },
+    "_search_ko": {
+      "title": "임미정 박윤우 듀오 콘서트",
+      "description": "재즈 피아니스트 임미정 (제23회 한국대중음악상 최우수 연주음반상 수상)과 기타리스트 박윤우의 듀오 콘서트. 예매 시 1 drink & snack 포함."
     }
   },
   {
