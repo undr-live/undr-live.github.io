@@ -1051,6 +1051,32 @@
     }
   },
   {
+    "id": "evt_20260306_901a109f-c292-48b9-b256-33548e385c46",
+    "event_key": "v:ven_662b7498-a756-4961-ad84-baef6d59ae0a|t:2026-03-06T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DViWuHhkgOd/",
+    "venue_handle": "seoul.society.club",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_662b7498-a756-4961-ad84-baef6d59ae0a",
+    "venue_location_id": "main",
+    "datetime": "2026-03-06T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김광은 트리오",
+    "description": "재즈 기타리스트 김광은이 이끄는 트리오의 라이브 공연. 드럼, 베이스, 기타 편성.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Gwang-eun Trio",
+      "description": "Live performance by a jazz trio led by guitarist Kim Gwang-eun. Features drums, bass, and guitar."
+    },
+    "_search_ko": {
+      "title": "김광은 트리오",
+      "description": "재즈 기타리스트 김광은이 이끄는 트리오의 라이브 공연. 드럼, 베이스, 기타 편성."
+    }
+  },
+  {
     "id": "evt_20260306_35188538-9baa-4d79-bb36-c084af2e72bb",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-03-06T12:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DVNtIwFD3WP/",
@@ -1381,27 +1407,33 @@
   {
     "id": "evt_20260307_9f0fcd48-71d7-4e3a-9179-3421974bbf81",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-07T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "source_url": "https://www.instagram.com/p/DViVuHikwzq/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "himchanpark",
+      "jaeenvocal",
+      "leehyosung",
+      "motivkimmusic",
+      "sol_brown_"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-03-07T09:00:00+00:00",
-    "price": null,
+    "price": "무료 입장 (음료/음식 유료)",
     "llm_confidence": 1.0,
-    "title": "스윙어블",
-    "description": "스윙, 보컬",
+    "title": "MODERNABLE",
+    "description": "컨템포러리 재즈 보컬 공연.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Swingable",
-      "description": "Swing, Vocal"
+      "title": "MODERNABLE",
+      "description": "Contemporary jazz vocal performance."
     },
     "_search_ko": {
-      "title": "스윙어블",
-      "description": "스윙, 보컬"
+      "title": "MODERNABLE",
+      "description": "컨템포러리 재즈 보컬 공연."
     }
   },
   {
@@ -2151,27 +2183,27 @@
   {
     "id": "evt_20260307_df9ee980-3080-4aa2-ac82-e60947ddcaf2",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-07T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "source_url": "https://www.instagram.com/p/DViVuHikwzq/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-03-07T11:00:00+00:00",
-    "price": null,
+    "price": "무료 입장 (음료/음식 유료)",
     "llm_confidence": 1.0,
     "title": "이한진 밴드",
-    "description": "펑크, 팝, 재즈, 보컬",
+    "description": "트롬본이 리드하는 신나는 펑크 재즈 팝 밴드 공연.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lee Han-jin Band",
-      "description": "Funk, Pop, Jazz, Vocal"
+      "description": "Trombone-led exciting funk jazz pop band performance."
     },
     "_search_ko": {
       "title": "이한진 밴드",
-      "description": "펑크, 팝, 재즈, 보컬"
+      "description": "트롬본이 리드하는 신나는 펑크 재즈 팝 밴드 공연."
     }
   },
   {
@@ -2640,27 +2672,32 @@
   {
     "id": "evt_20260307_43224e3d-fbd6-4073-a9f6-926c28772d51",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-07T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVbGM0WE-Wu/",
+    "source_url": "https://www.instagram.com/p/DViVuHikwzq/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "circlekim21",
+      "gangho",
+      "sngha",
+      "wonseokchoimusic"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-03-07T13:00:00+00:00",
-    "price": null,
+    "price": "무료 입장 (음료/음식 유료)",
     "llm_confidence": 1.0,
-    "title": "최원석 퀄텟",
-    "description": "스탠다드 재즈, 오리지널 재즈",
+    "title": "최원석 쿼텟",
+    "description": "스탠다드, 비밥, 스윙 재즈 쿼텟 공연.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Choi Won-seok Quartet",
-      "description": "Standard Jazz, Original Jazz"
+      "description": "Standard, bebop, swing jazz quartet performance."
     },
     "_search_ko": {
-      "title": "최원석 퀄텟",
-      "description": "스탠다드 재즈, 오리지널 재즈"
+      "title": "최원석 쿼텟",
+      "description": "스탠다드, 비밥, 스윙 재즈 쿼텟 공연."
     }
   },
   {
