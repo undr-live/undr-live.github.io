@@ -2109,6 +2109,32 @@
     }
   },
   {
+    "id": "evt_20260313_c4dcfdd0-53b6-42c9-b693-b4b98c19df78",
+    "event_key": "v:ven_13daa248-cb23-4dde-9b5f-14be04fd218d|t:2026-03-13T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVn5NOlkVGW/",
+    "venue_handle": "kindseoul.kr",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_13daa248-cb23-4dde-9b5f-14be04fd218d",
+    "venue_location_id": "main",
+    "datetime": "2026-03-13T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ham Tae-ju Quartet",
+    "description": "Thought-provoking message music, clad in modern/contemporary jazz, approaches intensely. Ham Tae-ju Quartet (@_jazzosopher) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ham Tae-ju Quartet",
+      "description": "Thought-provoking message music, clad in modern/contemporary jazz, approaches intensely. Ham Tae-ju Quartet (@_jazzosopher) performance."
+    },
+    "_search_ko": {
+      "title": "함태주 퀄텟",
+      "description": "사유하는 메시지 음악이 모던/컨템포러리 재즈를 입고 강렬하게 다가옵니다. 함태주 퀄텟 (@_jazzosopher) 공연."
+    }
+  },
+  {
     "id": "evt_20260313_07552f95-7b39-4c90-8dcd-92d2bcb52e5d",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-03-13T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DVhvaExEpM0/",
@@ -2165,7 +2191,7 @@
   {
     "id": "evt_20260313_757fe821-fd9b-4009-aaf5-2ef118cfd2de",
     "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-03-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVTUmBCj4Iz/",
+    "source_url": "https://www.instagram.com/p/DVnvRjqD599/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -2174,18 +2200,18 @@
     "datetime": "2026-03-13T11:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Kim Ye-rim Quartet",
-    "description": "Jazz performance by Kim Ye-rim Quartet.",
+    "title": "Kim Yerim Quartet",
+    "description": "Jazz performance by Kim Yerim Quartet. Vocal Kim Yerim, Piano Jo Hami, Bass Choi Yoonseok, Drums Yang Duhhan. Playlist includes: My romance, Footprints, Night Dreamer, Endless lawns, Love for sale, Taking a chance on love, Dolphin dance, You've changed, Centerpiece, Summertime.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Ye-rim Quartet",
-      "description": "Jazz performance by Kim Ye-rim Quartet."
+      "title": "Kim Yerim Quartet",
+      "description": "Jazz performance by Kim Yerim Quartet. Vocal Kim Yerim, Piano Jo Hami, Bass Choi Yoonseok, Drums Yang Duhhan. Playlist includes: My romance, Footprints, Night Dreamer, Endless lawns, Love for sale, Taking a chance on love, Dolphin dance, You've changed, Centerpiece, Summertime."
     },
     "_search_ko": {
       "title": "김예림 퀄텟",
-      "description": "김예림 퀄텟의 재즈 공연."
+      "description": "김예림 퀄텟의 재즈 공연. 보컬 김예림, 피아노 조하미, 베이스 최윤석, 드럼 양두한. 플레이리스트: My romance, Footprints, Night Dreamer, Endless lawns, Love for sale, Taking a chance on love, Dolphin dance, You've changed, Centerpiece, Summertime."
     }
   },
   {
@@ -2272,27 +2298,31 @@
   {
     "id": "evt_20260313_86f7e324-1bd7-4af3-93f1-b367ab9d4466",
     "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-03-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVYNLxiE01v/",
+    "source_url": "https://www.instagram.com/p/DVnwej2k9o8/",
     "venue_handle": "jazzlounge_official",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "min_suuuuuuu8",
+      "no_racket_",
+      "ye_vans"
+    ],
     "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
     "venue_location_id": "main",
     "datetime": "2026-03-13T11:00:00+00:00",
     "price": "KRW 8,000",
     "llm_confidence": 1.0,
-    "title": "No Min-soo Trio",
-    "description": "No Min-soo Trio performance. Roster: No Min-soo (guitar), piano (with vocal), bass.",
+    "title": "Minsu Noh Trio",
+    "description": "Jazz guitarist Minsu Noh (guitar) @min_suuuuuuu8, joined by Yebon Yang (piano & vocal) @ye_vans and Ichae An (bass) @no_racket_, presents a delicate and refined ensemble.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "No Min-soo Trio",
-      "description": "No Min-soo Trio performance. Roster: No Min-soo (guitar), piano (with vocal), bass."
+      "title": "Minsu Noh Trio",
+      "description": "Jazz guitarist Minsu Noh (guitar) @min_suuuuuuu8, joined by Yebon Yang (piano & vocal) @ye_vans and Ichae An (bass) @no_racket_, presents a delicate and refined ensemble."
     },
     "_search_ko": {
       "title": "노민수 트리오",
-      "description": "노민수 트리오 공연. 출연진: 노민수 (기타), 피아노 (보컬 겸임), 베이스."
+      "description": "재즈 기타리스트 노민수 (기타) @min_suuuuuuu8를 중심으로, 양예본 (피아노 & 보컬) @ye_vans, 안이채 (베이스) @no_racket_가 섬세하고 완성도 높은 앙상블을 선보입니다."
     }
   },
   {
@@ -3070,27 +3100,31 @@
   {
     "id": "evt_20260314_c41df227-7ebf-43bd-adf5-2ebd60239962",
     "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-03-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVYNLxiE01v/",
+    "source_url": "https://www.instagram.com/p/DVnxRBbE_uz/",
     "venue_handle": "jazzlounge_official",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "dyk_bass",
+      "heesuyunjazz",
+      "wanee_piano"
+    ],
     "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
     "venue_location_id": "main",
     "datetime": "2026-03-14T11:00:00+00:00",
     "price": "KRW 8,000",
     "llm_confidence": 1.0,
-    "title": "Kim Dong-yeon Trio",
-    "description": "Kim Dong-yeon Trio performance. Roster: Kim Dong-yeon (bass, vocal), piano.",
+    "title": "Dongyun Kim Trio",
+    "description": "Led by bassist Dongyun Kim, with pianist Hwanhee Kim and vocalist Heesu Yun, this trio performs dense, captivating jazz. Dongyun Kim (bass) @dyk_bass, Hwanhee Kim (piano) @wanee_piano, Heesu Yun (vocal) @heesuyunjazz.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Dong-yeon Trio",
-      "description": "Kim Dong-yeon Trio performance. Roster: Kim Dong-yeon (bass, vocal), piano."
+      "title": "Dongyun Kim Trio",
+      "description": "Led by bassist Dongyun Kim, with pianist Hwanhee Kim and vocalist Heesu Yun, this trio performs dense, captivating jazz. Dongyun Kim (bass) @dyk_bass, Hwanhee Kim (piano) @wanee_piano, Heesu Yun (vocal) @heesuyunjazz."
     },
     "_search_ko": {
       "title": "김동연 트리오",
-      "description": "김동연 트리오 공연. 출연진: 김동연 (베이스, 보컬), 피아노."
+      "description": "베이시스트 김동연을 리더로, 피아니스트 김환희, 보컬 윤희수가 밀도 높은 재즈의 정수를 선보인다. 김동연 (베이스) @dyk_bass, 김환희 (피아노) @wanee_piano, 윤희수 (보컬) @heesuyunjazz."
     }
   },
   {
