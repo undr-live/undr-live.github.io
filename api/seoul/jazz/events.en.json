@@ -417,6 +417,32 @@
     }
   },
   {
+    "id": "evt_20260311_515d2dfc-a682-417f-ac1d-152d66b7eb0d",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-03-11T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVu7Rd8Cf5I/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-03-11T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "The Southern Limited",
+    "description": "Band playing American Southern music, infused with bassist Choi Won-hyuk's experience. Primarily performs blues and rock & roll.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The Southern Limited",
+      "description": "Band playing American Southern music, infused with bassist Choi Won-hyuk's experience. Primarily performs blues and rock & roll."
+    },
+    "_search_ko": {
+      "title": "남부한정",
+      "description": "베이시스트 최원혁의 음악적 고뇌와 경험이 담긴 미국 남부음악 밴드. 블루스와 락앤롤을 중심으로 연주한다."
+    }
+  },
+  {
     "id": "evt_20260311_aa360124-f84f-4712-9b82-04d954bb923f",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-03-11T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DVaGeNGgQl6/",
@@ -1782,6 +1808,32 @@
     }
   },
   {
+    "id": "evt_20260313_b3064dcb-1680-4615-9368-ac375f0479bb",
+    "event_key": "v:ven_81f12bb5-7e7e-4dbf-88e3-517c01c1ab34|t:2026-03-13T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVu1sc-gHy9/",
+    "venue_handle": "bluechicago_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_81f12bb5-7e7e-4dbf-88e3-517c01c1ab34",
+    "venue_location_id": "main",
+    "datetime": "2026-03-13T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lim Jong-gwan Trio",
+    "description": "Lim Jong-gwan Trio performance. Lim Jong-gwan (piano), Jang Won-jun (bass), Kang Jae-seok (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lim Jong-gwan Trio",
+      "description": "Lim Jong-gwan Trio performance. Lim Jong-gwan (piano), Jang Won-jun (bass), Kang Jae-seok (drums)."
+    },
+    "_search_ko": {
+      "title": "임종관 트리오",
+      "description": "임종관 트리오 공연. 임종관 (피아노), 장원준 (베이스), 강재석 (드럼)."
+    }
+  },
+  {
     "id": "evt_20260313_41f550e1-3cac-4b94-a973-264c7727310f",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-03-13T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DVTYy1kgdxE/",
@@ -3001,6 +3053,32 @@
     "_search_ko": {
       "title": "이승준 퀄텟",
       "description": "이승준 퀄텟 라이브 공연. 정필섭 (보컬) @analogue_8sup, 이승준 (피아노) @lsjun_piano, 안이채 (베이스) @no_racket_, 테디 신 (드럼) @teddyshine_drums."
+    }
+  },
+  {
+    "id": "evt_20260314_e977dc29-a436-444e-98d9-2208686cb776",
+    "event_key": "v:ven_81f12bb5-7e7e-4dbf-88e3-517c01c1ab34|t:2026-03-14T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVu1v5lAPun/",
+    "venue_handle": "bluechicago_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_81f12bb5-7e7e-4dbf-88e3-517c01c1ab34",
+    "venue_location_id": "main",
+    "datetime": "2026-03-14T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Team Cotton",
+    "description": "Team Cotton: SWTP (trumpet, drums), Gong Jeong-eun (vocal), Kim Jong-hwa (bass), Shin In-gyu (piano).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Team Cotton",
+      "description": "Team Cotton: SWTP (trumpet, drums), Gong Jeong-eun (vocal), Kim Jong-hwa (bass), Shin In-gyu (piano)."
+    },
+    "_search_ko": {
+      "title": "Team Cotton",
+      "description": "Team Cotton: SWTP (트럼펫, 드럼), 공정은 (보컬), 김종화 (베이스), 신인규 (피아노)."
     }
   },
   {
@@ -6863,6 +6941,36 @@
     "_search_ko": {
       "title": "양현수 트리오",
       "description": "양현수 트리오 공연. 출연진: 양현수 (드럼), 색소폰, 피아노."
+    }
+  },
+  {
+    "id": "evt_20260327_a48a69c8-9f06-476a-8734-794d3f3f5f48",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVu4-PiE5VC/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "manuelweyand",
+      "mona.jazz",
+      "rob.ligato"
+    ],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-27T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Mona Jazz Crew's Invitation #23",
+    "description": "Pianist Mona's 2nd album release commemorative stage. An artist who expresses her experiences through music with bold yet refined delicacy. Piano: Mona @mona.jazz, Bass: Robert Fernandez @rob.ligato, Drums: Manuel Weyand @manuelweyand.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Mona Jazz Crew's Invitation #23",
+      "description": "Pianist Mona's 2nd album release commemorative stage. An artist who expresses her experiences through music with bold yet refined delicacy. Piano: Mona @mona.jazz, Bass: Robert Fernandez @rob.ligato, Drums: Manuel Weyand @manuelweyand."
+    },
+    "_search_ko": {
+      "title": "모나 재즈 크루 인비테이션 #23",
+      "description": "피아니스트 모나의 2집 발매 기념 무대. 대담하면서도 세련된 섬세함으로 자신의 경험을 음악으로 풀어내는 아티스트. 피아노: 모나 @mona.jazz, 베이스: Robert Fernandez @rob.ligato, 드럼: Manuel Weyand @manuelweyand."
     }
   },
   {
