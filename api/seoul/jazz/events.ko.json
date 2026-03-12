@@ -4864,18 +4864,25 @@
   {
     "id": "evt_20260318_f4b922b0-a117-469e-bdcc-c679865c3123",
     "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-03-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVYNLxiE01v/",
+    "source_url": "https://www.instagram.com/p/DVnvOm_kwmh/",
     "venue_handle": "jazzlounge_official",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "charlie.jung1",
+      "hoyeon.choi"
+    ],
     "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
     "venue_location_id": "main",
     "datetime": "2026-03-18T11:00:00+00:00",
     "date": "2026-03-18",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
       }
     ],
     "price": "8,000원",
