@@ -2,10 +2,15 @@
   {
     "id": "evt_20260313_17c77e2d-8b63-4f0d-970c-f3f467c3d3d9",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-13T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVqWbTwk_ZR/",
+    "source_url": "https://www.instagram.com/p/DVyCjGVkwMH/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "b_o2o8",
+      "minssj_8",
+      "seungcan_u",
+      "xeodms_"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-03-13T09:00:00+00:00",
@@ -405,7 +410,7 @@
   {
     "id": "evt_20260313_e9de3f52-5f19-4d30-8ef0-f334b24bf35f",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-03-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVqpo_wE4YO/",
+    "source_url": "https://www.instagram.com/p/DVyUm4YCSnw/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -418,15 +423,11 @@
     "date": "2026-03-13",
     "sets": [
       {
-        "label": "1부",
+        "label": null,
         "time": "20:00"
-      },
-      {
-        "label": "2부",
-        "time": "21:00"
       }
     ],
-    "price": "KRW 20,000",
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "JJGB X Nana Hjin",
     "description": "JJGB, known for beat-driven jazz, collaborates with vocalist Nana Hjin for an electronic and club sound live performance. Yeo Jin-woo (drums & leader) @_jjgb_, Lee Jun (electric bass), Nam Gi-jun (electric guitar), Choi Kang-su (keyboards), Nana Hjin (vocal) @nanahjin.",
@@ -684,10 +685,15 @@
   {
     "id": "evt_20260313_d953c352-c53d-4434-bf12-6f1ffbeef4ab",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVqWbTwk_ZR/",
+    "source_url": "https://www.instagram.com/p/DVyCjGVkwMH/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "jazz_baek",
+      "krazy_dragon",
+      "sungjae_drums",
+      "yazakieri"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-03-13T11:00:00+00:00",
@@ -1236,10 +1242,16 @@
   {
     "id": "evt_20260313_105709b8-284d-4378-b4cc-3d0a49b0da46",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-13T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVqWbTwk_ZR/",
+    "source_url": "https://www.instagram.com/p/DVyCjGVkwMH/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "2junebbang2",
+      "hansaxsolo",
+      "lester_yoo",
+      "nokrbass",
+      "rob.jazzdrum"
+    ],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
     "datetime": "2026-03-13T13:00:00+00:00",
@@ -9280,6 +9292,45 @@
     "_search_ko": {
       "title": "양혜정 Friends",
       "description": "양혜정 Friends의 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20260331_22cbb634-d36e-46a7-adad-d25fef4c6980",
+    "event_key": "v:ven_87b56072-f307-4a42-a14d-d194e6b53103|t:2026-03-31T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DVyO7rck96-/",
+    "venue_handle": "allthatjazz_itaewon",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "hgkimdrummer",
+      "hyku_song",
+      "jinsu_kim",
+      "joon.pf",
+      "swinglegacy",
+      "yoyihuri"
+    ],
+    "venue_id": "ven_87b56072-f307-4a42-a14d-d194e6b53103",
+    "venue_location_id": "main",
+    "datetime": "2026-03-31T10:30:00+00:00",
+    "date": "2026-03-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": "30,000원",
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
     }
   },
   {
