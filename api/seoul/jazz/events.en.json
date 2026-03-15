@@ -951,21 +951,25 @@
   {
     "id": "evt_20260316_7e6e164d-e006-4d71-a52a-5721330d39bb",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-03-16T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVoEJKaGqQC/",
+    "source_url": "https://www.instagram.com/p/DV5vhVrmpBa/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "bassist_lee_dong_min",
+      "bysmusicproduction",
+      "junghwa_jazz"
+    ],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
     "datetime": "2026-03-16T11:00:00+00:00",
     "date": "2026-03-16",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
-    "price": "KRW 15,000",
+    "price": "15,000원",
     "llm_confidence": 1.0,
     "title": "Brian Shin Quartet",
     "description": "Brian Shin Quartet performance.",
@@ -1182,21 +1186,26 @@
   {
     "id": "evt_20260317_5d51c605-2817-4234-8d09-1cc13b0630a1",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-03-17T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVoEJKaGqQC/",
+    "source_url": "https://www.instagram.com/p/DV5vhVrmpBa/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "chaesun_yim",
+      "hachul_music",
+      "inseopsong",
+      "jazzer.m"
+    ],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
     "datetime": "2026-03-17T11:00:00+00:00",
     "date": "2026-03-17",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
-    "price": "KRW 15,000",
+    "price": "15,000원",
     "llm_confidence": 1.0,
     "title": "Song Ha-cheol Quartet",
     "description": "Song Ha-cheol Quartet performance.",
@@ -1273,6 +1282,40 @@
     "_search_ko": {
       "title": "더 스코어",
       "description": "재즈 색소포니스트 신현필이 이끄는 밴드. 재즈 연주와 함께 영화, 드라마 음악가로도 활동 중. 두 개의 혼이 사운드를 이끌며 스탠더드 재즈의 매력을 선사."
+    }
+  },
+  {
+    "id": "evt_20260317_32685499-1b1c-46bb-ae9c-2291e1693f13",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-03-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV5SQj4E720/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "quiet.trp"
+    ],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-03-17T11:00:00+00:00",
+    "date": "2026-03-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
     }
   },
   {
@@ -1437,21 +1480,25 @@
   {
     "id": "evt_20260318_12188ae3-98e2-4f61-b547-7fde272cfc08",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-03-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVoEJKaGqQC/",
+    "source_url": "https://www.instagram.com/p/DV5vhVrmpBa/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "kim_in_young_bass",
+      "leeseongku",
+      "seankim50"
+    ],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
     "datetime": "2026-03-18T11:00:00+00:00",
     "date": "2026-03-18",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
-    "price": "KRW 15,000",
+    "price": "15,000원",
     "llm_confidence": 1.0,
     "title": "Lee Seong-gu Trio",
     "description": "Lee Seong-gu Trio performance.",
@@ -1469,7 +1516,7 @@
   {
     "id": "evt_20260318_f4b922b0-a117-469e-bdcc-c679865c3123",
     "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-03-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVnvOm_kwmh/",
+    "source_url": "https://www.instagram.com/p/DV5vbvnE3aP/",
     "venue_handle": "jazzlounge_official",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -1599,6 +1646,42 @@
     "_search_ko": {
       "title": "The Frontier",
       "description": "곽민서 (피아노), 양진호 (베이스), 홍상훈 (드럼)으로 구성된 트리오 The Frontier 공연."
+    }
+  },
+  {
+    "id": "evt_20260318_a8023be1-0c56-4ea8-9ddb-cf8a6dea240b",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-03-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV5SQj4E720/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "1_woolsss",
+      "lee_daaahe",
+      "young_piano0504"
+    ],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-03-18T11:00:00+00:00",
+    "date": "2026-03-18",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
     }
   },
   {
@@ -1872,21 +1955,25 @@
   {
     "id": "evt_20260319_36a08ad5-bbf3-4f83-8e3e-cd7897068b6d",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-03-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVoEJKaGqQC/",
+    "source_url": "https://www.instagram.com/p/DV5vhVrmpBa/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "jonghyun_pf",
+      "kim_kun_young",
+      "limkyungjin_bass"
+    ],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
     "datetime": "2026-03-19T11:00:00+00:00",
     "date": "2026-03-19",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
-    "price": "KRW 15,000",
+    "price": "15,000원",
     "llm_confidence": 1.0,
     "title": "Park Jong-hyun Quartet",
     "description": "Park Jong-hyun Quartet performance.",
@@ -1995,6 +2082,41 @@
     "_search_ko": {
       "title": "임미정 퀄텟",
       "description": "임미정 (피아노), Phil Grenadier (트럼펫), Bruce Kang (베이스), 석다연 (드럼)으로 구성된 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20260319_3ff6f3a8-2e0c-4057-ade7-14de290f9dec",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-03-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV5SQj4E720/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "j_hyuniyo",
+      "sueenena"
+    ],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-03-19T11:00:00+00:00",
+    "date": "2026-03-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
     }
   },
   {
@@ -2496,6 +2618,42 @@
     "_search_ko": {
       "title": "임용훈 & 삼비스타스",
       "description": "임용훈 (드럼)과 삼비스타스 (윤지아 (키보드), 최지웅 (기타), 전민규 (베이스), 김예진 (보컬))의 공연."
+    }
+  },
+  {
+    "id": "evt_20260320_b2a04a50-ee49-43e3-9542-31a587d4ee4f",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-03-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV5SQj4E720/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "casstech_",
+      "daekyeong__",
+      "un_mardi"
+    ],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-03-20T11:00:00+00:00",
+    "date": "2026-03-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
     }
   },
   {
@@ -3174,6 +3332,43 @@
     }
   },
   {
+    "id": "evt_20260321_d5239a01-6e03-4765-a1ee-34a5a90a9bfe",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-03-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV5SQj4E720/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "ck_k15",
+      "jaehwanbass",
+      "ki_joong_",
+      "nss_drum"
+    ],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-03-21T11:00:00+00:00",
+    "date": "2026-03-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260321_03ee8881-1d1a-43dc-beae-071a7578caeb",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-21T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
@@ -3535,6 +3730,42 @@
     "_search_ko": {
       "title": "황수민 퀄텟",
       "description": "재즈 앤 와인 디너. 1인 1식사 주문 필수. 예약은 네이버, 캐치테이블에서 '광안리남매' 검색."
+    }
+  },
+  {
+    "id": "evt_20260322_babaa1d9-5698-4fe0-b3f9-f23da8bd3308",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-03-22T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV5SQj4E720/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "Isjun_piano",
+      "analogue_8sup",
+      "kimminwookkk"
+    ],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-03-22T09:00:00+00:00",
+    "date": "2026-03-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
     }
   },
   {
