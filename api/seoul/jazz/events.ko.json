@@ -676,10 +676,14 @@
   {
     "id": "evt_20260315_7990e7e1-b0eb-41bc-b753-772d6ba78f6b",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-15T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
+    "source_url": "https://www.instagram.com/p/DV5Peqbj4vO/",
     "venue_handle": "dido_jazz_lounge",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "1_woolsss",
+      "h_0zl",
+      "jiinking_"
+    ],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
     "datetime": "2026-03-15T11:30:00+00:00",
@@ -1038,6 +1042,40 @@
     "_search_ko": {
       "title": "김민희 & Her Quartet",
       "description": "독보적 음색과 탁월한 스윙감을 자랑하는 보컬리스트 김민희. 2장의 솔로 앨범을 발표했으며, 골든 스윙밴드와 재즈 보컬 그룹 카리나 네뷸라 멤버로 활동 중."
+    }
+  },
+  {
+    "id": "evt_20260316_bbf44b6f-8e61-4bcf-9d92-5465a6b6078a",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV45vcIAU9K/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "daeyounkimm"
+    ],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-03-16T11:00:00+00:00",
+    "date": "2026-03-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
     }
   },
   {
@@ -2829,12 +2867,13 @@
   {
     "id": "evt_20260321_2d2c42fa-a137-42ca-af7c-558fd6348046",
     "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-03-21T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVSldpXkZh2/",
+    "source_url": "https://www.instagram.com/p/DV5EzEUkSPO/",
     "venue_handle": "bluecat.fezh",
     "musician_ids": [],
     "musician_ig_handles": [
-      "greenflow_ofc",
-      "jisun_pianist"
+      "gratia_eunhye",
+      "jisun_pianist",
+      "kimminwookkk"
     ],
     "venue_id": "ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95",
     "venue_location_id": "main",
@@ -2842,8 +2881,12 @@
     "date": "2026-03-21",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
       }
     ],
     "price": null,
