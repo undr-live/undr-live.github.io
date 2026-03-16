@@ -1467,6 +1467,38 @@
     }
   },
   {
+    "id": "evt_20260319_abf0b593-541f-4ea7-8e21-060791463637",
+    "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-03-19T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV8YXmbDymt/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [
+      "giboon_jazzer",
+      "parkjinjyeok0510",
+      "sunsun__hada"
+    ],
+    "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
+    "venue_location_id": "main",
+    "datetime": "2026-03-19T15:00:00+00:00",
+    "date": "2026-03-20",
+    "sets": null,
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260320_f59c1936-5c07-4ddc-8c1b-2b701542917d",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-03-20T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DVoEJKaGqQC/",
@@ -2015,6 +2047,45 @@
       {
         "label": "2부",
         "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260320_ecb7cca4-7b17-481c-959c-0fc05cadb89c",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-03-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV8UMDjAelm/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [
+      "basaemroh"
+    ],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-03-20T11:00:00+00:00",
+    "date": "2026-03-20",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
       }
     ],
     "price": null,
@@ -3024,6 +3095,78 @@
     }
   },
   {
+    "id": "evt_20260321_9e70abc7-0011-410b-b7c3-2241c9d61be8",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-03-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV8UMDjAelm/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [
+      "headeunb3"
+    ],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-03-21T11:00:00+00:00",
+    "date": "2026-03-21",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260321_07a8d257-4fb8-47ae-97f3-388a19b89e83",
+    "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-03-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV8YzhPE3zC/",
+    "venue_handle": "yellow___taxi",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_cf0cbcc1-8a48-4494-9772-faba6817a91a",
+    "venue_location_id": "main",
+    "datetime": "2026-03-21T11:00:00+00:00",
+    "date": "2026-03-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260321_03ee8881-1d1a-43dc-beae-071a7578caeb",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-21T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
@@ -3855,6 +3998,45 @@
     }
   },
   {
+    "id": "evt_20260322_b9942bc9-3840-471a-b0a5-65e516194d2c",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-03-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV8UMDjAelm/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [
+      "strongest_tiger_0420"
+    ],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-03-22T11:00:00+00:00",
+    "date": "2026-03-22",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260322_7ef5f223-9dad-4944-928b-deba3296d723",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-03-22T11:10:00+00:00",
     "source_url": "https://www.instagram.com/p/DVzkA7_Emcl/",
@@ -4111,6 +4293,45 @@
       {
         "label": "2부",
         "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260323_f286a796-18ac-4323-a167-c5e36a9eedcb",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-03-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV8UMDjAelm/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [
+      "d.a___zz"
+    ],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-03-23T11:00:00+00:00",
+    "date": "2026-03-23",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
       }
     ],
     "price": null,
