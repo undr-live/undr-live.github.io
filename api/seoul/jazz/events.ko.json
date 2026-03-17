@@ -1,5 +1,43 @@
 [
   {
+    "id": "evt_20260317_f386775f-f6ee-413b-9c51-d61889632d17",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-17T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV9yQyvkzKW/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [
+      "hot_jazz_moon",
+      "jazz_gychoi219",
+      "kyu_patitucci",
+      "yeonsong_ruah"
+    ],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-17T10:00:00+00:00",
+    "date": "2026-03-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260317_c79e1373-e1a5-4958-9203-834b5c8ad22a",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-03-17T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DVzkA7_Emcl/",
@@ -277,6 +315,45 @@
     "_search_ko": {
       "title": "김주환 트리오",
       "description": "김주환 (기타), 김영후 (베이스), 오종헌 (드럼)"
+    }
+  },
+  {
+    "id": "evt_20260317_e35fcd0a-b293-41ad-905b-cdbd82ed21c2",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-17T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DV9yQyvkzKW/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [
+      "bluebird_isnearby",
+      "dr.simon11",
+      "kwakdakyung",
+      "lester_yoo",
+      "smjazz_98"
+    ],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-03-17T12:00:00+00:00",
+    "date": "2026-03-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": null,
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": null,
+      "description": null
+    },
+    "_search_ko": {
+      "title": null,
+      "description": null
     }
   },
   {
