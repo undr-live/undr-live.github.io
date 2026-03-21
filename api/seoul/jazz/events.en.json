@@ -216,6 +216,35 @@
     }
   },
   {
+    "id": "evt_20260320_c224cbe0-c371-420c-8b8d-2f9c629a4411",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-03-20T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWIh4LYCTQv/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-03-20T15:00:00+00:00",
+    "date": "2026-03-21",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Han Sang-won Funk Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Funk Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 훵크 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260321_45299891-743e-4c92-82fe-12a4a9106a0c",
     "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-03-21T05:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DV8RYtNES9f/",
@@ -1221,7 +1250,7 @@
   {
     "id": "evt_20260321_07a8d257-4fb8-47ae-97f3-388a19b89e83",
     "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-03-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWIUmS3E1b0/",
+    "source_url": "https://www.instagram.com/p/DWJLvzdkwUJ/",
     "venue_handle": "yellow___taxi",
     "musician_ids": [],
     "musicians": [],
@@ -1232,24 +1261,28 @@
     "date": "2026-03-21",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:10"
       }
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "Leo Kim Group",
-    "description": "Experience the refined sound of the Leo Kim Group, a collective that has evolved from the acclaimed Leo Kim Quartet. This performance blends intricate instrumental arrangements with a warm, intimate atmosphere that captures the essence of their live touring history.",
+    "description": "Experience the refined sound of the Leo Kim Group, a collective evolved from the acclaimed Leo Kim Quartet. This performance blends intricate instrumental arrangements with a warm, intimate atmosphere that captures the essence of their live touring history.",
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
       "title": "Leo Kim Group",
-      "description": "Experience the refined sound of the Leo Kim Group, a collective that has evolved from the acclaimed Leo Kim Quartet. This performance blends intricate instrumental arrangements with a warm, intimate atmosphere that captures the essence of their live touring history."
+      "description": "Experience the refined sound of the Leo Kim Group, a collective evolved from the acclaimed Leo Kim Quartet. This performance blends intricate instrumental arrangements with a warm, intimate atmosphere that captures the essence of their live touring history."
     },
     "_search_ko": {
       "title": "레오킴 그룹",
-      "description": "Experience the refined sound of the Leo Kim Group, a collective that has evolved from the acclaimed Leo Kim Quartet. This performance blends intricate instrumental arrangements with a warm, intimate atmosphere that captures the essence of their live touring history."
+      "description": "Experience the refined sound of the Leo Kim Group, a collective evolved from the acclaimed Leo Kim Quartet. This performance blends intricate instrumental arrangements with a warm, intimate atmosphere that captures the essence of their live touring history."
     }
   },
   {
