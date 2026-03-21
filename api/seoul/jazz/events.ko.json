@@ -1221,7 +1221,7 @@
   {
     "id": "evt_20260321_07a8d257-4fb8-47ae-97f3-388a19b89e83",
     "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-03-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWGA39GAMr5/",
+    "source_url": "https://www.instagram.com/p/DWIUmS3E1b0/",
     "venue_handle": "yellow___taxi",
     "musician_ids": [],
     "musicians": [],
@@ -1468,6 +1468,44 @@
     },
     "_search_ko": {
       "title": "이경일 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260321_a149ecbd-7092-485b-aafe-f44a1d29b217",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWIpWTogQ_H/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-03-21T11:00:00+00:00",
+    "date": "2026-03-21",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김순영 재즈 탭",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Soon-young Jazz Tap",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김순영 재즈 탭",
       "description": null
     }
   },
@@ -1760,6 +1798,40 @@
     "_search_ko": {
       "title": "LOTUS 밴드",
       "description": "LOTUS 밴드 공연."
+    }
+  },
+  {
+    "id": "evt_20260321_12d6d32a-ec3a-468f-8ab0-5f62bf500c49",
+    "event_key": "v:ven_662b7498-a756-4961-ad84-baef6d59ae0a|t:2026-03-21T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWIk3yik2oy/",
+    "venue_handle": "seoul.society.club",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_662b7498-a756-4961-ad84-baef6d59ae0a",
+    "venue_location_id": "main",
+    "datetime": "2026-03-21T12:00:00+00:00",
+    "date": "2026-03-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "준디 앤 프렌즈",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jun_D and Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "준디 앤 프렌즈",
+      "description": null
     }
   },
   {
@@ -3366,6 +3438,44 @@
     },
     "_search_ko": {
       "title": "혼토니 스트리트 재즈 오케스트라",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260323_b0467cb0-99b4-4b70-b4f3-c5193022f929",
+    "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-03-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWIgZesEacd/",
+    "venue_handle": "seobs_bar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521",
+    "venue_location_id": "main",
+    "datetime": "2026-03-23T11:00:00+00:00",
+    "date": "2026-03-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "서수진 피아니스트",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Suh Sujin Pianist",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "서수진 피아니스트",
       "description": null
     }
   },
