@@ -4,15 +4,35 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-03-22T05:00:43Z
-- **Source Commit**: [`f101763985192b3c88c174bb38a64bd359f88b07`](https://github.com/keunwoochoi/seoulunderground.live/commit/f101763985192b3c88c174bb38a64bd359f88b07)
+- **Build Time**: 2026-03-22T05:32:06Z
+- **Source Commit**: [`53e4b82869141bd9e9d81e6a9acfd2eebb0c7f38`](https://github.com/keunwoochoi/seoulunderground.live/commit/53e4b82869141bd9e9d81e6a9acfd2eebb0c7f38)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23396085685)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23396538359)
 
 ## Commit Details
 
-- **Author**:  <>
-- **Message**: 
+- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
+- **Message**: fix: export venue tier in static JSON (#120)
+
+* fix: export venue tier field in static JSON
+
+tier was missing from the venues export, causing all venues to default
+to tier 1 in static mode. Tier-3 venues like @gc_jazzpicnic were ranking
+as high as tier-0/1 venues since the frontend sort fell back to event
+count alone.
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+
+* test: verify venue tier is present in export JSON
+
+Regression test: creates tier-0 and tier-3 venues, runs export_venues,
+and asserts both tiers appear correctly in the output JSON.
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>
 
 ## Deployment
 
