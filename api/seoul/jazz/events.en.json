@@ -949,6 +949,44 @@
     }
   },
   {
+    "id": "evt_20260322_3264e3d8-8e5c-4aa4-a66a-96135f950f91",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWLSzzzAR17/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-03-22T11:00:00+00:00",
+    "date": "2026-03-22",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Gwang-yong Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Gwang-yong Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김광용 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260322_7ef5f223-9dad-4944-928b-deba3296d723",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-03-22T11:10:00+00:00",
     "source_url": "https://www.instagram.com/p/DVzkA7_Emcl/",
@@ -1624,6 +1662,42 @@
     },
     "_search_ko": {
       "title": "서수진 피아니스트",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260323_c57a21a2-95c7-42d9-be54-23367562c0e8",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWLVMRbAepq/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [
+      "hodddang"
+    ],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-03-23T11:00:00+00:00",
+    "date": "2026-03-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yu Hojung Jazz Violin Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yu Hojung Jazz Violin Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "유호정 재즈 바이올린 트리오",
       "description": null
     }
   },
