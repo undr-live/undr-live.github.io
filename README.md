@@ -4,15 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-03-22T05:32:06Z
-- **Source Commit**: [`53e4b82869141bd9e9d81e6a9acfd2eebb0c7f38`](https://github.com/keunwoochoi/seoulunderground.live/commit/53e4b82869141bd9e9d81e6a9acfd2eebb0c7f38)
+- **Build Time**: 2026-03-22T05:58:47Z
+- **Source Commit**: [`9af29acdce404bf3f9a0f9fb49953d1699bab339`](https://github.com/keunwoochoi/seoulunderground.live/commit/9af29acdce404bf3f9a0f9fb49953d1699bab339)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23396538359)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23396911473)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix: export venue tier in static JSON (#120)
+- **Message**: fix: duplicate CET, remove germany IG handle, clean Korean copy (#121)
 
 * fix: export venue tier field in static JSON
 
@@ -27,6 +27,15 @@ Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 
 Regression test: creates tier-0 and tier-3 venues, runs export_venues,
 and asserts both tiers appear correctly in the output JSON.
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+
+* fix: remove duplicate CET, drop germany IG handle, clean Korean copy
+
+- CET appeared twice (approxCET() already appends ' CET', call sites
+  were appending it again)
+- Remove @undr.live_germany.jazz from footer (account doesn't exist)
+- Korean welcome: remove '(이하 sul)', replace 'sul' with 'undr.live'
 
 Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 
