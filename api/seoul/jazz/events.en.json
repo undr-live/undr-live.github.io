@@ -451,7 +451,7 @@
   {
     "id": "evt_20260323_c57a21a2-95c7-42d9-be54-23367562c0e8",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-23T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWLVMRbAepq/",
+    "source_url": "https://www.instagram.com/p/DWOL8c0gfJJ/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [
       "6403cff5-0c2f-4ab5-afce-cebbc492b51b"
@@ -475,24 +475,28 @@
     "date": "2026-03-23",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Yu Hojung Jazz Violin Trio",
-    "description": null,
+    "title": "Yu Hojung Violin Jazz Trio",
+    "description": "Experience an intimate evening with the Yu Hojung Violin Jazz Trio, a group known for blending classical virtuosity with soulful jazz improvisation. The performance features a carefully curated setlist spanning two distinct acts, offering a seamless journey through diverse musical landscapes. This event promises a unique atmosphere where the raw emotion of live violin meets the rhythmic complexity of jazz, creating a memorable night for all attendees.",
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yu Hojung Jazz Violin Trio",
-      "description": null
+      "title": "Yu Hojung Violin Jazz Trio",
+      "description": "Experience an intimate evening with the Yu Hojung Violin Jazz Trio, a group known for blending classical virtuosity with soulful jazz improvisation. The performance features a carefully curated setlist spanning two distinct acts, offering a seamless journey through diverse musical landscapes. This event promises a unique atmosphere where the raw emotion of live violin meets the rhythmic complexity of jazz, creating a memorable night for all attendees."
     },
     "_search_ko": {
-      "title": "유호정 재즈 바이올린 트리오",
-      "description": null
+      "title": "유호정 바이올린 재즈 트리오",
+      "description": "Experience an intimate evening with the Yu Hojung Violin Jazz Trio, a group known for blending classical virtuosity with soulful jazz improvisation. The performance features a carefully curated setlist spanning two distinct acts, offering a seamless journey through diverse musical landscapes. This event promises a unique atmosphere where the raw emotion of live violin meets the rhythmic complexity of jazz, creating a memorable night for all attendees."
     }
   },
   {
@@ -1408,6 +1412,44 @@
     }
   },
   {
+    "id": "evt_20260325_96a2974e-038b-42cb-8d44-437b252370c7",
+    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-03-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWOJiXgEl_w/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
+    "venue_location_id": "main",
+    "datetime": "2026-03-25T11:00:00+00:00",
+    "date": "2026-03-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "JU Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "JU Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "JU 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260325_9523a111-7f39-4f3f-bf1a-f4da3f983071",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-03-25T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DVNtIwFD3WP/",
@@ -2003,6 +2045,44 @@
     }
   },
   {
+    "id": "evt_20260326_685abe21-97d6-4d30-8c0f-3ea6fa84f565",
+    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-03-26T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWOKThXEmuz/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
+    "venue_location_id": "main",
+    "datetime": "2026-03-26T11:00:00+00:00",
+    "date": "2026-03-26",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Trio Sublo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Trio Sublo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "트리오 수블로",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260326_e52baaa1-7ef7-4dca-b09d-89f2b675dff8",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-03-26T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DVNtIwFD3WP/",
@@ -2346,6 +2426,35 @@
     },
     "_search_ko": {
       "title": "유도곤 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260326_d0f8daac-c4d0-430f-990e-f0251b05264b",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-03-26T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWN_6U2D-iU/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-03-26T15:00:00+00:00",
+    "date": "2026-03-27",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Mory Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mory Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "모리 트리오",
       "description": null
     }
   },
@@ -3022,6 +3131,44 @@
     }
   },
   {
+    "id": "evt_20260327_617ecc69-dfba-48be-8993-7c6f8e07c245",
+    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-03-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWOK7dzEtpn/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
+    "venue_location_id": "main",
+    "datetime": "2026-03-27T11:00:00+00:00",
+    "date": "2026-03-27",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Jo Woon and Good Friends",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jo Woon and Good Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조운과 좋은 친구들",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260327_7c1149fd-e5e0-4d9f-ac55-5be103d1b9a2",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
@@ -3090,6 +3237,44 @@
     },
     "_search_ko": {
       "title": "김재형 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260327_15d530a0-4bdf-4e27-9c1a-7c23b12f4c8d",
+    "event_key": "v:ven_dda28cb8-70a0-4815-971c-666b82e81609|t:2026-03-27T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWOQt_JjyFe/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dda28cb8-70a0-4815-971c-666b82e81609",
+    "venue_location_id": "main",
+    "datetime": "2026-03-27T11:30:00+00:00",
+    "date": "2026-03-27",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Hyo-jin Soul Avenue",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Hyo-jin Soul Avenue",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김효진 소울 애비뉴",
       "description": null
     }
   },
@@ -8123,7 +8308,7 @@
   {
     "id": "evt_20260430_c5194237-cac1-40ac-8099-65e22012fdb2",
     "event_key": "v:ven_e81e26a2-8cd9-4f60-9a77-ce3c93099910|t:2026-04-30T15:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DV8HwyGCRd_/",
+    "source_url": "https://www.instagram.com/p/DWOJyISCSpo/",
     "venue_handle": "gc_jazzpicnic",
     "musician_ids": [],
     "musicians": [],
@@ -8133,19 +8318,19 @@
     "datetime": "2026-04-30T15:00:00+00:00",
     "date": "2026-05-01",
     "sets": null,
-    "price": null,
+    "price": "무료",
     "llm_confidence": 1.0,
-    "title": "An Shinae Quintet",
+    "title": "Gwacheon Jazz Picnic",
     "description": "Gwacheon Jazz Picnic May 1st Friday lineup.",
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "An Shinae Quintet",
+      "title": "Gwacheon Jazz Picnic",
       "description": "Gwacheon Jazz Picnic May 1st Friday lineup."
     },
     "_search_ko": {
-      "title": "안신애 퀸텟",
+      "title": "과천재즈피크닉",
       "description": "과천재즈피크닉 5월 1일 금요일 라인업."
     }
   },
@@ -8288,7 +8473,7 @@
   {
     "id": "evt_20260501_1fc2166a-3f66-4869-97b9-2cd632e63b7c",
     "event_key": "v:ven_e81e26a2-8cd9-4f60-9a77-ce3c93099910|t:2026-05-01T15:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWBR2-fCavb/",
+    "source_url": "https://www.instagram.com/p/DWOJyISCSpo/",
     "venue_handle": "gc_jazzpicnic",
     "musician_ids": [
       "58197d65-a3c2-4a70-a567-81d86f065f7c",
@@ -8342,19 +8527,19 @@
         "label": "Opening Act"
       }
     ],
-    "price": null,
+    "price": "무료",
     "llm_confidence": 1.0,
-    "title": "Daeho Kim Tough Life",
+    "title": "Gwacheon Jazz Picnic",
     "description": "Gwacheon Jazz Picnic May 2nd Saturday lineup.",
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Daeho Kim Tough Life",
+      "title": "Gwacheon Jazz Picnic",
       "description": "Gwacheon Jazz Picnic May 2nd Saturday lineup."
     },
     "_search_ko": {
-      "title": "김대호 터프 라이프",
+      "title": "과천재즈피크닉",
       "description": "과천재즈피크닉 5월 2일 토요일 라인업."
     }
   },
