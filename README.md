@@ -4,17 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-03-23T05:50:21Z
+- **Build Time**: 2026-03-23T07:09:31Z
 - **Source Commit**: [`c06462e6441f70e4f1e23dcd847c037e0c28056e`](https://github.com/keunwoochoi/seoulunderground.live/commit/c06462e6441f70e4f1e23dcd847c037e0c28056e)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23423374270)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23425560511)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix: remove debug venue count text from map (#128)
-
-Co-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 
