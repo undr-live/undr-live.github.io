@@ -4237,6 +4237,44 @@
     }
   },
   {
+    "id": "evt_20260328_87f39e80-772d-4145-9a12-a937f261eb4a",
+    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-03-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSqJ5EIBx8/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
+    "venue_location_id": "main",
+    "datetime": "2026-03-28T11:00:00+00:00",
+    "date": "2026-03-28",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Haelup & Kim Jae-hyung Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Haelup & Kim Jae-hyung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해일럽 & 김재형 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260328_0dafe8fb-7a46-4cec-8add-356cc8d84621",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-28T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
@@ -5149,6 +5187,44 @@
     }
   },
   {
+    "id": "evt_20260329_6829f593-5753-4162-b9e3-110778bae5da",
+    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-03-29T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSqkg-Et73/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
+    "venue_location_id": "main",
+    "datetime": "2026-03-29T10:00:00+00:00",
+    "date": "2026-03-29",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Loonil's Lounge",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Loonil's Lounge",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "루닐스 라운지",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260329_4d955379-1b12-4f67-b134-f8d68816a07c",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-03-29T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DVhvaExEpM0/",
@@ -5677,7 +5753,7 @@
   {
     "id": "evt_20260329_91e30858-0333-4660-928f-e6beca85be24",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-29T15:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVLLd28kfIZ/",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -5687,7 +5763,7 @@
     "datetime": "2026-03-29T15:00:00+00:00",
     "date": "2026-03-30",
     "sets": null,
-    "price": null,
+    "price": "30,000원",
     "llm_confidence": 1.0,
     "title": "Jazz Park Big Band (Vocal Malo)",
     "description": null,
@@ -5874,6 +5950,35 @@
     },
     "_search_ko": {
       "title": "나현진 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260330_4b196824-1828-406f-a05c-078bde3ef141",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-30T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-30T15:00:00+00:00",
+    "date": "2026-03-31",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Ga-on",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Ga-on",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김가온",
       "description": null
     }
   },
@@ -6159,6 +6264,35 @@
     }
   },
   {
+    "id": "evt_20260331_1424f351-aecc-46ba-a02b-b3c6ecb1fc19",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-31T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-31T15:00:00+00:00",
+    "date": "2026-04-01",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Na Hee-kyung",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Na Hee-kyung",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "나희경",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260401_f24502d1-5d8d-4c4c-a9ff-6f0aa1d3f9ad",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-04-01T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWQzv51keH6/",
@@ -6366,6 +6500,35 @@
     }
   },
   {
+    "id": "evt_20260401_1e683ca7-5289-41d2-aca5-1d493efd521d",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-01T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-01T15:00:00+00:00",
+    "date": "2026-04-02",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Malo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Malo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "말로",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260402_001aff94-b062-4821-9f7a-9ebe0f7ff189",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-04-02T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWQzv51keH6/",
@@ -6535,6 +6698,35 @@
     },
     "_search_ko": {
       "title": "Satsuki Kusui 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260402_07f74020-d5e6-46e9-8e2c-26737f95d162",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-02T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-02T15:00:00+00:00",
+    "date": "2026-04-03",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Charlie Jung Blues Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Charlie Jung Blues Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "찰리정 블루스 밴드",
       "description": null
     }
   },
@@ -6780,6 +6972,35 @@
     },
     "_search_ko": {
       "title": "Satsuki Kusui 쿼텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260403_a09a4588-d94e-411f-8931-1d9b695eaa98",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-03T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-03T15:00:00+00:00",
+    "date": "2026-04-04",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "SAZA Choi Woo-jun (Saxophone Lee In-kwan)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SAZA Choi Woo-jun (Saxophone Lee In-kwan)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "SAZA최우준 (색소폰 이인관)",
       "description": null
     }
   },
@@ -7108,6 +7329,35 @@
     },
     "_search_ko": {
       "title": "비어드앤영블러드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260404_21bca59f-2219-49d2-bad9-b93c50eb077e",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-04T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-04T15:00:00+00:00",
+    "date": "2026-04-05",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jam Day",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jam Day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "잼데이",
       "description": null
     }
   },
