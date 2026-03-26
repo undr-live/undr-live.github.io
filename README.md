@@ -4,27 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-03-26T17:02:39Z
+- **Build Time**: 2026-03-26T18:56:25Z
 - **Source Commit**: [`482aaa8d7ad040c88b13a1553eb9ccb84042ed7e`](https://github.com/keunwoochoi/seoulunderground.live/commit/482aaa8d7ad040c88b13a1553eb9ccb84042ed7e)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23607351049)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23612506622)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix: use ul logo as OG image (#135)
-
-* fix: use ul logo as OG image instead of Instagram logo
-
-Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
-
-* fix: add OG image dimensions, type, and alt text
-
-Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
-
----------
-
-Co-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 
