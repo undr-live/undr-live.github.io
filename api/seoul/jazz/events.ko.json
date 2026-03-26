@@ -175,8 +175,37 @@
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-26T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWT6Hv0k0mN/",
     "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "1b7dbcd8-4717-46f8-80bc-973d87ed702d",
+      "7d5a74b9-e5d7-4438-90d1-c295071b3e4d",
+      "f25f5403-375b-43c7-8d54-0043272ca3be"
+    ],
+    "musicians": [
+      {
+        "id": "1b7dbcd8-4717-46f8-80bc-973d87ed702d",
+        "ig_handle": "pfzombie",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "좀비",
+        "instruments": []
+      },
+      {
+        "id": "7d5a74b9-e5d7-4438-90d1-c295071b3e4d",
+        "ig_handle": "yoo_bohyun",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "유보현",
+        "instruments": []
+      },
+      {
+        "id": "f25f5403-375b-43c7-8d54-0043272ca3be",
+        "ig_handle": "bass__jam",
+        "name_ko": "곽재민",
+        "name_en": "Kamasi Kwak",
+        "name_irl": "곽재민 Kamasi Kwak",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
@@ -897,8 +926,30 @@
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-03-26T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWT6Hv0k0mN/",
     "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "00609e46-cfa3-4d5a-95aa-aecaa419471f",
+      "a7325085-88f0-4e30-98ef-96bc2d61e294"
+    ],
+    "musicians": [
+      {
+        "id": "00609e46-cfa3-4d5a-95aa-aecaa419471f",
+        "ig_handle": "motivekimmusic",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Dong-Gi Kim",
+        "instruments": []
+      },
+      {
+        "id": "a7325085-88f0-4e30-98ef-96bc2d61e294",
+        "ig_handle": "drummingu",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Min-Gu Lee/이민구",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
@@ -1181,8 +1232,21 @@
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-26T15:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWUAGSJAThf/",
     "venue_handle": "yeonnam5701",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "e40a3572-c3db-4cf2-96cb-895714dbaf20"
+    ],
+    "musicians": [
+      {
+        "id": "e40a3572-c3db-4cf2-96cb-895714dbaf20",
+        "ig_handle": "yuntanpiano",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "피아니스트 이영찬 / Jazz Pianist",
+        "instruments": [
+          "piano"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
     "venue_location_id": "main",
