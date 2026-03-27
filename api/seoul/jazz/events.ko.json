@@ -243,17 +243,17 @@
     "sets": null,
     "price": null,
     "llm_confidence": 1.0,
-    "title": "ARB 그리고 이영찬",
+    "title": "ARB",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "ARB and Lee Young-chan",
+      "title": "ARB",
       "description": null
     },
     "_search_ko": {
-      "title": "ARB 그리고 이영찬",
+      "title": "ARB",
       "description": null
     }
   },
@@ -664,7 +664,7 @@
   {
     "id": "evt_20260327_522635fd-ef43-48d6-9800-eb075c397100",
     "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-03-27T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVTUmBCj4Iz/",
+    "source_url": "https://www.instagram.com/p/DWN_6U2D-iU/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
     "musicians": [],
@@ -681,17 +681,17 @@
     ],
     "price": "10,000원",
     "llm_confidence": 1.0,
-    "title": "황지혜 트리오",
+    "title": "모리 트리오",
     "description": "황지혜 트리오의 재즈 공연.",
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hwang Ji-hye Trio",
+      "title": "MORY Trio",
       "description": "Jazz performance by Hwang Ji-hye Trio."
     },
     "_search_ko": {
-      "title": "황지혜 트리오",
+      "title": "모리 트리오",
       "description": "황지혜 트리오의 재즈 공연."
     }
   },
@@ -1237,24 +1237,24 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "허성",
+    "title": "허성 퀸텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Heo Seong",
+      "title": "Heo Seong Quintet",
       "description": null
     },
     "_search_ko": {
-      "title": "허성",
+      "title": "허성 퀸텟",
       "description": null
     }
   },
   {
     "id": "evt_20260327_e57b6b27-8e0e-49eb-af1d-fe162e2ebb08",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-03-27T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVVgQQzk2Ij/",
+    "source_url": "https://www.instagram.com/p/DWWk02FCQlh/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
     "musicians": [],
@@ -1269,7 +1269,7 @@
         "time": "20:00"
       }
     ],
-    "price": "20,000원",
+    "price": "₩20,000",
     "llm_confidence": 1.0,
     "title": "해일럽 밴드",
     "description": null,
@@ -1277,7 +1277,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hailup Band",
+      "title": "Hailluv Band",
       "description": null
     },
     "_search_ko": {
@@ -1288,7 +1288,7 @@
   {
     "id": "evt_20260327_7c1149fd-e5e0-4d9f-ac55-5be103d1b9a2",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-03-27T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DUnP59GD_pN/",
+    "source_url": "https://www.instagram.com/p/DWWhnbuD2dF/",
     "venue_handle": "dido_jazz_lounge",
     "musician_ids": [],
     "musicians": [],
@@ -1305,17 +1305,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Jazz Cat & Friends",
+    "title": "프라이데이 재즈 어페어",
     "description": "Jazz Cat & Friends 공연.",
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jazz Cat & Friends",
+      "title": "Friday Jazz Affair",
       "description": "Performance by Jazz Cat & Friends."
     },
     "_search_ko": {
-      "title": "Jazz Cat & Friends",
+      "title": "프라이데이 재즈 어페어",
       "description": "Jazz Cat & Friends 공연."
     }
   },
@@ -1518,6 +1518,40 @@
     },
     "_search_ko": {
       "title": "윤성희 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260327_1fc07652-123a-4fde-b59c-32975215e50a",
+    "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-03-27T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWOZZ_2D9Hr/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
+    "venue_location_id": "main",
+    "datetime": "2026-03-27T11:30:00+00:00",
+    "date": "2026-03-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "유도곤 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yu Dogon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "유도곤 퀄텟",
       "description": null
     }
   },
@@ -4992,6 +5026,40 @@
     }
   },
   {
+    "id": "evt_20260330_f835bd46-996c-4d06-b302-4953847557cb",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-30T11:00:00+00:00",
+    "date": "2026-03-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "30,000원",
+    "llm_confidence": 1.0,
+    "title": "재즈파크 빅밴드 (보컬 말로)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jazz Park Big Band (Vocal Malo)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "재즈파크 빅밴드 (보컬 말로)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260330_4b196824-1828-406f-a05c-078bde3ef141",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-30T15:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
@@ -5240,6 +5308,40 @@
     },
     "_search_ko": {
       "title": "최선배 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260331_b88df08d-5784-4b58-85d5-6ae9d1e414a0",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-03-31T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-03-31T11:00:00+00:00",
+    "date": "2026-03-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김가온 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Ga-on Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김가온 퀄텟",
       "description": null
     }
   },
@@ -5509,6 +5611,40 @@
     }
   },
   {
+    "id": "evt_20260401_3fe1c223-d34b-4aa0-814c-565ef3044670",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-01T11:00:00+00:00",
+    "date": "2026-04-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "나희경 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Na Hee-kyung Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "나희경 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260401_990f8824-e085-4587-87c5-dbe071133cfc",
     "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-04-01T15:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DV8ly34AeRr/",
@@ -5687,6 +5823,40 @@
     },
     "_search_ko": {
       "title": "n!",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260402_f031cd94-89bd-46e9-9322-cae78795d4e2",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-02T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-02T11:00:00+00:00",
+    "date": "2026-04-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "말로 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Malo Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "말로 밴드",
       "description": null
     }
   },
@@ -5958,6 +6128,40 @@
     },
     "_search_ko": {
       "title": "정성재 트리오 (보컬 허원무)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260403_cc470773-2788-4b25-9ddc-41c44e0cfec9",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-03T11:00:00+00:00",
+    "date": "2026-04-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "찰리정 블루스 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Charlie Jung Blues Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "찰리정 블루스 밴드",
       "description": null
     }
   },
@@ -6419,6 +6623,40 @@
     }
   },
   {
+    "id": "evt_20260404_1a2d2c66-4834-4dca-ae6d-fd07a8365f99",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-04T11:00:00+00:00",
+    "date": "2026-04-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "사자 밴드 언플러그드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SAZA Band Unplugged",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "사자 밴드 언플러그드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260404_b7f6c9eb-17a9-4fd5-8d6d-976e696880fa",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-04-04T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWQzv51keH6/",
@@ -6691,6 +6929,40 @@
     },
     "_search_ko": {
       "title": "어센틱블루",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260405_7a6842af-536c-4a82-bbe7-c1569c9f0044",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-05T11:00:00+00:00",
+    "date": "2026-04-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "잼데이",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jam Day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "잼데이",
       "description": null
     }
   },
@@ -7566,6 +7838,40 @@
     },
     "_search_ko": {
       "title": "김기범 사운드독 포 데이즈",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260414_017aff72-1993-4923-8119-e1777935fa27",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWTCm4TACuI/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-14T11:00:00+00:00",
+    "date": "2026-04-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "50,000원",
+    "llm_confidence": 1.0,
+    "title": "치에 아야도 솔로 콘서트",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Chie Ayado Solo Concert",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "치에 아야도 솔로 콘서트",
       "description": null
     }
   },
