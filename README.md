@@ -4,15 +4,36 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-03-27T17:56:37Z
-- **Source Commit**: [`a29aa999c8fd59f175fff65c7a2cbff5f84a0452`](https://github.com/keunwoochoi/seoulunderground.live/commit/a29aa999c8fd59f175fff65c7a2cbff5f84a0452)
+- **Build Time**: 2026-03-27T20:37:10Z
+- **Source Commit**: [`11ce757501e34c035c427ca9b68f0ec8d0f744bb`](https://github.com/keunwoochoi/seoulunderground.live/commit/11ce757501e34c035c427ca9b68f0ec8d0f744bb)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23660181060)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/23666387425)
 
 ## Commit Details
 
-- **Author**:  <>
-- **Message**: 
+- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
+- **Message**: fix: switch map to CartoDB Voyager for all languages (#143)
+
+* fix: switch map to CartoDB Voyager for all languages
+
+Replaces noisy OSM standard tiles (used for Korean) with CartoDB Voyager
+across all languages. Voyager shows Seoul subway lines natively, has
+Korean labels, and is visually much cleaner. Map no longer reinitializes
+on language switch since tiles are now language-independent.
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+
+* feat: add Naver map + website links to venue map popup
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+
+* fix: update stale comments in VenueMap after tile unification
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>
 
 ## Deployment
 
