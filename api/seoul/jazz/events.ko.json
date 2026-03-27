@@ -1020,7 +1020,7 @@
   {
     "id": "evt_20260327_1ff7b386-3c21-4bce-b607-2a4672cf79ef",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-27T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWVYkohgX3D/",
+    "source_url": "https://www.instagram.com/p/DWYHXRQgbmU/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -1031,23 +1031,27 @@
     "date": "2026-03-27",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "ARB",
+    "title": "ARB + 이영찬",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "ARB",
+      "title": "ARB + Lee Young-chan",
       "description": null
     },
     "_search_ko": {
-      "title": "ARB",
+      "title": "ARB + 이영찬",
       "description": null
     }
   },
@@ -1650,7 +1654,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Han Soon-wook Quintet",
+      "title": "Han Sun-wook Quintet",
       "description": null
     },
     "_search_ko": {
@@ -5465,7 +5469,7 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Catharsis",
+    "title": "카타르시스",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -5475,7 +5479,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "Catharsis",
+      "title": "카타르시스",
       "description": null
     }
   },
@@ -7315,17 +7319,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "김희준 편집장 초청: 블루노트 특별 토크 & 청음",
+    "title": "블루노트 컬렉션 특별 토크 & 청음 프로그램: 김희준 편집장",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Special Talk & Listening on Blue Note with Editor Kim Hee-jun",
+      "title": "Blue Note Collection Special Talk & Listening Program with Editor-in-Chief Kim Hee-joon",
       "description": null
     },
     "_search_ko": {
-      "title": "김희준 편집장 초청: 블루노트 특별 토크 & 청음",
+      "title": "블루노트 컬렉션 특별 토크 & 청음 프로그램: 김희준 편집장",
       "description": null
     }
   },
