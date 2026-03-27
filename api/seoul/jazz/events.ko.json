@@ -285,7 +285,7 @@
   {
     "id": "evt_20260327_c7bf0c3b-9510-4781-8bc2-c22e93d223ad",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-03-27T10:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVhvaExEpM0/",
+    "source_url": "https://www.instagram.com/p/DWYrBpSApfd/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [
       "0aa61553-87e4-47b9-be51-79fd3cb8f298"
@@ -311,6 +311,10 @@
       {
         "label": null,
         "time": "19:40"
+      },
+      {
+        "label": null,
+        "time": "21:00"
       }
     ],
     "price": "11,000원",
@@ -2239,7 +2243,7 @@
   {
     "id": "evt_20260328_e9d78c81-da0f-42d1-95af-5351b7f2858a",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-03-28T10:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVhvaExEpM0/",
+    "source_url": "https://www.instagram.com/p/DWYm0HLFHTN/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [
       "0cc8d1cf-061c-4305-9be7-fc6b46684725",
@@ -2276,11 +2280,15 @@
       {
         "label": null,
         "time": "19:40"
+      },
+      {
+        "label": null,
+        "time": "21:00"
       }
     ],
     "price": "11,000원",
     "llm_confidence": 1.0,
-    "title": "리마 재즈밴드",
+    "title": "리마재즈밴드",
     "description": "리마 재즈밴드 공연. 윤정환 (피아노), 안원석 (베이스), 리마 (보컬) @vocal_lima_.",
     "ticket_link": null,
     "age_limit": null,
@@ -2290,7 +2298,7 @@
       "description": "Performance by Lima Jazz Band. Yoon Jeong-hwan (piano), Ahn Won-seok (bass), Lima (vocal) @vocal_lima_."
     },
     "_search_ko": {
-      "title": "리마 재즈밴드",
+      "title": "리마재즈밴드",
       "description": "리마 재즈밴드 공연. 윤정환 (피아노), 안원석 (베이스), 리마 (보컬) @vocal_lima_."
     }
   },
@@ -2860,7 +2868,7 @@
   {
     "id": "evt_20260328_6bd3314d-be2b-41c3-8300-742735f67773",
     "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-03-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWRpgaokxKM/",
+    "source_url": "https://www.instagram.com/p/DWYsUVhE-Zr/",
     "venue_handle": "yellow___taxi",
     "musician_ids": [],
     "musicians": [],
@@ -2877,17 +2885,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "박지용 트리오 (보컬 강선아)",
+    "title": "박지용 트리오 (feat. 강선아)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Park Jiyong Trio (feat. Kang Seona)",
+      "title": "Park Jiyong Trio (feat. Kang Seon-ah)",
       "description": null
     },
     "_search_ko": {
-      "title": "박지용 트리오 (보컬 강선아)",
+      "title": "박지용 트리오 (feat. 강선아)",
       "description": null
     }
   },
@@ -3068,7 +3076,7 @@
   {
     "id": "evt_20260328_cc96e57e-a26f-4ea5-bb46-a3838556cecd",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWJOs-aAVsd/",
+    "source_url": "https://www.instagram.com/p/DWYj624gZF0/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -3085,17 +3093,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "맹서령 퀄텟",
+    "title": "맹서령 퀄텟 (바이올린 유호정)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Maeng Seo-ryeong Quartet",
+      "title": "Maeng Seoryeong Quartet (Violin Yoo Hojung)",
       "description": null
     },
     "_search_ko": {
-      "title": "맹서령 퀄텟",
+      "title": "맹서령 퀄텟 (바이올린 유호정)",
       "description": null
     }
   },
@@ -3434,6 +3442,44 @@
     "_search_ko": {
       "title": "Young 트리오 x 채원",
       "description": "Young 트리오와 채원의 콜라보 공연."
+    }
+  },
+  {
+    "id": "evt_20260328_c1ac4237-4c2e-4ea8-8713-c90aef7adadf",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-03-28T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWYmGBYgcT5/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-03-28T12:00:00+00:00",
+    "date": "2026-03-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "털보와 젊은피들",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Beard and Young Bloods",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "털보와 젊은피들",
+      "description": null
     }
   },
   {
@@ -4215,7 +4261,7 @@
   {
     "id": "evt_20260329_4d955379-1b12-4f67-b134-f8d68816a07c",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-03-29T10:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DVhvaExEpM0/",
+    "source_url": "https://www.instagram.com/p/DWYm0HLFHTN/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [
       "512850a3-d246-4bf8-9ea1-5c491b03d211"
@@ -4241,6 +4287,10 @@
       {
         "label": null,
         "time": "19:40"
+      },
+      {
+        "label": null,
+        "time": "21:00"
       }
     ],
     "price": "11,000원",
