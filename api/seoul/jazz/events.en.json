@@ -1922,6 +1922,40 @@
     }
   },
   {
+    "id": "evt_20260328_b4378486-a415-40ff-9c02-07f6eec7e3ca",
+    "event_key": "v:ven_662b7498-a756-4961-ad84-baef6d59ae0a|t:2026-03-28T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWbGp73E_KE/",
+    "venue_handle": "seoul.society.club",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_662b7498-a756-4961-ad84-baef6d59ae0a",
+    "venue_location_id": "main",
+    "datetime": "2026-03-28T12:00:00+00:00",
+    "date": "2026-03-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hohyun Yang & Jihoo Kim Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hohyun Yang & Jihoo Kim Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "양호현 & 김지후 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260328_8ea22ce7-ff3f-491e-ae6e-9b4f496bf680",
     "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-03-28T12:25:00+00:00",
     "source_url": "https://www.instagram.com/p/DWN12_IEQFp/",
@@ -3090,6 +3124,40 @@
     },
     "_search_ko": {
       "title": "잼데이",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260329_a4b2326c-9eef-4e30-933a-9313326214ae",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-03-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWa0KW4AapM/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-03-29T11:00:00+00:00",
+    "date": "2026-03-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Hong-gi Latin Project",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Hong-gi Latin Project",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김홍기 라틴 프로젝트",
       "description": null
     }
   },
