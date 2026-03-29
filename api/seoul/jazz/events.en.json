@@ -1,5 +1,34 @@
 [
   {
+    "id": "evt_20260328_0f1c051e-6abf-4286-977b-dfcb3a7fc81a",
+    "event_key": "v:ven_339823bb-c0ab-4c56-8600-00f120bb9800|t:2026-03-28T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWeKTpyiS5T/",
+    "venue_handle": "idenhouseinsta",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_339823bb-c0ab-4c56-8600-00f120bb9800",
+    "venue_location_id": "main",
+    "datetime": "2026-03-28T15:00:00+00:00",
+    "date": "2026-03-29",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jo Seong-je Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jo Seong-je Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조성제 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260329_02f58c3e-2613-4c48-846e-d900ba2aea3b",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-03-29T07:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWV3IxfmFJq/",
@@ -2825,7 +2854,7 @@
   {
     "id": "evt_20260403_6735d574-cce7-4269-a95f-971cfa9d1570",
     "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-04-03T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWdOrEcjxEj/",
+    "source_url": "https://www.instagram.com/p/DWd8Ospj8x2/",
     "venue_handle": "cafe_minor_swing",
     "musician_ids": [],
     "musicians": [],
@@ -2852,7 +2881,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "조운과 좋은 친구들",
+      "title": "조운과 좋은친구들",
       "description": null
     }
   },
@@ -3505,7 +3534,7 @@
   {
     "id": "evt_20260404_8e6c8eed-e676-474a-a0d0-0a8affeb3613",
     "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-04-04T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWdOTk1j7Po/",
+    "source_url": "https://www.instagram.com/p/DWd8Ospj8x2/",
     "venue_handle": "cafe_minor_swing",
     "musician_ids": [],
     "musicians": [],
@@ -3522,13 +3551,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Cho Hae-in Quintet",
+    "title": "Jo Hae-in Quintet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Cho Hae-in Quintet",
+      "title": "Jo Hae-in Quintet",
       "description": null
     },
     "_search_ko": {
@@ -4621,7 +4650,7 @@
   {
     "id": "evt_20260410_3a701e10-6783-478a-931f-ad2babef482d",
     "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-04-10T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DV8SQKRD3QZ/",
+    "source_url": "https://www.instagram.com/p/DWd8Ospj8x2/",
     "venue_handle": "cafe_minor_swing",
     "musician_ids": [],
     "musicians": [],
@@ -4638,17 +4667,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Lee Miyoung Super Trio",
+    "title": "Lee Mi-young SUPER Trio",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Miyoung Super Trio",
+      "title": "Lee Mi-young SUPER Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "이미영 슈퍼 트리오",
+      "title": "이미영 SUPER 트리오",
       "description": null
     }
   },
@@ -5165,6 +5194,40 @@
     },
     "_search_ko": {
       "title": "리치맨 & 그루브 나이스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260411_e22b3234-ee84-41e8-8569-3a4caab3fafa",
+    "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-04-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWd8Ospj8x2/",
+    "venue_handle": "cafe_minor_swing",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1655af5a-ea12-47f6-8d39-eb30735e8b48",
+    "venue_location_id": "main",
+    "datetime": "2026-04-11T11:00:00+00:00",
+    "date": "2026-04-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Dae-gyeong Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Dae-gyeong Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김대경 트리오",
       "description": null
     }
   },
@@ -6031,6 +6094,40 @@
     }
   },
   {
+    "id": "evt_20260417_c18a56c6-2cba-4653-bb80-8565b6c4a314",
+    "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-04-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWd8Ospj8x2/",
+    "venue_handle": "cafe_minor_swing",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1655af5a-ea12-47f6-8d39-eb30735e8b48",
+    "venue_location_id": "main",
+    "datetime": "2026-04-17T11:00:00+00:00",
+    "date": "2026-04-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ryu Bok-seong Jazz All-Stars",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ryu Bok-seong Jazz All-Stars",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "류복성 재즈 올스타즈",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260417_d02d273d-dcea-4999-a9e3-28cfa6b4bad2",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-04-17T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWG6kcaj0Mk/",
@@ -6334,6 +6431,40 @@
     },
     "_search_ko": {
       "title": "원성진 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260418_83bf862f-cb06-4595-b60b-47ce7f325289",
+    "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-04-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWd8Ospj8x2/",
+    "venue_handle": "cafe_minor_swing",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1655af5a-ea12-47f6-8d39-eb30735e8b48",
+    "venue_location_id": "main",
+    "datetime": "2026-04-18T11:00:00+00:00",
+    "date": "2026-04-18",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Damon Brown's Paris-London-Seoul Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Damon Brown's Paris-London-Seoul Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "데몬 브라운 파리-런던-서울 퀄텟",
       "description": null
     }
   },
@@ -6995,6 +7126,40 @@
     }
   },
   {
+    "id": "evt_20260424_3cb27c0e-e485-462a-b1d3-b67e9badfba8",
+    "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-04-24T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWd8Ospj8x2/",
+    "venue_handle": "cafe_minor_swing",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1655af5a-ea12-47f6-8d39-eb30735e8b48",
+    "venue_location_id": "main",
+    "datetime": "2026-04-24T11:00:00+00:00",
+    "date": "2026-04-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Ju-mi Jazz Palette",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Ju-mi Jazz Palette",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이주미 재즈 팔레트",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260424_75bb4150-7c43-46fd-878b-92879901e9fe",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-04-24T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWG6kcaj0Mk/",
@@ -7331,6 +7496,40 @@
     },
     "_search_ko": {
       "title": "빈엘/비늘",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260425_1c19d6b6-ec1f-48e2-8ef9-359f6566e6aa",
+    "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-04-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWd8Ospj8x2/",
+    "venue_handle": "cafe_minor_swing",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1655af5a-ea12-47f6-8d39-eb30735e8b48",
+    "venue_location_id": "main",
+    "datetime": "2026-04-25T11:00:00+00:00",
+    "date": "2026-04-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Cham-chi Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Cham-chi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김참치 트리오",
       "description": null
     }
   },
