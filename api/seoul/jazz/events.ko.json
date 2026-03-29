@@ -766,7 +766,7 @@
   {
     "id": "evt_20260329_ed3de161-732d-486a-bd5a-8a2ccf08ca58",
     "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-03-29T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWLf-tCiUiC/",
+    "source_url": "https://www.instagram.com/p/DWc9jwhiZVP/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
     "musicians": [],
@@ -779,25 +779,21 @@
       {
         "label": null,
         "time": "20:00"
-      },
-      {
-        "label": null,
-        "time": "22:00"
       }
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "오동규 퀄텟",
+    "title": "정성재 퀄텟 v. 현용선",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Oh Dong-gyu Quartet",
+      "title": "Jung Sung-jae Quartet v. Hyun Yong-sun",
       "description": null
     },
     "_search_ko": {
-      "title": "오동규 퀄텟",
+      "title": "정성재 퀄텟 v. 현용선",
       "description": null
     }
   },
@@ -1601,7 +1597,7 @@
   {
     "id": "evt_20260330_801b1e33-a6a1-4b8c-921f-5d928a9ec0f2",
     "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-03-30T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWLf-tCiUiC/",
+    "source_url": "https://www.instagram.com/p/DWc9jwhiZVP/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
     "musicians": [],
@@ -1618,17 +1614,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "강인구 퀄텟",
+    "title": "김광용 트리오 + 2 v.",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kang In-gu Quartet",
+      "title": "Kim Kwang-yong Trio + 2 v.",
       "description": null
     },
     "_search_ko": {
-      "title": "강인구 퀄텟",
+      "title": "김광용 트리오 + 2 v.",
       "description": null
     }
   },
@@ -1896,7 +1892,7 @@
   {
     "id": "evt_20260331_c83d23d6-346b-42d7-84ea-2403c6493e30",
     "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-03-31T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWLf-tCiUiC/",
+    "source_url": "https://www.instagram.com/p/DWc9jwhiZVP/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
     "musicians": [],
@@ -1913,17 +1909,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "최선배 퀄텟",
+    "title": "이수경 퀄텟 v. 이수경",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Choi Sun-bae Quartet",
+      "title": "Lee Su-kyung Quartet v. Lee Su-kyung",
       "description": null
     },
     "_search_ko": {
-      "title": "최선배 퀄텟",
+      "title": "이수경 퀄텟 v. 이수경",
       "description": null
     }
   },
@@ -2289,6 +2285,40 @@
     }
   },
   {
+    "id": "evt_20260401_4e5163c2-59d2-4e4e-a79f-48e7ae863f0b",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-04-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWc9jwhiZVP/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-04-01T11:00:00+00:00",
+    "date": "2026-04-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "전영세 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jeon Young-se Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "전영세 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260402_001aff94-b062-4821-9f7a-9ebe0f7ff189",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-04-02T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWQzv51keH6/",
@@ -2558,6 +2588,40 @@
     },
     "_search_ko": {
       "title": "하리메이트",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260402_5f1e9d15-0849-41cb-a09d-c0bd88345ac0",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-04-02T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWc9jwhiZVP/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-04-02T11:00:00+00:00",
+    "date": "2026-04-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 펑크 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Funk Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 펑크 밴드",
       "description": null
     }
   },
@@ -2952,6 +3016,40 @@
     },
     "_search_ko": {
       "title": "미건",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260403_7bc9fc6c-091f-4814-bc9a-0b0a04d7c612",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-04-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWc9jwhiZVP/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-04-03T11:00:00+00:00",
+    "date": "2026-04-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "박재홍 블루스 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Jae-hong Blues Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박재홍 블루스 밴드",
       "description": null
     }
   },
@@ -3575,6 +3673,40 @@
     },
     "_search_ko": {
       "title": "김한 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260404_d0df98b0-e0cb-4399-a00e-99d9279898aa",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-04-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWc9jwhiZVP/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-04-04T11:00:00+00:00",
+    "date": "2026-04-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 펑크 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Funk Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 펑크 밴드",
       "description": null
     }
   },
