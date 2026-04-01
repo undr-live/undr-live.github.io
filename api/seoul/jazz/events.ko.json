@@ -4167,6 +4167,44 @@
     }
   },
   {
+    "id": "evt_20260404_d0bb0035-af5e-4804-8fb7-5dcf6cbb5764",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-04-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWkGisvk7FU/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-04-04T11:00:00+00:00",
+    "date": "2026-04-04",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "8,000원",
+    "llm_confidence": 1.0,
+    "title": "김한울 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hanwool Kim Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김한울 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260404_1431dc63-ef64-4d1e-9978-259679e40b56",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-04-04T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWG6kcaj0Mk/",
@@ -11044,6 +11082,40 @@
     },
     "_search_ko": {
       "title": "김지후 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260425_91961c99-839e-4058-9f6d-6f1a41909934",
+    "event_key": "v:ven_afc57e46-2933-4f92-8d8a-551c0ab86ddb|t:2026-04-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWk0woFkacL/",
+    "venue_handle": "cafe_gig",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_afc57e46-2933-4f92-8d8a-551c0ab86ddb",
+    "venue_location_id": "main",
+    "datetime": "2026-04-25T11:00:00+00:00",
+    "date": "2026-04-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "종로 블라인드 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jongno Blind Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "종로 블라인드 밴드",
       "description": null
     }
   },
