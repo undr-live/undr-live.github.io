@@ -924,7 +924,7 @@
   {
     "id": "evt_20260402_5de613b5-98cf-4a47-a4e8-33be3e90fa81",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-04-02T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWfJYU1ksTB/",
+    "source_url": "https://www.instagram.com/p/DWlq_D1kkwn/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musicians": [],
@@ -9438,6 +9438,40 @@
     },
     "_search_ko": {
       "title": "김필수 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260419_ec5300ee-0284-4063-a723-b27ddd6aee81",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-19T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWlv0TyE6Rs/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-04-19T10:00:00+00:00",
+    "date": "2026-04-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "40,000원",
+    "llm_confidence": 1.0,
+    "title": "Jung Mi-jo Special Performance",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jung Mi-jo Special Performance",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "정미조 특별 공연",
       "description": null
     }
   },
