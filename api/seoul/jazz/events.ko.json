@@ -38,8 +38,42 @@
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-04-01T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWjd3xWk97U/",
     "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "15d01770-b6ec-4811-9334-abd28949dec0",
+      "d15c8fc5-ca4d-488e-8ddd-64a4b9a39ecd",
+      "dd41578a-dce5-486d-8282-a907fb908714"
+    ],
+    "musicians": [
+      {
+        "id": "15d01770-b6ec-4811-9334-abd28949dec0",
+        "ig_handle": "hot_jazz_moon",
+        "name_ko": "김경문",
+        "name_en": "KyeongMoon Kim",
+        "name_irl": "KyeongMoon Kim",
+        "instruments": [
+          "guitar"
+        ]
+      },
+      {
+        "id": "d15c8fc5-ca4d-488e-8ddd-64a4b9a39ecd",
+        "ig_handle": "ye_vans",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "양예본 Yebon Yang",
+        "instruments": [
+          "piano",
+          "keyboard"
+        ]
+      },
+      {
+        "id": "dd41578a-dce5-486d-8282-a907fb908714",
+        "ig_handle": "kyu_patitucci",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "서규성",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
@@ -843,8 +877,19 @@
     "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-04-02T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWizJCmAQD2/",
     "venue_handle": "_jam_lounge",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "3413c034-9598-4bed-be6e-d1700162b25e"
+    ],
+    "musicians": [
+      {
+        "id": "3413c034-9598-4bed-be6e-d1700162b25e",
+        "ig_handle": "byungjobang",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Byungjo Bang",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
     "venue_location_id": "main",
@@ -1378,8 +1423,21 @@
     "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-04-02T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWjNa9hAdUb/",
     "venue_handle": "houseofblue.seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "a7ff886a-1dcf-41dd-84ae-749b65a23a9d"
+    ],
+    "musicians": [
+      {
+        "id": "a7ff886a-1dcf-41dd-84ae-749b65a23a9d",
+        "ig_handle": "headeunb3",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Headeun Choi",
+        "instruments": [
+          "keyboard"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
     "venue_location_id": "main",
@@ -1487,8 +1545,48 @@
     "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-04-02T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWh7ixJEgRm/",
     "venue_handle": "michiko.seoul_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "0bece4cf-7134-490e-9bce-98314adc8853",
+      "2daf4785-0de4-4cd2-84d9-deba7fc2627e",
+      "8d6b9cac-5bd1-4d34-aed7-93d431382a24",
+      "a3e1247c-2348-4dbf-8e43-9ef8cf5d1613"
+    ],
+    "musicians": [
+      {
+        "id": "0bece4cf-7134-490e-9bce-98314adc8853",
+        "ig_handle": "2junebbang2",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이준영",
+        "instruments": []
+      },
+      {
+        "id": "2daf4785-0de4-4cd2-84d9-deba7fc2627e",
+        "ig_handle": "emmet_709",
+        "name_ko": "최은규",
+        "name_en": null,
+        "name_irl": "Choi Eun Gyu",
+        "instruments": []
+      },
+      {
+        "id": "8d6b9cac-5bd1-4d34-aed7-93d431382a24",
+        "ig_handle": "lester_yoo",
+        "name_ko": "유택언",
+        "name_en": null,
+        "name_irl": "유택언",
+        "instruments": [
+          "saxophone"
+        ]
+      },
+      {
+        "id": "a3e1247c-2348-4dbf-8e43-9ef8cf5d1613",
+        "ig_handle": "gyoungdun",
+        "name_ko": "경던",
+        "name_en": null,
+        "name_irl": "김경태 | 경던",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
     "venue_location_id": "main",
@@ -2410,8 +2508,39 @@
     "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-04-03T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWkFa2akyP3/",
     "venue_handle": "jazzlounge_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "274ab26d-0c6a-4433-9f76-82ba6da8d812",
+      "437a5add-34c0-4d68-bb08-959f5262fb32",
+      "6318aee2-dde5-4bcf-b157-1b0fbd086796"
+    ],
+    "musicians": [
+      {
+        "id": "274ab26d-0c6a-4433-9f76-82ba6da8d812",
+        "ig_handle": "colinkim.music",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Colin Kim | 콜린킴",
+        "instruments": [
+          "guitar"
+        ]
+      },
+      {
+        "id": "437a5add-34c0-4d68-bb08-959f5262fb32",
+        "ig_handle": "ccc_chambers",
+        "name_ko": "최민호",
+        "name_en": null,
+        "name_irl": "최민호",
+        "instruments": []
+      },
+      {
+        "id": "6318aee2-dde5-4bcf-b157-1b0fbd086796",
+        "ig_handle": "basaemroh",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Basaem Roh",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
     "venue_location_id": "main",
@@ -2482,8 +2611,19 @@
     "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-04-03T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWizqu4D7vC/",
     "venue_handle": "blueming_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "fbd0ea75-089d-483c-9ecc-c1dd9595eb32"
+    ],
+    "musicians": [
+      {
+        "id": "fbd0ea75-089d-483c-9ecc-c1dd9595eb32",
+        "ig_handle": "_summerforest",
+        "name_ko": "이하림",
+        "name_en": "Lee Harim",
+        "name_irl": "이하림 𝓵𝓮𝓮 𝓱𝓪𝓻𝓲𝓶 / 𝓿𝓲𝓸𝓵𝓲𝓷𝓲𝓼𝓽",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
     "venue_location_id": "main",
@@ -2636,8 +2776,56 @@
     "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-04-03T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWh8fszAhVV/",
     "venue_handle": "michiko.seoul_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "2ecd2eb0-da09-4114-bcb6-7c9337cf86fb",
+      "7d12fe62-5e05-4c9f-8d99-0a44d5bafbd1",
+      "be88dbf2-2aae-437a-a493-febac53fce09",
+      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b"
+    ],
+    "musicians": [
+      {
+        "id": "2ecd2eb0-da09-4114-bcb6-7c9337cf86fb",
+        "ig_handle": "dokakimp",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김덕화",
+        "instruments": [
+          "piano",
+          "keyboard"
+        ]
+      },
+      {
+        "id": "7d12fe62-5e05-4c9f-8d99-0a44d5bafbd1",
+        "ig_handle": "rachelpark_sings",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "AhYoung Rachel Park",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "be88dbf2-2aae-437a-a493-febac53fce09",
+        "ig_handle": "nokrbass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "노광래",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+        "ig_handle": "__suno_kim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김선호",
+        "instruments": [
+          "drums",
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
     "venue_location_id": "main",
@@ -3931,8 +4119,22 @@
     "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-04-04T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWjNa9hAdUb/",
     "venue_handle": "houseofblue.seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "d9458e88-0808-49ee-ac05-dc799b68a7f0"
+    ],
+    "musicians": [
+      {
+        "id": "d9458e88-0808-49ee-ac05-dc799b68a7f0",
+        "ig_handle": "jazzcats_sanga",
+        "name_ko": "박상아",
+        "name_en": null,
+        "name_irl": "트럼펫 박상아🎺",
+        "instruments": [
+          "trumpet",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
     "venue_location_id": "main",
@@ -4003,8 +4205,51 @@
     "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-04-04T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWizxHFD-M_/",
     "venue_handle": "blueming_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "0c906110-7a93-4dbc-942a-99eed18e7199",
+      "0f98dd7c-7f09-489b-9a33-233acad2354d",
+      "7ab21601-deb8-4329-bb08-a809033f7861",
+      "a7325085-88f0-4e30-98ef-96bc2d61e294"
+    ],
+    "musicians": [
+      {
+        "id": "0c906110-7a93-4dbc-942a-99eed18e7199",
+        "ig_handle": "eeunhyun",
+        "name_ko": "김은현",
+        "name_en": "Eunhyun",
+        "name_irl": "Eunhyun",
+        "instruments": []
+      },
+      {
+        "id": "0f98dd7c-7f09-489b-9a33-233acad2354d",
+        "ig_handle": "r_im0902",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김예림",
+        "instruments": []
+      },
+      {
+        "id": "7ab21601-deb8-4329-bb08-a809033f7861",
+        "ig_handle": "20_more_bass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정이령",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      },
+      {
+        "id": "a7325085-88f0-4e30-98ef-96bc2d61e294",
+        "ig_handle": "drummingu",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Min-Gu Lee/이민구",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
     "venue_location_id": "main",
@@ -4109,8 +4354,32 @@
     "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-04-04T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWh9MGHgtU7/",
     "venue_handle": "michiko.seoul_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "addc9725-ff1e-42c7-9dcb-0c26ebc11f39",
+      "c56d3e93-f6d7-4f0c-94a0-abe04496cf27"
+    ],
+    "musicians": [
+      {
+        "id": "addc9725-ff1e-42c7-9dcb-0c26ebc11f39",
+        "ig_handle": "hong_vocalist",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍주혜",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "c56d3e93-f6d7-4f0c-94a0-abe04496cf27",
+        "ig_handle": "bassist_mintaekim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김태민",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
     "venue_location_id": "main",
@@ -4648,8 +4917,48 @@
     "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-04-05T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiy0b0EUtr/",
     "venue_handle": "oleojazzpub",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "68ba4753-be48-4292-ac08-e9bebe852288",
+      "960ff8a9-7ac6-43b7-8e56-cbf48bc4542f",
+      "9781bcd2-0295-4406-be99-3fe6f02fa898",
+      "dd7af52d-ac5f-4347-9b49-b68acf3a11ba"
+    ],
+    "musicians": [
+      {
+        "id": "68ba4753-be48-4292-ac08-e9bebe852288",
+        "ig_handle": "brownbeatj",
+        "name_ko": "김정우",
+        "name_en": "Jeongwoo Kim",
+        "name_irl": "김정우 Jeongwoo Kim",
+        "instruments": []
+      },
+      {
+        "id": "960ff8a9-7ac6-43b7-8e56-cbf48bc4542f",
+        "ig_handle": "troychunmusic",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "토리춘",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "9781bcd2-0295-4406-be99-3fe6f02fa898",
+        "ig_handle": "jihoonkimz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jihoon Kim",
+        "instruments": []
+      },
+      {
+        "id": "dd7af52d-ac5f-4347-9b49-b68acf3a11ba",
+        "ig_handle": "taekukbop",
+        "name_ko": "김태국",
+        "name_en": "Taekuk Kim",
+        "name_irl": "김태국",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
     "venue_location_id": "main",
@@ -4837,8 +5146,21 @@
     "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-04-05T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWjNa9hAdUb/",
     "venue_handle": "houseofblue.seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "b5523d42-4cd1-4ad5-9b18-e47ef658d5f4"
+    ],
+    "musicians": [
+      {
+        "id": "b5523d42-4cd1-4ad5-9b18-e47ef658d5f4",
+        "ig_handle": "vocal_lima_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "리마",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
     "venue_location_id": "main",
@@ -4909,8 +5231,44 @@
     "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-04-05T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiWRKkAqqd/",
     "venue_handle": "michiko.seoul_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "86df6635-9c2b-4848-aff5-ff7f48e77f37",
+      "9430ef57-7a5d-456e-b748-53a1e11ff55c",
+      "d15c8fc5-ca4d-488e-8ddd-64a4b9a39ecd"
+    ],
+    "musicians": [
+      {
+        "id": "86df6635-9c2b-4848-aff5-ff7f48e77f37",
+        "ig_handle": "no_racket_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "안이채",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "9430ef57-7a5d-456e-b748-53a1e11ff55c",
+        "ig_handle": "min_suuuuuuu8",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "No.민수",
+        "instruments": [
+          "guitar"
+        ]
+      },
+      {
+        "id": "d15c8fc5-ca4d-488e-8ddd-64a4b9a39ecd",
+        "ig_handle": "ye_vans",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "양예본 Yebon Yang",
+        "instruments": [
+          "piano",
+          "keyboard"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
     "venue_location_id": "main",
@@ -5754,8 +6112,21 @@
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-04-10T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiTXO0Edel/",
     "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "77a1bb73-3e1e-4edc-b545-ec1e3b18fa49"
+    ],
+    "musicians": [
+      {
+        "id": "77a1bb73-3e1e-4edc-b545-ec1e3b18fa49",
+        "ig_handle": "im.o.im",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최아임(•ө•)•Aim Choi",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
@@ -6367,8 +6738,21 @@
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-04-11T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiTXO0Edel/",
     "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "a5e60c89-e672-4147-b132-281dd2c4524c"
+    ],
+    "musicians": [
+      {
+        "id": "a5e60c89-e672-4147-b132-281dd2c4524c",
+        "ig_handle": "hornlee_sit",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "lee Horn",
+        "instruments": [
+          "saxophone"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
@@ -7078,8 +7462,19 @@
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-04-12T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiTXO0Edel/",
     "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "bac1f49a-1d26-4d39-988d-025e39a1d3cc"
+    ],
+    "musicians": [
+      {
+        "id": "bac1f49a-1d26-4d39-988d-025e39a1d3cc",
+        "ig_handle": "hami_c_ho",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조하미",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
@@ -7878,8 +8273,19 @@
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-04-17T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiTXO0Edel/",
     "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "664e4ebd-b604-442b-8833-d345348de24a"
+    ],
+    "musicians": [
+      {
+        "id": "664e4ebd-b604-442b-8833-d345348de24a",
+        "ig_handle": "sc._.creation",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "임수찬",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
@@ -8469,8 +8875,19 @@
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-04-18T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiTXO0Edel/",
     "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "88460e6b-9226-4ac2-ba33-b8b7578fcdc1"
+    ],
+    "musicians": [
+      {
+        "id": "88460e6b-9226-4ac2-ba33-b8b7578fcdc1",
+        "ig_handle": "jazzmachine_yc",
+        "name_ko": "허예찬",
+        "name_en": "Heo Ye Chan",
+        "name_irl": "허예찬 (Heo Ye Chan)",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
@@ -8991,8 +9408,19 @@
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-04-19T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiTXO0Edel/",
     "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "4f852d66-02a0-4283-bff9-a466c53754d1"
+    ],
+    "musicians": [
+      {
+        "id": "4f852d66-02a0-4283-bff9-a466c53754d1",
+        "ig_handle": "damonjazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Damon Brown",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
@@ -10247,8 +10675,19 @@
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-04-25T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiTXO0Edel/",
     "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "d72793a4-4c89-4242-a411-61ade815889c"
+    ],
+    "musicians": [
+      {
+        "id": "d72793a4-4c89-4242-a411-61ade815889c",
+        "ig_handle": "yurimsongjazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "YURIM SONG",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
@@ -10862,8 +11301,19 @@
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-04-26T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiTXO0Edel/",
     "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "4f852d66-02a0-4283-bff9-a466c53754d1"
+    ],
+    "musicians": [
+      {
+        "id": "4f852d66-02a0-4283-bff9-a466c53754d1",
+        "ig_handle": "damonjazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Damon Brown",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
@@ -11376,8 +11826,65 @@
     "event_key": "v:ven_e81e26a2-8cd9-4f60-9a77-ce3c93099910|t:2026-04-30T15:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWiywuUiTqd/",
     "venue_handle": "gc_jazzpicnic",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "3f674fb8-b1e2-4087-b2b4-101ad76ee089",
+      "4e0ddb3c-f873-4399-80f1-e9bda415ce04",
+      "987ae605-85fa-4fd3-97b0-3595d1fa8faa",
+      "a4156793-4736-4535-bb65-2c2cfb6b14a4",
+      "c614d17a-9a7e-45fd-8b98-0ec891fd4bf8"
+    ],
+    "musicians": [
+      {
+        "id": "3f674fb8-b1e2-4087-b2b4-101ad76ee089",
+        "ig_handle": "bass.sunghwan",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최성환",
+        "instruments": []
+      },
+      {
+        "id": "4e0ddb3c-f873-4399-80f1-e9bda415ce04",
+        "ig_handle": "bomichoidrums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Bomi Choi",
+        "instruments": [
+          "drums"
+        ]
+      },
+      {
+        "id": "987ae605-85fa-4fd3-97b0-3595d1fa8faa",
+        "ig_handle": "dragonstonejazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이용석 Yongseok Lee",
+        "instruments": [
+          "saxophone",
+          "composer"
+        ]
+      },
+      {
+        "id": "a4156793-4736-4535-bb65-2c2cfb6b14a4",
+        "ig_handle": "strongcastle_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강한성",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "c614d17a-9a7e-45fd-8b98-0ec891fd4bf8",
+        "ig_handle": "junghwa_jazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "재즈보컬리스트 정화 | Jazz Vocalist Junghwa",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_e81e26a2-8cd9-4f60-9a77-ce3c93099910",
     "venue_location_id": "main",
