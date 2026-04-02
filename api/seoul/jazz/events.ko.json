@@ -1,5 +1,39 @@
 [
   {
+    "id": "evt_20260402_82e43943-a681-4bec-a7fb-4588a123ab18",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-04-02T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWm9HK1k4FZ/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-04-02T10:00:00+00:00",
+    "date": "2026-04-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이건욱 트리오 (보컬 손영서)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Geon-wook Trio (Vocal Son Young-seo)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이건욱 트리오 (보컬 손영서)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260402_001aff94-b062-4821-9f7a-9ebe0f7ff189",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-04-02T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWQzv51keH6/",
@@ -874,6 +908,74 @@
     },
     "_search_ko": {
       "title": "니나 박 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260402_9c2e3070-f882-4274-aeec-821ae50b75f4",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-04-02T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWm9HK1k4FZ/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-04-02T12:00:00+00:00",
+    "date": "2026-04-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "폴 커비 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Paul Kirby Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "폴 커비 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260402_78545859-a26c-4c60-8959-3376950f6051",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-04-02T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWm-UZSE6nv/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-04-02T12:00:00+00:00",
+    "date": "2026-04-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김성헌 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Sung-heon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김성헌 퀄텟",
       "description": null
     }
   },
