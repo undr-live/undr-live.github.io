@@ -1,5 +1,39 @@
 [
   {
+    "id": "evt_20260403_7fec54f2-ffec-42d0-85d3-b7d8a689ce2f",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-04-03T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWoltevk4cG/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-04-03T09:00:00+00:00",
+    "date": "2026-04-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yu Do-gon Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yu Do-gon Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "유도곤 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260403_6a7f8172-50bd-42f3-afe9-a477a4698866",
     "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-04-03T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWP4jSeAds-/",
@@ -415,7 +449,7 @@
   {
     "id": "evt_20260403_cc470773-2788-4b25-9ddc-41c44e0cfec9",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-03T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWSsSKrk7Eh/",
+    "source_url": "https://www.instagram.com/p/DWorCZfE5EZ/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -988,6 +1022,40 @@
     }
   },
   {
+    "id": "evt_20260403_64f2ae4a-6a69-444e-bfd6-60d71bb6bbb1",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-04-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWoltevk4cG/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-04-03T11:00:00+00:00",
+    "date": "2026-04-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Young-jik Quintet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Young-jik Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김영직 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260403_8ffb002a-ad8f-4d75-afc6-748c13c4d503",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-04-03T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWG6kcaj0Mk/",
@@ -1439,6 +1507,40 @@
     },
     "_search_ko": {
       "title": "힘찬 수니",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260403_93155cc9-2427-4fc5-a4f1-b4eaee08dd73",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-04-03T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWoltevk4cG/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-04-03T13:00:00+00:00",
+    "date": "2026-04-03",
+    "sets": [
+      {
+        "label": "Midnight Jazz",
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Authentic Groove Lab",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Authentic Groove Lab",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Authentic Groove Lab",
       "description": null
     }
   },
