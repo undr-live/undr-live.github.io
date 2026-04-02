@@ -3460,8 +3460,37 @@
     "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-04-04T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWkGisvk7FU/",
     "venue_handle": "jazzlounge_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "0cf2a1ee-1d07-4336-aac9-60992aed9a16",
+      "8a642080-14ab-43ca-8adf-127e08e30b2e",
+      "dd1ba694-96ea-40fa-a7f2-d1609ea4ec32"
+    ],
+    "musicians": [
+      {
+        "id": "0cf2a1ee-1d07-4336-aac9-60992aed9a16",
+        "ig_handle": "h_0zl",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정현우",
+        "instruments": []
+      },
+      {
+        "id": "8a642080-14ab-43ca-8adf-127e08e30b2e",
+        "ig_handle": "kgvovc",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김지현",
+        "instruments": []
+      },
+      {
+        "id": "dd1ba694-96ea-40fa-a7f2-d1609ea4ec32",
+        "ig_handle": "1_woolsss",
+        "name_ko": "김한울",
+        "name_en": null,
+        "name_irl": "김한울",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
     "venue_location_id": "main",
@@ -9532,8 +9561,19 @@
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-04-24T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWkkhJYEgNH/",
     "venue_handle": "sounddog_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "fcd6618b-a811-48fe-a173-3156a56c3002"
+    ],
+    "musicians": [
+      {
+        "id": "fcd6618b-a811-48fe-a173-3156a56c3002",
+        "ig_handle": "meanssang",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Sangmin Lee",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
     "venue_location_id": "main",
