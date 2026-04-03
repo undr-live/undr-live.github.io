@@ -1006,7 +1006,7 @@
   {
     "id": "evt_20260404_a3c1bd31-74e6-459c-a93c-1a01ad35e07f",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-04-04T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWdio4uE0aN/",
+    "source_url": "https://www.instagram.com/p/DWrPr8nCTvI/",
     "venue_handle": "jazzxover",
     "musician_ids": [
       "401b72d9-38ea-453c-a92b-2976728d52de"
@@ -3177,6 +3177,44 @@
     }
   },
   {
+    "id": "evt_20260406_2d72a67d-a49b-47ae-885d-b9c70d9c469d",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-06T11:00:00+00:00",
+    "date": "2026-04-06",
+    "sets": [
+      {
+        "label": "Host Band Live Set",
+        "time": "20:00"
+      },
+      {
+        "label": "Jam Session",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "SUPER JAM DAY",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SUPER JAM DAY",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "SUPER JAM DAY",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260407_fb4c3323-044d-4430-91fe-7aa99f17b714",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-04-07T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWgkmWLEser/",
@@ -3309,6 +3347,44 @@
     },
     "_search_ko": {
       "title": "서울 재즈 빅밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260407_2ce1f1c7-a01b-422e-ac2b-20f9e3539d69",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-07T11:00:00+00:00",
+    "date": "2026-04-07",
+    "sets": [
+      {
+        "label": "Host Band Live Set",
+        "time": "20:00"
+      },
+      {
+        "label": "Jam Session",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "URBAN JAM DAY",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "URBAN JAM DAY",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "URBAN JAM DAY",
       "description": null
     }
   },
@@ -3530,6 +3606,40 @@
     }
   },
   {
+    "id": "evt_20260408_5638cf3f-448a-4ed5-9719-a7d57d0894d2",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-08T11:00:00+00:00",
+    "date": "2026-04-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jang Hyeon-seung Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jang Hyeon-seung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "장현승 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260408_3443c7dc-302e-4a4e-a0e1-75208d3759c6",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-04-08T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWgW1a1ga0R/",
@@ -3734,6 +3844,40 @@
     },
     "_search_ko": {
       "title": "말로 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260409_d2dadc68-5afc-4272-80c2-8204104300d7",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-09T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-09T11:00:00+00:00",
+    "date": "2026-04-09",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Songs we know",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Songs we know",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Songs we know",
       "description": null
     }
   },
@@ -4234,6 +4378,40 @@
     },
     "_search_ko": {
       "title": "더 미드나잇 제이 프로젝트 (보컬)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260410_3549a125-83d4-46e4-ab58-8abfb88e9b02",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-10T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-10T11:00:00+00:00",
+    "date": "2026-04-10",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kirb and the Kang",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kirb and the Kang",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Kirb and the Kang",
       "description": null
     }
   },
@@ -5008,6 +5186,40 @@
     }
   },
   {
+    "id": "evt_20260411_cc2009d9-ac9d-48fa-8046-684419f88a68",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-11T11:00:00+00:00",
+    "date": "2026-04-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "HJB Project",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "HJB Project",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "HJB 프로젝트",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260411_9fe959fb-337d-40fb-96bf-26ad33e6b9f5",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-04-11T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWG6kcaj0Mk/",
@@ -5501,6 +5713,40 @@
     },
     "_search_ko": {
       "title": "잼데이 (말로 밴드)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260412_72bd85d7-5cbb-4e75-a2c4-82616622a017",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-12T11:00:00+00:00",
+    "date": "2026-04-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Won-tae Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Won-tae Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이원태 퀄텟",
       "description": null
     }
   },
@@ -6021,6 +6267,40 @@
     }
   },
   {
+    "id": "evt_20260415_0d63aefd-8b7d-493d-a67c-a1c876854d9b",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-15T11:00:00+00:00",
+    "date": "2026-04-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "John Gunther Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "John Gunther Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "존 건더 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260415_be259c34-8295-4033-a75c-c9818cdb8bf1",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-04-15T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DWgW1a1ga0R/",
@@ -6259,6 +6539,40 @@
     },
     "_search_ko": {
       "title": "박종현 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260416_2d90665b-ef47-4d0a-92cd-a0f075ebac94",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-16T11:00:00+00:00",
+    "date": "2026-04-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Charlie Jung & Jason Park Project",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Charlie Jung & Jason Park Project",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "찰리 정 & 제이슨 박 프로젝트",
       "description": null
     }
   },
@@ -6723,6 +7037,40 @@
     },
     "_search_ko": {
       "title": "로맨스 던 (보컬)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260417_b9f1439f-5db2-47db-a10a-2e7d05aa2fd8",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-17T11:00:00+00:00",
+    "date": "2026-04-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Shin Won-jun Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Shin Won-jun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "신원준 퀄텟",
       "description": null
     }
   },
@@ -7947,6 +8295,40 @@
     },
     "_search_ko": {
       "title": "데이먼 브라운 \"파리-런던 커넥션\"",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260419_06204536-c817-47f6-89e8-1cb95ac38a2a",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-04-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWrXn4uj1om/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-04-19T11:00:00+00:00",
+    "date": "2026-04-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "MEG4pet Situation",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "MEG4pet Situation",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "MEG4pet Situation",
       "description": null
     }
   },
