@@ -491,7 +491,7 @@
   {
     "id": "evt_20260403_cc470773-2788-4b25-9ddc-41c44e0cfec9",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-04-03T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DWorCZfE5EZ/",
+    "source_url": "https://www.instagram.com/p/DWqIDHnAAbo/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -508,17 +508,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Charlie Jung Blues Band",
+    "title": "Jeong Mi-jo Special Performance",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Charlie Jung Blues Band",
+      "title": "Jeong Mi-jo Special Performance",
       "description": null
     },
     "_search_ko": {
-      "title": "찰리정 블루스 밴드",
+      "title": "정미조 특별 공연",
       "description": null
     }
   },
@@ -1150,6 +1150,40 @@
     }
   },
   {
+    "id": "evt_20260403_5552813a-2d08-46d6-84a5-b8fa8172ad51",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-04-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWp9qn_AApb/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-04-03T11:00:00+00:00",
+    "date": "2026-04-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "BELLEZA (Latin)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "BELLEZA (Latin)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "벨레자 (라틴)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260403_8ffb002a-ad8f-4d75-afc6-748c13c4d503",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-04-03T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DWpkv0zD3wr/",
@@ -1686,6 +1720,40 @@
     },
     "_search_ko": {
       "title": "Authentic Groove Lab",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260403_f7672c86-3acd-4300-87d3-d40aadb5884c",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-04-03T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DWp9qn_AApb/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-04-03T13:00:00+00:00",
+    "date": "2026-04-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Sung-ho Jazz Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Sung-ho Jazz Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이성호 재즈 밴드",
       "description": null
     }
   },
