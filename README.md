@@ -4,10 +4,10 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-04-05T13:18:24Z
-- **Source Commit**: [`d0c060468d282f2a5320e0a90f59bbd23a8afcbd`](https://github.com/keunwoochoi/seoulunderground.live/commit/d0c060468d282f2a5320e0a90f59bbd23a8afcbd)
+- **Build Time**: 2026-04-05T16:30:21Z
+- **Source Commit**: [`9250aa7677923b27ab341a5e5df40abaf03f0280`](https://github.com/keunwoochoi/seoulunderground.live/commit/9250aa7677923b27ab341a5e5df40abaf03f0280)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/24002311191)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/24005644625)
 
 ## Commit Details
 
