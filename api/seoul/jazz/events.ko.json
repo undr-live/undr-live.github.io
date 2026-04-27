@@ -2237,7 +2237,7 @@
   {
     "id": "evt_20260501_ce3d2eca-7517-4d46-ba91-edd1c34e2c69",
     "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-05-01T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXl3T4GD34X/",
+    "source_url": "https://www.instagram.com/p/DXpLVKVE2Yp/",
     "venue_handle": "yellow___taxi",
     "musician_ids": [],
     "musicians": [],
@@ -2252,7 +2252,7 @@
         "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "성기문 트리오",
     "description": null,
@@ -2260,7 +2260,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Seong Ki-moon Trio",
+      "title": "Seong Gi-moon Trio",
       "description": null
     },
     "_search_ko": {
@@ -6319,6 +6319,40 @@
     },
     "_search_ko": {
       "title": "윈썸 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260508_f802d6da-de50-4f00-99b7-e78d503b3e27",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-05-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DXpOeQ4j9eR/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-05-08T11:00:00+00:00",
+    "date": "2026-05-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "25,000원",
+    "llm_confidence": 1.0,
+    "title": "홍지형 인터내셔널 그룹",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hong Jihyung International Group",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "홍지형 인터내셔널 그룹",
       "description": null
     }
   },
