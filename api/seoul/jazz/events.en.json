@@ -706,7 +706,7 @@
   {
     "id": "evt_20260514_f21d3495-9833-4203-af44-f38f68c698f5",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-05-14T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYMWQjQE1Ul/",
+    "source_url": "https://www.instagram.com/p/DYTQY_WE9f2/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musicians": [],
@@ -733,7 +733,41 @@
       "description": null
     },
     "_search_ko": {
-      "title": "진재환의 오스카롤로지",
+      "title": "진재환의 Oscarology",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260514_c064ae33-da6c-4c37-a0d4-0800a11ec386",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-05-14T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYTPUz2E3Ff/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-05-14T10:00:00+00:00",
+    "date": "2026-05-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "SideWalk",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SideWalk",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "사이드워크",
       "description": null
     }
   },
@@ -1384,7 +1418,7 @@
   {
     "id": "evt_20260514_d29520dd-ad86-4efe-b0f9-cad401c119a7",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-05-14T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYMWQjQE1Ul/",
+    "source_url": "https://www.instagram.com/p/DYTQY_WE9f2/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musicians": [],
@@ -1401,17 +1435,51 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Gyeong-ryeon Quartet",
+    "title": "Gyeongdeon Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Gyeong-ryeon Quartet",
+      "title": "Gyeongdeon Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "경련 퀄텟",
+      "title": "경던 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260514_5a114a17-36ba-4dcd-9656-0ce63bc01537",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-05-14T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYTPUz2E3Ff/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-05-14T12:00:00+00:00",
+    "date": "2026-05-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Young-jik Tentet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Young-jik Tentet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김영직 텐텟",
       "description": null
     }
   },
