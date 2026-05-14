@@ -844,6 +844,44 @@
     }
   },
   {
+    "id": "evt_20260514_429dcfd3-0277-4e51-a406-ae27ea5f64c9",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-05-14T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYT3K53AfMT/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-05-14T10:30:00+00:00",
+    "date": "2026-05-14",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이한진 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Hanjin Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이한진 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260514_831177df-d3a9-486a-9692-9b0e0b7bcf43",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-05-14T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYImnJimSLQ/",
@@ -2396,7 +2434,7 @@
   {
     "id": "evt_20260515_b674ae4c-07de-475c-9ceb-dcf37a066c28",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-05-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYSZrKQh4Im/",
+    "source_url": "https://www.instagram.com/p/DYT7veIhrh5/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -2407,23 +2445,27 @@
     "date": "2026-05-15",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "로스트리오 (베이스 심영주)",
+    "title": "로스트리오 (보컬 김현미)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lost Trio (Bass Shim Young-ju)",
+      "title": "Lost Trio (Vocal Kim Hyun-mi)",
       "description": null
     },
     "_search_ko": {
-      "title": "로스트리오 (베이스 심영주)",
+      "title": "로스트리오 (보컬 김현미)",
       "description": null
     }
   },
@@ -2602,6 +2644,40 @@
     },
     "_search_ko": {
       "title": "김재형 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260515_5dd92bc4-f2ef-481c-9e40-f470f3204dd6",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-05-15T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYT2UFHJGcu/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-05-15T11:30:00+00:00",
+    "date": "2026-05-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김루꾸 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Rukku Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김루꾸 퀄텟",
       "description": null
     }
   },
@@ -4107,6 +4183,40 @@
     }
   },
   {
+    "id": "evt_20260516_74ead8c0-75b4-44fd-b115-8565d32af7ca",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-05-16T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYT2AjPJkWu/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-05-16T11:30:00+00:00",
+    "date": "2026-05-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "피크닉 재즈 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Picnic Jazz Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "피크닉 재즈 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260516_61875a08-5708-4961-bf88-79e796f6f911",
     "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-05-16T11:45:00+00:00",
     "source_url": "https://www.instagram.com/p/DYNOIKvCWnm/",
@@ -5505,7 +5615,7 @@
   {
     "id": "evt_20260520_d94c0f40-6e70-472c-8ca0-8f258dbd5a41",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-05-20T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXtzlYFkW2W/",
+    "source_url": "https://www.instagram.com/p/DYT7RRNEU2G/",
     "venue_handle": "edls_official",
     "musician_ids": [],
     "musicians": [],
@@ -5951,7 +6061,7 @@
   {
     "id": "evt_20260521_4971ba33-6081-4ac3-a099-d3c382d44b95",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-05-21T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXtzlYFkW2W/",
+    "source_url": "https://www.instagram.com/p/DYT7RRNEU2G/",
     "venue_handle": "edls_official",
     "musician_ids": [],
     "musicians": [],
@@ -5974,7 +6084,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Han-ul Quartet",
+      "title": "Kim Han-wool Quartet",
       "description": null
     },
     "_search_ko": {
@@ -6421,7 +6531,7 @@
   {
     "id": "evt_20260522_e1584437-c566-4a24-9a90-3acf69d186b0",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-05-22T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXtzlYFkW2W/",
+    "source_url": "https://www.instagram.com/p/DYT7RRNEU2G/",
     "venue_handle": "edls_official",
     "musician_ids": [],
     "musicians": [],
@@ -6438,17 +6548,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "조윤과 친구들",
+    "title": "조운과 친구들",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jo Yun and Friends",
+      "title": "Jo Woon and Friends",
       "description": null
     },
     "_search_ko": {
-      "title": "조윤과 친구들",
+      "title": "조운과 친구들",
       "description": null
     }
   },
@@ -7074,7 +7184,7 @@
   {
     "id": "evt_20260523_44d974cf-009a-4891-9f26-b67d843f4779",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-05-23T09:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXtzlYFkW2W/",
+    "source_url": "https://www.instagram.com/p/DYT7RRNEU2G/",
     "venue_handle": "edls_official",
     "musician_ids": [],
     "musicians": [],
@@ -7085,23 +7195,23 @@
     "date": "2026-05-23",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "18:30"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "박선영 퀄텟",
+    "title": "박선영 퀸텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Park Seon-yeong Quartet",
+      "title": "Park Sun-young Quintet",
       "description": null
     },
     "_search_ko": {
-      "title": "박선영 퀄텟",
+      "title": "박선영 퀸텟",
       "description": null
     }
   },
@@ -7732,7 +7842,7 @@
   {
     "id": "evt_20260523_48776413-7649-4a09-8fe1-0590eaf9e363",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-05-23T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXtzlYFkW2W/",
+    "source_url": "https://www.instagram.com/p/DYT7RRNEU2G/",
     "venue_handle": "edls_official",
     "musician_ids": [],
     "musicians": [],
@@ -7743,23 +7853,23 @@
     "date": "2026-05-23",
     "sets": [
       {
-        "label": null,
+        "label": "2부",
         "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "박소영 퀄텟",
+    "title": "소영 퀄텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Park So-yeong Quartet",
+      "title": "Soyoung Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "박소영 퀄텟",
+      "title": "소영 퀄텟",
       "description": null
     }
   },
@@ -7960,7 +8070,7 @@
   {
     "id": "evt_20260524_9225d71b-efc6-4426-8c7f-0a290b656b90",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-05-24T09:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXtzlYFkW2W/",
+    "source_url": "https://www.instagram.com/p/DYT7RRNEU2G/",
     "venue_handle": "edls_official",
     "musician_ids": [],
     "musicians": [],
@@ -7977,17 +8087,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "재키킴 (기타 트리오)",
+    "title": "재키킴 With 기타 트리오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jackie Kim (Guitar Trio)",
+      "title": "Jackie Kim With Guitar Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "재키킴 (기타 트리오)",
+      "title": "재키킴 With 기타 트리오",
       "description": null
     }
   },
@@ -10075,6 +10185,40 @@
     },
     "_search_ko": {
       "title": "지윤 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260530_f2ded74b-b9a1-4b06-8401-4bb20494420f",
+    "event_key": "v:ven_1aa53620-2006-41ed-8fec-93d15747afa9|t:2026-05-30T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYT1NIrGGQh/",
+    "venue_handle": "myjazzgarden",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1aa53620-2006-41ed-8fec-93d15747afa9",
+    "venue_location_id": "main",
+    "datetime": "2026-05-30T10:30:00+00:00",
+    "date": "2026-05-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "김재형 트리오 (보컬 유하라)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Jaehyung Trio (Vocal Yu Hara)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김재형 트리오 (보컬 유하라)",
       "description": null
     }
   },
