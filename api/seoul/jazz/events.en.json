@@ -1094,7 +1094,7 @@
   {
     "id": "evt_20260515_08312dea-d06f-4389-b1b9-28fa861e334c",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-05-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DX85Xj6EZK2/",
+    "source_url": "https://www.instagram.com/p/DYU0fR0zLGo/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -1111,17 +1111,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Seoul Jazz Big Band (Guest Choi Seong-su)",
+    "title": "Seoul Jazz Big Band (Guest Vocal Choi Sung-soo)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Seoul Jazz Big Band (Guest Choi Seong-su)",
+      "title": "Seoul Jazz Big Band (Guest Vocal Choi Sung-soo)",
       "description": null
     },
     "_search_ko": {
-      "title": "서울 재즈 빅밴드 (게스트 최성수)",
+      "title": "서울 재즈 빅밴드 (게스트 보컬 최성수)",
       "description": null
     }
   },
@@ -5667,7 +5667,7 @@
   {
     "id": "evt_20260521_3693b6a2-9117-4bd8-95e0-28a332e3e617",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-05-21T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXopqW9ih_l/",
+    "source_url": "https://www.instagram.com/p/DYUcOl7qa8w/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musicians": [],
@@ -5688,17 +5688,17 @@
     ],
     "price": "5,000원",
     "llm_confidence": 1.0,
-    "title": "Haeilup Duo",
+    "title": "Haerim Duo",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Haeilup Duo",
+      "title": "Haerim Duo",
       "description": null
     },
     "_search_ko": {
-      "title": "해일럽 듀오",
+      "title": "해일림 듀오",
       "description": null
     }
   },
@@ -9298,6 +9298,40 @@
     },
     "_search_ko": {
       "title": "서보경 앤 더 플로우",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260529_4d1d5ff3-9e09-48ab-8b3c-ad354327854c",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-05-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYUaXjWH8ci/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-05-29T11:00:00+00:00",
+    "date": "2026-05-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "yonglee & the DOLTANG",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "yonglee & the DOLTANG",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "용리와 돌아온탕자들",
       "description": null
     }
   },

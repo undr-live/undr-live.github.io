@@ -1378,61 +1378,51 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "콩치노 콩크리트",
+          "name": "콩치노 콘크리트",
           "address_text": "17 Saeori-ro 161beon-gil, Tanhyeon-myeon, Paju-si, Gyeonggi-do, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
-          "booking_link": "https://booking.naver.com/booking/12/bizes/1530500/items/7410691?preview=1&startDateTime=2026-03-14T00%253A00%253A00%252B09%253A00&utm_content=link_in_bio&utm_medium=social&utm_source%3Dig",
-          "notes": "Paju. 예약은 따로 받지 않습니다-No reservations",
+          "booking_link": null,
+          "notes": "예약은 따로 받지 않습니다-No reservations",
           "i18n": {
             "name": {
-              "ko": "콩치노 콩크리트",
+              "ko": "콩치노 콘크리트",
               "en": "Concino Concrete"
             },
             "address_text": {
-              "ko": "경기 파주시 탄현면 새오리로161번길 17",
+              "ko": "경기도 파주시 탄현면 새오리로161번길 17",
               "en": "17 Saeori-ro 161beon-gil, Tanhyeon-myeon, Paju-si, Gyeonggi-do, South Korea"
             },
             "notes": {
-              "ko": "파주. 예약은 따로 받지 않습니다.",
-              "en": "Paju. No reservations are accepted."
+              "ko": "예약은 따로 받지 않습니다",
+              "en": "No reservations"
             }
           }
         }
       ],
       "opening_hours": {
-        "mon": "14:00-19:00",
-        "tue": "14:00-19:00",
-        "wed": "Closed",
-        "thu": "Closed",
-        "fri": "14:00-19:00",
-        "sat": "12:00-19:00",
-        "sun": "12:00-19:00"
+        "mon": "14:00",
+        "tue": "14:00",
+        "wed": null,
+        "thu": null,
+        "fri": "14:00",
+        "sat": "12:00",
+        "sun": "12:00"
       }
     },
     "i18n_data": {
       "name": {
-        "ko": "콩치노 콩크리트",
+        "ko": "콩치노 콘크리트",
         "en": "Concino Concrete"
       },
       "address_text": {
-        "ko": "경기 파주시 탄현면 새오리로161번길 17",
+        "ko": "경기도 파주시 탄현면 새오리로161번길 17",
         "en": "17 Saeori-ro 161beon-gil, Tanhyeon-myeon, Paju-si, Gyeonggi-do, South Korea"
       },
-      "notes": {
-        "ko": "파주. 예약은 따로 받지 않습니다.",
-        "en": "Paju. No reservations are accepted."
-      },
-      "genres": {
-        "ko": [
-          "재즈"
-        ],
-        "en": [
-          "Jazz"
-        ]
-      },
+      "notes": null,
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -1452,7 +1442,7 @@
     "booking_url": "https://naver.me/FDGU6jCE",
     "homepage_url": null,
     "websites": [],
-    "subway_nearby": null,
+    "subway_nearby": "6호선 이태원역 3번 출구에서 774m",
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
@@ -1460,10 +1450,12 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "코튼클럽",
+          "name": "Cotton Club",
           "address_text": "서울 용산구 대사관로 35 5층",
           "address_components": null,
-          "subway_nearby": "6호선 이태원역 3번 출구에서 774m",
+          "location_lat": 37.5337501903567,
+          "location_lon": 127.00214819989,
+          "subway_nearby": null,
           "booking_link": "https://naver.me/FDGU6jCE",
           "notes": "Sounds Hannam 5F",
           "i18n": {
@@ -1476,12 +1468,10 @@
               "en": "5th Floor, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea"
             },
             "notes": {
-              "ko": "사운즈한남 5F",
+              "ko": "사운즈 한남 5층",
               "en": "Sounds Hannam 5F"
             }
-          },
-          "location_lat": 37.5337501903567,
-          "location_lon": 127.00214819989
+          }
         }
       ]
     },
@@ -1495,16 +1485,18 @@
       "genres": {
         "ko": [
           "재즈",
-          "블루스"
+          "블루스",
+          "라이브 뮤직"
         ],
         "en": [
           "Jazz",
-          "Blues"
+          "Blues",
+          "Live Music"
         ]
       },
       "subway_nearby": {
         "ko": "6호선 이태원역 3번 출구에서 774m",
-        "en": "774m from Itaewon Station Exit 3 on Line 6"
+        "en": "774m walk from Itaewon Station Exit 3 (Line 6)"
       },
       "food_policy": null,
       "age_limit": null
@@ -5398,7 +5390,7 @@
     "id": "ven_cb58ded2-da09-4ded-9689-2ddaebd7cb26",
     "tier": 1,
     "ig_handle": "seoul_garage_bar",
-    "name_irl": "Seoul Garage Show",
+    "name_irl": "Seoul Garage Bar",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -5407,10 +5399,8 @@
     "google_map_url": null,
     "booking_url": null,
     "homepage_url": "https://litt.ly/seoulgaragebar",
-    "websites": [
-      "https://litt.ly/seoulgaragebar"
-    ],
-    "subway_nearby": null,
+    "websites": [],
+    "subway_nearby": "3호선 경복궁역 7번 출구에서 702m",
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
@@ -5418,7 +5408,7 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "서울게러지쇼",
+          "name": "서울게러지바",
           "address_text": "서울특별시 종로구 대학로8가길 64 김동진빌딩 지하1층",
           "address_components": {
             "street": "대학로8가길 64 김동진빌딩 지하1층",
@@ -5427,43 +5417,46 @@
             "postal_code": null,
             "country": "South Korea"
           },
-          "subway_nearby": "혜화",
+          "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "김동진빌딩 지하1층",
           "i18n": {
             "name": {
-              "ko": "서울게러지쇼",
-              "en": "Seoul Garage Show"
+              "ko": "서울게러지바",
+              "en": "Seoul Garage Bar"
             },
             "address_text": {
               "ko": "서울 종로구 대학로8가길 64 김동진빌딩 지하1층",
-              "en": "B1F, Kimdongjin Building, 64 Daehak-ro 8-gil, Jongno-gu, Seoul, South Korea"
+              "en": "B1, Kim Dongjin Building, 64 Daehak-ro 8ga-gil, Jongno-gu, Seoul, South Korea"
             },
-            "notes": null
+            "notes": {
+              "ko": "김동진빌딩 지하1층",
+              "en": "B1, Kim Dongjin Building"
+            }
           },
           "location_lat": 37.5829366894541,
           "location_lon": 127.00303053803
         }
       ],
       "opening_hours": {
-        "mon": "18:00-02:00",
-        "tue": "18:00-02:00",
-        "wed": "18:00-02:00",
-        "thu": "18:00-02:00",
-        "fri": "18:00-02:00",
-        "sat": "14:00-02:00",
-        "sun": "14:00-20:00"
+        "mon": "18:00",
+        "tue": "18:00",
+        "wed": "18:00",
+        "thu": "18:00",
+        "fri": "18:00",
+        "sat": "14:00",
+        "sun": "14:00"
       }
     },
     "i18n_data": {
       "name": {
-        "ko": "서울게러지쇼",
-        "en": "Seoul Garage Show"
+        "ko": "서울게러지바",
+        "en": "Seoul Garage Bar"
       },
       "address_text": null,
       "notes": {
-        "ko": "@seoul_comedy_club과 관련되어 있습니다. 혜화로 이전했습니다.",
-        "en": "Associated with @seoul_comedy_club. Relocated to Hyehwa."
+        "ko": "예약 & 문의는 DM으로 가능합니다.",
+        "en": "Reservations & inquiries available via DM."
       },
       "genres": {
         "ko": [
@@ -5472,7 +5465,7 @@
         ],
         "en": [
           "Jazz",
-          "Live performance"
+          "Live music"
         ]
       },
       "subway_nearby": {
