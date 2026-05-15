@@ -1446,7 +1446,7 @@
   {
     "id": "evt_20260515_91cd0f73-bf4d-45a8-b176-2ee0bba50100",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-05-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYMK0Lhke_M/",
+    "source_url": "https://www.instagram.com/p/DYWckC3yR_X/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -1463,17 +1463,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Tima Volozh Quintet",
+    "title": "Cy Leo, Timo Vollbrecht, Sora Kim, D.Dable Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Tima Volozh Quintet",
+      "title": "Cy Leo, Timo Vollbrecht, Sora Kim, D.Dable Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "티마 볼로즈 퀸텟",
+      "title": "사이 레오, 티모 폴브레히트, 김소라, 디 대블 퀄텟",
       "description": null
     }
   },
@@ -11523,6 +11523,44 @@
     },
     "_search_ko": {
       "title": "이상민",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260620_6f82f97b-a72f-4c35-a004-0ed177591fd0",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-06-20T09:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYWp1A7RCFI/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-06-20T09:30:00+00:00",
+    "date": "2026-06-20",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "18:30"
+      },
+      {
+        "label": "3부",
+        "time": "21:30"
+      }
+    ],
+    "price": "30,000원",
+    "llm_confidence": 1.0,
+    "title": "Daniel Lindemann Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Daniel Lindemann Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "다니엘 린데만 밴드",
       "description": null
     }
   },
