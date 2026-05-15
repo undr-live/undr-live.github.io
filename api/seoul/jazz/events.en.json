@@ -1766,6 +1766,40 @@
     }
   },
   {
+    "id": "evt_20260515_d3374be6-b9c3-49d4-98bf-6462fd7b95c7",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-05-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYVtDt3EzK8/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-05-15T11:00:00+00:00",
+    "date": "2026-05-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "Free Entry / Deferred Payment",
+    "llm_confidence": 1.0,
+    "title": "Kang Mikyung Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kang Mikyung Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "강미경 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260515_1586e8d8-5c3c-4cdb-b72f-82e1c0f2662d",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-05-15T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DXeYgR9D73Y/",
@@ -2114,6 +2148,40 @@
     },
     "_search_ko": {
       "title": "진영환 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260515_c2bf6905-9cab-4699-85d2-6ade56426a99",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-05-15T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYVtDt3EzK8/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-05-15T13:00:00+00:00",
+    "date": "2026-05-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "Free Entry / Deferred Payment",
+    "llm_confidence": 1.0,
+    "title": "Post Spot",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Post Spot",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "포스트 스팟",
       "description": null
     }
   },
