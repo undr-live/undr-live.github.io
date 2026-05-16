@@ -2413,7 +2413,7 @@
   {
     "id": "evt_20260516_376807cc-7ec5-47fa-acac-b961b9736045",
     "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-05-16T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYWoR5RT6F8/",
+    "source_url": "https://www.instagram.com/p/DYYnL1iE91e/",
     "venue_handle": "yellow___taxi",
     "musician_ids": [],
     "musicians": [],
@@ -2430,17 +2430,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "김희나 퀄텟",
+    "title": "김희나 퀸텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Heena Quartet",
+      "title": "Kim Heena Quintet",
       "description": null
     },
     "_search_ko": {
-      "title": "김희나 퀄텟",
+      "title": "김희나 퀸텟",
       "description": null
     }
   },
@@ -2629,7 +2629,7 @@
   {
     "id": "evt_20260516_1d3bd764-acfb-4719-b681-43e08715205a",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-05-16T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYWY8QZBNN4/",
+    "source_url": "https://www.instagram.com/p/DYY7S71hdly/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -2640,23 +2640,27 @@
     "date": "2026-05-16",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "김다희 밴드 (보컬 김현미)",
+    "title": "김다희밴드",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Da-hee Band (Vocal Kim Hyun-mi)",
+      "title": "Kim Da-hee Band",
       "description": null
     },
     "_search_ko": {
-      "title": "김다희 밴드 (보컬 김현미)",
+      "title": "김다희밴드",
       "description": null
     }
   },
