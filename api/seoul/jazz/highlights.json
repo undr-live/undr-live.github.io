@@ -1,50 +1,78 @@
 {
-  "week_start_date": "2026-05-11",
-  "generated_at": "2026-05-11T06:00:05.284990+00:00",
+  "week_start_date": "2026-05-18",
+  "generated_at": "2026-05-18T06:00:05.349609+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-05-13": {
-      "event_id": "evt_20260513_8059bb7d-e7e7-443d-9bc5-34881e3992ce",
+    "2026-05-20": {
+      "event_id": "evt_20260520_7fe8c5cb-0f58-4589-b74e-827b69324a35",
       "title": {
-        "ko": "더 신-업 트리오",
-        "en": "The Shin-Up Trio"
+        "ko": "재즈 잼 세션 part. 1",
+        "en": "Jazz Jam Session part. 1"
       },
       "venue_name": {
-        "en": "Entry55",
-        "ko": "엔트리55"
+        "en": "Boogie Woogie",
+        "ko": "부기우기"
       },
-      "venue_handle": "entry55_official",
-      "datetime": "2026-05-13T10:30:00+00:00",
-      "selected_at": "2026-05-11T06:00:05.284211+00:00"
+      "venue_handle": "boogiewoogieseoul",
+      "datetime": "2026-05-20T10:00:00+00:00",
+      "selected_at": "2026-05-18T06:00:05.348346+00:00"
     },
-    "2026-05-14": {
-      "event_id": "evt_20260514_17dd7a8f-f5b3-41e8-8eb9-8afef2df8f58",
+    "2026-05-21": {
+      "event_id": "evt_20260521_053601c1-1e70-4e55-bd4d-9cac2eee1405",
       "title": {
-        "ko": "김기범 더 인튜이션",
-        "en": "Kim Gi-beom The Intuition"
+        "ko": "이은동 트리오",
+        "en": "Lee Eun-dong Trio"
+      },
+      "venue_name": {
+        "en": "OLEO",
+        "ko": "올레오"
+      },
+      "venue_handle": "oleojazzpub",
+      "datetime": "2026-05-21T11:00:00+00:00",
+      "selected_at": "2026-05-18T06:00:05.348636+00:00"
+    },
+    "2026-05-22": {
+      "event_id": "evt_20260522_db264108-27b5-43b3-97c5-5aaf12c3a27b",
+      "title": {
+        "ko": "더 제레미 박 쇼",
+        "en": "The Jeremy Park Show"
+      },
+      "venue_name": {
+        "en": "Cotton Club",
+        "ko": "코튼클럽"
+      },
+      "venue_handle": "cottonclub_seoul",
+      "datetime": "2026-05-22T12:30:00+00:00",
+      "selected_at": "2026-05-18T06:00:05.349060+00:00"
+    },
+    "2026-05-23": {
+      "event_id": "evt_20260523_20b95863-b5f5-420e-8130-dd3e6406faf4",
+      "title": {
+        "ko": "김기중 밴드 (BANDKAY)",
+        "en": "Kim Gi-joong Band (BANDKAY)"
+      },
+      "venue_name": {
+        "en": "Newall Jazz Lounge",
+        "ko": "뉴올 재즈 라운지"
+      },
+      "venue_handle": "newall_jazz",
+      "datetime": "2026-05-23T11:00:00+00:00",
+      "selected_at": "2026-05-18T06:00:05.349327+00:00"
+    },
+    "2026-05-24": {
+      "event_id": "evt_20260524_e06ed87c-8c70-4814-b67e-952824c39bda",
+      "title": {
+        "ko": "벨레사",
+        "en": "Belleza"
       },
       "venue_name": {
         "en": "Sounddog",
         "ko": "사운드독"
       },
       "venue_handle": "sounddog_jazz",
-      "datetime": "2026-05-14T11:00:00+00:00",
-      "selected_at": "2026-05-11T06:00:05.284673+00:00"
-    },
-    "2026-05-16": {
-      "event_id": "evt_20260516_1edbed82-994a-4bbf-83e3-b1d2f1c4b18a",
-      "title": {
-        "ko": "홍영호 퀸텟",
-        "en": "Hong Young-ho Quintet"
-      },
-      "venue_name": {
-        "en": "Cafe Africa",
-        "ko": "Cafe 아프리카"
-      },
-      "venue_handle": "africa_since1988",
-      "datetime": "2026-05-16T11:00:00+00:00",
-      "selected_at": "2026-05-11T06:00:05.284962+00:00"
+      "datetime": "2026-05-24T11:00:00+00:00",
+      "selected_at": "2026-05-18T06:00:05.349600+00:00"
     }
   }
 }
