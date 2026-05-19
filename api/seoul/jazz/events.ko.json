@@ -830,7 +830,7 @@
   {
     "id": "evt_20260520_de335aa7-96c8-447f-a994-e40a34b94828",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-05-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYa26NUkppY/",
+    "source_url": "https://www.instagram.com/p/DYfws6qyeMy/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musicians": [],
@@ -847,7 +847,7 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "일란 아이젠츠바이크 트리오 (feat. 김민찬)",
+    "title": "일란 아이젠즈바이그 트리오 (피쳐링 김민찬)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -857,7 +857,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "일란 아이젠츠바이크 트리오 (feat. 김민찬)",
+      "title": "일란 아이젠즈바이그 트리오 (피쳐링 김민찬)",
       "description": null
     }
   },
@@ -1694,6 +1694,44 @@
     },
     "_search_ko": {
       "title": "수이 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260521_8ec46c11-446c-43a4-8444-5151c2890c38",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-05-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYfK8hfhpIn/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-05-21T11:00:00+00:00",
+    "date": "2026-05-21",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "유호정 재즈 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yu Ho-jeong Jazz Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "유호정 재즈 트리오",
       "description": null
     }
   },
