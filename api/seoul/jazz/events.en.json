@@ -1147,6 +1147,44 @@
     }
   },
   {
+    "id": "evt_20260522_07588bc1-54fa-4870-afe0-486b508ad7d6",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-05-22T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYoZkONge-a/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-05-22T10:30:00+00:00",
+    "date": "2026-05-22",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon Ik-hyung Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yoon Ik-hyung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "윤익형 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260522_7f07a332-3c65-40d0-855d-59ee9c302760",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-05-22T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DXahHgDmmoR/",
@@ -1717,7 +1755,7 @@
   {
     "id": "evt_20260522_2ba0539d-3672-441c-b301-9f6521451ac4",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-05-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYhuumKB9GY/",
+    "source_url": "https://www.instagram.com/p/DYoitS7h_S8/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -1728,23 +1766,27 @@
     "date": "2026-05-22",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "ARB (Vocal Shim Gyu-min)",
+    "title": "ARB",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "ARB (Vocal Shim Gyu-min)",
+      "title": "ARB",
       "description": null
     },
     "_search_ko": {
-      "title": "에이알비 (보컬 심규민)",
+      "title": "ARB",
       "description": null
     }
   },
@@ -3243,7 +3285,7 @@
   {
     "id": "evt_20260523_514ed60c-04cc-4a7d-b52b-34a1de735712",
     "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-05-23T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYlOHflGL8n/",
+    "source_url": "https://www.instagram.com/p/DYoq9RYTbEf/",
     "venue_handle": "yellow___taxi",
     "musician_ids": [],
     "musicians": [],
@@ -3260,17 +3302,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Yoo Sa-rang Quartet",
+    "title": "Yu Sarang Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yoo Sa-rang Quartet",
+      "title": "Yu Sarang Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "유사랑 퀼텟",
+      "title": "유사랑 퀄텟",
       "description": null
     }
   },
@@ -3381,6 +3423,40 @@
     },
     "_search_ko": {
       "title": "단예 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260523_fbc78af9-cf5d-417b-9551-4461587a7806",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-05-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYojdP4hn25/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-05-23T11:00:00+00:00",
+    "date": "2026-05-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Sun-young Jazz Tap (Vocal)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Sun-young Jazz Tap (Vocal)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김순영 재즈 탭 (보컬)",
       "description": null
     }
   },
@@ -8410,6 +8486,40 @@
     }
   },
   {
+    "id": "evt_20260606_9a9361e1-f7f7-4149-8534-2170e30c5e04",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-06T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopp8RxUXS/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-06T09:00:00+00:00",
+    "date": "2026-06-06",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Hyojungri Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hyojungri Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "효정리 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260606_c7d2451b-2d98-4dc4-a552-9250d4384ad8",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-06-06T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYAFoVykpRx/",
@@ -8542,6 +8652,40 @@
     },
     "_search_ko": {
       "title": "합석식 Alliance",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260607_3d1e8f9a-73d5-4375-a3a3-1ba78b9f8285",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-07T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopp8RxUXS/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-07T09:00:00+00:00",
+    "date": "2026-06-07",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Daegyeong's Nocturne",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Daegyeong's Nocturne",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김대경's 녹턴",
       "description": null
     }
   },
@@ -9056,6 +9200,40 @@
     }
   },
   {
+    "id": "evt_20260613_358f4a49-ae34-4fe2-a22a-7957c88147a3",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-13T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopp8RxUXS/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-13T09:00:00+00:00",
+    "date": "2026-06-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Wina Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Wina Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "위나 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260613_2f62ee56-b520-4eac-a89a-d37e41041404",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-06-13T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
@@ -9154,6 +9332,40 @@
     },
     "_search_ko": {
       "title": "Akina 퀄텟 (이준영)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260614_059eda2b-05f4-4b0e-afc2-f660db8a9ead",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-14T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopm7ZxR_Z/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-14T09:00:00+00:00",
+    "date": "2026-06-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Moon World",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Moon World",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "문 월드",
       "description": null
     }
   },
@@ -9532,6 +9744,69 @@
     }
   },
   {
+    "id": "evt_20260618_d646fe9f-d352-4987-95fa-6285f6975f52",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-18T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopp8RxUXS/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-18T15:00:00+00:00",
+    "date": "2026-06-19",
+    "sets": null,
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Mouna",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mouna",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Mouna",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260619_f02569c2-d6bc-44ca-9202-e78453864331",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-19T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopm7ZxR_Z/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-19T10:00:00+00:00",
+    "date": "2026-06-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Mouna (Invited by French Embassy)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mouna (Invited by French Embassy)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Mouna (프랑스 대사관 초청)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260619_b4f678b2-5a30-4553-8c54-1ed9d5045474",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-06-19T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
@@ -9664,6 +9939,40 @@
     },
     "_search_ko": {
       "title": "트롬본 검과 죄인들",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260620_caa2bee3-8887-4765-9516-0bea4b4bd00b",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-20T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopm7ZxR_Z/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-20T09:00:00+00:00",
+    "date": "2026-06-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "The SeoRegulars",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The SeoRegulars",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 서레귤러스",
       "description": null
     }
   },
@@ -9838,6 +10147,40 @@
     },
     "_search_ko": {
       "title": "김한솔 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260621_7849bdd0-87c2-4d02-926f-d7b7a53d0931",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-21T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopdYmRmmJ/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-21T09:00:00+00:00",
+    "date": "2026-06-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Hyojungri X Kim Daegyu Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hyojungri X Kim Daegyu Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "효정리 X 김대규 듀오",
       "description": null
     }
   },
@@ -10284,6 +10627,40 @@
     }
   },
   {
+    "id": "evt_20260627_e818cdbb-377a-477f-96b8-ee8e78e932f9",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-27T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopdYmRmmJ/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-27T09:00:00+00:00",
+    "date": "2026-06-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Daegyu Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Daegyu Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김대규 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260627_aa8e8d7e-bc1d-43d1-af8e-ce2e48e8bc78",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-06-27T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYAFoVykpRx/",
@@ -10416,6 +10793,40 @@
     },
     "_search_ko": {
       "title": "트롬본 검과 죄인들",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260628_782b5484-2e9d-4a04-bb46-e16ac437f5b2",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-28T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYopdYmRmmJ/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-06-28T09:00:00+00:00",
+    "date": "2026-06-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Seonjeong Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Seonjeong Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "선정 퀄텟",
       "description": null
     }
   },
