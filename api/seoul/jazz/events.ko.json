@@ -2307,7 +2307,7 @@
   {
     "id": "evt_20260524_134b2165-e475-4cf7-bdff-d2b858be7165",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-05-24T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYNF9cdkwXW/",
+    "source_url": "https://www.instagram.com/p/DYsCOS4T07H/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -2318,8 +2318,12 @@
     "date": "2026-05-24",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": null
       }
     ],
     "price": null,
