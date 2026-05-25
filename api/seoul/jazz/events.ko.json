@@ -583,7 +583,7 @@
   {
     "id": "evt_20260526_d38fa091-a106-49e3-bda6-5a7c46de0e66",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-05-26T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXtdEjQk0Pg/",
+    "source_url": "https://www.instagram.com/p/DYxIdz-TkuO/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -598,7 +598,7 @@
         "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "2026 재즈피플 라이징 스타",
     "description": null,
@@ -606,7 +606,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "2026 Jazz People Rising Stars",
+      "title": "2026 Jazzpeople Rising Stars",
       "description": null
     },
     "_search_ko": {
@@ -1033,7 +1033,7 @@
   {
     "id": "evt_20260527_7c6ff867-7666-45e2-bd16-50ced2c3f3b7",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-05-27T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXtdEjQk0Pg/",
+    "source_url": "https://www.instagram.com/p/DYxIdz-TkuO/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -1048,7 +1048,7 @@
         "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "2026 재즈피플 라이징 스타",
     "description": null,
@@ -1056,7 +1056,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "2026 Jazz People Rising Stars",
+      "title": "2026 Jazzpeople Rising Stars",
       "description": null
     },
     "_search_ko": {
@@ -2437,6 +2437,40 @@
     }
   },
   {
+    "id": "evt_20260529_3d37d12d-5259-426a-beb0-36961c5612fb",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-05-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYxWnXHvrFi/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-05-29T11:00:00+00:00",
+    "date": "2026-05-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "현매 20,000₩",
+    "llm_confidence": 1.0,
+    "title": "다은 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "DAEUN QUARTET",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "다은 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260529_726c979c-35b3-4dab-a529-509c2ce06b58",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-05-29T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DXeYgR9D73Y/",
@@ -3518,6 +3552,40 @@
     },
     "_search_ko": {
       "title": "마르디 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260530_b9037828-ffc4-40bd-b8f8-9ebd4846bd6a",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-05-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DYxWnXHvrFi/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-05-30T11:00:00+00:00",
+    "date": "2026-05-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "현매 20,000₩",
+    "llm_confidence": 1.0,
+    "title": "다은 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "DAEUN QUARTET",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "다은 퀄텟",
       "description": null
     }
   },
