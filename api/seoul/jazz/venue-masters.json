@@ -3533,6 +3533,7 @@
   },
   {
     "ig_handle": "houseofbrown.seoul",
+    "address_text": null,
     "address_components": null,
     "location_lat": null,
     "location_lon": null,
@@ -3559,8 +3560,7 @@
     },
     "genres": [
       "jazz",
-      "blues",
-      "live music"
+      "blues"
     ],
     "websites": null,
     "links": {
@@ -3581,36 +3581,37 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "하우스 오브 브라운 재즈바",
+        "name": "하우스 오브 브라운",
         "address_text": "57-3 Songpa-dong, Songpa District, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
         "subway_nearby": "9호선 송파나루역 1번 출구에서 376m",
         "booking_link": "https://app.catchtable.co.kr/ct/shop/houseofbrown.seoul",
-        "notes": "석촌호수, 송리단길에 위치한 작은 뉴욕 🗽",
+        "notes": "석촌호수, 송리단길에 위치한 작은 뉴욕. 예약, 대관문의 DM or CATCHTABLE.",
         "i18n": {
           "name": {
-            "ko": "하우스 오브 브라운 재즈바",
-            "en": "House of Brown Jazz Bar"
+            "ko": "하우스 오브 브라운",
+            "en": "House of Brown"
           },
           "address_text": {
             "ko": "서울 송파구 송파동 57-3",
             "en": "57-3 Songpa-dong, Songpa District, Seoul, South Korea"
           },
           "notes": {
-            "ko": "석촌호수, 송리단길에 위치한 작은 뉴욕 🗽",
-            "en": "A small New York located in Seokchon Lake, Songnidan-gil 🗽"
+            "ko": "석촌호수, 송리단길에 위치한 작은 뉴욕. 예약, 대관문의 DM or CATCHTABLE.",
+            "en": "A small New York located in Seokchon Lake, Songnidan-gil. Booking and rental inquiries via DM or CATCHTABLE."
           }
         }
       }
     ],
-    "last_analyzed_at": "2026-03-01T00:46:40.390886+09:00",
-    "confidence": 1,
+    "last_analyzed_at": "2026-05-16",
+    "confidence": 1.0,
     "extraction_version": "1.0",
     "sources": [
-      "houseofbrown.seoul",
+      "instagram",
       "maps:https://maps.google.com/?cid=6087030527074110830",
+      "maps:https://maps.google.com/?cid=17671353726141817992",
       "gemini:enrich"
     ],
     "model_name": "gemini-2.5-flash",
@@ -3618,24 +3619,19 @@
     "prompt_version": "2.4.4",
     "i18n": {
       "name": {
-        "ko": "하우스 오브 브라운 재즈바",
-        "en": "House of Brown Jazz Bar"
+        "ko": "하우스 오브 브라운",
+        "en": "House of Brown"
       },
-      "address_text": {
-        "ko": "서울 송파구 송파동 57-3",
-        "en": "57-3 Songpa-dong, Songpa District, Seoul, South Korea"
-      },
+      "address_text": null,
       "notes": null,
       "genres": {
         "ko": [
           "재즈",
-          "블루스",
-          "라이브 음악"
+          "블루스"
         ],
         "en": [
           "Jazz",
-          "Blues",
-          "Live Music"
+          "Blues"
         ]
       },
       "subway_nearby": {
@@ -3645,7 +3641,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "5a5ff7fd734efe6e4de0b3f4b3354d1f211676483aed3640546ff24622e70cfa"
+    "_profile_hash": "a072b64bfb5c62a93b28714ddb193a7fc94099d1373cbf151d89da6fb9e49419"
   },
   {
     "ig_handle": "idenhouseinsta",
@@ -6781,6 +6777,7 @@
   },
   {
     "ig_handle": "seobs_bar",
+    "address_text": null,
     "address_components": null,
     "location_lat": null,
     "location_lon": null,
@@ -6789,10 +6786,10 @@
       "mon": null,
       "tue": null,
       "wed": null,
-      "thu": "7:00 PM - 12:00 AM",
-      "fri": "7:00 PM - 12:00 AM",
-      "sat": "7:00 PM - 12:00 AM",
-      "sun": "7:00 PM - 11:00 PM"
+      "thu": "19:00-00:00",
+      "fri": "19:00-00:00",
+      "sat": "19:00-00:00",
+      "sun": "19:00-23:00"
     },
     "typical_show_times": {
       "mon": null,
@@ -6816,11 +6813,11 @@
       ]
     },
     "genres": [
-      "Jazz",
-      "Blues"
+      "jazz",
+      "blues"
     ],
     "websites": [
-      "https://www.tripadvisor.co.kr/Restaurant_Review-g294197-d33996754-Reviews-SEOB_s-Seoul.html"
+      "https://tulip-wealth-e60.notion.site/SEOB-s-Jazz-Class-35f5489058ec80548f14da3bce8c032c?source=copy_link"
     ],
     "links": {
       "instagram": "https://www.instagram.com/seobs_bar",
@@ -6830,16 +6827,17 @@
       "naver_map": "https://naver.me/GubwDc5f"
     },
     "contacts": {
-      "phone": null,
+      "phone": "010-4519-5422",
       "email": null
     },
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
+    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "섭스",
+        "name": "SEOB's",
         "address_text": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
@@ -6849,40 +6847,32 @@
         "notes": "DM us to make a reservation / Walk-in available",
         "i18n": {
           "name": {
-            "ko": "섭스",
-            "en": "Seob's"
+            "ko": "세옵스",
+            "en": "SEOB's"
           },
           "address_text": {
             "ko": "서울 마포구 성산동 3-24",
             "en": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea"
           },
           "notes": {
-            "ko": "DM으로 예약 문의 / 현장 방문 가능",
+            "ko": "예약은 DM 문의 / 워크인 가능",
             "en": "DM us to make a reservation / Walk-in available"
           }
         }
       }
     ],
-    "last_analyzed_at": "2026-02-09T16:48:32.766035+09:00",
+    "last_analyzed_at": "2026-05-21T09:10:36.463081+09:00",
     "confidence": 1,
     "extraction_version": "1.0",
     "sources": [
       "https://www.instagram.com/seobs_bar",
-      "https://naver.me/GubwDc5f",
       "https://app.catchtable.co.kr/ct/shop/seobs?from=share&type=DINING",
+      "https://naver.me/GubwDc5f",
       "https://share.google/fbYMsq7FP0I7aNHDp",
-      "https://www.tripadvisor.co.kr/Restaurant_Review-g294197-d33996754-Reviews-SEOB_s-Seoul.html",
+      "https://tulip-wealth-e60.notion.site/SEOB-s-Jazz-Class-35f5489058ec80548f14da3bce8c032c?source=copy_link",
+      "https://wa.me/8201045195422?countryName=KR&countryCode=82&phoneNumber=01045195422",
       "maps:https://maps.google.com/?cid=12394425489685322204",
-      "maps:https://maps.google.com/?cid=15080904583347045980",
-      "maps:https://maps.google.com/?cid=18202067853516396788",
-      "maps:https://maps.google.com/?cid=15846316483470717562",
-      "maps:https://maps.google.com/?cid=18303268232007388433",
-      "maps:https://maps.google.com/?cid=6083141359336001075",
-      "maps:https://maps.google.com/?cid=4688552731616992708",
-      "maps:https://maps.google.com/?cid=2150508554186487875",
-      "maps:https://maps.google.com/?cid=14058063771170785033",
-      "maps:https://maps.google.com/?cid=17858031723593686341",
-      "maps:https://maps.google.com/?cid=14784535380085560755",
+      "maps:https://maps.google.com/?cid=12113728602982262134",
       "gemini:enrich"
     ],
     "model_name": "gemini-2.5-flash",
@@ -6890,17 +6880,11 @@
     "prompt_version": "2.4.4",
     "i18n": {
       "name": {
-        "ko": "섭스",
-        "en": "Seob's"
+        "ko": "세옵스",
+        "en": "SEOB's"
       },
-      "address_text": {
-        "ko": "서울 마포구 성산동 3-24",
-        "en": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea"
-      },
-      "notes": {
-        "ko": "DM으로 예약 문의 / 현장 방문 가능",
-        "en": "DM us to make a reservation / Walk-in available"
-      },
+      "address_text": null,
+      "notes": null,
       "genres": {
         "ko": [
           "재즈",
@@ -6912,13 +6896,13 @@
         ]
       },
       "subway_nearby": {
-        "ko": "경의중앙가좌역 1번 출구에서 512m",
+        "ko": "경의중앙 가좌역 1번 출구에서 512m",
         "en": "512m from Gyeongui-Jungang Gajwa Station Exit 1"
       },
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "119d15bf2f9df31d4ea730b3879e7909c619c7e23ff7498083c0ae8310198c05"
+    "_profile_hash": "020111976309161ae7e08ea518eebd3b487c04eb9d79965ae35cc8aaa0d783d4"
   },
   {
     "ig_handle": "seoul.society.club",

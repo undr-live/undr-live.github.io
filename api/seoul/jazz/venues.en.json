@@ -2517,7 +2517,7 @@
     "id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
     "tier": 2,
     "ig_handle": "houseofbrown.seoul",
-    "name_irl": "House of Brown Jazz Bar",
+    "name_irl": "House of Brown",
     "location_text": "57-3 Songpa-dong, Songpa District, Seoul, South Korea",
     "location_lat": null,
     "location_lon": null,
@@ -2535,26 +2535,26 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "하우스 오브 브라운 재즈바",
+          "name": "하우스 오브 브라운",
           "address_text": "57-3 Songpa-dong, Songpa District, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": "9호선 송파나루역 1번 출구에서 376m",
           "booking_link": "https://app.catchtable.co.kr/ct/shop/houseofbrown.seoul",
-          "notes": "석촌호수, 송리단길에 위치한 작은 뉴욕 🗽",
+          "notes": "석촌호수, 송리단길에 위치한 작은 뉴욕. 예약, 대관문의 DM or CATCHTABLE.",
           "i18n": {
             "name": {
-              "ko": "하우스 오브 브라운 재즈바",
-              "en": "House of Brown Jazz Bar"
+              "ko": "하우스 오브 브라운",
+              "en": "House of Brown"
             },
             "address_text": {
               "ko": "서울 송파구 송파동 57-3",
               "en": "57-3 Songpa-dong, Songpa District, Seoul, South Korea"
             },
             "notes": {
-              "ko": "석촌호수, 송리단길에 위치한 작은 뉴욕 🗽",
-              "en": "A small New York located in Seokchon Lake, Songnidan-gil 🗽"
+              "ko": "석촌호수, 송리단길에 위치한 작은 뉴욕. 예약, 대관문의 DM or CATCHTABLE.",
+              "en": "A small New York located in Seokchon Lake, Songnidan-gil. Booking and rental inquiries via DM or CATCHTABLE."
             }
           }
         }
@@ -2581,24 +2581,19 @@
     },
     "i18n_data": {
       "name": {
-        "ko": "하우스 오브 브라운 재즈바",
-        "en": "House of Brown Jazz Bar"
+        "ko": "하우스 오브 브라운",
+        "en": "House of Brown"
       },
-      "address_text": {
-        "ko": "서울 송파구 송파동 57-3",
-        "en": "57-3 Songpa-dong, Songpa District, Seoul, South Korea"
-      },
+      "address_text": null,
       "notes": null,
       "genres": {
         "ko": [
           "재즈",
-          "블루스",
-          "라이브 음악"
+          "블루스"
         ],
         "en": [
           "Jazz",
-          "Blues",
-          "Live Music"
+          "Blues"
         ]
       },
       "subway_nearby": {
@@ -5040,6 +5035,110 @@
     }
   },
   {
+    "id": "ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521",
+    "tier": 3,
+    "ig_handle": "seobs_bar",
+    "name_irl": "SEOB's",
+    "location_text": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea",
+    "location_lat": 37.56775,
+    "location_lon": 126.90263,
+    "phone": "010-4519-5422",
+    "email": null,
+    "google_map_url": "https://share.google/fbYMsq7FP0I7aNHDp",
+    "booking_url": "https://app.catchtable.co.kr/ct/shop/seobs?from=share&type=DINING",
+    "homepage_url": null,
+    "websites": [
+      "https://tulip-wealth-e60.notion.site/SEOB-s-Jazz-Class-35f5489058ec80548f14da3bce8c032c?source=copy_link"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "SEOB's",
+          "address_text": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": "https://app.catchtable.co.kr/ct/shop/seobs?from=share&type=DINING",
+          "notes": "DM us to make a reservation / Walk-in available",
+          "i18n": {
+            "name": {
+              "ko": "세옵스",
+              "en": "SEOB's"
+            },
+            "address_text": {
+              "ko": "서울 마포구 성산동 3-24",
+              "en": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea"
+            },
+            "notes": {
+              "ko": "예약은 DM 문의 / 워크인 가능",
+              "en": "DM us to make a reservation / Walk-in available"
+            }
+          }
+        }
+      ],
+      "opening_hours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": "19:00-00:00",
+        "fri": "19:00-00:00",
+        "sat": "19:00-00:00",
+        "sun": "19:00-23:00"
+      },
+      "typical_show_times": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": [
+          "20:00",
+          "21:00"
+        ],
+        "fri": [
+          "20:00",
+          "21:00"
+        ],
+        "sat": [
+          "20:00",
+          "21:00"
+        ],
+        "sun": [
+          "20:00",
+          "21:00"
+        ]
+      }
+    },
+    "i18n_data": {
+      "name": {
+        "ko": "세옵스",
+        "en": "SEOB's"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "ko": [
+          "재즈",
+          "블루스"
+        ],
+        "en": [
+          "Jazz",
+          "Blues"
+        ]
+      },
+      "subway_nearby": {
+        "ko": "경의중앙 가좌역 1번 출구에서 512m",
+        "en": "512m from Gyeongui-Jungang Gajwa Station Exit 1"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "tier": 1,
     "ig_handle": "subriot_hbc",
@@ -5193,116 +5292,6 @@
         ]
       },
       "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
-    "id": "ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521",
-    "tier": 3,
-    "ig_handle": "seobs_bar",
-    "name_irl": "Seob's",
-    "location_text": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea",
-    "location_lat": 37.56775,
-    "location_lon": 126.90263,
-    "phone": "010-4519-5422",
-    "email": null,
-    "google_map_url": "https://share.google/fbYMsq7FP0I7aNHDp",
-    "booking_url": "https://app.catchtable.co.kr/ct/shop/seobs?from=share&type=DINING",
-    "homepage_url": null,
-    "websites": [
-      "https://www.tripadvisor.co.kr/Restaurant_Review-g294197-d33996754-Reviews-SEOB_s-Seoul.html"
-    ],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "섭스",
-          "address_text": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea",
-          "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
-          "subway_nearby": null,
-          "booking_link": "https://app.catchtable.co.kr/ct/shop/seobs?from=share&type=DINING",
-          "notes": "DM us to make a reservation / Walk-in available",
-          "i18n": {
-            "name": {
-              "ko": "섭스",
-              "en": "Seob's"
-            },
-            "address_text": {
-              "ko": "서울 마포구 성산동 3-24",
-              "en": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea"
-            },
-            "notes": {
-              "ko": "DM으로 예약 문의 / 현장 방문 가능",
-              "en": "DM us to make a reservation / Walk-in available"
-            }
-          }
-        }
-      ],
-      "opening_hours": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": "7:00 PM - 12:00 AM",
-        "fri": "7:00 PM - 12:00 AM",
-        "sat": "7:00 PM - 12:00 AM",
-        "sun": "7:00 PM - 11:00 PM"
-      },
-      "typical_show_times": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": [
-          "20:00",
-          "21:00"
-        ],
-        "fri": [
-          "20:00",
-          "21:00"
-        ],
-        "sat": [
-          "20:00",
-          "21:00"
-        ],
-        "sun": [
-          "20:00",
-          "21:00"
-        ]
-      }
-    },
-    "i18n_data": {
-      "name": {
-        "ko": "섭스",
-        "en": "Seob's"
-      },
-      "address_text": {
-        "ko": "서울 마포구 성산동 3-24",
-        "en": "3-24 Seongsan-dong, Mapo-gu, Seoul, South Korea"
-      },
-      "notes": {
-        "ko": "DM으로 예약 문의 / 현장 방문 가능",
-        "en": "DM us to make a reservation / Walk-in available"
-      },
-      "genres": {
-        "ko": [
-          "재즈",
-          "블루스"
-        ],
-        "en": [
-          "Jazz",
-          "Blues"
-        ]
-      },
-      "subway_nearby": {
-        "ko": "경의중앙가좌역 1번 출구에서 512m",
-        "en": "512m from Gyeongui-Jungang Gajwa Station Exit 1"
-      },
       "food_policy": null,
       "age_limit": null
     }
