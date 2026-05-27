@@ -420,6 +420,44 @@
     }
   },
   {
+    "id": "evt_20260527_aa4dd01c-3bbc-467c-8814-a1527353639e",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-05-27T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY1IpgQgZov/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-05-27T10:30:00+00:00",
+    "date": "2026-05-27",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Seon-mi Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Seon-mi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이선미 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260527_6feb0371-6032-4172-8d0d-e41668f0d19e",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-05-27T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYwJPJmoNyL/",
@@ -2945,7 +2983,7 @@
   {
     "id": "evt_20260530_824af7d1-9133-439c-a9a5-8cb2d72d5dc5",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-05-30T03:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
+    "source_url": "https://www.instagram.com/p/DY1N76lyT7d/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musicians": [],
@@ -2960,19 +2998,19 @@
         "time": "12:00"
       }
     ],
-    "price": "20,000원",
+    "price": "10,000원",
     "llm_confidence": 1.0,
-    "title": "Jazz Brunch (Choi Eun-chang)",
+    "title": "Jazz Brunch: Choi Eun-chang Shin Dong-ha 2 Bass Performance",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jazz Brunch (Choi Eun-chang)",
+      "title": "Jazz Brunch: Choi Eun-chang Shin Dong-ha 2 Bass Performance",
       "description": null
     },
     "_search_ko": {
-      "title": "재즈 브런치 (최은창)",
+      "title": "재즈 브런치: 최은창 신동하 2 베이스 퍼포먼스",
       "description": null
     }
   },
