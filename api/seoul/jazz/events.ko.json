@@ -981,7 +981,7 @@
   {
     "id": "evt_20260528_cbc26268-71cd-4db5-8fdf-c0020a5f69b9",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-05-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYXK7l0EaCX/",
+    "source_url": "https://www.instagram.com/p/DY1_-bXERx3/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -1195,6 +1195,40 @@
     },
     "_search_ko": {
       "title": "임단비 트리오 + 1",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260528_ec8dc1dc-d53b-41f1-8c36-5afe265a3ecf",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-05-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY2XTEyzb59/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-05-28T11:00:00+00:00",
+    "date": "2026-05-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "말로 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Malo Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "말로 밴드",
       "description": null
     }
   },
