@@ -1436,7 +1436,7 @@
   {
     "id": "evt_20260529_f2738eeb-b9b5-4ae1-b7bf-3b6be88f919f",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-05-29T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYgvhK1k-jU/",
+    "source_url": "https://www.instagram.com/p/DY4dQmDkwid/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musicians": [],
@@ -1453,17 +1453,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "서보경 퀄텟",
+    "title": "서보경",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Seo Bo-kyung Quartet",
+      "title": "Seo Bo-kyung",
       "description": null
     },
     "_search_ko": {
-      "title": "서보경 퀄텟",
+      "title": "서보경",
       "description": null
     }
   },
@@ -1756,6 +1756,40 @@
     },
     "_search_ko": {
       "title": "구민상 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260529_ff2c7434-ea13-4e6a-9356-0a872b71792b",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-05-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY4z3KhTLvE/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-05-29T11:00:00+00:00",
+    "date": "2026-05-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "오영준 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Oh Young-jun Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "오영준 퀸텟",
       "description": null
     }
   },
@@ -2074,6 +2108,40 @@
     },
     "_search_ko": {
       "title": "무드 발라드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260529_ee198c97-d5e8-4aa7-a3d8-ec32b60c73c0",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-05-29T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY4dQmDkwid/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-05-29T13:00:00+00:00",
+    "date": "2026-05-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "캔자스 시티 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kansas City Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "캔자스 시티 밴드",
       "description": null
     }
   },
