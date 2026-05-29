@@ -1044,6 +1044,44 @@
     }
   },
   {
+    "id": "evt_20260529_40872850-eb58-422b-806d-f398f89ff9ea",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-05-29T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY504tdAaxs/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-05-29T10:30:00+00:00",
+    "date": "2026-05-29",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "우선희 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Woo Sun-hee Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "우선희 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260529_37ae835c-34fa-44c4-ace7-a34c359b83e6",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-05-29T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DYwSvrQmsVC/",
@@ -1794,6 +1832,40 @@
     }
   },
   {
+    "id": "evt_20260529_fe01f4c3-f2a6-4646-baa0-e6cc6d777f78",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-05-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY51Y18k0CK/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-05-29T11:00:00+00:00",
+    "date": "2026-05-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "Free entry / Deferred Payment",
+    "llm_confidence": 1.0,
+    "title": "에니그마타",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Enigmata",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "에니그마타",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260529_726c979c-35b3-4dab-a529-509c2ce06b58",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-05-29T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DXeYgR9D73Y/",
@@ -2142,6 +2214,40 @@
     },
     "_search_ko": {
       "title": "캔자스 시티 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260529_f35ba5b7-979d-4a20-af2b-adcf2241494a",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-05-29T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY51Y18k0CK/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-05-29T13:00:00+00:00",
+    "date": "2026-05-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "Free entry / Deferred Payment",
+    "llm_confidence": 1.0,
+    "title": "이우진 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Woojin Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이우진 퀄텟",
       "description": null
     }
   },
