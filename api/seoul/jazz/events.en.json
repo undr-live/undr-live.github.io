@@ -1504,7 +1504,7 @@
   {
     "id": "evt_20260530_824af7d1-9133-439c-a9a5-8cb2d72d5dc5",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-05-30T03:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DY1N76lyT7d/",
+    "source_url": "https://www.instagram.com/p/DY8raLZym5T/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musicians": [],
@@ -1521,17 +1521,17 @@
     ],
     "price": "10,000원",
     "llm_confidence": 1.0,
-    "title": "Jazz Brunch: Choi Eun-chang Shin Dong-ha 2 Bass Performance",
+    "title": "Choi Eun-chang Electric Bass, Shin Dong-ha Contrabass",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jazz Brunch: Choi Eun-chang Shin Dong-ha 2 Bass Performance",
+      "title": "Choi Eun-chang Electric Bass, Shin Dong-ha Contrabass",
       "description": null
     },
     "_search_ko": {
-      "title": "재즈 브런치: 최은창 신동하 2 베이스 퍼포먼스",
+      "title": "최은창 일렉트릭 베이스, 신동하 콘트라베이스",
       "description": null
     }
   },
@@ -2764,7 +2764,7 @@
   {
     "id": "evt_20260530_d4b01ca7-cb08-4541-bfc2-9d3b13ba95ab",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-05-30T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXeYgR9D73Y/",
+    "source_url": "https://www.instagram.com/p/DY8YPasvMD5/",
     "venue_handle": "dido_jazz_lounge",
     "musician_ids": [],
     "musicians": [],
@@ -2781,13 +2781,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Kim Hyo-jin Brazil Affair",
+    "title": "Kim Hyojin Brazil Affair",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Hyo-jin Brazil Affair",
+      "title": "Kim Hyojin Brazil Affair",
       "description": null
     },
     "_search_ko": {
@@ -9633,6 +9633,44 @@
     },
     "_search_ko": {
       "title": "더 서레귤러스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260620_348c269f-42f3-457f-a8b4-61b730a22705",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-06-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY8miN7K2mn/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-06-20T11:00:00+00:00",
+    "date": "2026-06-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "10000원",
+    "llm_confidence": 1.0,
+    "title": "Hey P Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hey P Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "헤이 피 밴드",
       "description": null
     }
   },
