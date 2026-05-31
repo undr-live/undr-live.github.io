@@ -2457,7 +2457,7 @@
   {
     "id": "evt_20260531_28a57e6b-fa9e-496b-80fb-1895754b609d",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-05-31T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DY9boHZh6yW/",
+    "source_url": "https://www.instagram.com/p/DY_QtKTBSUx/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -2468,8 +2468,12 @@
     "date": "2026-05-31",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
@@ -2480,7 +2484,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Junyoung Trio",
+      "title": "Lee Jun-young Trio",
       "description": null
     },
     "_search_ko": {
@@ -2525,7 +2529,7 @@
   {
     "id": "evt_20260531_d7b8e741-6f2b-4a15-bbdf-8599c45312cf",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-05-31T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DXeYgR9D73Y/",
+    "source_url": "https://www.instagram.com/p/DY_Rka0PALj/",
     "venue_handle": "dido_jazz_lounge",
     "musician_ids": [],
     "musicians": [],
@@ -4183,6 +4187,40 @@
     },
     "_search_ko": {
       "title": "이수경 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260605_d607d885-35c5-43c3-93e4-9ac90b61bcbe",
+    "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-06-05T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY_LSyjPxkC/",
+    "venue_handle": "dido_jazz_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
+    "venue_location_id": "main",
+    "datetime": "2026-06-05T10:00:00+00:00",
+    "date": "2026-06-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "K-pop 재즈 프로젝트 (보컬 김한울)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "K-pop Jazz Project (Vocal Kim Han-wool)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "K-pop 재즈 프로젝트 (보컬 김한울)",
       "description": null
     }
   },
