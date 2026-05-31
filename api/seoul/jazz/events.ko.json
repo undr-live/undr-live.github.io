@@ -1819,6 +1819,40 @@
     }
   },
   {
+    "id": "evt_20260531_1b7cf75c-85be-4680-84eb-d0374e73f898",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-05-31T08:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY_HeGIE9Tk/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-05-31T08:00:00+00:00",
+    "date": "2026-05-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "17:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한재연 네트워킹 파티",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Korean Jazz Musician Collective Networking Party",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한재연 네트워킹 파티",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260531_1f73d07a-dc2f-4adf-8d36-1eebc2d0327d",
     "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-05-31T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DX_SOkeEW2V/",
@@ -2451,6 +2485,40 @@
     },
     "_search_ko": {
       "title": "이준영 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260531_d4711eff-6ecd-4f3b-8b62-e910cd3c3a2a",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-05-31T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DY-_M8yTYfU/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-05-31T11:00:00+00:00",
+    "date": "2026-05-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "잼데이",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jam Day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "잼데이",
       "description": null
     }
   },
@@ -4703,7 +4771,7 @@
   {
     "id": "evt_20260606_593cd2ea-74e1-4807-adfd-5684f2775f04",
     "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-06-06T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYo7XXLyHD0/",
+    "source_url": "https://www.instagram.com/p/DY-22IbDBsM/",
     "venue_handle": "bluecat.fezh",
     "musician_ids": [],
     "musicians": [],
@@ -4714,8 +4782,12 @@
     "date": "2026-06-06",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
       }
     ],
     "price": null,
@@ -4726,7 +4798,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Kwang-yong Trio",
+      "title": "Kim Gwang-yong Trio",
       "description": null
     },
     "_search_ko": {
