@@ -1804,6 +1804,40 @@
     }
   },
   {
+    "id": "evt_20260605_92254b50-6155-440b-8c6d-a8032d8ab265",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-06-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZCAHAUPKj6/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-06-05T11:00:00+00:00",
+    "date": "2026-06-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "The Midnight J. Project (Vocal)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Midnight J. Project (Vocal)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 미드나잇 제이 프로젝트 (보컬)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260605_e20276f7-9be0-4d49-b9f1-97356e57184b",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-06-05T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DYn8r25jxit/",
@@ -2568,6 +2602,40 @@
     },
     "_search_ko": {
       "title": "A. R. B",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260606_f04a951c-b0a3-4916-9f28-55fdd8de12ae",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-06-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZEi0IVv9qz/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-06-06T11:00:00+00:00",
+    "date": "2026-06-06",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Seo Tae-eun Quintet (Vocal)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Seo Tae-eun Quintet (Vocal)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "서태은 퀸텟 (보컬)",
       "description": null
     }
   },
