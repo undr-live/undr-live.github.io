@@ -278,7 +278,7 @@
   {
     "id": "evt_20260605_53df3977-be39-4ff8-993a-ff1c6b527b22",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-05T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYzEy56k6Bm/",
+    "source_url": "https://www.instagram.com/p/DZCeQ-WE5ik/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -301,7 +301,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Joomee Jazz Palette",
+      "title": "Lee Jumi Jazz Palette",
       "description": null
     },
     "_search_ko": {
@@ -1500,7 +1500,7 @@
   {
     "id": "evt_20260606_45646e26-ccad-42b9-a63d-457f4bf2ac46",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-06T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYzEy56k6Bm/",
+    "source_url": "https://www.instagram.com/p/DZCeQ-WE5ik/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -1517,17 +1517,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "한상원 밴드",
+    "title": "박주원&집시밴드",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Han Sangwon Band",
+      "title": "Park Joowon & Gypsy Band",
       "description": null
     },
     "_search_ko": {
-      "title": "한상원 밴드",
+      "title": "박주원&집시밴드",
       "description": null
     }
   },
@@ -1884,6 +1884,40 @@
     },
     "_search_ko": {
       "title": "커먼 스텔라",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260606_f988c2b3-c475-4955-b741-fe7f138daf73",
+    "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-06-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZEv78uzoda/",
+    "venue_handle": "yellow___taxi",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_cf0cbcc1-8a48-4494-9772-faba6817a91a",
+    "venue_location_id": "main",
+    "datetime": "2026-06-06T11:00:00+00:00",
+    "date": "2026-06-06",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "이대원 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Daewon Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이대원 트리오",
       "description": null
     }
   },
@@ -2480,7 +2514,7 @@
   {
     "id": "evt_20260607_c987229a-a2de-4090-a722-cd63e17e0f31",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-07T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYzEy56k6Bm/",
+    "source_url": "https://www.instagram.com/p/DZCeQ-WE5ik/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -2497,17 +2531,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "잼데이 (호스트 말로 밴드)",
+    "title": "잼데이",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jam Day (Host Malo Band)",
+      "title": "Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "잼데이 (호스트 말로 밴드)",
+      "title": "잼데이",
       "description": null
     }
   },
@@ -2796,6 +2830,40 @@
     }
   },
   {
+    "id": "evt_20260608_2f5e41b5-ecb0-4868-a0b8-d97b9b36e331",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZCo3WaE28y/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-06-08T11:00:00+00:00",
+    "date": "2026-06-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임채희 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Im Chae-hee Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임채희 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260609_ff49da5d-a8bb-48cc-8ea0-7898f7fa07b1",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-06-09T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DY35TgXRuJm/",
@@ -2932,6 +3000,40 @@
     },
     "_search_ko": {
       "title": "어반 잼 데이",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260609_d78e5f04-20c8-41d2-b457-39f65f6ede7e",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-09T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZCo3WaE28y/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-06-09T11:00:00+00:00",
+    "date": "2026-06-09",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "구교진 뉴타운",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Gu Gyo-jin Newtown",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "구교진 뉴타운",
       "description": null
     }
   },
@@ -3204,6 +3306,40 @@
     },
     "_search_ko": {
       "title": "테라이 유이치 윤찬 로버트 페르난데스 김정우 퀄텟 라이브 & 잼세션",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260610_2470cf05-41ef-4e10-a188-b958adb2c3b3",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-10T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZCo3WaE28y/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-06-10T11:00:00+00:00",
+    "date": "2026-06-10",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한석규 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Seok-gyu Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한석규 밴드",
       "description": null
     }
   },
@@ -3544,6 +3680,40 @@
     },
     "_search_ko": {
       "title": "CMB WINE 청담 X 연남5701 첫 공연",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260611_9f03e2a4-f405-4de3-9a2f-ce16076eafc2",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZCo3WaE28y/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-06-11T11:00:00+00:00",
+    "date": "2026-06-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "말로 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Malo Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "말로 밴드",
       "description": null
     }
   },
@@ -3990,6 +4160,40 @@
     },
     "_search_ko": {
       "title": "미드나잇 J",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260612_721b4193-ab02-4b15-a3a2-4650e756e621",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZCo3WaE28y/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-06-12T11:00:00+00:00",
+    "date": "2026-06-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Art Of Legacy",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Art Of Legacy",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Art Of Legacy",
       "description": null
     }
   },
@@ -4610,6 +4814,40 @@
     }
   },
   {
+    "id": "evt_20260613_38f8e5fe-1918-4bb9-8cb1-e559dcdbffd1",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZCo3WaE28y/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-06-13T11:00:00+00:00",
+    "date": "2026-06-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260613_dea3673c-6a29-4e29-a754-08103e7c472e",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-06-13T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DYn8r25jxit/",
@@ -5086,6 +5324,40 @@
     },
     "_search_ko": {
       "title": "재즈 크라임스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260614_7c34556e-3e22-4fc4-b0be-7f4a044d051a",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZCo3WaE28y/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-06-14T11:00:00+00:00",
+    "date": "2026-06-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "잼데이",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jam Day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "잼데이",
       "description": null
     }
   },
