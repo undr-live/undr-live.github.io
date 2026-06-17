@@ -206,7 +206,7 @@
   {
     "id": "evt_20260617_d15b6178-25d7-49b8-96ea-740870195903",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-06-17T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZAFA1wpn44/",
+    "source_url": "https://www.instagram.com/p/DZiMjARk_nx/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
     "musicians": [],
@@ -221,7 +221,7 @@
         "time": "20:00"
       }
     ],
-    "price": "₩20K",
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "O Blues",
     "description": null,
@@ -516,7 +516,7 @@
   {
     "id": "evt_20260618_5fa1c0cc-64f3-4cf6-9c3e-9d99db38c27b",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-06-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZAFA1wpn44/",
+    "source_url": "https://www.instagram.com/p/DZiMjARk_nx/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
     "musicians": [],
@@ -531,15 +531,15 @@
         "time": "20:00"
       }
     ],
-    "price": "₩20K",
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Kim Tae-hoon X Jeong Hyun-woo Duo",
+    "title": "Kim Tae-hoon X Jung Hyun-woo Duo",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Tae-hoon X Jeong Hyun-woo Duo",
+      "title": "Kim Tae-hoon X Jung Hyun-woo Duo",
       "description": null
     },
     "_search_ko": {
@@ -1024,7 +1024,7 @@
   {
     "id": "evt_20260619_5cc81891-8b8c-43aa-86ea-bb5b37bacef4",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-06-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZAFA1wpn44/",
+    "source_url": "https://www.instagram.com/p/DZiMjARk_nx/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
     "musicians": [],
@@ -1039,7 +1039,7 @@
         "time": "20:00"
       }
     ],
-    "price": "₩20K",
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "Richiman & Groove Nice",
     "description": null,
@@ -1051,7 +1051,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "리치맨 앤 그루브 나이스",
+      "title": "리치맨 & 그루브 나이스",
       "description": null
     }
   },
@@ -1813,7 +1813,7 @@
   {
     "id": "evt_20260620_af287947-c0ec-4156-9e18-a02371f3a370",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-06-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZAFA1wpn44/",
+    "source_url": "https://www.instagram.com/p/DZiMjARk_nx/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
     "musicians": [],
@@ -1828,7 +1828,7 @@
         "time": "20:00"
       }
     ],
-    "price": "₩20K",
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "Yoo Hye-rin Band",
     "description": null,
@@ -4488,6 +4488,40 @@
     },
     "_search_ko": {
       "title": "ARB 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260627_cb1eb9f8-6120-45e0-83cf-98897cd6ceda",
+    "event_key": "v:ven_afc57e46-2933-4f92-8d8a-551c0ab86ddb|t:2026-06-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZoe9EwEYKW/",
+    "venue_handle": "cafe_gig",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_afc57e46-2933-4f92-8d8a-551c0ab86ddb",
+    "venue_location_id": "main",
+    "datetime": "2026-06-27T11:00:00+00:00",
+    "date": "2026-06-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "The Night and Day duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Night and Day duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "나이트 앤 데이 듀오",
       "description": null
     }
   },
