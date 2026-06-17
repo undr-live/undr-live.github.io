@@ -1336,6 +1336,40 @@
     }
   },
   {
+    "id": "evt_20260619_06cbc9d4-22cb-4dbc-8c99-b0b23abb0c22",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-06-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZmJ3sXP0NC/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-06-19T11:00:00+00:00",
+    "date": "2026-06-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "솔렌",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Solen",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "솔렌",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260619_ea9e9712-fd43-438e-aeff-0299bcfc561a",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-06-19T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DYn8r25jxit/",
@@ -2083,6 +2117,40 @@
     },
     "_search_ko": {
       "title": "오종대 밴드 (보컬 백효은)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260620_006b79dc-7114-43f0-901b-0c8e22b4e8a8",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-06-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZo7hN3v1cO/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-06-20T11:00:00+00:00",
+    "date": "2026-06-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "로맨스 던 (보컬)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Romance Dawn (Vocal)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "로맨스 던 (보컬)",
       "description": null
     }
   },
