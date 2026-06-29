@@ -1,586 +1,59 @@
 [
   {
-    "id": "evt_20260627_52b954a8-a316-431a-8f95-ebe50aa425cc",
-    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-06-27T15:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZzPUAbH1VP/",
+    "id": "evt_20260628_e341b90f-736f-4daf-b093-a4390364d437",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-06-28T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJd1DKDeeQ/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-06-28T15:00:00+00:00",
+    "date": "2026-06-29",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "코튼 클럽 밴드 (보컬 안성미)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Cotton Club Band (Vocal Ahn Sung-mi)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "코튼 클럽 밴드 (보컬 안성미)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260628_f405393c-c4e3-40c8-957d-7353db0ee717",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-06-28T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFURkBH-X2/",
     "venue_handle": "newall_jazz",
     "musician_ids": [],
     "musicians": [],
     "musician_ig_handles": [],
     "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
     "venue_location_id": "main",
-    "datetime": "2026-06-27T15:00:00+00:00",
-    "date": "2026-06-28",
+    "datetime": "2026-06-28T15:00:00+00:00",
+    "date": "2026-06-29",
     "sets": null,
     "price": null,
     "llm_confidence": 1.0,
-    "title": "필스 듀오",
+    "title": "김동현X임보영 듀오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Feel's Duo",
+      "title": "Kim Donghyun X Lim Boyoung Duo",
       "description": null
     },
     "_search_ko": {
-      "title": "필스 듀오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_245fdeda-6884-4f65-9790-420b24282f16",
-    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-06-28T04:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZ1_b37GD6b/",
-    "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T04:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "13:00"
-      }
-    ],
-    "price": "15,000원",
-    "llm_confidence": 1.0,
-    "title": "윤성희 현용선 듀오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Yun Seong-hui Hyeon Yong-seon Duo",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "윤성희 현용선 듀오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_782b5484-2e9d-4a04-bb46-e16ac437f5b2",
-    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-06-28T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYopdYmRmmJ/",
-    "venue_handle": "gwangalli_namme",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T09:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": null,
-        "time": "18:00"
-      }
-    ],
-    "price": "15,000원",
-    "llm_confidence": 1.0,
-    "title": "선정 퀄텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Seonjeong Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "선정 퀄텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_37054841-44a6-4010-9658-14dff973f78d",
-    "event_key": "v:ven_ee9d5587-be70-44b9-93d4-cc2eaf5bd4ec|t:2026-06-28T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZ6-pljGCwd/",
-    "venue_handle": "jazzgarage_official",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_ee9d5587-be70-44b9-93d4-cc2eaf5bd4ec",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T09:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": null,
-        "time": "18:00"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "잼 세션",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Jam Session",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "잼 세션",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_8d071485-cec2-4a6c-9c36-9c10b7f210cb",
-    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-06-28T09:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZrrI2dCW4L/",
-    "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T09:30:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": null,
-        "time": "18:30"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "해일럼스 러블리 프렌즈",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Haellum's Lovely Friends",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "해일럼스 러블리 프렌즈",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_0469ae43-ab46-41c6-9279-80c4a38d4a4d",
-    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-06-28T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
-    "venue_handle": "sounddog_jazz",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T10:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": null,
-        "time": "19:00"
-      }
-    ],
-    "price": "20,000원",
-    "llm_confidence": 1.0,
-    "title": "Nu3 트리오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Nu3 Trio",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "Nu3 트리오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_d3687cfa-510f-4234-a61e-fcb7f41398f6",
-    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-06-28T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZCJt4RoPnH/",
-    "venue_handle": "pdpdclub",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T10:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": null,
-        "time": "19:00"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "미나유 쿼텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Mina Yu Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "미나유 쿼텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_d9fab464-8a06-4748-bebc-a0da2f4f22b7",
-    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-06-28T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZ1_b37GD6b/",
-    "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T10:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": "2부",
-        "time": "19:00"
-      }
-    ],
-    "price": "15,000원",
-    "llm_confidence": 1.0,
-    "title": "김현미 퀸텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Kim Hyeon-mi Quintet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "김현미 퀸텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_a6ba4dfc-574b-474e-9e63-309b90c397df",
-    "event_key": "v:ven_ee9d5587-be70-44b9-93d4-cc2eaf5bd4ec|t:2026-06-28T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZhsf_qPpdT/",
-    "venue_handle": "jazzgarage_official",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_ee9d5587-be70-44b9-93d4-cc2eaf5bd4ec",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T10:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": null,
-        "time": "19:00"
-      }
-    ],
-    "price": "7,000원",
-    "llm_confidence": 1.0,
-    "title": "재즈 가라지 마지막 밤 잼 세션",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Jazz Garage Last Night Jam Session",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "재즈 가라지 마지막 밤 잼 세션",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_0c27e1e3-bd52-44db-af8e-d0003dc32274",
-    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-06-28T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZRNexWDQ_3/",
-    "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T10:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": "S1",
-        "time": "19:00"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "김한 & 로만 풀라티 듀오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Kim Han & Roman Pulati Duo",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "김한 & 로만 풀라티 듀오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_25194b72-ef97-4a9d-b3ba-aaa30de02979",
-    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-06-28T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZ4fbAdRCfI/",
-    "venue_handle": "mammy__blue",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T10:30:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:30"
-      },
-      {
-        "label": "2부",
-        "time": "20:25"
-      }
-    ],
-    "price": "10,000원",
-    "llm_confidence": 1.0,
-    "title": "윤성희 트리오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Yoon Sung-hee Trio",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "윤성희 트리오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_b7836cf6-d1ad-43d0-96c5-80d0960afc1e",
-    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-06-28T10:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZAAoOOmvDN/",
-    "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T10:40:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:40"
-      },
-      {
-        "label": "2부",
-        "time": "21:00"
-      }
-    ],
-    "price": "11,000원",
-    "llm_confidence": 1.0,
-    "title": "김동연 퀄텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Kim Dong-yeon Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "김동연 퀄텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_bf58dc10-7a56-4baa-976a-542e018d563a",
-    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-06-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZxW-enj1ap/",
-    "venue_handle": "jazzclub_evans",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T11:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "권예성 퀄텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Kwon Ye-sung Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "권예성 퀄텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_c98bb7c6-14f4-4efe-bb76-7294e7eea751",
-    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZpv8FaE6gG/",
-    "venue_handle": "jazzclub_janus",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T11:00:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "잼데이 (호스트 밴드: 말로, 이명건, 최진배, 이도헌)",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Jam Day (Host Band: Malo, Lee Myung-geon, Choi Jin-bae, Lee Do-heon)",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "잼데이 (호스트 밴드: 말로, 이명건, 최진배, 이도헌)",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_a23fede0-6790-467e-9e14-2bedcb499f83",
-    "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-06-28T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYn8r25jxit/",
-    "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T11:30:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:30"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "김광용 트리오 +1",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Kim Gwang Yong Trio +1",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "김광용 트리오 +1",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_f85ebc30-f70d-43e0-a8e8-b43fc6132e0b",
-    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-06-28T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZRNexWDQ_3/",
-    "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T11:30:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": "S2",
-        "time": "20:30"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "Coreplay",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Coreplay",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "Coreplay",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20260628_9914cbf7-e1ae-4ab4-b40d-30669678b8f1",
-    "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-06-28T11:45:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZmg95gCid3/",
-    "venue_handle": "michiko.seoul_official",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
-    "venue_location_id": "main",
-    "datetime": "2026-06-28T11:45:00+00:00",
-    "date": "2026-06-28",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "20:45"
-      },
-      {
-        "label": "2부",
-        "time": "21:45"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "조재범라틴유닛",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Jo Jae-beom Latin Unit",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "조재범라틴유닛",
+      "title": "김동현X임보영 듀오",
       "description": null
     }
   },
@@ -615,6 +88,40 @@
     },
     "_search_ko": {
       "title": "신윤우 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260629_76d43350-7cbc-4306-8ba4-f6eed1708afb",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-06-29T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJungjE4lg/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-06-29T10:00:00+00:00",
+    "date": "2026-06-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "금찬후 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Geum Chanhoo Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "금찬후 트리오",
       "description": null
     }
   },
@@ -689,7 +196,7 @@
   {
     "id": "evt_20260629_4e5e86df-1bae-4f89-ad9b-434dbbb1fed5",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-29T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DYzGVbXTYeE/",
+    "source_url": "https://www.instagram.com/p/DZ7UpJwE2tP/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -706,17 +213,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "재즈파크 빅밴드 (보컬 말로)",
+    "title": "후안 메히아 밴드",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jazz Park Big Band (Vocal Malo)",
+      "title": "Juan Mejia Band",
       "description": null
     },
     "_search_ko": {
-      "title": "재즈파크 빅밴드 (보컬 말로)",
+      "title": "후안 메히아 밴드",
       "description": null
     }
   },
@@ -751,6 +258,136 @@
     },
     "_search_ko": {
       "title": "코튼 클럽 밴드 (보컬 안성미)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260629_2e625e37-29db-45bd-b950-298e218ce626",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-06-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKOR6kh1fF/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-06-29T11:00:00+00:00",
+    "date": "2026-06-29",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이광혁과 재즈 짬뽕",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Kwang-hyuk and Jazz Jjamppong",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이광혁과 재즈 짬뽕",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260629_7d13e173-b019-40d1-bdda-2915062f3f13",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-06-29T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJungjE4lg/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-06-29T12:00:00+00:00",
+    "date": "2026-06-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김광은 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Kwangeun Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김광은 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260629_a5a18ea3-81f9-47a1-8f95-7f277899280f",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-06-29T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJd1DKDeeQ/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-06-29T15:00:00+00:00",
+    "date": "2026-06-30",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "더 신업 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Shin-Up Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 신업 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260629_333ebb57-7343-4e8b-8ecb-f159d999372d",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-06-29T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFURkBH-X2/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-06-29T15:00:00+00:00",
+    "date": "2026-06-30",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "레이첼몽드 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Rachel Monde Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "레이첼몽드 듀오",
       "description": null
     }
   },
@@ -891,6 +528,156 @@
     }
   },
   {
+    "id": "evt_20260630_55f8f980-22bf-407e-86de-d897aa74d14c",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-06-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ7UpJwE2tP/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-06-30T11:00:00+00:00",
+    "date": "2026-06-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "오뺀 (보컬 백효은)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "O Band (Vocal Baek Hyo-eun)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "오뺀 (보컬 백효은)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260630_0cd773c0-cad1-47de-8b62-ed1addd7890c",
+    "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-06-30T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ38st_j5Jz/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
+    "venue_location_id": "main",
+    "datetime": "2026-06-30T15:00:00+00:00",
+    "date": "2026-07-01",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "백승엽 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Baek Seung-yeop Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "백승엽 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260630_6f4e9434-2cb2-4f7a-93f1-94aa9d219f4c",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-06-30T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJd1DKDeeQ/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-06-30T15:00:00+00:00",
+    "date": "2026-07-01",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "드럼밥 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "DrumBop Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "드럼밥 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260630_c80b0dee-099f-4cc8-a096-359a61ee3289",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-06-30T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFURkBH-X2/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-06-30T15:00:00+00:00",
+    "date": "2026-07-01",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "루닐 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Roonil Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "루닐 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260630_33d71d42-018a-41e4-84d4-a916f0c34b94",
+    "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-06-30T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJ3JiVgVUL/",
+    "venue_handle": "oleojazzpub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
+    "venue_location_id": "main",
+    "datetime": "2026-06-30T15:00:00+00:00",
+    "date": "2026-07-01",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김현태 & 정범도 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hyun-tae Kim & Beom-do Jung Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김현태 & 정범도 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260701_c2d8caf2-06dd-4493-aa04-167c6265dde0",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-07-01T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
@@ -961,7 +748,7 @@
   {
     "id": "evt_20260701_53c4d1a2-6b72-43ee-bded-7949843eccb6",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-01T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZxW-enj1ap/",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -984,11 +771,195 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee's sus sextet",
+      "title": "Lee’s sus Sextet",
       "description": null
     },
     "_search_ko": {
       "title": "리스 서스 섹스텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260701_9edb60b9-495b-4915-b6ba-2ae00feb48fe",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-07-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ7UpJwE2tP/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-07-01T11:00:00+00:00",
+    "date": "2026-07-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "영호네 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Youngho's Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "영호네 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260701_aad56fae-84f3-4db5-ba13-83574fc1bdda",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-07-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaGtarXk8VN/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-07-01T11:00:00+00:00",
+    "date": "2026-07-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "₩20K",
+    "llm_confidence": 1.0,
+    "title": "재키킴 엑스 강재훈 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jackie Kim X Kang Jaehun Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "재키킴 엑스 강재훈 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260701_6d7ca3ab-8762-4508-b18a-759eb2adc75d",
+    "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-07-01T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ38st_j5Jz/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
+    "venue_location_id": "main",
+    "datetime": "2026-07-01T15:00:00+00:00",
+    "date": "2026-07-02",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "좀비 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Zombie Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "좀비 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260701_d60b9d85-f35b-4e31-9761-13810c6df71a",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-07-01T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJd1DKDeeQ/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-07-01T15:00:00+00:00",
+    "date": "2026-07-02",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한순욱 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sun-wook Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한순욱 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260701_c160a955-7ab5-4c3f-9fcd-2e8ca3ff613f",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-07-01T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFURkBH-X2/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-07-01T15:00:00+00:00",
+    "date": "2026-07-02",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이초롱 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Chorong Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이초롱 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260701_14ceea7d-cd54-4c13-b533-b2a9f7af037b",
+    "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-07-01T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJ3JiVgVUL/",
+    "venue_handle": "oleojazzpub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
+    "venue_location_id": "main",
+    "datetime": "2026-07-01T15:00:00+00:00",
+    "date": "2026-07-02",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이은동 & 이동원 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Eun-dong Lee & Dong-won Lee Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이은동 & 이동원 듀오",
       "description": null
     }
   },
@@ -1063,7 +1034,7 @@
   {
     "id": "evt_20260702_6cce3b4f-1426-4fb8-9abc-4d7738b77ce6",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-02T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZxW-enj1ap/",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -1091,6 +1062,199 @@
     },
     "_search_ko": {
       "title": "김이슬 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260702_6995a357-8024-4554-bf50-a617406b3a19",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-07-02T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ7UpJwE2tP/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-07-02T11:00:00+00:00",
+    "date": "2026-07-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "말로",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Malo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "말로",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260702_c40fe144-17c6-49f4-a712-841934bb4923",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-07-02T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaGtarXk8VN/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-07-02T11:00:00+00:00",
+    "date": "2026-07-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "₩20K",
+    "llm_confidence": 1.0,
+    "title": "노예 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Noye Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "노예 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260702_bdebfe73-12aa-44c1-9152-38fb1ec5cb1a",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-07-02T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKVkPYRadQ/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-07-02T11:30:00+00:00",
+    "date": "2026-07-02",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "류인기 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ryu In-gi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "류인기 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260702_3a89ec35-1433-4a20-bde1-16449d658760",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-07-02T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJd1DKDeeQ/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-07-02T15:00:00+00:00",
+    "date": "2026-07-03",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김순영 재즈탭",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Sun-young Jazz Tap",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김순영 재즈탭",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260702_fdb38b15-85ef-4eb2-8d8f-781db0d14f83",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-07-02T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFURkBH-X2/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-07-02T15:00:00+00:00",
+    "date": "2026-07-03",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "손영서 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Son Youngseo Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "손영서 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260702_19de4ba8-224f-4651-9bc3-bdcca4e83d45",
+    "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-07-02T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJ3JiVgVUL/",
+    "venue_handle": "oleojazzpub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
+    "venue_location_id": "main",
+    "datetime": "2026-07-02T15:00:00+00:00",
+    "date": "2026-07-03",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김형섭 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hyeong-seop Kim Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김형섭 퀄텟",
       "description": null
     }
   },
@@ -1159,6 +1323,344 @@
     },
     "_search_ko": {
       "title": "재즈 보컬리스트 백효은 X 오밴",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260703_0b9ed3a9-9ff8-45d8-ac48-f06c4c24a124",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T11:00:00+00:00",
+    "date": "2026-07-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이선지 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Seonji Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이선지 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260703_adce7d68-0fde-47c7-a3f3-2967f7c990a5",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-07-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ7UpJwE2tP/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T11:00:00+00:00",
+    "date": "2026-07-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "트러스트 (기타 김수빈)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Trust (Guitar Kim Su-bin)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "트러스트 (기타 김수빈)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260703_7ad14ed7-676a-4059-ab58-fc54db975aac",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-07-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaGtarXk8VN/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T11:00:00+00:00",
+    "date": "2026-07-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "₩20K",
+    "llm_confidence": 1.0,
+    "title": "김다희 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Da-hee Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김다희 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260703_6c94cbfc-6ce4-497f-89ec-5dac60ef5777",
+    "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-07-03T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ38st_j5Jz/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T11:30:00+00:00",
+    "date": "2026-07-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이시헌 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Si-heon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이시헌 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260703_17dcc7e5-bb86-4b96-88db-557929084c4a",
+    "event_key": "v:ven_dda28cb8-70a0-4815-971c-666b82e81609|t:2026-07-03T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKqI0TD5pl/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dda28cb8-70a0-4815-971c-666b82e81609",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T11:30:00+00:00",
+    "date": "2026-07-03",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "니나파크",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nina Park",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "니나파크",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260703_3a8dea42-3726-4337-b1f5-6a8d1a5e8157",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-07-03T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKRPh2R4oi/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T11:30:00+00:00",
+    "date": "2026-07-03",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "김재형 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Jae-hyung Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김재형 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260703_f0c2049e-a5d3-48a0-a349-2cd8f7dd5c90",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-07-03T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJd1DKDeeQ/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T15:00:00+00:00",
+    "date": "2026-07-04",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이현재 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Hyun-jae Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이현재 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260703_529ae15b-e355-45f6-91a9-1de6b9dd11f0",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-07-03T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFURkBH-X2/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T15:00:00+00:00",
+    "date": "2026-07-04",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김기중 밴드 (BANDKAY)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Kijung Band (BANDKAY)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김기중 밴드 (BANDKAY)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_1be0cc84-c8e5-438c-a204-5745043f30f1",
+    "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-07-04T05:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJ3JiVgVUL/",
+    "venue_handle": "oleojazzpub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T05:00:00+00:00",
+    "date": "2026-07-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "14:00"
+      }
+    ],
+    "price": "무료",
+    "llm_confidence": 1.0,
+    "title": "오픈 잼세션",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Open Jam Session",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "오픈 잼세션",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_0e3ff6ae-ad91-4b32-aae7-c72919360bd4",
+    "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-07-04T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaHD-wTCT9u/",
+    "venue_handle": "bluecat.fezh",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T10:30:00+00:00",
+    "date": "2026-07-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "서효상과 뜨거운녀석들",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Seo Hyosang and the Hot Guys",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "서효상과 뜨거운녀석들",
       "description": null
     }
   },
@@ -1233,7 +1735,7 @@
   {
     "id": "evt_20260704_30faf749-64c9-4f47-99a5-a529f0fd0493",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-04T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZxW-enj1ap/",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -1256,11 +1758,238 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Min Kyong-in Jazz Collective",
+      "title": "Min Kyeongin Jazz Collective",
       "description": null
     },
     "_search_ko": {
       "title": "민경인 재즈 컬렉티브",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_70379997-1cd1-4ebd-8442-148d88e3bffe",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-07-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ7UpJwE2tP/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T11:00:00+00:00",
+    "date": "2026-07-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이신우 프로젝트 (보컬 조아혜)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Shin-woo Project (Vocal Jo A-hye)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이신우 프로젝트 (보컬 조아혜)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_94af0524-aa82-4552-b386-6aa65ac37488",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-07-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaGtarXk8VN/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T11:00:00+00:00",
+    "date": "2026-07-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "₩20K",
+    "llm_confidence": 1.0,
+    "title": "와이엘 재즈 트리오 엑스 플라블라",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "YL Jazz Trio X FLAVLA",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "와이엘 재즈 트리오 엑스 플라블라",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_f8150f92-c5fe-4411-9e04-d94f154a62c9",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-07-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKveqbvFsA/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T11:00:00+00:00",
+    "date": "2026-07-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:10"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김성수 재즈밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Sung-soo Jazz Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김성수 재즈밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_4fa40825-194b-4b29-9f3b-5f59a78080ea",
+    "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-07-04T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ38st_j5Jz/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T11:30:00+00:00",
+    "date": "2026-07-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "SOLEN",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SOLEN",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "SOLEN",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_03533950-b5c2-4f9d-b95a-3d1bf967d5fd",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-07-04T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJd1DKDeeQ/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T15:00:00+00:00",
+    "date": "2026-07-05",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김현일 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Hyun-il Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김현일 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_4fde25fb-fe29-4eec-a907-274ea7512122",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-07-04T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFURkBH-X2/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T15:00:00+00:00",
+    "date": "2026-07-05",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "필스 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Feel's Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "필스 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_3df79423-6da5-495a-a90c-b0d64957fe29",
+    "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-07-04T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaJ3JiVgVUL/",
+    "venue_handle": "oleojazzpub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T15:00:00+00:00",
+    "date": "2026-07-05",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "선데이 스탠다드 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Sunday Standard Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "선데이 스탠다드 트리오",
       "description": null
     }
   },
@@ -1299,9 +2028,47 @@
     }
   },
   {
+    "id": "evt_20260705_f0062b56-204b-437f-be6c-7e0d5be6a90c",
+    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-07-05T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKYKqVoMYK/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
+    "venue_location_id": "main",
+    "datetime": "2026-07-05T10:00:00+00:00",
+    "date": "2026-07-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "메니나와 메니노스",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Menina and Meninos",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "메니나와 메니노스",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260705_ca571192-38c0-48e6-be26-ca094bee2d92",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-05T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DZxW-enj1ap/",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -1324,11 +2091,83 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Ki-hyun Choro Collective",
+      "title": "Lee Kihyun Choro Collective",
       "description": null
     },
     "_search_ko": {
       "title": "이기현 쇼로 컬렉티브",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260705_687cbfa8-907c-4307-aff9-440deef7e603",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-07-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ7UpJwE2tP/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-07-05T11:00:00+00:00",
+    "date": "2026-07-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "잼데이 (진행 말로)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jam Day (Hosted by Malo)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "잼데이 (진행 말로)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260705_f664ec09-e499-445e-8817-ed5a153c1f4a",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-07-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKveqbvFsA/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-07-05T11:00:00+00:00",
+    "date": "2026-07-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:10"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "강성훈 재즈 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kang Sung-hoon Jazz Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "강성훈 재즈 트리오",
       "description": null
     }
   },
@@ -1435,6 +2274,40 @@
     }
   },
   {
+    "id": "evt_20260708_90bf1534-e58b-4cad-b45e-adef5f44fb8f",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-07-08T11:00:00+00:00",
+    "date": "2026-07-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김유진 어그벗",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Yujin x Aggressivebutt",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김유진 어그벗",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260709_ca54fc3e-1397-449b-b416-6d7a8ebe1197",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-07-09T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DZy4gkCk-iy/",
@@ -1499,6 +2372,40 @@
     },
     "_search_ko": {
       "title": "최원석",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260709_2a5d3b8c-82d9-4ba6-8f70-cf171fb0e74a",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-09T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-07-09T11:00:00+00:00",
+    "date": "2026-07-09",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임미정 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lim Mijung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임미정 트리오",
       "description": null
     }
   },
@@ -1571,6 +2478,40 @@
     }
   },
   {
+    "id": "evt_20260710_7c98bc1f-efce-4649-95b7-f0c401846f2c",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-10T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-07-10T11:00:00+00:00",
+    "date": "2026-07-10",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "하리마테",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "HARIMATE",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "하리마테",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260711_f7c9c624-abe7-41b4-a4da-e786cf9d7bb6",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-07-11T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
@@ -1639,6 +2580,146 @@
     }
   },
   {
+    "id": "evt_20260711_092e692e-aa82-42c6-b9b6-d14ba818654c",
+    "event_key": "v:ven_377ce206-d0d7-48df-8554-aa20be3b45e2|t:2026-07-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaICRdfBG6_/",
+    "venue_handle": "gv_scene",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_377ce206-d0d7-48df-8554-aa20be3b45e2",
+    "venue_location_id": "main",
+    "datetime": "2026-07-11T11:00:00+00:00",
+    "date": "2026-07-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "소왓 NOLA 2집 앨범 발매 첫 공연",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SoWhat NOLA 2nd Album Release First Performance",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "소왓 NOLA 2집 앨범 발매 첫 공연",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260711_7fbef1d4-577a-4c0f-9270-f36883739ad1",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-07-11T11:00:00+00:00",
+    "date": "2026-07-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이지영 프로젝트 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Jiyoung Project Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이지영 프로젝트 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260711_af60d2ef-72ee-4757-a838-f72dee0e1bbb",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-07-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKveqbvFsA/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-07-11T11:00:00+00:00",
+    "date": "2026-07-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:10"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이윤선 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Yoon-sun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이윤선 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260712_c12880f0-c247-4e47-8f8f-18d3750e52ed",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-07-12T09:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ-EqN4pu3j/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-07-12T09:30:00+00:00",
+    "date": "2026-07-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "메터데이",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Matter day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "메터데이",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260712_bdc1a3f8-53d2-4f3d-a423-df964ac9ab96",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-07-12T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
@@ -1669,6 +2750,116 @@
     },
     "_search_ko": {
       "title": "이미영",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260712_c0dab85d-e42d-4c6c-b89b-19108ecdf382",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-07-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaFub6LEYqG/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-07-12T11:00:00+00:00",
+    "date": "2026-07-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "TBA",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "TBA",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "TBA",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260712_45d58515-302b-45f4-a5b0-ad518f5413ce",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-07-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKveqbvFsA/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-07-12T11:00:00+00:00",
+    "date": "2026-07-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:10"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김성수 재즈밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Sung-soo Jazz Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김성수 재즈밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260712_37f061fc-daaf-4bae-be24-73469ae81009",
+    "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-07-12T11:45:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaHbtKuiK3H/",
+    "venue_handle": "michiko.seoul_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
+    "venue_location_id": "main",
+    "datetime": "2026-07-12T11:45:00+00:00",
+    "date": "2026-07-12",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:45"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "강선아 밴드의 홀리데이 인 서울",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kang Sun-ah Band's Holiday in Seoul",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "강선아 밴드의 홀리데이 인 서울",
       "description": null
     }
   },
@@ -1911,6 +3102,44 @@
     }
   },
   {
+    "id": "evt_20260718_b9bfd22d-b3f7-46cc-904f-4159b12b1e4d",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-07-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKveqbvFsA/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-07-18T11:00:00+00:00",
+    "date": "2026-07-18",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:10"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임채선 재즈 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lim Chae-sun Jazz Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임채선 재즈 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260719_09e7de7d-fdac-4d0e-bd51-62bad8840ef3",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-07-19T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
@@ -1941,6 +3170,112 @@
     },
     "_search_ko": {
       "title": "김상범",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260719_2648dfb2-3d32-4650-a7ed-9b8212dbc8ff",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-07-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKveqbvFsA/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-07-19T11:00:00+00:00",
+    "date": "2026-07-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:10"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "조윤성 재즈 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jo Yoon-sung Jazz Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조윤성 재즈 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260723_54e5593e-89eb-415d-8ade-dbeb941b72a1",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-07-23T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ-EqN4pu3j/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-07-23T10:30:00+00:00",
+    "date": "2026-07-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "타로 센가 X 비어드앤영블러드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Taro Senga × Beard&Youngblood",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "타로 센가 X 비어드앤영블러드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260724_6c48a883-a1ed-4061-85d9-0dcb003f418f",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-07-24T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ-EqN4pu3j/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-07-24T10:30:00+00:00",
+    "date": "2026-07-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "타로 센가 X 비어드앤영블러드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Taro Senga × Beard&Youngblood",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "타로 센가 X 비어드앤영블러드",
       "description": null
     }
   },
@@ -1979,6 +3314,44 @@
     }
   },
   {
+    "id": "evt_20260725_6ef313a2-6738-4089-85b6-dc2c94eac8d6",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-07-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKveqbvFsA/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-07-25T11:00:00+00:00",
+    "date": "2026-07-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:10"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "강성훈 재즈 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kang Sung-hoon Jazz Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "강성훈 재즈 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260726_7d56489a-62f3-48e5-aa26-b4b2febe8138",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-07-26T08:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYE4EgYhYJO/",
@@ -2009,6 +3382,78 @@
     },
     "_search_ko": {
       "title": "남무성 작가 〈재즈 이야기〉",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260726_0434ce84-f1f2-4709-a4c8-f6823667e954",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-07-26T09:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZ-EqN4pu3j/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-07-26T09:30:00+00:00",
+    "date": "2026-07-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "메터데이",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Matter day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "메터데이",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260726_f7077e46-cde4-4391-9ef9-bed1462d2b68",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-07-26T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaKveqbvFsA/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-07-26T11:00:00+00:00",
+    "date": "2026-07-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:10"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이윤선 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Yoon-sun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이윤선 퀄텟",
       "description": null
     }
   },
@@ -2111,6 +3556,40 @@
     },
     "_search_ko": {
       "title": "세옵스 라이브 게스트 (재즈 보컬)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260822_4234310d-9ae3-4437-9ca3-71b4d9bc1483",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DZwWqxGETIv/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-22T11:00:00+00:00",
+    "date": "2026-08-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "서수진 Prism of Existence 발매 기념 공연",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Soo-jin Suh Prism of Existence Album Release Concert",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "서수진 Prism of Existence 발매 기념 공연",
       "description": null
     }
   },
