@@ -1,50 +1,36 @@
 {
-  "week_start_date": "2026-06-22",
-  "generated_at": "2026-06-22T06:00:05.801324+00:00",
+  "week_start_date": "2026-06-29",
+  "generated_at": "2026-06-29T06:00:06.145893+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-06-24": {
-      "event_id": "evt_20260624_ec4c3199-efd8-4450-8898-17bb13ce1bf0",
+    "2026-07-01": {
+      "event_id": "evt_20260701_f772c4ef-5d2b-4c58-8b9b-08b328536473",
       "title": {
-        "ko": "윤혜진",
-        "en": "Yoon Hye-jin"
+        "ko": "Drumbop 트리오",
+        "en": "Drumbop Trio"
+      },
+      "venue_name": {
+        "en": "Cotton Club",
+        "ko": "코튼클럽"
+      },
+      "venue_handle": "cottonclub_seoul",
+      "datetime": "2026-07-01T11:00:00+00:00",
+      "selected_at": "2026-06-29T06:00:06.145586+00:00"
+    },
+    "2026-07-02": {
+      "event_id": "evt_20260702_7f8c5292-f896-48f1-a129-e7c44ddbbe5e",
+      "title": {
+        "ko": "서수진",
+        "en": "Seo Su-jin"
       },
       "venue_name": {
         "en": "Sounddog",
         "ko": "사운드독"
       },
       "venue_handle": "sounddog_jazz",
-      "datetime": "2026-06-24T11:00:00+00:00",
-      "selected_at": "2026-06-22T06:00:05.800291+00:00"
-    },
-    "2026-06-25": {
-      "event_id": "evt_20260625_889dc715-cd65-4f2e-a953-8ba8c628a1d9",
-      "title": {
-        "ko": "스윙 재즈 나이트 롭 섹스텟",
-        "en": "Swing Jazz Night Rob Sextet"
-      },
-      "venue_name": {
-        "en": "FLATNINE",
-        "ko": "플랫나인"
-      },
-      "venue_handle": "flatnine_jazzbar",
-      "datetime": "2026-06-25T11:00:00+00:00",
-      "selected_at": "2026-06-22T06:00:05.800602+00:00"
-    },
-    "2026-06-26": {
-      "event_id": "evt_20260626_5ec99e6b-6f4f-42f6-9002-afc0cf27ce13",
-      "title": {
-        "ko": "최백결 재즈 앙상블",
-        "en": "Choi Baek-gyeol Jazz Ensemble"
-      },
-      "venue_name": {
-        "en": "Cafe Africa",
-        "ko": "Cafe 아프리카"
-      },
-      "venue_handle": "africa_since1988",
-      "datetime": "2026-06-26T11:00:00+00:00",
-      "selected_at": "2026-06-22T06:00:05.801274+00:00"
+      "datetime": "2026-07-02T11:00:00+00:00",
+      "selected_at": "2026-06-29T06:00:06.145882+00:00"
     }
   }
 }
