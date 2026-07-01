@@ -1019,6 +1019,82 @@
     }
   },
   {
+    "id": "evt_20260703_a312e9a9-844d-4669-a7b2-41734f4f00cb",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-07-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaIQOVwE3cl/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T11:00:00+00:00",
+    "date": "2026-07-03",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Harris Kim Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Harris Kim Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해리스 킴 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260703_4a5bbf54-9da6-4bb9-a921-df9aa82bde55",
+    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-07-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaMtsg9IB2j/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
+    "venue_location_id": "main",
+    "datetime": "2026-07-03T11:00:00+00:00",
+    "date": "2026-07-03",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Ahn Seong-mi Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ahn Seong-mi Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "안성미 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260703_6c94cbfc-6ce4-497f-89ec-5dac60ef5777",
     "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-07-03T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DZ38st_j5Jz/",
@@ -1637,6 +1713,44 @@
     },
     "_search_ko": {
       "title": "이지영 · 와나 홍 · 강윤미 스페셜 스테이지",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260704_f2aeb5f3-6934-48e2-8974-6cef1d72ae0f",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-07-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaIYfK0kwci/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-07-04T11:00:00+00:00",
+    "date": "2026-07-04",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Haedeun Choi Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Haedeun Choi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최해든 트리오",
       "description": null
     }
   },
