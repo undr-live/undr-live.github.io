@@ -413,6 +413,44 @@
     }
   },
   {
+    "id": "evt_20260705_d39c125d-913a-454b-9d1a-19f8bb4add4c",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-07-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaUx2c5BMyV/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-07-05T11:00:00+00:00",
+    "date": "2026-07-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임다은 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lim Daeun Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임다은 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260706_75b36137-dc98-47e0-889f-248636bb71f8",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-07-06T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
@@ -443,6 +481,44 @@
     },
     "_search_ko": {
       "title": "정숙인",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260706_f4f0a2df-172e-42ae-877a-48f63a445c0f",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-07-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaUx2c5BMyV/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-07-06T11:00:00+00:00",
+    "date": "2026-07-06",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "마르디 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mardi Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "마르디 듀오",
       "description": null
     }
   },
