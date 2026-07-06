@@ -451,6 +451,44 @@
     }
   },
   {
+    "id": "evt_20260705_a22c318c-cd73-48c4-be51-2bdc93ada9f7",
+    "event_key": "v:ven_ee9d5587-be70-44b9-93d4-cc2eaf5bd4ec|t:2026-07-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaLqK-pE0Tv/",
+    "venue_handle": "jazzgarage_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_ee9d5587-be70-44b9-93d4-cc2eaf5bd4ec",
+    "venue_location_id": "main",
+    "datetime": "2026-07-05T11:00:00+00:00",
+    "date": "2026-07-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Jo Woong Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jo Woong Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조웅 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260706_75b36137-dc98-47e0-889f-248636bb71f8",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-07-06T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DYayxyBknE4/",
@@ -2003,6 +2041,40 @@
     },
     "_search_ko": {
       "title": "강성훈 재즈 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260725_32e0af9b-686f-4807-90fc-e0b7a2ff2d00",
+    "event_key": "v:ven_afc57e46-2933-4f92-8d8a-551c0ab86ddb|t:2026-07-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DaPsjfRkl2X/",
+    "venue_handle": "cafe_gig",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_afc57e46-2933-4f92-8d8a-551c0ab86ddb",
+    "venue_location_id": "main",
+    "datetime": "2026-07-25T11:00:00+00:00",
+    "date": "2026-07-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Kwon Beom-soo Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kwon Beom-soo Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "권범수 트리오",
       "description": null
     }
   },
