@@ -1683,6 +1683,40 @@
     }
   },
   {
+    "id": "evt_20260710_5402f782-9308-47fa-becd-2abdf84355f8",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-07-10T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DakZyMCpvpu/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-07-10T11:30:00+00:00",
+    "date": "2026-07-10",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Na Dong-hoon Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Na Dong-hoon Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "나동훈 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260710_95538bdc-5566-44e5-becc-e0c8f106a480",
     "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-07-10T11:45:00+00:00",
     "source_url": "https://www.instagram.com/p/DaHYv-UC-zr/",
@@ -2546,6 +2580,40 @@
     },
     "_search_ko": {
       "title": "김광용 트리오 (보컬 김영미)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260711_c63c03d8-d4a4-4751-82c8-5354e7882a9b",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-07-11T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DakZojVJALN/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-07-11T11:30:00+00:00",
+    "date": "2026-07-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Picnic Jazz Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Picnic Jazz Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "피크닉재즈밴드",
       "description": null
     }
   },
