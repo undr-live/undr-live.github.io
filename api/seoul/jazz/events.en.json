@@ -688,6 +688,44 @@
     }
   },
   {
+    "id": "evt_20260710_a35f6092-264a-41c3-bf79-3c2973124855",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-07-10T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DakMG-ehAl2/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-07-10T11:00:00+00:00",
+    "date": "2026-07-10",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Mardi Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mardi Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "마르디 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260710_355a2688-350b-458f-8fd0-e3b113c8eff7",
     "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-07-10T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DaPvlYAj1Id/",
@@ -991,6 +1029,64 @@
     }
   },
   {
+    "id": "evt_20260710_6971e8aa-50cf-482c-96ad-2c942165bef0",
+    "event_key": "v:ven_fc57057d-2f38-400b-80db-2a590f04f4f3|t:2026-07-10T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DahzoCWS_-7/",
+    "venue_handle": "jazzclubbottomline",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_fc57057d-2f38-400b-80db-2a590f04f4f3",
+    "venue_location_id": "main",
+    "datetime": "2026-07-10T15:00:00+00:00",
+    "date": "2026-07-11",
+    "sets": null,
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Thomas Florin",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Thomas Florin",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "토마스 플로린",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260710_3c82dd42-d66a-4439-a9a7-ad43aa0718c7",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-07-10T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DanbqIjpNyR/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-07-10T15:00:00+00:00",
+    "date": "2026-07-11",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Sugar Spot (Red Night Special)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Sugar Spot (Red Night Special)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "슈가스팟 (레드 나이트 스페셜)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260711_3e183f1f-baf2-4a04-befd-84fbd560cd07",
     "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-07-11T05:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DadAvdmgcKV/",
@@ -1027,7 +1123,7 @@
   {
     "id": "evt_20260711_8f6acd2e-6b6e-4e9c-a69e-043c8cbbe5e2",
     "event_key": "v:ven_fc57057d-2f38-400b-80db-2a590f04f4f3|t:2026-07-11T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DacLb8zRD_p/",
+    "source_url": "https://www.instagram.com/p/DaR9m1Ix4bG/",
     "venue_handle": "jazzclubbottomline",
     "musician_ids": [],
     "musicians": [],
@@ -1044,17 +1140,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Thomas Florin Solo Piano",
+    "title": "Thomas Florin Solo Piano Live",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Thomas Florin Solo Piano",
+      "title": "Thomas Florin Solo Piano Live",
       "description": null
     },
     "_search_ko": {
-      "title": "토마스 플로린 솔로 피아노",
+      "title": "토마스 플로린 솔로 피아노 라이브",
       "description": null
     }
   },
@@ -1695,6 +1791,44 @@
     },
     "_search_ko": {
       "title": "펑키소사이어티",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260711_fd21d140-e6e0-4583-80f4-c9fa90358192",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-07-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DakMG-ehAl2/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-07-11T11:00:00+00:00",
+    "date": "2026-07-11",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Youngmin Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Youngmin Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박영민 트리오",
       "description": null
     }
   },
@@ -2353,6 +2487,44 @@
     },
     "_search_ko": {
       "title": "잼데이 (진행 말로)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260712_45b8d66e-b5eb-4174-812c-5fdfd1579fa6",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-07-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DakMG-ehAl2/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-07-12T11:00:00+00:00",
+    "date": "2026-07-12",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lim Daeun Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lim Daeun Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임다은 듀오",
       "description": null
     }
   },
