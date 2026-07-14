@@ -2284,7 +2284,6 @@
   },
   {
     "ig_handle": "cottonclub_seoul",
-    "address_text": null,
     "address_components": null,
     "location_lat": null,
     "location_lon": null,
@@ -2300,8 +2299,8 @@
     "links": {
       "instagram": "https://www.instagram.com/cottonclub_seoul",
       "homepage": null,
-      "booking": "https://naver.me/FDGU6jCE",
-      "google_map": "https://maps.google.com/?cid=68841251885151081",
+      "booking": "https://catchtable.co.kr/cottonclub_soundshannam",
+      "google_map": null,
       "naver_map": "https://naver.me/xmxInH8K"
     },
     "contacts": {
@@ -2315,13 +2314,13 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "Cotton Club",
+        "name": "코튼클럽 | Cotton Club",
         "address_text": "서울 용산구 대사관로 35 5층",
         "address_components": null,
         "location_lat": 37.5337501903567,
         "location_lon": 127.00214819989,
-        "subway_nearby": null,
-        "booking_link": "https://naver.me/FDGU6jCE",
+        "subway_nearby": "6호선 이태원역 3번 출구에서 774m",
+        "booking_link": "https://catchtable.co.kr/cottonclub_soundshannam",
         "notes": "Sounds Hannam 5F",
         "i18n": {
           "name": {
@@ -2330,7 +2329,7 @@
           },
           "address_text": {
             "ko": "서울 용산구 대사관로 35 5층",
-            "en": "5th Floor, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea"
+            "en": "5F, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea"
           },
           "notes": {
             "ko": "사운즈 한남 5층",
@@ -2339,7 +2338,7 @@
         }
       }
     ],
-    "last_analyzed_at": "2026-05-08",
+    "last_analyzed_at": "2026-07-13T14:34:16.223055+09:00",
     "confidence": 1.0,
     "extraction_version": "1.0",
     "sources": [
@@ -2355,13 +2354,16 @@
         "ko": "코튼클럽",
         "en": "Cotton Club"
       },
-      "address_text": null,
+      "address_text": {
+        "ko": "서울 용산구 대사관로 35 5층",
+        "en": "5F, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea"
+      },
       "notes": null,
       "genres": {
         "ko": [
           "재즈",
           "블루스",
-          "라이브 뮤직"
+          "라이브 음악"
         ],
         "en": [
           "Jazz",
@@ -2371,12 +2373,12 @@
       },
       "subway_nearby": {
         "ko": "6호선 이태원역 3번 출구에서 774m",
-        "en": "774m walk from Itaewon Station Exit 3 (Line 6)"
+        "en": "774m from Itaewon Station Exit 3 on Line 6"
       },
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "7e45e5b6821f200aa9338763c946e66b6d21f80e70767b8994cd841209d18238"
+    "_profile_hash": "69644cb675901a4a19a2d46d9989f70393498f875a739887602824cdd9409340"
   },
   {
     "ig_handle": "dido_jazz_lounge",

@@ -1529,7 +1529,7 @@
     "phone": "02-794-8435",
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=68841251885151081",
-    "booking_url": "https://naver.me/FDGU6jCE",
+    "booking_url": "https://catchtable.co.kr/cottonclub_soundshannam",
     "homepage_url": null,
     "websites": [],
     "subway_nearby": "6호선 이태원역 3번 출구에서 774m",
@@ -1540,13 +1540,13 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Cotton Club",
+          "name": "코튼클럽 | Cotton Club",
           "address_text": "서울 용산구 대사관로 35 5층",
           "address_components": null,
           "location_lat": 37.5337501903567,
           "location_lon": 127.00214819989,
-          "subway_nearby": null,
-          "booking_link": "https://naver.me/FDGU6jCE",
+          "subway_nearby": "6호선 이태원역 3번 출구에서 774m",
+          "booking_link": "https://catchtable.co.kr/cottonclub_soundshannam",
           "notes": "Sounds Hannam 5F",
           "i18n": {
             "name": {
@@ -1555,7 +1555,7 @@
             },
             "address_text": {
               "ko": "서울 용산구 대사관로 35 5층",
-              "en": "5th Floor, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea"
+              "en": "5F, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea"
             },
             "notes": {
               "ko": "사운즈 한남 5층",
@@ -1570,13 +1570,16 @@
         "ko": "코튼클럽",
         "en": "Cotton Club"
       },
-      "address_text": null,
+      "address_text": {
+        "ko": "서울 용산구 대사관로 35 5층",
+        "en": "5F, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea"
+      },
       "notes": null,
       "genres": {
         "ko": [
           "재즈",
           "블루스",
-          "라이브 뮤직"
+          "라이브 음악"
         ],
         "en": [
           "Jazz",
@@ -1586,7 +1589,7 @@
       },
       "subway_nearby": {
         "ko": "6호선 이태원역 3번 출구에서 774m",
-        "en": "774m walk from Itaewon Station Exit 3 (Line 6)"
+        "en": "774m from Itaewon Station Exit 3 on Line 6"
       },
       "food_policy": null,
       "age_limit": null
