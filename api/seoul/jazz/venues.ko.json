@@ -13,7 +13,6 @@
     "booking_url": "https://booking.naver.com/booking/5/bizes/1409968",
     "homepage_url": "http://allthatjazz.kr",
     "websites": [
-      "http://allthatjazz.kr",
       "http://www.youtube.com/@allthatjazz_itaewon",
       "http://pf.kakao.com/_xixkgEG"
     ],
@@ -25,26 +24,26 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "AllThatJazz",
-          "address_text": "South Korea, Seoul, Yongsan District, Itaewon-ro, 216 2층",
+          "name": "AllThatJazz Itaewon",
+          "address_text": "2nd Floor, 216, Itaewon-ro, Yongsan District, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
-          "subway_nearby": "6호선 이태원역 3번 출구에서 334m",
+          "subway_nearby": "Approximately 400m from Itaewon Station Exit 3, on the 2nd floor of the main road, heading towards Cheil Worldwide (Hannam-dong).",
           "booking_link": "https://booking.naver.com/booking/5/bizes/1409968",
-          "notes": "Located in Itaewon. Established in 1976.",
+          "notes": "Official Itaewon branch account. DM inquiries not possible, use Kakao channel.",
           "i18n": {
             "name": {
-              "ko": "올댓재즈",
-              "en": "AllThatJazz"
+              "ko": "올댓재즈 이태원",
+              "en": "AllThatJazz Itaewon"
             },
             "address_text": {
               "ko": "서울 용산구 이태원로 216 2층",
               "en": "2nd Floor, 216, Itaewon-ro, Yongsan District, Seoul, South Korea"
             },
             "notes": {
-              "ko": "이태원에 위치. 1976년 설립.",
-              "en": "Located in Itaewon. Established in 1976."
+              "ko": "이태원 지점 공식 계정. DM 문의 불가, 카카오 채널 이용",
+              "en": "Official Itaewon branch account. DM inquiries not possible, use Kakao channel."
             }
           }
         }
@@ -57,8 +56,8 @@
       },
       "address_text": null,
       "notes": {
-        "ko": "DM 문의 불가, 카카오 채널로 문의.",
-        "en": "DM not available, inquiries only via Kakao channel."
+        "ko": "1976년부터",
+        "en": "since 1976"
       },
       "genres": {
         "ko": [
@@ -71,8 +70,8 @@
         ]
       },
       "subway_nearby": {
-        "ko": "6호선 이태원역 3번 출구에서 334m",
-        "en": "334m from Itaewon Station Exit 3 (Line 6)"
+        "ko": "이태원역 3번출구에서 제일기획(한남동방향)으로 400m쯤 올라오시면 대로변 2층에 있습니다",
+        "en": "Approximately 400m from Itaewon Station Exit 3, on the 2nd floor of the main road, heading towards Cheil Worldwide (Hannam-dong)."
       },
       "food_policy": null,
       "age_limit": null
@@ -2071,15 +2070,15 @@
     "id": "ven_c7328014-300a-4099-a51f-abb4f25b1572",
     "tier": 3,
     "ig_handle": "ghetto_alive",
-    "name_irl": "게토얼라이브",
+    "name_irl": "Ghetto Alive",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "02-461-1125",
     "email": null,
     "google_map_url": null,
     "booking_url": null,
-    "homepage_url": null,
+    "homepage_url": "https://linktr.ee/ghetto_alive",
     "websites": [],
     "subway_nearby": "2호선 뚝섬역 8번 출구에서 259m",
     "food_policy": null,
@@ -2089,8 +2088,8 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "게토얼라이브",
-          "address_text": null,
+          "name": "게토얼라이브 GhettoAlive",
+          "address_text": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
@@ -2099,26 +2098,29 @@
           "notes": null,
           "i18n": {
             "name": {
-              "ko": "게토얼라이브",
-              "en": "Ghetto Alive"
+              "ko": "게토얼라이브",
+              "en": "GhettoAlive"
             },
-            "address_text": null,
+            "address_text": {
+              "ko": "서울 성동구 성수동1가 왕십리로 104",
+              "en": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea"
+            },
             "notes": null
           }
         }
       ]
     },
     "i18n_data": {
-      "name": {
-        "ko": "게토얼라이브",
-        "en": "Ghetto Alive"
-      },
+      "name": null,
       "address_text": null,
-      "notes": null,
+      "notes": {
+        "ko": "이 인스타그램 프로필은 공연장이 아닌 아티스트(GhettoAlive, 정지선)의 것으로 보입니다.",
+        "en": "This Instagram profile appears to belong to an artist (GhettoAlive, Jung Ji-sun), not a venue."
+      },
       "genres": null,
       "subway_nearby": {
         "ko": "2호선 뚝섬역 8번 출구에서 259m",
-        "en": "259m from Ttukseom Station Exit 8 (Line 2)"
+        "en": "259m walk from Ttukseom Station Exit 8 (Line 2)"
       },
       "food_policy": null,
       "age_limit": null
@@ -3557,7 +3559,7 @@
     "id": "ven_13daa248-cb23-4dde-9b5f-14be04fd218d",
     "tier": 0,
     "ig_handle": "kindseoul.kr",
-    "name_irl": "KIND SEOUL",
+    "name_irl": "카인드서울",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -3575,55 +3577,53 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "KIND SEOUL",
+          "name": "KIND SEOUL 카인드서울",
           "address_text": "서울특별시 성동구 연무장길 28-12, 5층",
           "address_components": {
             "street": "연무장길 28-12 5층",
             "district": "성동구",
             "city": "서울특별시",
             "postal_code": null,
-            "country": "South Korea"
+            "country": null
           },
+          "location_lat": 37.5430700244443,
+          "location_lon": 127.052284120933,
           "subway_nearby": "성수역 4번 출구에서 430m",
           "booking_link": "https://booking.naver.com/booking/6/bizes/1417951",
-          "notes": "서울브루어리 성수 5층. 대관 및 단체예약 문의는 02-745-0517로 문의주시기 바랍니다. 주차불가 주변 주차장 및 대중교통을 이용해 주세요.",
+          "notes": "서울브루어리 성수 5층에 위치. 대관 및 단체예약 문의는 02-745-0517.",
           "i18n": {
             "name": {
-              "ko": "KIND SEOUL",
+              "ko": "카인드서울",
               "en": "KIND SEOUL"
             },
             "address_text": {
               "ko": "서울 성동구 연무장길 28-12, 5층",
-              "en": "5th Floor, 28-12, Yeonmujang-gil, Seongdong-gu, Seoul, South Korea"
+              "en": "5th Floor, 28-12 Yeonmujang-gil, Seongdong-gu, Seoul, South Korea"
             },
             "notes": {
-              "ko": "서울브루어리 성수 5층. 대관 및 단체예약 문의는 02-745-0517로 문의주시기 바랍니다. 주차불가 주변 주차장 및 대중교통을 이용해 주세요.",
-              "en": "5th floor of Seoul Brewery Seongsu. For venue rental and group reservations, please call 02-745-0517. Parking not available. Please use nearby parking lots or public transportation."
+              "ko": "서울브루어리 성수 5층에 위치. 대관 및 단체예약 문의는 02-745-0517.",
+              "en": "Located on the 5th floor of Seoul Brewery Seongsu. For venue rental and group reservations, contact 02-745-0517."
             }
-          },
-          "location_lat": 37.5430700244443,
-          "location_lon": 127.052284120933
+          }
         }
       ]
     },
     "i18n_data": {
       "name": {
-        "ko": "KIND SEOUL",
+        "ko": "카인드서울",
         "en": "KIND SEOUL"
       },
       "address_text": null,
       "notes": {
-        "ko": "대관 문의 DM",
-        "en": "For venue rental inquiries, please DM."
+        "ko": "성수동 문화공간으로 재즈콘서트, 스탠드업코미디, 북토크, 강연, 커뮤니티 활동을 진행합니다.",
+        "en": "A cultural space in Seongsu-dong that hosts jazz concerts, stand-up comedy, book talks, lectures, and community activities."
       },
       "genres": {
         "ko": [
-          "재즈",
-          "라이브 공연장"
+          "재즈"
         ],
         "en": [
-          "Jazz",
-          "Live music venue"
+          "Jazz"
         ]
       },
       "subway_nearby": {
@@ -4301,8 +4301,8 @@
     "id": "ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0",
     "tier": 3,
     "ig_handle": "yoori.kim_mullaejazzin",
-    "name_irl": "라이브홀 문래재즈IN",
-    "location_text": null,
+    "name_irl": "문래재즈IN",
+    "location_text": "서울 영등포구 도림로 475",
     "location_lat": null,
     "location_lon": null,
     "phone": null,
@@ -4319,38 +4319,41 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "라이브홀 문래재즈IN",
+          "name": "문래재즈IN",
           "address_text": "475 Dorim-ro, Yeongdeungpo District, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "문래동에 위치한 재즈전문 라이브공간입니다.",
           "i18n": {
             "name": {
-              "ko": "라이브홀 문래재즈IN",
-              "en": "Mullae Jazz IN Live Hall"
+              "ko": "문래재즈IN",
+              "en": "Mullae JazzIN"
             },
             "address_text": {
               "ko": "서울 영등포구 도림로 475",
               "en": "475 Dorim-ro, Yeongdeungpo District, Seoul, South Korea"
             },
-            "notes": null
+            "notes": {
+              "ko": "문래동에 위치한 재즈전문 라이브공간입니다.",
+              "en": "A jazz-specialized live venue located in Mullae-dong."
+            }
           }
         }
       ]
     },
     "i18n_data": {
       "name": {
-        "ko": "라이브홀 문래재즈IN",
-        "en": "Mullae Jazz IN Live Hall"
+        "ko": "문래재즈IN",
+        "en": "Mullae JazzIN"
       },
-      "address_text": null,
-      "notes": {
-        "ko": "공연에 관한 자세한 정보는 네이버블로그 문래재즈인 페이지 또는 페이스북 #문래재즈IN 페이지를 참조해주세요.",
-        "en": "For detailed information about performances, please refer to the Naver blog Mullae Jazz IN page or the Facebook #MullaeJazzIN page."
+      "address_text": {
+        "ko": "서울 영등포구 도림로 475",
+        "en": "475 Dorim-ro, Yeongdeungpo District, Seoul, South Korea"
       },
+      "notes": null,
       "genres": {
         "ko": [
           "재즈",
@@ -4361,10 +4364,7 @@
           "Live music"
         ]
       },
-      "subway_nearby": {
-        "ko": "2호선 문래역 1번 출구에서 468m",
-        "en": "468m from Mullae Station Exit 1 on Line 2"
-      },
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -4540,102 +4540,6 @@
     }
   },
   {
-    "id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
-    "tier": 1,
-    "ig_handle": "oleojazzpub",
-    "name_irl": "올레오",
-    "location_text": "서울 성동구 장터길 29-1 지하1층",
-    "location_lat": 37.5484518,
-    "location_lon": 127.0179296,
-    "phone": "010-2591-8954",
-    "email": null,
-    "google_map_url": "https://maps.google.com/?cid=13531313897258452084",
-    "booking_url": null,
-    "homepage_url": "http://www.oleojazz.kr",
-    "websites": [
-      "http://www.oleojazz.kr"
-    ],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "OLEO",
-          "address_text": "B1, 29-1, Jangteo-gil, Seongdong District, Seoul, South Korea",
-          "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": "Located in Geumho-dong. Closed on Monday and Tuesday. Jazz jam sessions are held Wednesday to Sunday evenings. Please contact us for rental inquiries.",
-          "i18n": {
-            "name": {
-              "ko": "올레오",
-              "en": "OLEO"
-            },
-            "address_text": {
-              "ko": "서울 성동구 장터길 29-1 지하1층",
-              "en": "B1, 29-1, Jangteo-gil, Seongdong District, Seoul, South Korea"
-            },
-            "notes": {
-              "ko": "금호동에 위치. 월, 화 휴무. 수요일부터 일요일 저녁까지 재즈 잼 세션 진행. 대관 문의 환영.",
-              "en": "Located in Geumho-dong. Closed on Monday and Tuesday. Jazz jam sessions are held Wednesday to Sunday evenings. Please contact us for rental inquiries."
-            }
-          }
-        }
-      ],
-      "opening_hours": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": null,
-        "sat": null,
-        "sun": null
-      },
-      "typical_show_times": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": null,
-        "sat": null,
-        "sun": null
-      }
-    },
-    "i18n_data": {
-      "name": {
-        "ko": "올레오",
-        "en": "OLEO"
-      },
-      "address_text": {
-        "ko": "서울 성동구 장터길 29-1 지하1층",
-        "en": "B1, 29-1, Jangteo-gil, Seongdong District, Seoul, South Korea"
-      },
-      "notes": {
-        "ko": "금호동에 위치. 월, 화 휴무. 수요일부터 일요일 저녁까지 재즈 잼 세션 진행. 대관 문의 환영.",
-        "en": "Located in Geumho-dong. Closed on Monday and Tuesday. Jazz jam sessions are held Wednesday to Sunday evenings. Please contact us for rental inquiries."
-      },
-      "genres": {
-        "ko": [
-          "재즈"
-        ],
-        "en": [
-          "Jazz"
-        ]
-      },
-      "subway_nearby": {
-        "ko": "3호선 금호역 1번 출구에서 273m",
-        "en": "273m from Geumho Station Exit 1 on Line 3"
-      },
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
     "id": "ven_80a96368-9e53-49ed-ba7b-cd5fea56e488",
     "tier": 3,
     "ig_handle": "oldblue_jazz",
@@ -4699,6 +4603,99 @@
         ]
       },
       "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
+    "tier": 1,
+    "ig_handle": "oleojazzpub",
+    "name_irl": "올레오 재즈펍",
+    "location_text": "B1, 29-1, Jangteo-gil, Seongdong District, Seoul, South Korea",
+    "location_lat": 37.5484518,
+    "location_lon": 127.0179296,
+    "phone": "010-2591-8954",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=13531313897258452084",
+    "booking_url": null,
+    "homepage_url": "http://www.oleojazz.kr",
+    "websites": [
+      "https://youtube.com/@oleojazzpub"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Oleojazzpub",
+          "address_text": "서울 성동구 장터길 29-1 지하1층",
+          "address_components": null,
+          "location_lat": 37.5484820579661,
+          "location_lon": 127.019265065932,
+          "subway_nearby": "3호선 금호역 1번 출구에서 273m",
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "ko": "올레오 재즈펍",
+              "en": "Oleojazzpub"
+            },
+            "address_text": {
+              "ko": "서울 성동구 장터길 29-1 지하1층",
+              "en": "B1, 29-1 Jangteo-gil, Seongdong-gu, Seoul, South Korea"
+            },
+            "notes": {
+              "ko": "대관문의도 연락주세요.",
+              "en": "Please contact us for venue rental inquiries."
+            }
+          }
+        }
+      ],
+      "opening_hours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null
+      },
+      "typical_show_times": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null
+      }
+    },
+    "i18n_data": {
+      "name": {
+        "ko": "올레오 재즈펍",
+        "en": "Oleojazzpub"
+      },
+      "address_text": null,
+      "notes": {
+        "ko": "대관문의도 연락주세요.",
+        "en": "Please contact us for venue rental inquiries."
+      },
+      "genres": {
+        "ko": [
+          "재즈"
+        ],
+        "en": [
+          "Jazz"
+        ]
+      },
+      "subway_nearby": {
+        "ko": "3호선 금호역 1번 출구에서 273m",
+        "en": "273m from Geumho Station Exit 1 on Line 3"
+      },
       "food_policy": null,
       "age_limit": null
     }
@@ -5955,16 +5952,16 @@
     "tier": 1,
     "ig_handle": "yeonnam5701",
     "name_irl": "연남5701",
-    "location_text": "서울 마포구 동교로23길 64 지하",
+    "location_text": "64, Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea",
     "location_lat": 37.5585491,
     "location_lon": 126.9189244,
     "phone": "010-2129-8161",
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=14710763701329609732",
-    "booking_url": "https://app.catchtable.co.kr/ct/shop/yeonnam5701",
+    "booking_url": "https://app.catchtable.co.kr/ct/shop/yeonnam5701?from=share&type=VISIT_RESERVATION",
     "homepage_url": "https://linktr.ee/yeonnam5701",
     "websites": [
-      "https://youtube.com/@yeonnam5701"
+      "https://youtube.com/@yeonnam5701?si=12FlqqSFBAcTrxUK"
     ],
     "subway_nearby": null,
     "food_policy": null,
@@ -5974,22 +5971,22 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "연남5701",
-          "address_text": "64, Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea",
+          "name": "연남5701",
+          "address_text": "570-1 Yeonnam-dong, Mapo-gu, Seoul, South Korea",
           "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
+          "location_lat": 37.558566,
+          "location_lon": 126.918947,
           "subway_nearby": null,
-          "booking_link": "https://app.catchtable.co.kr/ct/shop/yeonnam5701",
+          "booking_link": "https://app.catchtable.co.kr/ct/shop/yeonnam5701?from=share&type=VISIT_RESERVATION",
           "notes": null,
           "i18n": {
             "name": {
               "ko": "연남5701",
-              "en": "Yeonnam5701"
+              "en": "Yeonnam 5701"
             },
             "address_text": {
-              "ko": "서울 마포구 동교로23길 64 지하",
-              "en": "64, Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea"
+              "ko": "서울 마포구 연남동 570-1",
+              "en": "570-1 Yeonnam-dong, Mapo-gu, Seoul, South Korea"
             },
             "notes": null
           }
@@ -6018,24 +6015,16 @@
     "i18n_data": {
       "name": {
         "ko": "연남5701",
-        "en": "Yeonnam5701"
+        "en": "Yeonnam 5701"
       },
-      "address_text": {
-        "ko": "서울 마포구 동교로23길 64 지하",
-        "en": "64, Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea"
-      },
-      "notes": {
-        "ko": "팝업 및 대관 문의 가능",
-        "en": "Inquiries for pop-ups and venue rentals possible"
-      },
+      "address_text": null,
+      "notes": null,
       "genres": {
         "ko": [
-          "재즈",
-          "재즈 클럽"
+          "재즈"
         ],
         "en": [
-          "Jazz",
-          "Jazz club"
+          "Jazz"
         ]
       },
       "subway_nearby": null,
