@@ -265,6 +265,40 @@
     }
   },
   {
+    "id": "evt_20260715_c8d953ff-ef08-4f86-bb14-f90f06ee31ab",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-07-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DasxmI0mJgJ/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-07-15T11:00:00+00:00",
+    "date": "2026-07-15",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Jang Ui-hyeon Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jang Ui-hyeon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "장의현 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260715_d8158b66-2fd8-4d12-891c-6b4e5f14acb7",
     "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-07-15T15:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dac9l4Aj04l/",
@@ -526,6 +560,40 @@
     },
     "_search_ko": {
       "title": "수안 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260716_2f946a6d-d942-44e7-85f3-2a6f0fa26905",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-07-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DasxmI0mJgJ/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-07-16T11:00:00+00:00",
+    "date": "2026-07-16",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Oh Yeong-jun Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Oh Yeong-jun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "오영준 퀄텟",
       "description": null
     }
   },
@@ -952,6 +1020,40 @@
     },
     "_search_ko": {
       "title": "노바샘 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260717_557fe403-516a-4734-be99-edee95055a03",
+    "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-07-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DasGJB4zOXd/",
+    "venue_handle": "yellow___taxi",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_cf0cbcc1-8a48-4494-9772-faba6817a91a",
+    "venue_location_id": "main",
+    "datetime": "2026-07-17T11:00:00+00:00",
+    "date": "2026-07-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Lee Jae-won World Jazz Unit",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Jae-won World Jazz Unit",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이재원 월드재즈유닛",
       "description": null
     }
   },
