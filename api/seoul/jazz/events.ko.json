@@ -1777,6 +1777,44 @@
     }
   },
   {
+    "id": "evt_20260724_c7550a3f-4456-41c7-8a19-14024e3b350d",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-07-24T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Da91RpTE_eQ/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-07-24T11:00:00+00:00",
+    "date": "2026-07-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "이성구 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Seongku Lee Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이성구 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260724_34cfeacd-7193-49f2-8451-0dbc8da1e32e",
     "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-07-24T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DavF_Slj-mT/",
@@ -2121,6 +2159,44 @@
     },
     "_search_ko": {
       "title": "윤석철 아티팩션",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260725_037ccba3-a169-4c39-a67c-005e5318ac85",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-07-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Da91i6Fkyqj/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-07-25T11:00:00+00:00",
+    "date": "2026-07-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "다은 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Daeun Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "다은 트리오",
       "description": null
     }
   },
