@@ -356,7 +356,7 @@
   {
     "id": "evt_20260719_6795fac4-76d9-4c6d-b26c-7adec72e2068",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-07-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Da4mQQShPV3/",
+    "source_url": "https://www.instagram.com/p/Da7sHxTB5UW/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -367,8 +367,12 @@
     "date": "2026-07-19",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
@@ -528,6 +532,78 @@
     }
   },
   {
+    "id": "evt_20260720_58fd8017-9c12-46e3-ba41-22c7c8b6a23c",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-07-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Da9Dy6xk85F/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-07-20T11:00:00+00:00",
+    "date": "2026-07-20",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "B Project",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "B Project",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "B 프로젝트",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260720_cd50b82f-6e60-435d-a296-2bbdf5e44918",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-07-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbAUyeahqyo/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-07-20T11:00:00+00:00",
+    "date": "2026-07-20",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Maeng Seoryeong Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Maeng Seoryeong Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "맹서령 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260721_1370155b-47ea-4148-9347-d44bc9f6a5e4",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-07-21T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DatXuKIE90J/",
@@ -558,6 +634,40 @@
     },
     "_search_ko": {
       "title": "박주원 앵콜 공연",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260721_51d4f12b-528d-4ba7-b8d3-d61d4d95e18d",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-07-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Da9Dy6xk85F/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-07-21T11:00:00+00:00",
+    "date": "2026-07-21",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Jung Jaedong Quartet (Vocal Moon Mihyang)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jung Jaedong Quartet (Vocal Moon Mihyang)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "정재동 퀄텟 (보컬 문미향)",
       "description": null
     }
   },
@@ -660,6 +770,40 @@
     },
     "_search_ko": {
       "title": "김상현 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260722_5a8692d0-bb73-4e57-97be-de4f376468de",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-07-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Da9Dy6xk85F/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-07-22T11:00:00+00:00",
+    "date": "2026-07-22",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "The New Messengers",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The New Messengers",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 뉴 메신저스",
       "description": null
     }
   },
@@ -796,6 +940,78 @@
     },
     "_search_ko": {
       "title": "윤지희 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260723_e2513d6e-65a9-4721-a819-817598ae7f5f",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-07-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Da9Dy6xk85F/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-07-23T11:00:00+00:00",
+    "date": "2026-07-23",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Seonghye Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Seonghye Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김성혜 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260723_8cf08eca-fd47-448f-bb29-4f5de420a10a",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-07-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbAnUpEhh1G/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-07-23T11:00:00+00:00",
+    "date": "2026-07-23",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "YL Jazz Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "YL Jazz Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "YL 재즈 트리오",
       "description": null
     }
   },
