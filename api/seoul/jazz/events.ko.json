@@ -738,6 +738,78 @@
     }
   },
   {
+    "id": "evt_20260724_f0f00847-ce43-477d-9339-1509bb22f75c",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-07-24T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbHtxg2p8k5/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-07-24T11:30:00+00:00",
+    "date": "2026-07-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "다은 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Daeun Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "다은 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260724_2b256466-e9ce-490f-a53d-62b1ccca79c5",
+    "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-07-24T11:45:00+00:00",
+    "source_url": "https://www.instagram.com/p/Da7LhTHiuxy/",
+    "venue_handle": "michiko.seoul_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
+    "venue_location_id": "main",
+    "datetime": "2026-07-24T11:45:00+00:00",
+    "date": "2026-07-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:45"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "팝 앤 소울 그리티 키티",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Pop & Soul Gritty Kitty",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "팝 앤 소울 그리티 키티",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260724_29e91bcb-1113-42de-98ac-5c3619240feb",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-07-24T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbIhJSzEwKk/",
@@ -1717,6 +1789,78 @@
     },
     "_search_ko": {
       "title": "전선식 트리오 (보컬 김주원)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260725_96634cc4-1edd-4038-862f-b0c7a40049b3",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-07-25T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbHs8VApDyg/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-07-25T11:30:00+00:00",
+    "date": "2026-07-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리마 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lima Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리마 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260725_9364edc0-24c0-4466-a3ce-11cb02c588c8",
+    "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-07-25T11:45:00+00:00",
+    "source_url": "https://www.instagram.com/p/Da7MB_dCq5_/",
+    "venue_handle": "michiko.seoul_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
+    "venue_location_id": "main",
+    "datetime": "2026-07-25T11:45:00+00:00",
+    "date": "2026-07-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:45"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "홍주혜 밴드의 플래쉬 바운스 (팝&소울)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hong Ju Hye Band's Flash Bounce (Pop & Soul)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "홍주혜 밴드의 플래쉬 바운스 (팝&소울)",
       "description": null
     }
   },
