@@ -1055,6 +1055,40 @@
     }
   },
   {
+    "id": "evt_20260725_47d3bb7d-d556-4cd4-9fd4-2b74b13866b0",
+    "event_key": "v:ven_fb10c30e-f205-42c1-82f9-6e1faaef2011|t:2026-07-25T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbKcOy6BT6Q/",
+    "venue_handle": "eulji_libro",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_fb10c30e-f205-42c1-82f9-6e1faaef2011",
+    "venue_location_id": "main",
+    "datetime": "2026-07-25T11:30:00+00:00",
+    "date": "2026-07-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Soyoung Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Soyoung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "소영 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260725_9364edc0-24c0-4466-a3ce-11cb02c588c8",
     "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-07-25T11:45:00+00:00",
     "source_url": "https://www.instagram.com/p/Da7MB_dCq5_/",
@@ -1433,7 +1467,7 @@
   {
     "id": "evt_20260726_ec02ead4-2c67-4326-9aee-de7a0de82147",
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-07-26T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Da7wrBCT9Rb/",
+    "source_url": "https://www.instagram.com/p/DbM8DUpk122/",
     "venue_handle": "subriot_hbc",
     "musician_ids": [],
     "musicians": [],
@@ -1450,13 +1484,13 @@
     ],
     "price": "Free",
     "llm_confidence": 1.0,
-    "title": "Kim O-ki Rub Rub",
+    "title": "Kim Oki Rub Rub",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim O-ki Rub Rub",
+      "title": "Kim Oki Rub Rub",
       "description": null
     },
     "_search_ko": {
@@ -1855,6 +1889,74 @@
     },
     "_search_ko": {
       "title": "임채선 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260726_0a6e62e5-fd4d-445c-9fdb-405156fa5bbb",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-07-26T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbOI7mdBMD5/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-07-26T11:00:00+00:00",
+    "date": "2026-07-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Los Trio (Vocal Kim Hyeon-mi)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Los Trio (Vocal Kim Hyeon-mi)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "로스 트리오 (보컬 김현미)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260726_d95b9ace-1fa1-4621-a0dd-26a36c4c46e2",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-07-26T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbM8DUpk122/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-07-26T12:00:00+00:00",
+    "date": "2026-07-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kyungdun Quintet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kyungdun Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "경던 퀸텟",
       "description": null
     }
   },
