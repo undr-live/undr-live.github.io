@@ -4,9 +4,9 @@ This static site was built from the reviewed private repository and published by
 
 ## Build Information
 
-- **Build Time**: 2026-07-27T14:37:39Z
-- **Source Commit**: `629d3eab4292414e766b6ed9a90e19e2e99b22cc`
-- **Deployment ID**: `629d3ea-20260727T143739Z`
+- **Build Time**: 2026-07-27T14:39:41Z
+- **Source Commit**: `ee69a38f292d6a83826e483241af657a4088667b`
+- **Deployment ID**: `ee69a38-20260727T143941Z`
 - **Events**: 9952
 - **Venues**: 100
 
