@@ -4,19 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2026-07-27T02:33:24Z
-- **Source Commit**: [`b83c52c8a987914d7aadabdb005cc553ea814910`](https://github.com/keunwoochoi/seoulunderground.live/commit/b83c52c8a987914d7aadabdb005cc553ea814910)
+- **Build Time**: 2026-07-27T05:22:04Z
+- **Source Commit**: [`26f75eb7e61b6cab3498b71b96d6f7864fb236d0`](https://github.com/keunwoochoi/seoulunderground.live/commit/26f75eb7e61b6cab3498b71b96d6f7864fb236d0)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/30232411395)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/30239486142)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix: harden event ingestion pipeline (#195)
-
-* fix: harden event ingestion pipeline
-
-* fix: keep test deploy read-only
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 
