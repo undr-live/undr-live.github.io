@@ -1,29 +1,16 @@
 # Seoul Underground Live - Static Site
 
-This is a **static site** automatically deployed from the private crawler repository.
+This static site was built from the reviewed private repository and published by the local production operator.
 
 ## Build Information
 
-- **Build Time**: 2026-07-27T11:33:33Z
-- **Source Commit**: [`26f75eb7e61b6cab3498b71b96d6f7864fb236d0`](https://github.com/keunwoochoi/seoulunderground.live/commit/26f75eb7e61b6cab3498b71b96d6f7864fb236d0)
-- **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/30261635991)
-
-## Commit Details
-
-- **Author**:  <>
-- **Message**: 
+- **Build Time**: 2026-07-27T14:35:07Z
+- **Source Commit**: `26f75eb7e61b6cab3498b71b96d6f7864fb236d0`
+- **Deployment ID**: `26f75eb-20260727T143507Z`
+- **Events**: 9952
+- **Venues**: 100
 
 ## Deployment
 
 - **Live Site**: https://undr.live
 - **GitHub Pages**: https://undr-live.github.io
-
-## Data Snapshot
-
-The static JSON files in `/api/` were exported from the local backend at build time.
-Events shown are from the crawler's database as of the build timestamp above.
-
----
-
-*This README is auto-generated during deployment. Do not edit manually.*
