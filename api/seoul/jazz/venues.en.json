@@ -810,6 +810,100 @@
     }
   },
   {
+    "id": "ven_ead7b611-beee-4686-87cf-472ad597faff",
+    "tier": 2,
+    "ig_handle": "bourbon_street_kr",
+    "name_irl": "Bourbon Street Jazz Club",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": null,
+    "booking_url": "https://naver.me/Fhu39kDd",
+    "homepage_url": null,
+    "websites": [
+      "http://www.youtube.com/@BourbonStreet_korea"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "버번스트리트 재즈클럽",
+          "address_text": "서울 강남구 도산대로51길 39",
+          "address_components": {
+            "street": "도산대로51길 39",
+            "district": "강남구",
+            "city": "서울",
+            "postal_code": null,
+            "country": null
+          },
+          "location_lat": 37.5258524794447,
+          "location_lon": 127.038045951327,
+          "subway_nearby": null,
+          "booking_link": "https://naver.me/Fhu39kDd",
+          "notes": "주차가능",
+          "i18n": {
+            "name": {
+              "ko": "버번스트리트 재즈클럽",
+              "en": "Bourbon Street Jazz Club"
+            },
+            "address_text": {
+              "ko": "서울 강남구 도산대로51길 39",
+              "en": "39 Dosan-daero 51-gil, Gangnam-gu, Seoul, South Korea"
+            },
+            "notes": {
+              "ko": "주차가능",
+              "en": "Parking available"
+            }
+          }
+        }
+      ],
+      "typical_show_times": {
+        "mon": null,
+        "tue": null,
+        "wed": [
+          "20:00"
+        ],
+        "thu": [
+          "20:00"
+        ],
+        "fri": [
+          "20:00"
+        ],
+        "sat": [
+          "20:00"
+        ],
+        "sun": [
+          "20:00"
+        ]
+      }
+    },
+    "i18n_data": {
+      "name": {
+        "ko": "버번스트리트 재즈클럽",
+        "en": "Bourbon Street Jazz Club"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "ko": [
+          "재즈 클럽"
+        ],
+        "en": [
+          "Jazz Club"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_18345b41-704d-4136-bfb3-ce0f774f42b1",
     "tier": 1,
     "ig_handle": "clubmild_official",

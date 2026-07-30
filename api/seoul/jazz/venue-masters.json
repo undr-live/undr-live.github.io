@@ -1298,6 +1298,117 @@
     "_profile_hash": "f4950e054b4adf24d89c3119253309c2b9641a7e4c3c0847e969e5ad43e9ec23"
   },
   {
+    "ig_handle": "bourbon_street_kr",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": null,
+    "typical_show_times": {
+      "mon": null,
+      "tue": null,
+      "wed": [
+        "20:00"
+      ],
+      "thu": [
+        "20:00"
+      ],
+      "fri": [
+        "20:00"
+      ],
+      "sat": [
+        "20:00"
+      ],
+      "sun": [
+        "20:00"
+      ]
+    },
+    "genres": [
+      "jazz club"
+    ],
+    "websites": [
+      "http://www.youtube.com/@BourbonStreet_korea"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/bourbon_street_kr",
+      "homepage": null,
+      "booking": "https://naver.me/Fhu39kDd",
+      "google_map": null
+    },
+    "contacts": {
+      "phone": null,
+      "email": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "notes": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "버번스트리트 재즈클럽",
+        "address_text": "서울 강남구 도산대로51길 39",
+        "address_components": {
+          "street": "도산대로51길 39",
+          "district": "강남구",
+          "city": "서울",
+          "postal_code": null,
+          "country": null
+        },
+        "location_lat": 37.5258524794447,
+        "location_lon": 127.038045951327,
+        "subway_nearby": null,
+        "booking_link": "https://naver.me/Fhu39kDd",
+        "notes": "주차가능",
+        "i18n": {
+          "name": {
+            "ko": "버번스트리트 재즈클럽",
+            "en": "Bourbon Street Jazz Club"
+          },
+          "address_text": {
+            "ko": "서울 강남구 도산대로51길 39",
+            "en": "39 Dosan-daero 51-gil, Gangnam-gu, Seoul, South Korea"
+          },
+          "notes": {
+            "ko": "주차가능",
+            "en": "Parking available"
+          }
+        }
+      }
+    ],
+    "last_analyzed_at": "2026-07-27T16:50:14.406275+09:00",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "https://www.instagram.com/bourbon_street_kr",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
+    "i18n": {
+      "name": {
+        "ko": "버번스트리트 재즈클럽",
+        "en": "Bourbon Street Jazz Club"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "ko": [
+          "재즈 클럽"
+        ],
+        "en": [
+          "Jazz Club"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "_profile_hash": "7eb7bf7be51d806d51fc3c6497c58a9729b7ff3eb83b089f5dc6c300ba11f976"
+  },
+  {
     "ig_handle": "cafe_gig",
     "address_text": null,
     "address_components": null,
