@@ -814,7 +814,7 @@
   {
     "id": "evt_20260801_e6393cba-01f7-42a9-bfe1-2d5a4a90fcc6",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-01T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -831,13 +831,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Oh Young-joon Quartet",
+    "title": "Youngjun Oh Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Oh Young-joon Quartet",
+      "title": "Youngjun Oh Quartet",
       "description": null
     },
     "_search_ko": {
@@ -954,7 +954,7 @@
   {
     "id": "evt_20260801_e5212713-e39c-4706-b4b4-9666fd496f40",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-01T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbPpLjTv_4i/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -1756,7 +1756,7 @@
   {
     "id": "evt_20260802_e1e313f3-6a2b-4fec-8e44-be4b2b767121",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-08-02T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbAqFvZIJkY/",
+    "source_url": "https://www.instagram.com/p/DbVzVbSoLNs/",
     "venue_handle": "pdpdclub",
     "musician_ids": [],
     "musicians": [],
@@ -1767,23 +1767,27 @@
     "date": "2026-08-02",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Kim Jae-hyung Jazz Group",
+    "title": "Kim Jae Hyung Jazz Group",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Jae-hyung Jazz Group",
+      "title": "Kim Jae Hyung Jazz Group",
       "description": null
     },
     "_search_ko": {
-      "title": "김재형 재즈그룹",
+      "title": "김재형 재즈 그룹",
       "description": null
     }
   },
@@ -1926,7 +1930,7 @@
   {
     "id": "evt_20260802_4fe056ff-58f6-47a9-980e-ab087cbb2b72",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-02T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -2172,7 +2176,7 @@
   {
     "id": "evt_20260803_d2614516-b01f-4e57-abf7-cd58cff3ee9d",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-03T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -2185,25 +2189,21 @@
       {
         "label": "호스트 밴드 라이브 세트",
         "time": "20:00"
-      },
-      {
-        "label": "잼 세션",
-        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Super Jam Day",
+    "title": "Super J Jam Day",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Super Jam Day",
+      "title": "Super J Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "슈퍼 잼 데이",
+      "title": "슈퍼 제이 잼 데이",
       "description": null
     }
   },
@@ -2350,7 +2350,7 @@
   {
     "id": "evt_20260804_275399dd-1562-4e00-9dbe-b97ec60dcadd",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-04T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -2363,25 +2363,21 @@
       {
         "label": "호스트 밴드 라이브 세트",
         "time": "20:00"
-      },
-      {
-        "label": "잼 세션",
-        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Urban Jam Day",
+    "title": "Urban J Jam Day",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Urban Jam Day",
+      "title": "Urban J Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "어반 잼 데이",
+      "title": "어반 제이 잼 데이",
       "description": null
     }
   },
@@ -2591,7 +2587,7 @@
   {
     "id": "evt_20260805_4c19f38b-f335-456d-b6f0-395a24f5da94",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-05T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -2608,13 +2604,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Park So-young Quartet",
+    "title": "Soyoung Park Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Park So-young Quartet",
+      "title": "Soyoung Park Quartet",
       "description": null
     },
     "_search_ko": {
@@ -2693,7 +2689,7 @@
   {
     "id": "evt_20260805_55aa0d2b-80fc-4ae4-8a16-e299b8923c37",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-05T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbPpLjTv_4i/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -2935,7 +2931,7 @@
   {
     "id": "evt_20260806_efb29ee0-36ca-4eae-a3dc-4866450d07e1",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-06T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -2952,17 +2948,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "JJ Group (Seoul)",
+    "title": "JJ Group",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "JJ Group (Seoul)",
+      "title": "JJ Group",
       "description": null
     },
     "_search_ko": {
-      "title": "JJ 그룹 (서울)",
+      "title": "제이제이 그룹",
       "description": null
     }
   },
@@ -3443,7 +3439,7 @@
   {
     "id": "evt_20260807_424df1fa-bbcc-4a9e-a445-2924caa2aec4",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-07T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -3460,17 +3456,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Nibui",
+    "title": "NIBUY",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Nibui",
+      "title": "NIBUY",
       "description": null
     },
     "_search_ko": {
-      "title": "니부이",
+      "title": "니바이",
       "description": null
     }
   },
@@ -3549,7 +3545,7 @@
   {
     "id": "evt_20260807_8c3e84b7-be24-4f0b-8bf3-d7597ce3da98",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-07T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbPpLjTv_4i/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -3566,13 +3562,13 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Seonjeong Quartet",
+    "title": "Sunjeong Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Seonjeong Quartet",
+      "title": "Sunjeong Quartet",
       "description": null
     },
     "_search_ko": {
@@ -4086,7 +4082,7 @@
   {
     "id": "evt_20260808_b843dae3-9dba-4a1e-bda2-66cc68b91014",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-08T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -4103,13 +4099,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Salon de Oh Su-kyung",
+    "title": "Salon de Soookyung Oh",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Salon de Oh Su-kyung",
+      "title": "Salon de Soookyung Oh",
       "description": null
     },
     "_search_ko": {
@@ -4226,7 +4222,7 @@
   {
     "id": "evt_20260808_c518b2ee-4b0a-43c7-91a9-7b9aa432a1ad",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-08T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -4253,7 +4249,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "더 서레귤러스",
+      "title": "더 서레귤러즈",
       "description": null
     }
   },
@@ -4742,6 +4738,40 @@
     }
   },
   {
+    "id": "evt_20260809_4dd1b26f-6835-4dac-8d31-8430e786cd80",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-09T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-09T11:00:00+00:00",
+    "date": "2026-08-09",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Paul Kirby Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Paul Kirby Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "폴 커비 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260809_7b0c4a8f-91da-4bf1-8485-5fc2b14d06ed",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-09T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -4812,7 +4842,7 @@
   {
     "id": "evt_20260810_45f6c74e-c899-4734-a85a-f6862e49b565",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-10T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -4825,25 +4855,21 @@
       {
         "label": "호스트 밴드 라이브 세트",
         "time": "20:00"
-      },
-      {
-        "label": "잼 세션",
-        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Super Jam Day",
+    "title": "Super J Jam Day",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Super Jam Day",
+      "title": "Super J Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "슈퍼 잼 데이",
+      "title": "슈퍼 제이 잼 데이",
       "description": null
     }
   },
@@ -4884,7 +4910,7 @@
   {
     "id": "evt_20260811_ae5b37a8-217b-4930-a502-a54f4d536248",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-11T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -4897,25 +4923,21 @@
       {
         "label": "호스트 밴드 라이브 세트",
         "time": "20:00"
-      },
-      {
-        "label": "잼 세션",
-        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Urban Jam Day",
+    "title": "Urban J Jam Day",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Urban Jam Day",
+      "title": "Urban J Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "어반 잼 데이",
+      "title": "어반 제이 잼 데이",
       "description": null
     }
   },
@@ -5053,7 +5075,7 @@
   {
     "id": "evt_20260812_a0aba5ed-b90c-4e27-8439-7abad2885ecb",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-12T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -5070,17 +5092,51 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Son Tae-ho Kim Kyung-mo Duo",
+    "title": "Son Tae-ho x Kim Kyung-mo Duo",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Son Tae-ho Kim Kyung-mo Duo",
+      "title": "Son Tae-ho x Kim Kyung-mo Duo",
       "description": null
     },
     "_search_ko": {
-      "title": "손태호 김경모 듀오",
+      "title": "손태호x김경모 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260812_00b1fdea-6a91-41b0-b870-ed276383bbbe",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-12T11:00:00+00:00",
+    "date": "2026-08-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Betty Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Betty Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "베티 퀄텟",
       "description": null
     }
   },
@@ -5217,6 +5273,40 @@
     },
     "_search_ko": {
       "title": "염신혜 라틴 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260813_9e1838df-5b87-4e2b-b824-b3bc2adff543",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-13T11:00:00+00:00",
+    "date": "2026-08-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Nate Rich Trio + Cha...",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nate Rich Trio + Cha...",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "네이트 리치 트리오 + 차...",
       "description": null
     }
   },
@@ -5459,7 +5549,7 @@
   {
     "id": "evt_20260814_b042385e-e1cd-4ef4-b86a-fe3a5d3d237d",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -5476,13 +5566,13 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Hyojeongri Latin Project",
+    "title": "Hyojeong Lee Latin Project",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hyojeongri Latin Project",
+      "title": "Hyojeong Lee Latin Project",
       "description": null
     },
     "_search_ko": {
@@ -5521,6 +5611,40 @@
     },
     "_search_ko": {
       "title": "어나더 시즌",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260814_028c691b-fd7e-46d1-9ba7-8dc1e460c6fa",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-14T11:00:00+00:00",
+    "date": "2026-08-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Mona In | Avender World",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mona In | Avender World",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "모나 인 | 아벤더 월드",
       "description": null
     }
   },
@@ -5890,7 +6014,7 @@
   {
     "id": "evt_20260815_00617e5e-20de-4fc9-a689-d1901eedb674",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -5907,17 +6031,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Robiq's World",
+    "title": "ROBIQ's Soookyung Oh",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Robiq's World",
+      "title": "ROBIQ's Soookyung Oh",
       "description": null
     },
     "_search_ko": {
-      "title": "로빅스 월드",
+      "title": "로빅스 오수경",
       "description": null
     }
   },
@@ -5962,7 +6086,7 @@
   {
     "id": "evt_20260815_5977e60a-742e-4812-9e5f-70a629559378",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -5979,17 +6103,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Wina Band",
+    "title": "Weena Band",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Wina Band",
+      "title": "Weena Band",
       "description": null
     },
     "_search_ko": {
-      "title": "위나 밴드",
+      "title": "위나밴드",
       "description": null
     }
   },
@@ -6304,6 +6428,40 @@
     }
   },
   {
+    "id": "evt_20260816_7734ea43-259c-4d07-9e1f-dba9c54b8835",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-16T11:00:00+00:00",
+    "date": "2026-08-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "A Tribute to Chick Corea",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "A Tribute to Chick Corea",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "칙 코리아 트리뷰트",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260816_8ca8ae75-1cf2-47b8-826e-9df5105d1a8c",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-16T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -6340,7 +6498,7 @@
   {
     "id": "evt_20260817_f087c5ec-7305-4db3-a383-c5ec62dc4a2e",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-17T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -6353,25 +6511,21 @@
       {
         "label": "호스트 밴드 라이브 세트",
         "time": "20:00"
-      },
-      {
-        "label": "잼 세션",
-        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Super Jam Day",
+    "title": "Super J Jam Day",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Super Jam Day",
+      "title": "Super J Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "슈퍼 잼 데이",
+      "title": "슈퍼 제이 잼 데이",
       "description": null
     }
   },
@@ -6475,7 +6629,7 @@
   {
     "id": "evt_20260818_186fced9-7b5b-4982-b407-7c1be116123c",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -6488,25 +6642,21 @@
       {
         "label": "호스트 밴드 라이브 세트",
         "time": "20:00"
-      },
-      {
-        "label": "잼 세션",
-        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Urban Jam Day",
+    "title": "Urban J Jam Day",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Urban Jam Day",
+      "title": "Urban J Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "어반 잼 데이",
+      "title": "어반 제이 잼 데이",
       "description": null
     }
   },
@@ -6610,7 +6760,7 @@
   {
     "id": "evt_20260819_93c45314-3d6f-4864-8f1d-4ea7c1dd6724",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -6627,13 +6777,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Uaksae",
+    "title": "Euaksae",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Uaksae",
+      "title": "Euaksae",
       "description": null
     },
     "_search_ko": {
@@ -6678,7 +6828,7 @@
   {
     "id": "evt_20260819_fc3189d4-d67b-481b-86f0-06878c868f93",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -6695,13 +6845,13 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Go Myeong-seok Quintet",
+    "title": "Go Myung-seok Quintet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Go Myeong-seok Quintet",
+      "title": "Go Myung-seok Quintet",
       "description": null
     },
     "_search_ko": {
@@ -6746,7 +6896,7 @@
   {
     "id": "evt_20260820_916f1775-6c7a-4d75-a2af-b0c37a59d4f8",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -6763,17 +6913,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Charlie Jung Blues Band",
+    "title": "Charlie Jung Blues B...",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Charlie Jung Blues Band",
+      "title": "Charlie Jung Blues B...",
       "description": null
     },
     "_search_ko": {
-      "title": "찰리 정 블루스 밴드",
+      "title": "찰리 정 블루스 비...",
       "description": null
     }
   },
@@ -7046,7 +7196,7 @@
   {
     "id": "evt_20260821_263d0c96-44c7-46fa-84cb-d32ad3575f45",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -7063,17 +7213,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Leonard Kauska",
+    "title": "Leonarda s Pilkauskas...",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Leonard Kauska",
+      "title": "Leonarda s Pilkauskas...",
       "description": null
     },
     "_search_ko": {
-      "title": "레너드 카우스카",
+      "title": "레오나르다스 필카우스카스...",
       "description": null
     }
   },
@@ -7118,7 +7268,7 @@
   {
     "id": "evt_20260821_e3c8f1ec-c9e9-41b3-b0c2-604d13e72054",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -7135,13 +7285,13 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Kim Dae-gyu Trio (Vocal Heo Yu-jin)",
+    "title": "Kim Dae-kyu Trio (Vocal Heo Yu-jin)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Dae-gyu Trio (Vocal Heo Yu-jin)",
+      "title": "Kim Dae-kyu Trio (Vocal Heo Yu-jin)",
       "description": null
     },
     "_search_ko": {
@@ -7518,7 +7668,7 @@
   {
     "id": "evt_20260822_4234310d-9ae3-4437-9ca3-71b4d9bc1483",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -7535,17 +7685,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Seo Su-jin Coloris Trio",
+    "title": "Coloris Trio",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Seo Su-jin Coloris Trio",
+      "title": "Coloris Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "서수진 콜로리스 트리오",
+      "title": "컬러리스 트리오",
       "description": null
     }
   },
@@ -7658,7 +7808,7 @@
   {
     "id": "evt_20260822_17d225f9-646c-411f-94d3-56d736999082",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -8000,6 +8150,40 @@
     }
   },
   {
+    "id": "evt_20260823_28fcf53a-739d-4843-9655-c6ca8536fc18",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-23T11:00:00+00:00",
+    "date": "2026-08-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "JSFA",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "JSFA",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "제이에스에프에이",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260823_f185787a-4f8c-4989-82ad-100fec3f8e02",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-23T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -8036,7 +8220,7 @@
   {
     "id": "evt_20260824_2a1991ff-963f-4e2a-bbb1-d0624a31b159",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-24T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -8049,25 +8233,21 @@
       {
         "label": "호스트 밴드 라이브 세트",
         "time": "20:00"
-      },
-      {
-        "label": "잼 세션",
-        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Super Jam Day",
+    "title": "Super J Jam Day",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Super Jam Day",
+      "title": "Super J Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "슈퍼 잼 데이",
+      "title": "슈퍼 제이 잼 데이",
       "description": null
     }
   },
@@ -8108,7 +8288,7 @@
   {
     "id": "evt_20260825_7df89457-2c1c-4a00-a806-cdc8a2717072",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-25T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -8121,25 +8301,21 @@
       {
         "label": "호스트 밴드 라이브 세트",
         "time": "20:00"
-      },
-      {
-        "label": "잼 세션",
-        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Urban Jam Day",
+    "title": "Urban J Jam Day",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Urban Jam Day",
+      "title": "Urban J Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "어반 잼 데이",
+      "title": "어반 제이 잼 데이",
       "description": null
     }
   },
@@ -8209,7 +8385,7 @@
   {
     "id": "evt_20260826_3dd70729-78e3-44fb-80bf-ae9b888a3d63",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-26T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -8226,17 +8402,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Kim Jeong-rae Quintet",
+    "title": "Jeongrye Kim Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Jeong-rae Quintet",
+      "title": "Jeongrye Kim Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "김정래 퀸텟",
+      "title": "김정례 퀄텟",
       "description": null
     }
   },
@@ -8277,7 +8453,7 @@
   {
     "id": "evt_20260826_6fe899be-c8cb-4e6e-a27c-97501598eb4f",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-26T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -8294,17 +8470,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Son Tae-ho Kim Dae-gyu Duo",
+    "title": "Son Tae-ho x Kim Dae-kyu Duo",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Son Tae-ho Kim Dae-gyu Duo",
+      "title": "Son Tae-ho x Kim Dae-kyu Duo",
       "description": null
     },
     "_search_ko": {
-      "title": "손태호 김대규 듀오",
+      "title": "손태호x김대규 듀오",
       "description": null
     }
   },
@@ -8441,6 +8617,40 @@
     },
     "_search_ko": {
       "title": "루아르",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260827_419be22d-176b-4047-a761-2d5f2e1e5b71",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-27T11:00:00+00:00",
+    "date": "2026-08-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Pleasant Island",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Pleasant Island",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "유쾌한 섬",
       "description": null
     }
   },
@@ -8683,7 +8893,7 @@
   {
     "id": "evt_20260828_d0221610-c663-45a0-a3bd-56f1cb081bef",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -8745,6 +8955,40 @@
     },
     "_search_ko": {
       "title": "좀비 트리오 (권범수)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260828_2d55f2f1-c1c3-49d2-a59e-c6f64fb207ee",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-28T11:00:00+00:00",
+    "date": "2026-08-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Live Club Day",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Live Club Day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "라이브 클럽 데이",
       "description": null
     }
   },
@@ -9114,7 +9358,7 @@
   {
     "id": "evt_20260829_87b7beea-335a-43d3-8a75-a55475f10fbc",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-29T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -9131,13 +9375,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Im Yong-hun & Sambistas",
+    "title": "Yonghoon Lim & Sambistas",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Im Yong-hun & Sambistas",
+      "title": "Yonghoon Lim & Sambistas",
       "description": null
     },
     "_search_ko": {
@@ -9186,7 +9430,7 @@
   {
     "id": "evt_20260829_552c3309-900f-4575-9c38-3a80461a5979",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-08-29T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbTFp24PaDT/",
+    "source_url": "https://www.instagram.com/p/DbS7EyXv0UN/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -9213,7 +9457,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "마리코 밴드",
+      "title": "마리코즈 밴드",
       "description": null
     }
   },
@@ -9528,6 +9772,40 @@
     }
   },
   {
+    "id": "evt_20260830_c3dab616-907c-4bc6-9251-1efda5f5b9c3",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-08-30T11:00:00+00:00",
+    "date": "2026-08-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Pulse Nomad : Minima...",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Pulse Nomad : Minima...",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "펄스 노마드 : 미니마...",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260830_00d11b31-920a-4e9a-a423-4df97ac5731c",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-30T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -9564,7 +9842,7 @@
   {
     "id": "evt_20260831_c90c1b74-ba9b-466c-9245-f7b002d355b3",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-31T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
+    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -9577,25 +9855,21 @@
       {
         "label": "호스트 밴드 라이브 세트",
         "time": "20:00"
-      },
-      {
-        "label": "잼 세션",
-        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Super Jam Day",
+    "title": "Super J Jam Day",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Super Jam Day",
+      "title": "Super J Jam Day",
       "description": null
     },
     "_search_ko": {
-      "title": "슈퍼 잼 데이",
+      "title": "슈퍼 제이 잼 데이",
       "description": null
     }
   },
