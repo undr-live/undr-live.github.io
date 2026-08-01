@@ -4147,6 +4147,101 @@
     "_profile_hash": "4c5df056cf4e540632d7b8c49df31d1111d664a636dcbd6472d1e0ff5d4d427d"
   },
   {
+    "ig_handle": "jazzin_lab",
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": null,
+    "typical_show_times": null,
+    "genres": [
+      "jazz",
+      "live music"
+    ],
+    "websites": [
+      "https://linktr.ee/jazzin_lab"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/jazzin_lab",
+      "homepage": "https://linktr.ee/jazzin_lab",
+      "booking": null,
+      "google_map": null
+    },
+    "contacts": {
+      "phone": "+82-70-8882-3863",
+      "email": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "재즈인랩",
+        "address_text": "세종특별자치시 보람동 시청대로 167, 세종드림빌딩 재즈인 연구소 203호",
+        "address_components": null,
+        "location_lat": 36.4813104143387,
+        "location_lon": 127.289895723001,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": "Located in Sejong City.",
+        "i18n": {
+          "name": {
+            "ko": "재즈인랩",
+            "en": "Jazzin Lab"
+          },
+          "address_text": {
+            "ko": "세종특별자치시 보람동 시청대로 167, 세종드림빌딩 재즈인 연구소 203호",
+            "en": "Room 203, Jazzin Research Institute, Sejong Dream Building, 167 Sicheong-daero, Boram-dong, Sejong Special Self-Governing City, South Korea"
+          },
+          "notes": {
+            "ko": "세종시에 위치.",
+            "en": "Located in Sejong City."
+          }
+        }
+      }
+    ],
+    "last_analyzed_at": "2026-08-02T06:45:56.602768+09:00",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "instagram",
+      "maps:https://maps.google.com/maps?cid=17323991291076451094",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
+    "i18n": {
+      "name": {
+        "ko": "재즈인랩",
+        "en": "Jazzin Lab"
+      },
+      "address_text": {
+        "ko": "세종특별자치시 보람동 시청대로 167, 세종드림빌딩 재즈인 연구소 203호",
+        "en": "Room 203, Jazzin Research Institute, Sejong Dream Building, 167 Sicheong-daero, Boram-dong, Sejong Special Self-Governing City, South Korea"
+      },
+      "notes": {
+        "ko": "복합문화공간으로 세상의 아름다운 것들을 소개합니다. 공연, 대관, 음악/인문학 강의를 제공합니다. 관련 교육 계정: @jazzinlab_edu.",
+        "en": "A complex cultural space introducing beautiful things to the world. Offers performances, venue rental, and music/humanities lectures. Related education account: @jazzinlab_edu."
+      },
+      "genres": {
+        "ko": [
+          "재즈",
+          "라이브 공연"
+        ],
+        "en": [
+          "Jazz",
+          "Live music"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "_profile_hash": "191150031bab776ede9f5fe1024e16cd42e608813ebcaa895c943732b23203c4"
+  },
+  {
     "ig_handle": "jazzlounge_official",
     "address_text": null,
     "address_components": null,
