@@ -1172,6 +1172,35 @@
     }
   },
   {
+    "id": "evt_20260731_716ac63f-2f21-47cd-a3c5-a14cf45d4e68",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-07-31T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbfqLm_Nvwv/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-07-31T15:00:00+00:00",
+    "date": "2026-08-01",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "ALT Rocks Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "ALT Rocks Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "ALT 록스밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260801_255e0c68-e65f-4038-ab19-ef4804582655",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-08-01T04:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbdSkkjSiQu/",
@@ -1552,7 +1581,7 @@
   {
     "id": "evt_20260801_432166de-4ce8-4efa-8ff2-22e2129f6902",
     "event_key": "v:ven_fc57057d-2f38-400b-80db-2a590f04f4f3|t:2026-08-01T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbSYSAVx4o2/",
+    "source_url": "https://www.instagram.com/p/DbdDhmnRdpZ/",
     "venue_handle": "jazzclubbottomline",
     "musician_ids": [],
     "musicians": [],
@@ -1569,13 +1598,13 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Lee Hyunjae Quintet",
+    "title": "Lee Hyeonjae Quintet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Hyunjae Quintet",
+      "title": "Lee Hyeonjae Quintet",
       "description": null
     },
     "_search_ko": {
@@ -3366,6 +3395,40 @@
     }
   },
   {
+    "id": "evt_20260803_e2a751e1-9732-4f86-a652-b3b91c50ba53",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-03T11:00:00+00:00",
+    "date": "2026-08-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Cotton Club Band (Vocal Nam Yeji)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Cotton Club Band (Vocal Nam Yeji)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "코튼 클럽 밴드 (보컬 남예지)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260804_275399dd-1562-4e00-9dbe-b97ec60dcadd",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-04T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbNL04IkckU/",
@@ -3506,6 +3569,40 @@
     },
     "_search_ko": {
       "title": "마르디 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260804_28acddda-925a-4671-b8f6-039cb6438683",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-04T11:00:00+00:00",
+    "date": "2026-08-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jeon Jae-geun Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jeon Jae-geun Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "전재근 트리오",
       "description": null
     }
   },
@@ -3777,6 +3874,40 @@
     },
     "_search_ko": {
       "title": "김하진 듀오 잼세션",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260805_5b2388e8-f475-4560-8590-4ead611ec275",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-05T11:00:00+00:00",
+    "date": "2026-08-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jeon Jin-woong Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jeon Jin-woong Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "전진웅 트리오",
       "description": null
     }
   },
@@ -4057,6 +4188,40 @@
     }
   },
   {
+    "id": "evt_20260806_21618948-974b-4040-a973-2974c8b8e612",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-06T11:00:00+00:00",
+    "date": "2026-08-06",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hwang In-seon Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hwang In-seon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "황인선 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260806_b28eb5d4-5a07-48f2-941e-890b973b97b6",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-06T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -4120,6 +4285,35 @@
     }
   },
   {
+    "id": "evt_20260806_c7b7f0fa-1f13-4b72-8873-f1efe0ae719d",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-08-06T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbfqLm_Nvwv/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-08-06T15:00:00+00:00",
+    "date": "2026-08-07",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Bae Jiyoon Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Bae Jiyoon Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "배지윤 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260807_327da02d-0342-4e15-a1a8-d5997676f584",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-08-07T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbP-yAKGMP-/",
@@ -4150,6 +4344,40 @@
     },
     "_search_ko": {
       "title": "허지희 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260807_2ca6402c-4cba-454f-91e4-c8e08288245f",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-07T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-07T10:00:00+00:00",
+    "date": "2026-08-07",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jo Woon and Good Friends",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jo Woon and Good Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조운과 좋은 친구들",
       "description": null
     }
   },
@@ -4472,6 +4700,40 @@
     }
   },
   {
+    "id": "evt_20260807_178b2269-73fb-4447-b483-a953122cade1",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-07T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-07T12:30:00+00:00",
+    "date": "2026-08-07",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Ju-mi Jazz Palette",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Ju-mi Jazz Palette",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이주미 재즈 팔레트",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260807_4f4690eb-af7b-4e4b-b895-f9f5e6bb8ff3",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-08-07T12:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DbP-yAKGMP-/",
@@ -4560,6 +4822,35 @@
     },
     "_search_ko": {
       "title": "더 서레귤러스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260807_668f63bd-f61d-456c-bc1e-860dd96e8933",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-08-07T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbfqLm_Nvwv/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-08-07T15:00:00+00:00",
+    "date": "2026-08-08",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Rocks Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Rocks Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "록스밴드",
       "description": null
     }
   },
@@ -4662,6 +4953,40 @@
     },
     "_search_ko": {
       "title": "유사랑 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260808_83f1f336-d1f4-4ef7-a452-973dbf61f4da",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-08T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-08T10:00:00+00:00",
+    "date": "2026-08-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "The Jeremy Park Show",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Jeremy Park Show",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 제레미 박 쇼",
       "description": null
     }
   },
@@ -5018,6 +5343,40 @@
     }
   },
   {
+    "id": "evt_20260808_2e293890-3f1e-4516-a503-2170953a2ad0",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-08T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-08T12:30:00+00:00",
+    "date": "2026-08-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Seong-su Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Seong-su Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김성수 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260808_f34299cf-819d-4eea-9dda-ccdfea4dc79c",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-08-08T12:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DbP-yAKGMP-/",
@@ -5222,6 +5581,40 @@
     }
   },
   {
+    "id": "evt_20260809_d5b5f6a9-19da-4343-813a-30393e8dc18d",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-09T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-09T10:00:00+00:00",
+    "date": "2026-08-09",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Chobai Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Chobai Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "초바이 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260809_006678a6-5847-42f1-b85d-125cbf383191",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-08-09T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DbZ4uVNGqX1/",
@@ -5324,6 +5717,40 @@
     },
     "_search_ko": {
       "title": "김지만 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260809_d2ee3dee-e892-4481-b311-c5cfda05c7f9",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-09T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbdgP4rAYOI/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-08-09T11:30:00+00:00",
+    "date": "2026-08-09",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Gi-yun Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Choi Gi-yun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최기윤 퀄텟",
       "description": null
     }
   },
@@ -5768,6 +6195,35 @@
     }
   },
   {
+    "id": "evt_20260813_ab651459-e42d-492d-b96a-e791093bdd35",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-08-13T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbfqLm_Nvwv/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-08-13T15:00:00+00:00",
+    "date": "2026-08-14",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ryu Ingi Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ryu Ingi Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "류인기 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260814_b0e8266a-d489-4cc1-9ef3-fe35b9d97add",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-08-14T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbP-yAKGMP-/",
@@ -6068,6 +6524,35 @@
     },
     "_search_ko": {
       "title": "위나 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260814_7fbd0225-abfc-4192-84c3-a1ca59365420",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-08-14T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbfqLm_Nvwv/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-08-14T15:00:00+00:00",
+    "date": "2026-08-15",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Infinity Team Jam",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Infinity Team Jam",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "인피니팀잼",
       "description": null
     }
   },
@@ -7199,6 +7684,35 @@
     }
   },
   {
+    "id": "evt_20260820_da79aac8-0dc7-4f75-baa5-a1ad693142c9",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-08-20T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbfqLm_Nvwv/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-08-20T15:00:00+00:00",
+    "date": "2026-08-21",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hwang Jeongwon Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hwang Jeongwon Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "황정원 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260821_410956b4-d2d6-4f07-b8d4-ba7f83ae9459",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-08-21T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbP-yAKGMP-/",
@@ -7562,6 +8076,35 @@
     },
     "_search_ko": {
       "title": "서수진 ‘Prism of Existence’ 발매 기념 공연",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260821_782fccd1-c5a9-45ac-8a5e-b344f9b99569",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-08-21T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbfqLm_Nvwv/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-08-21T15:00:00+00:00",
+    "date": "2026-08-22",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Infinity Team Jam",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Infinity Team Jam",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "인피니팀잼",
       "description": null
     }
   },
@@ -8604,6 +9147,35 @@
     }
   },
   {
+    "id": "evt_20260827_7f1f131b-14ab-4498-b844-2b70d20550c8",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-08-27T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbfqLm_Nvwv/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-08-27T15:00:00+00:00",
+    "date": "2026-08-28",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Seongho Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Seongho Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이성호 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260828_df76ee94-3067-44a3-8ad9-06691dca5245",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-08-28T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbP-yAKGMP-/",
@@ -8904,6 +9476,35 @@
     },
     "_search_ko": {
       "title": "마리코 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260828_6607b0fa-dea6-4e4d-9b33-b2f0440ff299",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-08-28T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbfqLm_Nvwv/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-08-28T15:00:00+00:00",
+    "date": "2026-08-29",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Litmus",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Litmus",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리트머스",
       "description": null
     }
   },
