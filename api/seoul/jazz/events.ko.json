@@ -343,6 +343,44 @@
     }
   },
   {
+    "id": "evt_20260805_c1143fa5-f5c2-4ff8-98ff-8df40d34c3f2",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-08-05T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dbpi9_SATpX/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-08-05T10:30:00+00:00",
+    "date": "2026-08-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이선미 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Sun-mi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이선미 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260805_4590455b-db2c-4bf3-b6a1-3405ac6ee7ca",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-08-05T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbAqFvZIJkY/",
@@ -1283,7 +1321,7 @@
   {
     "id": "evt_20260806_d8e9b2aa-17f0-407e-a897-5321eccff4df",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-08-06T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbkeFgcht8m/",
+    "source_url": "https://www.instagram.com/p/DbpoDjwBSUc/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -1300,17 +1338,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "윤성희 트리오",
+    "title": "반검서 트리오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yoon Sung-hee Trio",
+      "title": "Ban Geom-seo Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "윤성희 트리오",
+      "title": "반검서 트리오",
       "description": null
     }
   },
@@ -2111,6 +2149,40 @@
     },
     "_search_ko": {
       "title": "김한울 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260807_0cc8cc22-a014-461a-96ea-e63a0c46e659",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-08-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbllrpSvJVA/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-08-07T11:00:00+00:00",
+    "date": "2026-08-07",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "최연비 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Choi Yeon-bi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최연비 트리오",
       "description": null
     }
   },
@@ -3322,6 +3394,44 @@
     },
     "_search_ko": {
       "title": "재시범 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260808_79f0a6d4-f593-4452-a700-d7e429398b39",
+    "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-08-08T11:45:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbmQt4Fy8Vc/",
+    "venue_handle": "michiko.seoul_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
+    "venue_location_id": "main",
+    "datetime": "2026-08-08T11:45:00+00:00",
+    "date": "2026-08-08",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:45"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이재원월드재즈유닛",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Jae-won World Jazz Unit",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이재원월드재즈유닛",
       "description": null
     }
   },
