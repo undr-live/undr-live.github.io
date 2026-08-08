@@ -58,6 +58,35 @@
     }
   },
   {
+    "id": "evt_20260806_c8d066f5-8270-4956-ad58-f0494c6736ea",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-08-06T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DbvcD1UitEs/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-08-06T15:00:00+00:00",
+    "date": "2026-08-07",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Taesun Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Taesun Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김태선 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260807_43613394-8596-4cc7-ae1b-3fb70a41790a",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-08-07T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbuIfSbk2mV/",
@@ -340,7 +369,7 @@
   {
     "id": "evt_20260807_96126f24-c4cb-44d3-bdcb-d7b5c8f320e3",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-08-07T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbAqFvZIJkY/",
+    "source_url": "https://www.instagram.com/p/Dbj-V7NoL3i/",
     "venue_handle": "pdpdclub",
     "musician_ids": [],
     "musicians": [],
@@ -351,23 +380,27 @@
     "date": "2026-08-07",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Kim Soon-young Jazz Band",
+    "title": "Kim Soon-young Jazz Tap Band",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Soon-young Jazz Band",
+      "title": "Kim Soon-young Jazz Tap Band",
       "description": null
     },
     "_search_ko": {
-      "title": "김순영 재즈밴드",
+      "title": "김순영 재즈 탭 밴드",
       "description": null
     }
   },
@@ -976,7 +1009,7 @@
   {
     "id": "evt_20260807_7497f022-525c-44db-aac9-deb88d845afb",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-07T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
+    "source_url": "https://www.instagram.com/p/Dbt9WCxPjff/",
     "venue_handle": "dido_jazz_lounge",
     "musician_ids": [],
     "musicians": [],
