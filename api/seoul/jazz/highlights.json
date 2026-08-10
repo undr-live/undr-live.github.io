@@ -1,50 +1,78 @@
 {
-  "week_start_date": "2026-08-03",
-  "generated_at": "2026-08-03T06:00:29.026592+00:00",
+  "week_start_date": "2026-08-10",
+  "generated_at": "2026-08-10T06:00:06.444324+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-08-06": {
-      "event_id": "evt_20260806_92af50ff-3057-47c5-b989-f66b9a8d616e",
+    "2026-08-12": {
+      "event_id": "evt_20260812_e2c2f580-b3de-45bb-84f4-7203c5f1f295",
       "title": {
-        "ko": "허지희 트리오",
-        "en": "Heo Ji-hee Trio"
+        "ko": "김승구 트리오",
+        "en": "Kim Seung-koo Trio"
+      },
+      "venue_name": {
+        "en": "pdpdclub",
+        "ko": "파닥파닥클럽"
+      },
+      "venue_handle": "pdpdclub",
+      "datetime": "2026-08-12T11:00:00+00:00",
+      "selected_at": "2026-08-10T06:00:06.443198+00:00"
+    },
+    "2026-08-13": {
+      "event_id": "evt_20260813_7f4d119c-5aa2-4df4-b8bb-860c8ad1e966",
+      "title": {
+        "ko": "말로 밴드",
+        "en": "Malo Band"
+      },
+      "venue_name": {
+        "en": "Jazz Club Janus",
+        "ko": "재즈클럽 야누스"
+      },
+      "venue_handle": "jazzclub_janus",
+      "datetime": "2026-08-13T11:00:00+00:00",
+      "selected_at": "2026-08-10T06:00:06.443493+00:00"
+    },
+    "2026-08-14": {
+      "event_id": "evt_20260814_69d12755-1d7b-48e5-902e-b620d001ed88",
+      "title": {
+        "ko": "한유정 퀄텟",
+        "en": "Han Yujung Quartet"
+      },
+      "venue_name": {
+        "en": "Blueming Jazz Bar",
+        "ko": "블루밍 재즈바"
+      },
+      "venue_handle": "blueming_jazz",
+      "datetime": "2026-08-14T11:30:00+00:00",
+      "selected_at": "2026-08-10T06:00:06.443778+00:00"
+    },
+    "2026-08-15": {
+      "event_id": "evt_20260815_fd6742ab-4f8a-4b29-9dd1-450806a039c2",
+      "title": {
+        "ko": "박유라 퀄텟",
+        "en": "Park Yura Quartet"
+      },
+      "venue_name": {
+        "en": "Cotton Club",
+        "ko": "코튼클럽"
+      },
+      "venue_handle": "cottonclub_seoul",
+      "datetime": "2026-08-15T10:00:00+00:00",
+      "selected_at": "2026-08-10T06:00:06.444045+00:00"
+    },
+    "2026-08-16": {
+      "event_id": "evt_20260816_ea338c7a-7d2f-4d6e-9ca5-ca6090803b75",
+      "title": {
+        "ko": "김민비 밴드",
+        "en": "Kim Min-bi Band"
       },
       "venue_name": {
         "en": "FLATNINE",
         "ko": "플랫나인"
       },
       "venue_handle": "flatnine_jazzbar",
-      "datetime": "2026-08-06T11:00:00+00:00",
-      "selected_at": "2026-08-03T06:00:28.968710+00:00"
-    },
-    "2026-08-07": {
-      "event_id": "evt_20260807_8c3e84b7-be24-4f0b-8bf3-d7597ce3da98",
-      "title": {
-        "ko": "선정 퀄텟",
-        "en": "Sunjeong Quartet"
-      },
-      "venue_name": {
-        "en": "Africa Since 1988",
-        "ko": "아프리카 신스 1988"
-      },
-      "venue_handle": "africa_since1988",
-      "datetime": "2026-08-07T11:00:00+00:00",
-      "selected_at": "2026-08-03T06:00:28.979445+00:00"
-    },
-    "2026-08-08": {
-      "event_id": "evt_20260808_a1a0aa85-3820-4b00-bba0-8e2f7de167dc",
-      "title": {
-        "ko": "이초롱 퀄텟",
-        "en": "Lee Cho-rong Quartet"
-      },
-      "venue_name": {
-        "en": "Newall Jazz Lounge",
-        "ko": "뉴올 재즈 라운지"
-      },
-      "venue_handle": "newall_jazz",
-      "datetime": "2026-08-08T11:00:00+00:00",
-      "selected_at": "2026-08-03T06:00:29.025834+00:00"
+      "datetime": "2026-08-16T10:00:00+00:00",
+      "selected_at": "2026-08-10T06:00:06.444315+00:00"
     }
   }
 }
