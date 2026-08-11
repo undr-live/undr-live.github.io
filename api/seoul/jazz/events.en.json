@@ -208,6 +208,40 @@
     }
   },
   {
+    "id": "evt_20260811_a8ac9c0c-81c7-40a1-88f8-aa4206ecf36a",
+    "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-08-11T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db2x5RmvHwV/",
+    "venue_handle": "cafe_minor_swing",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1655af5a-ea12-47f6-8d39-eb30735e8b48",
+    "venue_location_id": "main",
+    "datetime": "2026-08-11T10:00:00+00:00",
+    "date": "2026-08-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Minor Swing Schubert",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Minor Swing Schubert",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "마이너 스윙 슈베르트",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260811_be36ffc2-908e-445a-946a-f8e8fbc4e6f9",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-08-11T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Db1rrrVkmNN/",
@@ -789,6 +823,44 @@
     }
   },
   {
+    "id": "evt_20260812_68638ab9-18d8-4e0f-aac3-bbc6b7109dc1",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-08-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db2sUYcTEMI/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-08-12T11:00:00+00:00",
+    "date": "2026-08-12",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Rohbasaem Solo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Rohbasaem Solo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "로바샘 솔로",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260812_da188927-272d-4147-8948-dfd8c2426daf",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-12T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -1201,6 +1273,82 @@
     },
     "_search_ko": {
       "title": "로스 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260813_3bf8b704-8100-41ff-8eb9-9ff1ec7e8b94",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-08-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db10pqEvzQJ/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-08-13T11:00:00+00:00",
+    "date": "2026-08-13",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Solo Piano",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Solo Piano",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "솔로 피아노",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260813_e3e63087-afda-47a7-b42d-b3bd85d34060",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-08-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db2sUYcTEMI/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-08-13T11:00:00+00:00",
+    "date": "2026-08-13",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Suan Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Suan Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "수안 듀오",
       "description": null
     }
   },
@@ -1823,6 +1971,82 @@
     }
   },
   {
+    "id": "evt_20260814_8ca0a7ac-e52b-43ae-92fb-576a28e53a52",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-08-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db10pqEvzQJ/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-08-14T11:00:00+00:00",
+    "date": "2026-08-14",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Damon Brown Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Damon Brown Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "데이먼 브라운 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260814_b8921cd6-2245-4c7c-8cfb-5ca74ecd23bd",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-08-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db2sUYcTEMI/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-08-14T11:00:00+00:00",
+    "date": "2026-08-14",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Mardi Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mardi Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "마르디 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260814_106badce-1fba-4b54-8273-e677fb0f42d1",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-14T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -1925,6 +2149,44 @@
     },
     "_search_ko": {
       "title": "김재형 트리오 (보컬 이재은)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260814_bda5241f-b290-4ea6-aa1f-c6b50839a2b9",
+    "event_key": "v:ven_dda28cb8-70a0-4815-971c-666b82e81609|t:2026-08-14T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db2yfo2jyJ6/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dda28cb8-70a0-4815-971c-666b82e81609",
+    "venue_location_id": "main",
+    "datetime": "2026-08-14T11:30:00+00:00",
+    "date": "2026-08-14",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Myung-ji Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Choi Myung-ji Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최명지 퀄텟",
       "description": null
     }
   },
@@ -2852,6 +3114,82 @@
     }
   },
   {
+    "id": "evt_20260815_6fcef7c4-3f45-4eae-8670-8807ea7f14a7",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-08-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db10pqEvzQJ/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-08-15T11:00:00+00:00",
+    "date": "2026-08-15",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Headeun Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Choi Headeun Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최해든 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260815_927677bc-664a-417a-8e21-5a7e34851d95",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-08-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db2sUYcTEMI/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-08-15T11:00:00+00:00",
+    "date": "2026-08-15",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lester Yoo Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lester Yoo Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "레스터 유 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260815_1d5916f2-b3f8-4523-9ec4-69eb5f1cfdbe",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-15T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -3434,6 +3772,82 @@
     },
     "_search_ko": {
       "title": "레이첼 박 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260816_c54a0071-f4f6-4041-b8fd-20ac3b9b59b7",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-08-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db10pqEvzQJ/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-08-16T11:00:00+00:00",
+    "date": "2026-08-16",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Headeun Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Choi Headeun Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최해든 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260816_2d93e96f-495e-490c-a15d-671d156eb9be",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-08-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db2sUYcTEMI/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-08-16T11:00:00+00:00",
+    "date": "2026-08-16",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Han Joo Young Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Joo Young Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한주영 트리오",
       "description": null
     }
   },
