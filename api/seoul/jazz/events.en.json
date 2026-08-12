@@ -102,6 +102,44 @@
     }
   },
   {
+    "id": "evt_20260811_ff51742d-1fd2-4976-9065-9743e7ddf539",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-08-11T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db41MBCgcNl/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-08-11T10:30:00+00:00",
+    "date": "2026-08-11",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Woo Sunhee Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Woo Sunhee Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "우선희 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260811_ae5b37a8-217b-4930-a502-a54f4d536248",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-11T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
@@ -717,6 +755,40 @@
     },
     "_search_ko": {
       "title": "로바샘 솔로",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260812_87ecee74-768e-41e6-b384-2085dcf4064b",
+    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-08-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db5x8CASGKs/",
+    "venue_handle": "sounddog_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
+    "venue_location_id": "main",
+    "datetime": "2026-08-12T11:00:00+00:00",
+    "date": "2026-08-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Tudo Bem",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Tudo Bem",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "뚜두뱅",
       "description": null
     }
   },
@@ -1903,6 +1975,40 @@
     },
     "_search_ko": {
       "title": "마르디 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260814_48514f6e-f166-467f-90d0-5c9ef1372ba8",
+    "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-08-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db2bEA8x9bC/",
+    "venue_handle": "oleojazzpub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
+    "venue_location_id": "main",
+    "datetime": "2026-08-14T11:00:00+00:00",
+    "date": "2026-08-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Jangeun Bae Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jangeun Bae Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "배장은 퀄텟",
       "description": null
     }
   },
