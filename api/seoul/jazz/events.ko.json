@@ -2,7 +2,7 @@
   {
     "id": "evt_20260813_0b596971-ae65-4668-8f90-9904c303bef1",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-08-13T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Db7Qm8pEyig/",
+    "source_url": "https://www.instagram.com/p/Db8R50Lk5V0/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musicians": [],
@@ -17,19 +17,19 @@
         "time": "19:00"
       }
     ],
-    "price": null,
+    "price": "Free Entry + Pay-what-you-want",
     "llm_confidence": 1.0,
-    "title": "이시진 트리오",
+    "title": "이서진 트리오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Si-jin Trio",
+      "title": "Lee Seo-jin Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "이시진 트리오",
+      "title": "이서진 트리오",
       "description": null
     }
   },
@@ -566,7 +566,7 @@
   {
     "id": "evt_20260813_d9f62171-028b-4ab2-9c61-1fc092fd7449",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-08-13T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Db7Qm8pEyig/",
+    "source_url": "https://www.instagram.com/p/Db8R50Lk5V0/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "musicians": [],
@@ -581,7 +581,7 @@
         "time": "21:00"
       }
     ],
-    "price": null,
+    "price": "Free Entry + Pay-what-you-want",
     "llm_confidence": 1.0,
     "title": "김영직 텐텟",
     "description": null,
@@ -3037,6 +3037,82 @@
     },
     "_search_ko": {
       "title": "다은 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260815_cb994083-fe1f-4bbd-a190-88f9e1be741b",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-08-15T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db0Cp-4R7U1/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-08-15T11:30:00+00:00",
+    "date": "2026-08-15",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "라 쁘띠 프랑스 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "La Petite France Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "라 쁘띠 프랑스 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260815_fcbb7a6a-d1d2-45ab-96a4-f3577e6fc625",
+    "event_key": "v:ven_d65d9808-58e6-4713-8079-1ffc68de7455|t:2026-08-15T11:45:00+00:00",
+    "source_url": "https://www.instagram.com/p/Db2uxLCiPS8/",
+    "venue_handle": "michiko.seoul_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
+    "venue_location_id": "main",
+    "datetime": "2026-08-15T11:45:00+00:00",
+    "date": "2026-08-15",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:45"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "구민상 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Goo Min-sang Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "구민상 퀄텟",
       "description": null
     }
   },
