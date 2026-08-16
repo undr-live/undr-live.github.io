@@ -696,6 +696,44 @@
     }
   },
   {
+    "id": "evt_20260816_94fa4430-0b7f-4db0-957d-1b9748f40be6",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-08-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcGSRjxBaGN/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-08-16T11:00:00+00:00",
+    "date": "2026-08-16",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kyung-deon Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kyung-deon Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "경던 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260816_8ca8ae75-1cf2-47b8-826e-9df5105d1a8c",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-16T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -1656,7 +1694,7 @@
   {
     "id": "evt_20260819_93c45314-3d6f-4864-8f1d-4ea7c1dd6724",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "source_url": "https://www.instagram.com/p/DcBxsN2jzAw/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -1667,19 +1705,23 @@
     "date": "2026-08-19",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:20"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Euaksae",
+    "title": "Ak-sae",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Euaksae",
+      "title": "Ak-sae",
       "description": null
     },
     "_search_ko": {
@@ -1936,7 +1978,7 @@
   {
     "id": "evt_20260820_916f1775-6c7a-4d75-a2af-b0c37a59d4f8",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "source_url": "https://www.instagram.com/p/DcBxsN2jzAw/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -1947,23 +1989,27 @@
     "date": "2026-08-20",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:20"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Charlie Jung Blues B...",
+    "title": "Charlie Jung Blues Band",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Charlie Jung Blues B...",
+      "title": "Charlie Jung Blues Band",
       "description": null
     },
     "_search_ko": {
-      "title": "찰리 정 블루스 비...",
+      "title": "찰리 정 블루스 밴드",
       "description": null
     }
   },
@@ -2448,7 +2494,7 @@
   {
     "id": "evt_20260821_263d0c96-44c7-46fa-84cb-d32ad3575f45",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "source_url": "https://www.instagram.com/p/DcBxsN2jzAw/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -2459,23 +2505,27 @@
     "date": "2026-08-21",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:20"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Leonarda s Pilkauskas...",
+    "title": "Leonardas Pilkauskas Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Leonarda s Pilkauskas...",
+      "title": "Leonardas Pilkauskas Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "레오나르다스 필카우스카스...",
+      "title": "레오나르다스 필카우스카스 퀄텟",
       "description": null
     }
   },
@@ -3297,7 +3347,7 @@
   {
     "id": "evt_20260822_4234310d-9ae3-4437-9ca3-71b4d9bc1483",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DblBmEVzQbM/",
+    "source_url": "https://www.instagram.com/p/DcBxsN2jzAw/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -3308,23 +3358,27 @@
     "date": "2026-08-22",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:20"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Soojin Suh Coloris Trio <Prism of Existence> Release Party",
+    "title": "Seo Sujin Coloris Trio",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Soojin Suh Coloris Trio <Prism of Existence> Release Party",
+      "title": "Seo Sujin Coloris Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "수진 서 컬러리스 트리오 <프리즘 오브 이그지스턴스> 릴리즈 파티",
+      "title": "서수진 Coloris 트리오",
       "description": null
     }
   },
@@ -3605,6 +3659,40 @@
     },
     "_search_ko": {
       "title": "이재원 월드 재즈 유닛",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260822_1f384b23-6298-4670-b89a-d342b8af3f4a",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-08-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcHHijNP5Lu/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-08-22T11:00:00+00:00",
+    "date": "2026-08-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "예매 10,000원 / 현장 15,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Geon Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Geon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김 건 퀄텟",
       "description": null
     }
   },
@@ -4154,7 +4242,7 @@
   {
     "id": "evt_20260823_28fcf53a-739d-4843-9655-c6ca8536fc18",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-08-23T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DbdD2laEVdh/",
+    "source_url": "https://www.instagram.com/p/DcBxsN2jzAw/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -4165,8 +4253,12 @@
     "date": "2026-08-23",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:20"
       }
     ],
     "price": null,
@@ -4181,7 +4273,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "제이에스에프에이",
+      "title": "JSFA",
       "description": null
     }
   },
