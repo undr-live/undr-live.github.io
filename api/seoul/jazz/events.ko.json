@@ -1645,7 +1645,7 @@
   {
     "id": "evt_20260821_a4a6e430-1dd6-4304-89d5-9837760cbccf",
     "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-08-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DcG_3ZyPQ_I/",
+    "source_url": "https://www.instagram.com/p/DcOWAFqP-9g/",
     "venue_handle": "cafe_minor_swing",
     "musician_ids": [],
     "musicians": [],
@@ -1662,17 +1662,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "댄 님머 퀄텟",
+    "title": "댄 니머 & 윈튼 마살리스",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Dan Nimmer Quartet",
+      "title": "Dan Nimmer & Wynton Marsalis",
       "description": null
     },
     "_search_ko": {
-      "title": "댄 님머 퀄텟",
+      "title": "댄 니머 & 윈튼 마살리스",
       "description": null
     }
   },
@@ -1783,6 +1783,78 @@
     },
     "_search_ko": {
       "title": "솔로 피아노",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260821_343f4201-4bb0-4169-bcb9-3ac7bfe7bb46",
+    "event_key": "v:ven_fc57057d-2f38-400b-80db-2a590f04f4f3|t:2026-08-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcKz4i3RunC/",
+    "venue_handle": "jazzclubbottomline",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_fc57057d-2f38-400b-80db-2a590f04f4f3",
+    "venue_location_id": "main",
+    "datetime": "2026-08-21T11:00:00+00:00",
+    "date": "2026-08-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "무료입장",
+    "llm_confidence": 1.0,
+    "title": "딴따라 쑈박스",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ttanttara Showbox",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "딴따라 쑈박스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260821_2edb21ac-2433-4ec3-9c9e-5a88719c7505",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-08-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcGXOV0k57n/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-08-21T11:00:00+00:00",
+    "date": "2026-08-21",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "이송이 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Songyi Lee Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이송이 트리오",
       "description": null
     }
   },
@@ -3158,6 +3230,44 @@
     },
     "_search_ko": {
       "title": "김순영 재즈탭",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260822_6e9ccbfd-25d2-4667-ab3d-e6d31e68b43b",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-08-22T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcLXlL4RI9t/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-08-22T11:30:00+00:00",
+    "date": "2026-08-22",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "데이먼 브라운 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Damon Brown Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "데이먼 브라운 퀸텟",
       "description": null
     }
   },
