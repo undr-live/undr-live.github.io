@@ -135,6 +135,44 @@
     }
   },
   {
+    "id": "evt_20260819_6133de2a-e39a-45a3-ace2-7f2b7babbf26",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-08-19T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcNfW96gbOJ/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-08-19T10:30:00+00:00",
+    "date": "2026-08-19",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eom Sang-mi Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Eom Sang-mi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "엄상미 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260819_baf9771e-8bae-43fa-8edd-ecc5653d14d9",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-08-19T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DbAqFvZIJkY/",
@@ -3128,6 +3166,74 @@
     },
     "_search_ko": {
       "title": "베티 듀오 (보컬, 피아노)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260822_86317561-0b73-4eff-a91e-fbc13cad62a1",
+    "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-08-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcHEqlSBY5m/",
+    "venue_handle": "oleojazzpub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903",
+    "venue_location_id": "main",
+    "datetime": "2026-08-22T11:00:00+00:00",
+    "date": "2026-08-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Harry Jo Seunghyun Kim Jeongwoo Kim Chordless Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Harry Jo Seunghyun Kim Jeongwoo Kim Chordless Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해리 조 김승현 김정우 코드리스 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260822_b71bdfb0-6cb0-46e5-b9f7-dd4e9975b18c",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-08-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcNrKnkBkBh/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-08-22T11:00:00+00:00",
+    "date": "2026-08-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "ARB Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "ARB Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "ARB 밴드",
       "description": null
     }
   },
