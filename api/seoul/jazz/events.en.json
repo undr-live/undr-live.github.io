@@ -2191,6 +2191,40 @@
     }
   },
   {
+    "id": "evt_20260830_465cc211-2a42-4bc8-adbc-bd5f329d9185",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-08-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcnW5ArBB6f/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-08-30T11:00:00+00:00",
+    "date": "2026-08-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lost Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lost Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "로스트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260830_00d11b31-920a-4e9a-a423-4df97ac5731c",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-30T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -2397,7 +2431,7 @@
   {
     "id": "evt_20260831_8cb9124a-ef9d-4e6d-b6aa-41150730d72c",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-08-31T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -2425,6 +2459,44 @@
     },
     "_search_ko": {
       "title": "코튼 클럽 밴드 (보컬 유사랑)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260831_1ce84c74-7bf8-49f4-9afa-653d1f710cb1",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-08-31T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcoeaTYH-hp/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-08-31T11:00:00+00:00",
+    "date": "2026-08-31",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Go-eun X Moon Ji-hyun Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Go-eun X Moon Ji-hyun Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이고은X문지현 듀오",
       "description": null
     }
   },
@@ -2499,7 +2571,7 @@
   {
     "id": "evt_20260901_c4540fcb-5ae9-4629-9113-d0c792425a86",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-01T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -2527,6 +2599,44 @@
     },
     "_search_ko": {
       "title": "레이 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260901_01bb38d1-5039-448c-a406-cf4db04f240a",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-09-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcoeaTYH-hp/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-09-01T11:00:00+00:00",
+    "date": "2026-09-01",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kwon Beom-soo X Han Kyu-ho Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kwon Beom-soo X Han Kyu-ho Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "권범수X한규호 듀오",
       "description": null
     }
   },
@@ -2669,7 +2779,7 @@
   {
     "id": "evt_20260902_d259c187-b1f0-492a-b90f-491853514843",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-02T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -2765,6 +2875,44 @@
     },
     "_search_ko": {
       "title": "유호정 스트링 노마드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260902_4122efb9-a8c4-4ce8-ac2c-add572f8c83d",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-09-02T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcoeaTYH-hp/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-09-02T11:00:00+00:00",
+    "date": "2026-09-02",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Suee Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Suee Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "수이 듀오",
       "description": null
     }
   },
@@ -2907,7 +3055,7 @@
   {
     "id": "evt_20260903_9e3b0942-7e39-4a2b-8abf-fe123214eec2",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-03T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -2934,7 +3082,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "반하이 크레셴도",
+      "title": "반하이 크레센도",
       "description": null
     }
   },
@@ -3007,9 +3155,47 @@
     }
   },
   {
+    "id": "evt_20260903_7078828d-5271-42ab-8ed9-82257e71cd4f",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-09-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcoeaTYH-hp/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-09-03T11:00:00+00:00",
+    "date": "2026-09-03",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Cho-rong Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Cho-rong Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이초롱 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260904_369f5bd9-b733-4884-9daa-92e2d2526ebd",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-04T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -3026,13 +3212,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Han Soon-wook Quartet",
+    "title": "Han Soon-uk Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Han Soon-wook Quartet",
+      "title": "Han Soon-uk Quartet",
       "description": null
     },
     "_search_ko": {
@@ -3245,6 +3431,44 @@
     }
   },
   {
+    "id": "evt_20260904_df8a24b5-b922-4226-8453-b11b43f94ae4",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-09-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcoeaTYH-hp/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-09-04T11:00:00+00:00",
+    "date": "2026-09-04",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DHL Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "DHL Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "DHL 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260904_acb2aa83-4da9-4f04-ade5-7ceff37e30b1",
     "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-09-04T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DcdEt7DJAiP/",
@@ -3281,7 +3505,7 @@
   {
     "id": "evt_20260904_fa7b1113-3dc8-40e3-9965-c872caac46e5",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-04T12:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -3298,17 +3522,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Jeremy Park Show (Salon Quartet)",
+    "title": "Jeremy Park Show with Salon Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jeremy Park Show (Salon Quartet)",
+      "title": "Jeremy Park Show with Salon Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "제레미 박 쇼 (살롱 퀄텟)",
+      "title": "제레미박 쇼 with 살롱 퀄텟",
       "description": null
     }
   },
@@ -3338,6 +3562,35 @@
     },
     "_search_ko": {
       "title": "금찬후 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260904_2158a6cf-1f78-4171-9e99-7e9aee8f1618",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-09-04T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcoeaTYH-hp/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-09-04T15:00:00+00:00",
+    "date": "2026-09-05",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Rachel Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Rachel Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "레이첼 퀄텟",
       "description": null
     }
   },
@@ -3412,7 +3665,7 @@
   {
     "id": "evt_20260905_750f4c69-506a-47b1-a7d8-b76daeadc739",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-05T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -3752,7 +4005,7 @@
   {
     "id": "evt_20260905_c455e42d-9272-4fa4-bc22-677299b2f169",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-05T12:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -3779,7 +4032,36 @@
       "description": null
     },
     "_search_ko": {
-      "title": "케이와이 밴드",
+      "title": "K Y 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260905_1fd35a9f-dda5-4df8-8236-5ab728828b5d",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-09-05T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcoeaTYH-hp/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-09-05T15:00:00+00:00",
+    "date": "2026-09-06",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Feel's Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Feel's Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "필스 듀오",
       "description": null
     }
   },
@@ -3854,7 +4136,7 @@
   {
     "id": "evt_20260906_05369a26-b8cf-4bcd-a47b-2c657b8fa002",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-06T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -3956,7 +4238,7 @@
   {
     "id": "evt_20260906_f142755c-cc12-4611-8b0a-285db1d46123",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-06T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "source_url": "https://www.instagram.com/p/DcjFo6NgTnp/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
