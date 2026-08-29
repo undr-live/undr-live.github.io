@@ -295,6 +295,44 @@
     }
   },
   {
+    "id": "evt_20260828_63077518-61b1-498a-80fa-5cb1eccddfc4",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-08-28T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dck09CVAb2o/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-08-28T10:30:00+00:00",
+    "date": "2026-08-28",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "우선희 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Woo Sun-hee Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "우선희 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260828_5b1c3689-acd5-46f4-9153-093b39b46941",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-08-28T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DbZ4uVNGqX1/",
@@ -1465,7 +1503,7 @@
   {
     "id": "evt_20260829_8fca420d-74ff-401b-9156-39fb2163b844",
     "event_key": "v:ven_377ce206-d0d7-48df-8554-aa20be3b45e2|t:2026-08-29T07:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DcYQJITSduM/",
+    "source_url": "https://www.instagram.com/p/Dck6u3qI9df/",
     "venue_handle": "gv_scene",
     "musician_ids": [],
     "musicians": [],
@@ -1478,29 +1516,21 @@
       {
         "label": null,
         "time": "16:00"
-      },
-      {
-        "label": null,
-        "time": "18:00"
-      },
-      {
-        "label": null,
-        "time": "20:00"
       }
     ],
     "price": "무료",
     "llm_confidence": 1.0,
-    "title": "굿 바이브스 디스크 자키 데이",
+    "title": "오스본",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Good Vibes Disc Jockey Day",
+      "title": "Osbon",
       "description": null
     },
     "_search_ko": {
-      "title": "굿 바이브스 디스크 자키 데이",
+      "title": "오스본",
       "description": null
     }
   },
@@ -1569,6 +1599,74 @@
     },
     "_search_ko": {
       "title": "준 랜드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260829_fe49a7b6-2f00-486e-b05b-47cb527fd93f",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-08-29T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dclel8yE1Ga/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-08-29T09:00:00+00:00",
+    "date": "2026-08-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김이슬 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Yi-seul Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김이슬 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260829_48aff5f9-4a57-4ac0-b40f-a00ad0c6de73",
+    "event_key": "v:ven_377ce206-d0d7-48df-8554-aa20be3b45e2|t:2026-08-29T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dck6u3qI9df/",
+    "venue_handle": "gv_scene",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_377ce206-d0d7-48df-8554-aa20be3b45e2",
+    "venue_location_id": "main",
+    "datetime": "2026-08-29T09:00:00+00:00",
+    "date": "2026-08-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "루베",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Rube",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "루베",
       "description": null
     }
   },
@@ -2307,6 +2405,108 @@
     }
   },
   {
+    "id": "evt_20260829_e882c05d-6a45-47e9-a2b7-e5c31847d7c8",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-08-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dclel8yE1Ga/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-08-29T11:00:00+00:00",
+    "date": "2026-08-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "SoWhat NOLA",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SoWhat NOLA",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "SoWhat NOLA",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260829_4e706a39-0221-4124-9e7a-5ccad0e9b669",
+    "event_key": "v:ven_377ce206-d0d7-48df-8554-aa20be3b45e2|t:2026-08-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dck6u3qI9df/",
+    "venue_handle": "gv_scene",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_377ce206-d0d7-48df-8554-aa20be3b45e2",
+    "venue_location_id": "main",
+    "datetime": "2026-08-29T11:00:00+00:00",
+    "date": "2026-08-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "핼리",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hally",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "핼리",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260829_c183f95a-4792-4887-b4ac-d89993fdc73d",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-08-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DclSYtIkwhT/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-08-29T11:00:00+00:00",
+    "date": "2026-08-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "Free entry, pay after show",
+    "llm_confidence": 1.0,
+    "title": "더 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260829_89fb3fdc-7197-4e06-9910-7b0a7fe503ef",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-08-29T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Da90KgAj2nB/",
@@ -2613,6 +2813,74 @@
     },
     "_search_ko": {
       "title": "무드 발라드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260829_f06c48e9-82be-49a8-9744-761d024ec972",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-08-29T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dclel8yE1Ga/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-08-29T13:00:00+00:00",
+    "date": "2026-08-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김병렬 프렌즈",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Byeong-ryeol Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김병렬 프렌즈",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260829_01b48b2f-cbcc-45d5-9edb-cbf450b5f502",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-08-29T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DclSYtIkwhT/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-08-29T13:00:00+00:00",
+    "date": "2026-08-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "Free entry, pay after show",
+    "llm_confidence": 1.0,
+    "title": "파이브 가이즈 앤 로건 스퀘어드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Five Guys & Logan Squared",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "파이브 가이즈 앤 로건 스퀘어드",
       "description": null
     }
   },
