@@ -557,7 +557,7 @@
   {
     "id": "evt_20260830_465cc211-2a42-4bc8-adbc-bd5f329d9185",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-08-30T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DcnW5ArBB6f/",
+    "source_url": "https://www.instagram.com/p/DcqDbWihbD_/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -568,23 +568,27 @@
     "date": "2026-08-30",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Lost Trio",
+    "title": "Los Trio (Vocal Kim Hyun-mi)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lost Trio",
+      "title": "Los Trio (Vocal Kim Hyun-mi)",
       "description": null
     },
     "_search_ko": {
-      "title": "로스트리오",
+      "title": "로스 트리오 (보컬 김현미)",
       "description": null
     }
   },
@@ -3563,7 +3567,7 @@
   {
     "id": "evt_20260905_cd93c712-e86a-48c2-bdfd-0717551fec4d",
     "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-09-05T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DcgUJyuvrhW/",
+    "source_url": "https://www.instagram.com/p/DcqeG4qvDEV/",
     "venue_handle": "cafe_minor_swing",
     "musician_ids": [],
     "musicians": [],
@@ -3580,17 +3584,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Kim Daeseung Band 'Rusty But Lusty'",
+    "title": "Kim Daeseung Blues Band \"RUSTY BUT LUSTY\"",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Daeseung Band 'Rusty But Lusty'",
+      "title": "Kim Daeseung Blues Band \"RUSTY BUT LUSTY\"",
       "description": null
     },
     "_search_ko": {
-      "title": "김대승 밴드 ‘러스티 벗 러스티’",
+      "title": "김대승 블루스밴드 \"RUSTY BUT LUSTY\"",
       "description": null
     }
   },
@@ -4148,7 +4152,7 @@
   {
     "id": "evt_20260906_c244a5c8-38fb-4a4f-9bc8-8f8a9fac6a54",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-09-06T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DcQbSSXoLal/",
+    "source_url": "https://www.instagram.com/p/Dcs6EwPoG9v/",
     "venue_handle": "pdpdclub",
     "musician_ids": [],
     "musicians": [],
@@ -4159,11 +4163,15 @@
     "date": "2026-09-06",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "John Kim Quartet",
     "description": null,
@@ -5941,6 +5949,40 @@
     },
     "_search_ko": {
       "title": "DDI 앤 더 하츠",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260913_24fe2a5f-f446-43db-b0ad-96dd97bc071e",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-09-13T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcsfCwrTHgh/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-09-13T10:00:00+00:00",
+    "date": "2026-09-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "100,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Hyun-chul Special Performance",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Hyun-chul Special Performance",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김현철 특별 공연",
       "description": null
     }
   },
