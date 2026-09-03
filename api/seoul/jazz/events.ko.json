@@ -1111,6 +1111,40 @@
     }
   },
   {
+    "id": "evt_20260903_47d00cdc-0093-40fb-96fe-db29fb89689e",
+    "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-09-03T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DczoV1av6fW/",
+    "venue_handle": "dido_jazz_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
+    "venue_location_id": "main",
+    "datetime": "2026-09-03T11:30:00+00:00",
+    "date": "2026-09-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "안성미 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ahn Sung-mi Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "안성미 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260903_1f156e7e-4072-4f1b-9257-0f5372444791",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-09-03T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dcsb4hWqwr2/",
@@ -1668,7 +1702,7 @@
   {
     "id": "evt_20260904_05366db9-20af-4d8f-a8af-20a9dc34fc38",
     "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-09-04T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DcsPa2iPZDi/",
+    "source_url": "https://www.instagram.com/p/DcsOEqQvoc1/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
     "musicians": [],
@@ -1679,11 +1713,15 @@
     "date": "2026-09-04",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:10"
       }
     ],
-    "price": null,
+    "price": "10,000원",
     "llm_confidence": 1.0,
     "title": "심마음 퀄텟",
     "description": null,
@@ -1768,6 +1806,78 @@
     },
     "_search_ko": {
       "title": "노바샘 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260904_45bffef2-c0f8-4535-829c-bd21410a504e",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-09-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcsBXX1k7-N/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-09-04T11:00:00+00:00",
+    "date": "2026-09-04",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "좀비 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Zombie Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "좀비 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260904_25ffbc46-05f6-4bc0-bfba-bbe0f497f28b",
+    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-09-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dc01F2ES05Z/",
+    "venue_handle": "sounddog_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
+    "venue_location_id": "main",
+    "datetime": "2026-09-04T11:00:00+00:00",
+    "date": "2026-09-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "김참치 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Tuna Kim Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김참치 트리오",
       "description": null
     }
   },
@@ -1946,6 +2056,40 @@
     },
     "_search_ko": {
       "title": "김태헌 X 로이",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260904_bd80f682-0089-4c62-8675-e6d280af9b30",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-09-04T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcxVD23RvZA/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-09-04T12:00:00+00:00",
+    "date": "2026-09-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "서울 인피니텀 재즈 밴드 (보컬 최지혜)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Seoul Infinitum Jazz Band (Vocal Choi Ji-hye)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "서울 인피니텀 재즈 밴드 (보컬 최지혜)",
       "description": null
     }
   },
@@ -2922,7 +3066,7 @@
   {
     "id": "evt_20260905_314b7409-2d43-4597-ba9c-45ce57feea1d",
     "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-09-05T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DcuoEwDPJpa/",
+    "source_url": "https://www.instagram.com/p/DcsOEqQvoc1/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
     "musicians": [],
@@ -2933,11 +3077,15 @@
     "date": "2026-09-05",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:10"
       }
     ],
-    "price": null,
+    "price": "10,000원",
     "llm_confidence": 1.0,
     "title": "김지훈 퀸텟",
     "description": null,
@@ -2945,7 +3093,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Ji-hoon Quintet",
+      "title": "Kim Jihoon Quintet",
       "description": null
     },
     "_search_ko": {
@@ -2992,6 +3140,74 @@
     }
   },
   {
+    "id": "evt_20260905_c655c709-b904-4cb2-9265-083a587a9e01",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-09-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcsgGNKvq9Y/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-09-05T11:00:00+00:00",
+    "date": "2026-09-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "예매 11,000원 / 현장 15,000원",
+    "llm_confidence": 1.0,
+    "title": "김성호 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Seong-ho Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김성호 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260905_55ea8b60-8b2b-49be-a941-909df5ca6c4f",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-09-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dc0nwXOB6Jl/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-09-05T11:00:00+00:00",
+    "date": "2026-09-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이수경 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Su-kyung Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이수경 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260905_73acd342-8107-4dd3-bafc-a6153e881ccb",
     "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-09-05T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DcnqdHXSTGz/",
@@ -3022,6 +3238,44 @@
     },
     "_search_ko": {
       "title": "최준기 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260905_97abaa94-1b20-42d9-bf5a-89173cd36c29",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-09-05T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DczNwjuTkXx/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-09-05T11:30:00+00:00",
+    "date": "2026-09-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": null
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "고광종 퀄텟 (보컬 송경민)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ko Kwangjong Quartet (Vocal Song Kyungmin)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "고광종 퀄텟 (보컬 송경민)",
       "description": null
     }
   },
@@ -4999,6 +5253,44 @@
     }
   },
   {
+    "id": "evt_20260911_b25d1b0c-4ac9-4adf-a0c3-c3bee352c0b4",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-09-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcsOEqQvoc1/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-09-11T11:00:00+00:00",
+    "date": "2026-09-11",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:10"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "승경민 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Seung Gyeongmin Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "승경민 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260911_e7f2d8e8-c657-4fe1-8c03-b60e008462df",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-09-11T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dcsb4hWqwr2/",
@@ -5614,6 +5906,44 @@
     },
     "_search_ko": {
       "title": "유혜린 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260912_cd5bc3f9-22c0-42cc-8f8e-40e874d9c754",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-09-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcsOEqQvoc1/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-09-12T11:00:00+00:00",
+    "date": "2026-09-12",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:10"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "OON 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "OON Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "OON 퀸텟",
       "description": null
     }
   },
@@ -7130,6 +7460,44 @@
     }
   },
   {
+    "id": "evt_20260918_905b5ac7-411a-4d99-9601-83168ea3d75f",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-09-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcsOEqQvoc1/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-09-18T11:00:00+00:00",
+    "date": "2026-09-18",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:10"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "솔렌",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Solenne",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "솔렌",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260918_03c30ebe-f10b-457e-8561-eb8d90a941eb",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-09-18T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dcsb4hWqwr2/",
@@ -7745,6 +8113,44 @@
     },
     "_search_ko": {
       "title": "에이알비",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260919_df20fdae-ee2c-4d73-98a4-64fac25b1341",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-09-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcsOEqQvoc1/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-09-19T11:00:00+00:00",
+    "date": "2026-09-19",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:10"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "더 미드나잇 제이 프로젝트",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Midnight J. Project",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 미드나잇 제이 프로젝트",
       "description": null
     }
   },
