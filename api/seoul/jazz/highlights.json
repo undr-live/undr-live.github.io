@@ -1,78 +1,64 @@
 {
-  "week_start_date": "2026-08-31",
-  "generated_at": "2026-08-31T06:00:03.946841+00:00",
+  "week_start_date": "2026-09-07",
+  "generated_at": "2026-09-07T06:00:07.687089+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-09-02": {
-      "event_id": "evt_20260902_04e4643d-0af9-4887-9b0a-8115ffb6f8ad",
+    "2026-09-09": {
+      "event_id": "evt_20260909_d28827dc-14f2-4e22-928d-76dbd5a4a4d7",
       "title": {
-        "ko": "박장훈 트리오",
-        "en": "Park Chang-hun Trio"
+        "ko": "남부한정",
+        "en": "Nambu Hanjung"
       },
       "venue_name": {
-        "en": "pdpdclub",
-        "ko": "파닥파닥클럽"
+        "en": "Chunnyun Dongando",
+        "ko": "천년동안도"
       },
-      "venue_handle": "pdpdclub",
-      "datetime": "2026-09-02T11:00:00+00:00",
-      "selected_at": "2026-08-31T06:00:03.945665+00:00"
+      "venue_handle": "chunnyun.jazz",
+      "datetime": "2026-09-09T11:30:00+00:00",
+      "selected_at": "2026-09-07T06:00:07.686073+00:00"
     },
-    "2026-09-03": {
-      "event_id": "evt_20260903_503f876e-06a4-44c3-a5ea-125102d57283",
+    "2026-09-11": {
+      "event_id": "evt_20260911_943d1aa5-ce7d-433b-b0cc-138b3bd07862",
       "title": {
-        "ko": "이춘영 듀오",
-        "en": "Lee Chun-young Duo"
-      },
-      "venue_name": {
-        "en": "Jazz Xover",
-        "ko": "재즈엑스오버"
-      },
-      "venue_handle": "jazzxover",
-      "datetime": "2026-09-03T11:00:00+00:00",
-      "selected_at": "2026-08-31T06:00:03.945994+00:00"
-    },
-    "2026-09-04": {
-      "event_id": "evt_20260904_869eb167-528f-41bb-a175-59905fb26761",
-      "title": {
-        "ko": "강재훈 트리오",
-        "en": "Kang Jaehun Trio"
-      },
-      "venue_name": {
-        "en": "Minor Swing",
-        "ko": "마이너스윙"
-      },
-      "venue_handle": "cafe_minor_swing",
-      "datetime": "2026-09-04T11:00:00+00:00",
-      "selected_at": "2026-08-31T06:00:03.946276+00:00"
-    },
-    "2026-09-05": {
-      "event_id": "evt_20260905_ada13cff-3f6b-4327-a13c-18fff778a8c3",
-      "title": {
-        "ko": "유현's diary",
-        "en": "Yu Hyeon's diary"
-      },
-      "venue_name": {
-        "en": "Jazz Club Janus",
-        "ko": "재즈클럽 야누스"
-      },
-      "venue_handle": "jazzclub_janus",
-      "datetime": "2026-09-05T11:00:00+00:00",
-      "selected_at": "2026-08-31T06:00:03.946555+00:00"
-    },
-    "2026-09-06": {
-      "event_id": "evt_20260906_74734a05-7048-436b-89fe-bfeb18c0d796",
-      "title": {
-        "ko": "김철수 트리오 (마사 사사키)",
-        "en": "Kim Cheolsu Trio (Masa Sasaki)"
+        "ko": "니피크 퀸텟",
+        "en": "Ni Pik Quintet"
       },
       "venue_name": {
         "en": "FLATNINE",
         "ko": "플랫나인"
       },
       "venue_handle": "flatnine_jazzbar",
-      "datetime": "2026-09-06T10:00:00+00:00",
-      "selected_at": "2026-08-31T06:00:03.946829+00:00"
+      "datetime": "2026-09-11T10:00:00+00:00",
+      "selected_at": "2026-09-07T06:00:07.686402+00:00"
+    },
+    "2026-09-12": {
+      "event_id": "evt_20260912_a485c5ed-8487-4efe-aad4-83b093e92107",
+      "title": {
+        "ko": "리치맨과 그루브나이스",
+        "en": "Richman and Groovenice"
+      },
+      "venue_name": {
+        "en": "Cotton Club",
+        "ko": "코튼클럽"
+      },
+      "venue_handle": "cottonclub_seoul",
+      "datetime": "2026-09-12T12:30:00+00:00",
+      "selected_at": "2026-09-07T06:00:07.686670+00:00"
+    },
+    "2026-09-13": {
+      "event_id": "evt_20260913_16df5340-0007-47f9-b197-9e81e9f06978",
+      "title": {
+        "ko": "최명지 퀄텟",
+        "en": "Choi Myung-ji Quartet"
+      },
+      "venue_name": {
+        "en": "pdpdclub",
+        "ko": "파닥파닥클럽"
+      },
+      "venue_handle": "pdpdclub",
+      "datetime": "2026-09-13T10:00:00+00:00",
+      "selected_at": "2026-09-07T06:00:07.687078+00:00"
     }
   }
 }
