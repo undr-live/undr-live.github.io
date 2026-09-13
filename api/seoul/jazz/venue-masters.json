@@ -3285,23 +3285,24 @@
       "wed": "16:00-00:00",
       "thu": "16:00-00:00",
       "fri": "16:00-01:00",
-      "sat": "16:00-01:00",
-      "sun": "16:00-00:00"
+      "sat": "12:00-01:00",
+      "sun": "12:00-00:00"
     },
     "typical_show_times": null,
     "genres": [
-      "jazz",
-      "jazz bar"
+      "jazz"
     ],
-    "websites": null,
+    "websites": [
+      "http://pf.kakao.com/_xlWnxan"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/gwangalli_namme",
       "homepage": null,
-      "booking": "http://naver.me/FFvSb6M6",
+      "booking": "http://naver.me/FFFvSb6M6",
       "google_map": null
     },
     "contacts": {
-      "phone": "070-4312-6566",
+      "phone": "+82 70-4312-6566",
       "email": null
     },
     "food_policy": null,
@@ -3310,36 +3311,36 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "광안리남매",
+        "name": "광안리남매",
         "address_text": "부산 수영구 남천동로108번길 54 2층",
         "address_components": null,
-        "location_lat": 35.14676,
-        "location_lon": 129.114101,
         "subway_nearby": null,
-        "booking_link": "http://naver.me/FFvSb6M6",
-        "notes": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시); 대관문의, 행사문의는 @gyuestagram",
+        "booking_link": "http://naver.me/FFFvSb6M6",
+        "notes": "For rental/event inquiries, contact @gyuestagram",
         "i18n": {
           "name": {
             "ko": "광안리남매",
-            "en": "Gwangalli Nammae"
+            "en": "Gwangalli Namme"
           },
           "address_text": {
             "ko": "부산 수영구 남천동로108번길 54 2층",
             "en": "2nd Floor, 54, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea"
           },
           "notes": {
-            "ko": "사라토가 주차장 주차 시 1시간 무료 (1인 1식사 주문 시); (대관 및 행사 문의: @gyuestagram)",
-            "en": "1 hour free parking at Saratoga parking lot (when ordering 1 meal per person); (Venue rental and event inquiries: @gyuestagram)"
+            "ko": "대관/행사 문의는 @gyuestagram으로 연락해주세요",
+            "en": "For rental/event inquiries, contact @gyuestagram"
           }
-        }
+        },
+        "location_lat": 35.1467159304824,
+        "location_lon": 129.114074496346
       }
     ],
-    "last_analyzed_at": "2026-02-18",
+    "last_analyzed_at": "2026-08-22",
     "confidence": 1.0,
     "extraction_version": "1.0",
     "sources": [
-      "https://www.instagram.com/gwangalli_namme",
-      "maps:https://maps.google.com/?cid=17298781262385635276",
+      "instagram.com/gwangalli_namme",
+      "maps:https://maps.google.com/maps?cid=17298781262385635276",
       "gemini:enrich"
     ],
     "model_name": "gemini-2.5-flash",
@@ -3348,28 +3349,26 @@
     "i18n": {
       "name": {
         "ko": "광안리남매",
-        "en": "Gwangalli Nammae"
+        "en": "Gwangalli Namme"
       },
       "address_text": null,
       "notes": {
-        "ko": "사라토가 주차장 주차 시 1시간 무료 (1인 1식사 주문 시); (대관 및 행사 문의: @gyuestagram)",
-        "en": "1 hour free parking at Saratoga parking lot (when ordering 1 meal per person); (Venue rental and event inquiries: @gyuestagram)"
+        "ko": "대관/행사 문의는 @gyuestagram으로 연락해주세요",
+        "en": "For rental/event inquiries, contact @gyuestagram"
       },
       "genres": {
         "ko": [
-          "재즈",
-          "재즈 바"
+          "재즈"
         ],
         "en": [
-          "Jazz",
-          "Jazz bar"
+          "Jazz"
         ]
       },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "b60dee8598e7033850dde3235d330d959b7a3adb46ef1ae12457c8173e01f501"
+    "_profile_hash": "2dfdaf3c40ee133e7d86375c8234175c5e3e7d5cf44eb3a5278c9a5184726a7e"
   },
   {
     "ig_handle": "houseofblue.seoul",
@@ -6935,6 +6934,7 @@
   },
   {
     "ig_handle": "seoulforestjazz",
+    "address_text": null,
     "address_components": null,
     "location_lat": null,
     "location_lon": null,
@@ -6945,12 +6945,12 @@
       "jazz"
     ],
     "websites": [
-      "http://www.seoulforestjazz.com"
+      "https://linktr.ee/seoulforestjazz"
     ],
     "links": {
       "instagram": "https://www.instagram.com/seoulforestjazz",
       "homepage": "http://www.seoulforestjazz.com",
-      "booking": null,
+      "booking": "https://m.site.naver.com/2dMct",
       "google_map": null
     },
     "contacts": {
@@ -6960,21 +6960,22 @@
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
+    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "서울숲재즈페스티벌 2025",
-        "address_text": "서울 성동구 뚝섬로 273",
+        "name": "서울숲재즈페스티벌",
+        "address_text": "273 Ttukseom-ro, Seongdong-gu, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.5430701468405,
-        "location_lon": 127.041799099222,
+        "location_lat": 37.5430691557811,
+        "location_lon": 127.041798985514,
         "subway_nearby": null,
-        "booking_link": null,
+        "booking_link": "https://m.site.naver.com/2dMct",
         "notes": null,
         "i18n": {
           "name": {
-            "ko": "서울숲재즈페스티벌 2025",
-            "en": "Seoul Forest Jazz Festival 2025"
+            "ko": "서울숲재즈페스티벌",
+            "en": "Seoul Forest Jazz Festival"
           },
           "address_text": {
             "ko": "서울 성동구 뚝섬로 273",
@@ -6984,42 +6985,36 @@
         }
       }
     ],
-    "last_analyzed_at": "2026-01-07",
+    "last_analyzed_at": "2026-08-27T03:09:20.491743+09:00",
     "confidence": 1.0,
     "extraction_version": "1.0",
     "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=15968524466520016538",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=12961168892280702927",
-      "maps:https://maps.google.com/?cid=11822357008649192051",
-      "maps:https://maps.google.com/?cid=17917500208265315620",
-      "maps:https://maps.google.com/?cid=377912583193537275",
-      "maps:https://maps.google.com/?cid=15889671944773142925",
-      "maps:https://maps.google.com/?cid=17821238201685154764",
-      "maps:https://maps.google.com/?cid=5393230292943843725",
-      "maps:https://maps.google.com/?cid=8816785685119642120",
-      "maps:https://maps.google.com/?cid=8426830491845882428",
-      "maps:https://maps.google.com/?cid=6717506826182113976",
-      "maps:https://maps.google.com/?cid=12891084949302357460",
+      "https://www.instagram.com/seoulforestjazz",
+      "maps:https://maps.google.com/maps?cid=4259537056996752822",
+      "maps:https://maps.google.com/maps?cid=15968524466520016538",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUR4N05yMllnEAE!2m1!1s0x357ca37d51f4f62b:0xdd9b9865be0f469a",
+      "maps:https://maps.google.com/maps?cid=1629884300631888791",
+      "maps:https://maps.google.com/maps?cid=15889671944773142925",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2sxWVRHUk9PRVEyT0hKR2JVTkhUVmh6UXpoQ1ozYxAB!2m1!1s0x357ca2eb4d3089f9:0xdc83747259b1898d",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUR4bTYtOGZBEAE!2m1!1s0x357ca2eb4d3089f9:0xdc83747259b1898d",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25kalQwWXpabUpVTTBwak0ySTNUbUl4T1U1dGVVRRAB!2m1!1s0x357ca2eb4d3089f9:0xdc83747259b1898d",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21kNFJWcHpkSEJGVTJrdGVrNURaRWw1UVdkblFWRRAB!2m1!1s0x357ca2eb4d3089f9:0xdc83747259b1898d",
+      "maps:https://maps.google.com/maps?cid=8426830491845882428",
+      "maps:https://maps.google.com/maps?cid=11822357008649192051",
+      "maps:https://maps.google.com/maps?cid=10983799088955266817",
+      "maps:https://maps.google.com/maps?cid=16615806067524472120",
       "gemini:enrich"
     ],
+    "model_name": "gemini-2.5-flash",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.4",
-    "model_name": "gemini-2.5-flash",
     "i18n": {
       "name": {
-        "ko": "서울숲재즈페스티벌 2025",
-        "en": "Seoul Forest Jazz Festival 2025"
+        "ko": "서울숲재즈페스티벌",
+        "en": "Seoul Forest Jazz Festival"
       },
-      "address_text": {
-        "ko": "서울 성동구 뚝섬로 273",
-        "en": "273 Ttukseom-ro, Seongdong-gu, Seoul, South Korea"
-      },
-      "notes": {
-        "ko": "행사 기간: 2025. 9. 19. 금 - 21. 일",
-        "en": "Event Dates: 2025. 9. 19. Fri - 21. Sun"
-      },
+      "address_text": null,
+      "notes": null,
       "genres": {
         "ko": [
           "재즈"
@@ -7032,7 +7027,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "046e14fc81a19503baf749a642aaa45f81a5fd8e7725a2a6c267eeb6dccc042c"
+    "_profile_hash": "4282ba2b30479dfa886f1b2430ee45e6f049f7032cedd2745857e6e49b790ba3"
   },
   {
     "ig_handle": "songdo.jazz257",

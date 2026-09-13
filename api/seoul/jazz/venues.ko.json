@@ -2364,14 +2364,16 @@
     "ig_handle": "gwangalli_namme",
     "name_irl": "광안리남매",
     "location_text": "2nd Floor, 54, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea",
-    "location_lat": 35.14676,
-    "location_lon": 129.114101,
-    "phone": "070-4312-6566",
+    "location_lat": 35.1467159304824,
+    "location_lon": 129.114074496346,
+    "phone": "+82 70-4312-6566",
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=17298781262385635276",
-    "booking_url": "http://naver.me/FFvSb6M6",
+    "booking_url": "http://naver.me/FFFvSb6M6",
     "homepage_url": null,
-    "websites": [],
+    "websites": [
+      "http://pf.kakao.com/_xlWnxan"
+    ],
     "subway_nearby": null,
     "food_policy": "Minimum one meal order per person",
     "age_limit": null,
@@ -2380,28 +2382,28 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "광안리남매",
+          "name": "광안리남매",
           "address_text": "부산 수영구 남천동로108번길 54 2층",
           "address_components": null,
-          "location_lat": 35.14676,
-          "location_lon": 129.114101,
           "subway_nearby": null,
-          "booking_link": "http://naver.me/FFvSb6M6",
-          "notes": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시); 대관문의, 행사문의는 @gyuestagram",
+          "booking_link": "http://naver.me/FFFvSb6M6",
+          "notes": "For rental/event inquiries, contact @gyuestagram",
           "i18n": {
             "name": {
               "ko": "광안리남매",
-              "en": "Gwangalli Nammae"
+              "en": "Gwangalli Namme"
             },
             "address_text": {
               "ko": "부산 수영구 남천동로108번길 54 2층",
               "en": "2nd Floor, 54, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea"
             },
             "notes": {
-              "ko": "사라토가 주차장 주차 시 1시간 무료 (1인 1식사 주문 시); (대관 및 행사 문의: @gyuestagram)",
-              "en": "1 hour free parking at Saratoga parking lot (when ordering 1 meal per person); (Venue rental and event inquiries: @gyuestagram)"
+              "ko": "대관/행사 문의는 @gyuestagram으로 연락해주세요",
+              "en": "For rental/event inquiries, contact @gyuestagram"
             }
-          }
+          },
+          "location_lat": 35.1467159304824,
+          "location_lon": 129.114074496346
         }
       ],
       "opening_hours": {
@@ -2410,28 +2412,26 @@
         "wed": "16:00-00:00",
         "thu": "16:00-00:00",
         "fri": "16:00-01:00",
-        "sat": "16:00-01:00",
-        "sun": "16:00-00:00"
+        "sat": "12:00-01:00",
+        "sun": "12:00-00:00"
       }
     },
     "i18n_data": {
       "name": {
         "ko": "광안리남매",
-        "en": "Gwangalli Nammae"
+        "en": "Gwangalli Namme"
       },
       "address_text": null,
       "notes": {
-        "ko": "사라토가 주차장 주차 시 1시간 무료 (1인 1식사 주문 시); (대관 및 행사 문의: @gyuestagram)",
-        "en": "1 hour free parking at Saratoga parking lot (when ordering 1 meal per person); (Venue rental and event inquiries: @gyuestagram)"
+        "ko": "대관/행사 문의는 @gyuestagram으로 연락해주세요",
+        "en": "For rental/event inquiries, contact @gyuestagram"
       },
       "genres": {
         "ko": [
-          "재즈",
-          "재즈 바"
+          "재즈"
         ],
         "en": [
-          "Jazz",
-          "Jazz bar"
+          "Jazz"
         ]
       },
       "subway_nearby": null,
@@ -5210,17 +5210,17 @@
     "id": "ven_61a87bf4-af6d-44f1-a8aa-8dfc15387ed3",
     "tier": 3,
     "ig_handle": "seoulforestjazz",
-    "name_irl": "서울숲재즈페스티벌 2025",
-    "location_text": "서울 성동구 뚝섬로 273",
-    "location_lat": 37.5430701468405,
-    "location_lon": 127.041799099222,
+    "name_irl": "서울숲재즈페스티벌",
+    "location_text": "273 Ttukseom-ro, Seongdong-gu, Seoul, South Korea",
+    "location_lat": 37.5430691557811,
+    "location_lon": 127.041798985514,
     "phone": null,
     "email": null,
     "google_map_url": null,
-    "booking_url": null,
+    "booking_url": "https://m.site.naver.com/2dMct",
     "homepage_url": "http://www.seoulforestjazz.com",
     "websites": [
-      "http://www.seoulforestjazz.com"
+      "https://linktr.ee/seoulforestjazz"
     ],
     "subway_nearby": null,
     "food_policy": null,
@@ -5230,18 +5230,18 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "서울숲재즈페스티벌 2025",
-          "address_text": "서울 성동구 뚝섬로 273",
+          "name": "서울숲재즈페스티벌",
+          "address_text": "273 Ttukseom-ro, Seongdong-gu, Seoul, South Korea",
           "address_components": null,
-          "location_lat": 37.5430701468405,
-          "location_lon": 127.041799099222,
+          "location_lat": 37.5430691557811,
+          "location_lon": 127.041798985514,
           "subway_nearby": null,
-          "booking_link": null,
+          "booking_link": "https://m.site.naver.com/2dMct",
           "notes": null,
           "i18n": {
             "name": {
-              "ko": "서울숲재즈페스티벌 2025",
-              "en": "Seoul Forest Jazz Festival 2025"
+              "ko": "서울숲재즈페스티벌",
+              "en": "Seoul Forest Jazz Festival"
             },
             "address_text": {
               "ko": "서울 성동구 뚝섬로 273",
@@ -5254,17 +5254,11 @@
     },
     "i18n_data": {
       "name": {
-        "ko": "서울숲재즈페스티벌 2025",
-        "en": "Seoul Forest Jazz Festival 2025"
+        "ko": "서울숲재즈페스티벌",
+        "en": "Seoul Forest Jazz Festival"
       },
-      "address_text": {
-        "ko": "서울 성동구 뚝섬로 273",
-        "en": "273 Ttukseom-ro, Seongdong-gu, Seoul, South Korea"
-      },
-      "notes": {
-        "ko": "행사 기간: 2025. 9. 19. 금 - 21. 일",
-        "en": "Event Dates: 2025. 9. 19. Fri - 21. Sun"
-      },
+      "address_text": null,
+      "notes": null,
       "genres": {
         "ko": [
           "재즈"
