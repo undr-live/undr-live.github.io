@@ -1,64 +1,50 @@
 {
-  "week_start_date": "2026-09-07",
-  "generated_at": "2026-09-07T06:00:07.687089+00:00",
+  "week_start_date": "2026-09-14",
+  "generated_at": "2026-09-14T06:00:04.994041+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-09-09": {
-      "event_id": "evt_20260909_d28827dc-14f2-4e22-928d-76dbd5a4a4d7",
+    "2026-09-18": {
+      "event_id": "evt_20260918_cfaed79a-339b-4b56-a207-2cf98a6a6822",
       "title": {
-        "ko": "남부한정",
-        "en": "Nambu Hanjung"
+        "ko": "배민혁 트리오",
+        "en": "Bae Min-hyuk Trio"
+      },
+      "venue_name": {
+        "en": "Rustic Jazz",
+        "ko": "러스틱재즈"
+      },
+      "venue_handle": "rustic_jazz",
+      "datetime": "2026-09-18T10:40:00+00:00",
+      "selected_at": "2026-09-14T06:00:04.993077+00:00"
+    },
+    "2026-09-19": {
+      "event_id": "evt_20260919_89c78469-8275-4713-95ae-cb803652251d",
+      "title": {
+        "ko": "찰리정 카일라스 밴드",
+        "en": "Charlie Jung Kailash Band"
       },
       "venue_name": {
         "en": "Chunnyun Dongando",
         "ko": "천년동안도"
       },
       "venue_handle": "chunnyun.jazz",
-      "datetime": "2026-09-09T11:30:00+00:00",
-      "selected_at": "2026-09-07T06:00:07.686073+00:00"
+      "datetime": "2026-09-19T09:00:00+00:00",
+      "selected_at": "2026-09-14T06:00:04.993604+00:00"
     },
-    "2026-09-11": {
-      "event_id": "evt_20260911_943d1aa5-ce7d-433b-b0cc-138b3bd07862",
+    "2026-09-20": {
+      "event_id": "evt_20260920_0372ade0-a025-4652-afa4-a8a84c0e1d48",
       "title": {
-        "ko": "시나피크 퀸텟",
-        "en": "Sinapique Quintet"
+        "ko": "오은혜 트리오",
+        "en": "Oh Eun-hye Trio"
       },
       "venue_name": {
-        "en": "FLATNINE",
-        "ko": "플랫나인"
+        "en": "Sound Dog",
+        "ko": "사운드 독"
       },
-      "venue_handle": "flatnine_jazzbar",
-      "datetime": "2026-09-11T10:00:00+00:00",
-      "selected_at": "2026-09-07T06:00:07.686402+00:00"
-    },
-    "2026-09-12": {
-      "event_id": "evt_20260912_a485c5ed-8487-4efe-aad4-83b093e92107",
-      "title": {
-        "ko": "리치맨과 그루브나이스",
-        "en": "Richman and Groovenice"
-      },
-      "venue_name": {
-        "en": "Cotton Club",
-        "ko": "코튼클럽"
-      },
-      "venue_handle": "cottonclub_seoul",
-      "datetime": "2026-09-12T12:30:00+00:00",
-      "selected_at": "2026-09-07T06:00:07.686670+00:00"
-    },
-    "2026-09-13": {
-      "event_id": "evt_20260913_16df5340-0007-47f9-b197-9e81e9f06978",
-      "title": {
-        "ko": "최명지 퀄텟",
-        "en": "Choi Myung-ji Quartet"
-      },
-      "venue_name": {
-        "en": "pdpdclub",
-        "ko": "파닥파닥클럽"
-      },
-      "venue_handle": "pdpdclub",
-      "datetime": "2026-09-13T10:00:00+00:00",
-      "selected_at": "2026-09-07T06:00:07.687078+00:00"
+      "venue_handle": "sounddog_jazz",
+      "datetime": "2026-09-20T10:00:00+00:00",
+      "selected_at": "2026-09-14T06:00:04.994030+00:00"
     }
   }
 }
