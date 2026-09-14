@@ -1901,7 +1901,7 @@
     "tier": 0,
     "ig_handle": "flatnine_jazzbar",
     "name_irl": "플랫나인",
-    "location_text": "서울 서초구 강남대로65길 10 5층",
+    "location_text": "5th Floor, 10, Gangnam-daero 65-gil, Seocho District, Seoul, South Korea",
     "location_lat": 37.5004929768454,
     "location_lon": 127.024952031721,
     "phone": "050-71389-9630",
@@ -1918,12 +1918,12 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "FLATNINE | 플랫나인",
+          "name": "FLATNINE",
           "address_text": "서울 서초구 강남대로65길 10 5층",
           "address_components": null,
           "location_lat": 37.5004929768454,
           "location_lon": 127.024952031721,
-          "subway_nearby": "2호선 신분당강남역 10번 출구에서 342m",
+          "subway_nearby": "강남역 10번 출구에서 342m 거리",
           "booking_link": "https://catchtable.co.kr/flatnine_jazzbar",
           "notes": null,
           "i18n": {
@@ -1953,17 +1953,17 @@
           "20:00"
         ],
         "fri": [
-          "19:30",
-          "22:30"
+          "19:00",
+          "21:40"
         ],
         "sat": [
-          "16:00",
-          "19:30",
-          "22:30"
+          "13:00",
+          "19:00",
+          "21:40"
         ],
         "sun": [
-          "16:00",
-          "19:30"
+          "13:00",
+          "19:00"
         ]
       }
     },
@@ -1972,10 +1972,7 @@
         "ko": "플랫나인",
         "en": "FLATNINE"
       },
-      "address_text": {
-        "ko": "서울 서초구 강남대로65길 10 5층",
-        "en": "5th Floor, 10, Gangnam-daero 65-gil, Seocho District, Seoul, South Korea"
-      },
+      "address_text": null,
       "notes": null,
       "genres": {
         "ko": [
@@ -1986,8 +1983,8 @@
         ]
       },
       "subway_nearby": {
-        "ko": "2호선 신분당강남역 10번 출구에서 342m",
-        "en": "342m from Gangnam Station (Line 2, Sinbundang Line) Exit 10"
+        "ko": "강남역 10번 출구에서 342m 거리",
+        "en": "342m from Gangnam Station Exit 10"
       },
       "food_policy": null,
       "age_limit": null
@@ -3813,7 +3810,7 @@
     "id": "ven_d65d9808-58e6-4713-8079-1ffc68de7455",
     "tier": 2,
     "ig_handle": "michiko.seoul_official",
-    "name_irl": "미치코서울",
+    "name_irl": "미치코 서울",
     "location_text": "2F, 163-1 Nonhyeon-dong, Gangnam-gu, Seoul, South Korea",
     "location_lat": 37.5087807210581,
     "location_lon": 127.023506055543,
@@ -3831,21 +3828,21 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "MICHIKO SEOUL 미치코서울",
-          "address_text": "서울특별시 강남구 논현동 163-1 2층",
+          "name": "MICHIKO SEOUL",
+          "address_text": "2F, 163-1 Nonhyeon-dong, Gangnam-gu, Seoul, South Korea",
           "address_components": null,
           "location_lat": 37.5087807210581,
           "location_lon": 127.023506055543,
-          "subway_nearby": "7호선 신분당논현역 3번 출구에서 202m",
+          "subway_nearby": null,
           "booking_link": "https://app.catchtable.co.kr/ct/shop/michiko",
           "notes": null,
           "i18n": {
             "name": {
-              "ko": "미치코서울",
+              "ko": "미치코 서울",
               "en": "MICHIKO SEOUL"
             },
             "address_text": {
-              "ko": "서울특별시 강남구 논현동 163-1 2층",
+              "ko": "서울 강남구 논현동 163-1 2층",
               "en": "2F, 163-1 Nonhyeon-dong, Gangnam-gu, Seoul, South Korea"
             },
             "notes": null
@@ -3866,50 +3863,45 @@
         "tue": null,
         "wed": null,
         "thu": [
-          "20:30"
+          "20:45"
         ],
         "fri": [
-          "20:30"
+          "20:45"
         ],
         "sat": [
-          "20:30"
+          "20:45"
         ],
         "sun": [
-          "20:30"
+          "20:45"
         ]
       }
     },
     "i18n_data": {
       "name": {
-        "ko": "미치코서울",
+        "ko": "미치코 서울",
         "en": "MICHIKO SEOUL"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "ko": [
-          "재즈 라운지",
-          "재즈 바",
-          "재즈 공연",
+          "재즈",
+          "라이브 음악",
           "쿠바 재즈",
           "브라질 재즈",
           "집시 재즈",
           "스윙 재즈"
         ],
         "en": [
-          "Jazz lounge",
-          "Jazz bar",
-          "Jazz performance",
+          "Jazz",
+          "Live music",
           "Cuban jazz",
           "Brazilian jazz",
           "Gypsy jazz",
           "Swing jazz"
         ]
       },
-      "subway_nearby": {
-        "ko": "7호선 신분당논현역 3번 출구에서 202m",
-        "en": "202m from Shinbundang Line Nonhyeon Station Exit 3 (Line 7)"
-      },
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -5812,14 +5804,15 @@
     "ig_handle": "yeonnam5701",
     "name_irl": "연남5701",
     "location_text": "570-1 Yeonnam-dong, Mapo-gu, Seoul, South Korea",
-    "location_lat": 37.558566,
-    "location_lon": 126.918947,
+    "location_lat": 37.5585668072602,
+    "location_lon": 126.918946735033,
     "phone": "010-2129-8161",
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=14710763701329609732",
+    "google_map_url": "https://maps.google.com/maps?cid=14710763701329609732",
     "booking_url": "https://app.catchtable.co.kr/ct/shop/yeonnam5701?from=share&type=VISIT_RESERVATION",
     "homepage_url": "https://linktr.ee/yeonnam5701",
     "websites": [
+      "https://linktr.ee/yeonnam5701",
       "https://youtube.com/@yeonnam5701?si=12FlqqSFBAcTrxUK"
     ],
     "subway_nearby": null,
@@ -5830,18 +5823,18 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "연남5701",
+          "name": "연남5701",
           "address_text": "570-1 Yeonnam-dong, Mapo-gu, Seoul, South Korea",
           "address_components": null,
-          "location_lat": 37.558566,
-          "location_lon": 126.918947,
+          "location_lat": 37.5585668072602,
+          "location_lon": 126.918946735033,
           "subway_nearby": null,
           "booking_link": "https://app.catchtable.co.kr/ct/shop/yeonnam5701?from=share&type=VISIT_RESERVATION",
           "notes": null,
           "i18n": {
             "name": {
               "ko": "연남5701",
-              "en": "Yeonnam 5701"
+              "en": "Yeonnam5701"
             },
             "address_text": {
               "ko": "서울 마포구 연남동 570-1",
@@ -5874,16 +5867,18 @@
     "i18n_data": {
       "name": {
         "ko": "연남5701",
-        "en": "Yeonnam 5701"
+        "en": "Yeonnam5701"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "ko": [
-          "재즈"
+          "재즈 클럽",
+          "라이브 공연장"
         ],
         "en": [
-          "Jazz"
+          "Jazz club",
+          "Live music venue"
         ]
       },
       "subway_nearby": null,
