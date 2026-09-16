@@ -2431,6 +2431,35 @@
     }
   },
   {
+    "id": "evt_20260918_7f267bf5-4a92-47e8-9e46-bc9f3974f299",
+    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-09-18T20:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcQbSSXoLal/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
+    "venue_location_id": "main",
+    "datetime": "2026-09-18T20:00:00+00:00",
+    "date": null,
+    "sets": null,
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Jeon Jai-wook Jazz Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jeon Jai-wook Jazz Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "전재욱 재즈 쿼텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260919_d32103fe-3538-404a-9dfd-fc36cba95fb3",
     "event_key": "v:ven_b5b2bf7e-8e0f-4035-9f45-6ded1ccac903|t:2026-09-19T05:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdPTefpk-hz/",
@@ -3639,6 +3668,35 @@
     },
     "_search_ko": {
       "title": "해일럽 & 김재형 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260919_ac7ba34f-44c0-43d6-9339-6883ee304107",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-09-19T20:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdNNv2-k_ay/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-09-19T20:00:00+00:00",
+    "date": null,
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "ARB Always Rock'n roll Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "ARB Always Rock'n roll Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "ARB 올웨이즈 락앤롤 밴드",
       "description": null
     }
   },
@@ -4924,6 +4982,35 @@
     },
     "_search_ko": {
       "title": "헤이피 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260923_cf4fe217-b48f-473f-8068-4aadd82dfa39",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-23T20:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-09-23T20:00:00+00:00",
+    "date": null,
+    "sets": null,
+    "price": "30,000원",
+    "llm_confidence": 1.0,
+    "title": "KoN & Friends",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "KoN & Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "KoN & 프렌즈",
       "description": null
     }
   },
@@ -7128,6 +7215,40 @@
     }
   },
   {
+    "id": "evt_20261002_b9af7f2c-e217-46c3-8f95-7e349e0d57df",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-10-02T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdJ0PDLzHl6/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-10-02T11:00:00+00:00",
+    "date": "2026-10-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "50,000원",
+    "llm_confidence": 1.0,
+    "title": "Keiko Lee Duo (Piano Yusei Takahashi)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Keiko Lee Duo (Piano Yusei Takahashi)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "게이코 리 듀오 (피아노 유세이 다카하시)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261002_04175f3d-a102-4e21-91ab-e2dff3575f36",
     "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-10-02T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dcsb4hWqwr2/",
@@ -7301,6 +7422,40 @@
     }
   },
   {
+    "id": "evt_20261003_df6b37b4-3a8d-4b0f-befa-1e7881ce3b61",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-10-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdJ0PDLzHl6/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-10-03T11:00:00+00:00",
+    "date": "2026-10-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "50,000원",
+    "llm_confidence": 1.0,
+    "title": "Keiko Lee Duo (Piano Yusei Takahashi)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Keiko Lee Duo (Piano Yusei Takahashi)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "게이코 리 듀오 (피아노 유세이 다카하시)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261003_c2f76847-b864-43a1-9a60-67a23132f24c",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-10-03T12:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DclDTJHAdM0/",
@@ -7331,6 +7486,52 @@
     },
     "_search_ko": {
       "title": "드럼 밥 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261004_3460cf33-3909-49ab-a264-e90df24ffcba",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-04T05:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdS8GVniQuH/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-10-04T05:00:00+00:00",
+    "date": "2026-10-04",
+    "sets": [
+      {
+        "label": "1부 DAY",
+        "time": "14:00"
+      },
+      {
+        "label": "1부 DAY",
+        "time": "15:10"
+      },
+      {
+        "label": "2부 NIGHT",
+        "time": "19:00"
+      },
+      {
+        "label": "2부 NIGHT",
+        "time": "20:10"
+      }
+    ],
+    "price": "20,000원 - 40,000원",
+    "llm_confidence": 1.0,
+    "title": "All Day Jazz Show! La La Land in Seoul",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "All Day Jazz Show! La La Land in Seoul",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "올 데이 재즈 쇼! 라라랜드 인 서울",
       "description": null
     }
   },
