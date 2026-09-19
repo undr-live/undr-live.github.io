@@ -29,6 +29,35 @@
     }
   },
   {
+    "id": "evt_20260917_6e791ee1-90a2-4d6d-a829-a5ad3341bfef",
+    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-09-17T20:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcQbSSXoLal/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
+    "venue_location_id": "main",
+    "datetime": "2026-09-17T20:00:00+00:00",
+    "date": null,
+    "sets": null,
+    "price": "20,000 KRW",
+    "llm_confidence": 1.0,
+    "title": "Lee Soo-yong Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Soo-yong Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이수용 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260918_27a2c0de-d7e0-4f29-8510-9dcdea707fb2",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-09-18T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdLq4psgckH/",
@@ -4194,6 +4223,35 @@
     }
   },
   {
+    "id": "evt_20260922_64183b17-2d59-460d-9a48-e286ebf3b722",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-09-22T20:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdRm9D_EySn/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-09-22T20:00:00+00:00",
+    "date": null,
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Carina Nebula",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Carina Nebula",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "카리나 네뷸라",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260922_5d9389f3-6529-455a-8568-8a2dade70eb9",
     "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-09-22T20:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc0Cat3J_94/",
@@ -7320,7 +7378,7 @@
   {
     "id": "evt_20261004_3460cf33-3909-49ab-a264-e90df24ffcba",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-04T05:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdS8GVniQuH/",
+    "source_url": "https://www.instagram.com/p/Dda4ws9ieXT/",
     "venue_handle": "edls_official",
     "musician_ids": [],
     "musicians": [],
@@ -7337,29 +7395,21 @@
       {
         "label": "1부 DAY",
         "time": "15:10"
-      },
-      {
-        "label": "2부 NIGHT",
-        "time": "19:00"
-      },
-      {
-        "label": "2부 NIGHT",
-        "time": "20:10"
       }
     ],
-    "price": "20,000원 - 40,000원",
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "All Day Jazz Show! La La Land in Seoul",
+    "title": "Hojung & Jinju La La Rhythm",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "All Day Jazz Show! La La Land in Seoul",
+      "title": "Hojung & Jinju La La Rhythm",
       "description": null
     },
     "_search_ko": {
-      "title": "올 데이 재즈 쇼! 라라랜드 인 서울",
+      "title": "호정&진주 라라이즘",
       "description": null
     }
   },
@@ -7394,6 +7444,44 @@
     },
     "_search_ko": {
       "title": "전재근 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261004_53fd4231-1184-4caf-93df-d1e51d3f6c4c",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-04T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dda4ws9ieXT/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-10-04T10:00:00+00:00",
+    "date": "2026-10-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      },
+      {
+        "label": null,
+        "time": "20:10"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Im Bo-young Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Im Bo-young Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임보영 퀄텟",
       "description": null
     }
   },
