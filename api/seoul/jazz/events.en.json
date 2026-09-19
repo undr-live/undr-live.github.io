@@ -1357,6 +1357,40 @@
     }
   },
   {
+    "id": "evt_20260919_03b3378c-e40e-4d7b-afee-7717227c0205",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-09-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdQBHJ9PQXL/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-09-19T11:00:00+00:00",
+    "date": "2026-09-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "11,000원",
+    "llm_confidence": 1.0,
+    "title": "BEARTRICE",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "BEARTRICE",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "BEARTRICE",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260919_663fad5b-861c-4d59-9714-6adfe28fd347",
     "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-09-19T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdEYcuuJqVp/",
@@ -1459,6 +1493,40 @@
     },
     "_search_ko": {
       "title": "이기현 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260919_9e38b76c-5112-4626-8bee-0f64c63d82e2",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-09-19T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdchwOTzGzG/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-09-19T11:30:00+00:00",
+    "date": "2026-09-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DOGPATY",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "DOGPATY",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "도그파티",
       "description": null
     }
   },
@@ -1701,6 +1769,35 @@
     },
     "_search_ko": {
       "title": "문스톤 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260919_f1956da5-35cd-40ec-b6fd-0a0b9880774f",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-09-19T18:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdahiY1zsEx/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-09-19T18:00:00+00:00",
+    "date": null,
+    "sets": null,
+    "price": "Free Entry + Deferred Payment",
+    "llm_confidence": 1.0,
+    "title": "Newsboy Men with Joy, Joje",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Newsboy Men with Joy, Joje",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "뉴스보이 멘 with 조이, 조제",
       "description": null
     }
   },
