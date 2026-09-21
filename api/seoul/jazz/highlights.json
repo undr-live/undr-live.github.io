@@ -1,50 +1,64 @@
 {
-  "week_start_date": "2026-09-14",
-  "generated_at": "2026-09-14T06:00:04.994041+00:00",
+  "week_start_date": "2026-09-21",
+  "generated_at": "2026-09-21T06:00:06.404427+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-09-18": {
-      "event_id": "evt_20260918_cfaed79a-339b-4b56-a207-2cf98a6a6822",
+    "2026-09-23": {
+      "event_id": "evt_20260923_d17fc079-6095-4e4e-a71f-dee7db58a9c3",
       "title": {
-        "ko": "배민혁 트리오",
-        "en": "Bae Min-hyuk Trio"
+        "ko": "헤이피 듀오",
+        "en": "Hey.P Duo"
       },
       "venue_name": {
-        "en": "Rustic Jazz",
-        "ko": "러스틱재즈"
+        "en": "Bar Tican",
+        "ko": "바티칸"
       },
-      "venue_handle": "rustic_jazz",
-      "datetime": "2026-09-18T10:40:00+00:00",
-      "selected_at": "2026-09-14T06:00:04.993077+00:00"
+      "venue_handle": "bar_tican",
+      "datetime": "2026-09-23T12:00:00+00:00",
+      "selected_at": "2026-09-21T06:00:06.403245+00:00"
     },
-    "2026-09-19": {
-      "event_id": "evt_20260919_89c78469-8275-4713-95ae-cb803652251d",
+    "2026-09-25": {
+      "event_id": "evt_20260925_841692f4-96f0-4da9-beb7-06d74cb5ee7d",
       "title": {
-        "ko": "찰리정 카일라쉬 밴드",
-        "en": "Charlie Jung Kailash Band"
+        "ko": "이고은 트리오",
+        "en": "Lee Go-eun Trio"
+      },
+      "venue_name": {
+        "en": "Newall Jazz Lounge",
+        "ko": "뉴올 재즈 라운지"
+      },
+      "venue_handle": "newall_jazz",
+      "datetime": "2026-09-25T11:00:00+00:00",
+      "selected_at": "2026-09-21T06:00:06.403608+00:00"
+    },
+    "2026-09-26": {
+      "event_id": "evt_20260926_53e98a60-b78e-4f70-9b9d-674146aa7944",
+      "title": {
+        "ko": "로빅스 월드",
+        "en": "Robiq's World"
+      },
+      "venue_name": {
+        "en": "Jazzclub Evans",
+        "ko": "재즈클럽 에반스"
+      },
+      "venue_handle": "jazzclub_evans",
+      "datetime": "2026-09-26T11:00:00+00:00",
+      "selected_at": "2026-09-21T06:00:06.404137+00:00"
+    },
+    "2026-09-27": {
+      "event_id": "evt_20260927_2665465b-b3df-4d59-9d09-b299907c5d60",
+      "title": {
+        "ko": "구민상 퀄텟",
+        "en": "Gu Minsang Quartet"
       },
       "venue_name": {
         "en": "Chunnyun Dongando",
         "ko": "천년동안도"
       },
       "venue_handle": "chunnyun.jazz",
-      "datetime": "2026-09-19T09:00:00+00:00",
-      "selected_at": "2026-09-14T06:00:04.993604+00:00"
-    },
-    "2026-09-20": {
-      "event_id": "evt_20260920_0372ade0-a025-4652-afa4-a8a84c0e1d48",
-      "title": {
-        "ko": "오은혜 트리오",
-        "en": "Oh Eun-hye Trio"
-      },
-      "venue_name": {
-        "en": "Sound Dog",
-        "ko": "사운드 독"
-      },
-      "venue_handle": "sounddog_jazz",
-      "datetime": "2026-09-20T10:00:00+00:00",
-      "selected_at": "2026-09-14T06:00:04.994030+00:00"
+      "datetime": "2026-09-27T10:00:00+00:00",
+      "selected_at": "2026-09-21T06:00:06.404413+00:00"
     }
   }
 }
