@@ -715,6 +715,40 @@
     }
   },
   {
+    "id": "evt_20260923_c4deb5b7-326f-42c8-8a10-1bbb0cef811b",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-09-23T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Ddl6I_PE0Hw/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-09-23T10:00:00+00:00",
+    "date": "2026-09-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hong Jiyoon Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hong Jiyoon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "홍지윤 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260923_deac2eec-6490-4f27-9825-0d9cbc0fdfc5",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-09-23T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DcfJXD0piJd/",
@@ -1093,6 +1127,40 @@
     },
     "_search_ko": {
       "title": "헤이피 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260923_f6eee5ee-d85a-4a61-b15b-0b3432951210",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-09-23T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Ddl6I_PE0Hw/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-09-23T12:00:00+00:00",
+    "date": "2026-09-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Common Stella",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Common Stella",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "커먼 스텔라",
       "description": null
     }
   },
