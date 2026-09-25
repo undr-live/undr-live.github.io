@@ -295,82 +295,141 @@
     "_profile_hash": "c6b65376ce7fa9934779f3eabb6f4a5be58646b5baa304d5d7b50c01795ce73c"
   },
   {
-    "raw": "{}",
     "ig_handle": "africa_since1988",
-    "model_name": "gemini-2.5-flash",
-    "last_analyzed_at": "2026-07-21T23:46:01.123837+09:00",
-    "confidence": 1.0,
-    "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.4",
-    "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/africa_since1988/profile/2026-07-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/africa_since1988/profile/2026-06-27/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/africa_since1988/profile/2026-05-30/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/africa_since1988/profile/2026-05-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/africa_since1988/profile/2026-05-09/profile.json",
-      "gemini:enrich"
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": "18:00",
+      "tue": "18:00",
+      "wed": "18:00",
+      "thu": "18:00",
+      "fri": "18:00",
+      "sat": "18:00",
+      "sun": null
+    },
+    "typical_show_times": {
+      "mon": null,
+      "tue": null,
+      "wed": [
+        "20:00"
+      ],
+      "thu": null,
+      "fri": [
+        "20:00"
+      ],
+      "sat": [
+        "20:00"
+      ],
+      "sun": null
+    },
+    "genres": [
+      "jazz",
+      "live music"
+    ],
+    "websites": [
+      "https://www.shoutout.kr"
     ],
     "links": {
       "instagram": "https://www.instagram.com/africa_since1988",
-      "homepage": "https://www.shoutout.kr",
-      "booking": null,
+      "homepage": null,
+      "booking": "https://www.shoutout.kr",
       "google_map": null,
       "naver_map": "https://naver.me/52R5rwmr"
     },
     "contacts": {
-      "phone": null,
+      "phone": "010-2949-5786",
       "email": null
     },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "Africa Since 1988",
+        "name": "Cafe 아프리카",
         "address_text": null,
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
-        "subway_nearby": "6호선 이태원역 3번 출구에서 334m",
-        "booking_link": null,
+        "subway_nearby": null,
+        "booking_link": "https://www.shoutout.kr",
         "notes": null,
         "i18n": {
           "name": {
-            "ko": "아프리카 신스 1988",
-            "en": "Africa Since 1988"
+            "ko": "Cafe 아프리카",
+            "en": "Cafe Africa"
           },
-          "address_text": {
-            "ko": null,
-            "en": null
-          },
-          "notes": {
-            "ko": null,
-            "en": null
-          }
+          "address_text": null,
+          "notes": null
         }
       }
     ],
+    "last_analyzed_at": "2026-07-07T12:08:53.253616+09:00",
+    "confidence": 1,
+    "extraction_version": "1.0",
+    "sources": [
+      "https://www.instagram.com/africa_since1988",
+      "maps:https://maps.google.com/maps?cid=17109508792266901426",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xkMU9GaEhlamxOY25ObE5WRlZXR3AyYTJreGNYYxAB!2m1!1s0x357ca235f8e49683:0xed712f98b47dc7b2",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNkekx1S0ZBEAE!2m1!1s0x357ca235f8e49683:0xed712f98b47dc7b2",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNocktTbTZ3RRAB!2m1!1s0x357ca235f8e49683:0xed712f98b47dc7b2",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25vMFpWcENlbGswWjJGd2NEbGxZbVprYkdnek0wRRAB!2m1!1s0x357ca235f8e49683:0xed712f98b47dc7b2",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURYbnVLSnVnRRAB!2m1!1s0x357ca235f8e49683:0xed712f98b47dc7b2",
+      "maps:https://maps.google.com/maps?cid=18158846372810809595",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURmbVk2MFpBEAE!2m1!1s0x357ca3004d199e87:0xfc012e90fe4760fb",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xkaVpuZzBWVEJRTTE5a1FVMXpPRkJNUXpOamEzYxAB!2m1!1s0x357ca3004d199e87:0xfc012e90fe4760fb",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT214MGJFVkRablIxWlZWNVJYWjNVRkYxT1Vsd1VGRRAB!2m1!1s0x357ca3004d199e87:0xfc012e90fe4760fb",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pWVFpsUkdaRzB5ZFhaMk5FOXRNbGgyTW5wbVVsRRAB!2m1!1s0x357ca3004d199e87:0xfc012e90fe4760fb",
+      "maps:https://maps.google.com/maps?cid=3283980440510206085",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tsNlZTMTJRbEZaTkdWWE1YbE9RbE4zVDB3MlUxRRAB!2m1!1s0x357ca23610b934e9:0x2d930acfb5f11085",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnTUNvb0xDeTBnRRAB!2m1!1s0x357ca23610b934e9:0x2d930acfb5f11085",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNiN0xLQUVnEAE!2m1!1s0x357ca23610b934e9:0x2d930acfb5f11085",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUREZzVEVEpnEAE!2m1!1s0x357ca23610b934e9:0x2d930acfb5f11085",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNCMzRQSGlBRRAB!2m1!1s0x357ca23610b934e9:0x2d930acfb5f11085",
+      "maps:https://maps.google.com/maps?cid=2526693549682725358",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnTURvckxIZHdBRRAB!2m1!1s0x357ca3527f1113fb:0x23109e657d1c11ee",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUQtNmNESXJnRRAB!2m1!1s0x357ca3527f1113fb:0x23109e657d1c11ee",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURWeTZuYzFBRRAB!2m1!1s0x357ca3527f1113fb:0x23109e657d1c11ee",
+      "maps:https://maps.google.com/maps?cid=9587353369021318223",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUM1aEpfdGdnRRAB!2m1!1s0x357ca3c89b26b943:0x850d1f17d8a9044f",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNSdnFqMjhnRRAB!2m1!1s0x357ca3c89b26b943:0x850d1f17d8a9044f",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNSMjZqSnlnRRAB!2m1!1s0x357ca3c89b26b943:0x850d1f17d8a9044f",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
     "i18n": {
       "name": {
-        "ko": "아프리카 신스 1988",
-        "en": "Africa Since 1988"
+        "ko": "Cafe 아프리카",
+        "en": "Cafe Africa"
       },
-      "address_text": {
-        "ko": null,
-        "en": null
-      },
+      "address_text": null,
       "notes": {
-        "ko": null,
-        "en": null
+        "ko": "공연섭외문의 @gyuestagram",
+        "en": "Performance inquiry @gyuestagram"
       },
-      "genres": null,
+      "genres": {
+        "ko": [
+          "재즈",
+          "라이브 음악"
+        ],
+        "en": [
+          "Jazz",
+          "Live music"
+        ]
+      },
       "subway_nearby": {
         "ko": "6호선 이태원역 3번 출구에서 334m",
-        "en": "334m from Itaewon Station Exit 3 (Line 6)"
+        "en": "334m walk from Itaewon Station Exit 3 (Line 6)"
       },
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "3da4e165596a851a0b11c9621e102113be59662155a18001bbbb11d3d56e31d7"
+    "_profile_hash": "34a81010c7a7c33217228511ef81da09fb834320eb3339dda689724dd6b85584"
   },
   {
     "ig_handle": "allthatjazz_itaewon",
@@ -1009,51 +1068,69 @@
     "_profile_hash": "1576e0da8dac8df68fc76e2bad6a843e997fa7e7add10fdbc89ef0dd2c435117"
   },
   {
-    "raw": "{}",
     "ig_handle": "blueming_jazz",
-    "model_name": "gemini-2.5-flash",
-    "last_analyzed_at": "2026-07-21T23:46:01.615738+09:00",
-    "confidence": 1.0,
-    "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.4",
-    "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/blueming_jazz/profile/2026-07-15/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/blueming_jazz/profile/2026-07-01/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/blueming_jazz/profile/2026-06-20/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/blueming_jazz/profile/2026-05-30/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/blueming_jazz/profile/2026-05-24/profile.json",
-      "maps:https://maps.google.com/?cid=16693826049875737167",
-      "gemini:enrich"
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": "19:00",
+      "tue": "19:00",
+      "wed": "19:00",
+      "thu": "19:00",
+      "fri": "19:00",
+      "sat": "19:00",
+      "sun": null
+    },
+    "typical_show_times": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": [
+        "20:30"
+      ],
+      "sat": [
+        "20:30"
+      ],
+      "sun": null
+    },
+    "genres": [
+      "jazz",
+      "blues",
+      "live music"
     ],
+    "websites": null,
     "links": {
       "instagram": "https://www.instagram.com/blueming_jazz",
       "homepage": null,
-      "booking": "https://m.place.naver.com/restaurant/1403546225/booking?entry=plt",
-      "google_map": "https://maps.google.com/?cid=16693826049875737167",
+      "booking": "http://catchtable.co.kr/blueming_jazz",
+      "google_map": null,
       "naver_map": "https://naver.me/x2jQlSkH"
     },
     "contacts": {
-      "phone": "010-4691-8374",
+      "phone": "0507-1466-5026",
       "email": null
     },
-    "subway_nearby": "2호선 역삼역 4번 출구에서 311m",
-    "websites": [],
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "블루밍 재즈바",
+        "name": "BLUEMING 블루밍",
         "address_text": "서울 강남구 테헤란로19길 21 지하 1층",
         "address_components": null,
-        "location_lat": 37.501426,
-        "location_lon": 127.033133,
-        "subway_nearby": "2호선 역삼역 4번 출구에서 311m",
-        "booking_link": "https://m.place.naver.com/restaurant/1403546225/booking?entry=plt",
+        "location_lat": 37.5014299363027,
+        "location_lon": 127.033017144115,
+        "subway_nearby": null,
+        "booking_link": "http://catchtable.co.kr/blueming_jazz",
         "notes": null,
         "i18n": {
           "name": {
-            "ko": "블루밍 재즈바",
-            "en": "Blueming Jazz Bar"
+            "ko": "블루밍",
+            "en": "BLUEMING"
           },
           "address_text": {
             "ko": "서울 강남구 테헤란로19길 21 지하 1층",
@@ -1063,26 +1140,42 @@
         }
       }
     ],
+    "last_analyzed_at": "2026-09-01T01:10:30.253957+09:00",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "https://www.instagram.com/blueming_jazz",
+      "http://catchtable.co.kr/blueming_jazz",
+      "maps:https://maps.google.com/maps?cid=16693826049875737167",
+      "maps:https://maps.google.com/maps?cid=10808149620887583869",
+      "maps:https://maps.google.com/maps?cid=17729335948452679482",
+      "maps:https://maps.google.com/maps?cid=12895529271658955470",
+      "maps:https://maps.google.com/maps?cid=7610809347876620826",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
     "i18n": {
       "name": {
-        "ko": "블루밍 재즈바",
-        "en": "Blueming Jazz Bar"
+        "ko": "블루밍",
+        "en": "BLUEMING"
       },
-      "address_text": {
-        "ko": "서울 강남구 테헤란로19길 21 지하 1층",
-        "en": "B1, 21, Teheran-ro 19-gil, Gangnam District, Seoul, South Korea"
+      "address_text": null,
+      "notes": {
+        "ko": "대관문의: DM 또는 전화",
+        "en": "Venue rental inquiry: DM or phone"
       },
-      "notes": null,
       "genres": {
         "ko": [
           "재즈",
-          "라이브 음악",
-          "바"
+          "블루스",
+          "라이브 공연"
         ],
         "en": [
           "Jazz",
-          "Live Music",
-          "Bar"
+          "Blues",
+          "Live music"
         ]
       },
       "subway_nearby": {
@@ -1092,7 +1185,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "3da4e165596a851a0b11c9621e102113be59662155a18001bbbb11d3d56e31d7"
+    "_profile_hash": "dfc2554f822e59ab0f4747e030dbc2a574e88f9b0b996baa290af4c99a7ef379"
   },
   {
     "ig_handle": "boogiewoogieseoul",
@@ -2751,68 +2844,112 @@
     "_profile_hash": "b3ee93298285a692ad0af2541371b217aeff3b772bbc09cf840065536a2fc856"
   },
   {
-    "raw": "{}",
     "ig_handle": "eulji_libro",
-    "model_name": "gemini-2.5-flash",
-    "last_analyzed_at": "2026-07-21T23:45:59.784197+09:00",
-    "confidence": 1.0,
-    "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.4",
-    "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/eulji_libro/profile/2026-07-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/eulji_libro/profile/2026-06-28/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/eulji_libro/profile/2026-06-08/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/eulji_libro/profile/2026-06-02/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/eulji_libro/profile/2026-05-28/profile.json",
-      "maps:https://maps.google.com/?cid=12958000001331928624",
-      "maps:https://maps.google.com/?cid=14467095010688180615",
-      "gemini:enrich"
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": "19:00-23:15",
+      "fri": "19:00-23:15",
+      "sat": "19:00-23:15",
+      "sun": "19:00-23:15"
+    },
+    "typical_show_times": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": [
+        "20:30"
+      ],
+      "fri": [
+        "20:30"
+      ],
+      "sat": [
+        "20:30"
+      ],
+      "sun": [
+        "20:30"
+      ]
+    },
+    "genres": [
+      "jazz"
     ],
+    "websites": null,
     "links": {
       "instagram": "https://www.instagram.com/eulji_libro",
       "homepage": null,
       "booking": "https://catchtable.co.kr/eulji_libro",
-      "google_map": "https://maps.google.com/?cid=12958000001331928624",
+      "google_map": "https://maps.google.com/maps?cid=14467095010688180615",
       "naver_map": "https://naver.me/FUhswpwn"
     },
     "contacts": {
-      "phone": "02-2285-1311",
+      "phone": null,
       "email": null
     },
-    "websites": [],
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "Eulji Libro",
-        "address_text": "B1, 49, Toegye-ro 27-gil, Jung District, Seoul, South Korea",
+        "name": "리브로",
+        "address_text": "26 Euljiro 2(i)-ga, Jung District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.5634,
-        "location_lon": 126.991102,
-        "subway_nearby": "5 min walk from Ga Station Exit 9",
+        "subway_nearby": null,
         "booking_link": "https://catchtable.co.kr/eulji_libro",
         "notes": null,
         "i18n": {
           "name": {
-            "ko": "을지로 리브로",
-            "en": "Eulji Libro"
+            "ko": "리브로",
+            "en": "Libro"
           },
           "address_text": {
-            "ko": "서울 중구 퇴계로27길 49 지하 1층",
-            "en": "B1, 49, Toegye-ro 27-gil, Jung District, Seoul, South Korea"
+            "ko": "서울 중구 을지로2가 26",
+            "en": "26 Euljiro 2(i)-ga, Jung District, Seoul, South Korea"
           },
           "notes": null
-        }
+        },
+        "location_lat": 37.56541,
+        "location_lon": 126.98584
       }
     ],
+    "last_analyzed_at": "2026-07-07",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "https://www.instagram.com/eulji_libro",
+      "maps:https://maps.google.com/maps?cid=3590548519806235461",
+      "maps:https://maps.google.com/maps?cid=4006804362248750680",
+      "maps:https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURWMzVxSlJnEAE!2m1!1s0x357ca2e91d47728f:0x379b0756a8528658",
+      "maps:https://maps.google.com/maps?cid=14467095010688180615",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
     "i18n": {
       "name": {
-        "ko": "을지로 리브로",
-        "en": "Eulji Libro"
+        "ko": "리브로",
+        "en": "Libro"
       },
-      "address_text": null,
+      "address_text": {
+        "ko": "서울 중구 을지로2가 26",
+        "en": "26 Euljiro 2(i)-ga, Jung District, Seoul, South Korea"
+      },
       "notes": null,
-      "genres": null,
+      "genres": {
+        "ko": [
+          "재즈"
+        ],
+        "en": [
+          "Jazz"
+        ]
+      },
       "subway_nearby": {
         "ko": "가역 9번 출구에서 걸어서 5분",
         "en": "5 min walk from Ga Station Exit 9"
@@ -2820,7 +2957,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "3da4e165596a851a0b11c9621e102113be59662155a18001bbbb11d3d56e31d7"
+    "_profile_hash": "4ce6ad785839ea1b3199f21f35afcd58452bcb8c8194c2c1ce5fa6ac1edbd927"
   },
   {
     "ig_handle": "flatnine_jazzbar",
@@ -3470,74 +3607,107 @@
     "_profile_hash": "cce2b7ab2b321d1c15527bbe726568dbf7fd0c27313bdddd155255499189590a"
   },
   {
-    "raw": "{}",
     "ig_handle": "houseofbrown.seoul",
-    "model_name": "gemini-2.5-flash",
-    "last_analyzed_at": "2026-07-21T23:46:03.571844+09:00",
-    "confidence": 1.0,
-    "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.4",
-    "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofbrown.seoul/profile/2026-06-29/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofbrown.seoul/profile/2026-05-16/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofbrown.seoul/profile/2026-03-27/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofbrown.seoul/profile/2026-03-01/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofbrown.seoul/profile/2026-02-12/profile.json",
-      "maps:https://maps.google.com/?cid=6087030527074110830",
-      "maps:https://maps.google.com/?cid=15689566329454581642",
-      "maps:https://maps.google.com/?cid=17671353726141817992",
-      "maps:https://maps.google.com/?cid=10551342542703491581",
-      "maps:https://maps.google.com/?cid=12961168892280702927",
-      "maps:https://maps.google.com/?cid=6528269055753532018",
-      "maps:https://maps.google.com/?cid=5268951878254094670",
-      "maps:https://maps.google.com/?cid=5809901536210048457",
-      "maps:https://maps.google.com/?cid=17358770084975017011",
-      "gemini:enrich"
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": null,
+    "typical_show_times": {
+      "mon": null,
+      "tue": null,
+      "wed": [
+        "20:00"
+      ],
+      "thu": [
+        "20:00"
+      ],
+      "fri": [
+        "20:00"
+      ],
+      "sat": [
+        "20:00"
+      ],
+      "sun": [
+        "20:00"
+      ]
+    },
+    "genres": [
+      "jazz",
+      "blues"
     ],
+    "websites": null,
     "links": {
       "instagram": "https://www.instagram.com/houseofbrown.seoul",
       "homepage": null,
       "booking": "https://app.catchtable.co.kr/ct/shop/houseofbrown.seoul",
-      "google_map": "https://maps.google.com/?cid=6087030527074110830",
+      "google_map": null,
       "naver_map": "https://naver.me/GlJIYJmq"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "House of Brown",
+        "name": "하우스 오브 브라운 재즈바",
         "address_text": "57-3 Songpa-dong, Songpa District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.510909,
-        "location_lon": 127.108597,
-        "subway_nearby": "3 min walk from Songpanaru Station Exit 1",
+        "location_lat": 37.5109090653948,
+        "location_lon": 127.108597087478,
+        "subway_nearby": "송파나루역 1번출구에서 나와 도보 3분",
         "booking_link": "https://app.catchtable.co.kr/ct/shop/houseofbrown.seoul",
-        "notes": null,
+        "notes": "석촌호수, 송리단길에 위치한 작은 뉴욕",
         "i18n": {
           "name": {
-            "ko": "하우스 오브 브라운",
-            "en": "House of Brown"
+            "ko": "하우스 오브 브라운 재즈바",
+            "en": "House of Brown Jazz Bar"
           },
           "address_text": {
             "ko": "서울 송파구 송파동 57-3",
             "en": "57-3 Songpa-dong, Songpa District, Seoul, South Korea"
           },
-          "notes": null
+          "notes": {
+            "ko": "석촌호수, 송리단길에 위치한 작은 뉴욕",
+            "en": "A small New York located in Seokchon Lake and Songnidan-gil"
+          }
         }
       }
     ],
+    "last_analyzed_at": "2026-06-29",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "instagram.com/houseofbrown.seoul",
+      "maps:https://maps.google.com/maps?cid=6087030527074110830",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
     "i18n": {
       "name": {
-        "ko": "하우스 오브 브라운",
-        "en": "House of Brown"
+        "ko": "하우스 오브 브라운 재즈바",
+        "en": "House of Brown Jazz Bar"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "ko": [
+          "재즈",
+          "블루스"
+        ],
+        "en": [
+          "Jazz",
+          "Blues"
+        ]
+      },
       "subway_nearby": {
         "ko": "송파나루역 1번출구에서 나와 도보 3분",
         "en": "3 min walk from Songpanaru Station Exit 1"
@@ -3545,86 +3715,118 @@
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "3da4e165596a851a0b11c9621e102113be59662155a18001bbbb11d3d56e31d7"
+    "_profile_hash": "5a5ff7fd734efe6e4de0b3f4b3354d1f211676483aed3640546ff24622e70cfa"
   },
   {
-    "raw": "{}",
     "ig_handle": "idenhouseinsta",
-    "model_name": "gemini-2.5-flash",
-    "last_analyzed_at": "2026-07-21T23:46:03.783200+09:00",
-    "confidence": 1.0,
-    "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.4",
-    "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/idenhouseinsta/profile/2026-07-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/idenhouseinsta/profile/2026-06-21/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/idenhouseinsta/profile/2026-06-11/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/idenhouseinsta/profile/2026-06-03/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/idenhouseinsta/profile/2026-05-20/profile.json",
-      "maps:https://maps.google.com/?cid=12950663042103342245",
-      "gemini:enrich"
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": null,
+      "tue": "19:00",
+      "wed": "19:00",
+      "thu": "19:00",
+      "fri": "19:00",
+      "sat": "19:00",
+      "sun": "19:00"
+    },
+    "typical_show_times": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null
+    },
+    "genres": [
+      "live music venue",
+      "music lounge"
     ],
+    "websites": [],
     "links": {
       "instagram": "https://www.instagram.com/idenhouseinsta",
-      "homepage": "https://naver.me/FzHm5CFu",
-      "booking": null,
-      "google_map": "https://maps.google.com/?cid=12950663042103342245",
+      "homepage": null,
+      "booking": "https://naver.me/FzHm5CFu",
+      "google_map": null,
       "naver_map": "https://naver.me/GwpMNHgH"
     },
     "contacts": {
-      "phone": "02-732-0012",
+      "phone": null,
       "email": null
     },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "Idenhouse",
-        "address_text": "서울 용산구 독서당로 73 지하 1층",
+        "name": "IDENHouse",
+        "address_text": "B1, 73, Dokseodang-ro, Yongsan District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.5341988807655,
-        "location_lon": 127.008388065386,
         "subway_nearby": "경의중앙한남역 1번 출구에서 664m",
-        "booking_link": null,
-        "notes": null,
+        "booking_link": "https://naver.me/FzHm5CFu",
+        "notes": "For performances, events, venue rental, and reservations, please DM.",
         "i18n": {
           "name": {
             "ko": "아이덴하우스",
-            "en": "Idenhouse"
+            "en": "IDENHouse"
           },
           "address_text": {
             "ko": "서울 용산구 독서당로 73 지하 1층",
             "en": "B1, 73, Dokseodang-ro, Yongsan District, Seoul, South Korea"
           },
-          "notes": null
-        }
+          "notes": {
+            "ko": "공연, 행사, 대관, 예약 문의는 DM으로 부탁드립니다.",
+            "en": "For performances, events, venue rental, and reservations, please DM."
+          }
+        },
+        "location_lat": 37.5341988807655,
+        "location_lon": 127.008388065386
       }
     ],
+    "last_analyzed_at": "2026-07-04T11:23:30.996101+09:00",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "instagram_profile",
+      "maps:https://maps.google.com/maps?cid=12950663042103342245",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
     "i18n": {
       "name": {
         "ko": "아이덴하우스",
-        "en": "Idenhouse"
+        "en": "IDENHouse"
       },
       "address_text": null,
-      "notes": null,
+      "notes": {
+        "ko": "공연, 행사, 대관, 예약 문의는 DM으로 부탁드립니다.",
+        "en": "For performances, events, venue rental, and reservations, please DM."
+      },
       "genres": {
         "ko": [
-          "재즈",
-          "라이브 공연"
+          "라이브 음악 공연장",
+          "뮤직 라운지"
         ],
         "en": [
-          "Jazz",
-          "Live music"
+          "Live music venue",
+          "Music lounge"
         ]
       },
       "subway_nearby": {
         "ko": "경의중앙한남역 1번 출구에서 664m",
-        "en": "664m from Gyeongui-Jungang Hannam Station Exit 1"
+        "en": "664m from Hannam Station Exit 1 (Gyeongui-Jungang Line)"
       },
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "3da4e165596a851a0b11c9621e102113be59662155a18001bbbb11d3d56e31d7"
+    "_profile_hash": "d82da0268525d38a47590a71ede2475ef8c069beb90bf502edcbab96837b6503"
   },
   {
     "ig_handle": "jazperformance",
@@ -6394,46 +6596,53 @@
     "_profile_hash": "29b159c93b2f8a5b61095df5a167096cbd237d135b2aea28684803120e5266e1"
   },
   {
-    "raw": "{}",
     "ig_handle": "rustic_jazz",
-    "model_name": "gemini-2.5-flash",
-    "last_analyzed_at": "2026-07-21T23:46:04.981162+09:00",
-    "confidence": 1.0,
-    "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.4",
-    "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2026-07-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2026-07-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2026-07-02/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2026-06-30/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2026-06-23/profile.json",
-      "maps:https://maps.google.com/?cid=2518566375600343369",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "gemini:enrich"
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": null,
+    "typical_show_times": {
+      "fri": [
+        "19:40",
+        "21:00"
+      ],
+      "sat": [
+        "19:40",
+        "21:00"
+      ],
+      "sun": [
+        "19:40",
+        "21:00"
+      ]
+    },
+    "genres": [
+      "jazz"
+    ],
+    "websites": [
+      "http://www.jazzrustic.co.kr"
     ],
     "links": {
       "instagram": "https://www.instagram.com/rustic_jazz",
       "homepage": "http://www.jazzrustic.co.kr",
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=2518566375600343369",
+      "google_map": null,
       "naver_map": "https://naver.me/5apDEoVg"
     },
     "contacts": {
       "phone": "050-71390-5280",
       "email": null
     },
-    "websites": [
-      "http://www.jazzrustic.co.kr"
-    ],
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "Rustic Jazz",
+        "name": "러스틱재즈",
         "address_text": "74 Mangwon-ro, Mapo-gu, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.557246,
-        "location_lon": 126.904961,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
@@ -6447,22 +6656,45 @@
             "en": "74 Mangwon-ro, Mapo-gu, Seoul, South Korea"
           },
           "notes": null
-        }
+        },
+        "location_lat": 37.5572258907747,
+        "location_lon": 126.904979777478
       }
     ],
+    "last_analyzed_at": "2026-07-17",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "instagram",
+      "maps:https://maps.google.com/maps?cid=2518566375600343369",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
     "i18n": {
       "name": {
         "ko": "러스틱재즈",
         "en": "Rustic Jazz"
       },
       "address_text": null,
-      "notes": null,
-      "genres": null,
+      "notes": {
+        "ko": "(예약문의)",
+        "en": "Space rental and reservation inquiries"
+      },
+      "genres": {
+        "ko": [
+          "재즈"
+        ],
+        "en": [
+          "Jazz"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     },
-    "_profile_hash": "3da4e165596a851a0b11c9621e102113be59662155a18001bbbb11d3d56e31d7"
+    "_profile_hash": "0ef667e861dca7b68f1c91e6aeac5fd01666a65cbd5c00d4a3a87b8c4f46cfc9"
   },
   {
     "ig_handle": "samsungri_",
