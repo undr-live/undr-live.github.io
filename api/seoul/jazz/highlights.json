@@ -1,64 +1,36 @@
 {
-  "week_start_date": "2026-09-21",
-  "generated_at": "2026-09-21T06:00:06.404427+00:00",
+  "week_start_date": "2026-09-28",
+  "generated_at": "2026-09-28T06:00:05.694546+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-09-23": {
-      "event_id": "evt_20260923_d17fc079-6095-4e4e-a71f-dee7db58a9c3",
+    "2026-09-30": {
+      "event_id": "evt_20260930_5836d47d-0301-4c02-8069-51d3bf77f8c1",
       "title": {
-        "ko": "헤이피 듀오",
-        "en": "Hey.P Duo"
+        "ko": "어센틱 블루",
+        "en": "Authentic Blue"
       },
       "venue_name": {
-        "en": "Bar Tican",
-        "ko": "바티칸"
+        "en": "Bourbon Street Jazz Club",
+        "ko": "버번스트리트 재즈클럽"
       },
-      "venue_handle": "bar_tican",
-      "datetime": "2026-09-23T12:00:00+00:00",
-      "selected_at": "2026-09-21T06:00:06.403245+00:00"
+      "venue_handle": "bourbon_street_kr",
+      "datetime": "2026-09-30T11:00:00+00:00",
+      "selected_at": "2026-09-28T06:00:05.693912+00:00"
     },
-    "2026-09-25": {
-      "event_id": "evt_20260925_841692f4-96f0-4da9-beb7-06d74cb5ee7d",
+    "2026-10-03": {
+      "event_id": "evt_20261003_df6b37b4-3a8d-4b0f-befa-1e7881ce3b61",
       "title": {
-        "ko": "이고은 트리오",
-        "en": "Lee Go-eun Trio"
+        "ko": "게이코 리 듀오 (피아노 유세이 다카하시)",
+        "en": "Keiko Lee Duo (Piano Yusei Takahashi)"
       },
       "venue_name": {
-        "en": "Newall Jazz Lounge",
-        "ko": "뉴올 재즈 라운지"
+        "en": "Jazz Club Janus",
+        "ko": "재즈클럽 야누스"
       },
-      "venue_handle": "newall_jazz",
-      "datetime": "2026-09-25T11:00:00+00:00",
-      "selected_at": "2026-09-21T06:00:06.403608+00:00"
-    },
-    "2026-09-26": {
-      "event_id": "evt_20260926_53e98a60-b78e-4f70-9b9d-674146aa7944",
-      "title": {
-        "ko": "로빅스 월드",
-        "en": "ROBIQ's World"
-      },
-      "venue_name": {
-        "en": "Jazzclub Evans",
-        "ko": "재즈클럽 에반스"
-      },
-      "venue_handle": "jazzclub_evans",
-      "datetime": "2026-09-26T11:00:00+00:00",
-      "selected_at": "2026-09-21T06:00:06.404137+00:00"
-    },
-    "2026-09-27": {
-      "event_id": "evt_20260927_2665465b-b3df-4d59-9d09-b299907c5d60",
-      "title": {
-        "ko": "구민상 퀄텟",
-        "en": "Gu Minsang Quartet"
-      },
-      "venue_name": {
-        "en": "Chunnyun Dongando",
-        "ko": "천년동안도"
-      },
-      "venue_handle": "chunnyun.jazz",
-      "datetime": "2026-09-27T10:00:00+00:00",
-      "selected_at": "2026-09-21T06:00:06.404413+00:00"
+      "venue_handle": "jazzclub_janus",
+      "datetime": "2026-10-03T11:00:00+00:00",
+      "selected_at": "2026-09-28T06:00:05.694515+00:00"
     }
   }
 }
