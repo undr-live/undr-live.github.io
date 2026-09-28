@@ -170,6 +170,40 @@
     }
   },
   {
+    "id": "evt_20260929_a9baeb3a-8a35-4d0c-833c-15b40304ac01",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-09-29T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dd1ZlVME_e1/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-09-29T10:00:00+00:00",
+    "date": "2026-09-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kwak Jae-min Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kwak Jae-min Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "곽재민 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20260929_f8f20cdf-81d2-49d9-afb6-4e3e03513938",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-09-29T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DcfJXD0piJd/",
@@ -404,6 +438,40 @@
     },
     "_search_ko": {
       "title": "사자 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20260929_66e2580a-007e-4f63-917f-0019a8d28ff7",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-09-29T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dd1ZlVME_e1/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-09-29T12:00:00+00:00",
+    "date": "2026-09-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kwak Kyung-jin Quintet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kwak Kyung-jin Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "곽경진 퀸텟",
       "description": null
     }
   },
