@@ -5674,6 +5674,77 @@
     }
   },
   {
+    "id": "ven_f9b434d4-e8f0-42e1-ba82-2ccfac3544dd",
+    "tier": 2,
+    "ig_handle": "the_old_man_jazz_lounge",
+    "name_irl": "THE OLD MAN",
+    "location_text": "Room 602, 6th Floor, Misomi Building, 23 Seomyeon-ro, Busan, South Korea",
+    "location_lat": 35.1527754675781,
+    "location_lon": 129.057488873655,
+    "phone": null,
+    "email": null,
+    "google_map_url": null,
+    "booking_url": null,
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "The Old Man Jazz Lounge",
+          "address_text": "부산 서면로 23 미소미빌딩 6층 602호",
+          "i18n": {
+            "name": {
+              "en": "The Old Man Jazz Lounge",
+              "ko": "The Old Man Jazz Lounge"
+            },
+            "address_text": {
+              "en": "Room 602, 6th Floor, Misomi Building, 23 Seomyeon-ro, Busan, South Korea",
+              "ko": "부산 서면로 23 미소미빌딩 6층 602호"
+            }
+          },
+          "location_lat": 35.1527754675781,
+          "location_lon": 129.057488873655
+        }
+      ],
+      "opening_hours": {
+        "mon": "19:00",
+        "tue": "19:00",
+        "wed": "19:00",
+        "thu": "19:00",
+        "fri": "19:00",
+        "sat": "19:00",
+        "sun": "19:00"
+      }
+    },
+    "i18n_data": {
+      "name": {
+        "ko": "THE OLD MAN 디올드맨",
+        "en": "THE OLD MAN"
+      },
+      "address_text": null,
+      "notes": {
+        "ko": "위스키, 칵테일, 와인, 시가, 다트",
+        "en": "Whisky, Cocktail, Wine, Cigar, Darts"
+      },
+      "genres": {
+        "ko": [
+          "재즈"
+        ],
+        "en": [
+          "Jazz"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_0f8c8afb-de53-4468-a531-ea696d418e6b",
     "tier": 1,
     "ig_handle": "teddy.valley",

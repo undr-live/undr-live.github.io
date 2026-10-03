@@ -7664,6 +7664,104 @@
     "_profile_hash": "7bed193961a93261568917b49a4e657b4d654cbcd0687dd019453a59f6499e9c"
   },
   {
+    "ig_handle": "the_old_man_jazz_lounge",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": "19:00",
+      "tue": "19:00",
+      "wed": "19:00",
+      "thu": "19:00",
+      "fri": "19:00",
+      "sat": "19:00",
+      "sun": "19:00"
+    },
+    "typical_show_times": null,
+    "genres": [
+      "jazz"
+    ],
+    "websites": null,
+    "links": {
+      "instagram": "https://www.instagram.com/the_old_man_jazz_lounge",
+      "homepage": null,
+      "booking": null,
+      "google_map": null
+    },
+    "contacts": {
+      "phone": null,
+      "email": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "The Old Man Jazz Lounge",
+        "address_text": "부산 서면로 23 미소미빌딩 6층 602호",
+        "i18n": {
+          "name": {
+            "en": "The Old Man Jazz Lounge",
+            "ko": "The Old Man Jazz Lounge"
+          },
+          "address_text": {
+            "en": "Room 602, 6th Floor, Misomi Building, 23 Seomyeon-ro, Busan, South Korea",
+            "ko": "부산 서면로 23 미소미빌딩 6층 602호"
+          }
+        },
+        "location_lat": 35.1527754675781,
+        "location_lon": 129.057488873655
+      }
+    ],
+    "last_analyzed_at": "2026-09-30T11:52:45.531958+09:00",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "https://www.instagram.com/the_old_man_jazz_lounge",
+      "maps:https://maps.google.com/maps?cid=15413851932562251551",
+      "maps:https://maps.google.com/maps?cid=87116770879123665",
+      "maps:https://maps.google.com/maps?cid=6393745887827067989",
+      "maps:https://maps.google.com/maps?cid=12304133462278501357",
+      "maps:https://maps.google.com/maps?cid=13100627648576576016",
+      "maps:https://maps.google.com/maps?cid=8701718609156605405",
+      "maps:https://maps.google.com/maps?cid=14710763701329609732",
+      "maps:https://maps.google.com/maps?cid=5936925627923403423",
+      "maps:https://maps.google.com/maps?cid=13163330699457356298",
+      "gemini:enrich",
+      "manual:venue_manual_information"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
+    "i18n": {
+      "name": {
+        "ko": "THE OLD MAN 디올드맨",
+        "en": "THE OLD MAN"
+      },
+      "address_text": null,
+      "notes": {
+        "ko": "위스키, 칵테일, 와인, 시가, 다트",
+        "en": "Whisky, Cocktail, Wine, Cigar, Darts"
+      },
+      "genres": {
+        "ko": [
+          "재즈"
+        ],
+        "en": [
+          "Jazz"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "_note": "Address supplied by Keunwoo on venue addition (Busan Seomyeon, not Seoul).",
+    "_profile_hash": "beef6b8378580969052c61b326794924b05af307e0c0f8f0221a5545d5c27a1b"
+  },
+  {
     "ig_handle": "theironfairiesseoul",
     "address_components": null,
     "location_lat": null,
