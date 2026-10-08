@@ -1188,6 +1188,40 @@
     }
   },
   {
+    "id": "evt_20261008_8b43f9e7-b294-4973-aa9b-6b21cd609794",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeMquEYE3GO/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-08T11:00:00+00:00",
+    "date": "2026-10-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "Free entry, pay after show",
+    "llm_confidence": 1.0,
+    "title": "Anamaria Oramas",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Anamaria Oramas",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "아나마리아 오라마스",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261008_e2a53c52-35bb-467c-b8a0-93217dda270f",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-08T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -1294,6 +1328,40 @@
     },
     "_search_ko": {
       "title": "니나파크 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261008_116f52aa-fbb6-4f2d-8ced-193454372b17",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-08T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeMquEYE3GO/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-08T13:00:00+00:00",
+    "date": "2026-10-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "Free entry, pay after show",
+    "llm_confidence": 1.0,
+    "title": "Kim Sunho Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Sunho Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김선호 퀄텟",
       "description": null
     }
   },
