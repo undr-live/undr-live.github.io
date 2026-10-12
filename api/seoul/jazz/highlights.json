@@ -1,78 +1,64 @@
 {
-  "week_start_date": "2026-10-05",
-  "generated_at": "2026-10-05T06:00:01.781079+00:00",
+  "week_start_date": "2026-10-12",
+  "generated_at": "2026-10-12T06:00:10.628752+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-10-07": {
-      "event_id": "evt_20261007_9ed73711-2d53-41c2-a880-221c9b15f85a",
+    "2026-10-15": {
+      "event_id": "evt_20261015_a36f5243-92c0-4d77-ad13-555dd31ff8b1",
       "title": {
-        "ko": "김영미 트리오",
-        "en": "Kim Young-mi Trio"
+        "ko": "니나파크 듀오",
+        "en": "Nina Park Duo"
       },
       "venue_name": {
-        "en": "FLATNINE",
-        "ko": "플랫나인"
+        "en": "Bar Tican",
+        "ko": "바티칸"
       },
-      "venue_handle": "flatnine_jazzbar",
-      "datetime": "2026-10-07T11:00:00+00:00",
-      "selected_at": "2026-10-05T06:00:01.779705+00:00"
+      "venue_handle": "bar_tican",
+      "datetime": "2026-10-15T12:00:00+00:00",
+      "selected_at": "2026-10-12T06:00:10.626217+00:00"
     },
-    "2026-10-08": {
-      "event_id": "evt_20261008_087ed17a-4100-486d-bca4-071976e0f8cd",
+    "2026-10-16": {
+      "event_id": "evt_20261016_6f0e2d81-705b-411b-b673-49f665bc7a1e",
       "title": {
-        "ko": "블루캣 리스닝 세션: SIDE A to SEOUL",
-        "en": "Blue Cat Listening Session: SIDE A to SEOUL"
+        "ko": "HARIMATE",
+        "en": "HARIMATE"
       },
       "venue_name": {
         "en": "BLUE CAT",
         "ko": "블루캣"
       },
       "venue_handle": "bluecat.fezh",
-      "datetime": "2026-10-08T10:30:00+00:00",
-      "selected_at": "2026-10-05T06:00:01.780008+00:00"
+      "datetime": "2026-10-16T10:30:00+00:00",
+      "selected_at": "2026-10-12T06:00:10.627203+00:00"
     },
-    "2026-10-09": {
-      "event_id": "evt_20261009_af9c2e79-a0ce-4a40-bb10-3044d8d8d1fd",
+    "2026-10-17": {
+      "event_id": "evt_20261017_02fe942f-d6eb-4358-a42d-680c05a2e4be",
       "title": {
-        "ko": "세컨드 윈드 지백 퀸텟",
-        "en": "Second Wind Jibaek Quintet"
+        "ko": "김목경 밴드",
+        "en": "Kim Mok-kyung Band"
       },
       "venue_name": {
-        "en": "Jazzclub Evans",
-        "ko": "재즈클럽 에반스"
+        "en": "Jazz Club Janus",
+        "ko": "재즈클럽 야누스"
       },
-      "venue_handle": "jazzclub_evans",
-      "datetime": "2026-10-09T11:00:00+00:00",
-      "selected_at": "2026-10-05T06:00:01.780543+00:00"
+      "venue_handle": "jazzclub_janus",
+      "datetime": "2026-10-17T10:00:00+00:00",
+      "selected_at": "2026-10-12T06:00:10.627823+00:00"
     },
-    "2026-10-10": {
-      "event_id": "evt_20261010_df034730-8740-450f-8e5a-16610bd56303",
+    "2026-10-18": {
+      "event_id": "evt_20261018_8c1c7547-8a4f-4e6b-af1d-c5d59186e3bd",
       "title": {
-        "ko": "박상아 퀄텟",
-        "en": "Park Sang-a Quartet"
-      },
-      "venue_name": {
-        "en": "Cafe Africa",
-        "ko": "Cafe 아프리카"
-      },
-      "venue_handle": "africa_since1988",
-      "datetime": "2026-10-10T11:00:00+00:00",
-      "selected_at": "2026-10-05T06:00:01.780810+00:00"
-    },
-    "2026-10-11": {
-      "event_id": "evt_20261011_3c9ef0d1-d4eb-4abe-b968-1999bbcb56c7",
-      "title": {
-        "ko": "정숙인 트리오",
-        "en": "Jung Sook-in Trio"
+        "ko": "김보민",
+        "en": "Kim Bo-min"
       },
       "venue_name": {
         "en": "Sound Dog",
         "ko": "사운드 독"
       },
       "venue_handle": "sounddog_jazz",
-      "datetime": "2026-10-11T11:00:00+00:00",
-      "selected_at": "2026-10-05T06:00:01.781068+00:00"
+      "datetime": "2026-10-18T11:00:00+00:00",
+      "selected_at": "2026-10-12T06:00:10.628734+00:00"
     }
   }
 }
