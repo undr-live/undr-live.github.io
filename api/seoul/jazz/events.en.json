@@ -411,6 +411,53 @@
     }
   },
   {
+    "id": "evt_20261011_056d5289-f843-4548-82a4-ae222b8b511f",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-11T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeUHUahEzHq/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "92dfd4be-ad33-4646-8748-5ee3cbdadb66"
+    ],
+    "musicians": [
+      {
+        "id": "92dfd4be-ad33-4646-8748-5ee3cbdadb66",
+        "ig_handle": "sean_pentland",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Sean Pentland",
+        "instruments": [
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-11T10:00:00+00:00",
+    "date": "2026-10-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Martin Jacobsen Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Martin Jacobsen Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "마틴 야콥센 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261011_f4baa0a7-ea69-48a7-b335-2676acd615e0",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-11T10:10:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
@@ -771,6 +818,82 @@
     },
     "_search_ko": {
       "title": "윤지원 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261011_58be0b41-5c7b-4144-ac6d-507f777fb4d5",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-11T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeUHUahEzHq/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "4663c335-65b6-4629-97e0-5da2f984f0fc",
+      "9f0a9ede-12d4-4d52-96db-f82f3fb1b9c3",
+      "c3d1cacc-f101-4d42-9a13-a8df7dd10910",
+      "047857fd-a730-42b7-9c52-df95dcef187e"
+    ],
+    "musicians": [
+      {
+        "id": "4663c335-65b6-4629-97e0-5da2f984f0fc",
+        "ig_handle": "likewar1976",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "전재욱",
+        "instruments": []
+      },
+      {
+        "id": "9f0a9ede-12d4-4d52-96db-f82f3fb1b9c3",
+        "ig_handle": "saxophone_heaven",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jongwon Lee",
+        "instruments": [
+          "saxophone"
+        ]
+      },
+      {
+        "id": "c3d1cacc-f101-4d42-9a13-a8df7dd10910",
+        "ig_handle": "serin222222",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "권세린",
+        "instruments": []
+      },
+      {
+        "id": "047857fd-a730-42b7-9c52-df95dcef187e",
+        "ig_handle": "bowingpark",
+        "name_ko": "박정현",
+        "name_en": null,
+        "name_irl": "박정현",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-11T12:00:00+00:00",
+    "date": "2026-10-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jeon Jae-wook Jazz Quintet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jeon Jae-wook Jazz Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "전재욱재즈 퀸텟",
       "description": null
     }
   },
