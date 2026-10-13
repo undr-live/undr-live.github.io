@@ -1597,6 +1597,64 @@
     }
   },
   {
+    "id": "evt_20261016_d3e9dd2f-2ec2-4259-8bde-1f6f0f7be084",
+    "event_key": "v:ven_dda28cb8-70a0-4815-971c-666b82e81609|t:2026-10-16T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeY_OukDx5L/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [
+      "8b3e9011-9c18-4e73-9208-877fc9f2877b",
+      "479326cc-2aeb-4650-a124-221f40ed733e"
+    ],
+    "musicians": [
+      {
+        "id": "8b3e9011-9c18-4e73-9208-877fc9f2877b",
+        "ig_handle": "qjawns005",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김범준",
+        "instruments": []
+      },
+      {
+        "id": "479326cc-2aeb-4650-a124-221f40ed733e",
+        "ig_handle": "minxophone",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조민형",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dda28cb8-70a0-4815-971c-666b82e81609",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T11:30:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "캔자스 시티 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kansas City Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "캔자스 시티 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261016_7e595370-0cdc-4a23-925c-cfec92dce0ed",
     "event_key": "vh:the_old_man_jazz_lounge|t:2026-10-16T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdpxyjGpRLF/",
