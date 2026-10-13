@@ -2730,6 +2730,57 @@
     }
   },
   {
+    "id": "evt_20261017_154358fe-c349-4da9-82f1-21eb7e7c507c",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-10-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeZm7x0E-Bm/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [
+      "7716aab9-40c2-4d99-a987-5e526dec33e7"
+    ],
+    "musicians": [
+      {
+        "id": "7716aab9-40c2-4d99-a987-5e526dec33e7",
+        "ig_handle": "jazz_baek",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "백용훈",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T11:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "한유정 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yujeong Han Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한유정 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261017_175b5cf1-129a-4020-acb2-d127edad9183",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-17T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
