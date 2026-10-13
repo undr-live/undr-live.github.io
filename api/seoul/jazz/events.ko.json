@@ -666,6 +666,69 @@
     }
   },
   {
+    "id": "evt_20261014_893450d3-b1c3-43a3-b92a-77d53b3209ce",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeTWLBxEemM/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [
+      "d719555c-9d72-49b3-af26-e4651af8a481",
+      "787134aa-cb46-4f25-8498-40ce4b391668",
+      "4437c793-9307-415d-a0eb-2f9a34c7f01b"
+    ],
+    "musicians": [
+      {
+        "id": "d719555c-9d72-49b3-af26-e4651af8a481",
+        "ig_handle": "guitardang_",
+        "name_ko": "김강당",
+        "name_en": null,
+        "name_irl": "김강당",
+        "instruments": []
+      },
+      {
+        "id": "787134aa-cb46-4f25-8498-40ce4b391668",
+        "ig_handle": "basspark_",
+        "name_ko": "박엽",
+        "name_en": null,
+        "name_irl": "박엽",
+        "instruments": []
+      },
+      {
+        "id": "4437c793-9307-415d-a0eb-2f9a34c7f01b",
+        "ig_handle": "kho_geon",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "고건",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-14T11:00:00+00:00",
+    "date": "2026-10-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "헬로 미스터 브라운!",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hello, Mr.Brown!",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "헬로 미스터 브라운!",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261014_7d139689-9ae8-4ae6-affd-0fe2a3a8d710",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-14T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -1091,6 +1154,62 @@
     },
     "_search_ko": {
       "title": "마르디 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261015_e719dfc7-f11a-4da7-bdfa-7a681cad966c",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeTWLBxEemM/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [
+      "c99c5a3a-c6e2-44ad-9129-7f524a90509b",
+      "ec904762-022c-4d17-bb48-fd7b85da34fe"
+    ],
+    "musicians": [
+      {
+        "id": "c99c5a3a-c6e2-44ad-9129-7f524a90509b",
+        "ig_handle": "mountain__guy",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "심규민",
+        "instruments": []
+      },
+      {
+        "id": "ec904762-022c-4d17-bb48-fd7b85da34fe",
+        "ig_handle": "dongjinshinmusic",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "신동진",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-15T11:00:00+00:00",
+    "date": "2026-10-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김호철 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Hochel Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김호철 트리오",
       "description": null
     }
   },
@@ -1682,6 +1801,51 @@
     },
     "_search_ko": {
       "title": "베티 황 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261016_49dfadc2-b638-4632-ba99-830c76e38a5b",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeTWLBxEemM/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [
+      "9a54a69c-916d-4632-9df8-8c1a9878aac2"
+    ],
+    "musicians": [
+      {
+        "id": "9a54a69c-916d-4632-9df8-8c1a9878aac2",
+        "ig_handle": "rob.ligato",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Robert Fernandez",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T11:00:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "안현빈 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ahn Hyunbin Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "안현빈 트리오",
       "description": null
     }
   },
@@ -3001,6 +3165,51 @@
     }
   },
   {
+    "id": "evt_20261017_b61f1437-c696-464c-aa4f-36601fbbc673",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeTWLBxEemM/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c"
+    ],
+    "musicians": [
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T11:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "닉 비엘로 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nick Biello Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "닉 비엘로 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261017_175b5cf1-129a-4020-acb2-d127edad9183",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-17T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -3684,6 +3893,51 @@
     },
     "_search_ko": {
       "title": "권범수 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261018_583805ae-bf70-4d18-9cf6-79c95f2ac1c8",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeTWLBxEemM/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [
+      "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce"
+    ],
+    "musicians": [
+      {
+        "id": "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce",
+        "ig_handle": "ihatebrushsticks",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김성찬",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-18T11:00:00+00:00",
+    "date": "2026-10-18",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "토모유키 하치고 그룹",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Tomoyuki Hachigo Group",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "토모유키 하치고 그룹",
       "description": null
     }
   },
