@@ -2407,6 +2407,40 @@
     }
   },
   {
+    "id": "evt_20261017_bbab9e49-f284-4d58-a793-add0dcfe58a7",
+    "event_key": "v:ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0|t:2026-10-17T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DedldtPnxDx/",
+    "venue_handle": "yoori.kim_mullaejazzin",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T10:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "25,000원",
+    "llm_confidence": 1.0,
+    "title": "Haijin Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Haijin Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "하이진 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261017_cd39a732-2d54-414d-9f0b-6237c83770e3",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-17T10:10:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
@@ -3262,6 +3296,40 @@
     },
     "_search_ko": {
       "title": "마틴 야콥센 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261017_e4622fa7-298f-4830-b298-69c17959a09b",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-10-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/Deg2dbOB1bO/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T11:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Heo Won-mu Quartet (Vocal Heo Won-mu)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Heo Won-mu Quartet (Vocal Heo Won-mu)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "허원무 퀄텟 (보컬 허원무)",
       "description": null
     }
   },
