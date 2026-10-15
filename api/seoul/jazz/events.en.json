@@ -1,5 +1,54 @@
 [
   {
+    "id": "evt_20261014_d8bc16be-4bf9-4a0c-a178-89eaff5ce677",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-10-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdwYlY6EyQb/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [
+      "e3b03824-dc7a-4a47-b5e1-5ade6e02c4a3"
+    ],
+    "musicians": [
+      {
+        "id": "e3b03824-dc7a-4a47-b5e1-5ade6e02c4a3",
+        "ig_handle": "moonseok_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최문석",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-10-14T10:00:00+00:00",
+    "date": "2026-10-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      },
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "₩15K",
+    "llm_confidence": 1.0,
+    "title": "Kim Tae-hoon X Choi Moon-seok Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Tae-hoon X Choi Moon-seok Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김태훈 X 최문석 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261014_ce1df2f5-06ef-4441-a3d5-b5bf24ef04f5",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-14T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
@@ -279,8 +328,39 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-14T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "cb607b45-8e67-4761-b869-02aacd896055",
+      "c4256b72-e148-49c2-b27c-339e341f64e6",
+      "dff05ba4-6cec-4d9e-a30b-e87c7547b27b"
+    ],
+    "musicians": [
+      {
+        "id": "cb607b45-8e67-4761-b869-02aacd896055",
+        "ig_handle": "jonghyun_pf",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박종현",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "c4256b72-e148-49c2-b27c-339e341f64e6",
+        "ig_handle": "kim_daahoud",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "(알 수 없음)",
+        "instruments": []
+      },
+      {
+        "id": "dff05ba4-6cec-4d9e-a30b-e87c7547b27b",
+        "ig_handle": "kim_kun_young",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Kim Kun-Young",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -305,40 +385,6 @@
     },
     "_search_ko": {
       "title": "박종현 트리오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261014_d8bc16be-4bf9-4a0c-a178-89eaff5ce677",
-    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-10-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdwYlY6EyQb/",
-    "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
-    "venue_location_id": "main",
-    "datetime": "2026-10-14T11:00:00+00:00",
-    "date": "2026-10-14",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": "₩15K",
-    "llm_confidence": 1.0,
-    "title": "Kim Tae-hoon X Choi Moon-seok Duo",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Kim Tae-hoon X Choi Moon-seok Duo",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "김태훈 X 최문석 듀오",
       "description": null
     }
   },
@@ -581,6 +627,74 @@
     },
     "_search_ko": {
       "title": "해일립 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261015_885f689f-62cb-4430-bf89-fd304f989ff2",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-10-15T09:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Defu6_lk2gD/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-10-15T09:30:00+00:00",
+    "date": "2026-10-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:30"
+      }
+    ],
+    "price": "무료",
+    "llm_confidence": 1.0,
+    "title": "Prelude",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Prelude",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "프렐류드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261015_1357d974-77ea-48ca-b46e-bb0d602788d0",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-15T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Ded0WfFE9eO/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-15T10:00:00+00:00",
+    "date": "2026-10-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "Free Entry + Pay After",
+    "llm_confidence": 1.0,
+    "title": "Ahn Deok-hwan Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ahn Deok-hwan Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "안덕환 트리오",
       "description": null
     }
   },
@@ -1186,6 +1300,60 @@
     },
     "_search_ko": {
       "title": "니나파크 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261015_ccd31e91-6a3f-4a44-8ea1-2223bda0fd41",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-15T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Ded0WfFE9eO/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "d46ef892-46a6-4fe0-9175-c7ec8a8b0865",
+      "6b8e4977-56da-4934-afe3-0f1b39b9f192"
+    ],
+    "musicians": [
+      {
+        "id": "d46ef892-46a6-4fe0-9175-c7ec8a8b0865",
+        "ig_handle": "baeminhyuk6",
+        "name_ko": "배민혁",
+        "name_en": "Minhyuk Bae",
+        "name_irl": "배민혁",
+        "instruments": []
+      },
+      {
+        "id": "6b8e4977-56da-4934-afe3-0f1b39b9f192",
+        "ig_handle": "altruisticdrum",
+        "name_ko": "양현수",
+        "name_en": null,
+        "name_irl": "양현수",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-15T12:00:00+00:00",
+    "date": "2026-10-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "Free Entry + Pay After",
+    "llm_confidence": 1.0,
+    "title": "Bae Min-hyeok Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Bae Min-hyeok Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "배민혁 트리오",
       "description": null
     }
   },
@@ -2898,8 +3066,30 @@
     "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-10-17T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd0K0ipTdpg/",
     "venue_handle": "laidback2019",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "5e54794c-2ef8-4db9-abd7-b1411d0bd939",
+      "ce539009-7676-4e80-90b6-021614a5e8a4"
+    ],
+    "musicians": [
+      {
+        "id": "5e54794c-2ef8-4db9-abd7-b1411d0bd939",
+        "ig_handle": "iamgrute_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이재형",
+        "instruments": []
+      },
+      {
+        "id": "ce539009-7676-4e80-90b6-021614a5e8a4",
+        "ig_handle": "redminjun31",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍민중",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
     "venue_location_id": "main",
@@ -2917,13 +3107,13 @@
     ],
     "price": "10,000원",
     "llm_confidence": 1.0,
-    "title": "Lee Jae-hyung Sextet",
+    "title": "Lee Jae-hyeong Sextet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Jae-hyung Sextet",
+      "title": "Lee Jae-hyeong Sextet",
       "description": null
     },
     "_search_ko": {
