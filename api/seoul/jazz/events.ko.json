@@ -1234,10 +1234,21 @@
   {
     "id": "evt_20261015_afbb1588-3767-4b5c-92e0-0a3b789b69ce",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-15T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
+    "source_url": "https://www.instagram.com/p/Defun0VPgh2/",
     "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "a8f86793-ec94-4d69-8297-fd5638601b33"
+    ],
+    "musicians": [
+      {
+        "id": "a8f86793-ec94-4d69-8297-fd5638601b33",
+        "ig_handle": "mmn.xnm",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "지 민 (Jimin)",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
@@ -1251,17 +1262,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "임지원 김지민 듀오",
+    "title": "임지현 김지민 듀오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lim Ji-won Kim Ji-min Duo",
+      "title": "Lim Ji-hyun Kim Ji-min Duo",
       "description": null
     },
     "_search_ko": {
-      "title": "임지원 김지민 듀오",
+      "title": "임지현 김지민 듀오",
       "description": null
     }
   },
@@ -2111,6 +2122,126 @@
     }
   },
   {
+    "id": "evt_20261016_276db817-d4cb-4a0d-aae7-384d210bc065",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-10-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeZmdMXE6Y6/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [
+      "4747045e-8663-4952-9470-afc0e36f9c4b",
+      "0aa61553-87e4-47b9-be51-79fd3cb8f298"
+    ],
+    "musicians": [
+      {
+        "id": "4747045e-8663-4952-9470-afc0e36f9c4b",
+        "ig_handle": "thekkung",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "더껑 윤성희 Sunghee Yoon",
+        "instruments": []
+      },
+      {
+        "id": "0aa61553-87e4-47b9-be51-79fd3cb8f298",
+        "ig_handle": "dyk_bass",
+        "name_ko": "김동연",
+        "name_en": "Dongyun Kim",
+        "name_irl": "김동연 (Dongyun Kim)",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T11:00:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "더껑 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Kkung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더껑 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261016_e91221ff-be14-480a-81de-7b02b7d898a2",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-10-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeX2E_IvCv_/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [
+      "633d95fc-4cc9-4a67-8b18-e593c7251247",
+      "b90487c8-1158-4639-b73b-f08caccea4f1"
+    ],
+    "musicians": [
+      {
+        "id": "633d95fc-4cc9-4a67-8b18-e593c7251247",
+        "ig_handle": "hanyulpark",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Hanyul Park",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      },
+      {
+        "id": "b90487c8-1158-4639-b73b-f08caccea4f1",
+        "ig_handle": "hw____68",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jo hyun woong",
+        "instruments": [
+          "drums",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T11:00:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "예매 11,000원, 현장 15,000원",
+    "llm_confidence": 1.0,
+    "title": "강은선 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kang Eun-sun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "강은선 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261016_52ae08af-6c8c-43c4-9413-b3ce90682890",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-16T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -2956,6 +3087,60 @@
     },
     "_search_ko": {
       "title": "김한울 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261017_04988d40-6ca3-4b5f-b2ac-df150b84c508",
+    "event_key": "v:ven_fc57057d-2f38-400b-80db-2a590f04f4f3|t:2026-10-17T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeblUPqyFtK/",
+    "venue_handle": "jazzclubbottomline",
+    "musician_ids": [
+      "c0091e87-58e2-477b-937f-75dcbb42093b",
+      "787134aa-cb46-4f25-8498-40ce4b391668"
+    ],
+    "musicians": [
+      {
+        "id": "c0091e87-58e2-477b-937f-75dcbb42093b",
+        "ig_handle": "pyr00_pyro",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박유라",
+        "instruments": []
+      },
+      {
+        "id": "787134aa-cb46-4f25-8498-40ce4b391668",
+        "ig_handle": "basspark_",
+        "name_ko": "박엽",
+        "name_en": null,
+        "name_irl": "박엽",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_fc57057d-2f38-400b-80db-2a590f04f4f3",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T10:30:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "박유라 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Yu-ra Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박유라 트리오",
       "description": null
     }
   },
@@ -3835,6 +4020,44 @@
     },
     "_search_ko": {
       "title": "메터데이",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261017_f69b14f5-3807-49df-9210-1dfef5f521ad",
+    "event_key": "v:ven_f9b434d4-e8f0-42e1-ba82-2ccfac3544dd|t:2026-10-17T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdpxyjGpRLF/",
+    "venue_handle": "the_old_man_jazz_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f9b434d4-e8f0-42e1-ba82-2ccfac3544dd",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T12:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "21:00"
+      },
+      {
+        "label": "2부",
+        "time": "22:00"
+      }
+    ],
+    "price": "₩10,000 (예매), ₩15,000 (현장)",
+    "llm_confidence": 1.0,
+    "title": "누에실 앙상블",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nuesil Ensemble",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "누에실 앙상블",
       "description": null
     }
   },
