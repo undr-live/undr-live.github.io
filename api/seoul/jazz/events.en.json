@@ -1703,6 +1703,40 @@
     }
   },
   {
+    "id": "evt_20261016_272174c0-9bd7-4178-b2a6-ae1b51d933a1",
+    "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-10-16T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeYDglLPM5M/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T11:30:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": "9,000원",
+    "llm_confidence": 1.0,
+    "title": "Zombie Baby Blues Club",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Zombie Baby Blues Club",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "좀비 베이비 블루스 클럽",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261016_7e595370-0cdc-4a23-925c-cfec92dce0ed",
     "event_key": "vh:the_old_man_jazz_lounge|t:2026-10-16T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdpxyjGpRLF/",
@@ -10328,6 +10362,44 @@
     },
     "_search_ko": {
       "title": "토드 허버트",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261108_a08ce325-41ba-44b6-8f1a-b82d1b3050dd",
+    "event_key": "vh:jazzclub_bluehour|t:2026-11-08T08:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/Deg0C-EyOmE/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": null,
+    "venue_location_id": "main",
+    "datetime": "2026-11-08T08:00:00+00:00",
+    "date": "2026-11-08",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "17:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Insooni Special Live",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Insooni Special Live",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "인순이 스페셜 라이브",
       "description": null
     }
   },
