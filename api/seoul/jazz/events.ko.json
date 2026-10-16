@@ -601,6 +601,64 @@
     }
   },
   {
+    "id": "evt_20261015_5cb117dd-b28a-4990-9e19-fe45b5a84aad",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-10-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dea25vkH5kB/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [
+      "cf4707dd-c988-4089-a579-e23f36c291d7",
+      "8785e118-c79c-4513-a4c1-710e6563704f"
+    ],
+    "musicians": [
+      {
+        "id": "cf4707dd-c988-4089-a579-e23f36c291d7",
+        "ig_handle": "sueenena",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "SUEE 수이",
+        "instruments": []
+      },
+      {
+        "id": "8785e118-c79c-4513-a4c1-710e6563704f",
+        "ig_handle": "j_hyuniyo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이정현",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-10-15T11:00:00+00:00",
+    "date": "2026-10-15",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "수이 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SUEE Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "수이 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261015_afbb1588-3767-4b5c-92e0-0a3b789b69ce",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-15T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Defun0VPgh2/",
@@ -902,8 +960,12 @@
     "date": "2026-10-16",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
       }
     ],
     "price": null,
@@ -1002,6 +1064,44 @@
     },
     "_search_ko": {
       "title": "김한울 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261016_9a4ee5eb-2541-43a3-a012-974192ffd1e8",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-10-16T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeiUOeez18V/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T10:30:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이한진 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Han-jin Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이한진 퀄텟",
       "description": null
     }
   },
@@ -1611,6 +1711,44 @@
     }
   },
   {
+    "id": "evt_20261016_b0767639-4693-4ac3-8a02-ff57bd60d26d",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-10-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dea25vkH5kB/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T11:00:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "그리티키티",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "GrittyKitty",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "그리티키티",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261016_52ae08af-6c8c-43c4-9413-b3ce90682890",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-16T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -2216,6 +2354,51 @@
     }
   },
   {
+    "id": "evt_20261017_4a044644-5b5f-4a78-8085-cd4005dc310f",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-17T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DegTUTIzxEy/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "4db177d6-371c-4465-a69a-aae6599e23ee"
+    ],
+    "musicians": [
+      {
+        "id": "4db177d6-371c-4465-a69a-aae6599e23ee",
+        "ig_handle": "lunatic_ash",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "애쉬 안(ASH AHN) 안성현",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T09:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "Free Entry",
+    "llm_confidence": 1.0,
+    "title": "애쉬안 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ash Ahn Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "애쉬안 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261017_d56a06e8-6cd8-4c7a-8be2-32dc20d808ac",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-17T09:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
@@ -2479,8 +2662,30 @@
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-17T10:10:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
     "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "887978ad-f250-477b-b08f-f309c44909a3",
+      "b6e95d27-8296-4fa0-b72d-8cf1f05ca909"
+    ],
+    "musicians": [
+      {
+        "id": "887978ad-f250-477b-b08f-f309c44909a3",
+        "ig_handle": "guitarist_yun",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "기타리스트 윤해천",
+        "instruments": [
+          "guitar"
+        ]
+      },
+      {
+        "id": "b6e95d27-8296-4fa0-b72d-8cf1f05ca909",
+        "ig_handle": "pwonb.xss",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박원빈",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
     "venue_location_id": "main",
@@ -3368,6 +3573,91 @@
     }
   },
   {
+    "id": "evt_20261017_176da4a4-1ded-444c-8bc6-7d22e5f4c8b8",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DegTUTIzxEy/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T11:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "Free Entry",
+    "llm_confidence": 1.0,
+    "title": "집사 (ZIP4)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jipsa (ZIP4)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "집사 (ZIP4)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261017_edefcfda-e75a-4f1e-b3b5-1fdfb7e6e9c6",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-10-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dea25vkH5kB/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [
+      "f0ec9305-f4f4-4d95-9600-709859dd6778"
+    ],
+    "musicians": [
+      {
+        "id": "f0ec9305-f4f4-4d95-9600-709859dd6778",
+        "ig_handle": "_02.07.30_",
+        "name_ko": "문지현",
+        "name_en": null,
+        "name_irl": "문지현",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T11:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "오텀 인 뉴올",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Autumn in Newall",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "오텀 인 뉴올",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261017_175b5cf1-129a-4020-acb2-d127edad9183",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-17T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -3700,6 +3990,66 @@
     }
   },
   {
+    "id": "evt_20261017_ca9aec2c-1f44-4218-a9df-ff44c355259e",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-17T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DegTUTIzxEy/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "da49ccf8-c24b-4a58-98a2-de74d8f32d83",
+      "e2e890ac-5813-4d99-bd1c-865822c3c910"
+    ],
+    "musicians": [
+      {
+        "id": "da49ccf8-c24b-4a58-98a2-de74d8f32d83",
+        "ig_handle": "ny_yangbro",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "양브로",
+        "instruments": [
+          "saxophone",
+          "composer"
+        ]
+      },
+      {
+        "id": "e2e890ac-5813-4d99-bd1c-865822c3c910",
+        "ig_handle": "jeon_youngse",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "전영세(Jeon Youngse)",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T13:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "Free Entry",
+    "llm_confidence": 1.0,
+    "title": "양브로 소울 팩토리",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yangbro Soul Factory",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "양브로 소울 팩토리",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261018_905f116e-0fb7-496d-8b2a-5d94aa6427e8",
     "event_key": "v:ven_038c58e6-a4ee-4ec4-b2c6-6b47ec74dcc4|t:2026-10-18T05:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc-8kj_Ibdd/",
@@ -4006,6 +4356,66 @@
     },
     "_search_ko": {
       "title": "오픈 잼세션",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261018_a0f7aa4a-1e5d-45e7-89bb-78b9c7e6d07c",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-10-18T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dea25vkH5kB/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [
+      "35cae90f-1b1c-466e-819c-b3cce442a4ce",
+      "5a8bd506-632a-4b66-8c7c-0b401db0845c"
+    ],
+    "musicians": [
+      {
+        "id": "35cae90f-1b1c-466e-819c-b3cce442a4ce",
+        "ig_handle": "k0_wellcome",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "고영찬",
+        "instruments": []
+      },
+      {
+        "id": "5a8bd506-632a-4b66-8c7c-0b401db0845c",
+        "ig_handle": "jun.h.kim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김준형",
+        "instruments": [
+          "guitar"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-10-18T10:00:00+00:00",
+    "date": "2026-10-18",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "영찬's 프로젝트!",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yeongchan's Project!",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "영찬's 프로젝트!",
       "description": null
     }
   },
