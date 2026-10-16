@@ -830,6 +830,40 @@
     }
   },
   {
+    "id": "evt_20261016_a5118c52-4a74-455d-9b19-accd05844e6b",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-10-16T09:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DejG2LSk3ww/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T09:30:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "RITU",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "RITU",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리투",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261016_30015eb9-c9d3-4ca9-a523-4b484aff1087",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-10-16T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd1X7ghgVuM/",
@@ -866,10 +900,41 @@
   {
     "id": "evt_20261016_0a42d24a-a198-44f1-bedb-44b87924f5cd",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-16T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
+    "source_url": "https://www.instagram.com/p/Degt1DMGBoB/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "e7aaec38-9e27-48c2-8728-2a69e5cd17b6",
+      "58197d65-a3c2-4a70-a567-81d86f065f7c",
+      "7938b791-2989-4220-abec-8b4b5c6b1b57"
+    ],
+    "musicians": [
+      {
+        "id": "e7aaec38-9e27-48c2-8728-2a69e5cd17b6",
+        "ig_handle": "haein_jazz",
+        "name_ko": "조해인",
+        "name_en": null,
+        "name_irl": "조해인",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "58197d65-a3c2-4a70-a567-81d86f065f7c",
+        "ig_handle": "thisisjaehun",
+        "name_ko": "강재훈",
+        "name_en": "Jaehun Kang",
+        "name_irl": "Jaehun Kang",
+        "instruments": []
+      },
+      {
+        "id": "7938b791-2989-4220-abec-8b4b5c6b1b57",
+        "ig_handle": "hayeonsongdrums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "송하연 Hayeon Song",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -883,17 +948,17 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Jo Hye-won Quartet",
+    "title": "Jo Hae-in Quintet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jo Hye-won Quartet",
+      "title": "Jo Hae-in Quintet",
       "description": null
     },
     "_search_ko": {
-      "title": "조혜원 퀄텟",
+      "title": "조해인 퀸텟",
       "description": null
     }
   },
@@ -1212,8 +1277,28 @@
     "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-10-16T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd0K0ipTdpg/",
     "venue_handle": "laidback2019",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "daa5b41d-8a0b-479f-b455-3f4bfd7e4f5a",
+      "1ab36ad4-0a95-48b1-ab6e-0e10d2e6d25a"
+    ],
+    "musicians": [
+      {
+        "id": "daa5b41d-8a0b-479f-b455-3f4bfd7e4f5a",
+        "ig_handle": "naah00d_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "양두한",
+        "instruments": []
+      },
+      {
+        "id": "1ab36ad4-0a95-48b1-ab6e-0e10d2e6d25a",
+        "ig_handle": "yun_jazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김윤재",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
     "venue_location_id": "main",
@@ -1231,17 +1316,17 @@
     ],
     "price": "10,000원",
     "llm_confidence": 1.0,
-    "title": "Yang Doo-han Quartet",
+    "title": "Yang Duh-an Quartet (Vocal)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yang Doo-han Quartet",
+      "title": "Yang Duh-an Quartet (Vocal)",
       "description": null
     },
     "_search_ko": {
-      "title": "양두한 퀄텟",
+      "title": "양두한 퀄텟 (보컬)",
       "description": null
     }
   },
@@ -1749,6 +1834,71 @@
     }
   },
   {
+    "id": "evt_20261016_4dfbeeae-5122-4a12-9eea-5f2080be4bb5",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dei_mNaEwD5/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "432f4fcb-9a94-4935-81b9-102065e6fb57",
+      "39acdaf0-d704-4972-9af0-20fdc7adbbab",
+      "3983e47c-e3f7-4813-9a7c-026929d804d9"
+    ],
+    "musicians": [
+      {
+        "id": "432f4fcb-9a94-4935-81b9-102065e6fb57",
+        "ig_handle": "wonseokchoimusic",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최원석",
+        "instruments": [
+          "saxophone"
+        ]
+      },
+      {
+        "id": "39acdaf0-d704-4972-9af0-20fdc7adbbab",
+        "ig_handle": "minhotucci",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "minho choi",
+        "instruments": []
+      },
+      {
+        "id": "3983e47c-e3f7-4813-9a7c-026929d804d9",
+        "ig_handle": "circlekim21",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김원형",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T11:00:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Won-seok Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Choi Won-seok Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최원석 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261016_52ae08af-6c8c-43c4-9413-b3ce90682890",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-16T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -2023,8 +2173,21 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-16T12:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "bac97eb9-82b7-4007-96fa-b0e1f8d21750"
+    ],
+    "musicians": [
+      {
+        "id": "bac97eb9-82b7-4007-96fa-b0e1f8d21750",
+        "ig_handle": "eun._.ha_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "𝔼𝕦𝕟𝕙𝕒 𝕁𝕦𝕟𝕘(◍•ᴗ•◍)",
+        "instruments": [
+          "piano"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -2117,6 +2280,62 @@
     },
     "_search_ko": {
       "title": "이대원 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261016_d08986bd-c6ee-4d18-a80f-a3adae565241",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-16T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dei_mNaEwD5/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "ca836eb6-873b-4340-b893-afc21bdb82d9",
+      "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce"
+    ],
+    "musicians": [
+      {
+        "id": "ca836eb6-873b-4340-b893-afc21bdb82d9",
+        "ig_handle": "bas_jisu",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박지수",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce",
+        "ig_handle": "ihatebrushsticks",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김성찬",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-16T13:00:00+00:00",
+    "date": "2026-10-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Chang-yeop Quintet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Chang-yeop Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이창엽 퀸텟",
       "description": null
     }
   },
@@ -2290,8 +2509,28 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-17T07:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "b7fa81f4-7144-4fdb-afe2-274353b7a266",
+      "8ffa0234-cbf6-4713-b9d7-19aeacdff770"
+    ],
+    "musicians": [
+      {
+        "id": "b7fa81f4-7144-4fdb-afe2-274353b7a266",
+        "ig_handle": "sih___oo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이시환",
+        "instruments": []
+      },
+      {
+        "id": "8ffa0234-cbf6-4713-b9d7-19aeacdff770",
+        "ig_handle": "mj__azz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정민준",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -2315,7 +2554,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "선우 김 트리오",
+      "title": "김선우 트리오",
       "description": null
     }
   },
@@ -2560,8 +2799,19 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-17T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "4f67f83c-b263-4bdd-867f-12a88954e400"
+    ],
+    "musicians": [
+      {
+        "id": "4f67f83c-b263-4bdd-867f-12a88954e400",
+        "ig_handle": "drum_seokwoo",
+        "name_ko": "채석우",
+        "name_en": null,
+        "name_irl": "채석우",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -3975,13 +4225,13 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Na Gyeom Duo",
+    "title": "Nakyeum Duo",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Na Gyeom Duo",
+      "title": "Nakyeum Duo",
       "description": null
     },
     "_search_ko": {
@@ -4120,10 +4370,32 @@
   {
     "id": "evt_20261018_6ff9d33a-5331-4d7f-891c-0064bfd13504",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-18T07:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
+    "source_url": "https://www.instagram.com/p/Degt1DMGBoB/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "8d6b9cac-5bd1-4d34-aed7-93d431382a24",
+      "0ce6daeb-e5c5-4d49-b3f8-f745185ab6f0"
+    ],
+    "musicians": [
+      {
+        "id": "8d6b9cac-5bd1-4d34-aed7-93d431382a24",
+        "ig_handle": "lester_yoo",
+        "name_ko": "유택언",
+        "name_en": null,
+        "name_irl": "유택언",
+        "instruments": [
+          "saxophone"
+        ]
+      },
+      {
+        "id": "0ce6daeb-e5c5-4d49-b3f8-f745185ab6f0",
+        "ig_handle": "kyubase_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김현규",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -4296,8 +4568,21 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-18T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "7f906210-6a39-44d9-9f01-32c196cdb738"
+    ],
+    "musicians": [
+      {
+        "id": "7f906210-6a39-44d9-9f01-32c196cdb738",
+        "ig_handle": "kwakjiwoong",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "곽지웅",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
