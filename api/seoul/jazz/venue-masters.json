@@ -3945,6 +3945,129 @@
     "_profile_hash": "b2d62b380ee9b116c931432bcfa00cebde8705c6ac8fb8df500248d8d8d29e5a"
   },
   {
+    "ig_handle": "jazzclub_bluehour",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": "18:00",
+      "tue": "18:00",
+      "wed": "18:00",
+      "thu": "18:00",
+      "fri": "18:00",
+      "sat": "18:00",
+      "sun": "18:00"
+    },
+    "typical_show_times": {
+      "mon": [
+        "20:00"
+      ],
+      "tue": [
+        "20:00"
+      ],
+      "wed": [
+        "20:00"
+      ],
+      "thu": [
+        "20:00"
+      ],
+      "fri": [
+        "20:00"
+      ],
+      "sat": [
+        "20:00"
+      ],
+      "sun": [
+        "20:00"
+      ]
+    },
+    "genres": [
+      "jazz",
+      "live music"
+    ],
+    "websites": null,
+    "links": {
+      "instagram": "https://www.instagram.com/jazzclub_bluehour",
+      "homepage": null,
+      "booking": "https://m.place.naver.com/restaurant/2051379746/booking",
+      "google_map": null
+    },
+    "contacts": {
+      "phone": "010-6659-6996",
+      "email": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "BLUE HOUR JAZZ CLUB",
+        "address_text": "서울 종로구 삼일대로15길 6 B1",
+        "address_components": {
+          "street": "삼일대로15길 6 B1",
+          "district": "종로구",
+          "city": "서울",
+          "postal_code": null,
+          "country": "South Korea"
+        },
+        "location_lat": 37.568926738333,
+        "location_lon": 126.987174468926,
+        "subway_nearby": null,
+        "booking_link": "https://m.place.naver.com/restaurant/2051379746/booking",
+        "notes": null,
+        "i18n": {
+          "name": {
+            "ko": "블루아워 재즈 클럽",
+            "en": "BLUE HOUR JAZZ CLUB"
+          },
+          "address_text": {
+            "ko": "서울 종로구 삼일대로15길 6 B1",
+            "en": "B1, 6 Samil-daero 15-gil, Jongno-gu, Seoul, South Korea"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "last_analyzed_at": "2024-05-18T00:00:00Z",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "instagram",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
+    "i18n": {
+      "name": {
+        "ko": "블루아워 재즈 클럽",
+        "en": "BLUE HOUR JAZZ CLUB"
+      },
+      "address_text": null,
+      "notes": {
+        "ko": "공간 대관",
+        "en": "Venue rental"
+      },
+      "genres": {
+        "ko": [
+          "재즈",
+          "라이브 음악"
+        ],
+        "en": [
+          "Jazz",
+          "Live music"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "_profile_hash": "0e467595a5f7719a9e28520949257304b11c0c4f9a641862959bfac903c90a42"
+  },
+  {
     "raw": "{}",
     "ig_handle": "jazzclub_evans",
     "model_name": "gemini-2.5-flash",
@@ -7252,6 +7375,104 @@
       "age_limit": null
     },
     "_profile_hash": "4282ba2b30479dfa886f1b2430ee45e6f049f7032cedd2745857e6e49b790ba3"
+  },
+  {
+    "ig_handle": "soblue_official",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": null,
+      "tue": null,
+      "wed": "13:00",
+      "thu": "13:00",
+      "fri": "13:00",
+      "sat": "13:00",
+      "sun": "13:00"
+    },
+    "typical_show_times": null,
+    "genres": [
+      "jazz"
+    ],
+    "websites": [
+      "http://soblue.kr"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/soblue_official",
+      "homepage": "http://soblue.kr",
+      "booking": null,
+      "google_map": "https://maps.google.com/maps?cid=11147361611887867321"
+    },
+    "contacts": {
+      "phone": "+82 50-71414-7665",
+      "email": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "쏘블루",
+        "address_text": "서울 서대문구 증가로 27 1층",
+        "address_components": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": "블루로 재즈하는 연희동 서점. book drinks jazz.",
+        "i18n": {
+          "name": {
+            "ko": "쏘블루",
+            "en": "SoBlue"
+          },
+          "address_text": {
+            "ko": "서울 서대문구 증가로 27 1층",
+            "en": "1st Floor, 27, Jeungga-ro, Seodaemun-gu, Seoul, South Korea"
+          },
+          "notes": {
+            "ko": "블루로 재즈하는 연희동 서점. book drinks jazz.",
+            "en": "A Yeonhui-dong bookstore with jazz. Books, drinks, jazz."
+          }
+        },
+        "location_lat": 37.5705445950402,
+        "location_lon": 126.930293105947
+      }
+    ],
+    "last_analyzed_at": "2024-07-25T00:00:00Z",
+    "confidence": 0.9,
+    "extraction_version": "1.0",
+    "sources": [
+      "ig_profile_soblue_official",
+      "maps:https://maps.google.com/maps?cid=11147361611887867321",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
+    "i18n": {
+      "name": {
+        "ko": "쏘블루",
+        "en": "SoBlue"
+      },
+      "address_text": null,
+      "notes": {
+        "ko": "블루로 재즈하는 연희동 서점. book drinks jazz.",
+        "en": "A Yeonhui-dong bookstore with jazz. Books, drinks, jazz."
+      },
+      "genres": {
+        "ko": [
+          "재즈"
+        ],
+        "en": [
+          "Jazz"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "_profile_hash": "4e4d247ff644fc0d6b37e9f12da42ea814d45789bce29e666187c51757a37fa7"
   },
   {
     "ig_handle": "songdo.jazz257",
