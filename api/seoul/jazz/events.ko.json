@@ -298,6 +298,40 @@
     }
   },
   {
+    "id": "evt_20261017_e706d8b9-4ba8-48a0-8cfc-1ed2f4cfff8a",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-17T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DejWhuFk9ny/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T09:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "모시 & 랩",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "MOSSIE & RAP",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "모시 & 랩",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261017_d56a06e8-6cd8-4c7a-8be2-32dc20d808ac",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-17T09:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
@@ -1200,8 +1234,12 @@
     "date": "2026-10-17",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:10"
       }
     ],
     "price": "20,000원",
@@ -1212,7 +1250,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Choi Yong-min Quartet",
+      "title": "Choi Yongmin Quartet",
       "description": null
     },
     "_search_ko": {
@@ -1586,6 +1624,53 @@
     },
     "_search_ko": {
       "title": "오텀 인 뉴올",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261017_ed7f3359-423a-4ecb-b689-cbcd9e750b4f",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DejWhuFk9ny/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "49712b85-3295-4fd1-9c8a-35cab81925f3"
+    ],
+    "musicians": [
+      {
+        "id": "49712b85-3295-4fd1-9c8a-35cab81925f3",
+        "ig_handle": "yeil78",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김병열",
+        "instruments": [
+          "saxophone"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T11:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김병렬 프렌즈",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Byeong-ryeol Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김병렬 프렌즈",
       "description": null
     }
   },
@@ -2036,6 +2121,69 @@
     },
     "_search_ko": {
       "title": "양브로 소울 팩토리",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261017_c5e0c285-ec5d-4612-af37-d13c9ddb415e",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-17T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DejWhuFk9ny/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "c00942eb-9005-4f0a-9bff-9e6fe4df613f",
+      "d96d5afb-f568-4f3f-a8f7-3f84636d5c51",
+      "3c5f1b9e-3a5f-4fbc-947e-0393f37b8f7d"
+    ],
+    "musicians": [
+      {
+        "id": "c00942eb-9005-4f0a-9bff-9e6fe4df613f",
+        "ig_handle": "chuni_mcbride",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김동현",
+        "instruments": []
+      },
+      {
+        "id": "d96d5afb-f568-4f3f-a8f7-3f84636d5c51",
+        "ig_handle": "juu.piano",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "양정주",
+        "instruments": []
+      },
+      {
+        "id": "3c5f1b9e-3a5f-4fbc-947e-0393f37b8f7d",
+        "ig_handle": "nss_drum",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "남성현, #시온뮤직 #남쌍드럼",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-17T13:00:00+00:00",
+    "date": "2026-10-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김동현 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Dong-hyun Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김동현 퀸텟",
       "description": null
     }
   },
@@ -2899,6 +3047,40 @@
     }
   },
   {
+    "id": "evt_20261018_dd46ddf3-d381-4974-8e5a-9acc29fb53ae",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-10-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DemDWDLhCdS/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-10-18T11:00:00+00:00",
+    "date": "2026-10-18",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "손윤밴드 (탭 손윤 & 김규리)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Son Yoon Band (Tap Son Yoon & Kim Gyuri)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "손윤밴드 (탭 손윤 & 김규리)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261018_ddcf5296-4286-491a-818a-350e86a46c14",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-18T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -3181,6 +3363,40 @@
     },
     "_search_ko": {
       "title": "최하든 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261019_012771ba-4cf3-4901-a618-8555f56a6dfb",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-10-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DenwGBWTPmr/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-10-19T11:00:00+00:00",
+    "date": "2026-10-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "준 랜드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "June Land",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "준 랜드",
       "description": null
     }
   },
@@ -3675,8 +3891,21 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-10-21T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdwYlY6EyQb/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "6403cff5-0c2f-4ab5-afce-cebbc492b51b"
+    ],
+    "musicians": [
+      {
+        "id": "6403cff5-0c2f-4ab5-afce-cebbc492b51b",
+        "ig_handle": "hodddang",
+        "name_ko": "유호정",
+        "name_en": null,
+        "name_irl": "유호정",
+        "instruments": [
+          "violin"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -3690,17 +3919,82 @@
     ],
     "price": "₩15K",
     "llm_confidence": 1.0,
-    "title": "유효정 스트링 노마드",
+    "title": "유호정 스트링 노마드",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yu Hyo-jeong String Nomad",
+      "title": "Yoo Ho-jeong String Nomad",
       "description": null
     },
     "_search_ko": {
-      "title": "유효정 스트링 노마드",
+      "title": "유호정 스트링 노마드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261021_0a99a61f-a6ab-40fc-b204-c844dc3909e4",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DemYDIkmVCq/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [
+      "699f361a-8d81-4617-bdb0-5aaf9dd5477d",
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+      "92dfd4be-ad33-4646-8748-5ee3cbdadb66"
+    ],
+    "musicians": [
+      {
+        "id": "699f361a-8d81-4617-bdb0-5aaf9dd5477d",
+        "ig_handle": "philgrenadier",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Phil Grenadier",
+        "instruments": []
+      },
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      },
+      {
+        "id": "92dfd4be-ad33-4646-8748-5ee3cbdadb66",
+        "ig_handle": "sean_pentland",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Sean Pentland",
+        "instruments": [
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-21T11:00:00+00:00",
+    "date": "2026-10-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "폴 커비 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Paul Kirby Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "폴 커비 퀸텟",
       "description": null
     }
   },
@@ -4059,7 +4353,7 @@
   {
     "id": "evt_20261022_e0f0d2ac-1318-40af-ad74-728a2ed47d4e",
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-10-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdwYlY6EyQb/",
+    "source_url": "https://www.instagram.com/p/Dempb74k-V-/",
     "venue_handle": "jazzxover",
     "musician_ids": [],
     "musicians": [],
@@ -4076,17 +4370,62 @@
     ],
     "price": "₩15K",
     "llm_confidence": 1.0,
-    "title": "배상은 트리오",
+    "title": "배장은 트리오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Bae Sang-eun Trio",
+      "title": "Bae Jang-eun Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "배상은 트리오",
+      "title": "배장은 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261022_69fc58f9-a064-49d9-9418-651f254ad3fb",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DemYDIkmVCq/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [
+      "bea29191-9afa-4c47-82f2-491799caf480"
+    ],
+    "musicians": [
+      {
+        "id": "bea29191-9afa-4c47-82f2-491799caf480",
+        "ig_handle": "httrp_",
+        "name_ko": "홍태훈",
+        "name_en": null,
+        "name_irl": "홍태훈",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-22T11:00:00+00:00",
+    "date": "2026-10-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "지윤 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "JIYUN Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "지윤 퀸텟",
       "description": null
     }
   },
@@ -4595,8 +4934,21 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-10-23T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdwYlY6EyQb/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "8d6b9cac-5bd1-4d34-aed7-93d431382a24"
+    ],
+    "musicians": [
+      {
+        "id": "8d6b9cac-5bd1-4d34-aed7-93d431382a24",
+        "ig_handle": "lester_yoo",
+        "name_ko": "유택언",
+        "name_en": null,
+        "name_irl": "유택언",
+        "instruments": [
+          "saxophone"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -4616,11 +4968,56 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yu Taek-eon Quartet",
+      "title": "Yoo Taek-eon Quartet",
       "description": null
     },
     "_search_ko": {
       "title": "유택언 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261023_a42b61f1-ba17-4dba-9736-45d3f26fe97a",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DemYDIkmVCq/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [
+      "f806c026-c591-40cd-b5e2-c895b4aa7597"
+    ],
+    "musicians": [
+      {
+        "id": "f806c026-c591-40cd-b5e2-c895b4aa7597",
+        "ig_handle": "east___summer",
+        "name_ko": "신동하",
+        "name_en": null,
+        "name_irl": "신동하",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-23T11:00:00+00:00",
+    "date": "2026-10-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임미정 일렉트릭 프로젝트",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lim Mi-jung Electric Project",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임미정 일렉트릭 프로젝트",
       "description": null
     }
   },
@@ -5741,6 +6138,40 @@
     }
   },
   {
+    "id": "evt_20261024_88393034-7bbc-4365-af1e-d6d59c931c61",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-10-24T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DelprUwmpDQ/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-10-24T12:00:00+00:00",
+    "date": "2026-10-24",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "소상덕 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "So Sang-deok Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "소상덕 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261024_bce7eda9-c899-4cbc-be9a-279f646365b6",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-10-24T12:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd1X7ghgVuM/",
@@ -6094,6 +6525,40 @@
     },
     "_search_ko": {
       "title": "류수완 트리오 (플러스 히치)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261025_75cca8d5-4792-4f00-8991-d529dd3ca4a3",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DemYDIkmVCq/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-25T11:00:00+00:00",
+    "date": "2026-10-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "펑크 두 바운스",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Funk Do Bounce",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "펑크 두 바운스",
       "description": null
     }
   },
