@@ -4164,11 +4164,15 @@
     "date": "2026-10-24",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "함석진 얼라이언스",
     "description": null,
@@ -6997,6 +7001,40 @@
     },
     "_search_ko": {
       "title": "주미래 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261029_16adbdda-0c9c-412e-bb10-870252711f66",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-10-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dex8hKhmocY/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-10-29T11:00:00+00:00",
+    "date": "2026-10-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hansangwon Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 밴드",
       "description": null
     }
   },
