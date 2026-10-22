@@ -1139,6 +1139,62 @@
     }
   },
   {
+    "id": "evt_20261022_3799b0c8-0621-4414-96e7-1e94973add88",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-22T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dexw5cWE7g6/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "88879614-9914-4d3c-8338-ec2d020869d6",
+      "ce539009-7676-4e80-90b6-021614a5e8a4"
+    ],
+    "musicians": [
+      {
+        "id": "88879614-9914-4d3c-8338-ec2d020869d6",
+        "ig_handle": "gan.suchi_down_zim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "우지민",
+        "instruments": []
+      },
+      {
+        "id": "ce539009-7676-4e80-90b6-021614a5e8a4",
+        "ig_handle": "redminjun31",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍민중",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-22T10:00:00+00:00",
+    "date": "2026-10-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "홍민준 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hong Min Jun Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "홍민준 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261022_f834481d-a059-41e9-9091-159c8c5b91a5",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-22T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
@@ -1927,6 +1983,51 @@
     },
     "_search_ko": {
       "title": "니나파크 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261022_c68c9ea0-af08-407d-bc27-b5c3b0bc5651",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-22T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dexw5cWE7g6/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "83942796-9c55-44d6-bbfe-0967aa51df55"
+    ],
+    "musicians": [
+      {
+        "id": "83942796-9c55-44d6-bbfe-0967aa51df55",
+        "ig_handle": "juwanson_o",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Juwan 주완",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-22T12:00:00+00:00",
+    "date": "2026-10-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "진해성 ELECTRONIC 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jin Hae Seong Electronic Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "진해성 ELECTRONIC 밴드",
       "description": null
     }
   },
