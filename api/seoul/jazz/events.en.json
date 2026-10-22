@@ -34,6 +34,64 @@
     }
   },
   {
+    "id": "evt_20261021_25dafbd0-051f-4023-92bc-c707583c7ac1",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-10-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdwYlY6EyQb/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [
+      "6403cff5-0c2f-4ab5-afce-cebbc492b51b",
+      "b33c3c62-ab6b-41b4-98a5-3cf95cfd1051"
+    ],
+    "musicians": [
+      {
+        "id": "6403cff5-0c2f-4ab5-afce-cebbc492b51b",
+        "ig_handle": "hodddang",
+        "name_ko": "유호정",
+        "name_en": null,
+        "name_irl": "유호정",
+        "instruments": [
+          "violin"
+        ]
+      },
+      {
+        "id": "b33c3c62-ab6b-41b4-98a5-3cf95cfd1051",
+        "ig_handle": "piano_seokwon",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이석원",
+        "instruments": [
+          "piano"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-10-21T10:00:00+00:00",
+    "date": "2026-10-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "₩15K",
+    "llm_confidence": 1.0,
+    "title": "Yoo Ho-jeong String Nomad",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yoo Ho-jeong String Nomad",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "유호정 스트링 노마드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261021_f6d2d23b-128b-4906-8d2d-048cfeb5902a",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-21T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DetNkzNk5F8/",
@@ -527,53 +585,6 @@
     },
     "_search_ko": {
       "title": "토모유키 하치고 퀄텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261021_25dafbd0-051f-4023-92bc-c707583c7ac1",
-    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-10-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdwYlY6EyQb/",
-    "venue_handle": "jazzxover",
-    "musician_ids": [
-      "6403cff5-0c2f-4ab5-afce-cebbc492b51b"
-    ],
-    "musicians": [
-      {
-        "id": "6403cff5-0c2f-4ab5-afce-cebbc492b51b",
-        "ig_handle": "hodddang",
-        "name_ko": "유호정",
-        "name_en": null,
-        "name_irl": "유호정",
-        "instruments": [
-          "violin"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
-    "venue_location_id": "main",
-    "datetime": "2026-10-21T11:00:00+00:00",
-    "date": "2026-10-21",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": "₩15K",
-    "llm_confidence": 1.0,
-    "title": "Yoo Ho-jeong String Nomad",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Yoo Ho-jeong String Nomad",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "유호정 스트링 노마드",
       "description": null
     }
   },
@@ -1461,16 +1472,31 @@
     "source_url": "https://www.instagram.com/p/DemYDIkmVCq/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
-      "bea29191-9afa-4c47-82f2-491799caf480"
+      "aeb4e952-8f2a-4fdc-a1dd-225a98f254ca",
+      "8afdd0d5-df2a-46cb-ab2e-6c9e406d2694"
     ],
     "musicians": [
       {
-        "id": "bea29191-9afa-4c47-82f2-491799caf480",
-        "ig_handle": "httrp_",
-        "name_ko": "홍태훈",
-        "name_en": null,
-        "name_irl": "홍태훈",
+        "id": "aeb4e952-8f2a-4fdc-a1dd-225a98f254ca",
+        "ig_handle": "yesolaa",
+        "name_ko": "안예솔",
+        "name_en": "Yesol An",
+        "name_irl": "안예솔 Yesol An",
         "instruments": []
+      },
+      {
+        "id": "8afdd0d5-df2a-46cb-ab2e-6c9e406d2694",
+        "ig_handle": "kimseonghwa_",
+        "name_ko": "김성화",
+        "name_en": null,
+        "name_irl": "김성화",
+        "instruments": [
+          "piano",
+          "drums",
+          "guitar",
+          "vocals",
+          "composer"
+        ]
       }
     ],
     "musician_ig_handles": [],
@@ -2557,7 +2583,7 @@
   {
     "id": "evt_20261023_a42b61f1-ba17-4dba-9736-45d3f26fe97a",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-23T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DemYDIkmVCq/",
+    "source_url": "https://www.instagram.com/p/DesqSaSma-Z/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "f806c026-c591-40cd-b5e2-c895b4aa7597"
@@ -9405,6 +9431,44 @@
     }
   },
   {
+    "id": "evt_20261104_a87e6b04-e835-4e2c-b71d-cb3eb08f1649",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-04T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-04T12:00:00+00:00",
+    "date": "2026-11-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "5000원",
+    "llm_confidence": 1.0,
+    "title": "Ninapark Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ninapark Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "니나파크 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261105_d9305971-fa06-4279-b329-af9fa0b4e218",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-05T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
@@ -9556,6 +9620,44 @@
     }
   },
   {
+    "id": "evt_20261105_b03da50c-b153-4f59-81a3-5e83f4a80070",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-05T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-05T12:00:00+00:00",
+    "date": "2026-11-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "5000원",
+    "llm_confidence": 1.0,
+    "title": "Im Daeun Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Im Daeun Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임다은 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261106_dead3aec-4e2c-470c-9d08-96fa47cc9a4f",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-06T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
@@ -9662,6 +9764,44 @@
     },
     "_search_ko": {
       "title": "리투",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261106_626ebc50-b2d6-4f62-9f99-26d92909fdff",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-06T11:00:00+00:00",
+    "date": "2026-11-06",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "10000원",
+    "llm_confidence": 1.0,
+    "title": "Lee Daewon Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Daewon Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이대원 밴드",
       "description": null
     }
   },
@@ -9870,6 +10010,44 @@
     },
     "_search_ko": {
       "title": "전재욱 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261107_d63e14b5-97fd-409d-834f-5b0e91298ec5",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-07T11:00:00+00:00",
+    "date": "2026-11-07",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "10000원",
+    "llm_confidence": 1.0,
+    "title": "Haeypi Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Haeypi Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해이피 밴드",
       "description": null
     }
   },
@@ -10427,6 +10605,44 @@
     }
   },
   {
+    "id": "evt_20261111_16d4568b-9fb7-4f44-b914-be1dfec2ad54",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-11T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-11T12:00:00+00:00",
+    "date": "2026-11-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "5000원",
+    "llm_confidence": 1.0,
+    "title": "Haeypi Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Haeypi Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해이피 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261112_81c0a68d-5dbc-4493-b11f-f40aa0f7ba32",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-12T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdNO_L0ybiL/",
@@ -10580,6 +10796,44 @@
     }
   },
   {
+    "id": "evt_20261112_baf4a194-67e0-418f-b493-833bd64fa261",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-12T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-12T12:00:00+00:00",
+    "date": "2026-11-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "5000원",
+    "llm_confidence": 1.0,
+    "title": "Haeylip Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Haeylip Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해일립 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261113_f9e5026c-4762-40d1-b06e-2ca081cba829",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-13T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -10682,6 +10936,44 @@
     },
     "_search_ko": {
       "title": "리베로시스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261113_6003d365-fe89-47b2-b122-ebf1325f99ce",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-13T11:00:00+00:00",
+    "date": "2026-11-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "10000원",
+    "llm_confidence": 1.0,
+    "title": "Haeypi Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Haeypi Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해이피 밴드",
       "description": null
     }
   },
@@ -10905,6 +11197,44 @@
     },
     "_search_ko": {
       "title": "이종원 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261114_aed9c28f-1cd0-4559-9c13-e1458747b35e",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-14T11:00:00+00:00",
+    "date": "2026-11-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "10000원",
+    "llm_confidence": 1.0,
+    "title": "Moon Jihyeon Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Moon Jihyeon Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "문지현 밴드",
       "description": null
     }
   },
@@ -11439,6 +11769,44 @@
     }
   },
   {
+    "id": "evt_20261118_1c2af4d2-d54b-40d4-93f3-7015f250d3dd",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-18T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-18T12:00:00+00:00",
+    "date": "2026-11-18",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "5000원",
+    "llm_confidence": 1.0,
+    "title": "Ninapark Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ninapark Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "니나파크 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261119_bc9e3ac0-9ad7-43bd-981c-1b392f7b29c8",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-19T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -11579,6 +11947,44 @@
     }
   },
   {
+    "id": "evt_20261119_b139f31f-dd06-4d65-bcf6-acf6693752eb",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-19T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-19T12:00:00+00:00",
+    "date": "2026-11-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "5000원",
+    "llm_confidence": 1.0,
+    "title": "Lee Sugyeong Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Sugyeong Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이수경 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261120_4e4144cf-83f6-4b21-bb55-88168db8661e",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-20T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -11681,6 +12087,44 @@
     },
     "_search_ko": {
       "title": "김연송 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261120_e748ffc6-7965-414a-b3fd-dc469b08b9d8",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-20T11:00:00+00:00",
+    "date": "2026-11-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "10000원",
+    "llm_confidence": 1.0,
+    "title": "Haeylip Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Haeylip Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해일립 밴드",
       "description": null
     }
   },
@@ -11859,6 +12303,44 @@
     },
     "_search_ko": {
       "title": "이미영 수퍼 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261121_a87307fb-c965-4ced-b60b-ee6bdb8a75a4",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T11:00:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "10000원",
+    "llm_confidence": 1.0,
+    "title": "Lee Daewon Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Daewon Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이대원 밴드",
       "description": null
     }
   },
@@ -12323,6 +12805,44 @@
     }
   },
   {
+    "id": "evt_20261125_cae11f79-1ea2-4240-a0f4-13aadd83e004",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-25T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-25T12:00:00+00:00",
+    "date": "2026-11-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "5000원",
+    "llm_confidence": 1.0,
+    "title": "Moon Jihyeon Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Moon Jihyeon Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "문지현 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261126_ed7b210f-3bf6-44a2-b310-a2952b2a354c",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-26T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -12485,6 +13005,44 @@
     }
   },
   {
+    "id": "evt_20261126_679e896c-9fd8-4453-8919-e787a52d4792",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-26T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-26T12:00:00+00:00",
+    "date": "2026-11-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "5000원",
+    "llm_confidence": 1.0,
+    "title": "Haeylip Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Haeylip Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해일립 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261127_7e4217b8-bc32-42c0-9b8c-9b24ab5296b6",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-27T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -12587,6 +13145,44 @@
     },
     "_search_ko": {
       "title": "라 쁘띠 프랑스 콰르텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261127_7cf31f6a-c6bd-409a-b157-d39808045d3b",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-27T11:00:00+00:00",
+    "date": "2026-11-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "10000원",
+    "llm_confidence": 1.0,
+    "title": "Ninapark Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ninapark Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "니나파크 밴드",
       "description": null
     }
   },
@@ -12790,6 +13386,44 @@
     },
     "_search_ko": {
       "title": "윤민제 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261128_71163b90-b8eb-49fc-9733-4654deabfa68",
+    "event_key": "v:ven_eb2df351-85f3-4578-bc5b-9fcd05222571|t:2026-11-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DeyPlEwKVot/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_eb2df351-85f3-4578-bc5b-9fcd05222571",
+    "venue_location_id": "main",
+    "datetime": "2026-11-28T11:00:00+00:00",
+    "date": "2026-11-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "10000원",
+    "llm_confidence": 1.0,
+    "title": "Wonsom Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Wonsom Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "원썸 밴드",
       "description": null
     }
   },
