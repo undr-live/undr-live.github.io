@@ -2314,6 +2314,77 @@
     }
   },
   {
+    "id": "evt_20261023_00408874-7b86-48b6-9c50-69ff4a9ca2b7",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-10-23T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeqjAoDRfB3/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [
+      "699f361a-8d81-4617-bdb0-5aaf9dd5477d",
+      "12bb1f7d-a6bb-4ae9-894d-547356a61892",
+      "535d299e-dd66-45a2-94f6-387538f545df"
+    ],
+    "musicians": [
+      {
+        "id": "699f361a-8d81-4617-bdb0-5aaf9dd5477d",
+        "ig_handle": "philgrenadier",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Phil Grenadier",
+        "instruments": []
+      },
+      {
+        "id": "12bb1f7d-a6bb-4ae9-894d-547356a61892",
+        "ig_handle": "ddanddarawon",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Yongwon Cho 조용원",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "535d299e-dd66-45a2-94f6-387538f545df",
+        "ig_handle": "kimyeongjin",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김영진",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-10-23T11:30:00+00:00",
+    "date": "2026-10-23",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Cho Seong-min Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Cho Seong-min Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조성민 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261023_a1e38308-7cab-4bad-972d-df6a579fcd24",
     "event_key": "vh:the_old_man_jazz_lounge|t:2026-10-23T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdpxyjGpRLF/",
@@ -8138,6 +8209,40 @@
     }
   },
   {
+    "id": "evt_20261101_e2c9ca23-ddad-4192-bce3-5e9906111286",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-01T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeyiUXXtpsL/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-11-01T09:00:00+00:00",
+    "date": "2026-11-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Hyojeongri Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hyojeongri Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "효정리 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261101_56d47db9-e575-4f8a-a244-6a5652deefb4",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-01T09:30:00+00:00",
     "source_url": "https://www.instagram.com/p/De0N1jzko11/",
@@ -9384,7 +9489,7 @@
         "time": "14:00"
       }
     ],
-    "price": "50,000원",
+    "price": "15,000원",
     "llm_confidence": 1.0,
     "title": "The Gipsy Jazz Project",
     "description": null,
@@ -9435,6 +9540,40 @@
     },
     "_search_ko": {
       "title": "인순이 스페셜 라이브",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261108_8959778d-6d13-4e41-8ad1-826639fc5538",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-08T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeyiUXXtpsL/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-11-08T09:00:00+00:00",
+    "date": "2026-11-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Chloe Jung Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Chloe Jung Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "클로이정 퀄텟",
       "description": null
     }
   },
