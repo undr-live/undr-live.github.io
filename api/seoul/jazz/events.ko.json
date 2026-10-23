@@ -1087,44 +1087,6 @@
     }
   },
   {
-    "id": "evt_20261023_afaa0794-a747-443c-934b-124b36ec9c11",
-    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-23T10:10:00+00:00",
-    "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
-    "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
-    "venue_location_id": "main",
-    "datetime": "2026-10-23T10:10:00+00:00",
-    "date": "2026-10-23",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:10"
-      },
-      {
-        "label": "2부",
-        "time": "20:30"
-      }
-    ],
-    "price": "13,000원",
-    "llm_confidence": 1.0,
-    "title": "금찬후 퀄텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Geum Chan-hoo Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "금찬후 퀄텟",
-      "description": null
-    }
-  },
-  {
     "id": "evt_20261023_e0e30834-cb5f-44af-a24d-3960f5d03e8a",
     "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-10-23T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbZD89SAnP/",
@@ -1268,6 +1230,68 @@
     },
     "_search_ko": {
       "title": "비어드앤영블러드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261023_afaa0794-a747-443c-934b-124b36ec9c11",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-23T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "54ae26c3-b5b6-4ee6-8cd1-296f501a7873",
+      "53032468-d00f-4d8d-bf0f-a884815428ff"
+    ],
+    "musicians": [
+      {
+        "id": "54ae26c3-b5b6-4ee6-8cd1-296f501a7873",
+        "ig_handle": "chanhooey_m7addb6",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "금찬후",
+        "instruments": [
+          "guitar"
+        ]
+      },
+      {
+        "id": "53032468-d00f-4d8d-bf0f-a884815428ff",
+        "ig_handle": "zzo_bass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조우진",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-10-23T10:40:00+00:00",
+    "date": "2026-10-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:40"
+      },
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "금찬후 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Geum Chan-hoo Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "금찬후 퀄텟",
       "description": null
     }
   },
@@ -2131,10 +2155,21 @@
   {
     "id": "evt_20261023_ca24b578-d2c1-4bed-8986-27814493dd90",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-23T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
+    "source_url": "https://www.instagram.com/p/De0Nu6QzdVN/",
     "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "cdefda95-dee4-4cc0-aa66-e264695fbabd"
+    ],
+    "musicians": [
+      {
+        "id": "cdefda95-dee4-4cc0-aa66-e264695fbabd",
+        "ig_handle": "pianistar___",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": null,
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
@@ -3148,44 +3183,6 @@
     }
   },
   {
-    "id": "evt_20261024_44547cfa-54c5-4edd-8215-90ac6a4c6da9",
-    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-24T10:10:00+00:00",
-    "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
-    "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
-    "venue_location_id": "main",
-    "datetime": "2026-10-24T10:10:00+00:00",
-    "date": "2026-10-24",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:10"
-      },
-      {
-        "label": "2부",
-        "time": "20:30"
-      }
-    ],
-    "price": "13,000원",
-    "llm_confidence": 1.0,
-    "title": "핑거프린트",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Fingerprint",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "핑거프린트",
-      "description": null
-    }
-  },
-  {
     "id": "evt_20261024_779515bf-eda6-4187-8f6b-05e1ea7131e0",
     "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-10-24T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbZD89SAnP/",
@@ -3277,6 +3274,44 @@
     },
     "_search_ko": {
       "title": "밴드 리투",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261024_44547cfa-54c5-4edd-8215-90ac6a4c6da9",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-24T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-10-24T10:40:00+00:00",
+    "date": "2026-10-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:40"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "핑거프린트",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Fingerprint",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "핑거프린트",
       "description": null
     }
   },
@@ -3805,7 +3840,7 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "SUPERB (수퍼브)",
+    "title": "수퍼브",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -3815,7 +3850,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "SUPERB (수퍼브)",
+      "title": "수퍼브",
       "description": null
     }
   },
@@ -4737,44 +4772,6 @@
     }
   },
   {
-    "id": "evt_20261025_060a34a2-4de2-4a76-9005-c3d75ea030a1",
-    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-25T10:10:00+00:00",
-    "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
-    "venue_handle": "rustic_jazz",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
-    "venue_location_id": "main",
-    "datetime": "2026-10-25T10:10:00+00:00",
-    "date": "2026-10-25",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:10"
-      },
-      {
-        "label": "2부",
-        "time": "20:30"
-      }
-    ],
-    "price": "13,000원",
-    "llm_confidence": 1.0,
-    "title": "위 쓰리",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "We Three",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "위 쓰리",
-      "description": null
-    }
-  },
-  {
     "id": "evt_20261025_e1a97048-308d-4d4a-bbca-c50b935ce3a4",
     "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-10-25T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DeoWd4NmgJO/",
@@ -4879,6 +4876,44 @@
     },
     "_search_ko": {
       "title": "이기현 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261025_060a34a2-4de2-4a76-9005-c3d75ea030a1",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-25T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-10-25T10:40:00+00:00",
+    "date": "2026-10-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:40"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "위 쓰리",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "We Three",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "위 쓰리",
       "description": null
     }
   },
