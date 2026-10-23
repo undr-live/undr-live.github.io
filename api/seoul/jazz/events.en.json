@@ -2080,13 +2080,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Goo Min-sang Quartet",
+    "title": "Ku Min-sang Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Goo Min-sang Quartet",
+      "title": "Ku Min-sang Quartet",
       "description": null
     },
     "_search_ko": {
@@ -5207,10 +5207,34 @@
   {
     "id": "evt_20261027_041a28d8-c92b-496b-8259-4007a0d8222d",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-27T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
+    "source_url": "https://www.instagram.com/p/De0N1jzko11/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "e9fcbb76-47be-4cfd-aed5-28aae5bc9a52",
+      "be88dbf2-2aae-437a-a493-febac53fce09"
+    ],
+    "musicians": [
+      {
+        "id": "e9fcbb76-47be-4cfd-aed5-28aae5bc9a52",
+        "ig_handle": "quiet.trp",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조용찬",
+        "instruments": [
+          "trumpet"
+        ]
+      },
+      {
+        "id": "be88dbf2-2aae-437a-a493-febac53fce09",
+        "ig_handle": "nokrbass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "노광래",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -5343,10 +5367,24 @@
   {
     "id": "evt_20261028_d0943d46-0796-4dc2-8731-d525f8bb5f5f",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-28T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
+    "source_url": "https://www.instagram.com/p/De0N1jzko11/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b"
+    ],
+    "musicians": [
+      {
+        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+        "ig_handle": "__suno_kim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김선호",
+        "instruments": [
+          "drums",
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -5360,17 +5398,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Young Trio x Ash Ahn",
+    "title": "Young Trio x Suee",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Young Trio x Ash Ahn",
+      "title": "Young Trio x Suee",
       "description": null
     },
     "_search_ko": {
-      "title": "영 트리오 x 애쉬 안",
+      "title": "영 트리오 x Suee",
       "description": null
     }
   },
@@ -5869,7 +5907,7 @@
   {
     "id": "evt_20261029_1faa1a9b-fdf4-49d8-ab0d-63efeb724fc3",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-29T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
+    "source_url": "https://www.instagram.com/p/De0N1jzko11/",
     "venue_handle": "edls_official",
     "musician_ids": [],
     "musicians": [],
@@ -5886,17 +5924,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Meloholic",
+    "title": "Dongbin's Musical Night",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Meloholic",
+      "title": "Dongbin's Musical Night",
       "description": null
     },
     "_search_ko": {
-      "title": "멜로홀릭",
+      "title": "동빈이네 뮤지컬의 밤",
       "description": null
     }
   },
@@ -6437,10 +6475,33 @@
   {
     "id": "evt_20261030_9a707102-dc04-4461-ab05-2248190c0107",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-30T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
+    "source_url": "https://www.instagram.com/p/De0N1jzko11/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "35761c43-670d-41ca-8e6c-d6a4a1e745a9",
+      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b"
+    ],
+    "musicians": [
+      {
+        "id": "35761c43-670d-41ca-8e6c-d6a4a1e745a9",
+        "ig_handle": "kimminwookkk",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김민욱",
+        "instruments": []
+      },
+      {
+        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+        "ig_handle": "__suno_kim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김선호",
+        "instruments": [
+          "drums",
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -6454,17 +6515,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Jeon Jin-yong Collective with Nagyeom",
+    "title": "Jeon Jin-woong Collective with Na Gyeom",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jeon Jin-yong Collective with Nagyeom",
+      "title": "Jeon Jin-woong Collective with Na Gyeom",
       "description": null
     },
     "_search_ko": {
-      "title": "전진용 Collective with 나겸",
+      "title": "전진웅 컬렉티브 위드 나겸",
       "description": null
     }
   },
@@ -7185,8 +7246,32 @@
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-31T09:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+      "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8"
+    ],
+    "musicians": [
+      {
+        "id": "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+        "ig_handle": "hey.hailluv",
+        "name_ko": "해일럽",
+        "name_en": null,
+        "name_irl": "해일럽",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8",
+        "ig_handle": "namhyuckcho_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조남혁",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -7194,23 +7279,23 @@
     "date": "2026-10-31",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "18:30"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Hae-in-rip Band",
+    "title": "Haelub Band",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hae-in-rip Band",
+      "title": "Haelub Band",
       "description": null
     },
     "_search_ko": {
-      "title": "해인립 밴드",
+      "title": "해일럽 밴드",
       "description": null
     }
   },
@@ -7964,7 +8049,7 @@
     "date": "2026-10-31",
     "sets": [
       {
-        "label": null,
+        "label": "2부",
         "time": "21:00"
       }
     ],
@@ -7980,7 +8065,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "메터데이",
+      "title": "메터데이(MATTER DAY)",
       "description": null
     }
   },
@@ -8049,6 +8134,40 @@
     },
     "_search_ko": {
       "title": "해일성 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261101_56d47db9-e575-4f8a-a244-6a5652deefb4",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-01T09:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/De0N1jzko11/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-11-01T09:30:00+00:00",
+    "date": "2026-11-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Matterday",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Matterday",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "메터데이(MATTER DAY)",
       "description": null
     }
   },
