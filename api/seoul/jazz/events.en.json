@@ -211,13 +211,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Lou Gypsy Cafe",
+    "title": "Rue Gypsy Cafe",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lou Gypsy Cafe",
+      "title": "Rue Gypsy Cafe",
       "description": null
     },
     "_search_ko": {
@@ -10238,6 +10238,53 @@
     }
   },
   {
+    "id": "evt_20261114_2add890a-4846-459b-a70c-34ae4196e63d",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-14T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeyiRQ_h0eO/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [
+      "7716aab9-40c2-4d99-a987-5e526dec33e7"
+    ],
+    "musicians": [
+      {
+        "id": "7716aab9-40c2-4d99-a987-5e526dec33e7",
+        "ig_handle": "jazz_baek",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "백용훈",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-11-14T09:00:00+00:00",
+    "date": "2026-11-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Yoo Yoon & Yoo Jung Friends",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yoo Yoon & Yoo Jung Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "유윤과 유정 프렌즈",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261114_18b88ce8-1c26-4193-8b25-310f14e22b29",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-14T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -10432,6 +10479,40 @@
     },
     "_search_ko": {
       "title": "김지민 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261115_d7708ed5-75df-495b-8734-3d17de66d3c0",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-15T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeyiRQ_h0eO/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-11-15T09:00:00+00:00",
+    "date": "2026-11-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Oitdu Oitdu (Oito oito)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Oitdu Oitdu (Oito oito)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "오이뚜 오이뚜",
       "description": null
     }
   },
@@ -11177,6 +11258,40 @@
     }
   },
   {
+    "id": "evt_20261120_48f9e4bf-719a-40e3-8eb5-41953a72a2b2",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-20T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeyiRQ_h0eO/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-11-20T10:00:00+00:00",
+    "date": "2026-11-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Gogo & Chel",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Gogo & Chel",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Gogo & Chel",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261120_4e4144cf-83f6-4b21-bb55-88168db8661e",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-20T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -11414,6 +11529,40 @@
     },
     "_search_ko": {
       "title": "니콜팍 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261121_c60b8f96-67a4-4575-9dc5-40e4a8a22d73",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-21T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeyiRQ_h0eO/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T09:00:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Liberamente",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Liberamente",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리베라멘테",
       "description": null
     }
   },
