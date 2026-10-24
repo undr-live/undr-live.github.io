@@ -1994,7 +1994,7 @@
   {
     "id": "evt_20261024_292bc659-4906-4697-a8ba-73e4fa77b6bf",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-10-24T08:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Detn5aBEx-B/",
+    "source_url": "https://www.instagram.com/p/De1-gZzTdLI/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -2007,6 +2007,10 @@
       {
         "label": null,
         "time": "17:00"
+      },
+      {
+        "label": null,
+        "time": "20:00"
       }
     ],
     "price": null,
@@ -3319,6 +3323,57 @@
     },
     "_search_ko": {
       "title": "김성수 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261024_8fd0e436-770e-477b-bd4c-280d3638cb32",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-10-24T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De1aJpjBY-D/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [
+      "addc9725-ff1e-42c7-9dcb-0c26ebc11f39"
+    ],
+    "musicians": [
+      {
+        "id": "addc9725-ff1e-42c7-9dcb-0c26ebc11f39",
+        "ig_handle": "hong_vocalist",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍주혜",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-10-24T11:00:00+00:00",
+    "date": "2026-10-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hong Ju-hye Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hong Ju-hye Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "홍주혜 밴드",
       "description": null
     }
   },
