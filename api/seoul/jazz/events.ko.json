@@ -67,8 +67,30 @@
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-10-23T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd1X7ghgVuM/",
     "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "4a3cf8c5-1c0d-4693-87f4-e6ff6fa48373",
+      "cb607b45-8e67-4761-b869-02aacd896055"
+    ],
+    "musicians": [
+      {
+        "id": "4a3cf8c5-1c0d-4693-87f4-e6ff6fa48373",
+        "ig_handle": "yongsunhyun",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "현용선",
+        "instruments": []
+      },
+      {
+        "id": "cb607b45-8e67-4761-b869-02aacd896055",
+        "ig_handle": "jonghyun_pf",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박종현",
+        "instruments": [
+          "piano"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
     "venue_location_id": "main",
@@ -88,7 +110,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hyun Yong-sun Quartet",
+      "title": "Hyun Yong-seon Quartet",
       "description": null
     },
     "_search_ko": {
@@ -1817,7 +1839,7 @@
         "time": "14:00"
       }
     ],
-    "price": null,
+    "price": "15,000원",
     "llm_confidence": 1.0,
     "title": "김지수 트리오",
     "description": null,
@@ -2190,6 +2212,40 @@
     }
   },
   {
+    "id": "evt_20261024_f9e2d082-7c78-4f1e-b37e-d1cf86ca629d",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-24T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De3s6ixk5qG/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-24T09:00:00+00:00",
+    "date": "2026-10-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이 (Free Entry + Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "진영환 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jin Young-hwan Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "진영환 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261024_6bcf164b-41a3-4eb0-af2d-07096fdff49d",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-10-24T09:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdydRabpsbd/",
@@ -2291,8 +2347,21 @@
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-10-24T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd1X7ghgVuM/",
     "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "cba16d67-cd34-4d4c-889d-0ca0b33bdc2d"
+    ],
+    "musicians": [
+      {
+        "id": "cba16d67-cd34-4d4c-889d-0ca0b33bdc2d",
+        "ig_handle": "kwdrum",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "한경욱",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
     "venue_location_id": "main",
@@ -3378,6 +3447,80 @@
     }
   },
   {
+    "id": "evt_20261024_a4cd3010-9233-47b6-b9f4-dc9a280973b2",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-24T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De3s6ixk5qG/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "b11918e8-6ce8-444b-89f4-077ad68b025e",
+      "038b2ab9-8f01-45d3-8ca4-efecb7df03f7",
+      "d609a29c-5074-4815-b5d6-39a99f4ccc22",
+      "f806c026-c591-40cd-b5e2-c895b4aa7597"
+    ],
+    "musicians": [
+      {
+        "id": "b11918e8-6ce8-444b-89f4-077ad68b025e",
+        "ig_handle": "jinkimtp",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jin Kim 진킴",
+        "instruments": []
+      },
+      {
+        "id": "038b2ab9-8f01-45d3-8ca4-efecb7df03f7",
+        "ig_handle": "plex_park",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박준서",
+        "instruments": [
+          "saxophone"
+        ]
+      },
+      {
+        "id": "d609a29c-5074-4815-b5d6-39a99f4ccc22",
+        "ig_handle": "evanskim00",
+        "name_ko": "김민준",
+        "name_en": null,
+        "name_irl": "김민준",
+        "instruments": []
+      },
+      {
+        "id": "f806c026-c591-40cd-b5e2-c895b4aa7597",
+        "ig_handle": "east___summer",
+        "name_ko": "신동하",
+        "name_en": null,
+        "name_irl": "신동하",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-24T11:00:00+00:00",
+    "date": "2026-10-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이 (Free Entry + Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "진 김 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jin Kim Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "진 김 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261024_e76c5344-b432-4714-877a-8b67f1951e0a",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-24T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/De3JJCYPQJE/",
@@ -3759,17 +3902,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "HARIMATE",
+    "title": "이하림 하리메이트",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "HARIMATE",
+      "title": "Lee Ha-rim HARIMATE",
       "description": null
     },
     "_search_ko": {
-      "title": "HARIMATE",
+      "title": "이하림 하리메이트",
       "description": null
     }
   },
@@ -3900,6 +4043,40 @@
     },
     "_search_ko": {
       "title": "조우진과 재즈메신저스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261024_50ebe6f1-c8ef-45d5-921f-1bd9d9544768",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-24T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De3s6ixk5qG/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-10-24T13:00:00+00:00",
+    "date": "2026-10-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이 (Free Entry + Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "모시 & 랩",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mossie & Rap",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "모시 & 랩",
       "description": null
     }
   },
@@ -4110,7 +4287,7 @@
   {
     "id": "evt_20261025_e460a325-fd99-4b46-8028-a4fc0bd02fc8",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-10-25T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Dd1X7ghgVuM/",
+    "source_url": "https://www.instagram.com/p/DellLGgGahN/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -4127,17 +4304,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "윤수진 듀오",
+    "title": "박재홍 듀오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yoon Su-jin Duo",
+      "title": "Park Jae-hong Duo",
       "description": null
     },
     "_search_ko": {
-      "title": "윤수진 듀오",
+      "title": "박재홍 듀오",
       "description": null
     }
   },
@@ -4232,6 +4409,40 @@
     },
     "_search_ko": {
       "title": "이고은 x 문지현 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261025_c1ad0c67-5a5e-4271-8e51-eb8c398d7c92",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-10-25T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De3RflFTDE2/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-10-25T10:00:00+00:00",
+    "date": "2026-10-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "하리메이트 (보컬 안성미)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Harimate (Vocal An Seongmi)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "하리메이트 (보컬 안성미)",
       "description": null
     }
   },
@@ -4575,8 +4786,22 @@
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-10-25T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd1X7ghgVuM/",
     "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "d8ec1d9e-2576-490a-842c-84712c6b27b8"
+    ],
+    "musicians": [
+      {
+        "id": "d8ec1d9e-2576-490a-842c-84712c6b27b8",
+        "ig_handle": "jhyundrums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김종현",
+        "instruments": [
+          "drums",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
     "venue_location_id": "main",
@@ -4590,7 +4815,7 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "더 비녜츠",
+    "title": "더 비네츠",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -4600,7 +4825,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "더 비녜츠",
+      "title": "더 비네츠",
       "description": null
     }
   },
@@ -5340,6 +5565,40 @@
     }
   },
   {
+    "id": "evt_20261028_31303508-cfbb-4842-8a3f-0b6bcb04f427",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-28T11:00:00+00:00",
+    "date": "2026-10-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김이슬 트리오 + 선제이 자야람",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim E-seul Trio + Sunjay Jayaram",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김이슬 트리오 + 선제이 자야람",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261028_c58e9a8f-53d0-4303-a00d-35c5da876904",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-28T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -5814,6 +6073,40 @@
     },
     "_search_ko": {
       "title": "한상원 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261029_8e358891-18ea-40ee-b724-b388f5b79730",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-29T11:00:00+00:00",
+    "date": "2026-10-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "비드 얌닉 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Vid Jamnik Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "비드 얌닉 퀄텟",
       "description": null
     }
   },
@@ -6427,7 +6720,7 @@
   {
     "id": "evt_20261030_1f310a96-31fe-4c8b-b31d-7813156f2274",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-30T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DeJCXd5xZbR/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -6718,7 +7011,7 @@
   {
     "id": "evt_20261030_8e86da85-503a-4f38-8a87-ae51fda13150",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-30T12:50:00+00:00",
-    "source_url": "https://www.instagram.com/p/DeJCXd5xZbR/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -6775,6 +7068,35 @@
     },
     "_search_ko": {
       "title": "소영 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261030_c3cbafca-5eee-4a88-8691-60a0f98a07de",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-10-30T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/De3G_2dk-3_/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-10-30T15:00:00+00:00",
+    "date": "2026-10-31",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang Won Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 밴드",
       "description": null
     }
   },
@@ -7603,6 +7925,40 @@
     }
   },
   {
+    "id": "evt_20261031_a8027aee-e406-46fa-b76f-e0914779ae0c",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-10-31T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-10-31T11:00:00+00:00",
+    "date": "2026-10-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "오영준 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Oh Young-joon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "오영준 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261031_e8ba454a-e060-40c5-b50e-aa97f882fedd",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-31T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -8051,7 +8407,7 @@
   {
     "id": "evt_20261101_7d18411f-3b4d-4f30-8aa0-7e3ac0e98c1b",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-01T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "c493798c-2945-418a-bddf-7299a445c2e8"
@@ -8396,7 +8752,7 @@
   {
     "id": "evt_20261104_273a6a8d-6e3d-472d-8a5d-a2a983168585",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-04T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -8642,7 +8998,7 @@
   {
     "id": "evt_20261105_1f59d369-2a0c-4ecc-aed9-039b10895d6f",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-05T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "5c591c76-c4c8-4b29-8982-312dc1366b03"
@@ -8962,7 +9318,7 @@
   {
     "id": "evt_20261106_9d88569d-61ab-4106-917e-44db4b8a0f66",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-06T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Det1ILFmY9b/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -9348,7 +9704,7 @@
   {
     "id": "evt_20261107_3e9c99af-8116-49c3-8521-cc429980656a",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-07T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -9729,7 +10085,7 @@
   {
     "id": "evt_20261108_962178ee-45ef-4edc-b2f9-b5d5cdf543af",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-08T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DezYt5ZsO6X/",
+    "source_url": "https://www.instagram.com/p/DezYsGDBcnh/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
     "musicians": [],
@@ -9835,7 +10191,7 @@
   {
     "id": "evt_20261108_b1c40586-6daf-467b-9879-9e6dbf942a87",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-08T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "9474ab3a-e07a-45d8-be2f-d1a9418f78e0",
@@ -10065,7 +10421,7 @@
   {
     "id": "evt_20261110_4e7d8a08-f6c0-4ff3-8cb8-3d0dfc421eba",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-10T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -10137,7 +10493,7 @@
   {
     "id": "evt_20261111_b598e5ad-ab30-4f6c-b44b-facf60693da8",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-11T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -10383,7 +10739,7 @@
   {
     "id": "evt_20261112_54e9c7b4-b6f9-447a-ac7b-06bfd4671097",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-12T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "92dfd4be-ad33-4646-8748-5ee3cbdadb66"
@@ -11066,7 +11422,7 @@
   {
     "id": "evt_20261114_1b655756-09a9-47bb-8fd8-1151e5b7b03d",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "57099f7d-30aa-4904-abb5-bba44682695d",
@@ -11468,7 +11824,7 @@
   {
     "id": "evt_20261115_04b67467-8aa1-41ee-bfef-d6e5368061d8",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -11485,6 +11841,10 @@
       {
         "label": "2부",
         "time": "21:20"
+      },
+      {
+        "label": null,
+        "time": "20:00"
       }
     ],
     "price": null,
@@ -11756,7 +12116,7 @@
   {
     "id": "evt_20261118_53815fa1-032f-44dd-bd78-fb562a7f40c1",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -12031,7 +12391,7 @@
   {
     "id": "evt_20261119_21027299-8818-4df6-96bc-d18de5e05df0",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -12345,7 +12705,7 @@
   {
     "id": "evt_20261120_6caad819-f39f-48be-a865-112383201548",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -12756,7 +13116,7 @@
   {
     "id": "evt_20261121_c5d9b15e-77db-4d11-be22-ab3082d4adb5",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Det1ILFmY9b/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -13074,7 +13434,7 @@
   {
     "id": "evt_20261122_4afde8b9-812a-4def-a3d9-2cba742d9fe1",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "b4ff14eb-0539-4f9b-b8bf-89b6561b3d70"
@@ -13337,11 +13697,10 @@
   {
     "id": "evt_20261125_226a4ceb-a4ef-4112-a791-14f32b12c012",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-25T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
-      "9ea5a6f0-816c-43b1-84cb-3cca3aa05cc0",
-      "c99c5a3a-c6e2-44ad-9129-7f524a90509b"
+      "9ea5a6f0-816c-43b1-84cb-3cca3aa05cc0"
     ],
     "musicians": [
       {
@@ -13354,14 +13713,6 @@
           "bass",
           "composer"
         ]
-      },
-      {
-        "id": "c99c5a3a-c6e2-44ad-9129-7f524a90509b",
-        "ig_handle": "mountain__guy",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "심규민",
-        "instruments": []
       }
     ],
     "musician_ig_handles": [],
@@ -13572,7 +13923,7 @@
   {
     "id": "evt_20261126_555089ca-ddb0-497b-a7a8-73f941b04fe8",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-26T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "efcfeea7-cc50-4954-a856-a34ac9bb5a1b",
@@ -14280,7 +14631,7 @@
   {
     "id": "evt_20261128_52fa00ee-d4fe-4f9d-9902-5a7ac7b4397d",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
     "musicians": [],
@@ -14560,7 +14911,7 @@
   {
     "id": "evt_20261129_dc6176f5-f291-4462-965e-eef18afa06d1",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-29T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
+    "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "09c777f8-7a1d-477d-828d-7ddbc39ee525"
