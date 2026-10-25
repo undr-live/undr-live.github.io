@@ -11745,6 +11745,40 @@
     }
   },
   {
+    "id": "evt_20261122_a8c0a756-10d0-4768-918b-24c40c011ffd",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-22T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeyiNZPhPJt/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-11-22T09:00:00+00:00",
+    "date": "2026-11-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Heo Yujin Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Heo Yujin Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "허유진 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261122_d4934b18-e6c9-4c7e-85a8-485e2482cf98",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-11-22T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DetMrPwoPO2/",
@@ -12942,6 +12976,40 @@
     }
   },
   {
+    "id": "evt_20261128_537ddbfe-3293-4efe-8d3f-df30fbe928c3",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-28T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeyiNZPhPJt/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-11-28T09:00:00+00:00",
+    "date": "2026-11-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Seonjeong Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Seonjeong Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "선정 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261128_aab10507-952b-4662-a3dd-a6aabec78903",
     "event_key": "v:ven_09991403-4f4f-42a7-a165-602d7e0cefdb|t:2026-11-28T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De3gwOeTH4x/",
@@ -13252,6 +13320,51 @@
     },
     "_search_ko": {
       "title": "DJ Set",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261129_1d3149a5-8f09-458f-b7b8-b8dbb0e94f55",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-29T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DeyiNZPhPJt/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [
+      "85a4c912-a121-44aa-b1a5-a9b11dadc1bd"
+    ],
+    "musicians": [
+      {
+        "id": "85a4c912-a121-44aa-b1a5-a9b11dadc1bd",
+        "ig_handle": "everlastzrio",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김지윤",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-11-29T09:00:00+00:00",
+    "date": "2026-11-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Jin Euijin Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jin Euijin Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "진의진 퀄텟",
       "description": null
     }
   },
