@@ -5535,6 +5535,100 @@
     "_profile_hash": "631f236b646edef13a4544e1b559c5997448be35430d6cd528991aee1efea0e6"
   },
   {
+    "ig_handle": "mudaeruk_b",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": null,
+    "typical_show_times": null,
+    "genres": [
+      "Indie Music",
+      "Live Music Venue",
+      "Cafe",
+      "Bar"
+    ],
+    "websites": null,
+    "links": {
+      "instagram": "https://www.instagram.com/mudaeruk_b",
+      "homepage": "http://linktr.ee/mudaeruk_b",
+      "booking": null,
+      "google_map": null
+    },
+    "contacts": {
+      "phone": "02-324-9478",
+      "email": "mudaeruk.live@gmail.com"
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "무대륙B MUB",
+        "address_text": "12 Tojeong-ro 5-gil, Mapo-gu, Seoul, South Korea",
+        "address_components": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "ko": "무대륙B MUB",
+            "en": "Mudaeruk B MUB"
+          },
+          "address_text": {
+            "ko": "서울 마포구 토정로5길 12",
+            "en": "12 Tojeong-ro 5-gil, Mapo-gu, Seoul, South Korea"
+          },
+          "notes": null
+        },
+        "location_lat": 37.5460474891746,
+        "location_lon": 126.918361906445
+      }
+    ],
+    "last_analyzed_at": "2026-10-25T18:56:46.484379+09:00",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "instagram.com/mudaeruk_b",
+      "maps:https://maps.google.com/maps?cid=17572806864383429804",
+      "gemini:enrich"
+    ],
+    "model_name": "gemini-2.5-flash",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.4",
+    "i18n": {
+      "name": {
+        "ko": "무대륙B MUB",
+        "en": "Mudaeruk B MUB"
+      },
+      "address_text": null,
+      "notes": {
+        "ko": "대관 정보는 인스타그램 하이라이트 'MUB 안내'를 참조하세요.",
+        "en": "For venue hire information, refer to Instagram highlights 'MUB 안내'."
+      },
+      "genres": {
+        "ko": [
+          "인디 음악",
+          "라이브 공연장",
+          "카페",
+          "바"
+        ],
+        "en": [
+          "Indie Music",
+          "Live Music Venue",
+          "Cafe",
+          "Bar"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "_profile_hash": "a7d6aea96435b9cff339826ce91aaaae8ee75a9360d68d8f78b1a1474af5ea4f"
+  },
+  {
     "ig_handle": "muga.misa",
     "address_components": null,
     "location_lat": null,

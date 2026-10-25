@@ -4,11 +4,11 @@ This static site was built from the reviewed private repository and published by
 
 ## Build Information
 
-- **Build Time**: 2026-10-25T07:30:56Z
+- **Build Time**: 2026-10-25T10:29:42Z
 - **Source Commit**: `2d5ccf2774c5a4dcc1625a49d0eebbabeb335461`
-- **Deployment ID**: `2d5ccf2-20261025T073056Z`
+- **Deployment ID**: `2d5ccf2-20261025T102942Z`
 - **Events**: 12756
-- **Venues**: 105
+- **Venues**: 106
 
 ## Deployment
 
