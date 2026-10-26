@@ -3141,6 +3141,89 @@
     }
   },
   {
+    "id": "evt_20261030_ed4687f7-91fb-4dbb-b9d0-7384087071a8",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-10-30T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/De8MDr9Pevp/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [
+      "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+      "644f7610-9b91-4148-83c6-7e7fe9633bf1",
+      "08532ec3-f85f-4986-9c61-c9e1eb228f4e",
+      "a8d3fb56-4dc6-4c10-9c17-ebd11a72ec5d"
+    ],
+    "musicians": [
+      {
+        "id": "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+        "ig_handle": "hey.hailluv",
+        "name_ko": "해일럽",
+        "name_en": null,
+        "name_irl": "해일럽",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "644f7610-9b91-4148-83c6-7e7fe9633bf1",
+        "ig_handle": "pianoyeom",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Shinhye Yeom",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "08532ec3-f85f-4986-9c61-c9e1eb228f4e",
+        "ig_handle": "jungmin_le",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jung Min Lee",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "a8d3fb56-4dc6-4c10-9c17-ebd11a72ec5d",
+        "ig_handle": "myungjin_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Myung Jin Choo",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-10-30T11:30:00+00:00",
+    "date": "2026-10-30",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Hailluv Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hailluv Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해일럽 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261030_8d7f5c92-7b9f-4dc4-844e-062f58ad4bc2",
     "event_key": "vh:the_old_man_jazz_lounge|t:2026-10-30T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdpxyjGpRLF/",
