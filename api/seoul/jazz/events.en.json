@@ -1010,7 +1010,7 @@
   {
     "id": "evt_20261026_7d1b1e6f-8fdb-4fb7-b6a3-2622e277d276",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-10-26T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
+    "source_url": "https://www.instagram.com/p/De6sK-nymaY/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musicians": [],
@@ -1027,17 +1027,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Plus Hitch",
+    "title": "Oscarology",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Plus Hitch",
+      "title": "Oscarology",
       "description": null
     },
     "_search_ko": {
-      "title": "플러스히치",
+      "title": "오스카롤로지",
       "description": null
     }
   },
@@ -1078,10 +1078,33 @@
   {
     "id": "evt_20261026_cc05ffbd-75df-435a-9557-83be9e628a4f",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-26T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
+    "source_url": "https://www.instagram.com/p/De6S9yyGI2D/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "b035d37c-23b0-46b2-a328-ec63b619da77",
+      "de4fd60e-5d80-4356-9d91-d64d636e5c48"
+    ],
+    "musicians": [
+      {
+        "id": "b035d37c-23b0-46b2-a328-ec63b619da77",
+        "ig_handle": "yoohara",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Hara Yoo",
+        "instruments": [
+          "vocals",
+          "percussion"
+        ]
+      },
+      {
+        "id": "de4fd60e-5d80-4356-9d91-d64d636e5c48",
+        "ig_handle": "kim_in_young_bass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Inyoung Kim",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -1391,8 +1414,39 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-27T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+      "c4256b72-e148-49c2-b27c-339e341f64e6",
+      "67ab5294-8ccf-492e-b073-774e5a7e7bae"
+    ],
+    "musicians": [
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      },
+      {
+        "id": "c4256b72-e148-49c2-b27c-339e341f64e6",
+        "ig_handle": "kim_daahoud",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "(알 수 없음)",
+        "instruments": []
+      },
+      {
+        "id": "67ab5294-8ccf-492e-b073-774e5a7e7bae",
+        "ig_handle": "manuelweyand",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Manuel Weyand 마누엘",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -1655,10 +1709,43 @@
   {
     "id": "evt_20261028_7c6872b4-b34c-4ca7-8e0f-e5db7a218ed1",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
+    "source_url": "https://www.instagram.com/p/De6S9yyGI2D/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "f8368cac-e5a0-4163-9302-f45c454af59c",
+      "92dfd4be-ad33-4646-8748-5ee3cbdadb66",
+      "465fa984-ffec-44d6-b93a-3e870a5c53ce"
+    ],
+    "musicians": [
+      {
+        "id": "f8368cac-e5a0-4163-9302-f45c454af59c",
+        "ig_handle": "beyourpointofview",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "백효은🎙️HyonBaek",
+        "instruments": []
+      },
+      {
+        "id": "92dfd4be-ad33-4646-8748-5ee3cbdadb66",
+        "ig_handle": "sean_pentland",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Sean Pentland",
+        "instruments": [
+          "composer"
+        ]
+      },
+      {
+        "id": "465fa984-ffec-44d6-b93a-3e870a5c53ce",
+        "ig_handle": "sohee_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Sohee kim 김소희",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -2192,7 +2279,8 @@
     "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [
-      "566e6abf-70d2-4da5-bd4a-650c530a9d7d"
+      "566e6abf-70d2-4da5-bd4a-650c530a9d7d",
+      "dc5324ab-5a4a-4f77-91b5-cab279f34069"
     ],
     "musicians": [
       {
@@ -2204,6 +2292,14 @@
         "instruments": [
           "piano"
         ]
+      },
+      {
+        "id": "dc5324ab-5a4a-4f77-91b5-cab279f34069",
+        "ig_handle": "rob.jazzdrum",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Saerob Moon",
+        "instruments": []
       }
     ],
     "musician_ig_handles": [],
@@ -2219,17 +2315,17 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Lee Mi-young Trio (Swing Day)",
+    "title": "Lee Mi-young Super Trio (Swing Day)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Mi-young Trio (Swing Day)",
+      "title": "Lee Mi-young Super Trio (Swing Day)",
       "description": null
     },
     "_search_ko": {
-      "title": "이미영 트리오 (Swing Day)",
+      "title": "이미영 슈퍼 트리오 (Swing Day)",
       "description": null
     }
   },
@@ -2501,13 +2597,13 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Yoo Sa-rang Quintet",
+    "title": "Yoo Sarang Quintet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yoo Sa-rang Quintet",
+      "title": "Yoo Sarang Quintet",
       "description": null
     },
     "_search_ko": {
@@ -3202,10 +3298,21 @@
   {
     "id": "evt_20261030_177665a6-ca3f-4dc8-80ce-fc86cd114771",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-30T12:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
+    "source_url": "https://www.instagram.com/p/De6S9yyGI2D/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "d72793a4-4c89-4242-a411-61ade815889c"
+    ],
+    "musicians": [
+      {
+        "id": "d72793a4-4c89-4242-a411-61ade815889c",
+        "ig_handle": "yurimsongjazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "YURIM SONG",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -3219,17 +3326,17 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Song Yoo-jin Duo",
+    "title": "Song Yu-rim Duo",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Song Yoo-jin Duo",
+      "title": "Song Yu-rim Duo",
       "description": null
     },
     "_search_ko": {
-      "title": "송유진 듀오",
+      "title": "송유림 듀오",
       "description": null
     }
   },
@@ -3393,8 +3500,40 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-31T07:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "c3ef8bee-be7f-442f-b9c9-764c319ae350",
+      "8be35de8-3afe-4a3c-b998-fb7acfda13af",
+      "8a2d7cdb-261f-4227-8673-38049fa1d47f"
+    ],
+    "musicians": [
+      {
+        "id": "c3ef8bee-be7f-442f-b9c9-764c319ae350",
+        "ig_handle": "js__piano",
+        "name_ko": "박진성",
+        "name_en": "JS.Piano",
+        "name_irl": "JS.Piano 박진성",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "8be35de8-3afe-4a3c-b998-fb7acfda13af",
+        "ig_handle": "iamcorea",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "전한국",
+        "instruments": []
+      },
+      {
+        "id": "8a2d7cdb-261f-4227-8673-38049fa1d47f",
+        "ig_handle": "drummer_seokhyun_lee",
+        "name_ko": "이석현",
+        "name_en": null,
+        "name_irl": "이석현",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -3551,10 +3690,39 @@
   {
     "id": "evt_20261031_83f35c15-4caf-4285-ba1b-f1946bb5b021",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-31T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdyGgm4mDK2/",
+    "source_url": "https://www.instagram.com/p/De6S9yyGI2D/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "1ebdeff2-97c2-4f27-bf7b-fe9c2381df8c",
+      "49ba16cf-fa81-4c1f-b7dc-1ac4fd9539d8",
+      "45211611-0b73-418e-b1dc-ca3ef0f9f48f"
+    ],
+    "musicians": [
+      {
+        "id": "1ebdeff2-97c2-4f27-bf7b-fe9c2381df8c",
+        "ig_handle": "yoyihuri",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조광현",
+        "instruments": []
+      },
+      {
+        "id": "49ba16cf-fa81-4c1f-b7dc-1ac4fd9539d8",
+        "ig_handle": "do.yong.kim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Do yong kim",
+        "instruments": []
+      },
+      {
+        "id": "45211611-0b73-418e-b1dc-ca3ef0f9f48f",
+        "ig_handle": "doobidoodot",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "DeeDee(디디) .김현미",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -3568,17 +3736,17 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Shin Sung-chul",
+    "title": "Shin Kyung-sook Smooth Jazz Band",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Shin Sung-chul",
+      "title": "Shin Kyung-sook Smooth Jazz Band",
       "description": null
     },
     "_search_ko": {
-      "title": "신성철",
+      "title": "신경숙 스무스 재즈 밴드",
       "description": null
     }
   },
@@ -4246,6 +4414,44 @@
     }
   },
   {
+    "id": "evt_20261031_17588866-679c-4b26-a280-6306b8fd68dc",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-10-31T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De61RZPzjBA/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-10-31T11:00:00+00:00",
+    "date": "2026-10-31",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Olha Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Olha Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "올랴 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261031_e8ba454a-e060-40c5-b50e-aa97f882fedd",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-31T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -4494,10 +4700,34 @@
   {
     "id": "evt_20261031_21c71dbf-8173-4433-b873-40e28bd4ab5e",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-10-31T12:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DeV8VgjGPm5/",
+    "source_url": "https://www.instagram.com/p/De6S9yyGI2D/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+      "c8764ccd-6baa-4386-af8d-f276c2d66102"
+    ],
+    "musicians": [
+      {
+        "id": "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+        "ig_handle": "hey.hailluv",
+        "name_ko": "해일럽",
+        "name_en": null,
+        "name_irl": "해일럽",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "c8764ccd-6baa-4386-af8d-f276c2d66102",
+        "ig_handle": "bongtrabass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "봉트라베이스",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -4511,17 +4741,17 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Hae Il-sung Trio",
+    "title": "Hailluv Trio",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hae Il-sung Trio",
+      "title": "Hailluv Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "해일성 트리오",
+      "title": "해일럽 트리오",
       "description": null
     }
   },
