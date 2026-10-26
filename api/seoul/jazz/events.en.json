@@ -782,7 +782,7 @@
   {
     "id": "evt_20261025_041a316f-6a38-4608-9307-d880c3770dd7",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-10-25T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/reel/De4DPH-hq20/",
+    "source_url": "https://www.instagram.com/p/De6GsJdBBlW/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -795,6 +795,14 @@
       {
         "label": null,
         "time": "20:00"
+      },
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
@@ -809,7 +817,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "매브 & 트레이시",
+      "title": "메이브 & 트레이시",
       "description": null
     }
   },
@@ -952,6 +960,54 @@
     }
   },
   {
+    "id": "evt_20261026_c6666758-64dc-4307-be8e-6c261510d987",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-26T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De7MGwzE6bR/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "8bb08404-ea1d-42c4-823c-5a1595fbe4d2"
+    ],
+    "musicians": [
+      {
+        "id": "8bb08404-ea1d-42c4-823c-5a1595fbe4d2",
+        "ig_handle": "wallyplaysgroove",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": null,
+        "instruments": [
+          "guitar",
+          "violin"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-10-26T10:00:00+00:00",
+    "date": "2026-10-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "Free entry / Pay after show",
+    "llm_confidence": 1.0,
+    "title": "Jang Seonha Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jang Seonha Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "장선하 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261026_7d1b1e6f-8fdb-4fb7-b6a3-2622e277d276",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-10-26T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
@@ -1084,6 +1140,53 @@
     },
     "_search_ko": {
       "title": "재즈파크빅밴드 (보컬 말로)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261026_ab028806-5eed-4da8-919d-c4e0d362957e",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-26T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De7MGwzE6bR/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "1c5b56a2-92ae-43fe-9fb6-e35405345f9b"
+    ],
+    "musicians": [
+      {
+        "id": "1c5b56a2-92ae-43fe-9fb6-e35405345f9b",
+        "ig_handle": "__hwkim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김현우",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-10-26T12:00:00+00:00",
+    "date": "2026-10-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "Free entry / Pay after show",
+    "llm_confidence": 1.0,
+    "title": "Jin Haeseong Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jin Haeseong Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "진해성 퀄텟",
       "description": null
     }
   },
@@ -2671,17 +2774,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "New Messengers",
+    "title": "The New Messengers",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "New Messengers",
+      "title": "The New Messengers",
       "description": null
     },
     "_search_ko": {
-      "title": "뉴 메신저스",
+      "title": "더 뉴 메신져스",
       "description": null
     }
   },
@@ -3635,8 +3738,12 @@
     "date": "2026-10-31",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
       }
     ],
     "price": null,
