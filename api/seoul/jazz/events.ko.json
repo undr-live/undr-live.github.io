@@ -4064,7 +4064,7 @@
   {
     "id": "evt_20261031_00505d66-7301-4e2b-b912-bf91d21a35c8",
     "event_key": "v:ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0|t:2026-10-31T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DerBIZxHwXh/",
+    "source_url": "https://www.instagram.com/p/De_lYr_H1Fz/",
     "venue_handle": "yoori.kim_mullaejazzin",
     "musician_ids": [],
     "musicians": [],
@@ -7819,6 +7819,54 @@
     },
     "_search_ko": {
       "title": "조용찬 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261107_c065d4af-dcce-41d0-b687-95da670b63e5",
+    "event_key": "v:ven_54350aec-422d-4d27-bb3a-ff92c08a74d1|t:2026-11-07T07:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/De_ucldFEV_/",
+    "venue_handle": "mudaeruk_b",
+    "musician_ids": [
+      "31584cf3-a313-4a4f-9175-cf531bfca850"
+    ],
+    "musicians": [
+      {
+        "id": "31584cf3-a313-4a4f-9175-cf531bfca850",
+        "ig_handle": "jinsu_kim_",
+        "name_ko": "김진수",
+        "name_en": "Jinsu Kim",
+        "name_irl": "김진수",
+        "instruments": [
+          "piano",
+          "trumpet"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_54350aec-422d-4d27-bb3a-ff92c08a74d1",
+    "venue_location_id": "main",
+    "datetime": "2026-11-07T07:30:00+00:00",
+    "date": "2026-11-07",
+    "sets": [
+      {
+        "label": null,
+        "time": "16:30"
+      }
+    ],
+    "price": "30,000원",
+    "llm_confidence": 1.0,
+    "title": "비욘드 스트링스 2026",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Beyond Strings 2026",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "비욘드 스트링스 2026",
       "description": null
     }
   },
