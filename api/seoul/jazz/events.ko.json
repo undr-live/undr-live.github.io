@@ -698,7 +698,10 @@
     "source_url": "https://www.instagram.com/p/Dd_jKg9BL1H/",
     "venue_handle": "bourbon_street_kr",
     "musician_ids": [
-      "62b39f74-44a5-40ce-acb3-cf2b21c7fa81"
+      "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+      "3958b9d7-7e97-4a73-923a-4dbba7bdab09",
+      "4f67f83c-b263-4bdd-867f-12a88954e400",
+      "8115267a-05b0-4f10-bcf1-50949d555fa4"
     ],
     "musicians": [
       {
@@ -710,6 +713,32 @@
         "instruments": [
           "piano",
           "composer"
+        ]
+      },
+      {
+        "id": "3958b9d7-7e97-4a73-923a-4dbba7bdab09",
+        "ig_handle": "min.hacho",
+        "name_ko": "조민하",
+        "name_en": null,
+        "name_irl": "조민하",
+        "instruments": []
+      },
+      {
+        "id": "4f67f83c-b263-4bdd-867f-12a88954e400",
+        "ig_handle": "drum_seokwoo",
+        "name_ko": "채석우",
+        "name_en": null,
+        "name_irl": "채석우",
+        "instruments": []
+      },
+      {
+        "id": "8115267a-05b0-4f10-bcf1-50949d555fa4",
+        "ig_handle": "dawnye__",
+        "name_ko": "단예",
+        "name_en": null,
+        "name_irl": "단예",
+        "instruments": [
+          "vocals"
         ]
       }
     ],
@@ -732,7 +761,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Dae-youn Quartet",
+      "title": "Kim Daeyoun Quartet",
       "description": null
     },
     "_search_ko": {
@@ -1253,8 +1282,21 @@
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-28T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
     "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "b5523d42-4cd1-4ad5-9b18-e47ef658d5f4"
+    ],
+    "musicians": [
+      {
+        "id": "b5523d42-4cd1-4ad5-9b18-e47ef658d5f4",
+        "ig_handle": "vocal_lima_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "리마",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
@@ -1274,7 +1316,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Rima Duo",
+      "title": "Lima Duo",
       "description": null
     },
     "_search_ko": {
@@ -1565,7 +1607,8 @@
     "source_url": "https://www.instagram.com/p/Dd_jKg9BL1H/",
     "venue_handle": "bourbon_street_kr",
     "musician_ids": [
-      "58197d65-a3c2-4a70-a567-81d86f065f7c"
+      "58197d65-a3c2-4a70-a567-81d86f065f7c",
+      "659e0e0c-079f-4e0e-9787-9b4d83644143"
     ],
     "musicians": [
       {
@@ -1574,6 +1617,14 @@
         "name_ko": "강재훈",
         "name_en": "Jaehun Kang",
         "name_irl": "Jaehun Kang",
+        "instruments": []
+      },
+      {
+        "id": "659e0e0c-079f-4e0e-9787-9b4d83644143",
+        "ig_handle": "casstech_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jinkyo Park",
         "instruments": []
       }
     ],
@@ -1596,7 +1647,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kang Jae-hoon Trio",
+      "title": "Kang Jaehoon Trio",
       "description": null
     },
     "_search_ko": {
@@ -2075,6 +2126,75 @@
     },
     "_search_ko": {
       "title": "김지민 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261029_adcf0232-02b1-40eb-aeda-32c94dcddcf7",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-10-29T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/De8L3KtPD7n/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [
+      "8ebb2ec0-2f07-4c3a-b98a-eb02d3419053",
+      "39acdaf0-d704-4972-9af0-20fdc7adbbab",
+      "1ebdeff2-97c2-4f27-bf7b-fe9c2381df8c"
+    ],
+    "musicians": [
+      {
+        "id": "8ebb2ec0-2f07-4c3a-b98a-eb02d3419053",
+        "ig_handle": "brownsoundstudio",
+        "name_ko": "브라운합주실",
+        "name_en": null,
+        "name_irl": "브라운합주실",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "39acdaf0-d704-4972-9af0-20fdc7adbbab",
+        "ig_handle": "minhotucci",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "minho choi",
+        "instruments": []
+      },
+      {
+        "id": "1ebdeff2-97c2-4f27-bf7b-fe9c2381df8c",
+        "ig_handle": "yoyihuri",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조광현",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-10-29T11:30:00+00:00",
+    "date": "2026-10-29",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "김재형 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Jae-hyung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김재형 트리오",
       "description": null
     }
   },
@@ -2656,17 +2776,17 @@
     ],
     "price": "₩15,000",
     "llm_confidence": 1.0,
-    "title": "김덕화",
+    "title": "피아니스트 김덕화",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Deok-hwa",
+      "title": "Pianist Kim Deokhwa",
       "description": null
     },
     "_search_ko": {
-      "title": "김덕화",
+      "title": "피아니스트 김덕화",
       "description": null
     }
   },
@@ -7004,6 +7124,40 @@
     },
     "_search_ko": {
       "title": "김한 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261104_b29fefeb-7a06-48ec-a809-354a99b9bf4c",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-04T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfBZU4vkvbs/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-04T11:30:00+00:00",
+    "date": "2026-11-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "구교진 재즈 커뮤니티",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Gugyojin Jazz Community",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "구교진 재즈 커뮤니티",
       "description": null
     }
   },
