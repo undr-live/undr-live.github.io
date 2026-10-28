@@ -1928,6 +1928,44 @@
     }
   },
   {
+    "id": "evt_20261029_dafaa2bb-c28d-45a0-bc73-c18d3aba4eea",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-10-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfBk1sXh07g/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-10-29T11:00:00+00:00",
+    "date": "2026-10-29",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kyung-deon Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kyung-deon Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "경던 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261029_910c59b3-e9c3-4840-bb8e-12a33b30c74b",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-29T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -2914,6 +2952,63 @@
     },
     "_search_ko": {
       "title": "피크닉 재즈 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261030_af13f6d6-731c-4858-9827-1de537ca1af3",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-10-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/De8weUqvXI4/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [
+      "f9eed726-4a10-4dec-bc34-ebcac3bb75a2",
+      "6f1169de-32da-43f4-b3fe-2435c3bc4e31"
+    ],
+    "musicians": [
+      {
+        "id": "f9eed726-4a10-4dec-bc34-ebcac3bb75a2",
+        "ig_handle": "sax_mikyung",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강미경",
+        "instruments": [
+          "saxophone",
+          "composer"
+        ]
+      },
+      {
+        "id": "6f1169de-32da-43f4-b3fe-2435c3bc4e31",
+        "ig_handle": "gguneee",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김건",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-10-30T11:00:00+00:00",
+    "date": "2026-10-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "11,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Gun Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Gun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김 건 퀄텟",
       "description": null
     }
   },
@@ -4175,17 +4270,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "The Wayfinders",
+    "title": "The Wayfinder Project (by MUXANT)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "The Wayfinders",
+      "title": "The Wayfinder Project (by MUXANT)",
       "description": null
     },
     "_search_ko": {
-      "title": "더 웨이파인더스",
+      "title": "더 웨이파인더 프로젝트 (by 묵상트)",
       "description": null
     }
   },
