@@ -2394,13 +2394,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Hwang Jung-won Band",
+    "title": "Hwang Jeong-won Band",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hwang Jung-won Band",
+      "title": "Hwang Jeong-won Band",
       "description": null
     },
     "_search_ko": {
@@ -2810,6 +2810,35 @@
     },
     "_search_ko": {
       "title": "송준서 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261030_b4f42212-ed50-4a3a-84e5-330c858b9518",
+    "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-10-30T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfHYQtxN0Ui/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde",
+    "venue_location_id": "main",
+    "datetime": "2026-10-30T15:00:00+00:00",
+    "date": "2026-10-31",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Seong-ho Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Seong-ho Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이성호 밴드",
       "description": null
     }
   },
