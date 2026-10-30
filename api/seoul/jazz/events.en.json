@@ -1898,6 +1898,67 @@
     }
   },
   {
+    "id": "evt_20261030_64ede60d-bc8b-41c9-a1b8-2a7fce9d5960",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-10-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfEmwzPhNj3/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [
+      "99b23487-bc36-41da-aa51-1b2943fda179",
+      "238961c9-68d0-4382-ba89-11990c2705ca"
+    ],
+    "musicians": [
+      {
+        "id": "99b23487-bc36-41da-aa51-1b2943fda179",
+        "ig_handle": "hyunbae_noh",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "노현배",
+        "instruments": []
+      },
+      {
+        "id": "238961c9-68d0-4382-ba89-11990c2705ca",
+        "ig_handle": "krazy_dragon",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김광용",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-10-30T11:00:00+00:00",
+    "date": "2026-10-30",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Gwang-yong Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Gwang-yong Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김광용 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261030_6cafa730-aa99-4d1c-800a-4ef21f6e82f7",
     "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-10-30T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Dcn0ojnp6w5/",
