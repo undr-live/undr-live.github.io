@@ -164,6 +164,88 @@
     }
   },
   {
+    "id": "evt_20261030_10ea1bc8-c54d-48e4-8286-b1bb96def60e",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-10-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdwYlY6EyQb/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [
+      "c20d8646-9467-4d54-ba0f-44df6e241e02",
+      "36cda962-0268-4b25-922a-9a2746e7e703",
+      "eda620f6-ea98-4abe-8878-178b632c7358",
+      "e2457b1a-423f-4cf9-8ed9-6dd592864a9b"
+    ],
+    "musicians": [
+      {
+        "id": "c20d8646-9467-4d54-ba0f-44df6e241e02",
+        "ig_handle": "drummer_dandylee",
+        "name_ko": "이광혁",
+        "name_en": null,
+        "name_irl": "이광혁",
+        "instruments": [
+          "drums"
+        ]
+      },
+      {
+        "id": "36cda962-0268-4b25-922a-9a2746e7e703",
+        "ig_handle": "zaipal83",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "심영주",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "eda620f6-ea98-4abe-8878-178b632c7358",
+        "ig_handle": "darubee_pianist",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "임단비",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "e2457b1a-423f-4cf9-8ed9-6dd592864a9b",
+        "ig_handle": "yeonsax",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이연재",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-10-30T10:00:00+00:00",
+    "date": "2026-10-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      },
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "₩15K",
+    "llm_confidence": 1.0,
+    "title": "이광혁과 재즈 짬뽕",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Gwang-hyeok and Jazz Jjamppong",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이광혁과 재즈 짬뽕",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261030_e7614750-2833-43a9-bc39-872b31892181",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-10-30T10:10:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd6C2h8H92O/",
@@ -640,40 +722,6 @@
     },
     "_search_ko": {
       "title": "김대규 트리오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261030_10ea1bc8-c54d-48e4-8286-b1bb96def60e",
-    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-10-30T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdwYlY6EyQb/",
-    "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
-    "venue_location_id": "main",
-    "datetime": "2026-10-30T11:00:00+00:00",
-    "date": "2026-10-30",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": "₩15K",
-    "llm_confidence": 1.0,
-    "title": "이광혁과 재즈짬뽕",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Lee Gwang-hyeok and Jazz Jjamppong",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "이광혁과 재즈짬뽕",
       "description": null
     }
   },
