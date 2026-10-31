@@ -1178,17 +1178,17 @@
     ],
     "price": "10000원",
     "llm_confidence": 1.0,
-    "title": "Wonsseom Band",
+    "title": "Winsome Band",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Wonsseom Band",
+      "title": "Winsome Band",
       "description": null
     },
     "_search_ko": {
-      "title": "원썸 밴드",
+      "title": "윈썸 밴드",
       "description": null
     }
   },
@@ -3068,6 +3068,40 @@
     }
   },
   {
+    "id": "evt_20261101_0646ac1d-a541-44f1-a37f-12de35c01502",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-11-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfKjm2ZTQxX/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-11-01T11:00:00+00:00",
+    "date": "2026-11-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jam Day",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jam Day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "잼데이",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261101_38bdaee8-acd1-4b21-a460-677125550f0d",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-01T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd1X7ghgVuM/",
@@ -3521,8 +3555,30 @@
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-03T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "f15ed01f-19be-48bd-aba0-e36ca138272c",
+      "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8"
+    ],
+    "musicians": [
+      {
+        "id": "f15ed01f-19be-48bd-aba0-e36ca138272c",
+        "ig_handle": "parkhyonjae",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박현재",
+        "instruments": []
+      },
+      {
+        "id": "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8",
+        "ig_handle": "namhyuckcho_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조남혁",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -3546,7 +3602,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "영 트리오 x 수이",
+      "title": "영 트리오 X 수이",
       "description": null
     }
   },
@@ -3769,8 +3825,46 @@
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-04T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "2ecd2eb0-da09-4114-bcb6-7c9337cf86fb",
+      "8850230c-7c1b-47ed-ab44-c14cb2dfee21",
+      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b"
+    ],
+    "musicians": [
+      {
+        "id": "2ecd2eb0-da09-4114-bcb6-7c9337cf86fb",
+        "ig_handle": "dokakimp",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김덕화",
+        "instruments": [
+          "piano",
+          "keyboard"
+        ]
+      },
+      {
+        "id": "8850230c-7c1b-47ed-ab44-c14cb2dfee21",
+        "ig_handle": "jaehyuks",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "장재혁",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      },
+      {
+        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+        "ig_handle": "__suno_kim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김선호",
+        "instruments": [
+          "drums",
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -3784,17 +3878,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Kim Sun-young Jazz Lab",
+    "title": "Kim Sun-young Jazz Tap",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Sun-young Jazz Lab",
+      "title": "Kim Sun-young Jazz Tap",
       "description": null
     },
     "_search_ko": {
-      "title": "김순영 재즈랩",
+      "title": "김순영 재즈탭",
       "description": null
     }
   },
@@ -5337,8 +5431,32 @@
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-07T09:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+      "82ceb4b4-3dfe-436c-917b-bba9b7ac3d9c"
+    ],
+    "musicians": [
+      {
+        "id": "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+        "ig_handle": "hey.hailluv",
+        "name_ko": "해일럽",
+        "name_en": null,
+        "name_irl": "해일럽",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "82ceb4b4-3dfe-436c-917b-bba9b7ac3d9c",
+        "ig_handle": "swing_or_nothing",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "송준혁",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -5346,23 +5464,23 @@
     "date": "2026-11-07",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "18:30"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Haeil Band",
+    "title": "Haileub Band",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Haeil Band",
+      "title": "Haileub Band",
       "description": null
     },
     "_search_ko": {
-      "title": "해일 밴드",
+      "title": "해일럽 밴드",
       "description": null
     }
   },
@@ -5793,8 +5911,30 @@
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-07T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "333f749b-35ec-4354-ace9-4fbfcfa7ca91",
+      "c20d8646-9467-4d54-ba0f-44df6e241e02"
+    ],
+    "musicians": [
+      {
+        "id": "333f749b-35ec-4354-ace9-4fbfcfa7ca91",
+        "ig_handle": "basspjw",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박지웅",
+        "instruments": []
+      },
+      {
+        "id": "c20d8646-9467-4d54-ba0f-44df6e241e02",
+        "ig_handle": "drummer_dandylee",
+        "name_ko": "이광혁",
+        "name_en": null,
+        "name_irl": "이광혁",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -5802,7 +5942,7 @@
     "date": "2026-11-07",
     "sets": [
       {
-        "label": null,
+        "label": "2부",
         "time": "21:00"
       }
     ],
@@ -5857,6 +5997,40 @@
     },
     "_search_ko": {
       "title": "허유진 파이프라인",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261107_495172e6-ec55-4b05-b5c7-1477bb4f13ea",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-07T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfJIcNdk6hZ/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-07T12:00:00+00:00",
+    "date": "2026-11-07",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Richman and Groove Nice",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Richman and Groove Nice",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리치맨과 그루브나이스",
       "description": null
     }
   },
@@ -6136,6 +6310,40 @@
     },
     "_search_ko": {
       "title": "준 이이다 퀄텟 스페셜 콘서트",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261108_281b7c92-a77d-442a-898c-45809663efea",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-08T09:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfHbkdMCdjx/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-11-08T09:30:00+00:00",
+    "date": "2026-11-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Matterday",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Matterday",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "메터데이",
       "description": null
     }
   },
@@ -11428,6 +11636,35 @@
     },
     "_search_ko": {
       "title": "김수환 스무스 재즈 밴드 (보컬 DD!)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261124_03835d58-afa8-4ebd-8d78-40864b3cbbfa",
+    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-24T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfHv51JpcTO/",
+    "venue_handle": "jazzclub_evans",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-11-24T15:00:00+00:00",
+    "date": "2026-11-25",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Jeong-sik Seoul Jazz Big Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Jeong-sik Seoul Jazz Big Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이정식 서울 재즈 빅밴드",
       "description": null
     }
   },
