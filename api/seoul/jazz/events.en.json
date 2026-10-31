@@ -3599,6 +3599,44 @@
     }
   },
   {
+    "id": "evt_20261031_0be5166e-cb84-47f9-bdb0-2d58c0f631a7",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-10-31T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfJPSmSBcyj/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-10-31T11:00:00+00:00",
+    "date": "2026-10-31",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Da-hee Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Da-hee Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김다희 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261031_e8ba454a-e060-40c5-b50e-aa97f882fedd",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-31T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -3714,6 +3752,40 @@
     },
     "_search_ko": {
       "title": "류제훈 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261031_25e236c4-c74e-4189-9db3-bd08bab72138",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-10-31T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfEDzCjpKbF/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-10-31T11:30:00+00:00",
+    "date": "2026-10-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Lim Daeun Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lim Daeun Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임다은 트리오",
       "description": null
     }
   },
