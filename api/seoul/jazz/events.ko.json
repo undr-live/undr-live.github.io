@@ -29,9 +29,97 @@
     }
   },
   {
+    "id": "evt_20261029_9977d21f-3685-4875-b222-9bcb78330660",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-29T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfFD3QpTLIH/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "70193d01-8c5b-4eee-a552-76e1fae9fb8a",
+      "699f361a-8d81-4617-bdb0-5aaf9dd5477d",
+      "896e2d5d-59ad-4246-ba86-55c224aef281",
+      "9a54a69c-916d-4632-9df8-8c1a9878aac2",
+      "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce"
+    ],
+    "musicians": [
+      {
+        "id": "70193d01-8c5b-4eee-a552-76e1fae9fb8a",
+        "ig_handle": "mona.jazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "모나",
+        "instruments": [
+          "piano",
+          "keyboard"
+        ]
+      },
+      {
+        "id": "699f361a-8d81-4617-bdb0-5aaf9dd5477d",
+        "ig_handle": "philgrenadier",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Phil Grenadier",
+        "instruments": []
+      },
+      {
+        "id": "896e2d5d-59ad-4246-ba86-55c224aef281",
+        "ig_handle": "irenever",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Yoogun",
+        "instruments": []
+      },
+      {
+        "id": "9a54a69c-916d-4632-9df8-8c1a9878aac2",
+        "ig_handle": "rob.ligato",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Robert Fernandez",
+        "instruments": []
+      },
+      {
+        "id": "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce",
+        "ig_handle": "ihatebrushsticks",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김성찬",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-10-29T15:00:00+00:00",
+    "date": "2026-10-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "00:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이",
+    "llm_confidence": 1.0,
+    "title": "모나스 할로윈 스페셜",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mona's Halloween Special",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "모나스 할로윈 스페셜",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261030_2d88852f-9e5d-4dd5-ac0e-0f09c925474f",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-30T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfGxw8dE2-C/",
+    "source_url": "https://www.instagram.com/p/DfFD3QpTLIH/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [
       "a7534f52-0634-4a56-904e-ae097e0d8e5a",
@@ -66,9 +154,13 @@
       {
         "label": null,
         "time": "18:00"
+      },
+      {
+        "label": null,
+        "time": "20:00"
       }
     ],
-    "price": "무료",
+    "price": "무료입장 + 후불페이",
     "llm_confidence": 1.0,
     "title": "블루 메신저스",
     "description": null,
@@ -1176,7 +1268,7 @@
   {
     "id": "evt_20261030_174898b6-b769-4eb2-938c-720fca405592",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-30T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfGxw8dE2-C/",
+    "source_url": "https://www.instagram.com/p/DfFD3QpTLIH/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [
       "6f2c40e8-e719-495a-97d5-458f825c4bbf",
@@ -1220,9 +1312,13 @@
       {
         "label": null,
         "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
       }
     ],
-    "price": "무료",
+    "price": "무료입장 + 후불페이",
     "llm_confidence": 1.0,
     "title": "클로이 정 퀸텟",
     "description": null,
@@ -2265,6 +2361,44 @@
     },
     "_search_ko": {
       "title": "송동혁 퀄텟 (보컬 한주영)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261031_36161b61-021b-4dbe-a75f-6ac48fb74b5d",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-31T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfFD3QpTLIH/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-10-31T09:00:00+00:00",
+    "date": "2026-10-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      },
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이",
+    "llm_confidence": 1.0,
+    "title": "모시 & 랩",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Mossie & Rap",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "모시 & 랩",
       "description": null
     }
   },
@@ -3637,6 +3771,44 @@
     }
   },
   {
+    "id": "evt_20261031_509c8c0f-268d-493f-8f67-7aeeb4d193d2",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-31T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfFD3QpTLIH/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-10-31T11:00:00+00:00",
+    "date": "2026-10-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이",
+    "llm_confidence": 1.0,
+    "title": "그리티 키티",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Gritty Kitty",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "그리티 키티",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261031_e8ba454a-e060-40c5-b50e-aa97f882fedd",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-10-31T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DdgxPidD0UO/",
@@ -4094,6 +4266,44 @@
     }
   },
   {
+    "id": "evt_20261031_6d1666f0-4e82-4d6f-816d-61b8af4ee405",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-10-31T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfFD3QpTLIH/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-10-31T13:00:00+00:00",
+    "date": "2026-10-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      },
+      {
+        "label": null,
+        "time": "00:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이",
+    "llm_confidence": 1.0,
+    "title": "진의진 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jin Eui-jin Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "진의진 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261031_b2ee9d1c-a148-4db0-8704-da69bbcc8bb9",
     "event_key": "v:ven_09991403-4f4f-42a7-a165-602d7e0cefdb|t:2026-10-31T14:10:00+00:00",
     "source_url": "https://www.instagram.com/p/De3gwOeTH4x/",
@@ -4230,6 +4440,44 @@
     },
     "_search_ko": {
       "title": "스핏 잇 아웃",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261101_44e6e58b-15de-45b5-a963-4b3bc6442d3e",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-01T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfFD3QpTLIH/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-01T09:00:00+00:00",
+    "date": "2026-11-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      },
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이",
+    "llm_confidence": 1.0,
+    "title": "이건욱 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Geon-wook Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이건욱 퀄텟",
       "description": null
     }
   },
@@ -4764,6 +5012,44 @@
     }
   },
   {
+    "id": "evt_20261101_69e187fd-1044-4241-acfb-795b7fe79e8e",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfFD3QpTLIH/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-01T11:00:00+00:00",
+    "date": "2026-11-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이",
+    "llm_confidence": 1.0,
+    "title": "사우스바운드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Southbound",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "사우스바운드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261101_38bdaee8-acd1-4b21-a460-677125550f0d",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-01T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd1X7ghgVuM/",
@@ -4875,6 +5161,44 @@
     },
     "_search_ko": {
       "title": "JHM 일렉트릭 기타 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261101_3ecd03a5-a142-43c9-82e1-a6b1b45aff91",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-01T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfFD3QpTLIH/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-01T13:00:00+00:00",
+    "date": "2026-11-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      },
+      {
+        "label": null,
+        "time": "00:00"
+      }
+    ],
+    "price": "무료입장 + 후불페이",
+    "llm_confidence": 1.0,
+    "title": "이재형 힙텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Jae-hyung Hiptet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이재형 힙텟",
       "description": null
     }
   },
