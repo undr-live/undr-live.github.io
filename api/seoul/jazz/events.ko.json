@@ -2219,8 +2219,28 @@
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-31T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfFOjeZzd59/",
     "venue_handle": "subriot_hbc",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "47cefe5a-d03b-4491-84e9-84aa31ab5c8e",
+      "8bfa5df5-f79e-45fd-9bbd-9b8f9d21673b"
+    ],
+    "musicians": [
+      {
+        "id": "47cefe5a-d03b-4491-84e9-84aa31ab5c8e",
+        "ig_handle": "glriahan",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "한주영",
+        "instruments": []
+      },
+      {
+        "id": "8bfa5df5-f79e-45fd-9bbd-9b8f9d21673b",
+        "ig_handle": "xeodms_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "서태은",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "venue_location_id": "main",
@@ -2234,17 +2254,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "송동혁 퀄텟 (한주영)",
+    "title": "송동혁 퀄텟 (보컬 한주영)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Song Dong-hyuk Quartet (Han Ju-young)",
+      "title": "Song Dong-hyuk Quartet (Vocal Han Ju-young)",
       "description": null
     },
     "_search_ko": {
-      "title": "송동혁 퀄텟 (한주영)",
+      "title": "송동혁 퀄텟 (보컬 한주영)",
       "description": null
     }
   },
@@ -3526,8 +3546,31 @@
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-10-31T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfFOjeZzd59/",
     "venue_handle": "subriot_hbc",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+      "10efb012-1c92-4e67-b420-ea305a809071"
+    ],
+    "musicians": [
+      {
+        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+        "ig_handle": "__suno_kim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김선호",
+        "instruments": [
+          "drums",
+          "vocals"
+        ]
+      },
+      {
+        "id": "10efb012-1c92-4e67-b420-ea305a809071",
+        "ig_handle": "guitarae0420",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김정래",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "venue_location_id": "main",
