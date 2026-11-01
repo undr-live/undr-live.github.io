@@ -857,8 +857,19 @@
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-01T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
     "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "d5d9d249-1d15-4f21-9183-7ce2eb5f353e"
+    ],
+    "musicians": [
+      {
+        "id": "d5d9d249-1d15-4f21-9183-7ce2eb5f353e",
+        "ig_handle": "jazz_tap",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김순영🇰🇷 TAP / VOCAL",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
@@ -1095,17 +1106,17 @@
     ],
     "price": "30,000원",
     "llm_confidence": 1.0,
-    "title": "문혜원 트리오 (feat. 준 스미스, 장승호)",
+    "title": "문혜원 트리오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "MOON (Hyewon) Trio (feat. Joon Smith, Jang Seung-ho)",
+      "title": "Moon (Hyewon) Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "문혜원 트리오 (feat. 준 스미스, 장승호)",
+      "title": "문혜원 트리오",
       "description": null
     }
   },
@@ -1158,7 +1169,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Bae Jang-eun Trio (Vocal Nagyeom)",
+      "title": "Bae Jang-eun Trio (Guest Vocal Nakyeom)",
       "description": null
     },
     "_search_ko": {
@@ -1713,7 +1724,7 @@
     "date": "2026-11-03",
     "sets": [
       {
-        "label": "S1",
+        "label": "Stage 1",
         "time": "20:00"
       }
     ],
@@ -2230,7 +2241,7 @@
     "date": "2026-11-04",
     "sets": [
       {
-        "label": "S1",
+        "label": "Stage 1",
         "time": "20:00"
       }
     ],
@@ -2867,7 +2878,7 @@
     "date": "2026-11-05",
     "sets": [
       {
-        "label": "S1",
+        "label": "Stage 1",
         "time": "20:00"
       }
     ],
@@ -2879,7 +2890,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Ho-chul Trio",
+      "title": "Kim Ho-cheol Trio",
       "description": null
     },
     "_search_ko": {
@@ -3102,7 +3113,7 @@
     "date": "2026-11-06",
     "sets": [
       {
-        "label": "S1",
+        "label": "Stage 1",
         "time": "19:00"
       }
     ],
@@ -3723,23 +3734,23 @@
     "date": "2026-11-06",
     "sets": [
       {
-        "label": "S2",
+        "label": "Stage 2",
         "time": "21:30"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "배가영과 망고리타",
+    "title": "배가영의 망고리타",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Bae Ga-young and Mangorita",
+      "title": "Bae Ga-young's Mangorita",
       "description": null
     },
     "_search_ko": {
-      "title": "배가영과 망고리타",
+      "title": "배가영의 망고리타",
       "description": null
     }
   },
@@ -4180,7 +4191,7 @@
     "date": "2026-11-07",
     "sets": [
       {
-        "label": "S1",
+        "label": "Stage 1",
         "time": "19:00"
       }
     ],
@@ -4997,13 +5008,13 @@
     "date": "2026-11-07",
     "sets": [
       {
-        "label": "S2",
+        "label": "Stage 2",
         "time": "21:30"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "캔자스 시티 밴드",
+    "title": "캔자스시티 밴드",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -5013,7 +5024,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "캔자스 시티 밴드",
+      "title": "캔자스시티 밴드",
       "description": null
     }
   },
@@ -5436,7 +5447,7 @@
     "date": "2026-11-08",
     "sets": [
       {
-        "label": "S1",
+        "label": "Stage 1",
         "time": "19:00"
       }
     ],
@@ -5453,6 +5464,40 @@
     },
     "_search_ko": {
       "title": "박재홍 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261108_3849de97-7e9f-40d9-9a82-1d0262c4446e",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-08T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfLsbO5ilNl/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-08T10:00:00+00:00",
+    "date": "2026-11-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "KJ 슈퍼 재즈 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "KJ Super Jazz Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "KJ 슈퍼 재즈 밴드",
       "description": null
     }
   },
@@ -5678,7 +5723,7 @@
     "date": "2026-11-08",
     "sets": [
       {
-        "label": "S2",
+        "label": "Stage 2",
         "time": "20:30"
       }
     ],
