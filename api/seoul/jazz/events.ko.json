@@ -1620,17 +1620,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "송준서 트리오",
+    "title": "시월의 마지막 밤 송준서 트리오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Song Junseo Trio",
+      "title": "Last Night of October Song Junseo Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "송준서 트리오",
+      "title": "시월의 마지막 밤 송준서 트리오",
       "description": null
     }
   },
@@ -2676,8 +2676,19 @@
     "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-01T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
     "venue_handle": "jazzclub_bluehour",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c"
+    ],
+    "musicians": [
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
     "venue_location_id": "main",
@@ -3153,6 +3164,55 @@
     }
   },
   {
+    "id": "evt_20261101_976e4092-255f-4544-a6cf-09d9d6a1cbec",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-11-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfL1xVqBKUG/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [
+      "747ac726-9e33-4d12-9f29-facf42c7e78a"
+    ],
+    "musicians": [
+      {
+        "id": "747ac726-9e33-4d12-9f29-facf42c7e78a",
+        "ig_handle": "tracypianoman_alt",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Tracy Scott",
+        "instruments": [
+          "piano",
+          "trombone",
+          "keyboard"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-11-01T11:00:00+00:00",
+    "date": "2026-11-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "매드브 & 트레이시",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Madve & Tracy",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "매드브 & 트레이시",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261101_38bdaee8-acd1-4b21-a460-677125550f0d",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-01T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Dd1X7ghgVuM/",
@@ -3238,8 +3298,19 @@
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-01T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfFOjeZzd59/",
     "venue_handle": "subriot_hbc",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "e8c49161-d728-477c-9655-fd5068c5a8bf"
+    ],
+    "musicians": [
+      {
+        "id": "e8c49161-d728-477c-9655-fd5068c5a8bf",
+        "ig_handle": "dr.simon11",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "SeungHyeon Lee",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "venue_location_id": "main",
