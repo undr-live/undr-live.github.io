@@ -3377,6 +3377,40 @@
     }
   },
   {
+    "id": "evt_20261102_3ad34562-0f4a-4edf-b698-1dbd2d29c1ea",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-02T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfMREUKE0tt/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-02T10:00:00+00:00",
+    "date": "2026-11-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "후불페이",
+    "llm_confidence": 1.0,
+    "title": "HeyHey band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "HeyHey band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "헤이헤이 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261102_7cf6ff38-94d1-4b5a-a8eb-e645d39a32aa",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-02T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
@@ -3640,6 +3674,81 @@
     },
     "_search_ko": {
       "title": "김광용 트리오 + 1",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261102_7100d5c2-365e-425b-945e-16b9db86d299",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-02T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfMREUKE0tt/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "879fc701-9aa1-4594-a6b4-41fc8e8932e5",
+      "479326cc-2aeb-4650-a124-221f40ed733e",
+      "44604a9c-01c3-4638-b75c-cd6f643672d0",
+      "7ab21601-deb8-4329-bb08-a809033f7861"
+    ],
+    "musicians": [
+      {
+        "id": "879fc701-9aa1-4594-a6b4-41fc8e8932e5",
+        "ig_handle": "youngjik.k",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김영직",
+        "instruments": []
+      },
+      {
+        "id": "479326cc-2aeb-4650-a124-221f40ed733e",
+        "ig_handle": "minxophone",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조민형",
+        "instruments": []
+      },
+      {
+        "id": "44604a9c-01c3-4638-b75c-cd6f643672d0",
+        "ig_handle": "giboon_jazzer",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "진현석",
+        "instruments": []
+      },
+      {
+        "id": "7ab21601-deb8-4329-bb08-a809033f7861",
+        "ig_handle": "20_more_bass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정이령",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-02T12:00:00+00:00",
+    "date": "2026-11-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "후불페이",
+    "llm_confidence": 1.0,
+    "title": "Youngjik Kim Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Youngjik Kim Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김영직 퀄텟",
       "description": null
     }
   },
@@ -7674,6 +7783,55 @@
     },
     "_search_ko": {
       "title": "박창훈 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261111_b2e839f7-3554-4b98-8120-5dfcc56d0289",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-11-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfMeI2UE8re/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [
+      "699f361a-8d81-4617-bdb0-5aaf9dd5477d"
+    ],
+    "musicians": [
+      {
+        "id": "699f361a-8d81-4617-bdb0-5aaf9dd5477d",
+        "ig_handle": "philgrenadier",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Phil Grenadier",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-11-11T11:00:00+00:00",
+    "date": "2026-11-11",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Phil Grenadier Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Phil Grenadier Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "필 그레나디어 듀오",
       "description": null
     }
   },
