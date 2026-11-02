@@ -1034,17 +1034,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Vid Jamnik",
+    "title": "Vid Jamnik Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Vid Jamnik",
+      "title": "Vid Jamnik Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "비드 잠닉",
+      "title": "비드 얌닉 퀄텟",
       "description": null
     }
   },
@@ -4504,8 +4504,21 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-11-07T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De2yAkPk9fC/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "401b72d9-38ea-453c-a92b-2976728d52de"
+    ],
+    "musicians": [
+      {
+        "id": "401b72d9-38ea-453c-a92b-2976728d52de",
+        "ig_handle": "hanxazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김한 Han Kim",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -4519,17 +4532,17 @@
     ],
     "price": "₩15K",
     "llm_confidence": 1.0,
-    "title": "Kim Han X Roman Pulati",
+    "title": "Han Kim & Roman Pulati Duo",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Han X Roman Pulati",
+      "title": "Han Kim & Roman Pulati Duo",
       "description": null
     },
     "_search_ko": {
-      "title": "김한 X 로만 풀라티",
+      "title": "김한 & 로만 풀라티 듀오",
       "description": null
     }
   },
