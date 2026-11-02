@@ -1006,7 +1006,7 @@
         "time": "19:00"
       }
     ],
-    "price": "후불페이",
+    "price": "후불 페이",
     "llm_confidence": 1.0,
     "title": "헤이헤이 밴드",
     "description": null,
@@ -1205,7 +1205,7 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "정란 Young & Beautiful",
+    "title": "정란 영 & 뷰티풀",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -1215,7 +1215,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "정란 Young & Beautiful",
+      "title": "정란 영 & 뷰티풀",
       "description": null
     }
   },
@@ -1413,49 +1413,19 @@
   {
     "id": "evt_20261102_7100d5c2-365e-425b-945e-16b9db86d299",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-02T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfMREUKE0tt/",
+    "source_url": "https://www.instagram.com/p/DfN_wiDk9PR/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [
-      "879fc701-9aa1-4594-a6b4-41fc8e8932e5",
-      "479326cc-2aeb-4650-a124-221f40ed733e",
-      "44604a9c-01c3-4638-b75c-cd6f643672d0",
-      "7ab21601-deb8-4329-bb08-a809033f7861"
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c"
     ],
     "musicians": [
       {
-        "id": "879fc701-9aa1-4594-a6b4-41fc8e8932e5",
-        "ig_handle": "youngjik.k",
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
         "name_ko": null,
         "name_en": null,
-        "name_irl": "김영직",
+        "name_irl": "Paul Kirby",
         "instruments": []
-      },
-      {
-        "id": "479326cc-2aeb-4650-a124-221f40ed733e",
-        "ig_handle": "minxophone",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "조민형",
-        "instruments": []
-      },
-      {
-        "id": "44604a9c-01c3-4638-b75c-cd6f643672d0",
-        "ig_handle": "giboon_jazzer",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "진현석",
-        "instruments": []
-      },
-      {
-        "id": "7ab21601-deb8-4329-bb08-a809033f7861",
-        "ig_handle": "20_more_bass",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "정이령",
-        "instruments": [
-          "bass",
-          "composer"
-        ]
       }
     ],
     "musician_ig_handles": [],
@@ -1469,19 +1439,19 @@
         "time": "21:00"
       }
     ],
-    "price": "후불페이",
+    "price": "후불 페이",
     "llm_confidence": 1.0,
-    "title": "김영직 퀄텟",
+    "title": "토드 허버트 퀄텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Youngjik Kim Quartet",
+      "title": "Todd Herbert Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "김영직 퀄텟",
+      "title": "토드 허버트 퀄텟",
       "description": null
     }
   },
@@ -1852,6 +1822,44 @@
     },
     "_search_ko": {
       "title": "이은동 잼세션",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261103_85ec7ceb-19e3-442f-b3c8-0c4f0153e6f9",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-11-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO0YY-n-Jm/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-11-03T11:00:00+00:00",
+    "date": "2026-11-03",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이고은&문지현 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Go-eun & Moon Ji-hyun Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이고은&문지현 듀오",
       "description": null
     }
   },
@@ -2388,6 +2396,44 @@
     },
     "_search_ko": {
       "title": "스페셜 이유건 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261104_6f30371a-1219-4928-b55a-f6dafd3ef5e6",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-11-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO0YY-n-Jm/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-11-04T11:00:00+00:00",
+    "date": "2026-11-04",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "덜셋",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Dulcet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "덜셋",
       "description": null
     }
   },
@@ -2969,6 +3015,116 @@
     },
     "_search_ko": {
       "title": "베티 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261105_a3e5be10-7ce3-42a5-b0eb-260f58b16a4f",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-11-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO_XR3BTMg/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [
+      "62b39f74-44a5-40ce-acb3-cf2b21c7fa81"
+    ],
+    "musicians": [
+      {
+        "id": "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+        "ig_handle": "daeyounkimm",
+        "name_ko": "김대윤",
+        "name_en": "Daeyoun Kim",
+        "name_irl": "Daeyoun Kim 김대윤",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-11-05T11:00:00+00:00",
+    "date": "2026-11-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김대윤 솔로 피아노",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Daeyoun Solo Piano",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김대윤 솔로 피아노",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261105_27549ecc-90f4-47d2-940e-403cb9e626f2",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-11-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO0YY-n-Jm/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [
+      "cf4707dd-c988-4089-a579-e23f36c291d7",
+      "8785e118-c79c-4513-a4c1-710e6563704f"
+    ],
+    "musicians": [
+      {
+        "id": "cf4707dd-c988-4089-a579-e23f36c291d7",
+        "ig_handle": "sueenena",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "SUEE 수이",
+        "instruments": []
+      },
+      {
+        "id": "8785e118-c79c-4513-a4c1-710e6563704f",
+        "ig_handle": "j_hyuniyo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이정현",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-11-05T11:00:00+00:00",
+    "date": "2026-11-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "수이 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Suee Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "수이 듀오",
       "description": null
     }
   },
@@ -3558,6 +3714,93 @@
     }
   },
   {
+    "id": "evt_20261106_e8d489f3-16bb-4c26-a3f7-83fbcae8aa6c",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-11-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO_XR3BTMg/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-11-06T11:00:00+00:00",
+    "date": "2026-11-06",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "솜다 듀오 (보컬)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Somda Duo (Vocal)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "솜다 듀오 (보컬)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261106_11ae542d-8d3d-4b90-acd0-bf2c88827264",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-11-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO0YY-n-Jm/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [
+      "7b73ac90-b76a-46fd-8159-1fcdca4083ee"
+    ],
+    "musicians": [
+      {
+        "id": "7b73ac90-b76a-46fd-8159-1fcdca4083ee",
+        "ig_handle": "limbass2673",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Dae-seob Lim",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-11-06T11:00:00+00:00",
+    "date": "2026-11-06",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이즈 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Eaze Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이즈 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261106_d296d6be-e2aa-44fb-9a72-09faf356652b",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-06T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -3653,6 +3896,44 @@
     },
     "_search_ko": {
       "title": "강선아 재즈 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261106_aa75ade8-32e0-46db-b156-f2df0f4daf10",
+    "event_key": "v:ven_dda28cb8-70a0-4815-971c-666b82e81609|t:2026-11-06T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfPCsKvj7MQ/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dda28cb8-70a0-4815-971c-666b82e81609",
+    "venue_location_id": "main",
+    "datetime": "2026-11-06T11:30:00+00:00",
+    "date": "2026-11-06",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리치맨과 그루브나이스",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Richman and Groove Nice",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리치맨과 그루브나이스",
       "description": null
     }
   },
@@ -4668,6 +4949,167 @@
     }
   },
   {
+    "id": "evt_20261107_8d69ab12-814c-47a2-bdc6-6b126d2f972d",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-11-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO_XR3BTMg/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [
+      "d9458e88-0808-49ee-ac05-dc799b68a7f0"
+    ],
+    "musicians": [
+      {
+        "id": "d9458e88-0808-49ee-ac05-dc799b68a7f0",
+        "ig_handle": "jazzcats_sanga",
+        "name_ko": "박상아",
+        "name_en": null,
+        "name_irl": "트럼펫 박상아🎺",
+        "instruments": [
+          "trumpet",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-11-07T11:00:00+00:00",
+    "date": "2026-11-07",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "박상아 트리오 (트럼펫)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Sanga Trio (Trumpet)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박상아 트리오 (트럼펫)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261107_19b4699e-30b0-4ffe-9de8-808d5ebcadc0",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-11-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfMvJFeE0Pf/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [
+      "a01af092-b705-49f9-a17e-34ec7732c21e",
+      "038b2ab9-8f01-45d3-8ca4-efecb7df03f7"
+    ],
+    "musicians": [
+      {
+        "id": "a01af092-b705-49f9-a17e-34ec7732c21e",
+        "ig_handle": "hoyeon.choi",
+        "name_ko": "호연",
+        "name_en": "Hoyeon Choi",
+        "name_irl": "Hoyeon Choi",
+        "instruments": []
+      },
+      {
+        "id": "038b2ab9-8f01-45d3-8ca4-efecb7df03f7",
+        "ig_handle": "plex_park",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박준서",
+        "instruments": [
+          "saxophone"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-11-07T11:00:00+00:00",
+    "date": "2026-11-07",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "최호연 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hoyeon Choi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최호연 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261107_325c4c50-a0c8-48c3-bb7e-0314e0cfb1df",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-11-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO0YY-n-Jm/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [
+      "6b8e4977-56da-4934-afe3-0f1b39b9f192"
+    ],
+    "musicians": [
+      {
+        "id": "6b8e4977-56da-4934-afe3-0f1b39b9f192",
+        "ig_handle": "altruisticdrum",
+        "name_ko": "양현수",
+        "name_en": null,
+        "name_irl": "양현수",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-11-07T11:00:00+00:00",
+    "date": "2026-11-07",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:45"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "아림 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Arim Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "아림 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261107_a2bf27bf-f5af-4456-9304-5b6a70530e4e",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-07T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -5523,6 +5965,57 @@
     }
   },
   {
+    "id": "evt_20261108_ef9bf134-a0c9-4199-889d-91c7eb90b8d0",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-11-08T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO0YY-n-Jm/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [
+      "7f7cc249-188f-48c8-84b9-64802bedd88d"
+    ],
+    "musicians": [
+      {
+        "id": "7f7cc249-188f-48c8-84b9-64802bedd88d",
+        "ig_handle": "minulee_jazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "재즈보컬리스트 이민우 | Jazz Vocalist Minu Lee",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-11-08T10:00:00+00:00",
+    "date": "2026-11-08",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이민우&카이로 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Min-woo & Kyro Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이민우&카이로 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261108_f933804c-cdfb-4e13-944e-80c66d526c73",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-08T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdNO_L0ybiL/",
@@ -5693,6 +6186,57 @@
     },
     "_search_ko": {
       "title": "박상아 재즈 트럼펫",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261108_059b1526-bd53-4036-a26a-758007107ad9",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-11-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfO_XR3BTMg/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [
+      "b5523d42-4cd1-4ad5-9b18-e47ef658d5f4"
+    ],
+    "musicians": [
+      {
+        "id": "b5523d42-4cd1-4ad5-9b18-e47ef658d5f4",
+        "ig_handle": "vocal_lima_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "리마",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-11-08T11:00:00+00:00",
+    "date": "2026-11-08",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리마 듀오 (보컬)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lima Duo (Vocal)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리마 듀오 (보컬)",
       "description": null
     }
   },
