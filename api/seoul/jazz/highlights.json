@@ -1,50 +1,79 @@
 {
-  "week_start_date": "2026-10-26",
-  "generated_at": "2026-10-26T06:00:09.424511+00:00",
+  "week_start_date": "2026-11-02",
+  "generated_at": "2026-11-02T07:00:10.435764+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-10-28": {
-      "event_id": "evt_20261028_31303508-cfbb-4842-8a3f-0b6bcb04f427",
+    "2026-11-04": {
+      "event_id": "evt_20261104_7a639144-26ed-433d-9cfd-9c323bcf280f",
       "title": {
-        "ko": "김이슬 트리오 + 선제이 자야람",
-        "en": "Kim E-seul Trio + Sunjay Jayaram"
-      },
-      "venue_name": {
-        "en": "Jazzclub Evans",
-        "ko": "재즈클럽 에반스"
-      },
-      "venue_handle": "jazzclub_evans",
-      "datetime": "2026-10-28T11:00:00+00:00",
-      "selected_at": "2026-10-26T06:00:09.423520+00:00"
-    },
-    "2026-10-31": {
-      "event_id": "evt_20261031_8478b71c-6aa7-427d-be30-830428eb8a37",
-      "title": {
-        "ko": "김예림 퀄텟 (보컬)",
-        "en": "Kim Ye-rim Quartet (Vocal)"
-      },
-      "venue_name": {
-        "en": "Laidback",
-        "ko": "레이백"
-      },
-      "venue_handle": "laidback2019",
-      "datetime": "2026-10-31T11:00:00+00:00",
-      "selected_at": "2026-10-26T06:00:09.424030+00:00"
-    },
-    "2026-11-01": {
-      "event_id": "evt_20261101_cdd3a20c-8f65-4041-87f7-e757d3b6b263",
-      "title": {
-        "ko": "우미진",
-        "en": "Woo Mi-jin"
+        "ko": "유하영",
+        "en": "Yoo Ha-young"
       },
       "venue_name": {
         "en": "Sound Dog",
         "ko": "사운드 독"
       },
       "venue_handle": "sounddog_jazz",
-      "datetime": "2026-11-01T11:00:00+00:00",
-      "selected_at": "2026-10-26T06:00:09.424470+00:00"
+      "datetime": "2026-11-04T11:00:00+00:00",
+      "selected_at": "2026-11-02T07:00:10.399818+00:00",
+      "pinned": true
+    },
+    "2026-11-05": {
+      "event_id": "evt_20261105_119726fb-5624-46d5-b33d-ec6991e2afd5",
+      "title": {
+        "ko": "콜린 김 트리오",
+        "en": "Collin Kim Trio"
+      },
+      "venue_name": {
+        "en": "pdpdclub",
+        "ko": "파닥파닥클럽"
+      },
+      "venue_handle": "pdpdclub",
+      "datetime": "2026-11-05T11:00:00+00:00",
+      "selected_at": "2026-11-02T07:00:10.433409+00:00"
+    },
+    "2026-11-06": {
+      "event_id": "evt_20261106_804dbefd-8d58-411a-af28-537891bb6174",
+      "title": {
+        "ko": "리얼 재즈",
+        "en": "Real Jazz"
+      },
+      "venue_name": {
+        "en": "EDLS",
+        "ko": "이들스 EDLS"
+      },
+      "venue_handle": "edls_official",
+      "datetime": "2026-11-06T10:30:00+00:00",
+      "selected_at": "2026-11-02T07:00:10.434666+00:00"
+    },
+    "2026-11-07": {
+      "event_id": "evt_20261107_3e9c99af-8116-49c3-8521-cc429980656a",
+      "title": {
+        "ko": "임용훈 앤 삼비스따스",
+        "en": "Im Yong-hoon & Sambistas"
+      },
+      "venue_name": {
+        "en": "Jazzclub Evans",
+        "ko": "재즈클럽 에반스"
+      },
+      "venue_handle": "jazzclub_evans",
+      "datetime": "2026-11-07T11:00:00+00:00",
+      "selected_at": "2026-11-02T07:00:10.435104+00:00"
+    },
+    "2026-11-08": {
+      "event_id": "evt_20261108_11cfa8bd-c898-41d5-b957-d70de6d3532a",
+      "title": {
+        "ko": "이초롱 퀄텟",
+        "en": "Lee Cho-rong Quartet"
+      },
+      "venue_name": {
+        "en": "Cotton Club",
+        "ko": "코튼클럽"
+      },
+      "venue_handle": "cottonclub_seoul",
+      "datetime": "2026-11-08T11:30:00+00:00",
+      "selected_at": "2026-11-02T07:00:10.435720+00:00"
     }
   }
 }
