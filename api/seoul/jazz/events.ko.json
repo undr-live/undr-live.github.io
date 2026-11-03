@@ -496,6 +496,44 @@
     }
   },
   {
+    "id": "evt_20261103_a4b29f2d-7066-4c7a-9114-575c67032356",
+    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
+    "venue_handle": "sounddog_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
+    "venue_location_id": "main",
+    "datetime": "2026-11-03T10:30:00+00:00",
+    "date": "2026-11-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      },
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "재즈 잼 데이",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jazz Jam Day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "재즈 잼 데이",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261103_7221a8a9-cbce-464a-84ee-aa88480228bf",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-03T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
@@ -548,40 +586,6 @@
     },
     "_search_ko": {
       "title": "영 트리오 X 수이",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261103_a4b29f2d-7066-4c7a-9114-575c67032356",
-    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-03T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
-    "venue_handle": "sounddog_jazz",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
-    "venue_location_id": "main",
-    "datetime": "2026-11-03T11:00:00+00:00",
-    "date": "2026-11-03",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": "20,000원",
-    "llm_confidence": 1.0,
-    "title": "재즈 잼 데이",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Jazz Jam Day",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "재즈 잼 데이",
       "description": null
     }
   },
@@ -1837,8 +1841,19 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-11-05T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De2yAkPk9fC/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "437a5add-34c0-4d68-bb08-959f5262fb32"
+    ],
+    "musicians": [
+      {
+        "id": "437a5add-34c0-4d68-bb08-959f5262fb32",
+        "ig_handle": "ccc_chambers",
+        "name_ko": "최민호",
+        "name_en": null,
+        "name_irl": "최민호",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -4354,19 +4369,19 @@
         "time": "21:00"
       }
     ],
-    "price": "10000원",
+    "price": "10,000원",
     "llm_confidence": 1.0,
-    "title": "해이피 밴드",
+    "title": "헤이피 밴드",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Haeypi Band",
+      "title": "Hey P Band",
       "description": null
     },
     "_search_ko": {
-      "title": "해이피 밴드",
+      "title": "헤이피 밴드",
       "description": null
     }
   },
@@ -5560,23 +5575,27 @@
     "date": "2026-11-08",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "김진수 밴드",
+    "title": "김진수 퀄텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Jin-su Band",
+      "title": "Kim Jin-soo Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "김진수 밴드",
+      "title": "김진수 퀄텟",
       "description": null
     }
   },
@@ -6400,6 +6419,75 @@
     },
     "_search_ko": {
       "title": "맹서량 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261110_f42d0659-da26-45fd-9f39-2831f49c7a9c",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-10T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfQ2EoEjpC3/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [
+      "b5523d42-4cd1-4ad5-9b18-e47ef658d5f4",
+      "0cc8d1cf-061c-4305-9be7-fc6b46684725",
+      "b246d1b5-9294-42c5-96b1-6a861241cbff"
+    ],
+    "musicians": [
+      {
+        "id": "b5523d42-4cd1-4ad5-9b18-e47ef658d5f4",
+        "ig_handle": "vocal_lima_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "리마",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "0cc8d1cf-061c-4305-9be7-fc6b46684725",
+        "ig_handle": "ahn.wonseok",
+        "name_ko": "안원석",
+        "name_en": "Wonseok Ahn",
+        "name_irl": "안원석",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "b246d1b5-9294-42c5-96b1-6a861241cbff",
+        "ig_handle": "youngjoon.kim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김영준",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-10T11:30:00+00:00",
+    "date": "2026-11-10",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리마 재즈 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lima Jazz Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리마 재즈 밴드",
       "description": null
     }
   },
