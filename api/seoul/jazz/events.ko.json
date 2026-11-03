@@ -496,6 +496,40 @@
     }
   },
   {
+    "id": "evt_20261103_1815aed2-3235-4796-9ba8-fa16729ceb33",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-03T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfPgRxsE5Eg/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-03T10:00:00+00:00",
+    "date": "2026-11-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "무료입장 (후불페이)",
+    "llm_confidence": 1.0,
+    "title": "백승준 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Baek Seung Jun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "백승준 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261103_a4b29f2d-7066-4c7a-9114-575c67032356",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-03T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
@@ -941,6 +975,40 @@
     },
     "_search_ko": {
       "title": "ARB! (올웨이즈 락 앤 롤 밴드)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261103_0c25c801-9f7d-485d-a8d3-f2232b7c52a4",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-03T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfPgRxsE5Eg/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-03T12:00:00+00:00",
+    "date": "2026-11-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "무료입장 (후불페이)",
+    "llm_confidence": 1.0,
+    "title": "라이프 이즈 재즈",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Life is Jazz",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "라이프 이즈 재즈",
       "description": null
     }
   },
@@ -8792,6 +8860,62 @@
     },
     "_search_ko": {
       "title": "최윤서 재즈 보컬",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261114_4f8d801c-9211-40ea-b368-7de80614bc9e",
+    "event_key": "v:ven_377ce206-d0d7-48df-8554-aa20be3b45e2|t:2026-11-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DcQsqpJh6W2/",
+    "venue_handle": "gv_scene",
+    "musician_ids": [
+      "b627b40e-0d9d-4323-8f65-772bff4c5a42",
+      "2daf4785-0de4-4cd2-84d9-deba7fc2627e"
+    ],
+    "musicians": [
+      {
+        "id": "b627b40e-0d9d-4323-8f65-772bff4c5a42",
+        "ig_handle": "myname.ksh",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강승훈",
+        "instruments": [
+          "violin"
+        ]
+      },
+      {
+        "id": "2daf4785-0de4-4cd2-84d9-deba7fc2627e",
+        "ig_handle": "emmet_709",
+        "name_ko": "최은규",
+        "name_en": null,
+        "name_irl": "Choi Eun Gyu",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_377ce206-d0d7-48df-8554-aa20be3b45e2",
+    "venue_location_id": "main",
+    "datetime": "2026-11-14T11:00:00+00:00",
+    "date": "2026-11-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "아키나 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Akina Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "아키나 퀄텟",
       "description": null
     }
   },
