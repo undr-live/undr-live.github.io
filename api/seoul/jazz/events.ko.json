@@ -3275,6 +3275,78 @@
     }
   },
   {
+    "id": "evt_20261106_bd7133cf-b548-47f0-98e7-601be8595e02",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-11-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfMuYk4Ezfx/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [
+      "c614d17a-9a7e-45fd-8b98-0ec891fd4bf8",
+      "a4156793-4736-4535-bb65-2c2cfb6b14a4",
+      "3958b9d7-7e97-4a73-923a-4dbba7bdab09"
+    ],
+    "musicians": [
+      {
+        "id": "c614d17a-9a7e-45fd-8b98-0ec891fd4bf8",
+        "ig_handle": "junghwa_jazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "재즈보컬리스트 정화 | Jazz Vocalist Junghwa",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "a4156793-4736-4535-bb65-2c2cfb6b14a4",
+        "ig_handle": "strongcastle_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강한성",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "3958b9d7-7e97-4a73-923a-4dbba7bdab09",
+        "ig_handle": "min.hacho",
+        "name_ko": "조민하",
+        "name_en": null,
+        "name_irl": "조민하",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-11-06T11:00:00+00:00",
+    "date": "2026-11-06",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "올디 벗 구디",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Oldie But Goodie",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "올디 벗 구디",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261106_d296d6be-e2aa-44fb-9a72-09faf356652b",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-06T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
