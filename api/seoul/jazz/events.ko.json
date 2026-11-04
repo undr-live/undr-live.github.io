@@ -4644,11 +4644,15 @@
     "date": "2026-11-07",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "전재욱 트리오",
     "description": null,
@@ -6263,7 +6267,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jihyejisu",
+      "title": "Ji Hye Ji Soo",
       "description": null
     },
     "_search_ko": {
@@ -8676,6 +8680,35 @@
     },
     "_search_ko": {
       "title": "아키나 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261113_f69cb53f-a011-4b3c-95b9-423bcf9956a7",
+    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-13T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfTK6d3SYqB/",
+    "venue_handle": "sounddog_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
+    "venue_location_id": "main",
+    "datetime": "2026-11-13T15:00:00+00:00",
+    "date": "2026-11-14",
+    "sets": null,
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이삼수",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Samsoo Lee",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이삼수",
       "description": null
     }
   },
@@ -11100,7 +11133,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kang Heo Dal-lim",
+      "title": "Kang Huh Dal-rim",
       "description": null
     },
     "_search_ko": {
@@ -13270,7 +13303,7 @@
   {
     "id": "evt_20261122_4afde8b9-812a-4def-a3d9-2cba742d9fe1",
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfH6d-mmUiB/",
+    "source_url": "https://www.instagram.com/p/DfPEahkGb1M/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
       "b4ff14eb-0539-4f9b-b8bf-89b6561b3d70"
