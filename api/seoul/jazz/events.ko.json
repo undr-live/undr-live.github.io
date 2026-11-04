@@ -669,6 +669,55 @@
     }
   },
   {
+    "id": "evt_20261104_1a5fbd92-2b2c-4e65-87da-e32ed8d1e4c8",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-11-04T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfTBAYKgcUI/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [
+      "fde66552-a48b-416d-826b-04add2fc8113"
+    ],
+    "musicians": [
+      {
+        "id": "fde66552-a48b-416d-826b-04add2fc8113",
+        "ig_handle": "mlsega1",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "우희창",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-11-04T10:30:00+00:00",
+    "date": "2026-11-04",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "엄상미 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Eom Sangmi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "엄상미 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261104_7a639144-26ed-433d-9cfd-9c323bcf280f",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-04T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
@@ -779,8 +828,31 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-11-04T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De2yAkPk9fC/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "bea80a52-d565-40b3-a6c9-f712d27ccb44",
+      "6ee4c750-851e-4f74-a0b3-318cff4d343b"
+    ],
+    "musicians": [
+      {
+        "id": "bea80a52-d565-40b3-a6c9-f712d27ccb44",
+        "ig_handle": "gbaejazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "배가영",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "6ee4c750-851e-4f74-a0b3-318cff4d343b",
+        "ig_handle": "sngha",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이승하",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -7431,6 +7503,40 @@
     },
     "_search_ko": {
       "title": "이유빈 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261111_693f952d-e0e4-4771-a5a2-eae4dbffe44c",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-11T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfTa3E-j0Wg/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-11T11:30:00+00:00",
+    "date": "2026-11-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "남부한정",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nambuhanjeong",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "남부한정",
       "description": null
     }
   },
