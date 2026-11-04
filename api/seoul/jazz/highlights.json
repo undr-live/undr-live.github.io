@@ -1,14 +1,14 @@
 {
   "week_start_date": "2026-11-02",
-  "generated_at": "2026-11-02T07:00:10.435764+00:00",
+  "generated_at": "2026-11-04T00:20:05.690150+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
     "2026-11-04": {
       "event_id": "evt_20261104_7a639144-26ed-433d-9cfd-9c323bcf280f",
       "title": {
-        "ko": "유하영",
-        "en": "Yoo Ha-young"
+        "ko": "유하영 트리오",
+        "en": "Hayoung Lyou Trio"
       },
       "venue_name": {
         "en": "Sound Dog",
@@ -16,64 +16,69 @@
       },
       "venue_handle": "sounddog_jazz",
       "datetime": "2026-11-04T11:00:00+00:00",
-      "selected_at": "2026-11-02T07:00:10.399818+00:00",
-      "pinned": true
+      "selected_at": "2026-11-04T00:20:05.642950+00:00",
+      "pinned": true,
+      "title_pinned": true,
+      "lineup": {
+        "ko": "piano 유하영 · drums 송준영 · bass 권세준"
+      },
+      "end_datetime": "2026-11-04T22:00:00+09:00"
     },
     "2026-11-05": {
-      "event_id": "evt_20261105_119726fb-5624-46d5-b33d-ec6991e2afd5",
+      "event_id": "evt_20261105_1f59d369-2a0c-4ecc-aed9-039b10895d6f",
       "title": {
-        "ko": "콜린 김 트리오",
-        "en": "Collin Kim Trio"
-      },
-      "venue_name": {
-        "en": "pdpdclub",
-        "ko": "파닥파닥클럽"
-      },
-      "venue_handle": "pdpdclub",
-      "datetime": "2026-11-05T11:00:00+00:00",
-      "selected_at": "2026-11-02T07:00:10.433409+00:00"
-    },
-    "2026-11-06": {
-      "event_id": "evt_20261106_804dbefd-8d58-411a-af28-537891bb6174",
-      "title": {
-        "ko": "리얼 재즈",
-        "en": "Real Jazz"
-      },
-      "venue_name": {
-        "en": "EDLS",
-        "ko": "이들스 EDLS"
-      },
-      "venue_handle": "edls_official",
-      "datetime": "2026-11-06T10:30:00+00:00",
-      "selected_at": "2026-11-02T07:00:10.434666+00:00"
-    },
-    "2026-11-07": {
-      "event_id": "evt_20261107_3e9c99af-8116-49c3-8521-cc429980656a",
-      "title": {
-        "ko": "임용훈 앤 삼비스따스",
-        "en": "Im Yong-hoon & Sambistas"
+        "ko": "이주미 & 프렌즈",
+        "en": "Lee Ju-mi & Friends"
       },
       "venue_name": {
         "en": "Jazzclub Evans",
         "ko": "재즈클럽 에반스"
       },
       "venue_handle": "jazzclub_evans",
-      "datetime": "2026-11-07T11:00:00+00:00",
-      "selected_at": "2026-11-02T07:00:10.435104+00:00"
+      "datetime": "2026-11-05T11:00:00+00:00",
+      "selected_at": "2026-11-04T00:20:05.688304+00:00"
     },
-    "2026-11-08": {
-      "event_id": "evt_20261108_11cfa8bd-c898-41d5-b957-d70de6d3532a",
+    "2026-11-06": {
+      "event_id": "evt_20261106_2a7df257-3dcc-466e-a139-93bd537c6e77",
       "title": {
-        "ko": "이초롱 퀄텟",
-        "en": "Lee Cho-rong Quartet"
+        "ko": "홍주혜 밴드",
+        "en": "Hong Ju Hye Band"
       },
       "venue_name": {
-        "en": "Cotton Club",
-        "ko": "코튼클럽"
+        "en": "Bourbon Street Jazz Club",
+        "ko": "버번스트리트 재즈클럽"
       },
-      "venue_handle": "cottonclub_seoul",
-      "datetime": "2026-11-08T11:30:00+00:00",
-      "selected_at": "2026-11-02T07:00:10.435720+00:00"
+      "venue_handle": "bourbon_street_kr",
+      "datetime": "2026-11-06T11:00:00+00:00",
+      "selected_at": "2026-11-04T00:20:05.688931+00:00"
+    },
+    "2026-11-07": {
+      "event_id": "evt_20261107_11afe531-ee24-4930-97ac-5b3d5e069811",
+      "title": {
+        "ko": "니나파크 퀸텟",
+        "en": "Nina Park Quintet"
+      },
+      "venue_name": {
+        "en": "Entry55",
+        "ko": "엔트리55"
+      },
+      "venue_handle": "entry55_official",
+      "datetime": "2026-11-07T09:45:00+00:00",
+      "selected_at": "2026-11-04T00:20:05.689555+00:00"
+    },
+    "2026-11-08": {
+      "event_id": "evt_20261108_281b7c92-a77d-442a-898c-45809663efea",
+      "title": {
+        "ko": "메터데이",
+        "en": "Matterday"
+      },
+      "venue_name": {
+        "en": "EDLS",
+        "ko": "이들스 EDLS"
+      },
+      "venue_handle": "edls_official",
+      "datetime": "2026-11-08T09:30:00+00:00",
+      "selected_at": "2026-11-04T00:20:05.690107+00:00"
     }
   }
 }
