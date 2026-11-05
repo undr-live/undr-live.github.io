@@ -1807,6 +1807,66 @@
     }
   },
   {
+    "id": "evt_20261105_9b5d4671-42f7-4448-9e6e-d9fd2c264503",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-11-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfUNUmJhaF5/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [
+      "eda620f6-ea98-4abe-8878-178b632c7358",
+      "f83ebe04-92a6-42c0-a480-298d2fbb7789"
+    ],
+    "musicians": [
+      {
+        "id": "eda620f6-ea98-4abe-8878-178b632c7358",
+        "ig_handle": "darubee_pianist",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "임단비",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "f83ebe04-92a6-42c0-a480-298d2fbb7789",
+        "ig_handle": "yclee920",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이윤창",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-11-05T11:00:00+00:00",
+    "date": "2026-11-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임단비 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Im Danbi Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임단비 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261105_c40bd825-259e-44a4-8a05-02340a3a00c1",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-05T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -1949,6 +2009,62 @@
     },
     "_search_ko": {
       "title": "임다은 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261105_428908b8-d551-4283-8ff4-0ae1748f5553",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-05T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfWAscPT9XD/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "f0fdadc2-1d37-4697-b5ec-905bd83dc3c4",
+      "3ba006eb-4494-45eb-8139-8c7f352fd029"
+    ],
+    "musicians": [
+      {
+        "id": "f0fdadc2-1d37-4697-b5ec-905bd83dc3c4",
+        "ig_handle": "joon.pf",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "SeongJoon Park 박성준",
+        "instruments": []
+      },
+      {
+        "id": "3ba006eb-4494-45eb-8139-8c7f352fd029",
+        "ig_handle": "jazzerej",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "의진",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-05T12:00:00+00:00",
+    "date": "2026-11-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "무료입장 (후불제)",
+    "llm_confidence": 1.0,
+    "title": "박성준 그룹 (트럼펫 민오)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Joon Park Group (Trumpet Mino)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박성준 그룹 (트럼펫 민오)",
       "description": null
     }
   },
@@ -3605,7 +3721,7 @@
         "time": "14:00"
       }
     ],
-    "price": null,
+    "price": "15,000원",
     "llm_confidence": 1.0,
     "title": "조용찬 트리오",
     "description": null,
@@ -15441,6 +15557,40 @@
     }
   },
   {
+    "id": "evt_20261127_fc2232bc-b118-4e88-b374-bd1854c1538b",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-11-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-11-27T11:00:00+00:00",
+    "date": "2026-11-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이승열",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yi Sung-yol",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이승열",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261127_dbfeb69a-9729-4663-bcd4-3ab013083c5f",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -17612,6 +17762,108 @@
     }
   },
   {
+    "id": "evt_20261208_452104a9-ed04-42ac-a819-a2422152e738",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-12-08T11:00:00+00:00",
+    "date": "2026-12-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "테올란",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Teolan",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "테올란",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261215_94ee0eb3-2681-41ba-bf5e-0a3e5221fe7e",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-12-15T11:00:00+00:00",
+    "date": "2026-12-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "더하모닉스",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Harmonics",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더하모닉스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261217_696dad1a-78f5-4bea-828f-6672aeee5627",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-12-17T11:00:00+00:00",
+    "date": "2026-12-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "카리나 네뷸라",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Karina Nebula",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "카리나 네뷸라",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261219_c54b7cda-cc2e-44cb-9330-ab5dd84bed8a",
     "event_key": "v:ven_98158f4a-1e5f-4e91-9458-c0cd16e0b51d|t:2026-12-19T08:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfRDecYn_7s/",
@@ -17656,6 +17908,40 @@
     },
     "_search_ko": {
       "title": "리투: 크리스마스 콘서트 인 브라질",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261219_f5df8c32-6326-4d62-a479-c0b4fe02adf9",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-12-19T11:00:00+00:00",
+    "date": "2026-12-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이정선",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Jeong-seon",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이정선",
       "description": null
     }
   },
@@ -17732,6 +18018,40 @@
     },
     "_search_ko": {
       "title": "김준 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261229_381dd236-3255-4f43-bb04-5e04ed0d1a85",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-12-29T11:00:00+00:00",
+    "date": "2026-12-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "추다혜차지스",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Chudahye Chagis",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "추다혜차지스",
       "description": null
     }
   },
