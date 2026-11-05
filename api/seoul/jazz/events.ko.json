@@ -1093,6 +1093,44 @@
     }
   },
   {
+    "id": "evt_20261105_5ef4eeb6-73ae-4964-a14a-891e21b65b62",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-11-05T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfVtA_TgXTd/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-11-05T10:30:00+00:00",
+    "date": "2026-11-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이한진 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Hanjin Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이한진 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261105_d9305971-fa06-4279-b329-af9fa0b4e218",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-05T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
@@ -7560,6 +7598,40 @@
     },
     "_search_ko": {
       "title": "이민우 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261112_bbd1eece-d694-47da-b9ce-e395b5c0a74c",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfV_klWiX-6/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-12T11:00:00+00:00",
+    "date": "2026-11-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 밴드",
       "description": null
     }
   },
@@ -17491,6 +17563,54 @@
     },
     "_search_ko": {
       "title": "황인선 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261219_c54b7cda-cc2e-44cb-9330-ab5dd84bed8a",
+    "event_key": "v:ven_98158f4a-1e5f-4e91-9458-c0cd16e0b51d|t:2026-12-19T08:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfRDecYn_7s/",
+    "venue_handle": "jazzin_lab",
+    "musician_ids": [
+      "d8ec1d9e-2576-490a-842c-84712c6b27b8"
+    ],
+    "musicians": [
+      {
+        "id": "d8ec1d9e-2576-490a-842c-84712c6b27b8",
+        "ig_handle": "jhyundrums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김종현",
+        "instruments": [
+          "drums",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_98158f4a-1e5f-4e91-9458-c0cd16e0b51d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-19T08:00:00+00:00",
+    "date": "2026-12-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "17:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리투: 크리스마스 콘서트 인 브라질",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ritu: Christmas Concert in Brazil",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리투: 크리스마스 콘서트 인 브라질",
       "description": null
     }
   },
