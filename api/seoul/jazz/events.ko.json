@@ -1558,8 +1558,22 @@
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-11-06T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DetMrPwoPO2/",
     "venue_handle": "pdpdclub",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "d8ec1d9e-2576-490a-842c-84712c6b27b8"
+    ],
+    "musicians": [
+      {
+        "id": "d8ec1d9e-2576-490a-842c-84712c6b27b8",
+        "ig_handle": "jhyundrums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김종현",
+        "instruments": [
+          "drums",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
     "venue_location_id": "main",
@@ -1567,11 +1581,15 @@
     "date": "2026-11-06",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "리투",
     "description": null,
@@ -3782,8 +3800,19 @@
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-07T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
     "venue_handle": "sounddog_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c"
+    ],
+    "musicians": [
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
     "venue_location_id": "main",
@@ -3797,17 +3826,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "토드 허버트",
+    "title": "토드 허버트 퀄텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Todd Herbert",
+      "title": "Todd Herbert Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "토드 허버트",
+      "title": "토드 허버트 퀄텟",
       "description": null
     }
   },
@@ -6026,8 +6055,22 @@
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-10T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "f9eed726-4a10-4dec-bc34-ebcac3bb75a2"
+    ],
+    "musicians": [
+      {
+        "id": "f9eed726-4a10-4dec-bc34-ebcac3bb75a2",
+        "ig_handle": "sax_mikyung",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강미경",
+        "instruments": [
+          "saxophone",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -6041,17 +6084,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "비어드 영블러드",
+    "title": "비어드 앤 영블러드",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Beard Youngblood",
+      "title": "Beard & Youngblood",
       "description": null
     },
     "_search_ko": {
-      "title": "비어드 영블러드",
+      "title": "비어드 앤 영블러드",
       "description": null
     }
   },
@@ -7532,17 +7575,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "해일 & 러블리 프렌즈",
+    "title": "해일럽 앤 러블리 프렌즈",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Haeil & Lovely Friends",
+      "title": "Hailove & Lovely Friends",
       "description": null
     },
     "_search_ko": {
-      "title": "해일 & 러블리 프렌즈",
+      "title": "해일럽 앤 러블리 프렌즈",
       "description": null
     }
   },
@@ -8391,8 +8434,21 @@
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-14T09:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "927b1f0b-fff0-48c1-9a0c-a2907e7a457c"
+    ],
+    "musicians": [
+      {
+        "id": "927b1f0b-fff0-48c1-9a0c-a2907e7a457c",
+        "ig_handle": "m_moses_j",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정모세",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -8400,7 +8456,7 @@
     "date": "2026-11-14",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "18:30"
       }
     ],
@@ -9173,8 +9229,22 @@
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-14T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b"
+    ],
+    "musicians": [
+      {
+        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+        "ig_handle": "__suno_kim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김선호",
+        "instruments": [
+          "drums",
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -9182,23 +9252,23 @@
     "date": "2026-11-14",
     "sets": [
       {
-        "label": null,
+        "label": "2부",
         "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "전진용 콜렉티브 (보컬 나겸)",
+    "title": "전진웅 콜렉티브 (보컬 나겸)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jeon Jin-yong Collective (Vocal Na-gyeom)",
+      "title": "Jeon Jin-woong Collective with NaGyeom",
       "description": null
     },
     "_search_ko": {
-      "title": "전진용 콜렉티브 (보컬 나겸)",
+      "title": "전진웅 콜렉티브 (보컬 나겸)",
       "description": null
     }
   },
@@ -9452,6 +9522,40 @@
     },
     "_search_ko": {
       "title": "오이뚜 오이뚜",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261115_8c35074f-5f5d-43da-b4a2-ae8c0ea92ed1",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-15T09:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfVyq9oGXRN/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-11-15T09:30:00+00:00",
+    "date": "2026-11-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "메터데이",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Matterday",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "메터데이",
       "description": null
     }
   },
@@ -15950,8 +16054,21 @@
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-28T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "ec904762-022c-4d17-bb48-fd7b85da34fe"
+    ],
+    "musicians": [
+      {
+        "id": "ec904762-022c-4d17-bb48-fd7b85da34fe",
+        "ig_handle": "dongjinshinmusic",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "신동진",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
     "venue_location_id": "main",
