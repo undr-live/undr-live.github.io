@@ -1701,8 +1701,21 @@
     "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-06T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
     "venue_handle": "jazzclub_bluehour",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "9fa2e435-b1d1-4f5f-91c2-70f77814ccd8"
+    ],
+    "musicians": [
+      {
+        "id": "9fa2e435-b1d1-4f5f-91c2-70f77814ccd8",
+        "ig_handle": "oh5won1seok3",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "오원석",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
     "venue_location_id": "main",
@@ -1716,17 +1729,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "박재홍 BLUES & SOUL (보컬 박재홍)",
+    "title": "박재홍 블루스 앤 소울",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Park Jae-hong BLUES & SOUL (Vocal Park Jae-hong)",
+      "title": "Park Jae-hong Blues & Soul",
       "description": null
     },
     "_search_ko": {
-      "title": "박재홍 BLUES & SOUL (보컬 박재홍)",
+      "title": "박재홍 블루스 앤 소울",
       "description": null
     }
   },
