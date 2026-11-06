@@ -1437,6 +1437,55 @@
     }
   },
   {
+    "id": "evt_20261106_58ebfc55-f15c-4abe-afe0-59f860881f05",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-11-06T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfYkc_1Acoa/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [
+      "c3d1cacc-f101-4d42-9a13-a8df7dd10910"
+    ],
+    "musicians": [
+      {
+        "id": "c3d1cacc-f101-4d42-9a13-a8df7dd10910",
+        "ig_handle": "serin222222",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "권세린",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-11-06T10:30:00+00:00",
+    "date": "2026-11-06",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Ji-yeon Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Ji-yeon Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이지연 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261106_dead3aec-4e2c-470c-9d08-96fa47cc9a4f",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-06T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Dc3ixOUyk45/",
@@ -2316,8 +2365,39 @@
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-06T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
     "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "a8f86793-ec94-4d69-8297-fd5638601b33",
+      "6f2c40e8-e719-495a-97d5-458f825c4bbf",
+      "bd9d64f5-bd0f-4437-bccf-f6d0e02ba91b"
+    ],
+    "musicians": [
+      {
+        "id": "a8f86793-ec94-4d69-8297-fd5638601b33",
+        "ig_handle": "mmn.xnm",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "지 민 (Jimin)",
+        "instruments": []
+      },
+      {
+        "id": "6f2c40e8-e719-495a-97d5-458f825c4bbf",
+        "ig_handle": "barryyoung_",
+        "name_ko": "배영현",
+        "name_en": null,
+        "name_irl": "배영현",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "bd9d64f5-bd0f-4437-bccf-f6d0e02ba91b",
+        "ig_handle": "sol_brown_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박한솔",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
@@ -5884,8 +5964,19 @@
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-10T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
     "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "4a3cf8c5-1c0d-4693-87f4-e6ff6fa48373"
+    ],
+    "musicians": [
+      {
+        "id": "4a3cf8c5-1c0d-4693-87f4-e6ff6fa48373",
+        "ig_handle": "yongsunhyun",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "현용선",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
     "venue_location_id": "main",
@@ -6820,8 +6911,22 @@
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-12T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
     "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "560ad7e4-a6e3-4ace-a387-7b033d0f0ed1"
+    ],
+    "musicians": [
+      {
+        "id": "560ad7e4-a6e3-4ace-a387-7b033d0f0ed1",
+        "ig_handle": "solidbass_jong",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "윤종률",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
     "venue_location_id": "main",
@@ -7062,8 +7167,37 @@
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-13T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
     "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "bea29191-9afa-4c47-82f2-491799caf480",
+      "fcdc9255-c642-4c40-8b99-e403098ffb85",
+      "f806c026-c591-40cd-b5e2-c895b4aa7597"
+    ],
+    "musicians": [
+      {
+        "id": "bea29191-9afa-4c47-82f2-491799caf480",
+        "ig_handle": "httrp_",
+        "name_ko": "홍태훈",
+        "name_en": null,
+        "name_irl": "홍태훈",
+        "instruments": []
+      },
+      {
+        "id": "fcdc9255-c642-4c40-8b99-e403098ffb85",
+        "ig_handle": "momints_notice",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "민홍기",
+        "instruments": []
+      },
+      {
+        "id": "f806c026-c591-40cd-b5e2-c895b4aa7597",
+        "ig_handle": "east___summer",
+        "name_ko": "신동하",
+        "name_en": null,
+        "name_irl": "신동하",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
     "venue_location_id": "main",
@@ -7612,6 +7746,53 @@
     }
   },
   {
+    "id": "evt_20261113_d337239c-6b1f-404c-833b-b38dcd561e32",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-13T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfYkdBMDqua/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [
+      "9fa2e435-b1d1-4f5f-91c2-70f77814ccd8"
+    ],
+    "musicians": [
+      {
+        "id": "9fa2e435-b1d1-4f5f-91c2-70f77814ccd8",
+        "ig_handle": "oh5won1seok3",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "오원석",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-13T11:30:00+00:00",
+    "date": "2026-11-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Jae Hong Blues Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Jae Hong Blues Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박재홍 블루스 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261113_c67abd0b-268a-447e-9ff8-04d159083289",
     "event_key": "v:ven_f9b434d4-e8f0-42e1-ba82-2ccfac3544dd|t:2026-11-13T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfJALLCpg4z/",
@@ -7688,8 +7869,19 @@
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-13T12:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
     "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "4f67f83c-b263-4bdd-867f-12a88954e400"
+    ],
+    "musicians": [
+      {
+        "id": "4f67f83c-b263-4bdd-867f-12a88954e400",
+        "ig_handle": "drum_seokwoo",
+        "name_ko": "채석우",
+        "name_en": null,
+        "name_irl": "채석우",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
     "venue_location_id": "main",
@@ -8065,8 +8257,19 @@
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-14T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
     "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "354f5d0d-5187-4b1e-8918-57afc98922ef"
+    ],
+    "musicians": [
+      {
+        "id": "354f5d0d-5187-4b1e-8918-57afc98922ef",
+        "ig_handle": "youheonseok",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "유헌석",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
     "venue_location_id": "main",
