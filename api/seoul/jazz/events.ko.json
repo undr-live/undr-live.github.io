@@ -4426,6 +4426,62 @@
     }
   },
   {
+    "id": "evt_20261107_f8dbc613-15ad-4ae0-931d-c12e61d16425",
+    "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-11-07T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfWGlg6Jdei/",
+    "venue_handle": "muga.misa",
+    "musician_ids": [
+      "c1c1c573-46bf-4701-a9a3-9f99985eba03",
+      "8ffa0234-cbf6-4713-b9d7-19aeacdff770"
+    ],
+    "musicians": [
+      {
+        "id": "c1c1c573-46bf-4701-a9a3-9f99985eba03",
+        "ig_handle": "oscar_pizzason",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "진재환",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "8ffa0234-cbf6-4713-b9d7-19aeacdff770",
+        "ig_handle": "mj__azz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정민준",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
+    "venue_location_id": "main",
+    "datetime": "2026-11-07T11:30:00+00:00",
+    "date": "2026-11-07",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "진재환 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jin Jae-hwan Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "진재환 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261107_3540e37e-3b3e-4574-a762-ae70b68297d7",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-07T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
@@ -11146,6 +11202,78 @@
     },
     "_search_ko": {
       "title": "리얼 재즈",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261120_61e7bdec-a217-4ba9-b243-b8b5b66cabf6",
+    "event_key": "v:ven_1aa53620-2006-41ed-8fec-93d15747afa9|t:2026-11-20T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfYkdIemGRP/",
+    "venue_handle": "myjazzgarden",
+    "musician_ids": [
+      "2b4bf76e-33bf-4215-a5e7-cfc862c79f24",
+      "bea29191-9afa-4c47-82f2-491799caf480",
+      "aeb4e952-8f2a-4fdc-a1dd-225a98f254ca",
+      "7938b791-2989-4220-abec-8b4b5c6b1b57"
+    ],
+    "musicians": [
+      {
+        "id": "2b4bf76e-33bf-4215-a5e7-cfc862c79f24",
+        "ig_handle": "jyunkkim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "지윤 JI YUN",
+        "instruments": []
+      },
+      {
+        "id": "bea29191-9afa-4c47-82f2-491799caf480",
+        "ig_handle": "httrp_",
+        "name_ko": "홍태훈",
+        "name_en": null,
+        "name_irl": "홍태훈",
+        "instruments": []
+      },
+      {
+        "id": "aeb4e952-8f2a-4fdc-a1dd-225a98f254ca",
+        "ig_handle": "yesolaa",
+        "name_ko": "안예솔",
+        "name_en": "Yesol An",
+        "name_irl": "안예솔 Yesol An",
+        "instruments": []
+      },
+      {
+        "id": "7938b791-2989-4220-abec-8b4b5c6b1b57",
+        "ig_handle": "hayeonsongdrums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "송하연 Hayeon Song",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1aa53620-2006-41ed-8fec-93d15747afa9",
+    "venue_location_id": "main",
+    "datetime": "2026-11-20T10:30:00+00:00",
+    "date": "2026-11-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "지윤 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jiyun Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "지윤 퀸텟",
       "description": null
     }
   },
