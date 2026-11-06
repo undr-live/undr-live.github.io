@@ -2253,21 +2253,30 @@
   {
     "id": "evt_20261106_3aae4fdc-8a54-4e52-b734-2bacf80532ec",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-11-06T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/reel/DfUPQ0uBGZt/",
+    "source_url": "https://www.instagram.com/p/DfXDa3vhIGV/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [
-      "2c856630-ec1b-49a2-b67f-152179b01ecc"
+      "eda620f6-ea98-4abe-8878-178b632c7358",
+      "f83ebe04-92a6-42c0-a480-298d2fbb7789"
     ],
     "musicians": [
       {
-        "id": "2c856630-ec1b-49a2-b67f-152179b01ecc",
-        "ig_handle": "saxholic9",
+        "id": "eda620f6-ea98-4abe-8878-178b632c7358",
+        "ig_handle": "darubee_pianist",
         "name_ko": null,
         "name_en": null,
-        "name_irl": "구민상",
+        "name_irl": "임단비",
         "instruments": [
-          "saxophone"
+          "piano"
         ]
+      },
+      {
+        "id": "f83ebe04-92a6-42c0-a480-298d2fbb7789",
+        "ig_handle": "yclee920",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이윤창",
+        "instruments": []
       }
     ],
     "musician_ig_handles": [],
@@ -2279,21 +2288,29 @@
       {
         "label": null,
         "time": "20:00"
+      },
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "구민상 퀄텟",
+    "title": "펑키소사이어티",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Gu Min-sang Quartet",
+      "title": "Funky Society",
       "description": null
     },
     "_search_ko": {
-      "title": "구민상 퀄텟",
+      "title": "펑키소사이어티",
       "description": null
     }
   },
@@ -2357,6 +2374,81 @@
     },
     "_search_ko": {
       "title": "진 김 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261106_327bc0f8-608a-4a79-9cb9-ad60edb03dea",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-06T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfYinikkzBs/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "879fc701-9aa1-4594-a6b4-41fc8e8932e5",
+      "699f361a-8d81-4617-bdb0-5aaf9dd5477d",
+      "44604a9c-01c3-4638-b75c-cd6f643672d0",
+      "7ab21601-deb8-4329-bb08-a809033f7861"
+    ],
+    "musicians": [
+      {
+        "id": "879fc701-9aa1-4594-a6b4-41fc8e8932e5",
+        "ig_handle": "youngjik.k",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김영직",
+        "instruments": []
+      },
+      {
+        "id": "699f361a-8d81-4617-bdb0-5aaf9dd5477d",
+        "ig_handle": "philgrenadier",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Phil Grenadier",
+        "instruments": []
+      },
+      {
+        "id": "44604a9c-01c3-4638-b75c-cd6f643672d0",
+        "ig_handle": "giboon_jazzer",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "진현석",
+        "instruments": []
+      },
+      {
+        "id": "7ab21601-deb8-4329-bb08-a809033f7861",
+        "ig_handle": "20_more_bass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정이령",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-06T11:00:00+00:00",
+    "date": "2026-11-06",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "후불제",
+    "llm_confidence": 1.0,
+    "title": "김영직 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Youngjik Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김영직 퀸텟",
       "description": null
     }
   },
@@ -2901,6 +2993,60 @@
     },
     "_search_ko": {
       "title": "유택언 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261106_a6cc8eb0-c967-4bc3-91a9-20302b4fb5c6",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-06T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfYinikkzBs/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+      "937b6b32-beba-4627-9ded-e2f9bccf747f"
+    ],
+    "musicians": [
+      {
+        "id": "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+        "ig_handle": "tp.heim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최 준기",
+        "instruments": []
+      },
+      {
+        "id": "937b6b32-beba-4627-9ded-e2f9bccf747f",
+        "ig_handle": "limcart0823",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "임재민",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-06T13:00:00+00:00",
+    "date": "2026-11-06",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "후불제",
+    "llm_confidence": 1.0,
+    "title": "이평 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Pyung Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이평 퀄텟",
       "description": null
     }
   },
