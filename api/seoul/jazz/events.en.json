@@ -3176,7 +3176,7 @@
   {
     "id": "evt_20261108_e9cb81fa-f176-497a-8b38-0e03db98526a",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-11-08T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/reel/DfbP3AJB1Mo/",
+    "source_url": "https://www.instagram.com/p/DfdrwZnBVWK/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musicians": [],
@@ -3189,6 +3189,14 @@
       {
         "label": null,
         "time": "20:00"
+      },
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
@@ -7327,6 +7335,40 @@
     },
     "_search_ko": {
       "title": "김현철 스페셜 스테이지",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261115_29520d0d-402f-48e5-a177-edb320179f18",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-15T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfduDT-n63Z/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-15T10:00:00+00:00",
+    "date": "2026-11-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "So Sangdeok Quintet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "So Sangdeok Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "소상덕 퀸텟",
       "description": null
     }
   },
