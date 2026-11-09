@@ -5750,8 +5750,33 @@
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-11-15T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DetMrPwoPO2/",
     "venue_handle": "pdpdclub",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "f82bac5a-ba0e-467a-9c13-0998342c1e0a",
+      "657e643a-d154-4b54-8702-79a09bf83b32"
+    ],
+    "musicians": [
+      {
+        "id": "f82bac5a-ba0e-467a-9c13-0998342c1e0a",
+        "ig_handle": "yuntandejaneiro",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이영찬",
+        "instruments": [
+          "piano",
+          "guitar"
+        ]
+      },
+      {
+        "id": "657e643a-d154-4b54-8702-79a09bf83b32",
+        "ig_handle": "_yezz_in",
+        "name_ko": "권예진",
+        "name_en": null,
+        "name_irl": "권예진",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
     "venue_location_id": "main",
@@ -5759,23 +5784,27 @@
     "date": "2026-11-15",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "메니나와 메니노스",
+    "title": "우마 메니나 이 오스 메네노스",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Menina & Meninos",
+      "title": "Uma Menina e os Menenos",
       "description": null
     },
     "_search_ko": {
-      "title": "메니나와 메니노스",
+      "title": "우마 메니나 이 오스 메네노스",
       "description": null
     }
   },
