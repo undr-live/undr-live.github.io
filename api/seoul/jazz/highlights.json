@@ -1,84 +1,82 @@
 {
-  "week_start_date": "2026-11-02",
-  "generated_at": "2026-11-04T00:20:05.690150+00:00",
+  "week_start_date": "2026-11-09",
+  "generated_at": "2026-11-09T07:00:15.718600+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-11-04": {
-      "event_id": "evt_20261104_7a639144-26ed-433d-9cfd-9c323bcf280f",
+    "2026-11-11": {
+      "event_id": "evt_20261111_093ec019-8edc-4b17-a7bf-673786bf51e3",
       "title": {
-        "ko": "유하영 트리오",
-        "en": "Hayoung Lyou Trio"
+        "ko": "김현태 트리오",
+        "en": "Hyuntae Kim Trio"
       },
       "venue_name": {
-        "en": "Sound Dog",
-        "ko": "사운드 독"
+        "en": "Oleojazzpub",
+        "ko": "올레오 재즈펍"
       },
-      "venue_handle": "sounddog_jazz",
-      "datetime": "2026-11-04T11:00:00+00:00",
-      "selected_at": "2026-11-04T00:20:05.642950+00:00",
+      "venue_handle": "oleojazzpub",
+      "datetime": "2026-11-11T11:00:00+00:00",
+      "selected_at": "2026-11-09T07:00:15.716877+00:00"
+    },
+    "2026-11-12": {
+      "event_id": "evt_20261112_baf4a194-67e0-418f-b493-833bd64fa261",
+      "title": {
+        "ko": "해일립 듀오",
+        "en": "Haeylip Duo"
+      },
+      "venue_name": {
+        "en": "Bar Tican",
+        "ko": "바티칸"
+      },
+      "venue_handle": "bar_tican",
+      "datetime": "2026-11-12T12:00:00+00:00",
+      "selected_at": "2026-11-09T07:00:15.717339+00:00"
+    },
+    "2026-11-13": {
+      "event_id": "pinned-2026-11-13-mudaeruk_b",
+      "title": {
+        "ko": "유하영 · 안상준 · 권세준 · 이형진"
+      },
+      "venue_name": {
+        "ko": "무대륙",
+        "en": "Mudaeruk"
+      },
+      "venue_handle": "mudaeruk_b",
+      "datetime": "2026-11-13T19:30:00+09:00",
+      "selected_at": "2026-11-09T07:00:15.676226+00:00",
       "pinned": true,
       "title_pinned": true,
       "lineup": {
-        "ko": "piano 유하영 · drums 송준영 · bass 권세준"
-      },
-      "end_datetime": "2026-11-04T22:00:00+09:00"
+        "ko": "piano 유하영 · guitar 안상준 · bass 권세준 · tenor sax 이형진"
+      }
     },
-    "2026-11-05": {
-      "event_id": "evt_20261105_1f59d369-2a0c-4ecc-aed9-039b10895d6f",
+    "2026-11-14": {
+      "event_id": "evt_20261114_df2548ab-f776-40af-8c99-59a6f3648166",
       "title": {
-        "ko": "이주미 & 프렌즈",
-        "en": "Lee Ju-mi & Friends"
+        "ko": "극동음악단 재즈 나이트",
+        "en": "Far East Orchestra Jazz Night"
       },
       "venue_name": {
-        "en": "Jazzclub Evans",
-        "ko": "재즈클럽 에반스"
+        "en": "BLUE CAT",
+        "ko": "블루캣"
       },
-      "venue_handle": "jazzclub_evans",
-      "datetime": "2026-11-05T11:00:00+00:00",
-      "selected_at": "2026-11-04T00:20:05.688304+00:00"
+      "venue_handle": "bluecat.fezh",
+      "datetime": "2026-11-14T10:30:00+00:00",
+      "selected_at": "2026-11-09T07:00:15.718121+00:00"
     },
-    "2026-11-06": {
-      "event_id": "evt_20261106_2a7df257-3dcc-466e-a139-93bd537c6e77",
+    "2026-11-15": {
+      "event_id": "evt_20261115_425ae7ac-d71c-4ddf-820d-4a36763cb76b",
       "title": {
-        "ko": "홍주혜 밴드",
-        "en": "Hong Ju Hye Band"
+        "ko": "김순영 재즈 탭 밴드",
+        "en": "Kim Sun-young Jazz Tap Band"
       },
       "venue_name": {
-        "en": "Bourbon Street Jazz Club",
-        "ko": "버번스트리트 재즈클럽"
+        "en": "FLATNINE",
+        "ko": "플랫나인"
       },
-      "venue_handle": "bourbon_street_kr",
-      "datetime": "2026-11-06T11:00:00+00:00",
-      "selected_at": "2026-11-04T00:20:05.688931+00:00"
-    },
-    "2026-11-07": {
-      "event_id": "evt_20261107_11afe531-ee24-4930-97ac-5b3d5e069811",
-      "title": {
-        "ko": "니나파크 퀸텟",
-        "en": "Nina Park Quintet"
-      },
-      "venue_name": {
-        "en": "Entry55",
-        "ko": "엔트리55"
-      },
-      "venue_handle": "entry55_official",
-      "datetime": "2026-11-07T09:45:00+00:00",
-      "selected_at": "2026-11-04T00:20:05.689555+00:00"
-    },
-    "2026-11-08": {
-      "event_id": "evt_20261108_281b7c92-a77d-442a-898c-45809663efea",
-      "title": {
-        "ko": "메터데이",
-        "en": "Matterday"
-      },
-      "venue_name": {
-        "en": "EDLS",
-        "ko": "이들스 EDLS"
-      },
-      "venue_handle": "edls_official",
-      "datetime": "2026-11-08T09:30:00+00:00",
-      "selected_at": "2026-11-04T00:20:05.690107+00:00"
+      "venue_handle": "flatnine_jazzbar",
+      "datetime": "2026-11-15T10:00:00+00:00",
+      "selected_at": "2026-11-09T07:00:15.718549+00:00"
     }
   }
 }
