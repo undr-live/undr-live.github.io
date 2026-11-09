@@ -287,6 +287,44 @@
     }
   },
   {
+    "id": "evt_20261110_76401a0b-fc3a-4d14-ac68-e67a4d2dac2a",
+    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-10T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdNO_L0ybiL/",
+    "venue_handle": "sounddog_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
+    "venue_location_id": "main",
+    "datetime": "2026-11-10T10:30:00+00:00",
+    "date": "2026-11-10",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      },
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Jazz Jam Day",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jazz Jam Day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "재즈 잼 데이",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261110_1c3aadc2-cbe2-4aee-989d-4ffb76fa3186",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-10T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
@@ -331,40 +369,6 @@
     },
     "_search_ko": {
       "title": "비어드 앤 영블러드",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261110_76401a0b-fc3a-4d14-ac68-e67a4d2dac2a",
-    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-10T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdNO_L0ybiL/",
-    "venue_handle": "sounddog_jazz",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
-    "venue_location_id": "main",
-    "datetime": "2026-11-10T11:00:00+00:00",
-    "date": "2026-11-10",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": "20,000원",
-    "llm_confidence": 1.0,
-    "title": "Jazz Jam Day",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Jazz Jam Day",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "재즈 잼 데이",
       "description": null
     }
   },
@@ -3335,6 +3339,55 @@
     },
     "_search_ko": {
       "title": "블루 메신저스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261113_fa0755a7-733e-4f01-9c25-f946aec4ccb7",
+    "event_key": "v:ven_dda28cb8-70a0-4815-971c-666b82e81609|t:2026-11-13T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfhFGpFj80y/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [
+      "fcdc9255-c642-4c40-8b99-e403098ffb85"
+    ],
+    "musicians": [
+      {
+        "id": "fcdc9255-c642-4c40-8b99-e403098ffb85",
+        "ig_handle": "momints_notice",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "민홍기",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dda28cb8-70a0-4815-971c-666b82e81609",
+    "venue_location_id": "main",
+    "datetime": "2026-11-13T11:30:00+00:00",
+    "date": "2026-11-13",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Daeun Quintet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Daeun Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "다은 퀸텟",
       "description": null
     }
   },
