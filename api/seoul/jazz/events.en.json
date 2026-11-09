@@ -607,6 +607,62 @@
     }
   },
   {
+    "id": "evt_20261108_392655fc-3a37-4d5c-b8cf-11c2402baad2",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-08T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfcBYYFkyV3/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+      "92dfd4be-ad33-4646-8748-5ee3cbdadb66"
+    ],
+    "musicians": [
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      },
+      {
+        "id": "92dfd4be-ad33-4646-8748-5ee3cbdadb66",
+        "ig_handle": "sean_pentland",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Sean Pentland",
+        "instruments": [
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-08T10:00:00+00:00",
+    "date": "2026-11-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "무료입장 (후불제)",
+    "llm_confidence": 1.0,
+    "title": "Todd Herbert Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Todd Herbert Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "토드 허버트 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261108_ab21bda3-69f2-4172-b0a5-170970227ca8",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-11-08T10:10:00+00:00",
     "source_url": "https://www.instagram.com/p/DfQtyvpH3It/",
@@ -1100,6 +1156,73 @@
     },
     "_search_ko": {
       "title": "이초롱 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261108_a1f26aed-d63c-40f0-be70-c2b2ae7719f1",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-08T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfcBYYFkyV3/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "83942796-9c55-44d6-bbfe-0967aa51df55",
+      "3ba006eb-4494-45eb-8139-8c7f352fd029",
+      "1c5b56a2-92ae-43fe-9fb6-e35405345f9b"
+    ],
+    "musicians": [
+      {
+        "id": "83942796-9c55-44d6-bbfe-0967aa51df55",
+        "ig_handle": "juwanson_o",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Juwan 주완",
+        "instruments": []
+      },
+      {
+        "id": "3ba006eb-4494-45eb-8139-8c7f352fd029",
+        "ig_handle": "jazzerej",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "의진",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "1c5b56a2-92ae-43fe-9fb6-e35405345f9b",
+        "ig_handle": "__hwkim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김현우",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-08T12:00:00+00:00",
+    "date": "2026-11-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "무료입장 (후불제)",
+    "llm_confidence": 1.0,
+    "title": "Jin Haeseong Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jin Haeseong Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "진해성 퀄텟",
       "description": null
     }
   },
@@ -2292,8 +2415,32 @@
     "event_key": "v:ven_ead7b611-beee-4686-87cf-472ad597faff|t:2026-11-11T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfPMEj2M-di/",
     "venue_handle": "bourbon_street_kr",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+      "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8"
+    ],
+    "musicians": [
+      {
+        "id": "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+        "ig_handle": "hey.hailluv",
+        "name_ko": "해일럽",
+        "name_en": null,
+        "name_irl": "해일럽",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8",
+        "ig_handle": "namhyuckcho_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조남혁",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_ead7b611-beee-4686-87cf-472ad597faff",
     "venue_location_id": "main",
@@ -2307,13 +2454,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Haeilup Quartet",
+    "title": "Hailluv Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Haeilup Quartet",
+      "title": "Hailluv Quartet",
       "description": null
     },
     "_search_ko": {
@@ -2934,8 +3081,32 @@
     "event_key": "v:ven_ead7b611-beee-4686-87cf-472ad597faff|t:2026-11-12T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfPMEj2M-di/",
     "venue_handle": "bourbon_street_kr",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "7f7cc249-188f-48c8-84b9-64802bedd88d",
+      "07422355-daf7-4333-beef-1718cdc47645"
+    ],
+    "musicians": [
+      {
+        "id": "7f7cc249-188f-48c8-84b9-64802bedd88d",
+        "ig_handle": "minulee_jazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "재즈보컬리스트 이민우 | Jazz Vocalist Minu Lee",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "07422355-daf7-4333-beef-1718cdc47645",
+        "ig_handle": "drummer.jamesjo",
+        "name_ko": "성창 조",
+        "name_en": null,
+        "name_irl": "성창 조",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_ead7b611-beee-4686-87cf-472ad597faff",
     "venue_location_id": "main",
@@ -3836,8 +4007,31 @@
     "event_key": "v:ven_ead7b611-beee-4686-87cf-472ad597faff|t:2026-11-13T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfPMEj2M-di/",
     "venue_handle": "bourbon_street_kr",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "507e2fc1-090c-404b-a7d1-08889d8553ad",
+      "0bc833a7-0579-47c0-9087-b9578c68727b"
+    ],
+    "musicians": [
+      {
+        "id": "507e2fc1-090c-404b-a7d1-08889d8553ad",
+        "ig_handle": "sugarjazzzz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": null,
+        "instruments": []
+      },
+      {
+        "id": "0bc833a7-0579-47c0-9087-b9578c68727b",
+        "ig_handle": "yoon_sunghee_trio",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "윤성희트리오",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_ead7b611-beee-4686-87cf-472ad597faff",
     "venue_location_id": "main",
@@ -5549,8 +5743,39 @@
     "event_key": "v:ven_ead7b611-beee-4686-87cf-472ad597faff|t:2026-11-14T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfPMEj2M-di/",
     "venue_handle": "bourbon_street_kr",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "254b40c1-f0a5-4e95-b08f-488a659adc0e",
+      "8b3e9011-9c18-4e73-9208-877fc9f2877b",
+      "b7fa81f4-7144-4fdb-afe2-274353b7a266"
+    ],
+    "musicians": [
+      {
+        "id": "254b40c1-f0a5-4e95-b08f-488a659adc0e",
+        "ig_handle": "jayhoon_ryu",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "류제훈 Jay Hoon Ryu",
+        "instruments": [
+          "trumpet"
+        ]
+      },
+      {
+        "id": "8b3e9011-9c18-4e73-9208-877fc9f2877b",
+        "ig_handle": "qjawns005",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김범준",
+        "instruments": []
+      },
+      {
+        "id": "b7fa81f4-7144-4fdb-afe2-274353b7a266",
+        "ig_handle": "sih___oo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이시환",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_ead7b611-beee-4686-87cf-472ad597faff",
     "venue_location_id": "main",
@@ -5564,17 +5789,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Seoraeculus",
+    "title": "Seoraegulars",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Seoraeculus",
+      "title": "Seoraegulars",
       "description": null
     },
     "_search_ko": {
-      "title": "서래큘러스",
+      "title": "서래귤러스",
       "description": null
     }
   },
@@ -7077,6 +7302,40 @@
     },
     "_search_ko": {
       "title": "남유선 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261116_1b62bd76-d5a9-4542-bd92-d32be7a08c69",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-16T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfgS2EnDxIU/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-16T11:30:00+00:00",
+    "date": "2026-11-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Young-kyung Trio + 1",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Young-kyung Trio + 1",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이영경 트리오 + 1",
       "description": null
     }
   },
