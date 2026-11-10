@@ -3206,6 +3206,60 @@
     }
   },
   {
+    "id": "evt_20261113_f37802c4-38f9-4e63-ba3f-f95f65fe6254",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-11-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfgbvUrPgcA/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [
+      "a8f86793-ec94-4d69-8297-fd5638601b33",
+      "1ab36ad4-0a95-48b1-ab6e-0e10d2e6d25a"
+    ],
+    "musicians": [
+      {
+        "id": "a8f86793-ec94-4d69-8297-fd5638601b33",
+        "ig_handle": "mmn.xnm",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "지 민 (Jimin)",
+        "instruments": []
+      },
+      {
+        "id": "1ab36ad4-0a95-48b1-ab6e-0e10d2e6d25a",
+        "ig_handle": "yun_jazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김윤재",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-11-13T11:00:00+00:00",
+    "date": "2026-11-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "더 미드나잇 제이 프로젝트 (보컬)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Midnight J. Project (Vocal)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 미드나잇 제이 프로젝트 (보컬)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261113_e4ca02ee-ddcf-40e6-92f5-b70bebe1ece0",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-13T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -6101,6 +6155,57 @@
     },
     "_search_ko": {
       "title": "홍지윤 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261115_c63ab249-2731-4a67-856d-37f13ce7cba5",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-11-15T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfhS90LgFTW/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [
+      "7297fa80-f041-4faf-ae14-52df6172f35c"
+    ],
+    "musicians": [
+      {
+        "id": "7297fa80-f041-4faf-ae14-52df6172f35c",
+        "ig_handle": "jazzleopard",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "류인기",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-15T10:30:00+00:00",
+    "date": "2026-11-15",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "20:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "류인기 듀오 (보컬 황은혜)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ryu In-gi Duo (Vocal Hwang Eun-hye)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "류인기 듀오 (보컬 황은혜)",
       "description": null
     }
   },
