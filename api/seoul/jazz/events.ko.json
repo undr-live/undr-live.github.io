@@ -564,6 +564,40 @@
     }
   },
   {
+    "id": "evt_20261111_0896c1ab-a6d0-49b7-ab91-4ba172a79dbe",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-11T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfkIUHsE8uV/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-11T10:00:00+00:00",
+    "date": "2026-11-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "인더그루브",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "IntheGroove",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "인더그루브",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261111_9631eee9-9267-4c84-b630-01de313756f6",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-11T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
@@ -1251,6 +1285,72 @@
     }
   },
   {
+    "id": "evt_20261111_9a3e2186-185e-4bc3-963f-159f0e145e96",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-11-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfkQANDzPoV/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [
+      "ee46b8f4-fa29-4c44-86cf-46e695a21d48",
+      "6480f3a4-30b9-48a5-8b08-21f34d2e10d9",
+      "d8ec1d9e-2576-490a-842c-84712c6b27b8"
+    ],
+    "musicians": [
+      {
+        "id": "ee46b8f4-fa29-4c44-86cf-46e695a21d48",
+        "ig_handle": "bettyhwang_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Betty",
+        "instruments": []
+      },
+      {
+        "id": "6480f3a4-30b9-48a5-8b08-21f34d2e10d9",
+        "ig_handle": "ththe__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조에스더",
+        "instruments": []
+      },
+      {
+        "id": "d8ec1d9e-2576-490a-842c-84712c6b27b8",
+        "ig_handle": "jhyundrums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김종현",
+        "instruments": [
+          "drums",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-11-11T11:00:00+00:00",
+    "date": "2026-11-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "베티",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Betty",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "베티",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261111_71dead51-d023-4de8-8078-b36d4a1d7590",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-11T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -1353,6 +1453,62 @@
     },
     "_search_ko": {
       "title": "해이피 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261111_da9c6370-551f-4e67-9349-84cfeea2709e",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-11T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfkIUHsE8uV/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+      "67ab5294-8ccf-492e-b073-774e5a7e7bae"
+    ],
+    "musicians": [
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      },
+      {
+        "id": "67ab5294-8ccf-492e-b073-774e5a7e7bae",
+        "ig_handle": "manuelweyand",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Manuel Weyand 마누엘",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-11T12:00:00+00:00",
+    "date": "2026-11-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "토드 허버트 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Todd Herbert Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "토드 허버트 퀄텟",
       "description": null
     }
   },
@@ -2645,8 +2801,37 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-11-13T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De2yAkPk9fC/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "0bece4cf-7134-490e-9bce-98314adc8853",
+      "2daf4785-0de4-4cd2-84d9-deba7fc2627e",
+      "8ffa0234-cbf6-4713-b9d7-19aeacdff770"
+    ],
+    "musicians": [
+      {
+        "id": "0bece4cf-7134-490e-9bce-98314adc8853",
+        "ig_handle": "2junebbang2",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이준영",
+        "instruments": []
+      },
+      {
+        "id": "2daf4785-0de4-4cd2-84d9-deba7fc2627e",
+        "ig_handle": "emmet_709",
+        "name_ko": "최은규",
+        "name_en": null,
+        "name_irl": "Choi Eun Gyu",
+        "instruments": []
+      },
+      {
+        "id": "8ffa0234-cbf6-4713-b9d7-19aeacdff770",
+        "ig_handle": "mj__azz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정민준",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -2660,17 +2845,17 @@
     ],
     "price": "₩15K",
     "llm_confidence": 1.0,
-    "title": "이준혁 트리오",
+    "title": "이준영 트리오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Jun-hyeok Trio",
+      "title": "Lee Jun-young Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "이준혁 트리오",
+      "title": "이준영 트리오",
       "description": null
     }
   },
@@ -9352,6 +9537,40 @@
     },
     "_search_ko": {
       "title": "레이니 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261121_95ba56b1-51fd-4d68-b725-c700351a60fe",
+    "event_key": "v:ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0|t:2026-11-21T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfixB83H_4L/",
+    "venue_handle": "yoori.kim_mullaejazzin",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T10:00:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "예매 25,000원 / 현장 30,000원",
+    "llm_confidence": 1.0,
+    "title": "유월의 인사",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "June's Greeting",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "유월의 인사",
       "description": null
     }
   },
