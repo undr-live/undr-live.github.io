@@ -683,6 +683,44 @@
     }
   },
   {
+    "id": "evt_20261111_7804ef04-0275-426d-ab29-501a88e17528",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-11-11T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DflTljVgYeV/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-11-11T10:30:00+00:00",
+    "date": "2026-11-11",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon Ik-hyung Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yoon Ik-hyung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "윤익형 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261111_282337ba-254b-4def-b2e4-497f556fe151",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-11T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdNO_L0ybiL/",
@@ -9157,6 +9195,40 @@
     }
   },
   {
+    "id": "evt_20261120_2494c856-5cfd-47b1-a81b-6172074d669d",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-11-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfjPMCMPHsH/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-11-20T11:00:00+00:00",
+    "date": "2026-11-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "예매 20,000원, 현장 25,000원",
+    "llm_confidence": 1.0,
+    "title": "SIMILE",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SIMILE",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "시밀레",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261120_0c2368fd-17b0-4bfb-b28d-99fd3b29ba4a",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-20T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -10186,6 +10258,40 @@
     },
     "_search_ko": {
       "title": "리치맨과 그루브 나이스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261121_b6250f16-0eb4-43fa-a32b-328a8e35f913",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfjPMCMPHsH/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T11:00:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "예매 20,000원, 현장 25,000원",
+    "llm_confidence": 1.0,
+    "title": "SIMILE",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SIMILE",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "시밀레",
       "description": null
     }
   },
