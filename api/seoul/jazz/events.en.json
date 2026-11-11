@@ -1416,8 +1416,19 @@
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-11T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
     "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "0cf2a1ee-1d07-4336-aac9-60992aed9a16"
+    ],
+    "musicians": [
+      {
+        "id": "0cf2a1ee-1d07-4336-aac9-60992aed9a16",
+        "ig_handle": "h_0zl",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정현우",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
@@ -15443,6 +15454,48 @@
     }
   },
   {
+    "id": "evt_20261224_f166d4ae-1870-44e7-88fa-76df11ad41ae",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-12-24T08:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DflZZOUH0uB/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T08:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "17:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
+      },
+      {
+        "label": "3부",
+        "time": "23:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Ah-im Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Choi Ah-im Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최아임 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_f6a15521-2175-4b7a-9327-1581acd8f39f",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-24T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -15473,6 +15526,52 @@
     },
     "_search_ko": {
       "title": "섭스 주인장 (보컬 정우)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_23100d28-d2ce-4b54-be16-6d295fecf636",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-12-25T04:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DflZZOUH0uB/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T04:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "13:00"
+      },
+      {
+        "label": "2부",
+        "time": "16:00"
+      },
+      {
+        "label": "3부",
+        "time": "19:00"
+      },
+      {
+        "label": "4부",
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Go-eun Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Go-eun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이고은 퀄텟",
       "description": null
     }
   },
@@ -15556,6 +15655,102 @@
     },
     "_search_ko": {
       "title": "섭스 주인장 (베이스 박엽)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261226_5f175963-dca4-4d6b-b9b3-d77df110ce91",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-12-26T05:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DflZZOUH0uB/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [
+      "6ac59c0b-f2ad-4ad4-ab23-d0f9389fe486"
+    ],
+    "musicians": [
+      {
+        "id": "6ac59c0b-f2ad-4ad4-ab23-d0f9389fe486",
+        "ig_handle": "analogue_8sup",
+        "name_ko": "정필섭",
+        "name_en": null,
+        "name_irl": "정필섭",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-12-26T05:00:00+00:00",
+    "date": "2026-12-26",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "14:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jeong Pil-seop",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jeong Pil-seop",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "정필섭",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261226_baa4b50b-3478-4aee-bb68-842e8d49562a",
+    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-12-26T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DflZZOUH0uB/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [
+      "388f6ddf-0609-4a1c-941a-96b77a8b33da"
+    ],
+    "musicians": [
+      {
+        "id": "388f6ddf-0609-4a1c-941a-96b77a8b33da",
+        "ig_handle": "ki_joong_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김기중",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
+    "venue_location_id": "main",
+    "datetime": "2026-12-26T10:00:00+00:00",
+    "date": "2026-12-26",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "19:00"
+      },
+      {
+        "label": "3부",
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Ki-joong",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Ki-joong",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김기중",
       "description": null
     }
   },
