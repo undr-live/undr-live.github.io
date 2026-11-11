@@ -702,17 +702,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Jackie Kim",
+    "title": "Jackie Kim x Kang Jaehun Trio",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jackie Kim",
+      "title": "Jackie Kim x Kang Jaehun Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "재키킴",
+      "title": "재키킴 X 강재훈 트리오",
       "description": null
     }
   },
@@ -861,8 +861,31 @@
     "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-11T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
     "venue_handle": "jazzclub_bluehour",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "8679288d-c0e5-4ad4-b235-dca3a4d77d11",
+      "8850230c-7c1b-47ed-ab44-c14cb2dfee21"
+    ],
+    "musicians": [
+      {
+        "id": "8679288d-c0e5-4ad4-b235-dca3a4d77d11",
+        "ig_handle": "sungilbae1",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "배성일",
+        "instruments": []
+      },
+      {
+        "id": "8850230c-7c1b-47ed-ab44-c14cb2dfee21",
+        "ig_handle": "jaehyuks",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "장재혁",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
     "venue_location_id": "main",
@@ -876,17 +899,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Kim Sun-young Jazz Tap (Tap/Vocal Kim Sun-young)",
+    "title": "Kim Sun-young Jazz Tap",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Sun-young Jazz Tap (Tap/Vocal Kim Sun-young)",
+      "title": "Kim Sun-young Jazz Tap",
       "description": null
     },
     "_search_ko": {
-      "title": "김순영 재즈 탭 (탭/보컬 김순영)",
+      "title": "김순영 재즈 탭",
       "description": null
     }
   },
@@ -2241,6 +2264,69 @@
     },
     "_search_ko": {
       "title": "김광용 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261112_d38fb5f8-5137-41e4-ae8d-aea9fda43495",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-11-12T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfhRp6yATY4/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [
+      "0bc833a7-0579-47c0-9087-b9578c68727b",
+      "7297fa80-f041-4faf-ae14-52df6172f35c"
+    ],
+    "musicians": [
+      {
+        "id": "0bc833a7-0579-47c0-9087-b9578c68727b",
+        "ig_handle": "yoon_sunghee_trio",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "윤성희트리오",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "7297fa80-f041-4faf-ae14-52df6172f35c",
+        "ig_handle": "jazzleopard",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "류인기",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-12T11:30:00+00:00",
+    "date": "2026-11-12",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Yoon Sung Hee Duo",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yoon Sung Hee Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "윤성희 듀오",
       "description": null
     }
   },
@@ -5530,6 +5616,40 @@
     }
   },
   {
+    "id": "evt_20261114_f5cae333-3a64-460f-8b75-39fc8f55cec4",
+    "event_key": "v:ven_8509b810-2851-4244-912e-9443efb8bafa|t:2026-11-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfjElf0PkJo/",
+    "venue_handle": "laidback2019",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8509b810-2851-4244-912e-9443efb8bafa",
+    "venue_location_id": "main",
+    "datetime": "2026-11-14T11:00:00+00:00",
+    "date": "2026-11-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "SP Jazz Band (Vocal Song In-ae)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SP Jazz Band (Vocal Song In-ae)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "SP 재즈 밴드 (보컬 송인애)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261114_2ed6f044-08eb-47da-ba77-cfd396723375",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-14T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -7277,6 +7397,40 @@
     },
     "_search_ko": {
       "title": "영호네 퀸텟 (보컬 이나래)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261117_e98aa5f7-25f1-4a44-8c9f-d92bcc744732",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-17T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/Dfi3ofHGwYQ/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-17T11:30:00+00:00",
+    "date": "2026-11-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Singgeontang Project",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Singgeontang Project",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "싱건탕 프로젝트",
       "description": null
     }
   },
