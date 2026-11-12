@@ -1113,12 +1113,61 @@
     }
   },
   {
+    "id": "evt_20261112_92e94523-0142-438d-87e2-efc3653dbbdf",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-11-12T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dfn4YM1AdzN/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-11-12T10:30:00+00:00",
+    "date": "2026-11-12",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Woo Sun Hee Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Woo Sun Hee Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "우선희 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261112_81c0a68d-5dbc-4493-b11f-f40aa0f7ba32",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-12T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdNO_L0ybiL/",
     "venue_handle": "sounddog_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c"
+    ],
+    "musicians": [
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
     "venue_location_id": "main",
@@ -1132,17 +1181,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Paul Kirby",
+    "title": "Todd Herbert Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Paul Kirby",
+      "title": "Todd Herbert Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "폴 커비",
+      "title": "토드 허버트 퀄텟",
       "description": null
     }
   },
@@ -7952,6 +8001,40 @@
     },
     "_search_ko": {
       "title": "말로 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261119_127ecd52-68ce-447c-9d8f-9749846c765c",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfoBV-HJfMY/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-19T11:00:00+00:00",
+    "date": "2026-11-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Han Sang-won Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 밴드",
       "description": null
     }
   },
