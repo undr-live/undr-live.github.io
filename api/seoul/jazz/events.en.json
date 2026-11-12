@@ -5237,6 +5237,80 @@
     }
   },
   {
+    "id": "evt_20261114_a5671a93-e341-4ded-a866-e350c902f570",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-11-14T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfhQerrgqBM/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [
+      "238961c9-68d0-4382-ba89-11990c2705ca",
+      "047857fd-a730-42b7-9c52-df95dcef187e",
+      "a7325085-88f0-4e30-98ef-96bc2d61e294"
+    ],
+    "musicians": [
+      {
+        "id": "238961c9-68d0-4382-ba89-11990c2705ca",
+        "ig_handle": "krazy_dragon",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김광용",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "047857fd-a730-42b7-9c52-df95dcef187e",
+        "ig_handle": "bowingpark",
+        "name_ko": "박정현",
+        "name_en": null,
+        "name_irl": "박정현",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "a7325085-88f0-4e30-98ef-96bc2d61e294",
+        "ig_handle": "drummingu",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Min-Gu Lee/이민구",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-14T11:30:00+00:00",
+    "date": "2026-11-14",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Kwang-yong Trio (Vocal Ye-eum)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Kwang-yong Trio (Vocal Ye-eum)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김광용 트리오 (보컬 예음)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261114_85cad2f0-9b6b-4efa-b189-dbecaa0a7efe",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-14T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
