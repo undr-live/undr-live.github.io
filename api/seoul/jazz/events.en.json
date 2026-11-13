@@ -1340,17 +1340,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Lee Sam-su",
+    "title": "Lee Samsoo Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Sam-su",
+      "title": "Lee Samsoo Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "이삼수",
+      "title": "이삼수 퀄텟",
       "description": null
     }
   },
@@ -1543,8 +1543,30 @@
     "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-13T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
     "venue_handle": "jazzclub_bluehour",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "1ebdeff2-97c2-4f27-bf7b-fe9c2381df8c",
+      "e74ed5e7-b8ad-4af9-9d52-3cff60d4f0ae"
+    ],
+    "musicians": [
+      {
+        "id": "1ebdeff2-97c2-4f27-bf7b-fe9c2381df8c",
+        "ig_handle": "yoyihuri",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조광현",
+        "instruments": []
+      },
+      {
+        "id": "e74ed5e7-b8ad-4af9-9d52-3cff60d4f0ae",
+        "ig_handle": "seokgwon_k",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강석권",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
     "venue_location_id": "main",
@@ -6681,8 +6703,19 @@
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-18T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "6ffae477-81fa-44af-a781-384cdf70894f"
+    ],
+    "musicians": [
+      {
+        "id": "6ffae477-81fa-44af-a781-384cdf70894f",
+        "ig_handle": "cold0_saxx",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김찬영",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
     "venue_location_id": "main",
@@ -6698,7 +6731,7 @@
         "time": "21:20"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "Robiq's World",
     "description": null,
@@ -7245,8 +7278,19 @@
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-19T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De4JTBpGbAs/",
     "venue_handle": "jazzclub_evans",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "7602ebca-88dc-4949-ab33-90d876e1de82"
+    ],
+    "musicians": [
+      {
+        "id": "7602ebca-88dc-4949-ab33-90d876e1de82",
+        "ig_handle": "jieunjazzp",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강지은",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
     "venue_location_id": "main",
@@ -7262,7 +7306,7 @@
         "time": "21:20"
       }
     ],
-    "price": null,
+    "price": "30,000원",
     "llm_confidence": 1.0,
     "title": "Kang Huh Dal-rim",
     "description": null,
@@ -8063,7 +8107,7 @@
         "time": "21:20"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "Lee Ji-young Project Band",
     "description": null,
@@ -8440,6 +8484,53 @@
     },
     "_search_ko": {
       "title": "정현우 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261120_8992683e-ec91-41da-b70b-c14279f45d69",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-20T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfqmG39DMG6/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [
+      "9fa2e435-b1d1-4f5f-91c2-70f77814ccd8"
+    ],
+    "musicians": [
+      {
+        "id": "9fa2e435-b1d1-4f5f-91c2-70f77814ccd8",
+        "ig_handle": "oh5won1seok3",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "오원석",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-20T11:30:00+00:00",
+    "date": "2026-11-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Jae-hong Blues Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Jae-hong Blues Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박재홍 블루스 밴드",
       "description": null
     }
   },
@@ -9152,23 +9243,27 @@
     "date": "2026-11-21",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:20"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "SongHa& (Release Anniversary Vol.2 - Over the Hill Rainbow)",
+    "title": "SongCha& (Release Anniversary Vol.2 - Over the Hill Rainbow)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "SongHa& (Release Anniversary Vol.2 - Over the Hill Rainbow)",
+      "title": "SongCha& (Release Anniversary Vol.2 - Over the Hill Rainbow)",
       "description": null
     },
     "_search_ko": {
-      "title": "송하앤 (발매 기념 Vol.2 - 언덕 너머 무지개)",
+      "title": "송차앤 (발매 기념 Vol.2 - 언덕 너머 무지개)",
       "description": null
     }
   },
@@ -10098,7 +10193,8 @@
     "source_url": "https://www.instagram.com/p/DfPEahkGb1M/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [
-      "b4ff14eb-0539-4f9b-b8bf-89b6561b3d70"
+      "b4ff14eb-0539-4f9b-b8bf-89b6561b3d70",
+      "447e5446-7364-4e19-a2d6-a74a46bfc8d3"
     ],
     "musicians": [
       {
@@ -10110,6 +10206,14 @@
         "instruments": [
           "piano"
         ]
+      },
+      {
+        "id": "447e5446-7364-4e19-a2d6-a74a46bfc8d3",
+        "ig_handle": "sangbeom35",
+        "name_ko": "김상범",
+        "name_en": null,
+        "name_irl": "김상범",
+        "instruments": []
       }
     ],
     "musician_ig_handles": [],
@@ -10125,25 +10229,21 @@
       {
         "label": "2부",
         "time": "21:20"
-      },
-      {
-        "label": null,
-        "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Lee Hwa-yeop Quartet",
+    "title": "Lee Han-earl Quartet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Hwa-yeop Quartet",
+      "title": "Lee Han-earl Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "이화엽 퀄텟",
+      "title": "이한얼 퀄텟",
       "description": null
     }
   },
