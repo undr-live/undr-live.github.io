@@ -2359,8 +2359,51 @@
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-14T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfoFspFzSI8/",
     "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "ee4d3be3-c062-4d10-9f61-a1a3dacd3113",
+      "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+      "a7b35b6c-4b9c-4a53-a4b7-d62ecf1c2b0e",
+      "960ff8a9-7ac6-43b7-8e56-cbf48bc4542f"
+    ],
+    "musicians": [
+      {
+        "id": "ee4d3be3-c062-4d10-9f61-a1a3dacd3113",
+        "ig_handle": "zwei7992",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "츠바이",
+        "instruments": []
+      },
+      {
+        "id": "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+        "ig_handle": "tp.heim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최 준기",
+        "instruments": []
+      },
+      {
+        "id": "a7b35b6c-4b9c-4a53-a4b7-d62ecf1c2b0e",
+        "ig_handle": "happiness_pf",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "장선균",
+        "instruments": [
+          "piano",
+          "keyboard"
+        ]
+      },
+      {
+        "id": "960ff8a9-7ac6-43b7-8e56-cbf48bc4542f",
+        "ig_handle": "troychunmusic",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "토리춘",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
@@ -3769,8 +3812,49 @@
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-14T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfoFspFzSI8/",
     "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "dd7e7c41-58c1-4af8-bdf3-73e123f7a5cd",
+      "8afdd0d5-df2a-46cb-ab2e-6c9e406d2694",
+      "262fc634-92e6-4c8d-a367-3b9195b7f845"
+    ],
+    "musicians": [
+      {
+        "id": "dd7e7c41-58c1-4af8-bdf3-73e123f7a5cd",
+        "ig_handle": "oh_jaeyoung_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "오재영 Oh Jaeyoung",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      },
+      {
+        "id": "8afdd0d5-df2a-46cb-ab2e-6c9e406d2694",
+        "ig_handle": "kimseonghwa_",
+        "name_ko": "김성화",
+        "name_en": null,
+        "name_irl": "김성화",
+        "instruments": [
+          "piano",
+          "drums",
+          "guitar",
+          "vocals",
+          "composer"
+        ]
+      },
+      {
+        "id": "262fc634-92e6-4c8d-a367-3b9195b7f845",
+        "ig_handle": "youngjoojulialee",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이영주 Youngjoo Julia Lee 🎙",
+        "instruments": [
+          "vocals",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
@@ -4254,8 +4338,19 @@
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-14T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfoFspFzSI8/",
     "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "fc2bc19c-5d68-4e6c-b3cc-3b6b1061b536"
+    ],
+    "musicians": [
+      {
+        "id": "fc2bc19c-5d68-4e6c-b3cc-3b6b1061b536",
+        "ig_handle": "_jazzosopher",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "함태주",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
@@ -12168,6 +12263,40 @@
     },
     "_search_ko": {
       "title": "브라이언 신 앤 더 스윙 메이커스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261128_7d12bbac-4e06-41b6-8182-422d416c986d",
+    "event_key": "v:ven_54350aec-422d-4d27-bb3a-ff92c08a74d1|t:2026-11-28T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dfqq_ZzRMC1/",
+    "venue_handle": "mudaeruk_b",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_54350aec-422d-4d27-bb3a-ff92c08a74d1",
+    "venue_location_id": "main",
+    "datetime": "2026-11-28T10:00:00+00:00",
+    "date": "2026-11-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "예매 20,000원 / 현매 25,000원",
+    "llm_confidence": 1.0,
+    "title": "태평락 트리오 (노은실)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Taiheiraku Trio (Eunsil Noh)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "태평락 트리오 (노은실)",
       "description": null
     }
   },
