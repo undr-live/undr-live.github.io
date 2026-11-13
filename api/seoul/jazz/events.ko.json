@@ -2159,10 +2159,21 @@
   {
     "id": "evt_20261113_33d1cad6-2fa4-4f94-9db5-2f16ced4ddf1",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-11-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/reel/DfnystUSeHO/",
+    "source_url": "https://www.instagram.com/p/DfpNBF8B--K/",
     "venue_handle": "yeonnam5701",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "f83ebe04-92a6-42c0-a480-298d2fbb7789"
+    ],
+    "musicians": [
+      {
+        "id": "f83ebe04-92a6-42c0-a480-298d2fbb7789",
+        "ig_handle": "yclee920",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이윤창",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
     "venue_location_id": "main",
@@ -2172,6 +2183,14 @@
       {
         "label": null,
         "time": "20:00"
+      },
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
@@ -3256,6 +3275,71 @@
     },
     "_search_ko": {
       "title": "윤지원 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261114_a81e96d2-d302-480d-876b-1cc6f60524fd",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-14T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfrbUlYky6i/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "8b3184b3-e528-4ed1-be56-daf208781ca3",
+      "f25f5403-375b-43c7-8d54-0043272ca3be",
+      "93f80e59-3b27-4554-99c7-04eb843e816a"
+    ],
+    "musicians": [
+      {
+        "id": "8b3184b3-e528-4ed1-be56-daf208781ca3",
+        "ig_handle": "d.a___zz",
+        "name_ko": "다은림",
+        "name_en": "Daeun Lim",
+        "name_irl": "Daeun Lim",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "f25f5403-375b-43c7-8d54-0043272ca3be",
+        "ig_handle": "bass__jam",
+        "name_ko": "곽재민",
+        "name_en": "Kamasi Kwak",
+        "name_irl": "곽재민 Kamasi Kwak",
+        "instruments": []
+      },
+      {
+        "id": "93f80e59-3b27-4554-99c7-04eb843e816a",
+        "ig_handle": "herojaewoo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "재우",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-14T09:00:00+00:00",
+    "date": "2026-11-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "다은 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Daeun Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "다은 퀄텟",
       "description": null
     }
   },
@@ -4605,6 +4689,62 @@
     }
   },
   {
+    "id": "evt_20261114_51907c57-2372-417d-981c-f8b964a7df3f",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfrbUlYky6i/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "432f4fcb-9a94-4935-81b9-102065e6fb57",
+      "3983e47c-e3f7-4813-9a7c-026929d804d9"
+    ],
+    "musicians": [
+      {
+        "id": "432f4fcb-9a94-4935-81b9-102065e6fb57",
+        "ig_handle": "wonseokchoimusic",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최원석",
+        "instruments": [
+          "saxophone"
+        ]
+      },
+      {
+        "id": "3983e47c-e3f7-4813-9a7c-026929d804d9",
+        "ig_handle": "circlekim21",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김원형",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-14T11:00:00+00:00",
+    "date": "2026-11-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "최원석 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Wonseok Choi Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최원석 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261114_2ed6f044-08eb-47da-ba77-cfd396723375",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-14T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -5030,6 +5170,78 @@
     },
     "_search_ko": {
       "title": "전형민 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261114_ee259838-076d-4036-bcf4-ca96522db93b",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-14T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfrbUlYky6i/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "896e2d5d-59ad-4246-ba86-55c224aef281",
+      "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+      "d1f20035-5c8b-417b-81d1-bb6571b6ebff",
+      "93f80e59-3b27-4554-99c7-04eb843e816a"
+    ],
+    "musicians": [
+      {
+        "id": "896e2d5d-59ad-4246-ba86-55c224aef281",
+        "ig_handle": "irenever",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Yoogun",
+        "instruments": []
+      },
+      {
+        "id": "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+        "ig_handle": "tp.heim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최 준기",
+        "instruments": []
+      },
+      {
+        "id": "d1f20035-5c8b-417b-81d1-bb6571b6ebff",
+        "ig_handle": "wani_soo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "류수완",
+        "instruments": []
+      },
+      {
+        "id": "93f80e59-3b27-4554-99c7-04eb843e816a",
+        "ig_handle": "herojaewoo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "재우",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-14T13:00:00+00:00",
+    "date": "2026-11-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "조우진과 재즈메신저스",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jo Woo Jin & The Jazz Messengers",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조우진과 재즈메신저스",
       "description": null
     }
   },
@@ -14701,6 +14913,57 @@
     }
   },
   {
+    "id": "evt_20261224_7e353a97-9558-4f6e-904e-b3af03888496",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-12-24T05:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfrGWPVzM9o/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [
+      "401b72d9-38ea-453c-a92b-2976728d52de"
+    ],
+    "musicians": [
+      {
+        "id": "401b72d9-38ea-453c-a92b-2976728d52de",
+        "ig_handle": "hanxazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김한 Han Kim",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T05:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "14:00"
+      },
+      {
+        "label": "2부",
+        "time": "15:50"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김한 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Han Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김한 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_f166d4ae-1870-44e7-88fa-76df11ad41ae",
     "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-12-24T08:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DflZZOUH0uB/",
@@ -14823,6 +15086,59 @@
     },
     "_search_ko": {
       "title": "이대원 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261224_ad45ae93-b61a-44ad-a91d-b26540f942c0",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-12-24T09:50:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfrGWPVzM9o/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [
+      "67dcc396-8436-4e34-806f-33e86144482c"
+    ],
+    "musicians": [
+      {
+        "id": "67dcc396-8436-4e34-806f-33e86144482c",
+        "ig_handle": "jassiebeom",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "권범수",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T09:50:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "3부",
+        "time": "18:50"
+      },
+      {
+        "label": "4부",
+        "time": "21:30"
+      },
+      {
+        "label": "5부",
+        "time": "23:50"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "권범수 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kwon Beom Soo Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "권범수 퀄텟",
       "description": null
     }
   },
@@ -14991,6 +15307,98 @@
     }
   },
   {
+    "id": "evt_20261225_a84ea256-03d1-496f-828a-205af9b15615",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-12-25T04:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfrGWPVzM9o/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [
+      "401b72d9-38ea-453c-a92b-2976728d52de"
+    ],
+    "musicians": [
+      {
+        "id": "401b72d9-38ea-453c-a92b-2976728d52de",
+        "ig_handle": "hanxazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김한 Han Kim",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T04:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "13:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김한 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Han Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김한 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_05511818-478f-4f81-ad04-10bae3c3c2a6",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-12-25T06:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfrGWPVzM9o/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [
+      "67dcc396-8436-4e34-806f-33e86144482c"
+    ],
+    "musicians": [
+      {
+        "id": "67dcc396-8436-4e34-806f-33e86144482c",
+        "ig_handle": "jassiebeom",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "권범수",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T06:30:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "15:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "권범수 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kwon Beom Soo Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "권범수 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_fe3f3fc6-968b-47a1-b470-5c24eedeb2f2",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-12-25T07:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfmYHFRk_Rx/",
@@ -15093,6 +15501,59 @@
     },
     "_search_ko": {
       "title": "리마 재즈 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_0e651efe-7001-4e62-a853-ce4f03a6289c",
+    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-12-25T09:50:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfrGWPVzM9o/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [
+      "47cefe5a-d03b-4491-84e9-84aa31ab5c8e"
+    ],
+    "musicians": [
+      {
+        "id": "47cefe5a-d03b-4491-84e9-84aa31ab5c8e",
+        "ig_handle": "glriahan",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "한주영",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T09:50:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "3부",
+        "time": "18:50"
+      },
+      {
+        "label": "4부",
+        "time": "21:30"
+      },
+      {
+        "label": "5부",
+        "time": "23:40"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한주영 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Joo Young Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한주영 퀄텟",
       "description": null
     }
   },
