@@ -1283,6 +1283,44 @@
     }
   },
   {
+    "id": "evt_20261113_a3eb1aed-802b-4348-ad07-474dd2d0ab1d",
+    "event_key": "v:ven_7167b93f-4221-49e3-8463-fd56b8a5e576|t:2026-11-13T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfqdLFIgRpd/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7167b93f-4221-49e3-8463-fd56b8a5e576",
+    "venue_location_id": "main",
+    "datetime": "2026-11-13T10:30:00+00:00",
+    "date": "2026-11-13",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Bang Byung-jo Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Bang Byung-jo Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "방병조 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261113_f9e5026c-4762-40d1-b06e-2ca081cba829",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-13T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -2165,6 +2203,40 @@
     }
   },
   {
+    "id": "evt_20261113_fe04f572-b0ea-4e2d-b038-536d015d1095",
+    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-11-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfpZRknTR1z/",
+    "venue_handle": "jazzclub_janus",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
+    "venue_location_id": "main",
+    "datetime": "2026-11-13T11:00:00+00:00",
+    "date": "2026-11-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Moida Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Moida Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "모이다 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261113_e4ca02ee-ddcf-40e6-92f5-b70bebe1ece0",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-13T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -2381,6 +2453,64 @@
     },
     "_search_ko": {
       "title": "리마 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261113_3c87e7e4-eb02-49a1-9858-c93c81d98234",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-11-13T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfgtoKHRY4N/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [
+      "40874c2d-03a5-4537-a033-f81576c02147",
+      "59b68cef-b3ac-4bd3-b96a-da635be3d648"
+    ],
+    "musicians": [
+      {
+        "id": "40874c2d-03a5-4537-a033-f81576c02147",
+        "ig_handle": "doheon6913",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이도헌",
+        "instruments": []
+      },
+      {
+        "id": "59b68cef-b3ac-4bd3-b96a-da635be3d648",
+        "ig_handle": "bass_youngjoon",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정영준",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-13T11:30:00+00:00",
+    "date": "2026-11-13",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Saza Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Saza Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "사자 밴드",
       "description": null
     }
   },
@@ -4185,7 +4315,7 @@
         "time": "20:00"
       }
     ],
-    "price": "예매 20,000원 / 현매 25,000원",
+    "price": "예매 11,000원 / 현장 15,000원",
     "llm_confidence": 1.0,
     "title": "Choi Yeonbi Trio",
     "description": null,
