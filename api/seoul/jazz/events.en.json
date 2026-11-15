@@ -3723,7 +3723,8 @@
     "venue_handle": "cafe_minor_swing",
     "musician_ids": [
       "fcdc9255-c642-4c40-8b99-e403098ffb85",
-      "6480f3a4-30b9-48a5-8b08-21f34d2e10d9"
+      "6480f3a4-30b9-48a5-8b08-21f34d2e10d9",
+      "d8ec1d9e-2576-490a-842c-84712c6b27b8"
     ],
     "musicians": [
       {
@@ -3741,6 +3742,17 @@
         "name_en": null,
         "name_irl": "조에스더",
         "instruments": []
+      },
+      {
+        "id": "d8ec1d9e-2576-490a-842c-84712c6b27b8",
+        "ig_handle": "jhyundrums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김종현",
+        "instruments": [
+          "drums",
+          "composer"
+        ]
       }
     ],
     "musician_ig_handles": [],
@@ -3756,13 +3768,13 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Kim Tae-kook Quintet",
+    "title": "Taekuk Kim Quintet",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Kim Tae-kook Quintet",
+      "title": "Taekuk Kim Quintet",
       "description": null
     },
     "_search_ko": {
@@ -11127,6 +11139,40 @@
     }
   },
   {
+    "id": "evt_20261224_88e68d6f-863e-4170-99fc-c8514ba22e2e",
+    "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-24T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dfw3wuaTiDL/",
+    "venue_handle": "dido_jazz_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T11:30:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": "140,000원",
+    "llm_confidence": 1.0,
+    "title": "Sungmi Ahn Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Sungmi Ahn Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "안성미 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_9b3bb6df-647d-4cd3-96c2-dc829129ff45",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-12-24T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfmYHFRk_Rx/",
@@ -11383,6 +11429,40 @@
     }
   },
   {
+    "id": "evt_20261225_5cdbe2f8-139f-403a-8455-0fa4391d77d6",
+    "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-25T07:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dfw3wuaTiDL/",
+    "venue_handle": "dido_jazz_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T07:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "16:00"
+      }
+    ],
+    "price": "140,000원",
+    "llm_confidence": 1.0,
+    "title": "ARB",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "ARB",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "ARB",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_89331e3a-97f9-4eda-aba7-eb3d82e756a7",
     "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-12-25T08:00:00+00:00",
     "source_url": "https://www.instagram.com/reel/DfRig8Vhk2i/",
@@ -11621,6 +11701,40 @@
     },
     "_search_ko": {
       "title": "방병조 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_505eb6af-d74a-42fb-9270-3dc15874729c",
+    "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-25T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dfw3wuaTiDL/",
+    "venue_handle": "dido_jazz_lounge",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T11:30:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "140,000원",
+    "llm_confidence": 1.0,
+    "title": "Yubin Lee Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yubin Lee Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이유빈 밴드",
       "description": null
     }
   },
