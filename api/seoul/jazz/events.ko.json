@@ -3126,8 +3126,49 @@
     "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-15T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfrNBhST_u7/",
     "venue_handle": "subriot_hbc",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "10efb012-1c92-4e67-b420-ea305a809071",
+      "5e54794c-2ef8-4db9-abd7-b1411d0bd939",
+      "60e1b7a7-4000-4a9f-89da-568b9f1a79dc",
+      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b"
+    ],
+    "musicians": [
+      {
+        "id": "10efb012-1c92-4e67-b420-ea305a809071",
+        "ig_handle": "guitarae0420",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김정래",
+        "instruments": []
+      },
+      {
+        "id": "5e54794c-2ef8-4db9-abd7-b1411d0bd939",
+        "ig_handle": "iamgrute_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이재형",
+        "instruments": []
+      },
+      {
+        "id": "60e1b7a7-4000-4a9f-89da-568b9f1a79dc",
+        "ig_handle": "jeong_heon_hong",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍정헌",
+        "instruments": []
+      },
+      {
+        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+        "ig_handle": "__suno_kim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김선호",
+        "instruments": [
+          "drums",
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
     "venue_location_id": "main",
@@ -3141,17 +3182,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "이태형 퀄텟",
+    "title": "이재형 퀄텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Tae Hyung Quartet",
+      "title": "Lee Jae-hyung Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "이태형 퀄텟",
+      "title": "이재형 퀄텟",
       "description": null
     }
   },
@@ -3597,10 +3638,21 @@
   {
     "id": "evt_20261115_0369aef3-a2bf-41d4-af51-cf268d03a7d3",
     "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-11-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/reel/DfuH79WBe2n/",
+    "source_url": "https://www.instagram.com/p/DfwdyLqhY67/",
     "venue_handle": "yeonnam5701",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "83ced2a6-641e-40fa-ad35-f5b75b713ac2"
+    ],
+    "musicians": [
+      {
+        "id": "83ced2a6-641e-40fa-ad35-f5b75b713ac2",
+        "ig_handle": "seo_m_piano",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "맹서령",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
     "venue_location_id": "main",
@@ -3610,6 +3662,14 @@
       {
         "label": null,
         "time": "20:00"
+      },
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:15"
       }
     ],
     "price": null,
@@ -7317,6 +7377,133 @@
     }
   },
   {
+    "id": "evt_20261121_67bdc6bb-2ade-4b67-809d-da47f44f49b0",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfwhQcsTRtL/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [
+      "d9458e88-0808-49ee-ac05-dc799b68a7f0",
+      "d1f20035-5c8b-417b-81d1-bb6571b6ebff",
+      "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65"
+    ],
+    "musicians": [
+      {
+        "id": "d9458e88-0808-49ee-ac05-dc799b68a7f0",
+        "ig_handle": "jazzcats_sanga",
+        "name_ko": "박상아",
+        "name_en": null,
+        "name_irl": "트럼펫 박상아🎺",
+        "instruments": [
+          "trumpet",
+          "composer"
+        ]
+      },
+      {
+        "id": "d1f20035-5c8b-417b-81d1-bb6571b6ebff",
+        "ig_handle": "wani_soo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "류수완",
+        "instruments": []
+      },
+      {
+        "id": "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+        "ig_handle": "praise_like_sunshine",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박해찬",
+        "instruments": [
+          "bass",
+          "piano"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T11:00:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "박상아 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Sang A Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박상아 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261121_f10c8235-a98d-48c0-b9d3-eb26464727ac",
+    "event_key": "v:ven_cf0cbcc1-8a48-4494-9772-faba6817a91a|t:2026-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dfwq5XGzjur/",
+    "venue_handle": "yellow___taxi",
+    "musician_ids": [
+      "354f5d0d-5187-4b1e-8918-57afc98922ef",
+      "fde66552-a48b-416d-826b-04add2fc8113"
+    ],
+    "musicians": [
+      {
+        "id": "354f5d0d-5187-4b1e-8918-57afc98922ef",
+        "ig_handle": "youheonseok",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "유헌석",
+        "instruments": []
+      },
+      {
+        "id": "fde66552-a48b-416d-826b-04add2fc8113",
+        "ig_handle": "mlsega1",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "우희창",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_cf0cbcc1-8a48-4494-9772-faba6817a91a",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T11:00:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "예매 20,000원 / 현매 23,000원",
+    "llm_confidence": 1.0,
+    "title": "윤성희 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yoon Sunghee Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "윤성희 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261121_0644da8f-82cb-4214-86a7-2589fbf362bb",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-21T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -7381,6 +7568,40 @@
     },
     "_search_ko": {
       "title": "SJ Sax X ANDRE",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261121_3af853cb-e31e-4e88-a9b2-091ad056ac9a",
+    "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-11-21T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfwRK5qzft1/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T11:30:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": "9,000원",
+    "llm_confidence": 1.0,
+    "title": "전진웅 플럭스",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jeon Jin-woong FLUX",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "전진웅 플럭스",
       "description": null
     }
   },
@@ -11140,6 +11361,65 @@
     },
     "_search_ko": {
       "title": "서울 재즈 빅밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261128_5e4b4484-a9b3-42b2-bff4-747465f7f762",
+    "event_key": "v:ven_377ce206-d0d7-48df-8554-aa20be3b45e2|t:2026-11-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfwlL3Lh-AA/",
+    "venue_handle": "gv_scene",
+    "musician_ids": [
+      "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+      "7716aab9-40c2-4d99-a987-5e526dec33e7"
+    ],
+    "musicians": [
+      {
+        "id": "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+        "ig_handle": "daeyounkimm",
+        "name_ko": "김대윤",
+        "name_en": "Daeyoun Kim",
+        "name_irl": "Daeyoun Kim 김대윤",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "7716aab9-40c2-4d99-a987-5e526dec33e7",
+        "ig_handle": "jazz_baek",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "백용훈",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_377ce206-d0d7-48df-8554-aa20be3b45e2",
+    "venue_location_id": "main",
+    "datetime": "2026-11-28T11:00:00+00:00",
+    "date": "2026-11-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "테디 신 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Teddy Shin Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "테디 신 트리오",
       "description": null
     }
   },
