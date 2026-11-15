@@ -7143,8 +7143,28 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-11-21T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De2yAkPk9fC/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "67dcc396-8436-4e34-806f-33e86144482c",
+      "b6e95d27-8296-4fa0-b72d-8cf1f05ca909"
+    ],
+    "musicians": [
+      {
+        "id": "67dcc396-8436-4e34-806f-33e86144482c",
+        "ig_handle": "jassiebeom",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "권범수",
+        "instruments": []
+      },
+      {
+        "id": "b6e95d27-8296-4fa0-b72d-8cf1f05ca909",
+        "ig_handle": "pwonb.xss",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박원빈",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -12609,19 +12629,19 @@
         "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "30,000원",
     "llm_confidence": 1.0,
-    "title": "테올란",
+    "title": "호란 X 정태호 테올란",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Teolan",
+      "title": "Horan X Jeong Tae-ho Teolan",
       "description": null
     },
     "_search_ko": {
-      "title": "테올란",
+      "title": "호란 X 정태호 테올란",
       "description": null
     }
   },
@@ -13021,6 +13041,44 @@
     }
   },
   {
+    "id": "evt_20261224_5b605b4a-ba35-4876-9413-87e495e40542",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-12-24T08:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfwCjeHmLdU/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T08:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "17:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
+      }
+    ],
+    "price": "190,000원",
+    "llm_confidence": 1.0,
+    "title": "신연아 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Shin Yeona Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "신연아 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_f065933e-1fea-45aa-a3a7-1c22449c2c91",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-12-24T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfmYHFRk_Rx/",
@@ -13206,6 +13264,40 @@
     },
     "_search_ko": {
       "title": "하이진 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261224_3e69c8f5-52ac-4808-9e8f-cecf6a923a22",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-12-24T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfwCjeHmLdU/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T14:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "3부",
+        "time": "23:00"
+      }
+    ],
+    "price": "35,000원",
+    "llm_confidence": 1.0,
+    "title": "그리티 키티",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Gritty Kitty",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "그리티 키티",
       "description": null
     }
   },
@@ -13436,6 +13528,44 @@
     }
   },
   {
+    "id": "evt_20261225_e725998c-29cb-4a03-8c8f-c338dbe0def0",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-12-25T08:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfwCjeHmLdU/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T08:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "17:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
+      }
+    ],
+    "price": "190,000원",
+    "llm_confidence": 1.0,
+    "title": "마리아 킴",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Maria Kim",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "마리아 킴",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_ff229a74-36f0-4c9c-8cc8-0e892fc64f2c",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-12-25T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfmYHFRk_Rx/",
@@ -13632,6 +13762,40 @@
     },
     "_search_ko": {
       "title": "데이먼 브라운 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_ea054808-fb4f-4cdf-888e-42968fffcd80",
+    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-12-25T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfwCjeHmLdU/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T14:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "3부",
+        "time": "23:00"
+      }
+    ],
+    "price": "35,000원",
+    "llm_confidence": 1.0,
+    "title": "조아혜 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jo Ahye Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조아혜 밴드",
       "description": null
     }
   },
