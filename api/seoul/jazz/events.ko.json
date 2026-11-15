@@ -2729,7 +2729,7 @@
         "time": "18:00"
       }
     ],
-    "price": null,
+    "price": "무료 (후불제)",
     "llm_confidence": 1.0,
     "title": "노아 이 퀄텟",
     "description": null,
@@ -3517,8 +3517,56 @@
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-15T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfoFspFzSI8/",
     "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "947e04da-fcd7-423d-86cc-4c16d66dc522",
+      "f9eed726-4a10-4dec-bc34-ebcac3bb75a2",
+      "31584cf3-a313-4a4f-9175-cf531bfca850",
+      "a7a99ccf-3b5e-45e6-b76d-3798ac130d6d"
+    ],
+    "musicians": [
+      {
+        "id": "947e04da-fcd7-423d-86cc-4c16d66dc522",
+        "ig_handle": "modaaaaaaal",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "모달",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "f9eed726-4a10-4dec-bc34-ebcac3bb75a2",
+        "ig_handle": "sax_mikyung",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강미경",
+        "instruments": [
+          "saxophone",
+          "composer"
+        ]
+      },
+      {
+        "id": "31584cf3-a313-4a4f-9175-cf531bfca850",
+        "ig_handle": "jinsu_kim_",
+        "name_ko": "김진수",
+        "name_en": "Jinsu Kim",
+        "name_irl": "김진수",
+        "instruments": [
+          "piano",
+          "trumpet"
+        ]
+      },
+      {
+        "id": "a7a99ccf-3b5e-45e6-b76d-3798ac130d6d",
+        "ig_handle": "sungjae_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정성재",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
@@ -3530,7 +3578,7 @@
         "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "무료 (후불제)",
     "llm_confidence": 1.0,
     "title": "모달 밴드",
     "description": null,
@@ -3666,7 +3714,7 @@
         "time": "22:00"
       }
     ],
-    "price": null,
+    "price": "무료 (후불제)",
     "llm_confidence": 1.0,
     "title": "이성호 재즈 밴드",
     "description": null,
