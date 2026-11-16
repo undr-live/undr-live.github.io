@@ -1209,6 +1209,40 @@
     }
   },
   {
+    "id": "evt_20261116_129d9837-5c15-464f-9198-50a315cf8b7b",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-16T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfyNhNrk4hp/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-16T10:00:00+00:00",
+    "date": "2026-11-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jimin Park Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jimin Park Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박지민 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261116_6ae7d802-b546-46c1-a47f-45a2a090d2c4",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-16T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -1458,6 +1492,94 @@
     },
     "_search_ko": {
       "title": "이영경 트리오 + 1",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261116_d903016b-5368-4ef5-b37a-38f349b78f46",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-16T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfyNhNrk4hp/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "e9fcbb76-47be-4cfd-aed5-28aae5bc9a52",
+      "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+      "b28bec63-0201-4976-8ea4-862dbe931f3e",
+      "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+      "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce"
+    ],
+    "musicians": [
+      {
+        "id": "e9fcbb76-47be-4cfd-aed5-28aae5bc9a52",
+        "ig_handle": "quiet.trp",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조용찬",
+        "instruments": [
+          "trumpet"
+        ]
+      },
+      {
+        "id": "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+        "ig_handle": "tp.heim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최 준기",
+        "instruments": []
+      },
+      {
+        "id": "b28bec63-0201-4976-8ea4-862dbe931f3e",
+        "ig_handle": "seong_eun._.jp",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "SeongEun Park",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+        "ig_handle": "praise_like_sunshine",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박해찬",
+        "instruments": [
+          "bass",
+          "piano"
+        ]
+      },
+      {
+        "id": "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce",
+        "ig_handle": "ihatebrushsticks",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김성찬",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-16T12:00:00+00:00",
+    "date": "2026-11-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yongchan Cho Quintet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yongchan Cho Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조용찬 퀸텟",
       "description": null
     }
   },
