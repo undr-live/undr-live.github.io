@@ -3139,6 +3139,55 @@
     }
   },
   {
+    "id": "evt_20261119_2505ceea-c904-466e-8d31-48fa2a7b44fd",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-11-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfzEbC6hms-/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [
+      "0cf2a1ee-1d07-4336-aac9-60992aed9a16"
+    ],
+    "musicians": [
+      {
+        "id": "0cf2a1ee-1d07-4336-aac9-60992aed9a16",
+        "ig_handle": "h_0zl",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정현우",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-11-19T11:00:00+00:00",
+    "date": "2026-11-19",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "솔로 피아노",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Solo Piano",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "솔로 피아노",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261119_13511058-018e-4c1d-9f7b-88ed518320ab",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-19T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -4040,6 +4089,55 @@
     }
   },
   {
+    "id": "evt_20261120_6ad70d64-2c2f-44ad-9de8-2ef796bf5737",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-11-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfzEbC6hms-/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [
+      "dd1ba694-96ea-40fa-a7f2-d1609ea4ec32"
+    ],
+    "musicians": [
+      {
+        "id": "dd1ba694-96ea-40fa-a7f2-d1609ea4ec32",
+        "ig_handle": "1_woolsss",
+        "name_ko": "김한울",
+        "name_en": null,
+        "name_irl": "김한울",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-11-20T11:00:00+00:00",
+    "date": "2026-11-20",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김한울 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Hanwool Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김한울 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261120_0c2368fd-17b0-4bfb-b28d-99fd3b29ba4a",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-20T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -4117,6 +4215,44 @@
     },
     "_search_ko": {
       "title": "박재홍 블루스 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261120_efe04d89-b692-4d70-8d93-17daf03fee20",
+    "event_key": "v:ven_dda28cb8-70a0-4815-971c-666b82e81609|t:2026-11-20T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfzGFz_D12K/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_dda28cb8-70a0-4815-971c-666b82e81609",
+    "venue_location_id": "main",
+    "datetime": "2026-11-20T11:30:00+00:00",
+    "date": "2026-11-20",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "헤이피 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "HEYP Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "헤이피 밴드",
       "description": null
     }
   },
@@ -4409,6 +4545,69 @@
     },
     "_search_ko": {
       "title": "니콜팍 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261121_aec2b8d5-7726-4ef2-ab49-8932c964d4aa",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-11-21T06:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfxjXpGzgDr/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [
+      "bac1f49a-1d26-4d39-988d-025e39a1d3cc",
+      "9a54a69c-916d-4632-9df8-8c1a9878aac2",
+      "68ba4753-be48-4292-ac08-e9bebe852288"
+    ],
+    "musicians": [
+      {
+        "id": "bac1f49a-1d26-4d39-988d-025e39a1d3cc",
+        "ig_handle": "hami_c_ho",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조하미",
+        "instruments": []
+      },
+      {
+        "id": "9a54a69c-916d-4632-9df8-8c1a9878aac2",
+        "ig_handle": "rob.ligato",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Robert Fernandez",
+        "instruments": []
+      },
+      {
+        "id": "68ba4753-be48-4292-ac08-e9bebe852288",
+        "ig_handle": "brownbeatj",
+        "name_ko": "김정우",
+        "name_en": "Jeongwoo Kim",
+        "name_irl": "김정우 Jeongwoo Kim",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T06:00:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "15:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "조하미 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hami Cho Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조하미 트리오",
       "description": null
     }
   },
@@ -5314,24 +5513,24 @@
     "source_url": "https://www.instagram.com/p/Dfwq5XGzjur/",
     "venue_handle": "yellow___taxi",
     "musician_ids": [
-      "354f5d0d-5187-4b1e-8918-57afc98922ef",
-      "fde66552-a48b-416d-826b-04add2fc8113"
+      "fde66552-a48b-416d-826b-04add2fc8113",
+      "354f5d0d-5187-4b1e-8918-57afc98922ef"
     ],
     "musicians": [
-      {
-        "id": "354f5d0d-5187-4b1e-8918-57afc98922ef",
-        "ig_handle": "youheonseok",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "유헌석",
-        "instruments": []
-      },
       {
         "id": "fde66552-a48b-416d-826b-04add2fc8113",
         "ig_handle": "mlsega1",
         "name_ko": null,
         "name_en": null,
         "name_irl": "우희창",
+        "instruments": []
+      },
+      {
+        "id": "354f5d0d-5187-4b1e-8918-57afc98922ef",
+        "ig_handle": "youheonseok",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "유헌석",
         "instruments": []
       }
     ],
@@ -5440,6 +5639,44 @@
     },
     "_search_ko": {
       "title": "정필섭 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261121_b75f450c-4bc7-4994-877f-6b9759bf895e",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfzEbC6hms-/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T11:00:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "박영민 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Youngmin Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박영민 트리오",
       "description": null
     }
   },
@@ -6333,6 +6570,58 @@
     },
     "_search_ko": {
       "title": "48주년 그랜드 잼데이",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261122_d1239760-d46e-46c5-8c50-c6e7d3824320",
+    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-11-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfzEbC6hms-/",
+    "venue_handle": "houseofblue.seoul",
+    "musician_ids": [
+      "d9458e88-0808-49ee-ac05-dc799b68a7f0"
+    ],
+    "musicians": [
+      {
+        "id": "d9458e88-0808-49ee-ac05-dc799b68a7f0",
+        "ig_handle": "jazzcats_sanga",
+        "name_ko": "박상아",
+        "name_en": null,
+        "name_irl": "트럼펫 박상아🎺",
+        "instruments": [
+          "trumpet",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
+    "venue_location_id": "main",
+    "datetime": "2026-11-22T11:00:00+00:00",
+    "date": "2026-11-22",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "박상아 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Sanga Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박상아 듀오",
       "description": null
     }
   },
