@@ -375,6 +375,55 @@
     }
   },
   {
+    "id": "evt_20261117_c74ce0d8-c664-47e7-991b-508e216104fc",
+    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
+    "venue_handle": "sounddog_jazz",
+    "musician_ids": [
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c"
+    ],
+    "musicians": [
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
+    "venue_location_id": "main",
+    "datetime": "2026-11-17T10:30:00+00:00",
+    "date": "2026-11-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      },
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "재즈 잼 데이",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jazz Jam Day",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "재즈 잼 데이",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261117_c9369451-5b43-41d3-8857-a14630596020",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-17T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
@@ -418,40 +467,6 @@
     },
     "_search_ko": {
       "title": "유호정 스트링 노마드",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261117_c74ce0d8-c664-47e7-991b-508e216104fc",
-    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-17T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
-    "venue_handle": "sounddog_jazz",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
-    "venue_location_id": "main",
-    "datetime": "2026-11-17T11:00:00+00:00",
-    "date": "2026-11-17",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": "20,000원",
-    "llm_confidence": 1.0,
-    "title": "재즈 잼 데이",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Jazz Jam Day",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "재즈 잼 데이",
       "description": null
     }
   },
@@ -1043,7 +1058,7 @@
   {
     "id": "evt_20261118_7111d5cb-fd8c-45e8-89f9-e27b6396b447",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-11-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/reel/De-4a0NvSrE/",
+    "source_url": "https://www.instagram.com/p/DftqA45vLpS/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -4531,7 +4546,7 @@
   {
     "id": "evt_20261121_3f842b1e-fbc4-4c70-985d-46498afaf181",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-11-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/reel/DftqDArvzep/",
+    "source_url": "https://www.instagram.com/p/DftqA45vLpS/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musicians": [],
@@ -5495,8 +5510,30 @@
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-11-22T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DetMrPwoPO2/",
     "venue_handle": "pdpdclub",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "0f98dd7c-7f09-489b-9a33-233acad2354d",
+      "82ceb4b4-3dfe-436c-917b-bba9b7ac3d9c"
+    ],
+    "musicians": [
+      {
+        "id": "0f98dd7c-7f09-489b-9a33-233acad2354d",
+        "ig_handle": "r_im0902",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김예림",
+        "instruments": []
+      },
+      {
+        "id": "82ceb4b4-3dfe-436c-917b-bba9b7ac3d9c",
+        "ig_handle": "swing_or_nothing",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "송준혁",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
     "venue_location_id": "main",
@@ -5504,11 +5541,15 @@
     "date": "2026-11-22",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "리브레",
     "description": null,
@@ -6313,6 +6354,71 @@
     },
     "_search_ko": {
       "title": "조운 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261123_4363118d-24a6-4e06-9dd6-ae8bebd4442c",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-23T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DfyUaJuk_Yg/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [
+      "e7aaec38-9e27-48c2-8728-2a69e5cd17b6",
+      "388f6ddf-0609-4a1c-941a-96b77a8b33da",
+      "354f5d0d-5187-4b1e-8918-57afc98922ef"
+    ],
+    "musicians": [
+      {
+        "id": "e7aaec38-9e27-48c2-8728-2a69e5cd17b6",
+        "ig_handle": "haein_jazz",
+        "name_ko": "조해인",
+        "name_en": null,
+        "name_irl": "조해인",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "388f6ddf-0609-4a1c-941a-96b77a8b33da",
+        "ig_handle": "ki_joong_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김기중",
+        "instruments": []
+      },
+      {
+        "id": "354f5d0d-5187-4b1e-8918-57afc98922ef",
+        "ig_handle": "youheonseok",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "유헌석",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-23T11:30:00+00:00",
+    "date": "2026-11-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "누에보 앙상블",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nuevo Ensemble",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "누에보 앙상블",
       "description": null
     }
   },
