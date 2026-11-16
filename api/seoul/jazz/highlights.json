@@ -1,82 +1,72 @@
 {
-  "week_start_date": "2026-11-09",
-  "generated_at": "2026-11-09T07:00:15.718600+00:00",
+  "week_start_date": "2026-11-16",
+  "generated_at": "2026-11-16T07:00:06.216351+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-11-11": {
-      "event_id": "evt_20261111_093ec019-8edc-4b17-a7bf-673786bf51e3",
+    "2026-11-18": {
+      "event_id": "pinned-2026-11-18-banhausseoul",
       "title": {
-        "ko": "김현태 트리오",
-        "en": "Hyuntae Kim Trio"
+        "ko": "미완성 vol. 01 - 261118"
       },
       "venue_name": {
-        "en": "Oleojazzpub",
-        "ko": "올레오 재즈펍"
+        "ko": "반하우스",
+        "en": "Banhaus"
       },
-      "venue_handle": "oleojazzpub",
-      "datetime": "2026-11-11T11:00:00+00:00",
-      "selected_at": "2026-11-09T07:00:15.716877+00:00"
-    },
-    "2026-11-12": {
-      "event_id": "evt_20261112_baf4a194-67e0-418f-b493-833bd64fa261",
-      "title": {
-        "ko": "해일립 듀오",
-        "en": "Haeylip Duo"
-      },
-      "venue_name": {
-        "en": "Bar Tican",
-        "ko": "바티칸"
-      },
-      "venue_handle": "bar_tican",
-      "datetime": "2026-11-12T12:00:00+00:00",
-      "selected_at": "2026-11-09T07:00:15.717339+00:00"
-    },
-    "2026-11-13": {
-      "event_id": "pinned-2026-11-13-mudaeruk_b",
-      "title": {
-        "ko": "유하영 · 안상준 · 권세준 · 이형진"
-      },
-      "venue_name": {
-        "ko": "무대륙",
-        "en": "Mudaeruk"
-      },
-      "venue_handle": "mudaeruk_b",
-      "datetime": "2026-11-13T19:30:00+09:00",
-      "selected_at": "2026-11-09T07:00:15.676226+00:00",
+      "venue_handle": "banhausseoul",
+      "datetime": "2026-11-18T20:00:00+09:00",
+      "selected_at": "2026-11-16T07:00:06.173012+00:00",
       "pinned": true,
       "title_pinned": true,
       "lineup": {
-        "ko": "piano 유하영 · guitar 안상준 · bass 권세준 · tenor sax 이형진"
-      }
+        "ko": "piano 유하영 · vocal 정원미 · bass 권세준"
+      },
+      "info_handles": [
+        "thewonmijung",
+        "hayonnglyou_"
+      ]
     },
-    "2026-11-14": {
-      "event_id": "evt_20261114_df2548ab-f776-40af-8c99-59a6f3648166",
+    "2026-11-19": {
+      "event_id": "evt_20261119_7510702e-f8d9-4c05-8f49-e4b0b2f786f7",
       "title": {
-        "ko": "극동음악단 재즈 나이트",
-        "en": "Far East Orchestra Jazz Night"
+        "ko": "예스 트리오",
+        "en": "Yeas Trio"
       },
       "venue_name": {
-        "en": "BLUE CAT",
-        "ko": "블루캣"
+        "en": "Cotton Club",
+        "ko": "코튼클럽"
       },
-      "venue_handle": "bluecat.fezh",
-      "datetime": "2026-11-14T10:30:00+00:00",
-      "selected_at": "2026-11-09T07:00:15.718121+00:00"
+      "venue_handle": "cottonclub_seoul",
+      "datetime": "2026-11-19T11:00:00+00:00",
+      "selected_at": "2026-11-16T07:00:06.214880+00:00"
     },
-    "2026-11-15": {
-      "event_id": "evt_20261115_425ae7ac-d71c-4ddf-820d-4a36763cb76b",
+    "2026-11-20": {
+      "event_id": "evt_20261120_5f5a7a38-4dac-4a4e-b282-65890fc79f67",
       "title": {
-        "ko": "김순영 재즈 탭 밴드",
-        "en": "Kim Sun-young Jazz Tap Band"
+        "ko": "김태국 퀸텟",
+        "en": "Taekuk Kim Quintet"
       },
       "venue_name": {
-        "en": "FLATNINE",
-        "ko": "플랫나인"
+        "en": "Minor Swing",
+        "ko": "마이너스윙"
       },
-      "venue_handle": "flatnine_jazzbar",
-      "datetime": "2026-11-15T10:00:00+00:00",
-      "selected_at": "2026-11-09T07:00:15.718549+00:00"
+      "venue_handle": "cafe_minor_swing",
+      "datetime": "2026-11-20T11:00:00+00:00",
+      "selected_at": "2026-11-16T07:00:06.215478+00:00"
+    },
+    "2026-11-21": {
+      "event_id": "evt_20261121_11302708-ddb4-460c-98f4-8ff9a73bafc7",
+      "title": {
+        "ko": "찰리정 카일라스 밴드",
+        "en": "Charlie Jung Kailash Band"
+      },
+      "venue_name": {
+        "en": "Sound Dog",
+        "ko": "사운드 독"
+      },
+      "venue_handle": "sounddog_jazz",
+      "datetime": "2026-11-21T11:00:00+00:00",
+      "selected_at": "2026-11-16T07:00:06.216285+00:00"
     }
   }
 }
