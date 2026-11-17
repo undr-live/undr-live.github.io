@@ -218,8 +218,31 @@
     "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-17T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
     "venue_handle": "jazzclub_bluehour",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "62c6490e-6c91-4f88-b588-beb9f1432bbe",
+      "354f5d0d-5187-4b1e-8918-57afc98922ef"
+    ],
+    "musicians": [
+      {
+        "id": "62c6490e-6c91-4f88-b588-beb9f1432bbe",
+        "ig_handle": "hannapkmusic",
+        "name_ko": null,
+        "name_en": "Hanna PK",
+        "name_irl": "Hanna PK",
+        "instruments": [
+          "piano",
+          "vocals"
+        ]
+      },
+      {
+        "id": "354f5d0d-5187-4b1e-8918-57afc98922ef",
+        "ig_handle": "youheonseok",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "유헌석",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
     "venue_location_id": "main",
@@ -227,7 +250,7 @@
     "date": "2026-11-17",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
@@ -780,8 +803,19 @@
     "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-18T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
     "venue_handle": "jazzclub_bluehour",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "ed894f7c-0f70-4dd1-8b9c-1f79f9260054"
+    ],
+    "musicians": [
+      {
+        "id": "ed894f7c-0f70-4dd1-8b9c-1f79f9260054",
+        "ig_handle": "contraworms",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김재근",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
     "venue_location_id": "main",
@@ -4504,6 +4538,64 @@
     }
   },
   {
+    "id": "evt_20261121_d0e6be16-cf73-48cf-b07c-e95cd179b425",
+    "event_key": "v:ven_fc57057d-2f38-400b-80db-2a590f04f4f3|t:2026-11-21T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df19yRkyVZR/",
+    "venue_handle": "jazzclubbottomline",
+    "musician_ids": [
+      "454ec77d-de12-43f3-94e6-7f8132f3875d",
+      "7297fa80-f041-4faf-ae14-52df6172f35c"
+    ],
+    "musicians": [
+      {
+        "id": "454ec77d-de12-43f3-94e6-7f8132f3875d",
+        "ig_handle": "oh_dong_han",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "오동한",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "7297fa80-f041-4faf-ae14-52df6172f35c",
+        "ig_handle": "jazzleopard",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "류인기",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_fc57057d-2f38-400b-80db-2a590f04f4f3",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T10:30:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Bang Byung Jo Group",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Bang Byung Jo Group",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "방병조 그룹",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261121_11302708-ddb4-460c-98f4-8ff9a73bafc7",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-21T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -4589,11 +4681,15 @@
     "date": "2026-11-21",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "Lee Mi-young Super Trio",
     "description": null,
@@ -4605,7 +4701,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "이미영 수퍼 트리오",
+      "title": "이미영 슈퍼 트리오",
       "description": null
     }
   },
