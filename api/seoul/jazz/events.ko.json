@@ -375,6 +375,78 @@
     }
   },
   {
+    "id": "evt_20261117_b90dad11-e3e3-40cd-9515-ec1cad701773",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-17T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfzKbg2E91n/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "fcdc9255-c642-4c40-8b99-e403098ffb85",
+      "5fcb8733-d4b9-43a6-a57e-9e3a9b41dd7e",
+      "40874c2d-03a5-4537-a033-f81576c02147",
+      "93f80e59-3b27-4554-99c7-04eb843e816a"
+    ],
+    "musicians": [
+      {
+        "id": "fcdc9255-c642-4c40-8b99-e403098ffb85",
+        "ig_handle": "momints_notice",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "민홍기",
+        "instruments": []
+      },
+      {
+        "id": "5fcb8733-d4b9-43a6-a57e-9e3a9b41dd7e",
+        "ig_handle": "shy_camel",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강유민",
+        "instruments": []
+      },
+      {
+        "id": "40874c2d-03a5-4537-a033-f81576c02147",
+        "ig_handle": "doheon6913",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이도헌",
+        "instruments": []
+      },
+      {
+        "id": "93f80e59-3b27-4554-99c7-04eb843e816a",
+        "ig_handle": "herojaewoo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "재우",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-17T10:00:00+00:00",
+    "date": "2026-11-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "무료입장 (후불)",
+    "llm_confidence": 1.0,
+    "title": "안덕환 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Deokhwan An Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "안덕환 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261117_c74ce0d8-c664-47e7-991b-508e216104fc",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-17T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -721,6 +793,63 @@
     },
     "_search_ko": {
       "title": "싱건탕 프로젝트",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261117_b9afed51-e6e7-46bf-a8d4-47c41d4ff066",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-17T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfzKbg2E91n/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+      "7ab21601-deb8-4329-bb08-a809033f7861"
+    ],
+    "musicians": [
+      {
+        "id": "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+        "ig_handle": "tp.heim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최 준기",
+        "instruments": []
+      },
+      {
+        "id": "7ab21601-deb8-4329-bb08-a809033f7861",
+        "ig_handle": "20_more_bass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정이령",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-17T12:00:00+00:00",
+    "date": "2026-11-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "무료입장 (후불)",
+    "llm_confidence": 1.0,
+    "title": "이평 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Pyeong Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이평 퀄텟",
       "description": null
     }
   },
