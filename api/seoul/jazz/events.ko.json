@@ -1609,8 +1609,31 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-11-19T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De2yAkPk9fC/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+      "664e4ebd-b604-442b-8833-d345348de24a"
+    ],
+    "musicians": [
+      {
+        "id": "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+        "ig_handle": "praise_like_sunshine",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박해찬",
+        "instruments": [
+          "bass",
+          "piano"
+        ]
+      },
+      {
+        "id": "664e4ebd-b604-442b-8833-d345348de24a",
+        "ig_handle": "sc._.creation",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "임수찬",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -2796,19 +2819,19 @@
         "time": "21:00"
       }
     ],
-    "price": "10000원",
+    "price": "10,000원",
     "llm_confidence": 1.0,
-    "title": "해일립 밴드",
+    "title": "해일럽 밴드",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Haeylip Band",
+      "title": "Haeilleop Band",
       "description": null
     },
     "_search_ko": {
-      "title": "해일립 밴드",
+      "title": "해일럽 밴드",
       "description": null
     }
   },
@@ -6995,6 +7018,75 @@
     },
     "_search_ko": {
       "title": "장의현 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261124_dae35fc7-b306-4cbb-ae0f-9bc837eb7d82",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-24T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/Df05GGmFQEZ/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [
+      "49712b85-3295-4fd1-9c8a-35cab81925f3",
+      "7297fa80-f041-4faf-ae14-52df6172f35c",
+      "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8"
+    ],
+    "musicians": [
+      {
+        "id": "49712b85-3295-4fd1-9c8a-35cab81925f3",
+        "ig_handle": "yeil78",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김병열",
+        "instruments": [
+          "saxophone"
+        ]
+      },
+      {
+        "id": "7297fa80-f041-4faf-ae14-52df6172f35c",
+        "ig_handle": "jazzleopard",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "류인기",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8",
+        "ig_handle": "namhyuckcho_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조남혁",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-24T11:30:00+00:00",
+    "date": "2026-11-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김병열 프렌즈",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Byung Yeol Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김병열 프렌즈",
       "description": null
     }
   },
@@ -12102,7 +12194,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jo Ahye Band",
+      "title": "Ahye Cho Band",
       "description": null
     },
     "_search_ko": {
