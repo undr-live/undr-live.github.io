@@ -1401,7 +1401,7 @@
   {
     "id": "evt_20261119_4acc270e-254f-4d94-9615-e51a7e11daa4",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-11-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfeuzAbE9xa/",
+    "source_url": "https://www.instagram.com/p/Df5eOlAzgDV/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [
       "59b68cef-b3ac-4bd3-b96a-da635be3d648",
@@ -3846,6 +3846,40 @@
     },
     "_search_ko": {
       "title": "김오키 퀸텟 (보컬 아라)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261121_6739d546-8dcf-4142-94ad-22f31f0de009",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-21T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DftK0RxDfar/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T09:00:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "18:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Nina Park Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nina Park Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "니나파크 밴드",
       "description": null
     }
   },
