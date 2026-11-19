@@ -1022,10 +1022,21 @@
   {
     "id": "evt_20261119_bc9e3ac0-9ad7-43bd-981c-1b392f7b29c8",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
+    "source_url": "https://www.instagram.com/p/Df4g8M0SNmb/",
     "venue_handle": "sounddog_jazz",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "25247c29-8df4-47d9-b0fa-36ba1e05c98c"
+    ],
+    "musicians": [
+      {
+        "id": "25247c29-8df4-47d9-b0fa-36ba1e05c98c",
+        "ig_handle": "paulkirby8547",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Paul Kirby",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
     "venue_location_id": "main",
@@ -1232,8 +1243,19 @@
     "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-19T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
     "venue_handle": "jazzclub_bluehour",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "54d74c06-9bf9-4197-a169-129f9f5e8b63"
+    ],
+    "musicians": [
+      {
+        "id": "54d74c06-9bf9-4197-a169-129f9f5e8b63",
+        "ig_handle": "stormyjazzflute",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이규재",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
     "venue_location_id": "main",
@@ -1241,7 +1263,7 @@
     "date": "2026-11-19",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
@@ -3578,19 +3600,19 @@
         "time": "14:00"
       }
     ],
-    "price": null,
+    "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "니콜팍 퀄텟",
+    "title": "니콜 박 트리오 (하모니카 강재환)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Nicole Park Quartet",
+      "title": "Nicole Park Trio (Kang Jae-hwan)",
       "description": null
     },
     "_search_ko": {
-      "title": "니콜팍 퀄텟",
+      "title": "니콜 박 트리오 (하모니카 강재환)",
       "description": null
     }
   },
@@ -4086,7 +4108,7 @@
   {
     "id": "evt_20261121_95ba56b1-51fd-4d68-b725-c700351a60fe",
     "event_key": "v:ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0|t:2026-11-21T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfixB83H_4L/",
+    "source_url": "https://www.instagram.com/p/Df4ZKBSH3hV/",
     "venue_handle": "yoori.kim_mullaejazzin",
     "musician_ids": [],
     "musicians": [],
@@ -4101,7 +4123,7 @@
         "time": "19:00"
       }
     ],
-    "price": "예매 25,000원 / 현장 30,000원",
+    "price": "예매 25,000원 / 현장구매 30,000원",
     "llm_confidence": 1.0,
     "title": "유월의 인사",
     "description": null,
