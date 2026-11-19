@@ -946,6 +946,51 @@
     }
   },
   {
+    "id": "evt_20261119_b4c4b976-a469-4a02-92c7-d4444262c016",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-19T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df5sqDQE3f7/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "479326cc-2aeb-4650-a124-221f40ed733e"
+    ],
+    "musicians": [
+      {
+        "id": "479326cc-2aeb-4650-a124-221f40ed733e",
+        "ig_handle": "minxophone",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조민형",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-19T10:00:00+00:00",
+    "date": "2026-11-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Blue Hour",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Blue Hour",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "블루 아워",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261119_16b0fc42-1798-4d72-9a3e-ba3f65af0750",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-19T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
@@ -2018,6 +2063,53 @@
     },
     "_search_ko": {
       "title": "황인선 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261119_7f63ca12-098a-4b0c-afb6-25a7fa579f16",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-19T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df5sqDQE3f7/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "c6ded7fb-d519-4e0a-bcff-952d25b72635"
+    ],
+    "musicians": [
+      {
+        "id": "c6ded7fb-d519-4e0a-bcff-952d25b72635",
+        "ig_handle": "c1chan330",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Cleon Chan",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-19T12:00:00+00:00",
+    "date": "2026-11-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Beard & Youngblood",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Beard & Youngblood",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "비어드 앤 영블러드",
       "description": null
     }
   },
