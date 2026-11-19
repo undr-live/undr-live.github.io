@@ -378,7 +378,7 @@
   {
     "id": "evt_20261118_3adc7e01-da40-4f8c-93c1-b653158bcf16",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-18T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
+    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [
       "d8ec1d9e-2576-490a-842c-84712c6b27b8"
@@ -901,6 +901,51 @@
     }
   },
   {
+    "id": "evt_20261119_9fef629e-7ec7-432d-8004-6842427ac009",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-19T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df6C20dE-Qi/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "60e1b7a7-4000-4a9f-89da-568b9f1a79dc"
+    ],
+    "musicians": [
+      {
+        "id": "60e1b7a7-4000-4a9f-89da-568b9f1a79dc",
+        "ig_handle": "jeong_heon_hong",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍정헌",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-19T10:00:00+00:00",
+    "date": "2026-11-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hong Jeong-heon Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hong Jeong-heon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "홍정헌 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261119_16b0fc42-1798-4d72-9a3e-ba3f65af0750",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-19T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DfCFF95J098/",
@@ -1286,7 +1331,7 @@
   {
     "id": "evt_20261119_7510702e-f8d9-4c05-8f49-e4b0b2f786f7",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-19T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
+    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [
       "6b8e4977-56da-4934-afe3-0f1b39b9f192"
@@ -1314,17 +1359,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Yeas Trio",
+    "title": "Yeast Trio",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yeas Trio",
+      "title": "Yeast Trio",
       "description": null
     },
     "_search_ko": {
-      "title": "예스 트리오",
+      "title": "이스트리오",
       "description": null
     }
   },
@@ -1789,8 +1834,21 @@
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-19T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
     "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "927b1f0b-fff0-48c1-9a0c-a2907e7a457c"
+    ],
+    "musicians": [
+      {
+        "id": "927b1f0b-fff0-48c1-9a0c-a2907e7a457c",
+        "ig_handle": "m_moses_j",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정모세",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
@@ -1906,6 +1964,64 @@
     }
   },
   {
+    "id": "evt_20261119_b1e002fa-cff9-4695-8b48-86505ac9b5ca",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-19T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df6C20dE-Qi/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "be88dbf2-2aae-437a-a493-febac53fce09",
+      "bb16abf1-daba-4e7d-8f28-ec361e643055"
+    ],
+    "musicians": [
+      {
+        "id": "be88dbf2-2aae-437a-a493-febac53fce09",
+        "ig_handle": "nokrbass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "노광래",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "bb16abf1-daba-4e7d-8f28-ec361e643055",
+        "ig_handle": "drum_wook",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이건욱",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-19T12:00:00+00:00",
+    "date": "2026-11-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hwang In-seon Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hwang In-seon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "황인선 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261119_17bb7684-cee5-48ca-96b6-de7d1a15edc7",
     "event_key": "v:ven_4c4252d9-0cc8-4d11-aa82-a6daf8743dde|t:2026-11-19T15:00:00+00:00",
     "source_url": "https://www.instagram.com/reel/DfZU4UON8aX/",
@@ -2005,7 +2121,7 @@
   {
     "id": "evt_20261120_0c97f774-d5fe-482c-81e7-438db34d7196",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-20T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
+    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -3399,7 +3515,7 @@
   {
     "id": "evt_20261120_0f863580-1bb2-402f-8c37-dca501d96695",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-20T12:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DftrONJHbXK/",
+    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [
       "3fc45de5-433f-4ab4-829e-d3e6c452a765",
@@ -4029,7 +4145,7 @@
   {
     "id": "evt_20261121_5b40ae6e-7646-46eb-867f-75f0d62b9e75",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-21T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
+    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [
       "dd41578a-dce5-486d-8282-a907fb908714"
@@ -4142,7 +4258,7 @@
   {
     "id": "evt_20261121_7cbc6e2d-b02e-482c-aa62-ab26c66985f0",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-11-21T10:10:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfQtyvpH3It/",
+    "source_url": "https://www.instagram.com/p/Df5_zJwH18W/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [
       "512850a3-d246-4bf8-9ea1-5c491b03d211"
@@ -5393,10 +5509,23 @@
   {
     "id": "evt_20261121_8fed4693-a48d-4c6a-b02a-0d98c26ec173",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-21T12:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
+    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
     "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8"
+    ],
+    "musicians": [
+      {
+        "id": "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8",
+        "ig_handle": "namhyuckcho_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조남혁",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
     "venue_location_id": "main",
@@ -5742,7 +5871,7 @@
   {
     "id": "evt_20261122_8565f2fb-bddd-4e54-ada7-3ac1b4c3f5d1",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-22T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
+    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [],
     "musicians": [],
@@ -6319,7 +6448,7 @@
   {
     "id": "evt_20261122_14619546-7f88-43f0-bc2e-845a292c169c",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-22T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
+    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
     "venue_handle": "cottonclub_seoul",
     "musician_ids": [
       "c99c5a3a-c6e2-44ad-9129-7f524a90509b",
