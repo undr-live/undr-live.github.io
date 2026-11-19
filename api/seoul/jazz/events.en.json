@@ -580,8 +580,32 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-19T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "cb607b45-8e67-4761-b869-02aacd896055",
+      "535d299e-dd66-45a2-94f6-387538f545df"
+    ],
+    "musicians": [
+      {
+        "id": "cb607b45-8e67-4761-b869-02aacd896055",
+        "ig_handle": "jonghyun_pf",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박종현",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "535d299e-dd66-45a2-94f6-387538f545df",
+        "ig_handle": "kimyeongjin",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김영진",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -589,7 +613,7 @@
     "date": "2026-11-19",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
@@ -1406,8 +1430,19 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-20T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "7e5fa080-15e5-4af8-9c0f-0457bff59be3"
+    ],
+    "musicians": [
+      {
+        "id": "7e5fa080-15e5-4af8-9c0f-0457bff59be3",
+        "ig_handle": "jingellee",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이수진(Soojin Lee)",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -2746,6 +2781,66 @@
     }
   },
   {
+    "id": "evt_20261120_9c0011b9-d51e-47d6-98db-1c9fc533465a",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-11-20T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DfzP8j8gcge/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [
+      "437a5add-34c0-4d68-bb08-959f5262fb32",
+      "e74ed5e7-b8ad-4af9-9d52-3cff60d4f0ae"
+    ],
+    "musicians": [
+      {
+        "id": "437a5add-34c0-4d68-bb08-959f5262fb32",
+        "ig_handle": "ccc_chambers",
+        "name_ko": "최민호",
+        "name_en": null,
+        "name_irl": "최민호",
+        "instruments": []
+      },
+      {
+        "id": "e74ed5e7-b8ad-4af9-9d52-3cff60d4f0ae",
+        "ig_handle": "seokgwon_k",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "강석권",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-20T11:30:00+00:00",
+    "date": "2026-11-20",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Jae-hyung Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Jae-hyung Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김재형 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261120_3f4d663a-a0da-47c9-89d8-2dba5cd7ff69",
     "event_key": "v:ven_f9b434d4-e8f0-42e1-ba82-2ccfac3544dd|t:2026-11-20T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfJALLCpg4z/",
@@ -3150,8 +3245,42 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-21T07:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "d72793a4-4c89-4242-a411-61ade815889c",
+      "d15c8fc5-ca4d-488e-8ddd-64a4b9a39ecd",
+      "be88dbf2-2aae-437a-a493-febac53fce09"
+    ],
+    "musicians": [
+      {
+        "id": "d72793a4-4c89-4242-a411-61ade815889c",
+        "ig_handle": "yurimsongjazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "YURIM SONG",
+        "instruments": []
+      },
+      {
+        "id": "d15c8fc5-ca4d-488e-8ddd-64a4b9a39ecd",
+        "ig_handle": "ye_vans",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "양예본 Yebon Yang",
+        "instruments": [
+          "piano",
+          "keyboard"
+        ]
+      },
+      {
+        "id": "be88dbf2-2aae-437a-a493-febac53fce09",
+        "ig_handle": "nokrbass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "노광래",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -3497,8 +3626,41 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-21T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "e3b03824-dc7a-4a47-b5e1-5ade6e02c4a3",
+      "36cda962-0268-4b25-922a-9a2746e7e703",
+      "aa0a8457-334c-4448-8305-d060dd32c468"
+    ],
+    "musicians": [
+      {
+        "id": "e3b03824-dc7a-4a47-b5e1-5ade6e02c4a3",
+        "ig_handle": "moonseok_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최문석",
+        "instruments": []
+      },
+      {
+        "id": "36cda962-0268-4b25-922a-9a2746e7e703",
+        "ig_handle": "zaipal83",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "심영주",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "aa0a8457-334c-4448-8305-d060dd32c468",
+        "ig_handle": "bluejazz82",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jung Hwan Park",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -3512,13 +3674,13 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Rainy Band",
+    "title": "Ranee Band",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Rainy Band",
+      "title": "Ranee Band",
       "description": null
     },
     "_search_ko": {
@@ -4863,8 +5025,22 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-21T12:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "b035d37c-23b0-46b2-a328-ec63b619da77"
+    ],
+    "musicians": [
+      {
+        "id": "b035d37c-23b0-46b2-a328-ec63b619da77",
+        "ig_handle": "yoohara",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Hara Yoo",
+        "instruments": [
+          "vocals",
+          "percussion"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -5212,8 +5388,52 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-22T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "a6005d0c-f368-4217-acf1-3be6730175b9",
+      "5fb35320-da50-457e-b350-79a716e86285",
+      "8771e40f-85ed-483f-ad79-33fd88893720",
+      "c20d8646-9467-4d54-ba0f-44df6e241e02"
+    ],
+    "musicians": [
+      {
+        "id": "a6005d0c-f368-4217-acf1-3be6730175b9",
+        "ig_handle": "jo_ahhye",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조아혜 Jo Ah Hye",
+        "instruments": []
+      },
+      {
+        "id": "5fb35320-da50-457e-b350-79a716e86285",
+        "ig_handle": "yoonjihee_music",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jihee Yoon",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "8771e40f-85ed-483f-ad79-33fd88893720",
+        "ig_handle": "leecinwoo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이신우 leecinwoo",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "c20d8646-9467-4d54-ba0f-44df6e241e02",
+        "ig_handle": "drummer_dandylee",
+        "name_ko": "이광혁",
+        "name_en": null,
+        "name_irl": "이광혁",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
