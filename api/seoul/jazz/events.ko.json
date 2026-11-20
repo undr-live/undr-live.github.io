@@ -184,7 +184,7 @@
   {
     "id": "evt_20261119_b00ceae2-42f0-4f12-a7dd-8a119039b322",
     "event_key": "v:ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da|t:2026-11-19T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfysDYPoz1d/",
+    "source_url": "https://www.instagram.com/p/Dfyr6IyIwpG/",
     "venue_handle": "entry55_official",
     "musician_ids": [
       "8115267a-05b0-4f10-bcf1-50949d555fa4",
@@ -1639,7 +1639,7 @@
   {
     "id": "evt_20261120_b3618d1e-c67a-4490-8201-3bc168edce0c",
     "event_key": "v:ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da|t:2026-11-20T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfysDYPoz1d/",
+    "source_url": "https://www.instagram.com/p/Dfyr6IyIwpG/",
     "venue_handle": "entry55_official",
     "musician_ids": [
       "787134aa-cb46-4f25-8498-40ce4b391668",
@@ -1680,17 +1680,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "준랜드",
+    "title": "아키나 퀄텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "JuneLand",
+      "title": "Akina Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "준랜드",
+      "title": "아키나 퀄텟",
       "description": null
     }
   },
@@ -2084,7 +2084,7 @@
   {
     "id": "evt_20261120_b4ec38f8-33f1-479c-b008-f8f863782a13",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-11-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfeuzAbE9xa/",
+    "source_url": "https://www.instagram.com/p/Df7cH0sgNVH/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -3241,6 +3241,40 @@
     }
   },
   {
+    "id": "evt_20261121_263cf712-1280-43e6-9100-507e102944f3",
+    "event_key": "v:ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da|t:2026-11-21T06:50:00+00:00",
+    "source_url": "https://www.instagram.com/p/Dfyr6IyIwpG/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da",
+    "venue_location_id": "main",
+    "datetime": "2026-11-21T06:50:00+00:00",
+    "date": "2026-11-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "15:50"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "원성진 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Won Seongjin Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "원성진 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261121_d9a8d729-1b0a-4227-84bc-3a22a7707637",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-21T07:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
@@ -3507,10 +3541,32 @@
   {
     "id": "evt_20261121_c805406c-7a15-40ec-8165-7ac318f54927",
     "event_key": "v:ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da|t:2026-11-21T09:45:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfysDYPoz1d/",
+    "source_url": "https://www.instagram.com/p/Dfyr6IyIwpG/",
     "venue_handle": "entry55_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "8679288d-c0e5-4ad4-b235-dca3a4d77d11",
+      "5fb35320-da50-457e-b350-79a716e86285"
+    ],
+    "musicians": [
+      {
+        "id": "8679288d-c0e5-4ad4-b235-dca3a4d77d11",
+        "ig_handle": "sungilbae1",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "배성일",
+        "instruments": []
+      },
+      {
+        "id": "5fb35320-da50-457e-b350-79a716e86285",
+        "ig_handle": "yoonjihee_music",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jihee Yoon",
+        "instruments": [
+          "piano"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da",
     "venue_location_id": "main",
@@ -3528,17 +3584,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "조운과 좋은 친구들",
+    "title": "김순영 재즈 탭",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jo Woon & Good Friends",
+      "title": "Kim Soon Young Jazz Tap",
       "description": null
     },
     "_search_ko": {
-      "title": "조운과 좋은 친구들",
+      "title": "김순영 재즈 탭",
       "description": null
     }
   },
@@ -5173,21 +5229,19 @@
   {
     "id": "evt_20261122_47d8a96f-6e8f-4473-88f8-ad78b4776cbe",
     "event_key": "v:ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da|t:2026-11-22T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfysDYPoz1d/",
+    "source_url": "https://www.instagram.com/p/Dfyr6IyIwpG/",
     "venue_handle": "entry55_official",
     "musician_ids": [
-      "c1c1c573-46bf-4701-a9a3-9f99985eba03"
+      "7b14fdb6-8cc5-4555-ac84-0e7c0f74df0b"
     ],
     "musicians": [
       {
-        "id": "c1c1c573-46bf-4701-a9a3-9f99985eba03",
-        "ig_handle": "oscar_pizzason",
+        "id": "7b14fdb6-8cc5-4555-ac84-0e7c0f74df0b",
+        "ig_handle": "pf_s24h",
         "name_ko": null,
         "name_en": null,
-        "name_irl": "진재환",
-        "instruments": [
-          "piano"
-        ]
+        "name_irl": "김상현",
+        "instruments": []
       }
     ],
     "musician_ig_handles": [],
@@ -6268,10 +6322,21 @@
   {
     "id": "evt_20261124_e2da8a55-c580-4b35-8346-8899dfb99f3f",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-24T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfCFF95J098/",
+    "source_url": "https://www.instagram.com/p/Df5ubtlESwv/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "7b14fdb6-8cc5-4555-ac84-0e7c0f74df0b"
+    ],
+    "musicians": [
+      {
+        "id": "7b14fdb6-8cc5-4555-ac84-0e7c0f74df0b",
+        "ig_handle": "pf_s24h",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김상현",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -6582,7 +6647,7 @@
   {
     "id": "evt_20261125_ffc2bc57-3051-4625-ad19-ad02d2cb050f",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-25T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfCFF95J098/",
+    "source_url": "https://www.instagram.com/p/Df5ubtlESwv/",
     "venue_handle": "edls_official",
     "musician_ids": [],
     "musicians": [],
@@ -7516,6 +7581,40 @@
     }
   },
   {
+    "id": "evt_20261126_99b3f346-346a-4ed0-807d-c59b4cf99fee",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-26T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/Df6Czl6gNwG/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-26T11:00:00+00:00",
+    "date": "2026-11-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sangwon Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261126_b7b18bc7-6028-4f1f-a094-d748b22cb64f",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-26T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -7772,10 +7871,24 @@
   {
     "id": "evt_20261127_9ae1f9cf-f5b5-44b3-93d7-58c400227d2e",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-27T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfCFF95J098/",
+    "source_url": "https://www.instagram.com/p/Df5ubtlESwv/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b"
+    ],
+    "musicians": [
+      {
+        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+        "ig_handle": "__suno_kim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김선호",
+        "instruments": [
+          "drums",
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -7789,7 +7902,7 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "이로울리",
+    "title": "에로울리",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -7799,7 +7912,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "이로울리",
+      "title": "에로울리",
       "description": null
     }
   },
@@ -8581,10 +8694,35 @@
   {
     "id": "evt_20261128_543a48bc-712f-47b1-9b22-ac3f6fe0a9e2",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-28T09:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfCFF95J098/",
+    "source_url": "https://www.instagram.com/p/Df5ubtlESwv/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "927b1f0b-fff0-48c1-9a0c-a2907e7a457c",
+      "d8ec1d9e-2576-490a-842c-84712c6b27b8"
+    ],
+    "musicians": [
+      {
+        "id": "927b1f0b-fff0-48c1-9a0c-a2907e7a457c",
+        "ig_handle": "m_moses_j",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정모세",
+        "instruments": [
+          "drums"
+        ]
+      },
+      {
+        "id": "d8ec1d9e-2576-490a-842c-84712c6b27b8",
+        "ig_handle": "jhyundrums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김종현",
+        "instruments": [
+          "drums",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -8593,6 +8731,10 @@
     "sets": [
       {
         "label": null,
+        "time": "18:30"
+      },
+      {
+        "label": "1부",
         "time": "18:30"
       }
     ],
@@ -9381,10 +9523,35 @@
   {
     "id": "evt_20261128_c483ec40-f9cc-4022-be00-4f3dc4a76be6",
     "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-28T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfCFF95J098/",
+    "source_url": "https://www.instagram.com/p/Df5ubtlESwv/",
     "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "3a648a05-b34d-4058-a93e-692d9d9c1d53",
+      "a48f2c93-2a97-4daa-9d0d-02269ee5501c"
+    ],
+    "musicians": [
+      {
+        "id": "3a648a05-b34d-4058-a93e-692d9d9c1d53",
+        "ig_handle": "hansaxsolo",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "유명한",
+        "instruments": [
+          "saxophone"
+        ]
+      },
+      {
+        "id": "a48f2c93-2a97-4daa-9d0d-02269ee5501c",
+        "ig_handle": "hyku_song",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "송혁규",
+        "instruments": [
+          "bass",
+          "vocals"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
     "venue_location_id": "main",
@@ -9394,21 +9561,25 @@
       {
         "label": null,
         "time": "21:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "이대원 퀄텟",
+    "title": "이대원 퀸텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Dae-won Quartet",
+      "title": "Lee Dae-won Quintet",
       "description": null
     },
     "_search_ko": {
-      "title": "이대원 퀄텟",
+      "title": "이대원 퀸텟",
       "description": null
     }
   },
