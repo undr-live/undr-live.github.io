@@ -3229,7 +3229,7 @@
   {
     "id": "evt_20261121_c855ebd2-3bad-403a-9687-d6c1d9092232",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-11-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfeuzAbE9xa/",
+    "source_url": "https://www.instagram.com/p/Df-CkCJz1Vt/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
     "musicians": [],
@@ -4477,8 +4477,62 @@
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-22T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Df8lMFIOfj5/",
     "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "aace9aae-503d-430e-a6b6-699dac3060ae",
+      "e9fcbb76-47be-4cfd-aed5-28aae5bc9a52",
+      "b28bec63-0201-4976-8ea4-862dbe931f3e",
+      "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+      "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce"
+    ],
+    "musicians": [
+      {
+        "id": "aace9aae-503d-430e-a6b6-699dac3060ae",
+        "ig_handle": "twothreewater",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이삼수",
+        "instruments": []
+      },
+      {
+        "id": "e9fcbb76-47be-4cfd-aed5-28aae5bc9a52",
+        "ig_handle": "quiet.trp",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조용찬",
+        "instruments": [
+          "trumpet"
+        ]
+      },
+      {
+        "id": "b28bec63-0201-4976-8ea4-862dbe931f3e",
+        "ig_handle": "seong_eun._.jp",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "SeongEun Park",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+        "ig_handle": "praise_like_sunshine",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박해찬",
+        "instruments": [
+          "bass",
+          "piano"
+        ]
+      },
+      {
+        "id": "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce",
+        "ig_handle": "ihatebrushsticks",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김성찬",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
     "venue_location_id": "main",
@@ -5227,7 +5281,11 @@
     "source_url": "https://www.instagram.com/p/Df8lMFIOfj5/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [
-      "b9249f76-7344-41a7-b3fe-df1231dc41b6"
+      "b9249f76-7344-41a7-b3fe-df1231dc41b6",
+      "479326cc-2aeb-4650-a124-221f40ed733e",
+      "31584cf3-a313-4a4f-9175-cf531bfca850",
+      "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+      "6b8e4977-56da-4934-afe3-0f1b39b9f192"
     ],
     "musicians": [
       {
@@ -5236,6 +5294,44 @@
         "name_ko": null,
         "name_en": null,
         "name_irl": "정재원",
+        "instruments": []
+      },
+      {
+        "id": "479326cc-2aeb-4650-a124-221f40ed733e",
+        "ig_handle": "minxophone",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조민형",
+        "instruments": []
+      },
+      {
+        "id": "31584cf3-a313-4a4f-9175-cf531bfca850",
+        "ig_handle": "jinsu_kim_",
+        "name_ko": "김진수",
+        "name_en": "Jinsu Kim",
+        "name_irl": "김진수",
+        "instruments": [
+          "piano",
+          "trumpet"
+        ]
+      },
+      {
+        "id": "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+        "ig_handle": "praise_like_sunshine",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박해찬",
+        "instruments": [
+          "bass",
+          "piano"
+        ]
+      },
+      {
+        "id": "6b8e4977-56da-4934-afe3-0f1b39b9f192",
+        "ig_handle": "altruisticdrum",
+        "name_ko": "양현수",
+        "name_en": null,
+        "name_irl": "양현수",
         "instruments": []
       }
     ],
@@ -5362,7 +5458,9 @@
     "source_url": "https://www.instagram.com/p/Df8lMFIOfj5/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [
-      "5e54794c-2ef8-4db9-abd7-b1411d0bd939"
+      "5e54794c-2ef8-4db9-abd7-b1411d0bd939",
+      "10efb012-1c92-4e67-b420-ea305a809071",
+      "ce539009-7676-4e80-90b6-021614a5e8a4"
     ],
     "musicians": [
       {
@@ -5372,6 +5470,24 @@
         "name_en": null,
         "name_irl": "이재형",
         "instruments": []
+      },
+      {
+        "id": "10efb012-1c92-4e67-b420-ea305a809071",
+        "ig_handle": "guitarae0420",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김정래",
+        "instruments": []
+      },
+      {
+        "id": "ce539009-7676-4e80-90b6-021614a5e8a4",
+        "ig_handle": "redminjun31",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍민중",
+        "instruments": [
+          "drums"
+        ]
       }
     ],
     "musician_ig_handles": [],
@@ -5440,8 +5556,28 @@
     "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-23T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DedIKjxvW07/",
     "venue_handle": "jazzclub_evans",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "aeb4e952-8f2a-4fdc-a1dd-225a98f254ca",
+      "a1513b03-4f20-4e17-8398-cc58e78fecc2"
+    ],
+    "musicians": [
+      {
+        "id": "aeb4e952-8f2a-4fdc-a1dd-225a98f254ca",
+        "ig_handle": "yesolaa",
+        "name_ko": "안예솔",
+        "name_en": "Yesol An",
+        "name_irl": "안예솔 Yesol An",
+        "instruments": []
+      },
+      {
+        "id": "a1513b03-4f20-4e17-8398-cc58e78fecc2",
+        "ig_handle": "eunmaru.yi",
+        "name_ko": "이은마루",
+        "name_en": null,
+        "name_irl": "이은마루",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
     "venue_location_id": "main",
@@ -5451,6 +5587,10 @@
       {
         "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "20:50"
       },
       {
         "label": "2부",
@@ -9971,6 +10111,40 @@
     }
   },
   {
+    "id": "evt_20261205_d2b6091f-307f-4eb5-9ad2-8b2b9ae339cc",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-05T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df_X6Z-BTpw/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-12-05T09:00:00+00:00",
+    "date": "2026-12-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "최백결 재즈 앙상블",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Choi Baekgyeol Jazz Ensemble",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최백결 재즈 앙상블",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261205_a9c4392e-7c4e-4536-a573-e853d271722f",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-05T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
@@ -10069,6 +10243,40 @@
     },
     "_search_ko": {
       "title": "박재홍 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261206_49ca02ed-74d7-453c-b3e5-32194bcc46aa",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-06T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df_X6Z-BTpw/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-12-06T09:00:00+00:00",
+    "date": "2026-12-06",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "클로이정 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Chloe Jung Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "클로이정 퀄텟",
       "description": null
     }
   },
@@ -10307,6 +10515,40 @@
     },
     "_search_ko": {
       "title": "로스 비아헤로스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261212_84d3eb8d-079a-4db1-b228-733a392ce20a",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-12T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df_X6Z-BTpw/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-12-12T09:00:00+00:00",
+    "date": "2026-12-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "선정 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Sunjeong Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "선정 퀄텟",
       "description": null
     }
   },
