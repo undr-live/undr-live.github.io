@@ -7124,7 +7124,7 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "밴드 RPCS",
+    "title": "밴드 알피씨에스",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -7134,7 +7134,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "밴드 RPCS",
+      "title": "밴드 알피씨에스",
       "description": null
     }
   },
@@ -11137,6 +11137,53 @@
     }
   },
   {
+    "id": "evt_20261224_ef7e418f-ccc7-4534-87f3-ee4c13fa65f6",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-12-24T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df-QWMwkww4/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [
+      "87831c6a-0540-4550-ba13-c601e16b4c63"
+    ],
+    "musicians": [
+      {
+        "id": "87831c6a-0540-4550-ba13-c601e16b4c63",
+        "ig_handle": "dhpiano12",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Dahee Kim",
+        "instruments": [
+          "piano"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T10:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      }
+    ],
+    "price": "99,000원",
+    "llm_confidence": 1.0,
+    "title": "김다희 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Dahee Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김다희 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_f6a15521-2175-4b7a-9327-1581acd8f39f",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-24T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -11303,6 +11350,53 @@
     },
     "_search_ko": {
       "title": "하이진 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261224_a6f65605-9217-4a36-81c2-e93044bf80d4",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-12-24T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df-QWMwkww4/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [
+      "401b72d9-38ea-453c-a92b-2976728d52de"
+    ],
+    "musicians": [
+      {
+        "id": "401b72d9-38ea-453c-a92b-2976728d52de",
+        "ig_handle": "hanxazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김한 Han Kim",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T13:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "22:00"
+      }
+    ],
+    "price": "99,000원",
+    "llm_confidence": 1.0,
+    "title": "김한 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Han Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김한 퀄텟",
       "description": null
     }
   },
@@ -11597,6 +11691,53 @@
     }
   },
   {
+    "id": "evt_20261225_af80f0a2-e4d1-4573-9a0d-c18c23a71265",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-12-25T07:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df-QWMwkww4/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [
+      "401b72d9-38ea-453c-a92b-2976728d52de"
+    ],
+    "musicians": [
+      {
+        "id": "401b72d9-38ea-453c-a92b-2976728d52de",
+        "ig_handle": "hanxazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김한 Han Kim",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T07:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "16:00"
+      }
+    ],
+    "price": "99,000원",
+    "llm_confidence": 1.0,
+    "title": "김한 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Han Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김한 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_89331e3a-97f9-4eda-aba7-eb3d82e756a7",
     "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-12-25T08:00:00+00:00",
     "source_url": "https://www.instagram.com/reel/DfRig8Vhk2i/",
@@ -11756,6 +11897,55 @@
     },
     "_search_ko": {
       "title": "한주영 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_b21936e6-2d67-460c-a941-c02d52718ead",
+    "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-12-25T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df-QWMwkww4/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [
+      "6de83356-ac9a-4d35-a366-555f38ff2cab"
+    ],
+    "musicians": [
+      {
+        "id": "6de83356-ac9a-4d35-a366-555f38ff2cab",
+        "ig_handle": "nanahjin",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "난아진",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T10:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "19:00"
+      },
+      {
+        "label": "3부",
+        "time": "22:00"
+      }
+    ],
+    "price": "99,000원",
+    "llm_confidence": 1.0,
+    "title": "소울맨 & 난아진",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Soulman & Nan Ah Jin",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "소울맨 & 난아진",
       "description": null
     }
   },
