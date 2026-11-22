@@ -1542,8 +1542,12 @@
     "date": "2026-11-21",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:10"
       }
     ],
     "price": "예매 20,000원 / 현매 23,000원",
@@ -1806,13 +1810,13 @@
     ],
     "price": "무료입장 (후불페이)",
     "llm_confidence": 1.0,
-    "title": "Lee Ju Mi Jazz Palette",
+    "title": "Lee Jumi Jazz Palette",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lee Ju Mi Jazz Palette",
+      "title": "Lee Jumi Jazz Palette",
       "description": null
     },
     "_search_ko": {
@@ -4003,8 +4007,42 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-23T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "c1978e26-4f93-46e2-8772-6bceefa99975",
+      "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+      "7716aab9-40c2-4d99-a987-5e526dec33e7"
+    ],
+    "musicians": [
+      {
+        "id": "c1978e26-4f93-46e2-8772-6bceefa99975",
+        "ig_handle": "woonjo_",
+        "name_ko": "조운",
+        "name_en": "Woon Jo",
+        "name_irl": "Woon Jo | 조운",
+        "instruments": []
+      },
+      {
+        "id": "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+        "ig_handle": "daeyounkimm",
+        "name_ko": "김대윤",
+        "name_en": "Daeyoun Kim",
+        "name_irl": "Daeyoun Kim 김대윤",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "7716aab9-40c2-4d99-a987-5e526dec33e7",
+        "ig_handle": "jazz_baek",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "백용훈",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -4012,7 +4050,7 @@
     "date": "2026-11-23",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
@@ -4325,8 +4363,30 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-24T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "be88dbf2-2aae-437a-a493-febac53fce09",
+      "664e4ebd-b604-442b-8833-d345348de24a"
+    ],
+    "musicians": [
+      {
+        "id": "be88dbf2-2aae-437a-a493-febac53fce09",
+        "ig_handle": "nokrbass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "노광래",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "664e4ebd-b604-442b-8833-d345348de24a",
+        "ig_handle": "sc._.creation",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "임수찬",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -4334,7 +4394,7 @@
     "date": "2026-11-24",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
@@ -4785,8 +4845,22 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-25T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "62b39f74-44a5-40ce-acb3-cf2b21c7fa81"
+    ],
+    "musicians": [
+      {
+        "id": "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+        "ig_handle": "daeyounkimm",
+        "name_ko": "김대윤",
+        "name_en": "Daeyoun Kim",
+        "name_irl": "Daeyoun Kim 김대윤",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -4794,7 +4868,7 @@
     "date": "2026-11-25",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
@@ -5341,8 +5415,31 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-26T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "bea80a52-d565-40b3-a6c9-f712d27ccb44",
+      "6ee4c750-851e-4f74-a0b3-318cff4d343b"
+    ],
+    "musicians": [
+      {
+        "id": "bea80a52-d565-40b3-a6c9-f712d27ccb44",
+        "ig_handle": "gbaejazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "배가영",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "6ee4c750-851e-4f74-a0b3-318cff4d343b",
+        "ig_handle": "sngha",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이승하",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -5350,23 +5447,23 @@
     "date": "2026-11-26",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "HyoJeong Lee Latin Project : Seoul",
+    "title": "Hyojeong Lee Latin Project (Mangorita)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "HyoJeong Lee Latin Project : Seoul",
+      "title": "Hyojeong Lee Latin Project (Mangorita)",
       "description": null
     },
     "_search_ko": {
-      "title": "이효정 라틴 프로젝트 : 서울",
+      "title": "효정리 라틴 프로젝트 (망고리타)",
       "description": null
     }
   },
@@ -7278,8 +7375,50 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-11-28T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De2yAkPk9fC/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "45211611-0b73-418e-b1dc-ca3ef0f9f48f",
+      "87831c6a-0540-4550-ba13-c601e16b4c63",
+      "36cda962-0268-4b25-922a-9a2746e7e703",
+      "bd801071-11c0-490b-86a8-4ec796d7181e"
+    ],
+    "musicians": [
+      {
+        "id": "45211611-0b73-418e-b1dc-ca3ef0f9f48f",
+        "ig_handle": "doobidoodot",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "DeeDee(디디) .김현미",
+        "instruments": []
+      },
+      {
+        "id": "87831c6a-0540-4550-ba13-c601e16b4c63",
+        "ig_handle": "dhpiano12",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Dahee Kim",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "36cda962-0268-4b25-922a-9a2746e7e703",
+        "ig_handle": "zaipal83",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "심영주",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "bd801071-11c0-490b-86a8-4ec796d7181e",
+        "ig_handle": "soonwookhahn",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "한순욱",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
