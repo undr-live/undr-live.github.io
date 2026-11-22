@@ -3182,6 +3182,40 @@
     }
   },
   {
+    "id": "evt_20261122_807546ac-c97b-4a2e-bfdc-0093653a5eef",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-22T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgCJ0Muk7jQ/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-22T10:00:00+00:00",
+    "date": "2026-11-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "무료입장 (후불제)",
+    "llm_confidence": 1.0,
+    "title": "Hippo Sound",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hippo Sound",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "히포 사운드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261122_8aa25c30-c35b-43f0-832d-e4a301f29541",
     "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-11-22T10:10:00+00:00",
     "source_url": "https://www.instagram.com/p/Df8qgqlH6oB/",
@@ -3796,6 +3830,54 @@
     },
     "_search_ko": {
       "title": "유기농 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261122_4298d99e-d5f9-42a5-9995-18d5a7e88b04",
+    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-22T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgCJ0Muk7jQ/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [
+      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b"
+    ],
+    "musicians": [
+      {
+        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
+        "ig_handle": "__suno_kim__",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김선호",
+        "instruments": [
+          "drums",
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
+    "venue_location_id": "main",
+    "datetime": "2026-11-22T12:00:00+00:00",
+    "date": "2026-11-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": "무료입장 (후불제)",
+    "llm_confidence": 1.0,
+    "title": "Um Ki Eung Trial Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Um Ki Eung Trial Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "엄기웅 트라이얼 밴드",
       "description": null
     }
   },
