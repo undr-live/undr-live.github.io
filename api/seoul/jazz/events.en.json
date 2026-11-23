@@ -1336,6 +1336,62 @@
     }
   },
   {
+    "id": "evt_20261123_db47457d-af96-42e1-9ec0-b3d2515129e0",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-23T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgC2sW4kw4Q/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "047857fd-a730-42b7-9c52-df95dcef187e",
+      "4ec5efa9-8e0f-447d-81bf-8d309ccf8103"
+    ],
+    "musicians": [
+      {
+        "id": "047857fd-a730-42b7-9c52-df95dcef187e",
+        "ig_handle": "bowingpark",
+        "name_ko": "박정현",
+        "name_en": null,
+        "name_irl": "박정현",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "4ec5efa9-8e0f-447d-81bf-8d309ccf8103",
+        "ig_handle": "tp.heim",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "최 준기",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-23T10:00:00+00:00",
+    "date": "2026-11-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Pyeong Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Pyeong Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이평 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261123_9dd6124c-690d-4241-9d4f-2168975ccd15",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-23T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -1633,6 +1689,40 @@
     },
     "_search_ko": {
       "title": "누에보 앙상블",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261123_3a32b6dd-1e4f-4d3e-a4b6-d80aa94ccd30",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-23T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgC2sW4kw4Q/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-23T12:00:00+00:00",
+    "date": "2026-11-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Masa Sasaki Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Masa Sasaki Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "마사 사사키 퀄텟",
       "description": null
     }
   },
@@ -3152,13 +3242,13 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Hyojeong Lee Latin Project (Mangorita)",
+    "title": "HyoJeong Lee Latin Project (Mangorita)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hyojeong Lee Latin Project (Mangorita)",
+      "title": "HyoJeong Lee Latin Project (Mangorita)",
       "description": null
     },
     "_search_ko": {
@@ -3858,8 +3948,31 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-11-27T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De2yAkPk9fC/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "bea80a52-d565-40b3-a6c9-f712d27ccb44",
+      "6ee4c750-851e-4f74-a0b3-318cff4d343b"
+    ],
+    "musicians": [
+      {
+        "id": "bea80a52-d565-40b3-a6c9-f712d27ccb44",
+        "ig_handle": "gbaejazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "배가영",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "6ee4c750-851e-4f74-a0b3-318cff4d343b",
+        "ig_handle": "sngha",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이승하",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -3873,17 +3986,17 @@
     ],
     "price": "₩15K",
     "llm_confidence": 1.0,
-    "title": "HyoJeong Lee Latin Project: Seoul",
+    "title": "Hyojeong Lee Latin Project (Mangorita)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "HyoJeong Lee Latin Project: Seoul",
+      "title": "Hyojeong Lee Latin Project (Mangorita)",
       "description": null
     },
     "_search_ko": {
-      "title": "이효정 라틴 프로젝트 : 서울",
+      "title": "효정 리 라틴 프로젝트 (망고리타)",
       "description": null
     }
   },
@@ -4323,13 +4436,13 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Choi Myung Ji Duo",
+    "title": "Choi Myung-ji Duo",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Choi Myung Ji Duo",
+      "title": "Choi Myung-ji Duo",
       "description": null
     },
     "_search_ko": {
@@ -4512,13 +4625,13 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Song Han Na Trio",
+    "title": "Song Han-na Trio",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Song Han Na Trio",
+      "title": "Song Han-na Trio",
       "description": null
     },
     "_search_ko": {
@@ -6148,7 +6261,7 @@
   {
     "id": "evt_20261129_7075a883-b345-4c25-ba09-b049c8e6deb3",
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-29T07:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
+    "source_url": "https://www.instagram.com/p/DgByRRjmKis/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
     "musicians": [],
@@ -6399,17 +6512,17 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "Horim Band",
+    "title": "Horim & The Earth",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Horim Band",
+      "title": "Horim & The Earth",
       "description": null
     },
     "_search_ko": {
-      "title": "호림 밴드",
+      "title": "호림 & 더 어스",
       "description": null
     }
   },
@@ -8723,6 +8836,116 @@
     }
   },
   {
+    "id": "evt_20261224_6964f9ba-bf3a-4cf2-8000-ec154927b9f8",
+    "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-12-24T08:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgAc271khvo/",
+    "venue_handle": "bluecat.fezh",
+    "musician_ids": [
+      "507e2fc1-090c-404b-a7d1-08889d8553ad",
+      "6403cff5-0c2f-4ab5-afce-cebbc492b51b",
+      "62b39f74-44a5-40ce-acb3-cf2b21c7fa81"
+    ],
+    "musicians": [
+      {
+        "id": "507e2fc1-090c-404b-a7d1-08889d8553ad",
+        "ig_handle": "sugarjazzzz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": null,
+        "instruments": []
+      },
+      {
+        "id": "6403cff5-0c2f-4ab5-afce-cebbc492b51b",
+        "ig_handle": "hodddang",
+        "name_ko": "유호정",
+        "name_en": null,
+        "name_irl": "유호정",
+        "instruments": [
+          "violin"
+        ]
+      },
+      {
+        "id": "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+        "ig_handle": "daeyounkimm",
+        "name_ko": "김대윤",
+        "name_en": "Daeyoun Kim",
+        "name_irl": "Daeyoun Kim 김대윤",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T08:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1회",
+        "time": "17:00"
+      },
+      {
+        "label": "2회",
+        "time": "20:00"
+      }
+    ],
+    "price": "170,000원 (2인)",
+    "llm_confidence": 1.0,
+    "title": "Real Jazz",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Real Jazz",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리얼 재즈",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261224_72d049cf-45fd-4bb2-bd8e-9153129cd500",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-24T08:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df_XuoeB1q7/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T08:30:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "17:30"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Christmas Dinner",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Christmas Dinner",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "크리스마스 디너",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_f065933e-1fea-45aa-a3a7-1c22449c2c91",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-12-24T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfmYHFRk_Rx/",
@@ -9525,6 +9748,115 @@
     }
   },
   {
+    "id": "evt_20261225_35438787-dc8d-42d7-a237-b4d68bfad4cf",
+    "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-12-25T08:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgAc271khvo/",
+    "venue_handle": "bluecat.fezh",
+    "musician_ids": [
+      "8115267a-05b0-4f10-bcf1-50949d555fa4",
+      "83ced2a6-641e-40fa-ad35-f5b75b713ac2",
+      "3029bb64-ac22-4739-85b3-6af224621f38"
+    ],
+    "musicians": [
+      {
+        "id": "8115267a-05b0-4f10-bcf1-50949d555fa4",
+        "ig_handle": "dawnye__",
+        "name_ko": "단예",
+        "name_en": null,
+        "name_irl": "단예",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "83ced2a6-641e-40fa-ad35-f5b75b713ac2",
+        "ig_handle": "seo_m_piano",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "맹서령",
+        "instruments": []
+      },
+      {
+        "id": "3029bb64-ac22-4739-85b3-6af224621f38",
+        "ig_handle": "jettone88",
+        "name_ko": "박종상",
+        "name_en": "Jongsang Park",
+        "name_irl": "Jongsang Park",
+        "instruments": [
+          "trumpet"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T08:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1회",
+        "time": "17:00"
+      },
+      {
+        "label": "2회",
+        "time": "20:00"
+      }
+    ],
+    "price": "170,000원 (2인)",
+    "llm_confidence": 1.0,
+    "title": "Dan-ye Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Dan-ye Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "단예 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_ad66daa3-d118-45a0-84d1-827d3b79bafb",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-25T08:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df_XuoeB1q7/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T08:30:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "17:30"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Christmas Dinner",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Christmas Dinner",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "크리스마스 디너",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_ff229a74-36f0-4c9c-8cc8-0e892fc64f2c",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-12-25T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfmYHFRk_Rx/",
@@ -10090,6 +10422,40 @@
     }
   },
   {
+    "id": "evt_20261226_bdec18ae-5f3e-4195-90c5-d688c6466e41",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-26T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df_XuoeB1q7/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-12-26T09:00:00+00:00",
+    "date": "2026-12-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Chloe Jung Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Chloe Jung Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "클로이정 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261226_bda5601b-c4a8-4f65-a45d-433761d9b5b0",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-26T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -10199,6 +10565,40 @@
     },
     "_search_ko": {
       "title": "진재환 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261227_64d77961-ab7a-4b77-ac6a-044bfef62045",
+    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-27T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/Df_XuoeB1q7/",
+    "venue_handle": "gwangalli_namme",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
+    "venue_location_id": "main",
+    "datetime": "2026-12-27T09:00:00+00:00",
+    "date": "2026-12-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Daegyu Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Daegyu Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김대규 트리오",
       "description": null
     }
   },
@@ -10364,6 +10764,76 @@
     },
     "_search_ko": {
       "title": "김광용 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261231_013af045-4311-4d66-b8fc-65135f004e18",
+    "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-12-31T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgAc271khvo/",
+    "venue_handle": "bluecat.fezh",
+    "musician_ids": [
+      "87831c6a-0540-4550-ba13-c601e16b4c63",
+      "2c856630-ec1b-49a2-b67f-152179b01ecc",
+      "b005e70a-694c-4ba7-b6b5-2f55444b9a53"
+    ],
+    "musicians": [
+      {
+        "id": "87831c6a-0540-4550-ba13-c601e16b4c63",
+        "ig_handle": "dhpiano12",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Dahee Kim",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "2c856630-ec1b-49a2-b67f-152179b01ecc",
+        "ig_handle": "saxholic9",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "구민상",
+        "instruments": [
+          "saxophone"
+        ]
+      },
+      {
+        "id": "b005e70a-694c-4ba7-b6b5-2f55444b9a53",
+        "ig_handle": "bassist_taehee",
+        "name_ko": "장태희",
+        "name_en": "TaeHee Jang",
+        "name_irl": "장태희 (TaeHee Jang)",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95",
+    "venue_location_id": "main",
+    "datetime": "2026-12-31T10:30:00+00:00",
+    "date": "2026-12-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": "170,000원 (2인)",
+    "llm_confidence": 1.0,
+    "title": "Kim Da-hee Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Da-hee Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김다희 트리오",
       "description": null
     }
   },

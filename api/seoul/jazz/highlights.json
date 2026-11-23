@@ -1,72 +1,50 @@
 {
-  "week_start_date": "2026-11-16",
-  "generated_at": "2026-11-16T07:00:06.216351+00:00",
+  "week_start_date": "2026-11-23",
+  "generated_at": "2026-11-23T07:00:09.843322+00:00",
   "locality": "seoul",
   "genre": "jazz",
   "highlights": {
-    "2026-11-18": {
-      "event_id": "pinned-2026-11-18-banhausseoul",
+    "2026-11-25": {
+      "event_id": "evt_20261125_8962e7c0-a39b-4f0f-8852-020c0fb46253",
       "title": {
-        "ko": "미완성 vol. 01 - 261118"
+        "ko": "허원무 트리오",
+        "en": "Heo Won-mu Trio"
       },
       "venue_name": {
-        "ko": "반하우스",
-        "en": "Banhaus"
+        "en": "FLATNINE",
+        "ko": "플랫나인"
       },
-      "venue_handle": "banhausseoul",
-      "datetime": "2026-11-18T20:00:00+09:00",
-      "selected_at": "2026-11-16T07:00:06.173012+00:00",
-      "pinned": true,
-      "title_pinned": true,
-      "lineup": {
-        "ko": "piano 유하영 · vocal 정원미 · bass 권세준"
-      },
-      "info_handles": [
-        "thewonmijung",
-        "hayonnglyou_"
-      ]
+      "venue_handle": "flatnine_jazzbar",
+      "datetime": "2026-11-25T11:00:00+00:00",
+      "selected_at": "2026-11-23T07:00:09.841827+00:00"
     },
-    "2026-11-19": {
-      "event_id": "evt_20261119_7510702e-f8d9-4c05-8f49-e4b0b2f786f7",
+    "2026-11-26": {
+      "event_id": "evt_20261126_99b3f346-346a-4ed0-807d-c59b4cf99fee",
       "title": {
-        "ko": "이스트리오",
-        "en": "Yeast Trio"
+        "ko": "한상원 밴드",
+        "en": "Han Sangwon Band"
       },
       "venue_name": {
-        "en": "Cotton Club",
-        "ko": "코튼클럽"
+        "en": "Chunnyun Dongando",
+        "ko": "천년동안도"
       },
-      "venue_handle": "cottonclub_seoul",
-      "datetime": "2026-11-19T11:00:00+00:00",
-      "selected_at": "2026-11-16T07:00:06.214880+00:00"
+      "venue_handle": "chunnyun.jazz",
+      "datetime": "2026-11-26T11:00:00+00:00",
+      "selected_at": "2026-11-23T07:00:09.842543+00:00"
     },
-    "2026-11-20": {
-      "event_id": "evt_20261120_5f5a7a38-4dac-4a4e-b282-65890fc79f67",
+    "2026-11-28": {
+      "event_id": "evt_20261128_993d8e7b-84c4-442f-8714-7baea5213d8a",
       "title": {
-        "ko": "김태국 퀸텟",
-        "en": "Taekuk Kim Quintet"
+        "ko": "서울 재즈 빅밴드",
+        "en": "Seoul Jazz Big Band"
       },
       "venue_name": {
         "en": "Minor Swing",
         "ko": "마이너스윙"
       },
       "venue_handle": "cafe_minor_swing",
-      "datetime": "2026-11-20T11:00:00+00:00",
-      "selected_at": "2026-11-16T07:00:06.215478+00:00"
-    },
-    "2026-11-21": {
-      "event_id": "evt_20261121_11302708-ddb4-460c-98f4-8ff9a73bafc7",
-      "title": {
-        "ko": "찰리정 카일라스 밴드",
-        "en": "Charlie Jung Kailash Band"
-      },
-      "venue_name": {
-        "en": "Sound Dog",
-        "ko": "사운드 독"
-      },
-      "venue_handle": "sounddog_jazz",
-      "datetime": "2026-11-21T11:00:00+00:00",
-      "selected_at": "2026-11-16T07:00:06.216285+00:00"
+      "datetime": "2026-11-28T11:00:00+00:00",
+      "selected_at": "2026-11-23T07:00:09.843261+00:00"
     }
   }
 }
