@@ -1,1341 +1,5 @@
 [
   {
-    "id": "evt_20261122_ceb5e996-d7d4-4385-98ae-9b34d68097ab",
-    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-22T07:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
-    "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T07:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "16:00"
-      }
-    ],
-    "price": "15,000원",
-    "llm_confidence": 1.0,
-    "title": "주빈 트리오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Zubin Trio",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "주빈 트리오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_a8c0a756-10d0-4768-918b-24c40c011ffd",
-    "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-11-22T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DeyiNZPhPJt/",
-    "venue_handle": "gwangalli_namme",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_606e1d0f-ec35-4804-9343-c6c8a9621cca",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T09:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "18:00"
-      }
-    ],
-    "price": "15,000원",
-    "llm_confidence": 1.0,
-    "title": "허유진 퀄텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Heo Yujin Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "허유진 퀄텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_47d8a96f-6e8f-4473-88f8-ad78b4776cbe",
-    "event_key": "v:ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da|t:2026-11-22T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Dfyr6IyIwpG/",
-    "venue_handle": "entry55_official",
-    "musician_ids": [
-      "7b14fdb6-8cc5-4555-ac84-0e7c0f74df0b"
-    ],
-    "musicians": [
-      {
-        "id": "7b14fdb6-8cc5-4555-ac84-0e7c0f74df0b",
-        "ig_handle": "pf_s24h",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "김상현",
-        "instruments": []
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_5d91cccd-80af-4cb4-953e-bdff93ccf5da",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T09:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "18:00"
-      },
-      {
-        "label": "2부",
-        "time": "20:10"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "트리오 오가니즘 (기타 조유윤)",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Trio Organism (feat. Jo Yu-yoon)",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "트리오 오가니즘 (기타 조유윤)",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_c79fb427-48f7-4b80-83ab-3f013dae2e2d",
-    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-22T09:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Df8lMFIOfj5/",
-    "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [
-      "aace9aae-503d-430e-a6b6-699dac3060ae",
-      "e9fcbb76-47be-4cfd-aed5-28aae5bc9a52",
-      "b28bec63-0201-4976-8ea4-862dbe931f3e",
-      "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
-      "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce"
-    ],
-    "musicians": [
-      {
-        "id": "aace9aae-503d-430e-a6b6-699dac3060ae",
-        "ig_handle": "twothreewater",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "이삼수",
-        "instruments": []
-      },
-      {
-        "id": "e9fcbb76-47be-4cfd-aed5-28aae5bc9a52",
-        "ig_handle": "quiet.trp",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "조용찬",
-        "instruments": [
-          "trumpet"
-        ]
-      },
-      {
-        "id": "b28bec63-0201-4976-8ea4-862dbe931f3e",
-        "ig_handle": "seong_eun._.jp",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "SeongEun Park",
-        "instruments": [
-          "piano"
-        ]
-      },
-      {
-        "id": "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
-        "ig_handle": "praise_like_sunshine",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "박해찬",
-        "instruments": [
-          "bass",
-          "piano"
-        ]
-      },
-      {
-        "id": "f460569c-dbb9-489f-bd5d-d8c13eb4c6ce",
-        "ig_handle": "ihatebrushsticks",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "김성찬",
-        "instruments": []
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T09:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "18:00"
-      }
-    ],
-    "price": "무료입장 (후불페이)",
-    "llm_confidence": 1.0,
-    "title": "더 퀸텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "The Quintet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "더 퀸텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_02ea888c-c486-4a1e-b410-a1eb643802f4",
-    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-11-22T09:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfCFF95J098/",
-    "venue_handle": "edls_official",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T09:30:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "18:30"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "박선영 퀄텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Park Sun-young Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "박선영 퀄텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_d4934b18-e6c9-4c7e-85a8-485e2482cf98",
-    "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-11-22T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DetMrPwoPO2/",
-    "venue_handle": "pdpdclub",
-    "musician_ids": [
-      "0f98dd7c-7f09-489b-9a33-233acad2354d",
-      "82ceb4b4-3dfe-436c-917b-bba9b7ac3d9c"
-    ],
-    "musicians": [
-      {
-        "id": "0f98dd7c-7f09-489b-9a33-233acad2354d",
-        "ig_handle": "r_im0902",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "김예림",
-        "instruments": []
-      },
-      {
-        "id": "82ceb4b4-3dfe-436c-917b-bba9b7ac3d9c",
-        "ig_handle": "swing_or_nothing",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "송준혁",
-        "instruments": [
-          "bass"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T10:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:00"
-      },
-      {
-        "label": "2부",
-        "time": "20:00"
-      }
-    ],
-    "price": "20,000원",
-    "llm_confidence": 1.0,
-    "title": "리브레",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Libre",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "리브레",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_af37c213-6bf8-4ba5-8625-d4a4fff120ca",
-    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-22T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
-    "venue_handle": "jazzclub_bluehour",
-    "musician_ids": [
-      "59b68cef-b3ac-4bd3-b96a-da635be3d648"
-    ],
-    "musicians": [
-      {
-        "id": "59b68cef-b3ac-4bd3-b96a-da635be3d648",
-        "ig_handle": "bass_youngjoon",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "정영준",
-        "instruments": []
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T10:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:00"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "류복성 라틴 올스타즈 (보컬 이영주)",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Ryu Bok-seong Latin All-Stars (Vocal Lee Young-ju)",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "류복성 라틴 올스타즈 (보컬 이영주)",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_8565f2fb-bddd-4e54-ada7-3ac1b4c3f5d1",
-    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-22T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
-    "venue_handle": "cottonclub_seoul",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T10:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:00"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "지윤 듀오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Ji Yoon Duo",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "지윤 듀오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_c6040911-d881-43d0-9c4c-91670c2d9781",
-    "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-22T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
-    "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [
-      "a6005d0c-f368-4217-acf1-3be6730175b9",
-      "5fb35320-da50-457e-b350-79a716e86285",
-      "8771e40f-85ed-483f-ad79-33fd88893720",
-      "c20d8646-9467-4d54-ba0f-44df6e241e02"
-    ],
-    "musicians": [
-      {
-        "id": "a6005d0c-f368-4217-acf1-3be6730175b9",
-        "ig_handle": "jo_ahhye",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "조아혜 Jo Ah Hye",
-        "instruments": []
-      },
-      {
-        "id": "5fb35320-da50-457e-b350-79a716e86285",
-        "ig_handle": "yoonjihee_music",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "Jihee Yoon",
-        "instruments": [
-          "piano"
-        ]
-      },
-      {
-        "id": "8771e40f-85ed-483f-ad79-33fd88893720",
-        "ig_handle": "leecinwoo",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "이신우 leecinwoo",
-        "instruments": [
-          "bass"
-        ]
-      },
-      {
-        "id": "c20d8646-9467-4d54-ba0f-44df6e241e02",
-        "ig_handle": "drummer_dandylee",
-        "name_ko": "이광혁",
-        "name_en": null,
-        "name_irl": "이광혁",
-        "instruments": [
-          "drums"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T10:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "2부",
-        "time": "19:00"
-      }
-    ],
-    "price": "15,000원",
-    "llm_confidence": 1.0,
-    "title": "조아혜 밴드",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Jo A Hye Band",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "조아혜 밴드",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_dd7b53eb-1ad9-44db-ada0-5f2991d098e0",
-    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-22T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/reel/DfvvnP4HEwo/",
-    "venue_handle": "chunnyun.jazz",
-    "musician_ids": [
-      "9fa2e435-b1d1-4f5f-91c2-70f77814ccd8"
-    ],
-    "musicians": [
-      {
-        "id": "9fa2e435-b1d1-4f5f-91c2-70f77814ccd8",
-        "ig_handle": "oh5won1seok3",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "오원석",
-        "instruments": [
-          "bass"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T10:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "19:00"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "성기문 트리오 + 1",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Sung Ki-moon Trio + 1",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "성기문 트리오 + 1",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_e00ceead-0cf3-4245-ab83-353741b87683",
-    "event_key": "v:ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298|t:2026-11-22T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfwMbI1H_ho/",
-    "venue_handle": "newall_jazz",
-    "musician_ids": [
-      "657e643a-d154-4b54-8702-79a09bf83b32",
-      "1b14fe11-1360-4704-8c42-451142ed8939"
-    ],
-    "musicians": [
-      {
-        "id": "657e643a-d154-4b54-8702-79a09bf83b32",
-        "ig_handle": "_yezz_in",
-        "name_ko": "권예진",
-        "name_en": null,
-        "name_irl": "권예진",
-        "instruments": [
-          "vocals"
-        ]
-      },
-      {
-        "id": "1b14fe11-1360-4704-8c42-451142ed8939",
-        "ig_handle": "co_copuco",
-        "name_ko": "김선우",
-        "name_en": null,
-        "name_irl": "김선우",
-        "instruments": []
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_f5f2ad22-e8e1-47c6-b7ad-32c32618c298",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T10:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:00"
-      },
-      {
-        "label": "2부",
-        "time": "20:15"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "권예진 듀오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Kwon Ye-jin Duo",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "권예진 듀오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_807546ac-c97b-4a2e-bfdc-0093653a5eef",
-    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-22T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Df8Uh93zuUu/",
-    "venue_handle": "subriot_hbc",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T10:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "19:00"
-      }
-    ],
-    "price": "무료입장 (후불제)",
-    "llm_confidence": 1.0,
-    "title": "히포 사운드",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Hippo Sound",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "히포 사운드",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_8aa25c30-c35b-43f0-832d-e4a301f29541",
-    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-11-22T10:10:00+00:00",
-    "source_url": "https://www.instagram.com/p/Df8qgqlH6oB/",
-    "venue_handle": "rustic_jazz",
-    "musician_ids": [
-      "9f0a9ede-12d4-4d52-96db-f82f3fb1b9c3",
-      "a7a99ccf-3b5e-45e6-b76d-3798ac130d6d"
-    ],
-    "musicians": [
-      {
-        "id": "9f0a9ede-12d4-4d52-96db-f82f3fb1b9c3",
-        "ig_handle": "saxophone_heaven",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "Jongwon Lee",
-        "instruments": [
-          "saxophone"
-        ]
-      },
-      {
-        "id": "a7a99ccf-3b5e-45e6-b76d-3798ac130d6d",
-        "ig_handle": "sungjae_drums",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "정성재",
-        "instruments": [
-          "drums"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T10:10:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:10"
-      },
-      {
-        "label": "2부",
-        "time": "20:30"
-      }
-    ],
-    "price": "13,000원",
-    "llm_confidence": 1.0,
-    "title": "이종원 밴드",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Lee Jong-won Band",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "이종원 밴드",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_6fb3e278-b128-4b77-b383-3a7e9f8123c6",
-    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-11-22T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfzXEs2A9Af/",
-    "venue_handle": "mammy__blue",
-    "musician_ids": [
-      "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
-      "644f7610-9b91-4148-83c6-7e7fe9633bf1"
-    ],
-    "musicians": [
-      {
-        "id": "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
-        "ig_handle": "hey.hailluv",
-        "name_ko": "해일럽",
-        "name_en": null,
-        "name_irl": "해일럽",
-        "instruments": [
-          "vocals"
-        ]
-      },
-      {
-        "id": "644f7610-9b91-4148-83c6-7e7fe9633bf1",
-        "ig_handle": "pianoyeom",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "Shinhye Yeom",
-        "instruments": [
-          "piano",
-          "composer"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T10:30:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "19:30"
-      },
-      {
-        "label": "2부",
-        "time": "20:25"
-      }
-    ],
-    "price": "10,000원",
-    "llm_confidence": 1.0,
-    "title": "해일럽 듀오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Hailluv Duo",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "해일럽 듀오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_1872bc5b-8928-4599-9642-4e7cd85bc082",
-    "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
-    "venue_handle": "sounddog_jazz",
-    "musician_ids": [
-      "d8ec1d9e-2576-490a-842c-84712c6b27b8"
-    ],
-    "musicians": [
-      {
-        "id": "d8ec1d9e-2576-490a-842c-84712c6b27b8",
-        "ig_handle": "jhyundrums",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "김종현",
-        "instruments": [
-          "drums",
-          "composer"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_a0789558-4701-443e-ab9a-7600c005b2d8",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T11:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": "20,000원",
-    "llm_confidence": 1.0,
-    "title": "박준서 퀄텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Junseo Park Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "박준서 퀄텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_4afde8b9-812a-4def-a3d9-2cba742d9fe1",
-    "event_key": "v:ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0|t:2026-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfPEahkGb1M/",
-    "venue_handle": "jazzclub_evans",
-    "musician_ids": [
-      "b4ff14eb-0539-4f9b-b8bf-89b6561b3d70",
-      "447e5446-7364-4e19-a2d6-a74a46bfc8d3"
-    ],
-    "musicians": [
-      {
-        "id": "b4ff14eb-0539-4f9b-b8bf-89b6561b3d70",
-        "ig_handle": "earlpiano",
-        "name_ko": null,
-        "name_en": "Han-Earl Lee",
-        "name_irl": "Han-Earl Lee",
-        "instruments": [
-          "piano"
-        ]
-      },
-      {
-        "id": "447e5446-7364-4e19-a2d6-a74a46bfc8d3",
-        "ig_handle": "sangbeom35",
-        "name_ko": "김상범",
-        "name_en": null,
-        "name_irl": "김상범",
-        "instruments": []
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_95f2365a-d91c-42b1-95bc-ce8cc3d99ce0",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T11:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "20:00"
-      },
-      {
-        "label": "2부",
-        "time": "21:20"
-      }
-    ],
-    "price": "20,000원",
-    "llm_confidence": 1.0,
-    "title": "이한얼 퀄텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Lee Han-earl Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "이한얼 퀄텟",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_f914c320-c42e-4ac6-b7fb-56eef09484e4",
-    "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfeuzAbE9xa/",
-    "venue_handle": "jazzclub_janus",
-    "musician_ids": [
-      "d8ec1d9e-2576-490a-842c-84712c6b27b8"
-    ],
-    "musicians": [
-      {
-        "id": "d8ec1d9e-2576-490a-842c-84712c6b27b8",
-        "ig_handle": "jhyundrums",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "김종현",
-        "instruments": [
-          "drums",
-          "composer"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T11:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "48주년 그랜드 잼데이",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "48th Anniversary Grand Jam Day",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "48주년 그랜드 잼데이",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_d1239760-d46e-46c5-8c50-c6e7d3824320",
-    "event_key": "v:ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466|t:2026-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DfzEbC6hms-/",
-    "venue_handle": "houseofblue.seoul",
-    "musician_ids": [
-      "d9458e88-0808-49ee-ac05-dc799b68a7f0"
-    ],
-    "musicians": [
-      {
-        "id": "d9458e88-0808-49ee-ac05-dc799b68a7f0",
-        "ig_handle": "jazzcats_sanga",
-        "name_ko": "박상아",
-        "name_en": null,
-        "name_irl": "트럼펫 박상아🎺",
-        "instruments": [
-          "trumpet",
-          "composer"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_3b0f710e-a658-494a-9fbf-bb9ef3e25466",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T11:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "20:00"
-      },
-      {
-        "label": "2부",
-        "time": "21:25"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "박상아 듀오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Park Sanga Duo",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "박상아 듀오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_e7d7c9dd-aac4-4610-9f68-8a67f0746b7f",
-    "event_key": "v:ven_19142962-c0b9-4804-a008-da0cd003b43c|t:2026-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Df0kuGBzFJF/",
-    "venue_handle": "houseofbrown.seoul",
-    "musician_ids": [
-      "67dcc396-8436-4e34-806f-33e86144482c"
-    ],
-    "musicians": [
-      {
-        "id": "67dcc396-8436-4e34-806f-33e86144482c",
-        "ig_handle": "jassiebeom",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "권범수",
-        "instruments": []
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_19142962-c0b9-4804-a008-da0cd003b43c",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T11:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "1부",
-        "time": "20:00"
-      },
-      {
-        "label": "2부",
-        "time": "21:30"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "권범수 트리오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Kwon Beom Soo Trio",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "권범수 트리오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_6a2b0b96-9be9-46f8-b9b8-38e93f9b0104",
-    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Df8lMFIOfj5/",
-    "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [
-      "b9249f76-7344-41a7-b3fe-df1231dc41b6",
-      "479326cc-2aeb-4650-a124-221f40ed733e",
-      "31584cf3-a313-4a4f-9175-cf531bfca850",
-      "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
-      "6b8e4977-56da-4934-afe3-0f1b39b9f192"
-    ],
-    "musicians": [
-      {
-        "id": "b9249f76-7344-41a7-b3fe-df1231dc41b6",
-        "ig_handle": "jaewon_jazz",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "정재원",
-        "instruments": []
-      },
-      {
-        "id": "479326cc-2aeb-4650-a124-221f40ed733e",
-        "ig_handle": "minxophone",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "조민형",
-        "instruments": []
-      },
-      {
-        "id": "31584cf3-a313-4a4f-9175-cf531bfca850",
-        "ig_handle": "jinsu_kim_",
-        "name_ko": "김진수",
-        "name_en": "Jinsu Kim",
-        "name_irl": "김진수",
-        "instruments": [
-          "piano",
-          "trumpet"
-        ]
-      },
-      {
-        "id": "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
-        "ig_handle": "praise_like_sunshine",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "박해찬",
-        "instruments": [
-          "bass",
-          "piano"
-        ]
-      },
-      {
-        "id": "6b8e4977-56da-4934-afe3-0f1b39b9f192",
-        "ig_handle": "altruisticdrum",
-        "name_ko": "양현수",
-        "name_en": null,
-        "name_irl": "양현수",
-        "instruments": []
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T11:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      }
-    ],
-    "price": "무료입장 (후불페이)",
-    "llm_confidence": 1.0,
-    "title": "정재원 테너 매드니스",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Jung Jae Won Tenor Madness",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "정재원 테너 매드니스",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_1321ddce-29da-4733-88df-8964c96fc62a",
-    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DgCLRAshEdC/",
-    "venue_handle": "yeonnam5701",
-    "musician_ids": [
-      "f82bac5a-ba0e-467a-9c13-0998342c1e0a"
-    ],
-    "musicians": [
-      {
-        "id": "f82bac5a-ba0e-467a-9c13-0998342c1e0a",
-        "ig_handle": "yuntandejaneiro",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "이영찬",
-        "instruments": [
-          "piano",
-          "guitar"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T11:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:00"
-      },
-      {
-        "label": "1부",
-        "time": "20:00"
-      },
-      {
-        "label": "2부",
-        "time": "21:15"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "이영찬 트리오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Lee Young Chan Trio",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "이영찬 트리오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_bae614a6-addb-4794-86e7-f6b07a011017",
-    "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-22T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
-    "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [
-      "0cf2a1ee-1d07-4336-aac9-60992aed9a16"
-    ],
-    "musicians": [
-      {
-        "id": "0cf2a1ee-1d07-4336-aac9-60992aed9a16",
-        "ig_handle": "h_0zl",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "정현우",
-        "instruments": []
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T11:30:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "20:30"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "이유빈 듀오",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Lee Yu-bin Duo",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "이유빈 듀오",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_14619546-7f88-43f0-bc2e-845a292c169c",
-    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-11-22T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/Df4TkVQHbB-/",
-    "venue_handle": "cottonclub_seoul",
-    "musician_ids": [
-      "c99c5a3a-c6e2-44ad-9129-7f524a90509b",
-      "ec904762-022c-4d17-bb48-fd7b85da34fe"
-    ],
-    "musicians": [
-      {
-        "id": "c99c5a3a-c6e2-44ad-9129-7f524a90509b",
-        "ig_handle": "mountain__guy",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "심규민",
-        "instruments": []
-      },
-      {
-        "id": "ec904762-022c-4d17-bb48-fd7b85da34fe",
-        "ig_handle": "dongjinshinmusic",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "신동진",
-        "instruments": [
-          "drums"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T11:30:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": "2부",
-        "time": "20:30"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "유기농 밴드",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Organic Band",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "유기농 밴드",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_4298d99e-d5f9-42a5-9995-18d5a7e88b04",
-    "event_key": "v:ven_269ddfb9-0de3-43b7-8845-98b29d7c6077|t:2026-11-22T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Df8Uh93zuUu/",
-    "venue_handle": "subriot_hbc",
-    "musician_ids": [
-      "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b"
-    ],
-    "musicians": [
-      {
-        "id": "fedb5b9f-8bdf-493c-96d0-95767c9dfd5b",
-        "ig_handle": "__suno_kim__",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "김선호",
-        "instruments": [
-          "drums",
-          "vocals"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_269ddfb9-0de3-43b7-8845-98b29d7c6077",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T12:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "21:00"
-      }
-    ],
-    "price": "무료입장 (후불제)",
-    "llm_confidence": 1.0,
-    "title": "엄기웅 트라이얼 밴드",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Um Ki Eung Trial Band",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "엄기웅 트라이얼 밴드",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261122_c9923be1-7230-4745-90d9-31db3d26342a",
-    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-22T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/Df8lMFIOfj5/",
-    "venue_handle": "boogiewoogieseoul",
-    "musician_ids": [
-      "5e54794c-2ef8-4db9-abd7-b1411d0bd939",
-      "10efb012-1c92-4e67-b420-ea305a809071",
-      "ce539009-7676-4e80-90b6-021614a5e8a4"
-    ],
-    "musicians": [
-      {
-        "id": "5e54794c-2ef8-4db9-abd7-b1411d0bd939",
-        "ig_handle": "iamgrute_",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "이재형",
-        "instruments": []
-      },
-      {
-        "id": "10efb012-1c92-4e67-b420-ea305a809071",
-        "ig_handle": "guitarae0420",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "김정래",
-        "instruments": []
-      },
-      {
-        "id": "ce539009-7676-4e80-90b6-021614a5e8a4",
-        "ig_handle": "redminjun31",
-        "name_ko": null,
-        "name_en": null,
-        "name_irl": "홍민중",
-        "instruments": [
-          "drums"
-        ]
-      }
-    ],
-    "musician_ig_handles": [],
-    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
-    "venue_location_id": "main",
-    "datetime": "2026-11-22T13:00:00+00:00",
-    "date": "2026-11-22",
-    "sets": [
-      {
-        "label": null,
-        "time": "22:00"
-      }
-    ],
-    "price": "무료입장 (후불페이)",
-    "llm_confidence": 1.0,
-    "title": "이재형 퀄텟",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "Lee Jae Hyung Quartet",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "이재형 퀄텟",
-      "description": null
-    }
-  },
-  {
     "id": "evt_20261123_db47457d-af96-42e1-9ec0-b3d2515129e0",
     "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-23T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgC2sW4kw4Q/",
@@ -9006,6 +7670,40 @@
     }
   },
   {
+    "id": "evt_20261224_511a737d-eb31-4c8e-a8b4-f7935a42e209",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-12-24T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DgFYaUBzJbc/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T09:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "18:00"
+      }
+    ],
+    "price": "35,000원",
+    "llm_confidence": 1.0,
+    "title": "소상덕 크리스마스 재즈 나이트",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "So Sang-deok Christmas Jazz Night",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "소상덕 크리스마스 재즈 나이트",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_903accdb-fe9b-412a-ba9c-62d40483c9cc",
     "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-12-24T09:30:00+00:00",
     "source_url": "https://www.instagram.com/reel/Df_Mw3qOnu9/",
@@ -9144,6 +7842,53 @@
     }
   },
   {
+    "id": "evt_20261224_3cfa70fd-7a43-4873-aaca-32fa4d0a21a6",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-12-24T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgD7_hTEpAr/",
+    "venue_handle": "edls_official",
+    "musician_ids": [
+      "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21"
+    ],
+    "musicians": [
+      {
+        "id": "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+        "ig_handle": "hey.hailluv",
+        "name_ko": "해일럽",
+        "name_en": null,
+        "name_irl": "해일럽",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T10:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "해일럽 크리스마스 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hailup Christmas Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "해일럽 크리스마스 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_f6a15521-2175-4b7a-9327-1581acd8f39f",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-24T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -9276,6 +8021,74 @@
     },
     "_search_ko": {
       "title": "안성미 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261224_32025ca9-a6c6-44ae-82f5-8fa7e9e8f3b8",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-12-24T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DgFYaUBzJbc/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T12:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "35,000원",
+    "llm_confidence": 1.0,
+    "title": "한상원 밴드 크리스마스 스페셜",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Band Christmas Special",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 밴드 크리스마스 스페셜",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261224_e2b48fbc-47e6-44a5-bb4a-15f9a0e3218b",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-12-24T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgD7_hTEpAr/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T12:30:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "크리스마스 프렌즈",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Christmas Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "크리스마스 프렌즈",
       "description": null
     }
   },
@@ -9917,6 +8730,40 @@
     }
   },
   {
+    "id": "evt_20261225_51133ae0-1898-4e87-b9b0-97079ffbe044",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-12-25T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DgFYaUBzJbc/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T09:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "18:00"
+      }
+    ],
+    "price": "35,000원",
+    "llm_confidence": 1.0,
+    "title": "강선아 크리스마스 재즈 나이트",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kang Sun-ah Christmas Jazz Night",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "강선아 크리스마스 재즈 나이트",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_f9f692c5-d8d6-4b91-a7b0-661ddda3d7d8",
     "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-12-25T09:30:00+00:00",
     "source_url": "https://www.instagram.com/reel/Df_Mw3qOnu9/",
@@ -10053,6 +8900,40 @@
     },
     "_search_ko": {
       "title": "소울맨 & 난아진",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_baa69cd0-3475-4226-a3db-709b0ca10ae0",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-12-25T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgD7_hTEpAr/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T10:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임보영 X EROWLY",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lim Bo-young x EROWLY",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "임보영 X EROWLY",
       "description": null
     }
   },
@@ -10200,6 +9081,74 @@
     },
     "_search_ko": {
       "title": "이유빈 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_0d11a502-23f0-4b2f-bc21-504992c9403d",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-12-25T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DgFYaUBzJbc/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T12:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "21:00"
+      }
+    ],
+    "price": "35,000원",
+    "llm_confidence": 1.0,
+    "title": "박재홍 밴드 크리스마스 스페셜",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Park Jae-hong Band Christmas Special",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박재홍 밴드 크리스마스 스페셜",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_0647820a-8898-4d97-9e40-e397049acce6",
+    "event_key": "v:ven_d2db5864-acba-448c-9d21-709d923f5ff4|t:2026-12-25T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgD7_hTEpAr/",
+    "venue_handle": "edls_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d2db5864-acba-448c-9d21-709d923f5ff4",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T12:30:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "2부",
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "안성미 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Ahn Seong-mi Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "안성미 밴드",
       "description": null
     }
   },
