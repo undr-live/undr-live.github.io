@@ -5410,6 +5410,73 @@
     }
   },
   {
+    "id": "evt_20261128_04d79752-850b-4604-a524-5cff93d6f003",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-11-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgEBYjPP7Fc/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [
+      "4a3cf8c5-1c0d-4693-87f4-e6ff6fa48373",
+      "047857fd-a730-42b7-9c52-df95dcef187e",
+      "77cb3436-0373-489c-ae3e-7f7efaea35f8"
+    ],
+    "musicians": [
+      {
+        "id": "4a3cf8c5-1c0d-4693-87f4-e6ff6fa48373",
+        "ig_handle": "yongsunhyun",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "현용선",
+        "instruments": []
+      },
+      {
+        "id": "047857fd-a730-42b7-9c52-df95dcef187e",
+        "ig_handle": "bowingpark",
+        "name_ko": "박정현",
+        "name_en": null,
+        "name_irl": "박정현",
+        "instruments": [
+          "bass"
+        ]
+      },
+      {
+        "id": "77cb3436-0373-489c-ae3e-7f7efaea35f8",
+        "ig_handle": "groove2104",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "신재현",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-11-28T11:00:00+00:00",
+    "date": "2026-11-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "예매 11,000원, 현장 15,000원",
+    "llm_confidence": 1.0,
+    "title": "더 뉴 재즈 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The New Jazz Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 뉴 재즈 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261128_614f0473-d370-4a28-a198-bdd3c6e9e20a",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-28T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -5508,6 +5575,51 @@
     },
     "_search_ko": {
       "title": "라쁘띠 프랑스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261128_dc2d9618-1b3e-438c-ac9f-1d37335fc638",
+    "event_key": "v:ven_87ebacfa-b91a-48ec-921d-77e47585fede|t:2026-11-28T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgDENdLvEIW/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [
+      "d68e0313-ab7c-4b94-b7c5-c4f4eb615b93"
+    ],
+    "musicians": [
+      {
+        "id": "d68e0313-ab7c-4b94-b7c5-c4f4eb615b93",
+        "ig_handle": "bottleticket",
+        "name_ko": "강병표",
+        "name_en": null,
+        "name_irl": "강병표",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_87ebacfa-b91a-48ec-921d-77e47585fede",
+    "venue_location_id": "main",
+    "datetime": "2026-11-28T11:30:00+00:00",
+    "date": "2026-11-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": "9,000원",
+    "llm_confidence": 1.0,
+    "title": "난지그루브",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nanji Groove",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "난지그루브",
       "description": null
     }
   },
