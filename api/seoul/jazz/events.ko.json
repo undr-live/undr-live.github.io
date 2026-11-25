@@ -1,5 +1,70 @@
 [
   {
+    "id": "evt_20261124_e8052993-0b2b-4bad-8990-6231fb17112f",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-24T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgG5F4TE7e7/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "d957c2f3-8f7c-4f66-9150-5f0e64f89253",
+      "33d89c52-68b0-4d74-9014-30d28c61fcb7",
+      "6fc4ee18-6fc5-4a72-8763-4c1e1a56aa0c"
+    ],
+    "musicians": [
+      {
+        "id": "d957c2f3-8f7c-4f66-9150-5f0e64f89253",
+        "ig_handle": "seung_minoh",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "오승민",
+        "instruments": []
+      },
+      {
+        "id": "33d89c52-68b0-4d74-9014-30d28c61fcb7",
+        "ig_handle": "dooble_bass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "두근현",
+        "instruments": []
+      },
+      {
+        "id": "6fc4ee18-6fc5-4a72-8763-4c1e1a56aa0c",
+        "ig_handle": "dudunchichi",
+        "name_ko": "이강준",
+        "name_en": null,
+        "name_irl": "이강준",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-24T10:00:00+00:00",
+    "date": "2026-11-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "로만티코 온재",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Romantico Onjae",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "로만티코 온재",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261124_7cf334f0-c4d3-49e3-9dd5-2c058845ad53",
     "event_key": "v:ven_a0789558-4701-443e-ab9a-7600c005b2d8|t:2026-11-24T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DdbpwUnyKMS/",
@@ -395,6 +460,73 @@
     },
     "_search_ko": {
       "title": "김병열 프렌즈",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261124_5d18788d-626e-4394-8022-97ad2599976b",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-24T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgG5F4TE7e7/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "887978ad-f250-477b-b08f-f309c44909a3",
+      "254b40c1-f0a5-4e95-b08f-488a659adc0e",
+      "2daf4785-0de4-4cd2-84d9-deba7fc2627e"
+    ],
+    "musicians": [
+      {
+        "id": "887978ad-f250-477b-b08f-f309c44909a3",
+        "ig_handle": "guitarist_yun",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "기타리스트 윤해천",
+        "instruments": [
+          "guitar"
+        ]
+      },
+      {
+        "id": "254b40c1-f0a5-4e95-b08f-488a659adc0e",
+        "ig_handle": "jayhoon_ryu",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "류제훈 Jay Hoon Ryu",
+        "instruments": [
+          "trumpet"
+        ]
+      },
+      {
+        "id": "2daf4785-0de4-4cd2-84d9-deba7fc2627e",
+        "ig_handle": "emmet_709",
+        "name_ko": "최은규",
+        "name_en": null,
+        "name_irl": "Choi Eun Gyu",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-24T12:00:00+00:00",
+    "date": "2026-11-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "윤해천 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yun Hae-cheon Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "윤해천 트리오",
       "description": null
     }
   },
@@ -10503,6 +10635,73 @@
     }
   },
   {
+    "id": "evt_20261224_f67482a0-e1c4-49e9-8cd8-8ed67076a6e7",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-12-24T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgJWwM-kz_K/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [
+      "47cefe5a-d03b-4491-84e9-84aa31ab5c8e",
+      "1ab36ad4-0a95-48b1-ab6e-0e10d2e6d25a",
+      "f25f5403-375b-43c7-8d54-0043272ca3be"
+    ],
+    "musicians": [
+      {
+        "id": "47cefe5a-d03b-4491-84e9-84aa31ab5c8e",
+        "ig_handle": "glriahan",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "한주영",
+        "instruments": []
+      },
+      {
+        "id": "1ab36ad4-0a95-48b1-ab6e-0e10d2e6d25a",
+        "ig_handle": "yun_jazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김윤재",
+        "instruments": []
+      },
+      {
+        "id": "f25f5403-375b-43c7-8d54-0043272ca3be",
+        "ig_handle": "bass__jam",
+        "name_ko": "곽재민",
+        "name_en": "Kamasi Kwak",
+        "name_irl": "곽재민 Kamasi Kwak",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T10:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:20"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "한주영 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Gloria Han Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한주영 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_f6a15521-2175-4b7a-9327-1581acd8f39f",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-24T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -11590,6 +11789,44 @@
     }
   },
   {
+    "id": "evt_20261225_760fa2ec-7eab-4c9f-812a-e811d587076e",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-12-25T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgJWwM-kz_K/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T10:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:20"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "아림 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Arim Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "아림 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_326cd209-9918-4758-8dd0-041fe555e853",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-25T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -12157,6 +12394,77 @@
     },
     "_search_ko": {
       "title": "클로이정 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261226_d339a97e-3d42-4d2b-84a3-8c7ee8350c79",
+    "event_key": "v:ven_10e36def-592b-447e-a571-ca96975b6e87|t:2026-12-26T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgJWwM-kz_K/",
+    "venue_handle": "jazzlounge_official",
+    "musician_ids": [
+      "8b3184b3-e528-4ed1-be56-daf208781ca3",
+      "05989610-e177-467a-bb58-d5eb60037f42",
+      "f785db89-847c-48cd-b533-25cc3c115907"
+    ],
+    "musicians": [
+      {
+        "id": "8b3184b3-e528-4ed1-be56-daf208781ca3",
+        "ig_handle": "d.a___zz",
+        "name_ko": "다은림",
+        "name_en": "Daeun Lim",
+        "name_irl": "Daeun Lim",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "05989610-e177-467a-bb58-d5eb60037f42",
+        "ig_handle": "_mingi_park",
+        "name_ko": "박민기",
+        "name_en": "Mingi Park",
+        "name_irl": "박민기",
+        "instruments": []
+      },
+      {
+        "id": "f785db89-847c-48cd-b533-25cc3c115907",
+        "ig_handle": "smjazz_98",
+        "name_ko": "신명준",
+        "name_en": null,
+        "name_irl": "신명준",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_10e36def-592b-447e-a571-ca96975b6e87",
+    "venue_location_id": "main",
+    "datetime": "2026-12-26T10:00:00+00:00",
+    "date": "2026-12-26",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:20"
+      }
+    ],
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "다은 X 민기",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Daeun x Mingi",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "다은 X 민기",
       "description": null
     }
   },
