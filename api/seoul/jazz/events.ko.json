@@ -365,7 +365,7 @@
     "date": "2026-11-25",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
       }
     ],
@@ -530,8 +530,41 @@
     "event_key": "v:ven_ead7b611-beee-4686-87cf-472ad597faff|t:2026-11-25T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfPMEj2M-di/",
     "venue_handle": "bourbon_street_kr",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "9f0ec11e-d709-4f0c-bae9-018333dc2e46",
+      "53af0976-9f3c-4de8-ba42-1a996d87e454",
+      "659e0e0c-079f-4e0e-9787-9b4d83644143"
+    ],
+    "musicians": [
+      {
+        "id": "9f0ec11e-d709-4f0c-bae9-018333dc2e46",
+        "ig_handle": "un_mardi",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "손영서 Yeongseo Son",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "53af0976-9f3c-4de8-ba42-1a996d87e454",
+        "ig_handle": "daekyeong__",
+        "name_ko": "김대경",
+        "name_en": "Daekyeong Kim",
+        "name_irl": "Daekyeong Kim",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "659e0e0c-079f-4e0e-9787-9b4d83644143",
+        "ig_handle": "casstech_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Jinkyo Park",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_ead7b611-beee-4686-87cf-472ad597faff",
     "venue_location_id": "main",
@@ -541,6 +574,10 @@
       {
         "label": null,
         "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "20:30"
       }
     ],
     "price": null,
@@ -859,8 +896,28 @@
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-25T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
     "venue_handle": "dido_jazz_lounge",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "dd1ba694-96ea-40fa-a7f2-d1609ea4ec32",
+      "0cf2a1ee-1d07-4336-aac9-60992aed9a16"
+    ],
+    "musicians": [
+      {
+        "id": "dd1ba694-96ea-40fa-a7f2-d1609ea4ec32",
+        "ig_handle": "1_woolsss",
+        "name_ko": "김한울",
+        "name_en": null,
+        "name_irl": "김한울",
+        "instruments": []
+      },
+      {
+        "id": "0cf2a1ee-1d07-4336-aac9-60992aed9a16",
+        "ig_handle": "h_0zl",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정현우",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_dd4baf49-45a9-45ad-b34a-a57a99579303",
     "venue_location_id": "main",
@@ -874,17 +931,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "임한을 정현우 듀오",
+    "title": "김한울 정현우 듀오",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lim Han-eul Jeong Hyeon-woo Duo",
+      "title": "Kim Han-wool Jeong Hyeon-woo Duo",
       "description": null
     },
     "_search_ko": {
-      "title": "임한을 정현우 듀오",
+      "title": "김한울 정현우 듀오",
       "description": null
     }
   },
@@ -1493,8 +1550,39 @@
     "event_key": "v:ven_ead7b611-beee-4686-87cf-472ad597faff|t:2026-11-26T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfPMEj2M-di/",
     "venue_handle": "bourbon_street_kr",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "290bbc86-6dea-4b51-9a89-43f9dac5da5b",
+      "1b7dbcd8-4717-46f8-80bc-973d87ed702d",
+      "ed894f7c-0f70-4dd1-8b9c-1f79f9260054"
+    ],
+    "musicians": [
+      {
+        "id": "290bbc86-6dea-4b51-9a89-43f9dac5da5b",
+        "ig_handle": "vero_nica_jz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Myeong Ji Choi",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "1b7dbcd8-4717-46f8-80bc-973d87ed702d",
+        "ig_handle": "pfzombie",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "좀비",
+        "instruments": []
+      },
+      {
+        "id": "ed894f7c-0f70-4dd1-8b9c-1f79f9260054",
+        "ig_handle": "contraworms",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김재근",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_ead7b611-beee-4686-87cf-472ad597faff",
     "venue_location_id": "main",
@@ -1504,21 +1592,25 @@
       {
         "label": null,
         "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "20:30"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "좀비 트리오 (최명지)",
+    "title": "좀비 트리오 (보컬 최명지)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Zombie Trio & Choi Myung-ji",
+      "title": "Zombie Trio (Vocal Choi Myeong-ji)",
       "description": null
     },
     "_search_ko": {
-      "title": "좀비 트리오 (최명지)",
+      "title": "좀비 트리오 (보컬 최명지)",
       "description": null
     }
   },
@@ -2498,8 +2590,48 @@
     "event_key": "v:ven_ead7b611-beee-4686-87cf-472ad597faff|t:2026-11-27T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfPMEj2M-di/",
     "venue_handle": "bourbon_street_kr",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "5f0bfe73-95cb-45b1-972c-fcf3cea41f1f",
+      "83ced2a6-641e-40fa-ad35-f5b75b713ac2",
+      "de4fd60e-5d80-4356-9d91-d64d636e5c48",
+      "a7a99ccf-3b5e-45e6-b76d-3798ac130d6d"
+    ],
+    "musicians": [
+      {
+        "id": "5f0bfe73-95cb-45b1-972c-fcf3cea41f1f",
+        "ig_handle": "sing_so_young_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박소영",
+        "instruments": []
+      },
+      {
+        "id": "83ced2a6-641e-40fa-ad35-f5b75b713ac2",
+        "ig_handle": "seo_m_piano",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "맹서령",
+        "instruments": []
+      },
+      {
+        "id": "de4fd60e-5d80-4356-9d91-d64d636e5c48",
+        "ig_handle": "kim_in_young_bass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Inyoung Kim",
+        "instruments": []
+      },
+      {
+        "id": "a7a99ccf-3b5e-45e6-b76d-3798ac130d6d",
+        "ig_handle": "sungjae_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정성재",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_ead7b611-beee-4686-87cf-472ad597faff",
     "venue_location_id": "main",
@@ -2509,6 +2641,10 @@
       {
         "label": null,
         "time": "20:00"
+      },
+      {
+        "label": null,
+        "time": "20:30"
       }
     ],
     "price": null,
@@ -4482,23 +4618,27 @@
     "date": "2026-11-28",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "윤민제 밴드",
+    "title": "윤민제 퀄텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yoon Min-je Band",
+      "title": "Youn Min Jae Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "윤민제 밴드",
+      "title": "윤민제 퀄텟",
       "description": null
     }
   },
@@ -6591,6 +6731,53 @@
     }
   },
   {
+    "id": "evt_20261130_798821bb-78d8-4ebb-9f8f-c3b89a0babac",
+    "event_key": "v:ven_0bb609fe-50dc-4752-9d9f-a339c3957fad|t:2026-11-30T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DgEWAXNEcri/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [
+      "e7aaec38-9e27-48c2-8728-2a69e5cd17b6"
+    ],
+    "musicians": [
+      {
+        "id": "e7aaec38-9e27-48c2-8728-2a69e5cd17b6",
+        "ig_handle": "haein_jazz",
+        "name_ko": "조해인",
+        "name_en": null,
+        "name_irl": "조해인",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0bb609fe-50dc-4752-9d9f-a339c3957fad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-30T11:30:00+00:00",
+    "date": "2026-11-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "조해인 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Cho Haein Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조해인 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261201_d6f161b0-0ba8-4d74-ac6b-b54430648700",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-01T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
@@ -6678,17 +6865,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "전진용 퀄텟",
+    "title": "전진웅 퀄텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Jeon Jin-yong Quartet",
+      "title": "Jinwoong Jeon Quartet",
       "description": null
     },
     "_search_ko": {
-      "title": "전진용 퀄텟",
+      "title": "전진웅 퀄텟",
       "description": null
     }
   },
@@ -7145,7 +7332,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Han Sun-wook Quintet",
+      "title": "Soonwook Han Quintet",
       "description": null
     },
     "_search_ko": {
@@ -7704,6 +7891,40 @@
     }
   },
   {
+    "id": "evt_20261207_81612b37-2956-46d2-ae9a-8226464ec46d",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-07T11:00:00+00:00",
+    "date": "2026-12-07",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "코튼 클럽 밴드 (류복성)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Cotton Club Band (Ryu Bok-sung)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "코튼 클럽 밴드 (류복성)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261208_452104a9-ed04-42ac-a819-a2422152e738",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-08T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
@@ -7738,6 +7959,40 @@
     }
   },
   {
+    "id": "evt_20261208_a81f68ad-f1bd-437f-ae06-da1e1835a71e",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-08T11:00:00+00:00",
+    "date": "2026-12-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "장현승 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hyunseung Jang Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "장현승 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261209_ea2626e5-abcf-4589-ac9f-5808cf1a8d79",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-09T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgGmuEazlrY/",
@@ -7768,6 +8023,40 @@
     },
     "_search_ko": {
       "title": "안녕 보사노바",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261209_5a7326f6-76db-4324-8d57-4398c5bd303f",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-09T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-09T11:00:00+00:00",
+    "date": "2026-12-09",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "오영준 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Youngjun Oh Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "오영준 트리오",
       "description": null
     }
   },
@@ -7840,6 +8129,40 @@
     }
   },
   {
+    "id": "evt_20261210_56ba89f6-0f30-4a24-b0ef-4b76526ab42a",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-10T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-10T11:00:00+00:00",
+    "date": "2026-12-10",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "콜린 김 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Colin Kim Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "콜린 김 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261210_adae5119-ebef-4883-8cd1-c641011ffb41",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-10T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgAWjuHD5zR/",
@@ -7899,6 +8222,40 @@
     },
     "_search_ko": {
       "title": "유승환 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261211_2cd7b2c4-5a3a-438d-8104-8f3491bb720e",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-11T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-11T10:00:00+00:00",
+    "date": "2026-12-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "비에른 솔리 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Bjorn Solli Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "비에른 솔리 퀸텟",
       "description": null
     }
   },
@@ -8039,6 +8396,40 @@
     }
   },
   {
+    "id": "evt_20261211_0d38f85f-26ff-4c10-9829-1cc02a22a70d",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-11T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-11T12:30:00+00:00",
+    "date": "2026-12-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "라틴 팩토리",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Latin Factory",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "라틴 팩토리",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261211_fead605e-f9e8-494c-a19f-26fef8627f37",
     "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-12-11T15:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgF4ZYhKAp3/",
@@ -8154,6 +8545,40 @@
     },
     "_search_ko": {
       "title": "선정 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261212_40d03a8c-ee20-4513-b091-b85064093232",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-12T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-12T10:00:00+00:00",
+    "date": "2026-12-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "류수완 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Suwan Ryu Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "류수완 퀸텟",
       "description": null
     }
   },
@@ -8294,6 +8719,40 @@
     }
   },
   {
+    "id": "evt_20261212_6afb9ff5-8489-4126-b475-dbe5da9d2dd6",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-12T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-12T12:30:00+00:00",
+    "date": "2026-12-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "조남열 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Namyeol Jo Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조남열 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261213_90a005a3-fcfe-4571-a77e-4a21039233e7",
     "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-13T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Df_X3emua26/",
@@ -8358,6 +8817,40 @@
     },
     "_search_ko": {
       "title": "헬로, 미스터 브라운!",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261213_1ecb7d9d-5aff-4ee8-bc99-05912d6f1107",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-13T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-13T10:00:00+00:00",
+    "date": "2026-12-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "윤수진 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Sujin Yoon Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "윤수진 듀오",
       "description": null
     }
   },
@@ -8430,6 +8923,40 @@
     }
   },
   {
+    "id": "evt_20261213_d25d8ba0-8caf-43ca-ba49-8bdde66442c6",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-13T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-13T11:30:00+00:00",
+    "date": "2026-12-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리얼 재즈",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Real Jazz",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리얼 재즈",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261214_976eae3b-92f6-4762-bb54-0cd75f8c9052",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-14T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgGmuEazlrY/",
@@ -8464,6 +8991,40 @@
     }
   },
   {
+    "id": "evt_20261214_5f1bfdd3-1e51-44f8-ba5d-02bc603ffc95",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-14T11:00:00+00:00",
+    "date": "2026-12-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "코튼 클럽 밴드 (박완)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Cotton Club Band (Wan Park)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "코튼 클럽 밴드 (박완)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261215_94ee0eb3-2681-41ba-bf5e-0a3e5221fe7e",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-15T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
@@ -8494,6 +9055,40 @@
     },
     "_search_ko": {
       "title": "더 하모닉스 (박종성 X 브랜든 최)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261215_c6905a44-2806-414a-bc64-e7989795ba90",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-15T11:00:00+00:00",
+    "date": "2026-12-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "신상희 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Sanghee Shin Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "신상희 트리오",
       "description": null
     }
   },
@@ -8562,6 +9157,40 @@
     },
     "_search_ko": {
       "title": "유키 후타미 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261216_c55a74a4-5722-456a-a3d1-1433048fa8c3",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-16T11:00:00+00:00",
+    "date": "2026-12-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "전재근 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jaegeun Jeon Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "전재근 트리오",
       "description": null
     }
   },
@@ -8668,6 +9297,40 @@
     }
   },
   {
+    "id": "evt_20261217_9d94e8a5-a84c-4d72-8df3-c07aa04a31c0",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-17T11:00:00+00:00",
+    "date": "2026-12-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김병렬 프렌즈",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Byeongryeol Kim Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김병렬 프렌즈",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261217_f09f7a4e-ad81-4b42-a5e5-f4bdfc5d54fe",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-17T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgAWjuHD5zR/",
@@ -8761,6 +9424,40 @@
     },
     "_search_ko": {
       "title": "허소영 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261218_0b7a4015-b5d2-4de1-9226-8bb0aa22ba59",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-18T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-18T10:00:00+00:00",
+    "date": "2026-12-18",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "밥 소사이어티",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Bob Society",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "밥 소사이어티",
       "description": null
     }
   },
@@ -8897,6 +9594,40 @@
     },
     "_search_ko": {
       "title": "김한울 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261218_eb96d2a2-7eba-4e0c-b448-68436e0f9762",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-18T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-18T12:30:00+00:00",
+    "date": "2026-12-18",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "더 제레미 박 쇼",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Jeremy Park Show",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "더 제레미 박 쇼",
       "description": null
     }
   },
@@ -9102,6 +9833,40 @@
     }
   },
   {
+    "id": "evt_20261219_3fc6bec3-8b2e-442e-b53a-e006c4783347",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-19T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-19T10:00:00+00:00",
+    "date": "2026-12-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "캔자스 시티 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kansas City Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "캔자스 시티 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261219_f5df8c32-6326-4d62-a479-c0b4fe02adf9",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-19T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
@@ -9238,6 +10003,40 @@
     }
   },
   {
+    "id": "evt_20261219_2b21eb2c-50d0-48cf-b882-d1bbdd5a59b9",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-19T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-19T12:30:00+00:00",
+    "date": "2026-12-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "라 쁘띠 프랑스 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "La Petite France Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "라 쁘띠 프랑스 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261220_347f44a2-d9fd-44c7-8431-64d33615624d",
     "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-20T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Df_X3emua26/",
@@ -9340,6 +10139,40 @@
     }
   },
   {
+    "id": "evt_20261220_7d9d5e1d-fd71-4d83-8827-b06896763d32",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-20T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-20T10:00:00+00:00",
+    "date": "2026-12-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "신지훈 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jihoon Shin Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "신지훈 듀오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261220_a058b7b4-6306-436c-84f3-c7cce3862bd1",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-20T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgGmuEazlrY/",
@@ -9404,6 +10237,40 @@
     },
     "_search_ko": {
       "title": "김한 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261220_0132c339-31ec-407c-92d4-bac21bf20592",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-20T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-20T11:30:00+00:00",
+    "date": "2026-12-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "존 김 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "John Kim Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "존 김 퀄텟",
       "description": null
     }
   },
@@ -9506,6 +10373,40 @@
     },
     "_search_ko": {
       "title": "제이 킴 X 플러즈",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261221_0401a38e-bb26-4bae-957c-d28b5b7a02cc",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-21T11:00:00+00:00",
+    "date": "2026-12-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "코튼 클럽 밴드 (최용민)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Cotton Club Band (Yongmin Choi)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "코튼 클럽 밴드 (최용민)",
       "description": null
     }
   },
@@ -9744,6 +10645,40 @@
     },
     "_search_ko": {
       "title": "에이퍼즈",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261223_c558e4a0-ed47-4755-a683-828f4f6b33a9",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-23T11:00:00+00:00",
+    "date": "2026-12-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김대윤 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Daeyoon Kim Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김대윤 트리오",
       "description": null
     }
   },
@@ -10309,7 +11244,7 @@
         "time": "19:00"
       }
     ],
-    "price": null,
+    "price": "170,000원",
     "llm_confidence": 1.0,
     "title": "해일럽 크리스마스 퀄텟",
     "description": null,
@@ -10317,7 +11252,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hailup Christmas Quartet",
+      "title": "Heylove Christmas Quartet",
       "description": null
     },
     "_search_ko": {
@@ -10389,6 +11324,40 @@
     },
     "_search_ko": {
       "title": "한주영 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261224_bb88b0ab-dc15-448a-b267-fddd301fe37e",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-24T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T10:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "재키 김",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jacky Kim",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "재키 김",
       "description": null
     }
   },
@@ -10614,7 +11583,7 @@
         "time": "21:30"
       }
     ],
-    "price": null,
+    "price": "170,000원",
     "llm_confidence": 1.0,
     "title": "크리스마스 프렌즈",
     "description": null,
@@ -10627,6 +11596,40 @@
     },
     "_search_ko": {
       "title": "크리스마스 프렌즈",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261224_e3daa8e9-8972-420b-9773-c155b062eef5",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-24T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T12:30:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "조재범 라틴 유닛",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jaebeom Cho Latin Unit",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조재범 라틴 유닛",
       "description": null
     }
   },
@@ -11053,6 +12056,40 @@
     }
   },
   {
+    "id": "evt_20261225_c3c8e06c-5503-4360-93e3-abb6cf24616e",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-25T07:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T07:30:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "16:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "백효은 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hyoeun Baek Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "백효은 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_89331e3a-97f9-4eda-aba7-eb3d82e756a7",
     "event_key": "v:ven_1655af5a-ea12-47f6-8d39-eb30735e8b48|t:2026-12-25T08:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgF4ZYhKAp3/",
@@ -11463,9 +12500,9 @@
         "time": "19:00"
       }
     ],
-    "price": null,
+    "price": "170,000원",
     "llm_confidence": 1.0,
-    "title": "임보영 X EROWLY",
+    "title": "임보영 x EROWLY",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -11475,7 +12512,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "임보영 X EROWLY",
+      "title": "임보영 x EROWLY",
       "description": null
     }
   },
@@ -11514,6 +12551,40 @@
     },
     "_search_ko": {
       "title": "아림 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_c892314f-3f82-4c27-b895-d351737e97ac",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-25T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T10:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "박라온 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Raon Park Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박라온 퀸텟",
       "description": null
     }
   },
@@ -11750,7 +12821,7 @@
         "time": "21:30"
       }
     ],
-    "price": null,
+    "price": "170,000원",
     "llm_confidence": 1.0,
     "title": "안성미 밴드",
     "description": null,
@@ -11763,6 +12834,40 @@
     },
     "_search_ko": {
       "title": "안성미 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_86ddeab3-0794-4194-afb0-9b31d169607f",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-25T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T12:30:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "최영미 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Youngmi Choi Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최영미 퀄텟",
       "description": null
     }
   },
@@ -12160,6 +13265,40 @@
     }
   },
   {
+    "id": "evt_20261226_e00f3436-4073-4104-ba90-74795ddd618a",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-26T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-26T10:00:00+00:00",
+    "date": "2026-12-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김성수 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Sungsoo Kim Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김성수 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261226_bda5601b-c4a8-4f65-a45d-433761d9b5b0",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-26T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -12341,6 +13480,40 @@
     }
   },
   {
+    "id": "evt_20261226_4bf3b500-8d1a-4e33-b941-8dfa76edb3d8",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-26T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-26T12:30:00+00:00",
+    "date": "2026-12-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이다미 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Dami Lee Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이다미 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261227_64d77961-ab7a-4b77-ac6a-044bfef62045",
     "event_key": "v:ven_606e1d0f-ec35-4804-9343-c6c8a9621cca|t:2026-12-27T09:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Df_XuoeB1q7/",
@@ -12405,6 +13578,40 @@
     },
     "_search_ko": {
       "title": "김태수 재즈 오마카세",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261227_977cd537-7c01-4744-86a8-133c7956151b",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-27T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-27T10:00:00+00:00",
+    "date": "2026-12-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "박재홍 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jaehong Park Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박재홍 듀오",
       "description": null
     }
   },
@@ -12511,6 +13718,40 @@
     }
   },
   {
+    "id": "evt_20261227_058741ca-8d87-4653-905d-06af87154fef",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-27T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-27T11:30:00+00:00",
+    "date": "2026-12-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "조운과 좋은 친구들",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jo Woon and Good Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "조운과 좋은 친구들",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261228_f2642211-6e10-4ec5-a777-aa3ea9e37035",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-28T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgGmuEazlrY/",
@@ -12545,6 +13786,40 @@
     }
   },
   {
+    "id": "evt_20261228_151521ce-2efe-4ce6-a63b-278545f553f9",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-28T11:00:00+00:00",
+    "date": "2026-12-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "코튼 클럽 밴드 (유사랑)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Cotton Club Band (Sarang Yoo)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "코튼 클럽 밴드 (유사랑)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261229_381dd236-3255-4f43-bb04-5e04ed0d1a85",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-29T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
@@ -12575,6 +13850,40 @@
     },
     "_search_ko": {
       "title": "추다혜 차지스",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261229_ec7a0efb-187f-4c65-9fed-8fcf0c0b376d",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-29T11:00:00+00:00",
+    "date": "2026-12-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "찰리 정 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Charlie Jung Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "찰리 정 퀄텟",
       "description": null
     }
   },
@@ -12710,6 +14019,40 @@
     }
   },
   {
+    "id": "evt_20261230_41d19322-fb6b-47c8-b453-e1c07017ce12",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-30T11:00:00+00:00",
+    "date": "2026-12-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "베니스 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Bennys Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "베니스 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261230_04b540e1-aa17-4234-81c5-d5ceb55caac4",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-30T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgAWjuHD5zR/",
@@ -12740,6 +14083,40 @@
     },
     "_search_ko": {
       "title": "김순영 재즈 탭",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261231_5fb60d8c-6bac-4f6c-b5d7-e77b781816d9",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-31T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-31T10:00:00+00:00",
+    "date": "2026-12-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "샤울리 에이나브 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Shauli Einav Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "샤울리 에이나브 퀄텟",
       "description": null
     }
   },
@@ -12916,6 +14293,74 @@
     }
   },
   {
+    "id": "evt_20261231_25abca5e-516a-472b-8276-d635b89bd286",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-31T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2026-12-31T12:30:00+00:00",
+    "date": "2026-12-31",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이정식 퀄텟 (보컬 김준)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jeong Sik Lee Quartet (Vo. Kim Jun)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이정식 퀄텟 (보컬 김준)",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20270101_6126cc9d-33ae-4722-8b04-ea863fdf298a",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2027-01-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2027-01-01T11:00:00+00:00",
+    "date": "2027-01-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "샤울리 에이나브 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Shauli Einav Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "샤울리 에이나브 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20270101_aa109293-0609-4442-b4de-70ba57a85ff7",
     "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2027-01-01T11:30:00+00:00",
     "source_url": "https://www.instagram.com/reel/Df_Mw3qOnu9/",
@@ -12950,6 +14395,40 @@
     }
   },
   {
+    "id": "evt_20270102_e6f8c5ca-a884-4372-8a67-48eecf8f5273",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2027-01-02T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2027-01-02T10:00:00+00:00",
+    "date": "2027-01-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "진 김 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jin Kim Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "진 김 퀸텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20270102_d8df34a5-ead0-4495-a66e-8d2c9a2dc060",
     "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2027-01-02T11:30:00+00:00",
     "source_url": "https://www.instagram.com/reel/Df_Mw3qOnu9/",
@@ -12980,6 +14459,74 @@
     },
     "_search_ko": {
       "title": "나동훈 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20270102_e0d7cb27-93df-4c0c-a1f7-cf1c60d17679",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2027-01-02T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2027-01-02T12:30:00+00:00",
+    "date": "2027-01-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "21:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "드럼 밥 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Drum Bop Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "드럼 밥 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20270103_6931e890-9372-4d7c-9f7d-7a6e86e1f2e7",
+    "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2027-01-03T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154",
+    "venue_location_id": "main",
+    "datetime": "2027-01-03T10:00:00+00:00",
+    "date": "2027-01-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "안예솔 듀오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yesol Ahn Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "안예솔 듀오",
       "description": null
     }
   }
