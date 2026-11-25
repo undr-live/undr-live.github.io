@@ -795,8 +795,32 @@
     "event_key": "v:ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8|t:2026-11-25T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De2yAkPk9fC/",
     "venue_handle": "jazzxover",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "6403cff5-0c2f-4ab5-afce-cebbc492b51b",
+      "b33c3c62-ab6b-41b4-98a5-3cf95cfd1051"
+    ],
+    "musicians": [
+      {
+        "id": "6403cff5-0c2f-4ab5-afce-cebbc492b51b",
+        "ig_handle": "hodddang",
+        "name_ko": "유호정",
+        "name_en": null,
+        "name_irl": "유호정",
+        "instruments": [
+          "violin"
+        ]
+      },
+      {
+        "id": "b33c3c62-ab6b-41b4-98a5-3cf95cfd1051",
+        "ig_handle": "piano_seokwon",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이석원",
+        "instruments": [
+          "piano"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_87d9ae70-2473-49d2-8cdd-3ffa8c1c82a8",
     "venue_location_id": "main",
@@ -810,17 +834,17 @@
     ],
     "price": "₩15K",
     "llm_confidence": 1.0,
-    "title": "유효정 스트링 노마드",
+    "title": "유호정 스트링 노마드",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Yoo Hyo-jeong String Nomad",
+      "title": "Hojeong Yu String Nomad",
       "description": null
     },
     "_search_ko": {
-      "title": "유효정 스트링 노마드",
+      "title": "유호정 스트링 노마드",
       "description": null
     }
   },
@@ -2503,7 +2527,7 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "밴드 알피씨에스",
+    "title": "밴드 RPCS",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
@@ -2513,7 +2537,7 @@
       "description": null
     },
     "_search_ko": {
-      "title": "밴드 알피씨에스",
+      "title": "밴드 RPCS",
       "description": null
     }
   },
@@ -3800,8 +3824,30 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-27T12:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "290bbc86-6dea-4b51-9a89-43f9dac5da5b",
+      "d46ef892-46a6-4fe0-9175-c7ec8a8b0865"
+    ],
+    "musicians": [
+      {
+        "id": "290bbc86-6dea-4b51-9a89-43f9dac5da5b",
+        "ig_handle": "vero_nica_jz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Myeong Ji Choi",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "d46ef892-46a6-4fe0-9175-c7ec8a8b0865",
+        "ig_handle": "baeminhyuk6",
+        "name_ko": "배민혁",
+        "name_en": "Minhyuk Bae",
+        "name_irl": "배민혁",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -4081,8 +4127,28 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-28T07:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "437a5add-34c0-4d68-bb08-959f5262fb32",
+      "ac110b52-5d03-466f-97c0-35cea5a9447b"
+    ],
+    "musicians": [
+      {
+        "id": "437a5add-34c0-4d68-bb08-959f5262fb32",
+        "ig_handle": "ccc_chambers",
+        "name_ko": "최민호",
+        "name_en": null,
+        "name_irl": "최민호",
+        "instruments": []
+      },
+      {
+        "id": "ac110b52-5d03-466f-97c0-35cea5a9447b",
+        "ig_handle": "taesun_taesae_moon_dansae",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Taesun Kim • 김태선",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -4400,8 +4466,49 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-28T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "e8f9b236-1ffa-4648-8825-eaabe1fff3c9",
+      "987ae605-85fa-4fd3-97b0-3595d1fa8faa",
+      "4f67f83c-b263-4bdd-867f-12a88954e400",
+      "ac61cb7e-79be-49e5-a7d3-3961240fa62d"
+    ],
+    "musicians": [
+      {
+        "id": "e8f9b236-1ffa-4648-8825-eaabe1fff3c9",
+        "ig_handle": "trombone_gun",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박경건",
+        "instruments": []
+      },
+      {
+        "id": "987ae605-85fa-4fd3-97b0-3595d1fa8faa",
+        "ig_handle": "dragonstonejazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이용석 Yongseok Lee",
+        "instruments": [
+          "saxophone",
+          "composer"
+        ]
+      },
+      {
+        "id": "4f67f83c-b263-4bdd-867f-12a88954e400",
+        "ig_handle": "drum_seokwoo",
+        "name_ko": "채석우",
+        "name_en": null,
+        "name_irl": "채석우",
+        "instruments": []
+      },
+      {
+        "id": "ac61cb7e-79be-49e5-a7d3-3961240fa62d",
+        "ig_handle": "blues.de.ari_l",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "아리엘(𝐀𝐫𝐢:𝐋)",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -4701,6 +4808,51 @@
     },
     "_search_ko": {
       "title": "조해인 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261128_155282f5-4b89-4a0d-b13e-fd92cab6d073",
+    "event_key": "v:ven_fc57057d-2f38-400b-80db-2a590f04f4f3|t:2026-11-28T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgJTh2fyM6B/",
+    "venue_handle": "jazzclubbottomline",
+    "musician_ids": [
+      "664e4ebd-b604-442b-8833-d345348de24a"
+    ],
+    "musicians": [
+      {
+        "id": "664e4ebd-b604-442b-8833-d345348de24a",
+        "ig_handle": "sc._.creation",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "임수찬",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_fc57057d-2f38-400b-80db-2a590f04f4f3",
+    "venue_location_id": "main",
+    "datetime": "2026-11-28T10:30:00+00:00",
+    "date": "2026-11-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "인다 그루브",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Inda Groove",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "인다 그루브",
       "description": null
     }
   },
@@ -5926,8 +6078,22 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-28T12:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DfL7xjAmNZG/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "d9458e88-0808-49ee-ac05-dc799b68a7f0"
+    ],
+    "musicians": [
+      {
+        "id": "d9458e88-0808-49ee-ac05-dc799b68a7f0",
+        "ig_handle": "jazzcats_sanga",
+        "name_ko": "박상아",
+        "name_en": null,
+        "name_irl": "트럼펫 박상아🎺",
+        "instruments": [
+          "trumpet",
+          "composer"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -5994,8 +6160,19 @@
     "event_key": "v:ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde|t:2026-11-29T07:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgByRRjmKis/",
     "venue_handle": "flatnine_jazzbar",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "8428b8a2-75b9-4254-b2ba-3ef132595385"
+    ],
+    "musicians": [
+      {
+        "id": "8428b8a2-75b9-4254-b2ba-3ef132595385",
+        "ig_handle": "jaekonjeon",
+        "name_ko": "전 제곤",
+        "name_en": null,
+        "name_irl": "전 제곤",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_8cefa639-4b24-4b1d-a1c0-4adb40311bde",
     "venue_location_id": "main",
@@ -6009,17 +6186,17 @@
     ],
     "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "다움 트리오",
+    "title": "디사이드 프로젝트",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Daum Trio",
+      "title": "D-side Project",
       "description": null
     },
     "_search_ko": {
-      "title": "다움 트리오",
+      "title": "디사이드 프로젝트",
       "description": null
     }
   },
