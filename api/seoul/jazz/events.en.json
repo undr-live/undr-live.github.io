@@ -3209,6 +3209,62 @@
     }
   },
   {
+    "id": "evt_20261127_2f8ff5cb-117f-4b21-acfc-dc31fd192e73",
+    "event_key": "v:ven_00154ae3-5759-4757-9cca-27ee30b74d49|t:2026-11-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgEAZHkv9OR/",
+    "venue_handle": "milestones_jazz",
+    "musician_ids": [
+      "4fdca32c-5cc6-42e6-9e91-4e1a849ef4a8",
+      "7ae88241-f6ec-401e-a03d-479fefdb489a"
+    ],
+    "musicians": [
+      {
+        "id": "4fdca32c-5cc6-42e6-9e91-4e1a849ef4a8",
+        "ig_handle": "gl0ry_jeong",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정 영 광",
+        "instruments": [
+          "vocals"
+        ]
+      },
+      {
+        "id": "7ae88241-f6ec-401e-a03d-479fefdb489a",
+        "ig_handle": "jihyung_hong",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍지형",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_00154ae3-5759-4757-9cca-27ee30b74d49",
+    "venue_location_id": "main",
+    "datetime": "2026-11-27T11:00:00+00:00",
+    "date": "2026-11-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "예매 11,000원 / 현장 15,000원",
+    "llm_confidence": 1.0,
+    "title": "Hong Jihyung Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hong Jihyung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "홍지형 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261127_dbfeb69a-9729-4663-bcd4-3ab013083c5f",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -3356,6 +3412,91 @@
     },
     "_search_ko": {
       "title": "아키나 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261127_b9ca1fb5-3c09-4b62-a4e2-4d90f6b5fcdd",
+    "event_key": "v:ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad|t:2026-11-27T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgFSsrbxTCH/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [
+      "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+      "0ef5f590-1b89-49e3-b688-d70a4b7f513b",
+      "3958b9d7-7e97-4a73-923a-4dbba7bdab09",
+      "8e320ff2-566e-4159-9c88-9882f8f3579e"
+    ],
+    "musicians": [
+      {
+        "id": "62b39f74-44a5-40ce-acb3-cf2b21c7fa81",
+        "ig_handle": "daeyounkimm",
+        "name_ko": "김대윤",
+        "name_en": "Daeyoun Kim",
+        "name_irl": "Daeyoun Kim 김대윤",
+        "instruments": [
+          "piano",
+          "composer"
+        ]
+      },
+      {
+        "id": "0ef5f590-1b89-49e3-b688-d70a4b7f513b",
+        "ig_handle": "daaami_dam",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "ᴅᴀᴍɪ ʟᴇᴇ 다미",
+        "instruments": [
+          "piano",
+          "vocals",
+          "composer"
+        ]
+      },
+      {
+        "id": "3958b9d7-7e97-4a73-923a-4dbba7bdab09",
+        "ig_handle": "min.hacho",
+        "name_ko": "조민하",
+        "name_en": null,
+        "name_irl": "조민하",
+        "instruments": []
+      },
+      {
+        "id": "8e320ff2-566e-4159-9c88-9882f8f3579e",
+        "ig_handle": "kevdrum_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Kevin Shim",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_1e4e6f80-789a-4f4a-b416-c54b896d51ad",
+    "venue_location_id": "main",
+    "datetime": "2026-11-27T11:30:00+00:00",
+    "date": "2026-11-27",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:30"
+      },
+      {
+        "label": "2부",
+        "time": "21:25"
+      }
+    ],
+    "price": "10,000원",
+    "llm_confidence": 1.0,
+    "title": "Kim Dae Youn Trio (Vocal Lee Da Mi)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Dae Youn Trio (Vocal Lee Da Mi)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김대윤 트리오 (보컬 이다미)",
       "description": null
     }
   },
@@ -7328,6 +7469,40 @@
     },
     "_search_ko": {
       "title": "시나 마이 플레이풀 마인드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261205_8da66cb8-ff5a-4446-aef0-62c051409ed5",
+    "event_key": "v:ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0|t:2026-12-05T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgHs_iHn7KQ/",
+    "venue_handle": "yoori.kim_mullaejazzin",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-12-05T10:00:00+00:00",
+    "date": "2026-12-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:00"
+      }
+    ],
+    "price": "예매 30,000원 / 현장 38,000원",
+    "llm_confidence": 1.0,
+    "title": "Chon Yongjun Trio",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Chon Yongjun Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "전용준 트리오",
       "description": null
     }
   },
