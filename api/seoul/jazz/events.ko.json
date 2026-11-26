@@ -1006,17 +1006,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "임지현 듀오",
+    "title": "임지현 듀오 (보컬 김지민)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Lim Ji-hyeon Duo",
+      "title": "Lim Ji-hyun Duo (Vocal Kim Ji-min)",
       "description": null
     },
     "_search_ko": {
-      "title": "임지현 듀오",
+      "title": "임지현 듀오 (보컬 김지민)",
       "description": null
     }
   },
@@ -1518,17 +1518,17 @@
     ],
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "송하연 퀄텟",
+    "title": "송하연 퀸텟",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Hayeon Song Quartet",
+      "title": "Hayeon Song Quintet",
       "description": null
     },
     "_search_ko": {
-      "title": "송하연 퀄텟",
+      "title": "송하연 퀸텟",
       "description": null
     }
   },
@@ -2895,8 +2895,21 @@
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-11-28T05:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DetMrPwoPO2/",
     "venue_handle": "pdpdclub",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8"
+    ],
+    "musicians": [
+      {
+        "id": "8dc62ba9-ab0e-404e-aa71-9ff8aef9e7f8",
+        "ig_handle": "namhyuckcho_drums",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "조남혁",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
     "venue_location_id": "main",
@@ -2908,7 +2921,7 @@
         "time": "14:00"
       }
     ],
-    "price": null,
+    "price": "15,000원",
     "llm_confidence": 1.0,
     "title": "전진웅 트리오",
     "description": null,
@@ -3120,21 +3133,25 @@
       {
         "label": "1st",
         "time": "18:00"
+      },
+      {
+        "label": null,
+        "time": "20:00"
       }
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "박재홍 BLUES & SOUL (보컬 박재홍)",
+    "title": "박재홍 블루스 & 소울 (보컬 박재홍)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Park Jae-hong BLUES & SOUL (Vocal Park Jae-hong)",
+      "title": "Park Jae-hong Blues & Soul (Vocal Park Jae-hong)",
       "description": null
     },
     "_search_ko": {
-      "title": "박재홍 BLUES & SOUL (보컬 박재홍)",
+      "title": "박재홍 블루스 & 소울 (보컬 박재홍)",
       "description": null
     }
   },
@@ -4001,6 +4018,44 @@
     }
   },
   {
+    "id": "evt_20261128_f8e86840-7b22-4b03-8e1e-99092c93cc9d",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-28T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-11-28T11:00:00+00:00",
+    "date": "2026-11-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      },
+      {
+        "label": "2nd",
+        "time": "20:30"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리오 밴드 (보컬 이수인)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "RIO Band (Vocal Lee Su-in)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리오 밴드 (보컬 이수인)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261128_5b1ce031-0481-4572-b673-9bb439de313e",
     "event_key": "v:ven_8a8b6264-33c2-4204-9fe9-acdc6e909f3a|t:2026-11-28T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De-4xhjPzgT/",
@@ -4642,40 +4697,6 @@
     },
     "_search_ko": {
       "title": "김순영 재즈 탭",
-      "description": null
-    }
-  },
-  {
-    "id": "evt_20261128_f8e86840-7b22-4b03-8e1e-99092c93cc9d",
-    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-28T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/De9Q0YpTL0W/",
-    "venue_handle": "jazzclub_bluehour",
-    "musician_ids": [],
-    "musicians": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
-    "venue_location_id": "main",
-    "datetime": "2026-11-28T11:30:00+00:00",
-    "date": "2026-11-28",
-    "sets": [
-      {
-        "label": "2nd",
-        "time": "20:30"
-      }
-    ],
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "RIO 밴드 (보컬 이수인)",
-    "description": null,
-    "ticket_link": null,
-    "age_limit": null,
-    "genres": null,
-    "_search_en": {
-      "title": "RIO Band (Vocal Lee Su-in)",
-      "description": null
-    },
-    "_search_ko": {
-      "title": "RIO 밴드 (보컬 이수인)",
       "description": null
     }
   },
@@ -5756,6 +5777,40 @@
     }
   },
   {
+    "id": "evt_20261129_12daf804-899e-4680-9870-97be2300c624",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-11-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-11-29T11:00:00+00:00",
+    "date": "2026-11-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "신관웅 퀸텟 (보컬 김희나)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Shin Kwan-woong Quintet (Vo. Kim Hee-na)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "신관웅 퀸텟 (보컬 김희나)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261129_09b7ecf0-e20e-4fcf-a11d-a5cbada7ff89",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-29T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -5896,17 +5951,17 @@
     ],
     "price": null,
     "llm_confidence": 1.0,
-    "title": "해일립 올스타즈 (보컬 해일립)",
+    "title": "해일럽 올스타즈 (보컬 해일럽)",
     "description": null,
     "ticket_link": null,
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Haeilrip All Stars (Vocal Haeilrip)",
+      "title": "Hailub All Stars (Vocal Hailub)",
       "description": null
     },
     "_search_ko": {
-      "title": "해일립 올스타즈 (보컬 해일립)",
+      "title": "해일럽 올스타즈 (보컬 해일럽)",
       "description": null
     }
   },
@@ -6128,6 +6183,40 @@
     }
   },
   {
+    "id": "evt_20261201_2586f5c8-8911-49e9-b2ab-340c69a43b46",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-01T11:00:00+00:00",
+    "date": "2026-12-01",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김현일 밴드 (보컬 이수경)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Hyun-il Band (Vo. Lee Soo-kyung)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김현일 밴드 (보컬 이수경)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261202_08ca7dac-ae36-49d5-a927-5840710507b3",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-02T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
@@ -6230,6 +6319,40 @@
     }
   },
   {
+    "id": "evt_20261202_26aae227-ed2c-4ecb-a99c-e6f09c33558c",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-02T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-02T11:00:00+00:00",
+    "date": "2026-12-02",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "스카 4 앙상블",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SKA 4 Ensemble",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "스카 4 앙상블",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261203_f90f363b-bc49-4448-aee9-51875e330254",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2026-12-03T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfKlSXTGa_6/",
@@ -6328,6 +6451,40 @@
     },
     "_search_ko": {
       "title": "말로 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261203_3cb38ee1-71f2-4c1d-9b85-cb4b43facd7a",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-03T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-03T11:00:00+00:00",
+    "date": "2026-12-03",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김병렬 & 프렌즈",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Byung-ryul & Friends",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김병렬 & 프렌즈",
       "description": null
     }
   },
@@ -6517,6 +6674,40 @@
     },
     "_search_ko": {
       "title": "라 이슬라 보니따",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261204_5d76a193-ab0d-4577-9c79-146c7b59d15e",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-04T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-04T11:00:00+00:00",
+    "date": "2026-12-04",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 펑크 밴드 (보컬 조남준 외 3명)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Funk Band (Vo. Jo Nam-joon and 3 others)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 펑크 밴드 (보컬 조남준 외 3명)",
       "description": null
     }
   },
@@ -6997,6 +7188,40 @@
     }
   },
   {
+    "id": "evt_20261205_7a08215e-c049-48a1-8bef-4b0073744b83",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-05T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-05T11:00:00+00:00",
+    "date": "2026-12-05",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리오 밴드 (보컬 이수인)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "RIO Band (Vo. Lee Soo-in)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리오 밴드 (보컬 이수인)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261205_cb1ada7d-193d-4396-b9e3-5fe0f7ed1c18",
     "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-12-05T11:30:00+00:00",
     "source_url": "https://www.instagram.com/reel/Df_Mw3qOnu9/",
@@ -7437,6 +7662,40 @@
     }
   },
   {
+    "id": "evt_20261207_0a2e4c20-f410-4590-987b-2c76283830b1",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-07T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-07T11:00:00+00:00",
+    "date": "2026-12-07",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "정란 영 & 뷰티풀 (보컬 정란)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Jung Ran Young & Beautiful (Vo. Jung Ran)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "정란 영 & 뷰티풀 (보컬 정란)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261208_452104a9-ed04-42ac-a819-a2422152e738",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-08T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
@@ -7505,6 +7764,40 @@
     }
   },
   {
+    "id": "evt_20261208_386f78da-4dcd-4d8c-b6bc-19b346a27417",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-08T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-08T11:00:00+00:00",
+    "date": "2026-12-08",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "비에른 솔리 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Bjorn Solli Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "비에른 솔리 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261209_ea2626e5-abcf-4589-ac9f-5808cf1a8d79",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-09T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgGmuEazlrY/",
@@ -7569,6 +7862,40 @@
     },
     "_search_ko": {
       "title": "오영준 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261209_62c6f15f-9aca-481c-b1e1-1a4d06654b23",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-09T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-09T11:00:00+00:00",
+    "date": "2026-12-09",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "구교진 뉴 타운",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Koo Kyo-jin New Town",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "구교진 뉴 타운",
       "description": null
     }
   },
@@ -7671,6 +7998,40 @@
     },
     "_search_ko": {
       "title": "콜린 김 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261210_ac993f27-f78d-42a7-87b5-0b3c2796b03c",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-10T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-10T11:00:00+00:00",
+    "date": "2026-12-10",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이정민 프로젝트 (보컬 바다)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Jung-min Project (Vo. BADA)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이정민 프로젝트 (보컬 바다)",
       "description": null
     }
   },
@@ -7836,6 +8197,40 @@
     },
     "_search_ko": {
       "title": "허성 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261211_3e55b0b5-73c0-4157-b1fb-11588a947c1d",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-11T11:00:00+00:00",
+    "date": "2026-12-11",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "웨이브 (보컬 이대원)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "WAVE (Vo. Lee Dae-won)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "웨이브 (보컬 이대원)",
       "description": null
     }
   },
@@ -8219,6 +8614,40 @@
     }
   },
   {
+    "id": "evt_20261212_a2acb4d3-a4ce-4187-bad2-0cc1bb5c1eab",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-12T11:00:00+00:00",
+    "date": "2026-12-12",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "집 4 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "ZIP 4 Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "집 4 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261212_ad9dfb7a-7041-4d22-b2ed-7c2cedb7aa8f",
     "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-12-12T11:30:00+00:00",
     "source_url": "https://www.instagram.com/reel/Df_Mw3qOnu9/",
@@ -8457,6 +8886,40 @@
     }
   },
   {
+    "id": "evt_20261213_420cd95c-25d3-4f82-afad-ee627abb4ee2",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-13T11:00:00+00:00",
+    "date": "2026-12-13",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김준 수퍼 재즈 밴드 (보컬 김준)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Joon Super Jazz Band (Vo. Kim Joon)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김준 수퍼 재즈 밴드 (보컬 김준)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261213_5c3c14c6-30b7-4cf1-8515-c8657411b31c",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-13T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgAWjuHD5zR/",
@@ -8593,6 +9056,40 @@
     }
   },
   {
+    "id": "evt_20261214_22302b4b-84b7-4a6e-ae39-f14a643b36d8",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-14T11:00:00+00:00",
+    "date": "2026-12-14",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "원영조 퀸텟 (보컬 유하라)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Won Young-jo Quintet (Vo. Yoo Ha-ra)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "원영조 퀸텟 (보컬 유하라)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261215_94ee0eb3-2681-41ba-bf5e-0a3e5221fe7e",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-15T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
@@ -8657,6 +9154,53 @@
     },
     "_search_ko": {
       "title": "신상희 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261215_f2c74b13-b200-4eb1-b4bc-899efffb7c02",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [
+      "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21"
+    ],
+    "musicians": [
+      {
+        "id": "c7b9504f-9cce-40ec-a3dc-8a7e1d3f7a21",
+        "ig_handle": "hey.hailluv",
+        "name_ko": "해일럽",
+        "name_en": null,
+        "name_irl": "해일럽",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-15T11:00:00+00:00",
+    "date": "2026-12-15",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "소상덕 퀸텟 (보컬 해일럽)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "So Sang-deok Quintet (Vo. Hailub)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "소상덕 퀸텟 (보컬 해일럽)",
       "description": null
     }
   },
@@ -8759,6 +9303,51 @@
     },
     "_search_ko": {
       "title": "전재근 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261216_965ed796-0a75-482e-8ee9-bbef95d6af49",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [
+      "6de83356-ac9a-4d35-a366-555f38ff2cab"
+    ],
+    "musicians": [
+      {
+        "id": "6de83356-ac9a-4d35-a366-555f38ff2cab",
+        "ig_handle": "nanahjin",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "난아진",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-16T11:00:00+00:00",
+    "date": "2026-12-16",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "난아진 밴드 (보컬 난아진)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nan A-jin Band (Vo. Nan A-jin)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "난아진 밴드 (보컬 난아진)",
       "description": null
     }
   },
@@ -8895,6 +9484,53 @@
     },
     "_search_ko": {
       "title": "김병렬 프렌즈",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261217_57ea682f-217d-4b0c-98e0-3e57108e9a7f",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [
+      "addc9725-ff1e-42c7-9dcb-0c26ebc11f39"
+    ],
+    "musicians": [
+      {
+        "id": "addc9725-ff1e-42c7-9dcb-0c26ebc11f39",
+        "ig_handle": "hong_vocalist",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍주혜",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-17T11:00:00+00:00",
+    "date": "2026-12-17",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "염신혜 라틴 유닛 (보컬 홍주혜)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yeom Shin-hye Latin Unit (Vo. Hong Joo-hye)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "염신혜 라틴 유닛 (보컬 홍주혜)",
       "description": null
     }
   },
@@ -9094,6 +9730,40 @@
     },
     "_search_ko": {
       "title": "서울 재즈 빅밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261218_6f5fc557-4deb-46b2-b3a1-3b5d66cc5fa6",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-18T11:00:00+00:00",
+    "date": "2026-12-18",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 펑크 밴드 (보컬 조남준 외 3명)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Funk Band (Vo. Jo Nam-joon and 3 others)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 펑크 밴드 (보컬 조남준 외 3명)",
       "description": null
     }
   },
@@ -9591,6 +10261,40 @@
     }
   },
   {
+    "id": "evt_20261219_8fa49d43-bdae-49c5-900f-b4c99bbbc7c9",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-19T11:00:00+00:00",
+    "date": "2026-12-19",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "소울풀 J 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Soulful J Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "소울풀 J 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261219_e7bb02cb-3600-466d-a459-b3d67b31408f",
     "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-12-19T11:30:00+00:00",
     "source_url": "https://www.instagram.com/reel/Df_Mw3qOnu9/",
@@ -9863,6 +10567,40 @@
     }
   },
   {
+    "id": "evt_20261220_4f468da6-d6c1-4df7-a6c7-abbcc322de25",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-20T11:00:00+00:00",
+    "date": "2026-12-20",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "최선배 퀄텟 (보컬 이영주)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Choi Sun-bae Quartet (Vo. Lee Young-joo)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "최선배 퀄텟 (보컬 이영주)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261220_54e739bd-345f-4c59-b0a3-1e0f36618b83",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-20T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgAWjuHD5zR/",
@@ -10067,6 +10805,40 @@
     }
   },
   {
+    "id": "evt_20261221_c3e5aefd-4c37-478b-b877-7eafd18a94a3",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-21T11:00:00+00:00",
+    "date": "2026-12-21",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "송승호 밴드 (보컬 디디!)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Song Seung-ho Band (Vo. DD!)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "송승호 밴드 (보컬 디디!)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261222_2770e0cc-980a-42b3-9b99-a787b73f17b1",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-22T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -10165,6 +10937,40 @@
     },
     "_search_ko": {
       "title": "이주미 재즈 팔레트",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261222_12a99933-7cf9-4928-9c0a-9f0852bd26ff",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-22T11:00:00+00:00",
+    "date": "2026-12-22",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김수환 스무스 재즈 밴드 (보컬 디디!)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Soo-hwan Smooth Jazz Band (Vo. DD!)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김수환 스무스 재즈 밴드 (보컬 디디!)",
       "description": null
     }
   },
@@ -10373,6 +11179,40 @@
     }
   },
   {
+    "id": "evt_20261223_7f13c1cc-fd4e-4aae-afa3-dc18a0eb6966",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-23T11:00:00+00:00",
+    "date": "2026-12-23",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "남부한정 더 서던 리미티드 (보컬 허재혁, 권연우)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "The Southern Limited (Vo. Heo Jae-hyuk, Kwon Yeon-woo)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "남부한정 더 서던 리미티드 (보컬 허재혁, 권연우)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261223_85bdf6c5-3b32-47d9-a5be-7eb1a2a022e2",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-23T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgAWjuHD5zR/",
@@ -10403,6 +11243,40 @@
     },
     "_search_ko": {
       "title": "최명지 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261223_bb02ce9d-e8d8-4fe0-9c2c-8df2bb234763",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-23T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-23T15:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "2부",
+        "time": null
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "호란 밴드 (보컬 호란)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Horan Band (Vo. Horan)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "호란 밴드 (보컬 호란)",
       "description": null
     }
   },
@@ -11277,6 +12151,40 @@
     }
   },
   {
+    "id": "evt_20261224_05300944-612d-426b-a98a-7f78574391b8",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-24T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T11:00:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이정민 프로젝트 (보컬 바다)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Jung-min Project (Vo. BADA)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이정민 프로젝트 (보컬 바다)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_88e68d6f-863e-4170-99fc-c8514ba22e2e",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-24T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Dfw3wuaTiDL/",
@@ -11528,6 +12436,40 @@
     },
     "_search_ko": {
       "title": "그리티 키티",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261224_649ff712-b746-4623-bec6-bbc2506a47d4",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-24T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T15:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "3부",
+        "time": null
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 밴드 (보컬 조남준 외 3명)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Band (Vo. Jo Nam-joon and 3 others)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 밴드 (보컬 조남준 외 3명)",
       "description": null
     }
   },
@@ -12613,6 +13555,40 @@
     }
   },
   {
+    "id": "evt_20261225_6a425a89-c036-426a-a79d-2e5ea07c2a5a",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T11:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "모이다밴드 (보컬 바다)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Moida Band (Vo. BADA)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "모이다밴드 (보컬 바다)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_505eb6af-d74a-42fb-9270-3dc15874729c",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-25T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/Dfw3wuaTiDL/",
@@ -13482,6 +14458,40 @@
     }
   },
   {
+    "id": "evt_20261226_fea0e0a5-4fea-4939-a83d-115dfe8015b8",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-26T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-26T11:00:00+00:00",
+    "date": "2026-12-26",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리오 밴드 (보컬 이수인)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "RIO BAND (Vo. Lee Soo-in)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "리오 밴드 (보컬 이수인)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261226_d070edc1-02bf-432d-b5ef-41e7598d73dc",
     "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-12-26T11:30:00+00:00",
     "source_url": "https://www.instagram.com/reel/Df_Mw3qOnu9/",
@@ -13846,6 +14856,40 @@
     }
   },
   {
+    "id": "evt_20261227_f0bdbc3c-eabd-4a74-8877-1b46cd886439",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-27T11:00:00+00:00",
+    "date": "2026-12-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "신관웅 퀸텟 (보컬 김희나)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Shin Kwan-woong Quintet (Vo. Kim Hee-na)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "신관웅 퀸텟 (보컬 김희나)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261227_77a430aa-ab4a-4049-8de3-df0430178031",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgAWjuHD5zR/",
@@ -14016,6 +15060,40 @@
     }
   },
   {
+    "id": "evt_20261228_83ddf099-72ed-4719-9368-241a1e3cca9c",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-28T11:00:00+00:00",
+    "date": "2026-12-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이경일 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Kyung-il Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이경일 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261229_381dd236-3255-4f43-bb04-5e04ed0d1a85",
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-29T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
@@ -14148,6 +15226,40 @@
     },
     "_search_ko": {
       "title": "무드 스페이스 - 원먼스 페스티벌",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261229_c287cd81-be50-4d9e-bcf4-1ae1f8127191",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-29T11:00:00+00:00",
+    "date": "2026-12-29",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "니나파크 밴드 (보컬 니나파크)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nina Park Band (Vo. Nina Park)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "니나파크 밴드 (보컬 니나파크)",
       "description": null
     }
   },
@@ -14385,6 +15497,40 @@
     }
   },
   {
+    "id": "evt_20261230_94c5ac6b-b4e8-48df-8db4-12642db2af2d",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-30T11:00:00+00:00",
+    "date": "2026-12-30",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "유사랑 퀸텟 (보컬 유사랑)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yoo Sa-rang Quintet (Vo. Yoo Sa-rang)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "유사랑 퀸텟 (보컬 유사랑)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261230_04b540e1-aa17-4234-81c5-d5ceb55caac4",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-30T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgAWjuHD5zR/",
@@ -14415,6 +15561,40 @@
     },
     "_search_ko": {
       "title": "김순영 재즈 탭",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261230_90d9662f-d40c-42ec-acac-53ccd746a6f1",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-30T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-30T15:00:00+00:00",
+    "date": "2026-12-31",
+    "sets": [
+      {
+        "label": "2부",
+        "time": null
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "찰리정 밴드 (보컬 호란)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Charlie Jung Band (Vo. Horan)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "찰리정 밴드 (보컬 호란)",
       "description": null
     }
   },
@@ -14659,6 +15839,40 @@
     }
   },
   {
+    "id": "evt_20261231_ed17fd8b-cfa5-4bec-8ab1-edaa603c1ffa",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-31T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-31T11:00:00+00:00",
+    "date": "2026-12-31",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "팀 손 (보컬 바다)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "TEAM SON (Vo. BADA)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "팀 손 (보컬 바다)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261231_75708b0a-9592-4435-9f27-6f4a099959d1",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-12-31T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgAWjuHD5zR/",
@@ -14761,6 +15975,40 @@
     }
   },
   {
+    "id": "evt_20261231_009dd233-9b65-44df-892c-1e122821e514",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2026-12-31T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2026-12-31T15:00:00+00:00",
+    "date": "2027-01-01",
+    "sets": [
+      {
+        "label": "2부",
+        "time": null
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "한상원 밴드 (보컬 조남준 외 3명)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Han Sang-won Band (Vo. Jo Nam-joon and 3 others)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "한상원 밴드 (보컬 조남준 외 3명)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20270101_6126cc9d-33ae-4722-8b04-ea863fdf298a",
     "event_key": "v:ven_36cd80b6-ba1b-48d5-a42f-82bfaf89d154|t:2027-01-01T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DgIhAsdk_eo/",
@@ -14791,6 +16039,40 @@
     },
     "_search_ko": {
       "title": "샤울리 에이나브 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20270101_7cbfbf40-360c-4472-b5a6-963b23d2f0b5",
+    "event_key": "v:ven_261cfce1-6c1b-42aa-82a5-74959e6023fb|t:2027-01-01T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgNWWNckkxM/",
+    "venue_handle": "jazzclub_bluehour",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_261cfce1-6c1b-42aa-82a5-74959e6023fb",
+    "venue_location_id": "main",
+    "datetime": "2027-01-01T11:00:00+00:00",
+    "date": "2027-01-01",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "이주미 재즈 팔레트 (보컬 이주미)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Lee Joo-mi Jazz Palette (Vo. Lee Joo-mi)",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "이주미 재즈 팔레트 (보컬 이주미)",
       "description": null
     }
   },
