@@ -3071,6 +3071,40 @@
     }
   },
   {
+    "id": "evt_20261127_a708139f-7770-49ed-9dab-43c3c4858087",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-11-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DgK1z0thCZ0/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-11-27T11:00:00+00:00",
+    "date": "2026-11-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Taeheon Noh Quartet",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Taeheon Noh Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "노태헌 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261127_dbfeb69a-9729-4663-bcd4-3ab013083c5f",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -3109,8 +3143,28 @@
     "event_key": "v:ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1|t:2026-11-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/reel/Df_Mw3qOnu9/",
     "venue_handle": "muga.misa",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "67dcc396-8436-4e34-806f-33e86144482c",
+      "7d5a74b9-e5d7-4438-90d1-c295071b3e4d"
+    ],
+    "musicians": [
+      {
+        "id": "67dcc396-8436-4e34-806f-33e86144482c",
+        "ig_handle": "jassiebeom",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "권범수",
+        "instruments": []
+      },
+      {
+        "id": "7d5a74b9-e5d7-4438-90d1-c295071b3e4d",
+        "ig_handle": "yoo_bohyun",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "유보현",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_1a1f9db0-7249-44d1-8ed8-49a53d0828e1",
     "venue_location_id": "main",
