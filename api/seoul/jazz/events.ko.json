@@ -6640,6 +6640,57 @@
     }
   },
   {
+    "id": "evt_20261204_30aea4e1-92c6-4bc2-bade-b870b798d0c3",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-04T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "10d1fb8c-1aaf-4bdf-9004-7725f2f8197f"
+    ],
+    "musicians": [
+      {
+        "id": "10d1fb8c-1aaf-4bdf-9004-7725f2f8197f",
+        "ig_handle": "jaeminbass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "심재민 Jaemin",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-04T10:10:00+00:00",
+    "date": "2026-12-04",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "SSAC + 박준걸",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "SSAC + Joon Geol Park",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "SSAC + 박준걸",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261204_0f5a3e3e-321f-4aa6-934f-be1c0feadd47",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-12-04T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Df8pOo5CgRv/",
@@ -7016,6 +7067,44 @@
     },
     "_search_ko": {
       "title": "전용준 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261205_99ddc9d1-44fa-437b-ace7-bae538d774f2",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-05T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-05T10:10:00+00:00",
+    "date": "2026-12-05",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "파시브",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Pathi've",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "파시브",
       "description": null
     }
   },
@@ -7552,6 +7641,55 @@
     },
     "_search_ko": {
       "title": "정성재 퀄텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261206_4c20edfa-d03f-4ed8-8515-3920a9d49ca8",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-06T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "4f852d66-02a0-4283-bff9-a466c53754d1"
+    ],
+    "musicians": [
+      {
+        "id": "4f852d66-02a0-4283-bff9-a466c53754d1",
+        "ig_handle": "damonjazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Damon Brown",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-06T10:10:00+00:00",
+    "date": "2026-12-06",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "데이먼 브라운 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Damon Brown Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "데이먼 브라운 퀄텟",
       "description": null
     }
   },
@@ -8163,6 +8301,57 @@
     }
   },
   {
+    "id": "evt_20261211_8ecc2766-a14a-49f1-bd41-d5a8a02483d9",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-11T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "512850a3-d246-4bf8-9ea1-5c491b03d211"
+    ],
+    "musicians": [
+      {
+        "id": "512850a3-d246-4bf8-9ea1-5c491b03d211",
+        "ig_handle": "kimleohyun",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Leo Kim Guitar",
+        "instruments": [
+          "guitar"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-11T10:10:00+00:00",
+    "date": "2026-12-11",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "레오 김 그룹",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Leo Kim Group",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "레오 김 그룹",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261211_52e6e1ec-0292-4b53-9ee0-88be621664e2",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-12-11T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Df8pOo5CgRv/",
@@ -8516,6 +8705,80 @@
     },
     "_search_ko": {
       "title": "류수완 퀸텟",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261212_93b4b10e-4931-434e-9c8b-6014f6ba7543",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-12T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "3f452ba1-1121-4f77-9cd5-c34420c4b7c8",
+      "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+      "8e320ff2-566e-4159-9c88-9882f8f3579e"
+    ],
+    "musicians": [
+      {
+        "id": "3f452ba1-1121-4f77-9cd5-c34420c4b7c8",
+        "ig_handle": "mattbaepiano",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Matthew Bae",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "c56ae7ca-1a2b-4cd2-b0ef-ede3c9a82a65",
+        "ig_handle": "praise_like_sunshine",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "박해찬",
+        "instruments": [
+          "bass",
+          "piano"
+        ]
+      },
+      {
+        "id": "8e320ff2-566e-4159-9c88-9882f8f3579e",
+        "ig_handle": "kevdrum_",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Kevin Shim",
+        "instruments": [
+          "drums"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-12T10:10:00+00:00",
+    "date": "2026-12-12",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "매튜 배 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Matthew Bae Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "매튜 배 퀄텟",
       "description": null
     }
   },
@@ -8878,6 +9141,73 @@
     },
     "_search_ko": {
       "title": "윤수진 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261213_c1c5410a-59d9-4d8f-acd3-191911e82e47",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-13T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "fcdc9255-c642-4c40-8b99-e403098ffb85",
+      "dd41578a-dce5-486d-8282-a907fb908714",
+      "6b8e4977-56da-4934-afe3-0f1b39b9f192"
+    ],
+    "musicians": [
+      {
+        "id": "fcdc9255-c642-4c40-8b99-e403098ffb85",
+        "ig_handle": "momints_notice",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "민홍기",
+        "instruments": []
+      },
+      {
+        "id": "dd41578a-dce5-486d-8282-a907fb908714",
+        "ig_handle": "kyu_patitucci",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "서규성",
+        "instruments": []
+      },
+      {
+        "id": "6b8e4977-56da-4934-afe3-0f1b39b9f192",
+        "ig_handle": "altruisticdrum",
+        "name_ko": "양현수",
+        "name_en": null,
+        "name_irl": "양현수",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-13T10:10:00+00:00",
+    "date": "2026-12-13",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "양현수 & 더 펠로우십 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hyunsu Yang & The Fellowship Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "양현수 & 더 펠로우십 퀄텟",
       "description": null
     }
   },
@@ -9696,6 +10026,57 @@
     }
   },
   {
+    "id": "evt_20261218_eeb7d3cb-235e-4dc3-8f7b-3d751d7b2159",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-18T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "274ab26d-0c6a-4433-9f76-82ba6da8d812"
+    ],
+    "musicians": [
+      {
+        "id": "274ab26d-0c6a-4433-9f76-82ba6da8d812",
+        "ig_handle": "colinkim.music",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Colin Kim | 콜린킴",
+        "instruments": [
+          "guitar"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-18T10:10:00+00:00",
+    "date": "2026-12-18",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "콜린 김 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Colin Kim Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "콜린 김 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261218_05b6f3f0-7890-4e11-80c5-9d9a7673c18d",
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-12-18T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/Df8pOo5CgRv/",
@@ -10135,6 +10516,44 @@
     }
   },
   {
+    "id": "evt_20261219_07834908-f471-4765-81fe-c3ffcd761d7d",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-19T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-19T10:10:00+00:00",
+    "date": "2026-12-19",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "노스탤지어",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Nostalgia",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "노스탤지어",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261219_54668cdd-accd-44cc-8a12-e4f23ba96d27",
     "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-12-19T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgM5n8xyPWn/",
@@ -10559,6 +10978,68 @@
     },
     "_search_ko": {
       "title": "신지훈 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261220_bfac0996-e1f3-4dfd-a706-d68f6c8770fd",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-20T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "8ebb2ec0-2f07-4c3a-b98a-eb02d3419053",
+      "047857fd-a730-42b7-9c52-df95dcef187e"
+    ],
+    "musicians": [
+      {
+        "id": "8ebb2ec0-2f07-4c3a-b98a-eb02d3419053",
+        "ig_handle": "brownsoundstudio",
+        "name_ko": "브라운합주실",
+        "name_en": null,
+        "name_irl": "브라운합주실",
+        "instruments": [
+          "piano"
+        ]
+      },
+      {
+        "id": "047857fd-a730-42b7-9c52-df95dcef187e",
+        "ig_handle": "bowingpark",
+        "name_ko": "박정현",
+        "name_en": null,
+        "name_irl": "박정현",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-20T10:10:00+00:00",
+    "date": "2026-12-20",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "김재형 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Jae-hyung Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김재형 트리오",
       "description": null
     }
   },
@@ -12011,6 +12492,44 @@
     }
   },
   {
+    "id": "evt_20261224_dc6f942c-5f5c-49a3-aa83-271572279063",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-24T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T10:10:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "다미로 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Damiro Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "다미로 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_f6a15521-2175-4b7a-9327-1581acd8f39f",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-24T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -13404,6 +13923,44 @@
     }
   },
   {
+    "id": "evt_20261225_3db95b72-dac1-4e88-a8e4-d51522d0a994",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-25T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T10:10:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "권영민 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Youngmin Kwon Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "권영민 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261225_326cd209-9918-4758-8dd0-041fe555e853",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-25T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -14278,6 +14835,55 @@
     }
   },
   {
+    "id": "evt_20261226_7036ba0b-c93f-460a-845b-d73b11c18275",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-26T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "d46ef892-46a6-4fe0-9175-c7ec8a8b0865"
+    ],
+    "musicians": [
+      {
+        "id": "d46ef892-46a6-4fe0-9175-c7ec8a8b0865",
+        "ig_handle": "baeminhyuk6",
+        "name_ko": "배민혁",
+        "name_en": "Minhyuk Bae",
+        "name_irl": "배민혁",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-26T10:10:00+00:00",
+    "date": "2026-12-26",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "배민혁 오르간 트리오",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Minhyuk Bae Organ Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "배민혁 오르간 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261226_aa5b728d-7926-4fe3-b08f-bd6c1576c2d4",
     "event_key": "v:ven_a6953d77-9742-481e-8d8b-d2fdd74d8c95|t:2026-12-26T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DgM5n8xyPWn/",
@@ -14814,6 +15420,55 @@
     },
     "_search_ko": {
       "title": "김순영 재즈 탭 밴드",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261227_08bbf1a0-7e5a-487f-873d-64fdd8e2808e",
+    "event_key": "v:ven_16504f43-374a-48b1-afc8-6da84ddd6c3d|t:2026-12-27T10:10:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOv3GLn4uV/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [
+      "4f852d66-02a0-4283-bff9-a466c53754d1"
+    ],
+    "musicians": [
+      {
+        "id": "4f852d66-02a0-4283-bff9-a466c53754d1",
+        "ig_handle": "damonjazz",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Damon Brown",
+        "instruments": []
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16504f43-374a-48b1-afc8-6da84ddd6c3d",
+    "venue_location_id": "main",
+    "datetime": "2026-12-27T10:10:00+00:00",
+    "date": "2026-12-27",
+    "sets": [
+      {
+        "label": "1부",
+        "time": "19:10"
+      },
+      {
+        "label": "2부",
+        "time": "20:30"
+      }
+    ],
+    "price": "13,000원",
+    "llm_confidence": 1.0,
+    "title": "데이먼 브라운 장 세바스티앙 밴드",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Damon Brown Jean Sebastian Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "데이먼 브라운 장 세바스티앙 밴드",
       "description": null
     }
   },
