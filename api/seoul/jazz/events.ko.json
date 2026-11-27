@@ -1210,6 +1210,40 @@
     }
   },
   {
+    "id": "evt_20261127_b9e0203b-ef8e-44bd-b6e2-722a3f309225",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-27T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOY-gak__P/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-27T09:00:00+00:00",
+    "date": "2026-11-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "18:00"
+      }
+    ],
+    "price": "무료입장 (후불제)",
+    "llm_confidence": 1.0,
+    "title": "율그루브",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Yool Groove",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "율그루브",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261127_cbea1027-d5db-44e6-bf0a-728f8578023f",
     "event_key": "v:ven_09991403-4f4f-42a7-a165-602d7e0cefdb|t:2026-11-27T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/De3gwOeTH4x/",
@@ -2314,6 +2348,53 @@
     }
   },
   {
+    "id": "evt_20261127_28bc1668-e818-4ee4-8c50-40668a7f7a6f",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOY-gak__P/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "be88dbf2-2aae-437a-a493-febac53fce09"
+    ],
+    "musicians": [
+      {
+        "id": "be88dbf2-2aae-437a-a493-febac53fce09",
+        "ig_handle": "nokrbass",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "노광래",
+        "instruments": [
+          "bass"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-27T11:00:00+00:00",
+    "date": "2026-11-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": "무료입장 (후불제)",
+    "llm_confidence": 1.0,
+    "title": "퀄텟 9 (토미 프라토모)",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Quartet 9 with Tommy Pratomo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "퀄텟 9 (토미 프라토모)",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261127_dbfeb69a-9729-4663-bcd4-3ab013083c5f",
     "event_key": "v:ven_dd4baf49-45a9-45ad-b34a-a57a99579303|t:2026-11-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DerdmQGj9VS/",
@@ -2785,6 +2866,67 @@
     },
     "_search_ko": {
       "title": "최명지 듀오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261127_23781d93-d9e3-49e2-9dd9-c70d0b411286",
+    "event_key": "v:ven_7867b25f-5188-4cab-b243-417ae9048247|t:2026-11-27T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgOY-gak__P/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [
+      "20a73a55-c67a-4465-b182-b67807ca6d42",
+      "560ad7e4-a6e3-4ace-a387-7b033d0f0ed1"
+    ],
+    "musicians": [
+      {
+        "id": "20a73a55-c67a-4465-b182-b67807ca6d42",
+        "ig_handle": "peterfish76",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "Sungsu Kim",
+        "instruments": [
+          "guitar",
+          "vocals",
+          "composer"
+        ]
+      },
+      {
+        "id": "560ad7e4-a6e3-4ace-a387-7b033d0f0ed1",
+        "ig_handle": "solidbass_jong",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "윤종률",
+        "instruments": [
+          "bass",
+          "composer"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7867b25f-5188-4cab-b243-417ae9048247",
+    "venue_location_id": "main",
+    "datetime": "2026-11-27T13:00:00+00:00",
+    "date": "2026-11-27",
+    "sets": [
+      {
+        "label": null,
+        "time": "22:00"
+      }
+    ],
+    "price": "무료입장 (후불제)",
+    "llm_confidence": 1.0,
+    "title": "김성수 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Kim Sungsu Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김성수 퀄텟",
       "description": null
     }
   },
@@ -12530,6 +12672,40 @@
     }
   },
   {
+    "id": "evt_20261224_edc7dc1f-a5e9-4bb6-a6c6-3de607cbb18f",
+    "event_key": "v:ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0|t:2026-12-24T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgKaoR4H_ry/",
+    "venue_handle": "yoori.kim_mullaejazzin",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-12-24T10:30:00+00:00",
+    "date": "2026-12-24",
+    "sets": [
+      {
+        "label": null,
+        "time": "19:30"
+      }
+    ],
+    "price": "예매 40,000원 / 현장 50,000원",
+    "llm_confidence": 1.0,
+    "title": "신소이 크리스마스 콘서트",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Shin So-yi Christmas Concert",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "신소이 크리스마스 콘서트",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20261224_f6a15521-2175-4b7a-9327-1581acd8f39f",
     "event_key": "v:ven_f4bcb957-4e6c-4754-aceb-b4f574ccb521|t:2026-12-24T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfZ0OIFkjkq/",
@@ -13567,6 +13743,40 @@
     },
     "_search_ko": {
       "title": "단예 트리오",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261225_8b39ff67-eeb2-4aa4-a0f5-f6e093717189",
+    "event_key": "v:ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0|t:2026-12-25T08:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DgKaoR4H_ry/",
+    "venue_handle": "yoori.kim_mullaejazzin",
+    "musician_ids": [],
+    "musicians": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2eaeb123-58e7-4f8a-8d9f-a5c99bbe5ce0",
+    "venue_location_id": "main",
+    "datetime": "2026-12-25T08:00:00+00:00",
+    "date": "2026-12-25",
+    "sets": [
+      {
+        "label": null,
+        "time": "17:00"
+      }
+    ],
+    "price": "예매 40,000원 / 현장 50,000원",
+    "llm_confidence": 1.0,
+    "title": "신소이 크리스마스 콘서트",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Shin So-yi Christmas Concert",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "신소이 크리스마스 콘서트",
       "description": null
     }
   },
