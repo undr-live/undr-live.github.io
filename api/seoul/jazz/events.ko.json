@@ -9892,8 +9892,39 @@
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-17T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
     "venue_handle": "jazzclub_janus",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "59b68cef-b3ac-4bd3-b96a-da635be3d648",
+      "40874c2d-03a5-4537-a033-f81576c02147",
+      "6ede7ee9-9102-4808-8cb4-7415fa5509dd"
+    ],
+    "musicians": [
+      {
+        "id": "59b68cef-b3ac-4bd3-b96a-da635be3d648",
+        "ig_handle": "bass_youngjoon",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "정영준",
+        "instruments": []
+      },
+      {
+        "id": "40874c2d-03a5-4537-a033-f81576c02147",
+        "ig_handle": "doheon6913",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "이도헌",
+        "instruments": []
+      },
+      {
+        "id": "6ede7ee9-9102-4808-8cb4-7415fa5509dd",
+        "ig_handle": "bighandjoe",
+        "name_ko": "조재범",
+        "name_en": null,
+        "name_irl": "조재범",
+        "instruments": [
+          "percussion"
+        ]
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
     "venue_location_id": "main",
@@ -9905,7 +9936,7 @@
         "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "30,000원",
     "llm_confidence": 1.0,
     "title": "카리나 네뷸라",
     "description": null,
@@ -9913,7 +9944,7 @@
     "age_limit": null,
     "genres": null,
     "_search_en": {
-      "title": "Karina Nebula",
+      "title": "Carina Nebula",
       "description": null
     },
     "_search_ko": {
@@ -10754,8 +10785,19 @@
     "event_key": "v:ven_3a15e2e0-a635-46d1-ba03-722f8c184a39|t:2026-12-19T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DfWqi56z4wp/",
     "venue_handle": "jazzclub_janus",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "710670bd-04aa-4fa7-b0ff-eb0b8b029101"
+    ],
+    "musicians": [
+      {
+        "id": "710670bd-04aa-4fa7-b0ff-eb0b8b029101",
+        "ig_handle": "tinkney_official",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "김지원",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_3a15e2e0-a635-46d1-ba03-722f8c184a39",
     "venue_location_id": "main",
@@ -10767,7 +10809,7 @@
         "time": "20:00"
       }
     ],
-    "price": null,
+    "price": "40,000원",
     "llm_confidence": 1.0,
     "title": "이정선 밴드",
     "description": null,
@@ -12217,11 +12259,11 @@
     "date": "2026-12-24",
     "sets": [
       {
-        "label": "1회",
+        "label": "1회차",
         "time": "17:00"
       },
       {
-        "label": "2회",
+        "label": "2회차",
         "time": "20:00"
       }
     ],
