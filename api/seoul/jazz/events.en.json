@@ -436,8 +436,19 @@
     "event_key": "v:ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028|t:2026-11-27T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DetMrPwoPO2/",
     "venue_handle": "pdpdclub",
-    "musician_ids": [],
-    "musicians": [],
+    "musician_ids": [
+      "dd41578a-dce5-486d-8282-a907fb908714"
+    ],
+    "musicians": [
+      {
+        "id": "dd41578a-dce5-486d-8282-a907fb908714",
+        "ig_handle": "kyu_patitucci",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "서규성",
+        "instruments": []
+      }
+    ],
     "musician_ig_handles": [],
     "venue_id": "ven_76a4beb3-ee71-4d59-bb60-f88ace2ad028",
     "venue_location_id": "main",
@@ -445,11 +456,15 @@
     "date": "2026-11-27",
     "sets": [
       {
-        "label": null,
+        "label": "1부",
         "time": "20:00"
+      },
+      {
+        "label": "2부",
+        "time": "21:00"
       }
     ],
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "La Petite France Quartet",
     "description": null,
@@ -3643,6 +3658,53 @@
     },
     "_search_ko": {
       "title": "팀 코튼",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20261128_698427ed-3690-4154-baa4-cf257913e4cf",
+    "event_key": "v:ven_4d03e35d-51cd-4d54-b557-de37066bcffc|t:2026-11-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/reel/DgO_CU1BFNO/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [
+      "addc9725-ff1e-42c7-9dcb-0c26ebc11f39"
+    ],
+    "musicians": [
+      {
+        "id": "addc9725-ff1e-42c7-9dcb-0c26ebc11f39",
+        "ig_handle": "hong_vocalist",
+        "name_ko": null,
+        "name_en": null,
+        "name_irl": "홍주혜",
+        "instruments": [
+          "vocals"
+        ]
+      }
+    ],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4d03e35d-51cd-4d54-b557-de37066bcffc",
+    "venue_location_id": "main",
+    "datetime": "2026-11-28T11:00:00+00:00",
+    "date": "2026-11-28",
+    "sets": [
+      {
+        "label": null,
+        "time": "20:00"
+      }
+    ],
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hong Ju-hye Band",
+    "description": null,
+    "ticket_link": null,
+    "age_limit": null,
+    "genres": null,
+    "_search_en": {
+      "title": "Hong Ju-hye Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "홍주혜 밴드",
       "description": null
     }
   },
